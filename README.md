@@ -35,3 +35,19 @@ quote against a saved Odds API response. The ten-game mechanical gate passes, bu
 football-history publication times remain a documented proxy, not archived proof of
 the actual 2024 source versions. See [the Phase 1 report](reports/PHASE1.md) before
 using this as a historical backtest.
+
+Phase 2 constructs strictly lagged 2017–2025 player features without selecting windows or
+fitting models. It reuses the frozen local Phase 1 nflverse source files, so run the
+Phase 1 audit first when setting up a new checkout:
+
+```powershell
+python -m uv run nfl-td phase2-features
+python -m uv run nfl-td phase2-verify
+```
+
+The generated per-season and combined Parquet tables are under `data/derived/`;
+coverage, representative source histories, and the exact feature contract are in
+[the Phase 2 report](reports/PHASE2.md) and
+[completion audit](reports/PHASE2_COMPLETION_AUDIT.md).
+The same 24-hour *assumed* availability boundary applies to prior-game football data.
+Routes remain null where a point-in-time receiver route source is unavailable.

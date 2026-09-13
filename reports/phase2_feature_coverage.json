@@ -1,0 +1,718 @@
+{
+  "rows": 8108,
+  "games": 256,
+  "positions": {
+    "RB": 2025,
+    "WR": 3354,
+    "TE": 1734,
+    "QB": 995
+  },
+  "source_availability": "assumed_kickoff_plus_24h_not_observed_publication_time",
+  "snap_id_mapping": {
+    "offensive_pfr_rows": 25398,
+    "gsis_matched_rows": 25359,
+    "ambiguous_pfr_ids": 0
+  },
+  "features": {
+    "last3_player_games": {
+      "present": 8108,
+      "missing": 0
+    },
+    "last3_team_games": {
+      "present": 8108,
+      "missing": 0
+    },
+    "last3_opponent_games": {
+      "present": 8108,
+      "missing": 0
+    },
+    "last3_carries_per_game": {
+      "present": 8108,
+      "missing": 0
+    },
+    "last3_targets_per_game": {
+      "present": 8108,
+      "missing": 0
+    },
+    "last3_receptions_per_game": {
+      "present": 8108,
+      "missing": 0
+    },
+    "last3_touches_per_game": {
+      "present": 8108,
+      "missing": 0
+    },
+    "last3_snaps_per_game": {
+      "present": 8074,
+      "missing": 34
+    },
+    "last3_red_zone_carries_per_game": {
+      "present": 8108,
+      "missing": 0
+    },
+    "last3_inside_10_carries_per_game": {
+      "present": 8108,
+      "missing": 0
+    },
+    "last3_inside_5_carries_per_game": {
+      "present": 8108,
+      "missing": 0
+    },
+    "last3_goal_line_opportunities_per_game": {
+      "present": 8108,
+      "missing": 0
+    },
+    "last3_red_zone_targets_per_game": {
+      "present": 8108,
+      "missing": 0
+    },
+    "last3_end_zone_targets_per_game": {
+      "present": 8108,
+      "missing": 0
+    },
+    "last3_carry_share": {
+      "present": 8108,
+      "missing": 0
+    },
+    "last3_target_share": {
+      "present": 8108,
+      "missing": 0
+    },
+    "last3_touch_share": {
+      "present": 8108,
+      "missing": 0
+    },
+    "last3_snap_share": {
+      "present": 8074,
+      "missing": 34
+    },
+    "last3_goal_line_opportunity_share": {
+      "present": 7785,
+      "missing": 323
+    },
+    "last3_red_zone_target_share": {
+      "present": 8065,
+      "missing": 43
+    },
+    "last3_end_zone_target_share": {
+      "present": 7886,
+      "missing": 222
+    },
+    "last3_team_offensive_plays_per_game": {
+      "present": 8108,
+      "missing": 0
+    },
+    "last3_team_carries_per_game": {
+      "present": 8108,
+      "missing": 0
+    },
+    "last3_team_targets_per_game": {
+      "present": 8108,
+      "missing": 0
+    },
+    "last3_team_red_zone_carries_per_game": {
+      "present": 8108,
+      "missing": 0
+    },
+    "last3_team_red_zone_targets_per_game": {
+      "present": 8108,
+      "missing": 0
+    },
+    "last3_team_offensive_touchdowns_per_game": {
+      "present": 8108,
+      "missing": 0
+    },
+    "last3_opponent_allowed_offensive_plays_per_game": {
+      "present": 8108,
+      "missing": 0
+    },
+    "last3_opponent_allowed_carries_per_game": {
+      "present": 8108,
+      "missing": 0
+    },
+    "last3_opponent_allowed_targets_per_game": {
+      "present": 8108,
+      "missing": 0
+    },
+    "last3_opponent_allowed_red_zone_carries_per_game": {
+      "present": 8108,
+      "missing": 0
+    },
+    "last3_opponent_allowed_red_zone_targets_per_game": {
+      "present": 8108,
+      "missing": 0
+    },
+    "last3_opponent_allowed_offensive_touchdowns_per_game": {
+      "present": 8108,
+      "missing": 0
+    },
+    "last3_routes_per_game": {
+      "present": 0,
+      "missing": 8108
+    },
+    "last3_route_participation": {
+      "present": 0,
+      "missing": 8108
+    },
+    "last5_player_games": {
+      "present": 8108,
+      "missing": 0
+    },
+    "last5_team_games": {
+      "present": 8108,
+      "missing": 0
+    },
+    "last5_opponent_games": {
+      "present": 8108,
+      "missing": 0
+    },
+    "last5_carries_per_game": {
+      "present": 8108,
+      "missing": 0
+    },
+    "last5_targets_per_game": {
+      "present": 8108,
+      "missing": 0
+    },
+    "last5_receptions_per_game": {
+      "present": 8108,
+      "missing": 0
+    },
+    "last5_touches_per_game": {
+      "present": 8108,
+      "missing": 0
+    },
+    "last5_snaps_per_game": {
+      "present": 8074,
+      "missing": 34
+    },
+    "last5_red_zone_carries_per_game": {
+      "present": 8108,
+      "missing": 0
+    },
+    "last5_inside_10_carries_per_game": {
+      "present": 8108,
+      "missing": 0
+    },
+    "last5_inside_5_carries_per_game": {
+      "present": 8108,
+      "missing": 0
+    },
+    "last5_goal_line_opportunities_per_game": {
+      "present": 8108,
+      "missing": 0
+    },
+    "last5_red_zone_targets_per_game": {
+      "present": 8108,
+      "missing": 0
+    },
+    "last5_end_zone_targets_per_game": {
+      "present": 8108,
+      "missing": 0
+    },
+    "last5_carry_share": {
+      "present": 8108,
+      "missing": 0
+    },
+    "last5_target_share": {
+      "present": 8108,
+      "missing": 0
+    },
+    "last5_touch_share": {
+      "present": 8108,
+      "missing": 0
+    },
+    "last5_snap_share": {
+      "present": 8074,
+      "missing": 34
+    },
+    "last5_goal_line_opportunity_share": {
+      "present": 7831,
+      "missing": 277
+    },
+    "last5_red_zone_target_share": {
+      "present": 8065,
+      "missing": 43
+    },
+    "last5_end_zone_target_share": {
+      "present": 7904,
+      "missing": 204
+    },
+    "last5_team_offensive_plays_per_game": {
+      "present": 8108,
+      "missing": 0
+    },
+    "last5_team_carries_per_game": {
+      "present": 8108,
+      "missing": 0
+    },
+    "last5_team_targets_per_game": {
+      "present": 8108,
+      "missing": 0
+    },
+    "last5_team_red_zone_carries_per_game": {
+      "present": 8108,
+      "missing": 0
+    },
+    "last5_team_red_zone_targets_per_game": {
+      "present": 8108,
+      "missing": 0
+    },
+    "last5_team_offensive_touchdowns_per_game": {
+      "present": 8108,
+      "missing": 0
+    },
+    "last5_opponent_allowed_offensive_plays_per_game": {
+      "present": 8108,
+      "missing": 0
+    },
+    "last5_opponent_allowed_carries_per_game": {
+      "present": 8108,
+      "missing": 0
+    },
+    "last5_opponent_allowed_targets_per_game": {
+      "present": 8108,
+      "missing": 0
+    },
+    "last5_opponent_allowed_red_zone_carries_per_game": {
+      "present": 8108,
+      "missing": 0
+    },
+    "last5_opponent_allowed_red_zone_targets_per_game": {
+      "present": 8108,
+      "missing": 0
+    },
+    "last5_opponent_allowed_offensive_touchdowns_per_game": {
+      "present": 8108,
+      "missing": 0
+    },
+    "last5_routes_per_game": {
+      "present": 0,
+      "missing": 8108
+    },
+    "last5_route_participation": {
+      "present": 0,
+      "missing": 8108
+    },
+    "last8_player_games": {
+      "present": 8108,
+      "missing": 0
+    },
+    "last8_team_games": {
+      "present": 8108,
+      "missing": 0
+    },
+    "last8_opponent_games": {
+      "present": 8108,
+      "missing": 0
+    },
+    "last8_carries_per_game": {
+      "present": 8108,
+      "missing": 0
+    },
+    "last8_targets_per_game": {
+      "present": 8108,
+      "missing": 0
+    },
+    "last8_receptions_per_game": {
+      "present": 8108,
+      "missing": 0
+    },
+    "last8_touches_per_game": {
+      "present": 8108,
+      "missing": 0
+    },
+    "last8_snaps_per_game": {
+      "present": 8074,
+      "missing": 34
+    },
+    "last8_red_zone_carries_per_game": {
+      "present": 8108,
+      "missing": 0
+    },
+    "last8_inside_10_carries_per_game": {
+      "present": 8108,
+      "missing": 0
+    },
+    "last8_inside_5_carries_per_game": {
+      "present": 8108,
+      "missing": 0
+    },
+    "last8_goal_line_opportunities_per_game": {
+      "present": 8108,
+      "missing": 0
+    },
+    "last8_red_zone_targets_per_game": {
+      "present": 8108,
+      "missing": 0
+    },
+    "last8_end_zone_targets_per_game": {
+      "present": 8108,
+      "missing": 0
+    },
+    "last8_carry_share": {
+      "present": 8108,
+      "missing": 0
+    },
+    "last8_target_share": {
+      "present": 8108,
+      "missing": 0
+    },
+    "last8_touch_share": {
+      "present": 8108,
+      "missing": 0
+    },
+    "last8_snap_share": {
+      "present": 8074,
+      "missing": 34
+    },
+    "last8_goal_line_opportunity_share": {
+      "present": 7837,
+      "missing": 271
+    },
+    "last8_red_zone_target_share": {
+      "present": 8065,
+      "missing": 43
+    },
+    "last8_end_zone_target_share": {
+      "present": 7905,
+      "missing": 203
+    },
+    "last8_team_offensive_plays_per_game": {
+      "present": 8108,
+      "missing": 0
+    },
+    "last8_team_carries_per_game": {
+      "present": 8108,
+      "missing": 0
+    },
+    "last8_team_targets_per_game": {
+      "present": 8108,
+      "missing": 0
+    },
+    "last8_team_red_zone_carries_per_game": {
+      "present": 8108,
+      "missing": 0
+    },
+    "last8_team_red_zone_targets_per_game": {
+      "present": 8108,
+      "missing": 0
+    },
+    "last8_team_offensive_touchdowns_per_game": {
+      "present": 8108,
+      "missing": 0
+    },
+    "last8_opponent_allowed_offensive_plays_per_game": {
+      "present": 8108,
+      "missing": 0
+    },
+    "last8_opponent_allowed_carries_per_game": {
+      "present": 8108,
+      "missing": 0
+    },
+    "last8_opponent_allowed_targets_per_game": {
+      "present": 8108,
+      "missing": 0
+    },
+    "last8_opponent_allowed_red_zone_carries_per_game": {
+      "present": 8108,
+      "missing": 0
+    },
+    "last8_opponent_allowed_red_zone_targets_per_game": {
+      "present": 8108,
+      "missing": 0
+    },
+    "last8_opponent_allowed_offensive_touchdowns_per_game": {
+      "present": 8108,
+      "missing": 0
+    },
+    "last8_routes_per_game": {
+      "present": 0,
+      "missing": 8108
+    },
+    "last8_route_participation": {
+      "present": 0,
+      "missing": 8108
+    },
+    "season_player_games": {
+      "present": 8108,
+      "missing": 0
+    },
+    "season_team_games": {
+      "present": 8108,
+      "missing": 0
+    },
+    "season_opponent_games": {
+      "present": 8108,
+      "missing": 0
+    },
+    "season_carries_per_game": {
+      "present": 8108,
+      "missing": 0
+    },
+    "season_targets_per_game": {
+      "present": 8108,
+      "missing": 0
+    },
+    "season_receptions_per_game": {
+      "present": 8108,
+      "missing": 0
+    },
+    "season_touches_per_game": {
+      "present": 8108,
+      "missing": 0
+    },
+    "season_snaps_per_game": {
+      "present": 8074,
+      "missing": 34
+    },
+    "season_red_zone_carries_per_game": {
+      "present": 8108,
+      "missing": 0
+    },
+    "season_inside_10_carries_per_game": {
+      "present": 8108,
+      "missing": 0
+    },
+    "season_inside_5_carries_per_game": {
+      "present": 8108,
+      "missing": 0
+    },
+    "season_goal_line_opportunities_per_game": {
+      "present": 8108,
+      "missing": 0
+    },
+    "season_red_zone_targets_per_game": {
+      "present": 8108,
+      "missing": 0
+    },
+    "season_end_zone_targets_per_game": {
+      "present": 8108,
+      "missing": 0
+    },
+    "season_carry_share": {
+      "present": 8108,
+      "missing": 0
+    },
+    "season_target_share": {
+      "present": 8108,
+      "missing": 0
+    },
+    "season_touch_share": {
+      "present": 8108,
+      "missing": 0
+    },
+    "season_snap_share": {
+      "present": 8074,
+      "missing": 34
+    },
+    "season_goal_line_opportunity_share": {
+      "present": 7837,
+      "missing": 271
+    },
+    "season_red_zone_target_share": {
+      "present": 8065,
+      "missing": 43
+    },
+    "season_end_zone_target_share": {
+      "present": 7905,
+      "missing": 203
+    },
+    "season_team_offensive_plays_per_game": {
+      "present": 8108,
+      "missing": 0
+    },
+    "season_team_carries_per_game": {
+      "present": 8108,
+      "missing": 0
+    },
+    "season_team_targets_per_game": {
+      "present": 8108,
+      "missing": 0
+    },
+    "season_team_red_zone_carries_per_game": {
+      "present": 8108,
+      "missing": 0
+    },
+    "season_team_red_zone_targets_per_game": {
+      "present": 8108,
+      "missing": 0
+    },
+    "season_team_offensive_touchdowns_per_game": {
+      "present": 8108,
+      "missing": 0
+    },
+    "season_opponent_allowed_offensive_plays_per_game": {
+      "present": 8108,
+      "missing": 0
+    },
+    "season_opponent_allowed_carries_per_game": {
+      "present": 8108,
+      "missing": 0
+    },
+    "season_opponent_allowed_targets_per_game": {
+      "present": 8108,
+      "missing": 0
+    },
+    "season_opponent_allowed_red_zone_carries_per_game": {
+      "present": 8108,
+      "missing": 0
+    },
+    "season_opponent_allowed_red_zone_targets_per_game": {
+      "present": 8108,
+      "missing": 0
+    },
+    "season_opponent_allowed_offensive_touchdowns_per_game": {
+      "present": 8108,
+      "missing": 0
+    },
+    "season_routes_per_game": {
+      "present": 0,
+      "missing": 8108
+    },
+    "season_route_participation": {
+      "present": 0,
+      "missing": 8108
+    },
+    "ewma_player_games": {
+      "present": 8108,
+      "missing": 0
+    },
+    "ewma_team_games": {
+      "present": 8108,
+      "missing": 0
+    },
+    "ewma_opponent_games": {
+      "present": 8108,
+      "missing": 0
+    },
+    "ewma_carries_per_game": {
+      "present": 8108,
+      "missing": 0
+    },
+    "ewma_targets_per_game": {
+      "present": 8108,
+      "missing": 0
+    },
+    "ewma_receptions_per_game": {
+      "present": 8108,
+      "missing": 0
+    },
+    "ewma_touches_per_game": {
+      "present": 8108,
+      "missing": 0
+    },
+    "ewma_snaps_per_game": {
+      "present": 8074,
+      "missing": 34
+    },
+    "ewma_red_zone_carries_per_game": {
+      "present": 8108,
+      "missing": 0
+    },
+    "ewma_inside_10_carries_per_game": {
+      "present": 8108,
+      "missing": 0
+    },
+    "ewma_inside_5_carries_per_game": {
+      "present": 8108,
+      "missing": 0
+    },
+    "ewma_goal_line_opportunities_per_game": {
+      "present": 8108,
+      "missing": 0
+    },
+    "ewma_red_zone_targets_per_game": {
+      "present": 8108,
+      "missing": 0
+    },
+    "ewma_end_zone_targets_per_game": {
+      "present": 8108,
+      "missing": 0
+    },
+    "ewma_carry_share": {
+      "present": 8108,
+      "missing": 0
+    },
+    "ewma_target_share": {
+      "present": 8108,
+      "missing": 0
+    },
+    "ewma_touch_share": {
+      "present": 8108,
+      "missing": 0
+    },
+    "ewma_snap_share": {
+      "present": 8074,
+      "missing": 34
+    },
+    "ewma_goal_line_opportunity_share": {
+      "present": 7837,
+      "missing": 271
+    },
+    "ewma_red_zone_target_share": {
+      "present": 8065,
+      "missing": 43
+    },
+    "ewma_end_zone_target_share": {
+      "present": 7905,
+      "missing": 203
+    },
+    "ewma_team_offensive_plays_per_game": {
+      "present": 8108,
+      "missing": 0
+    },
+    "ewma_team_carries_per_game": {
+      "present": 8108,
+      "missing": 0
+    },
+    "ewma_team_targets_per_game": {
+      "present": 8108,
+      "missing": 0
+    },
+    "ewma_team_red_zone_carries_per_game": {
+      "present": 8108,
+      "missing": 0
+    },
+    "ewma_team_red_zone_targets_per_game": {
+      "present": 8108,
+      "missing": 0
+    },
+    "ewma_team_offensive_touchdowns_per_game": {
+      "present": 8108,
+      "missing": 0
+    },
+    "ewma_opponent_allowed_offensive_plays_per_game": {
+      "present": 8108,
+      "missing": 0
+    },
+    "ewma_opponent_allowed_carries_per_game": {
+      "present": 8108,
+      "missing": 0
+    },
+    "ewma_opponent_allowed_targets_per_game": {
+      "present": 8108,
+      "missing": 0
+    },
+    "ewma_opponent_allowed_red_zone_carries_per_game": {
+      "present": 8108,
+      "missing": 0
+    },
+    "ewma_opponent_allowed_red_zone_targets_per_game": {
+      "present": 8108,
+      "missing": 0
+    },
+    "ewma_opponent_allowed_offensive_touchdowns_per_game": {
+      "present": 8108,
+      "missing": 0
+    },
+    "ewma_routes_per_game": {
+      "present": 0,
+      "missing": 8108
+    },
+    "ewma_route_participation": {
+      "present": 0,
+      "missing": 8108
+    }
+  }
+}

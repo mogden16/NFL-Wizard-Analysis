@@ -1,0 +1,75 @@
+{
+  "2017": {
+    "schedules": "6616b0e0cb9b8358881654e4aa5e22e24bb67958a337cbb13782d27a3c3a04e7",
+    "player_stats": "c472235886ff6ff80301171f680db1254db452c197981a0331006cc386904ed7",
+    "team_stats": "11d7da55ce46d10eb1bad6ff003658cb0ed671f17d798c3c502b36f34350e5b3",
+    "pbp": "0166785545b15de785075a154668996b8cb71294f7a7c3d9acbf4ae90a99f2dc",
+    "snap_counts": "5a2dd66a86f467c464adf165040161d713887ac795b20a97d1d472193a778da9",
+    "player_id_crosswalk": "cdd27bdabba21372100baea8a34a4ec8b2fac6d0bef43dad5d18410215132869"
+  },
+  "2018": {
+    "schedules": "0517aae45dacef1cabea9e0345ea2a3bc7dda1299dd76cb1ffd50c4696a58291",
+    "player_stats": "728664907341d19b65d85d44becfe21773cb5ed4b9238ff4ba9ae00a0ebf85b9",
+    "team_stats": "3c689edef0cc8f6cf2fa2d5fa47b4c15244110dd47b5b0eb0bf348eee3976593",
+    "pbp": "152e44436368be4c253d14c0cb0f8335a53f3790ce5ebdbb7648551371d62d2b",
+    "snap_counts": "edc3660d5927beb661474017e91a0c8e92b55c21abc0cfe3ce76812cbde31c45",
+    "player_id_crosswalk": "cdd27bdabba21372100baea8a34a4ec8b2fac6d0bef43dad5d18410215132869"
+  },
+  "2019": {
+    "schedules": "4db9adbb172de1476cecd73088981b353a6c05e97768dad1cf631dadfa403a56",
+    "player_stats": "2eec3fd460d22b88224769db5a2152526a531fcc01ca05fd7b33c40f9d022d68",
+    "team_stats": "33397cacc61bc24c6820b3f620abf4ec033c7cf95d7a44f7d8b32ea2ef230666",
+    "pbp": "3878b8c99f5f3d977203b0e249b55ca913e59db3971420075ed35a0991610f6e",
+    "snap_counts": "b22cf49f33cfe10d731abff7686e9c469f4ef8db52e45c78e8f1d1434f551437",
+    "player_id_crosswalk": "cdd27bdabba21372100baea8a34a4ec8b2fac6d0bef43dad5d18410215132869"
+  },
+  "2020": {
+    "schedules": "93e73882e9b596f8c244dab217bcb5aeab70c4e4431b6cd4dd7607a2383f4398",
+    "player_stats": "f2f45ff9852f2dd73f77efe4027d519b1b61bf120aec06d38b74038f7e0a5ef4",
+    "team_stats": "160155b9cebba587aee4c5320dc3baec061251d5d8c4be86092cf4dc20b9eb0e",
+    "pbp": "d86d1e3f98b64bd839c8533a3867cb0f0e3d6216cd11bddd11efd5bc6c594a04",
+    "snap_counts": "b31c6699c3cfa9448156e236a9a353baf5b622d061538bf4b3e3325abc4b32c9",
+    "player_id_crosswalk": "cdd27bdabba21372100baea8a34a4ec8b2fac6d0bef43dad5d18410215132869"
+  },
+  "2021": {
+    "schedules": "6c2b25a860bf549a5172d655df209debbd9b2c41b24402d33cc01950abf69a55",
+    "player_stats": "e264feb54380794f98b33da62d4eb62ec34d33e7c324ec0b293edd0c504fe6c8",
+    "team_stats": "0f0f1e5e64455ce33860ee8f60763c901f3f4e76167b91d96aec91bbccf9bb95",
+    "pbp": "d2fbf41c83c843e1c6db4ec117ef9b4b49b7730666f21005fc9951dce09d0e0a",
+    "snap_counts": "8d4d49e4f252e85046e4a191fb8e91e552d1813e7d0efa630d5e03645b1b8a47",
+    "player_id_crosswalk": "cdd27bdabba21372100baea8a34a4ec8b2fac6d0bef43dad5d18410215132869"
+  },
+  "2022": {
+    "schedules": "4df92f492652dacc5460a44ec948a703f9fe7be75a0aba2d4dfd4987b481bb9c",
+    "player_stats": "b6a86865760bb11eb86bad0d3f51380a1d25287e74eaa2fae5c0ded99c21ba20",
+    "team_stats": "8c2663adbc1194e19a66ae526acf26a69126bec7d51545be742679f4c424e3ca",
+    "pbp": "311971fb4404dc8759a9f77c50ef2f4933fbd2d24deb5a747987058d0b6788a8",
+    "snap_counts": "deddb4739d147e3765b0ce84671fa0762e5c8c03bbf3f76bb2269411643cf49e",
+    "player_id_crosswalk": "cdd27bdabba21372100baea8a34a4ec8b2fac6d0bef43dad5d18410215132869"
+  },
+  "2023": {
+    "schedules": "374486417a0ba32495817457c26b77e09499c7614b0285086cf41ccef9d759cc",
+    "player_stats": "dc712abfb4f650be151ae11d3cc3aeb896b9c4cc2c9cf74a236604930c96ba51",
+    "team_stats": "0657b552187267cac75644a0bfc29f78a4cf6f631864d0d88c265c7df18419d4",
+    "pbp": "19fc2ce8abb85be47fad16ceff178c67d6581309e87d53bb70c4531373867b1e",
+    "snap_counts": "d97c76dfb1c9d39969cad69feddef7504b9f4eee1e4cc97bea6ed2f58cea4c2a",
+    "player_id_crosswalk": "cdd27bdabba21372100baea8a34a4ec8b2fac6d0bef43dad5d18410215132869"
+  },
+  "2024": {
+    "schedules": "53f6e036f443c71e6aa54396f4890259ce7580c1052b30424559418612ea1b31",
+    "player_stats": "9f828ff37574728e7c1815f9283d98401d436820e4c648cd985509149023b9c3",
+    "team_stats": "4b0c0e512c68fcfd62899e07715c75bc969550d85a06a61be246bf458616e761",
+    "pbp": "e332d33a0c83a33073cde85f8e8f1ac0caebcc552eda7e7c92612ff306bafa73",
+    "teams": "1d1d105ff0b0fca8806bfa047c96ef001d150c0bcbba481db5babbafa1f36636",
+    "snap_counts": "cc9dceb476879589f36faa1b3f9bef68cb1e2405a8638e8074c9e4d61c8c4d9a",
+    "player_id_crosswalk": "cdd27bdabba21372100baea8a34a4ec8b2fac6d0bef43dad5d18410215132869"
+  },
+  "2025": {
+    "schedules": "81066567d1c138059687806a679f5a233d91196fb535ea06a2541596dfdd378c",
+    "player_stats": "782c689a762e93508b9b6e11f1f9002bc7cde12aa0bfb0a6058aa00896bb9ae9",
+    "team_stats": "a01374076e6b842ce943e0fb0613639ef3ca20177fed216112902885728e5205",
+    "pbp": "5ed293fdf54d79e34426133829f3111faf577db29b8cfc25cf910d75eb55b2ef",
+    "snap_counts": "7379993b72ec0c770c5d8de45e4845a46d27493685b7ceee0b34c23dfebf8d6e",
+    "player_id_crosswalk": "cdd27bdabba21372100baea8a34a4ec8b2fac6d0bef43dad5d18410215132869"
+  }
+}
