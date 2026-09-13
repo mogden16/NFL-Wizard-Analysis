@@ -1,0 +1,2054 @@
+[
+  {
+    "game": "2024_04_DAL_NYG",
+    "player": "Devin Singletary",
+    "player_id": "00-0035250",
+    "prediction_time": "2024-09-26T23:15:00+00:00",
+    "source_games": [
+      {
+        "game_id": "2024_01_MIN_NYG",
+        "kickoff": "2024-09-08T17:00:00+00:00",
+        "available_at_proxy": "2024-09-09T17:00:00+00:00",
+        "carries": 10,
+        "targets": 5
+      },
+      {
+        "game_id": "2024_02_NYG_WAS",
+        "kickoff": "2024-09-15T17:00:00+00:00",
+        "available_at_proxy": "2024-09-16T17:00:00+00:00",
+        "carries": 16,
+        "targets": 1
+      },
+      {
+        "game_id": "2024_03_NYG_CLE",
+        "kickoff": "2024-09-22T17:00:00+00:00",
+        "available_at_proxy": "2024-09-23T17:00:00+00:00",
+        "carries": 16,
+        "targets": 4
+      }
+    ],
+    "team_source_games": [
+      {
+        "game_id": "2024_01_MIN_NYG",
+        "kickoff": "2024-09-08T17:00:00+00:00",
+        "available_at_proxy": "2024-09-09T17:00:00+00:00",
+        "carries": 21,
+        "targets": 38
+      },
+      {
+        "game_id": "2024_02_NYG_WAS",
+        "kickoff": "2024-09-15T17:00:00+00:00",
+        "available_at_proxy": "2024-09-16T17:00:00+00:00",
+        "carries": 22,
+        "targets": 27
+      },
+      {
+        "game_id": "2024_03_NYG_CLE",
+        "kickoff": "2024-09-22T17:00:00+00:00",
+        "available_at_proxy": "2024-09-23T17:00:00+00:00",
+        "carries": 32,
+        "targets": 33
+      }
+    ]
+  },
+  {
+    "game": "2024_04_DAL_NYG",
+    "player": "Malik Nabers",
+    "player_id": "00-0039337",
+    "prediction_time": "2024-09-26T23:15:00+00:00",
+    "source_games": [
+      {
+        "game_id": "2024_01_MIN_NYG",
+        "kickoff": "2024-09-08T17:00:00+00:00",
+        "available_at_proxy": "2024-09-09T17:00:00+00:00",
+        "carries": 0,
+        "targets": 7
+      },
+      {
+        "game_id": "2024_02_NYG_WAS",
+        "kickoff": "2024-09-15T17:00:00+00:00",
+        "available_at_proxy": "2024-09-16T17:00:00+00:00",
+        "carries": 0,
+        "targets": 18
+      },
+      {
+        "game_id": "2024_03_NYG_CLE",
+        "kickoff": "2024-09-22T17:00:00+00:00",
+        "available_at_proxy": "2024-09-23T17:00:00+00:00",
+        "carries": 2,
+        "targets": 12
+      }
+    ],
+    "team_source_games": [
+      {
+        "game_id": "2024_01_MIN_NYG",
+        "kickoff": "2024-09-08T17:00:00+00:00",
+        "available_at_proxy": "2024-09-09T17:00:00+00:00",
+        "carries": 21,
+        "targets": 38
+      },
+      {
+        "game_id": "2024_02_NYG_WAS",
+        "kickoff": "2024-09-15T17:00:00+00:00",
+        "available_at_proxy": "2024-09-16T17:00:00+00:00",
+        "carries": 22,
+        "targets": 27
+      },
+      {
+        "game_id": "2024_03_NYG_CLE",
+        "kickoff": "2024-09-22T17:00:00+00:00",
+        "available_at_proxy": "2024-09-23T17:00:00+00:00",
+        "carries": 32,
+        "targets": 33
+      }
+    ]
+  },
+  {
+    "game": "2024_04_DAL_NYG",
+    "player": "Rico Dowdle",
+    "player_id": "00-0036139",
+    "prediction_time": "2024-09-26T23:15:00+00:00",
+    "source_games": [
+      {
+        "game_id": "2024_01_DAL_CLE",
+        "kickoff": "2024-09-08T20:25:00+00:00",
+        "available_at_proxy": "2024-09-09T20:25:00+00:00",
+        "carries": 8,
+        "targets": 1
+      },
+      {
+        "game_id": "2024_02_NO_DAL",
+        "kickoff": "2024-09-15T17:00:00+00:00",
+        "available_at_proxy": "2024-09-16T17:00:00+00:00",
+        "carries": 7,
+        "targets": 5
+      },
+      {
+        "game_id": "2024_03_BAL_DAL",
+        "kickoff": "2024-09-22T20:25:00+00:00",
+        "available_at_proxy": "2024-09-23T20:25:00+00:00",
+        "carries": 8,
+        "targets": 5
+      }
+    ],
+    "team_source_games": [
+      {
+        "game_id": "2024_01_DAL_CLE",
+        "kickoff": "2024-09-08T20:25:00+00:00",
+        "available_at_proxy": "2024-09-09T20:25:00+00:00",
+        "carries": 25,
+        "targets": 31
+      },
+      {
+        "game_id": "2024_02_NO_DAL",
+        "kickoff": "2024-09-15T17:00:00+00:00",
+        "available_at_proxy": "2024-09-16T17:00:00+00:00",
+        "carries": 21,
+        "targets": 41
+      },
+      {
+        "game_id": "2024_03_BAL_DAL",
+        "kickoff": "2024-09-22T20:25:00+00:00",
+        "available_at_proxy": "2024-09-23T20:25:00+00:00",
+        "carries": 16,
+        "targets": 50
+      }
+    ]
+  },
+  {
+    "game": "2024_04_DAL_NYG",
+    "player": "CeeDee Lamb",
+    "player_id": "00-0036358",
+    "prediction_time": "2024-09-26T23:15:00+00:00",
+    "source_games": [
+      {
+        "game_id": "2024_01_DAL_CLE",
+        "kickoff": "2024-09-08T20:25:00+00:00",
+        "available_at_proxy": "2024-09-09T20:25:00+00:00",
+        "carries": 3,
+        "targets": 10
+      },
+      {
+        "game_id": "2024_02_NO_DAL",
+        "kickoff": "2024-09-15T17:00:00+00:00",
+        "available_at_proxy": "2024-09-16T17:00:00+00:00",
+        "carries": 0,
+        "targets": 7
+      },
+      {
+        "game_id": "2024_03_BAL_DAL",
+        "kickoff": "2024-09-22T20:25:00+00:00",
+        "available_at_proxy": "2024-09-23T20:25:00+00:00",
+        "carries": 0,
+        "targets": 7
+      }
+    ],
+    "team_source_games": [
+      {
+        "game_id": "2024_01_DAL_CLE",
+        "kickoff": "2024-09-08T20:25:00+00:00",
+        "available_at_proxy": "2024-09-09T20:25:00+00:00",
+        "carries": 25,
+        "targets": 31
+      },
+      {
+        "game_id": "2024_02_NO_DAL",
+        "kickoff": "2024-09-15T17:00:00+00:00",
+        "available_at_proxy": "2024-09-16T17:00:00+00:00",
+        "carries": 21,
+        "targets": 41
+      },
+      {
+        "game_id": "2024_03_BAL_DAL",
+        "kickoff": "2024-09-22T20:25:00+00:00",
+        "available_at_proxy": "2024-09-23T20:25:00+00:00",
+        "carries": 16,
+        "targets": 50
+      }
+    ]
+  },
+  {
+    "game": "2024_04_CIN_CAR",
+    "player": "Chuba Hubbard",
+    "player_id": "00-0036555",
+    "prediction_time": "2024-09-29T16:00:00+00:00",
+    "source_games": [
+      {
+        "game_id": "2024_01_CAR_NO",
+        "kickoff": "2024-09-08T17:00:00+00:00",
+        "available_at_proxy": "2024-09-09T17:00:00+00:00",
+        "carries": 6,
+        "targets": 0
+      },
+      {
+        "game_id": "2024_02_LAC_CAR",
+        "kickoff": "2024-09-15T17:00:00+00:00",
+        "available_at_proxy": "2024-09-16T17:00:00+00:00",
+        "carries": 10,
+        "targets": 5
+      },
+      {
+        "game_id": "2024_03_CAR_LV",
+        "kickoff": "2024-09-22T20:05:00+00:00",
+        "available_at_proxy": "2024-09-23T20:05:00+00:00",
+        "carries": 21,
+        "targets": 5
+      }
+    ],
+    "team_source_games": [
+      {
+        "game_id": "2024_01_CAR_NO",
+        "kickoff": "2024-09-08T17:00:00+00:00",
+        "available_at_proxy": "2024-09-09T17:00:00+00:00",
+        "carries": 20,
+        "targets": 29
+      },
+      {
+        "game_id": "2024_02_LAC_CAR",
+        "kickoff": "2024-09-15T17:00:00+00:00",
+        "available_at_proxy": "2024-09-16T17:00:00+00:00",
+        "carries": 18,
+        "targets": 26
+      },
+      {
+        "game_id": "2024_03_CAR_LV",
+        "kickoff": "2024-09-22T20:05:00+00:00",
+        "available_at_proxy": "2024-09-23T20:05:00+00:00",
+        "carries": 31,
+        "targets": 37
+      }
+    ]
+  },
+  {
+    "game": "2024_04_CIN_CAR",
+    "player": "Diontae Johnson",
+    "player_id": "00-0035216",
+    "prediction_time": "2024-09-29T16:00:00+00:00",
+    "source_games": [
+      {
+        "game_id": "2024_01_CAR_NO",
+        "kickoff": "2024-09-08T17:00:00+00:00",
+        "available_at_proxy": "2024-09-09T17:00:00+00:00",
+        "carries": 0,
+        "targets": 6
+      },
+      {
+        "game_id": "2024_02_LAC_CAR",
+        "kickoff": "2024-09-15T17:00:00+00:00",
+        "available_at_proxy": "2024-09-16T17:00:00+00:00",
+        "carries": 0,
+        "targets": 6
+      },
+      {
+        "game_id": "2024_03_CAR_LV",
+        "kickoff": "2024-09-22T20:05:00+00:00",
+        "available_at_proxy": "2024-09-23T20:05:00+00:00",
+        "carries": 0,
+        "targets": 14
+      }
+    ],
+    "team_source_games": [
+      {
+        "game_id": "2024_01_CAR_NO",
+        "kickoff": "2024-09-08T17:00:00+00:00",
+        "available_at_proxy": "2024-09-09T17:00:00+00:00",
+        "carries": 20,
+        "targets": 29
+      },
+      {
+        "game_id": "2024_02_LAC_CAR",
+        "kickoff": "2024-09-15T17:00:00+00:00",
+        "available_at_proxy": "2024-09-16T17:00:00+00:00",
+        "carries": 18,
+        "targets": 26
+      },
+      {
+        "game_id": "2024_03_CAR_LV",
+        "kickoff": "2024-09-22T20:05:00+00:00",
+        "available_at_proxy": "2024-09-23T20:05:00+00:00",
+        "carries": 31,
+        "targets": 37
+      }
+    ]
+  },
+  {
+    "game": "2024_04_CIN_CAR",
+    "player": "Zack Moss",
+    "player_id": "00-0036251",
+    "prediction_time": "2024-09-29T16:00:00+00:00",
+    "source_games": [
+      {
+        "game_id": "2024_01_NE_CIN",
+        "kickoff": "2024-09-08T17:00:00+00:00",
+        "available_at_proxy": "2024-09-09T17:00:00+00:00",
+        "carries": 9,
+        "targets": 4
+      },
+      {
+        "game_id": "2024_02_CIN_KC",
+        "kickoff": "2024-09-15T20:25:00+00:00",
+        "available_at_proxy": "2024-09-16T20:25:00+00:00",
+        "carries": 12,
+        "targets": 1
+      },
+      {
+        "game_id": "2024_03_WAS_CIN",
+        "kickoff": "2024-09-24T00:15:00+00:00",
+        "available_at_proxy": "2024-09-25T00:15:00+00:00",
+        "carries": 12,
+        "targets": 6
+      }
+    ],
+    "team_source_games": [
+      {
+        "game_id": "2024_01_NE_CIN",
+        "kickoff": "2024-09-08T17:00:00+00:00",
+        "available_at_proxy": "2024-09-09T17:00:00+00:00",
+        "carries": 16,
+        "targets": 29
+      },
+      {
+        "game_id": "2024_02_CIN_KC",
+        "kickoff": "2024-09-15T20:25:00+00:00",
+        "available_at_proxy": "2024-09-16T20:25:00+00:00",
+        "carries": 22,
+        "targets": 34
+      },
+      {
+        "game_id": "2024_03_WAS_CIN",
+        "kickoff": "2024-09-24T00:15:00+00:00",
+        "available_at_proxy": "2024-09-25T00:15:00+00:00",
+        "carries": 20,
+        "targets": 38
+      }
+    ]
+  },
+  {
+    "game": "2024_04_CIN_CAR",
+    "player": "Chase Brown",
+    "player_id": "00-0038597",
+    "prediction_time": "2024-09-29T16:00:00+00:00",
+    "source_games": [
+      {
+        "game_id": "2024_01_NE_CIN",
+        "kickoff": "2024-09-08T17:00:00+00:00",
+        "available_at_proxy": "2024-09-09T17:00:00+00:00",
+        "carries": 3,
+        "targets": 3
+      },
+      {
+        "game_id": "2024_02_CIN_KC",
+        "kickoff": "2024-09-15T20:25:00+00:00",
+        "available_at_proxy": "2024-09-16T20:25:00+00:00",
+        "carries": 4,
+        "targets": 0
+      },
+      {
+        "game_id": "2024_03_WAS_CIN",
+        "kickoff": "2024-09-24T00:15:00+00:00",
+        "available_at_proxy": "2024-09-25T00:15:00+00:00",
+        "carries": 7,
+        "targets": 3
+      }
+    ],
+    "team_source_games": [
+      {
+        "game_id": "2024_01_NE_CIN",
+        "kickoff": "2024-09-08T17:00:00+00:00",
+        "available_at_proxy": "2024-09-09T17:00:00+00:00",
+        "carries": 16,
+        "targets": 29
+      },
+      {
+        "game_id": "2024_02_CIN_KC",
+        "kickoff": "2024-09-15T20:25:00+00:00",
+        "available_at_proxy": "2024-09-16T20:25:00+00:00",
+        "carries": 22,
+        "targets": 34
+      },
+      {
+        "game_id": "2024_03_WAS_CIN",
+        "kickoff": "2024-09-24T00:15:00+00:00",
+        "available_at_proxy": "2024-09-25T00:15:00+00:00",
+        "carries": 20,
+        "targets": 38
+      }
+    ]
+  },
+  {
+    "game": "2024_04_DEN_NYJ",
+    "player": "Breece Hall",
+    "player_id": "00-0038120",
+    "prediction_time": "2024-09-29T16:00:00+00:00",
+    "source_games": [
+      {
+        "game_id": "2024_01_NYJ_SF",
+        "kickoff": "2024-09-10T00:15:00+00:00",
+        "available_at_proxy": "2024-09-11T00:15:00+00:00",
+        "carries": 16,
+        "targets": 6
+      },
+      {
+        "game_id": "2024_02_NYJ_TEN",
+        "kickoff": "2024-09-15T17:00:00+00:00",
+        "available_at_proxy": "2024-09-16T17:00:00+00:00",
+        "carries": 14,
+        "targets": 8
+      },
+      {
+        "game_id": "2024_03_NE_NYJ",
+        "kickoff": "2024-09-20T00:15:00+00:00",
+        "available_at_proxy": "2024-09-21T00:15:00+00:00",
+        "carries": 16,
+        "targets": 5
+      }
+    ],
+    "team_source_games": [
+      {
+        "game_id": "2024_01_NYJ_SF",
+        "kickoff": "2024-09-10T00:15:00+00:00",
+        "available_at_proxy": "2024-09-11T00:15:00+00:00",
+        "carries": 19,
+        "targets": 29
+      },
+      {
+        "game_id": "2024_02_NYJ_TEN",
+        "kickoff": "2024-09-15T17:00:00+00:00",
+        "available_at_proxy": "2024-09-16T17:00:00+00:00",
+        "carries": 24,
+        "targets": 29
+      },
+      {
+        "game_id": "2024_03_NE_NYJ",
+        "kickoff": "2024-09-20T00:15:00+00:00",
+        "available_at_proxy": "2024-09-21T00:15:00+00:00",
+        "carries": 33,
+        "targets": 34
+      }
+    ]
+  },
+  {
+    "game": "2024_04_DEN_NYJ",
+    "player": "Garrett Wilson",
+    "player_id": "00-0037740",
+    "prediction_time": "2024-09-29T16:00:00+00:00",
+    "source_games": [
+      {
+        "game_id": "2024_01_NYJ_SF",
+        "kickoff": "2024-09-10T00:15:00+00:00",
+        "available_at_proxy": "2024-09-11T00:15:00+00:00",
+        "carries": 0,
+        "targets": 11
+      },
+      {
+        "game_id": "2024_02_NYJ_TEN",
+        "kickoff": "2024-09-15T17:00:00+00:00",
+        "available_at_proxy": "2024-09-16T17:00:00+00:00",
+        "carries": 1,
+        "targets": 6
+      },
+      {
+        "game_id": "2024_03_NE_NYJ",
+        "kickoff": "2024-09-20T00:15:00+00:00",
+        "available_at_proxy": "2024-09-21T00:15:00+00:00",
+        "carries": 0,
+        "targets": 9
+      }
+    ],
+    "team_source_games": [
+      {
+        "game_id": "2024_01_NYJ_SF",
+        "kickoff": "2024-09-10T00:15:00+00:00",
+        "available_at_proxy": "2024-09-11T00:15:00+00:00",
+        "carries": 19,
+        "targets": 29
+      },
+      {
+        "game_id": "2024_02_NYJ_TEN",
+        "kickoff": "2024-09-15T17:00:00+00:00",
+        "available_at_proxy": "2024-09-16T17:00:00+00:00",
+        "carries": 24,
+        "targets": 29
+      },
+      {
+        "game_id": "2024_03_NE_NYJ",
+        "kickoff": "2024-09-20T00:15:00+00:00",
+        "available_at_proxy": "2024-09-21T00:15:00+00:00",
+        "carries": 33,
+        "targets": 34
+      }
+    ]
+  },
+  {
+    "game": "2024_04_DEN_NYJ",
+    "player": "Javonte Williams",
+    "player_id": "00-0036997",
+    "prediction_time": "2024-09-29T16:00:00+00:00",
+    "source_games": [
+      {
+        "game_id": "2024_01_DEN_SEA",
+        "kickoff": "2024-09-08T20:05:00+00:00",
+        "available_at_proxy": "2024-09-09T20:05:00+00:00",
+        "carries": 8,
+        "targets": 2
+      },
+      {
+        "game_id": "2024_02_PIT_DEN",
+        "kickoff": "2024-09-15T20:25:00+00:00",
+        "available_at_proxy": "2024-09-16T20:25:00+00:00",
+        "carries": 11,
+        "targets": 5
+      },
+      {
+        "game_id": "2024_03_DEN_TB",
+        "kickoff": "2024-09-22T17:00:00+00:00",
+        "available_at_proxy": "2024-09-23T17:00:00+00:00",
+        "carries": 5,
+        "targets": 4
+      }
+    ],
+    "team_source_games": [
+      {
+        "game_id": "2024_01_DEN_SEA",
+        "kickoff": "2024-09-08T20:05:00+00:00",
+        "available_at_proxy": "2024-09-09T20:05:00+00:00",
+        "carries": 25,
+        "targets": 42
+      },
+      {
+        "game_id": "2024_02_PIT_DEN",
+        "kickoff": "2024-09-15T20:25:00+00:00",
+        "available_at_proxy": "2024-09-16T20:25:00+00:00",
+        "carries": 19,
+        "targets": 33
+      },
+      {
+        "game_id": "2024_03_DEN_TB",
+        "kickoff": "2024-09-22T17:00:00+00:00",
+        "available_at_proxy": "2024-09-23T17:00:00+00:00",
+        "carries": 28,
+        "targets": 34
+      }
+    ]
+  },
+  {
+    "game": "2024_04_DEN_NYJ",
+    "player": "Courtland Sutton",
+    "player_id": "00-0034348",
+    "prediction_time": "2024-09-29T16:00:00+00:00",
+    "source_games": [
+      {
+        "game_id": "2024_01_DEN_SEA",
+        "kickoff": "2024-09-08T20:05:00+00:00",
+        "available_at_proxy": "2024-09-09T20:05:00+00:00",
+        "carries": 0,
+        "targets": 12
+      },
+      {
+        "game_id": "2024_02_PIT_DEN",
+        "kickoff": "2024-09-15T20:25:00+00:00",
+        "available_at_proxy": "2024-09-16T20:25:00+00:00",
+        "carries": 0,
+        "targets": 4
+      },
+      {
+        "game_id": "2024_03_DEN_TB",
+        "kickoff": "2024-09-22T17:00:00+00:00",
+        "available_at_proxy": "2024-09-23T17:00:00+00:00",
+        "carries": 0,
+        "targets": 11
+      }
+    ],
+    "team_source_games": [
+      {
+        "game_id": "2024_01_DEN_SEA",
+        "kickoff": "2024-09-08T20:05:00+00:00",
+        "available_at_proxy": "2024-09-09T20:05:00+00:00",
+        "carries": 25,
+        "targets": 42
+      },
+      {
+        "game_id": "2024_02_PIT_DEN",
+        "kickoff": "2024-09-15T20:25:00+00:00",
+        "available_at_proxy": "2024-09-16T20:25:00+00:00",
+        "carries": 19,
+        "targets": 33
+      },
+      {
+        "game_id": "2024_03_DEN_TB",
+        "kickoff": "2024-09-22T17:00:00+00:00",
+        "available_at_proxy": "2024-09-23T17:00:00+00:00",
+        "carries": 28,
+        "targets": 34
+      }
+    ]
+  },
+  {
+    "game": "2024_04_JAX_HOU",
+    "player": "Joe Mixon",
+    "player_id": "00-0033897",
+    "prediction_time": "2024-09-29T16:00:00+00:00",
+    "source_games": [
+      {
+        "game_id": "2024_01_HOU_IND",
+        "kickoff": "2024-09-08T17:00:00+00:00",
+        "available_at_proxy": "2024-09-09T17:00:00+00:00",
+        "carries": 30,
+        "targets": 3
+      },
+      {
+        "game_id": "2024_02_CHI_HOU",
+        "kickoff": "2024-09-16T00:20:00+00:00",
+        "available_at_proxy": "2024-09-17T00:20:00+00:00",
+        "carries": 9,
+        "targets": 5
+      }
+    ],
+    "team_source_games": [
+      {
+        "game_id": "2024_01_HOU_IND",
+        "kickoff": "2024-09-08T17:00:00+00:00",
+        "available_at_proxy": "2024-09-09T17:00:00+00:00",
+        "carries": 40,
+        "targets": 31
+      },
+      {
+        "game_id": "2024_02_CHI_HOU",
+        "kickoff": "2024-09-16T00:20:00+00:00",
+        "available_at_proxy": "2024-09-17T00:20:00+00:00",
+        "carries": 22,
+        "targets": 34
+      }
+    ]
+  },
+  {
+    "game": "2024_04_JAX_HOU",
+    "player": "Nico Collins",
+    "player_id": "00-0036554",
+    "prediction_time": "2024-09-29T16:00:00+00:00",
+    "source_games": [
+      {
+        "game_id": "2024_01_HOU_IND",
+        "kickoff": "2024-09-08T17:00:00+00:00",
+        "available_at_proxy": "2024-09-09T17:00:00+00:00",
+        "carries": 0,
+        "targets": 8
+      },
+      {
+        "game_id": "2024_02_CHI_HOU",
+        "kickoff": "2024-09-16T00:20:00+00:00",
+        "available_at_proxy": "2024-09-17T00:20:00+00:00",
+        "carries": 0,
+        "targets": 10
+      },
+      {
+        "game_id": "2024_03_HOU_MIN",
+        "kickoff": "2024-09-22T17:00:00+00:00",
+        "available_at_proxy": "2024-09-23T17:00:00+00:00",
+        "carries": 0,
+        "targets": 10
+      }
+    ],
+    "team_source_games": [
+      {
+        "game_id": "2024_01_HOU_IND",
+        "kickoff": "2024-09-08T17:00:00+00:00",
+        "available_at_proxy": "2024-09-09T17:00:00+00:00",
+        "carries": 40,
+        "targets": 31
+      },
+      {
+        "game_id": "2024_02_CHI_HOU",
+        "kickoff": "2024-09-16T00:20:00+00:00",
+        "available_at_proxy": "2024-09-17T00:20:00+00:00",
+        "carries": 22,
+        "targets": 34
+      },
+      {
+        "game_id": "2024_03_HOU_MIN",
+        "kickoff": "2024-09-22T17:00:00+00:00",
+        "available_at_proxy": "2024-09-23T17:00:00+00:00",
+        "carries": 14,
+        "targets": 43
+      }
+    ]
+  },
+  {
+    "game": "2024_04_JAX_HOU",
+    "player": "Travis Etienne",
+    "player_id": "00-0036973",
+    "prediction_time": "2024-09-29T16:00:00+00:00",
+    "source_games": [
+      {
+        "game_id": "2024_01_JAX_MIA",
+        "kickoff": "2024-09-08T17:00:00+00:00",
+        "available_at_proxy": "2024-09-09T17:00:00+00:00",
+        "carries": 12,
+        "targets": 3
+      },
+      {
+        "game_id": "2024_02_CLE_JAX",
+        "kickoff": "2024-09-15T17:00:00+00:00",
+        "available_at_proxy": "2024-09-16T17:00:00+00:00",
+        "carries": 13,
+        "targets": 4
+      },
+      {
+        "game_id": "2024_03_JAX_BUF",
+        "kickoff": "2024-09-23T23:30:00+00:00",
+        "available_at_proxy": "2024-09-24T23:30:00+00:00",
+        "carries": 11,
+        "targets": 6
+      }
+    ],
+    "team_source_games": [
+      {
+        "game_id": "2024_01_JAX_MIA",
+        "kickoff": "2024-09-08T17:00:00+00:00",
+        "available_at_proxy": "2024-09-09T17:00:00+00:00",
+        "carries": 26,
+        "targets": 19
+      },
+      {
+        "game_id": "2024_02_CLE_JAX",
+        "kickoff": "2024-09-15T17:00:00+00:00",
+        "available_at_proxy": "2024-09-16T17:00:00+00:00",
+        "carries": 21,
+        "targets": 27
+      },
+      {
+        "game_id": "2024_03_JAX_BUF",
+        "kickoff": "2024-09-23T23:30:00+00:00",
+        "available_at_proxy": "2024-09-24T23:30:00+00:00",
+        "carries": 17,
+        "targets": 44
+      }
+    ]
+  },
+  {
+    "game": "2024_04_JAX_HOU",
+    "player": "Christian Kirk",
+    "player_id": "00-0034775",
+    "prediction_time": "2024-09-29T16:00:00+00:00",
+    "source_games": [
+      {
+        "game_id": "2024_01_JAX_MIA",
+        "kickoff": "2024-09-08T17:00:00+00:00",
+        "available_at_proxy": "2024-09-09T17:00:00+00:00",
+        "carries": 0,
+        "targets": 4
+      },
+      {
+        "game_id": "2024_02_CLE_JAX",
+        "kickoff": "2024-09-15T17:00:00+00:00",
+        "available_at_proxy": "2024-09-16T17:00:00+00:00",
+        "carries": 0,
+        "targets": 3
+      },
+      {
+        "game_id": "2024_03_JAX_BUF",
+        "kickoff": "2024-09-23T23:30:00+00:00",
+        "available_at_proxy": "2024-09-24T23:30:00+00:00",
+        "carries": 0,
+        "targets": 10
+      }
+    ],
+    "team_source_games": [
+      {
+        "game_id": "2024_01_JAX_MIA",
+        "kickoff": "2024-09-08T17:00:00+00:00",
+        "available_at_proxy": "2024-09-09T17:00:00+00:00",
+        "carries": 26,
+        "targets": 19
+      },
+      {
+        "game_id": "2024_02_CLE_JAX",
+        "kickoff": "2024-09-15T17:00:00+00:00",
+        "available_at_proxy": "2024-09-16T17:00:00+00:00",
+        "carries": 21,
+        "targets": 27
+      },
+      {
+        "game_id": "2024_03_JAX_BUF",
+        "kickoff": "2024-09-23T23:30:00+00:00",
+        "available_at_proxy": "2024-09-24T23:30:00+00:00",
+        "carries": 17,
+        "targets": 44
+      }
+    ]
+  },
+  {
+    "game": "2024_04_LA_CHI",
+    "player": "D'Andre Swift",
+    "player_id": "00-0036275",
+    "prediction_time": "2024-09-29T16:00:00+00:00",
+    "source_games": [
+      {
+        "game_id": "2024_01_TEN_CHI",
+        "kickoff": "2024-09-08T17:00:00+00:00",
+        "available_at_proxy": "2024-09-09T17:00:00+00:00",
+        "carries": 10,
+        "targets": 1
+      },
+      {
+        "game_id": "2024_02_CHI_HOU",
+        "kickoff": "2024-09-16T00:20:00+00:00",
+        "available_at_proxy": "2024-09-17T00:20:00+00:00",
+        "carries": 14,
+        "targets": 5
+      },
+      {
+        "game_id": "2024_03_CHI_IND",
+        "kickoff": "2024-09-22T17:00:00+00:00",
+        "available_at_proxy": "2024-09-23T17:00:00+00:00",
+        "carries": 13,
+        "targets": 4
+      }
+    ],
+    "team_source_games": [
+      {
+        "game_id": "2024_01_TEN_CHI",
+        "kickoff": "2024-09-08T17:00:00+00:00",
+        "available_at_proxy": "2024-09-09T17:00:00+00:00",
+        "carries": 22,
+        "targets": 29
+      },
+      {
+        "game_id": "2024_02_CHI_HOU",
+        "kickoff": "2024-09-16T00:20:00+00:00",
+        "available_at_proxy": "2024-09-17T00:20:00+00:00",
+        "carries": 22,
+        "targets": 34
+      },
+      {
+        "game_id": "2024_03_CHI_IND",
+        "kickoff": "2024-09-22T17:00:00+00:00",
+        "available_at_proxy": "2024-09-23T17:00:00+00:00",
+        "carries": 28,
+        "targets": 48
+      }
+    ]
+  },
+  {
+    "game": "2024_04_LA_CHI",
+    "player": "DJ Moore",
+    "player_id": "00-0034827",
+    "prediction_time": "2024-09-29T16:00:00+00:00",
+    "source_games": [
+      {
+        "game_id": "2024_01_TEN_CHI",
+        "kickoff": "2024-09-08T17:00:00+00:00",
+        "available_at_proxy": "2024-09-09T17:00:00+00:00",
+        "carries": 1,
+        "targets": 8
+      },
+      {
+        "game_id": "2024_02_CHI_HOU",
+        "kickoff": "2024-09-16T00:20:00+00:00",
+        "available_at_proxy": "2024-09-17T00:20:00+00:00",
+        "carries": 0,
+        "targets": 10
+      },
+      {
+        "game_id": "2024_03_CHI_IND",
+        "kickoff": "2024-09-22T17:00:00+00:00",
+        "available_at_proxy": "2024-09-23T17:00:00+00:00",
+        "carries": 1,
+        "targets": 10
+      }
+    ],
+    "team_source_games": [
+      {
+        "game_id": "2024_01_TEN_CHI",
+        "kickoff": "2024-09-08T17:00:00+00:00",
+        "available_at_proxy": "2024-09-09T17:00:00+00:00",
+        "carries": 22,
+        "targets": 29
+      },
+      {
+        "game_id": "2024_02_CHI_HOU",
+        "kickoff": "2024-09-16T00:20:00+00:00",
+        "available_at_proxy": "2024-09-17T00:20:00+00:00",
+        "carries": 22,
+        "targets": 34
+      },
+      {
+        "game_id": "2024_03_CHI_IND",
+        "kickoff": "2024-09-22T17:00:00+00:00",
+        "available_at_proxy": "2024-09-23T17:00:00+00:00",
+        "carries": 28,
+        "targets": 48
+      }
+    ]
+  },
+  {
+    "game": "2024_04_LA_CHI",
+    "player": "Kyren Williams",
+    "player_id": "00-0037840",
+    "prediction_time": "2024-09-29T16:00:00+00:00",
+    "source_games": [
+      {
+        "game_id": "2024_01_LA_DET",
+        "kickoff": "2024-09-09T00:20:00+00:00",
+        "available_at_proxy": "2024-09-10T00:20:00+00:00",
+        "carries": 18,
+        "targets": 3
+      },
+      {
+        "game_id": "2024_02_LA_ARI",
+        "kickoff": "2024-09-15T20:05:00+00:00",
+        "available_at_proxy": "2024-09-16T20:05:00+00:00",
+        "carries": 12,
+        "targets": 5
+      },
+      {
+        "game_id": "2024_03_SF_LA",
+        "kickoff": "2024-09-22T20:25:00+00:00",
+        "available_at_proxy": "2024-09-23T20:25:00+00:00",
+        "carries": 24,
+        "targets": 2
+      }
+    ],
+    "team_source_games": [
+      {
+        "game_id": "2024_01_LA_DET",
+        "kickoff": "2024-09-09T00:20:00+00:00",
+        "available_at_proxy": "2024-09-10T00:20:00+00:00",
+        "carries": 23,
+        "targets": 48
+      },
+      {
+        "game_id": "2024_02_LA_ARI",
+        "kickoff": "2024-09-15T20:05:00+00:00",
+        "available_at_proxy": "2024-09-16T20:05:00+00:00",
+        "carries": 20,
+        "targets": 27
+      },
+      {
+        "game_id": "2024_03_SF_LA",
+        "kickoff": "2024-09-22T20:25:00+00:00",
+        "available_at_proxy": "2024-09-23T20:25:00+00:00",
+        "carries": 26,
+        "targets": 23
+      }
+    ]
+  },
+  {
+    "game": "2024_04_LA_CHI",
+    "player": "Demarcus Robinson",
+    "player_id": "00-0032775",
+    "prediction_time": "2024-09-29T16:00:00+00:00",
+    "source_games": [
+      {
+        "game_id": "2024_01_LA_DET",
+        "kickoff": "2024-09-09T00:20:00+00:00",
+        "available_at_proxy": "2024-09-10T00:20:00+00:00",
+        "carries": 0,
+        "targets": 7
+      },
+      {
+        "game_id": "2024_02_LA_ARI",
+        "kickoff": "2024-09-15T20:05:00+00:00",
+        "available_at_proxy": "2024-09-16T20:05:00+00:00",
+        "carries": 0,
+        "targets": 4
+      },
+      {
+        "game_id": "2024_03_SF_LA",
+        "kickoff": "2024-09-22T20:25:00+00:00",
+        "available_at_proxy": "2024-09-23T20:25:00+00:00",
+        "carries": 0,
+        "targets": 4
+      }
+    ],
+    "team_source_games": [
+      {
+        "game_id": "2024_01_LA_DET",
+        "kickoff": "2024-09-09T00:20:00+00:00",
+        "available_at_proxy": "2024-09-10T00:20:00+00:00",
+        "carries": 23,
+        "targets": 48
+      },
+      {
+        "game_id": "2024_02_LA_ARI",
+        "kickoff": "2024-09-15T20:05:00+00:00",
+        "available_at_proxy": "2024-09-16T20:05:00+00:00",
+        "carries": 20,
+        "targets": 27
+      },
+      {
+        "game_id": "2024_03_SF_LA",
+        "kickoff": "2024-09-22T20:25:00+00:00",
+        "available_at_proxy": "2024-09-23T20:25:00+00:00",
+        "carries": 26,
+        "targets": 23
+      }
+    ]
+  },
+  {
+    "game": "2024_04_MIN_GB",
+    "player": "Josh Jacobs",
+    "player_id": "00-0035700",
+    "prediction_time": "2024-09-29T16:00:00+00:00",
+    "source_games": [
+      {
+        "game_id": "2024_01_GB_PHI",
+        "kickoff": "2024-09-07T00:15:00+00:00",
+        "available_at_proxy": "2024-09-08T00:15:00+00:00",
+        "carries": 16,
+        "targets": 3
+      },
+      {
+        "game_id": "2024_02_IND_GB",
+        "kickoff": "2024-09-15T17:00:00+00:00",
+        "available_at_proxy": "2024-09-16T17:00:00+00:00",
+        "carries": 32,
+        "targets": 0
+      },
+      {
+        "game_id": "2024_03_GB_TEN",
+        "kickoff": "2024-09-22T17:00:00+00:00",
+        "available_at_proxy": "2024-09-23T17:00:00+00:00",
+        "carries": 14,
+        "targets": 1
+      }
+    ],
+    "team_source_games": [
+      {
+        "game_id": "2024_01_GB_PHI",
+        "kickoff": "2024-09-07T00:15:00+00:00",
+        "available_at_proxy": "2024-09-08T00:15:00+00:00",
+        "carries": 21,
+        "targets": 32
+      },
+      {
+        "game_id": "2024_02_IND_GB",
+        "kickoff": "2024-09-15T17:00:00+00:00",
+        "available_at_proxy": "2024-09-16T17:00:00+00:00",
+        "carries": 53,
+        "targets": 13
+      },
+      {
+        "game_id": "2024_03_GB_TEN",
+        "kickoff": "2024-09-22T17:00:00+00:00",
+        "available_at_proxy": "2024-09-23T17:00:00+00:00",
+        "carries": 37,
+        "targets": 19
+      }
+    ]
+  },
+  {
+    "game": "2024_04_MIN_GB",
+    "player": "Emanuel Wilson",
+    "player_id": "00-0038797",
+    "prediction_time": "2024-09-29T16:00:00+00:00",
+    "source_games": [
+      {
+        "game_id": "2024_01_GB_PHI",
+        "kickoff": "2024-09-07T00:15:00+00:00",
+        "available_at_proxy": "2024-09-08T00:15:00+00:00",
+        "carries": 4,
+        "targets": 3
+      },
+      {
+        "game_id": "2024_02_IND_GB",
+        "kickoff": "2024-09-15T17:00:00+00:00",
+        "available_at_proxy": "2024-09-16T17:00:00+00:00",
+        "carries": 5,
+        "targets": 0
+      },
+      {
+        "game_id": "2024_03_GB_TEN",
+        "kickoff": "2024-09-22T17:00:00+00:00",
+        "available_at_proxy": "2024-09-23T17:00:00+00:00",
+        "carries": 12,
+        "targets": 2
+      }
+    ],
+    "team_source_games": [
+      {
+        "game_id": "2024_01_GB_PHI",
+        "kickoff": "2024-09-07T00:15:00+00:00",
+        "available_at_proxy": "2024-09-08T00:15:00+00:00",
+        "carries": 21,
+        "targets": 32
+      },
+      {
+        "game_id": "2024_02_IND_GB",
+        "kickoff": "2024-09-15T17:00:00+00:00",
+        "available_at_proxy": "2024-09-16T17:00:00+00:00",
+        "carries": 53,
+        "targets": 13
+      },
+      {
+        "game_id": "2024_03_GB_TEN",
+        "kickoff": "2024-09-22T17:00:00+00:00",
+        "available_at_proxy": "2024-09-23T17:00:00+00:00",
+        "carries": 37,
+        "targets": 19
+      }
+    ]
+  },
+  {
+    "game": "2024_04_MIN_GB",
+    "player": "Aaron Jones",
+    "player_id": "00-0033293",
+    "prediction_time": "2024-09-29T16:00:00+00:00",
+    "source_games": [
+      {
+        "game_id": "2024_01_MIN_NYG",
+        "kickoff": "2024-09-08T17:00:00+00:00",
+        "available_at_proxy": "2024-09-09T17:00:00+00:00",
+        "carries": 14,
+        "targets": 2
+      },
+      {
+        "game_id": "2024_02_SF_MIN",
+        "kickoff": "2024-09-15T17:00:00+00:00",
+        "available_at_proxy": "2024-09-16T17:00:00+00:00",
+        "carries": 9,
+        "targets": 6
+      },
+      {
+        "game_id": "2024_03_HOU_MIN",
+        "kickoff": "2024-09-22T17:00:00+00:00",
+        "available_at_proxy": "2024-09-23T17:00:00+00:00",
+        "carries": 19,
+        "targets": 6
+      }
+    ],
+    "team_source_games": [
+      {
+        "game_id": "2024_01_MIN_NYG",
+        "kickoff": "2024-09-08T17:00:00+00:00",
+        "available_at_proxy": "2024-09-09T17:00:00+00:00",
+        "carries": 26,
+        "targets": 23
+      },
+      {
+        "game_id": "2024_02_SF_MIN",
+        "kickoff": "2024-09-15T17:00:00+00:00",
+        "available_at_proxy": "2024-09-16T17:00:00+00:00",
+        "carries": 24,
+        "targets": 24
+      },
+      {
+        "game_id": "2024_03_HOU_MIN",
+        "kickoff": "2024-09-22T17:00:00+00:00",
+        "available_at_proxy": "2024-09-23T17:00:00+00:00",
+        "carries": 28,
+        "targets": 25
+      }
+    ]
+  },
+  {
+    "game": "2024_04_MIN_GB",
+    "player": "Ty Chandler",
+    "player_id": "00-0037276",
+    "prediction_time": "2024-09-29T16:00:00+00:00",
+    "source_games": [
+      {
+        "game_id": "2024_01_MIN_NYG",
+        "kickoff": "2024-09-08T17:00:00+00:00",
+        "available_at_proxy": "2024-09-09T17:00:00+00:00",
+        "carries": 8,
+        "targets": 3
+      },
+      {
+        "game_id": "2024_02_SF_MIN",
+        "kickoff": "2024-09-15T17:00:00+00:00",
+        "available_at_proxy": "2024-09-16T17:00:00+00:00",
+        "carries": 10,
+        "targets": 0
+      },
+      {
+        "game_id": "2024_03_HOU_MIN",
+        "kickoff": "2024-09-22T17:00:00+00:00",
+        "available_at_proxy": "2024-09-23T17:00:00+00:00",
+        "carries": 7,
+        "targets": 0
+      }
+    ],
+    "team_source_games": [
+      {
+        "game_id": "2024_01_MIN_NYG",
+        "kickoff": "2024-09-08T17:00:00+00:00",
+        "available_at_proxy": "2024-09-09T17:00:00+00:00",
+        "carries": 26,
+        "targets": 23
+      },
+      {
+        "game_id": "2024_02_SF_MIN",
+        "kickoff": "2024-09-15T17:00:00+00:00",
+        "available_at_proxy": "2024-09-16T17:00:00+00:00",
+        "carries": 24,
+        "targets": 24
+      },
+      {
+        "game_id": "2024_03_HOU_MIN",
+        "kickoff": "2024-09-22T17:00:00+00:00",
+        "available_at_proxy": "2024-09-23T17:00:00+00:00",
+        "carries": 28,
+        "targets": 25
+      }
+    ]
+  },
+  {
+    "game": "2024_04_NO_ATL",
+    "player": "Bijan Robinson",
+    "player_id": "00-0038542",
+    "prediction_time": "2024-09-29T16:00:00+00:00",
+    "source_games": [
+      {
+        "game_id": "2024_01_PIT_ATL",
+        "kickoff": "2024-09-08T17:00:00+00:00",
+        "available_at_proxy": "2024-09-09T17:00:00+00:00",
+        "carries": 18,
+        "targets": 5
+      },
+      {
+        "game_id": "2024_02_ATL_PHI",
+        "kickoff": "2024-09-17T00:15:00+00:00",
+        "available_at_proxy": "2024-09-18T00:15:00+00:00",
+        "carries": 14,
+        "targets": 5
+      },
+      {
+        "game_id": "2024_03_KC_ATL",
+        "kickoff": "2024-09-23T00:20:00+00:00",
+        "available_at_proxy": "2024-09-24T00:20:00+00:00",
+        "carries": 16,
+        "targets": 2
+      }
+    ],
+    "team_source_games": [
+      {
+        "game_id": "2024_01_PIT_ATL",
+        "kickoff": "2024-09-08T17:00:00+00:00",
+        "available_at_proxy": "2024-09-09T17:00:00+00:00",
+        "carries": 22,
+        "targets": 23
+      },
+      {
+        "game_id": "2024_02_ATL_PHI",
+        "kickoff": "2024-09-17T00:15:00+00:00",
+        "available_at_proxy": "2024-09-18T00:15:00+00:00",
+        "carries": 28,
+        "targets": 29
+      },
+      {
+        "game_id": "2024_03_KC_ATL",
+        "kickoff": "2024-09-23T00:20:00+00:00",
+        "available_at_proxy": "2024-09-24T00:20:00+00:00",
+        "carries": 25,
+        "targets": 27
+      }
+    ]
+  },
+  {
+    "game": "2024_04_NO_ATL",
+    "player": "Tyler Allgeier",
+    "player_id": "00-0037263",
+    "prediction_time": "2024-09-29T16:00:00+00:00",
+    "source_games": [
+      {
+        "game_id": "2024_01_PIT_ATL",
+        "kickoff": "2024-09-08T17:00:00+00:00",
+        "available_at_proxy": "2024-09-09T17:00:00+00:00",
+        "carries": 3,
+        "targets": 0
+      },
+      {
+        "game_id": "2024_02_ATL_PHI",
+        "kickoff": "2024-09-17T00:15:00+00:00",
+        "available_at_proxy": "2024-09-18T00:15:00+00:00",
+        "carries": 9,
+        "targets": 1
+      },
+      {
+        "game_id": "2024_03_KC_ATL",
+        "kickoff": "2024-09-23T00:20:00+00:00",
+        "available_at_proxy": "2024-09-24T00:20:00+00:00",
+        "carries": 7,
+        "targets": 0
+      }
+    ],
+    "team_source_games": [
+      {
+        "game_id": "2024_01_PIT_ATL",
+        "kickoff": "2024-09-08T17:00:00+00:00",
+        "available_at_proxy": "2024-09-09T17:00:00+00:00",
+        "carries": 22,
+        "targets": 23
+      },
+      {
+        "game_id": "2024_02_ATL_PHI",
+        "kickoff": "2024-09-17T00:15:00+00:00",
+        "available_at_proxy": "2024-09-18T00:15:00+00:00",
+        "carries": 28,
+        "targets": 29
+      },
+      {
+        "game_id": "2024_03_KC_ATL",
+        "kickoff": "2024-09-23T00:20:00+00:00",
+        "available_at_proxy": "2024-09-24T00:20:00+00:00",
+        "carries": 25,
+        "targets": 27
+      }
+    ]
+  },
+  {
+    "game": "2024_04_NO_ATL",
+    "player": "Alvin Kamara",
+    "player_id": "00-0033906",
+    "prediction_time": "2024-09-29T16:00:00+00:00",
+    "source_games": [
+      {
+        "game_id": "2024_01_CAR_NO",
+        "kickoff": "2024-09-08T17:00:00+00:00",
+        "available_at_proxy": "2024-09-09T17:00:00+00:00",
+        "carries": 15,
+        "targets": 5
+      },
+      {
+        "game_id": "2024_02_NO_DAL",
+        "kickoff": "2024-09-15T17:00:00+00:00",
+        "available_at_proxy": "2024-09-16T17:00:00+00:00",
+        "carries": 20,
+        "targets": 3
+      },
+      {
+        "game_id": "2024_03_PHI_NO",
+        "kickoff": "2024-09-22T17:00:00+00:00",
+        "available_at_proxy": "2024-09-23T17:00:00+00:00",
+        "carries": 26,
+        "targets": 3
+      }
+    ],
+    "team_source_games": [
+      {
+        "game_id": "2024_01_CAR_NO",
+        "kickoff": "2024-09-08T17:00:00+00:00",
+        "available_at_proxy": "2024-09-09T17:00:00+00:00",
+        "carries": 37,
+        "targets": 24
+      },
+      {
+        "game_id": "2024_02_NO_DAL",
+        "kickoff": "2024-09-15T17:00:00+00:00",
+        "available_at_proxy": "2024-09-16T17:00:00+00:00",
+        "carries": 39,
+        "targets": 15
+      },
+      {
+        "game_id": "2024_03_PHI_NO",
+        "kickoff": "2024-09-22T17:00:00+00:00",
+        "available_at_proxy": "2024-09-23T17:00:00+00:00",
+        "carries": 29,
+        "targets": 23
+      }
+    ]
+  },
+  {
+    "game": "2024_04_NO_ATL",
+    "player": "Jamaal Williams",
+    "player_id": "00-0033948",
+    "prediction_time": "2024-09-29T16:00:00+00:00",
+    "source_games": [
+      {
+        "game_id": "2024_01_CAR_NO",
+        "kickoff": "2024-09-08T17:00:00+00:00",
+        "available_at_proxy": "2024-09-09T17:00:00+00:00",
+        "carries": 11,
+        "targets": 1
+      },
+      {
+        "game_id": "2024_02_NO_DAL",
+        "kickoff": "2024-09-15T17:00:00+00:00",
+        "available_at_proxy": "2024-09-16T17:00:00+00:00",
+        "carries": 8,
+        "targets": 0
+      },
+      {
+        "game_id": "2024_03_PHI_NO",
+        "kickoff": "2024-09-22T17:00:00+00:00",
+        "available_at_proxy": "2024-09-23T17:00:00+00:00",
+        "carries": 1,
+        "targets": 3
+      }
+    ],
+    "team_source_games": [
+      {
+        "game_id": "2024_01_CAR_NO",
+        "kickoff": "2024-09-08T17:00:00+00:00",
+        "available_at_proxy": "2024-09-09T17:00:00+00:00",
+        "carries": 37,
+        "targets": 24
+      },
+      {
+        "game_id": "2024_02_NO_DAL",
+        "kickoff": "2024-09-15T17:00:00+00:00",
+        "available_at_proxy": "2024-09-16T17:00:00+00:00",
+        "carries": 39,
+        "targets": 15
+      },
+      {
+        "game_id": "2024_03_PHI_NO",
+        "kickoff": "2024-09-22T17:00:00+00:00",
+        "available_at_proxy": "2024-09-23T17:00:00+00:00",
+        "carries": 29,
+        "targets": 23
+      }
+    ]
+  },
+  {
+    "game": "2024_04_PHI_TB",
+    "player": "Rachaad White",
+    "player_id": "00-0037256",
+    "prediction_time": "2024-09-29T16:00:00+00:00",
+    "source_games": [
+      {
+        "game_id": "2024_01_WAS_TB",
+        "kickoff": "2024-09-08T20:25:00+00:00",
+        "available_at_proxy": "2024-09-09T20:25:00+00:00",
+        "carries": 15,
+        "targets": 6
+      },
+      {
+        "game_id": "2024_02_TB_DET",
+        "kickoff": "2024-09-15T17:00:00+00:00",
+        "available_at_proxy": "2024-09-16T17:00:00+00:00",
+        "carries": 10,
+        "targets": 1
+      },
+      {
+        "game_id": "2024_03_DEN_TB",
+        "kickoff": "2024-09-22T17:00:00+00:00",
+        "available_at_proxy": "2024-09-23T17:00:00+00:00",
+        "carries": 6,
+        "targets": 6
+      }
+    ],
+    "team_source_games": [
+      {
+        "game_id": "2024_01_WAS_TB",
+        "kickoff": "2024-09-08T20:25:00+00:00",
+        "available_at_proxy": "2024-09-09T20:25:00+00:00",
+        "carries": 30,
+        "targets": 30
+      },
+      {
+        "game_id": "2024_02_TB_DET",
+        "kickoff": "2024-09-15T17:00:00+00:00",
+        "available_at_proxy": "2024-09-16T17:00:00+00:00",
+        "carries": 23,
+        "targets": 19
+      },
+      {
+        "game_id": "2024_03_DEN_TB",
+        "kickoff": "2024-09-22T17:00:00+00:00",
+        "available_at_proxy": "2024-09-23T17:00:00+00:00",
+        "carries": 16,
+        "targets": 32
+      }
+    ]
+  },
+  {
+    "game": "2024_04_PHI_TB",
+    "player": "Bucky Irving",
+    "player_id": "00-0039361",
+    "prediction_time": "2024-09-29T16:00:00+00:00",
+    "source_games": [
+      {
+        "game_id": "2024_01_WAS_TB",
+        "kickoff": "2024-09-08T20:25:00+00:00",
+        "available_at_proxy": "2024-09-09T20:25:00+00:00",
+        "carries": 9,
+        "targets": 3
+      },
+      {
+        "game_id": "2024_02_TB_DET",
+        "kickoff": "2024-09-15T17:00:00+00:00",
+        "available_at_proxy": "2024-09-16T17:00:00+00:00",
+        "carries": 7,
+        "targets": 0
+      },
+      {
+        "game_id": "2024_03_DEN_TB",
+        "kickoff": "2024-09-22T17:00:00+00:00",
+        "available_at_proxy": "2024-09-23T17:00:00+00:00",
+        "carries": 9,
+        "targets": 3
+      }
+    ],
+    "team_source_games": [
+      {
+        "game_id": "2024_01_WAS_TB",
+        "kickoff": "2024-09-08T20:25:00+00:00",
+        "available_at_proxy": "2024-09-09T20:25:00+00:00",
+        "carries": 30,
+        "targets": 30
+      },
+      {
+        "game_id": "2024_02_TB_DET",
+        "kickoff": "2024-09-15T17:00:00+00:00",
+        "available_at_proxy": "2024-09-16T17:00:00+00:00",
+        "carries": 23,
+        "targets": 19
+      },
+      {
+        "game_id": "2024_03_DEN_TB",
+        "kickoff": "2024-09-22T17:00:00+00:00",
+        "available_at_proxy": "2024-09-23T17:00:00+00:00",
+        "carries": 16,
+        "targets": 32
+      }
+    ]
+  },
+  {
+    "game": "2024_04_PHI_TB",
+    "player": "Saquon Barkley",
+    "player_id": "00-0034844",
+    "prediction_time": "2024-09-29T16:00:00+00:00",
+    "source_games": [
+      {
+        "game_id": "2024_01_GB_PHI",
+        "kickoff": "2024-09-07T00:15:00+00:00",
+        "available_at_proxy": "2024-09-08T00:15:00+00:00",
+        "carries": 24,
+        "targets": 2
+      },
+      {
+        "game_id": "2024_02_ATL_PHI",
+        "kickoff": "2024-09-17T00:15:00+00:00",
+        "available_at_proxy": "2024-09-18T00:15:00+00:00",
+        "carries": 22,
+        "targets": 5
+      },
+      {
+        "game_id": "2024_03_PHI_NO",
+        "kickoff": "2024-09-22T17:00:00+00:00",
+        "available_at_proxy": "2024-09-23T17:00:00+00:00",
+        "carries": 17,
+        "targets": 4
+      }
+    ],
+    "team_source_games": [
+      {
+        "game_id": "2024_01_GB_PHI",
+        "kickoff": "2024-09-07T00:15:00+00:00",
+        "available_at_proxy": "2024-09-08T00:15:00+00:00",
+        "carries": 38,
+        "targets": 29
+      },
+      {
+        "game_id": "2024_02_ATL_PHI",
+        "kickoff": "2024-09-17T00:15:00+00:00",
+        "available_at_proxy": "2024-09-18T00:15:00+00:00",
+        "carries": 37,
+        "targets": 29
+      },
+      {
+        "game_id": "2024_03_PHI_NO",
+        "kickoff": "2024-09-22T17:00:00+00:00",
+        "available_at_proxy": "2024-09-23T17:00:00+00:00",
+        "carries": 25,
+        "targets": 36
+      }
+    ]
+  },
+  {
+    "game": "2024_04_PHI_TB",
+    "player": "Jalen Hurts",
+    "player_id": "00-0036389",
+    "prediction_time": "2024-09-29T16:00:00+00:00",
+    "source_games": [
+      {
+        "game_id": "2024_01_GB_PHI",
+        "kickoff": "2024-09-07T00:15:00+00:00",
+        "available_at_proxy": "2024-09-08T00:15:00+00:00",
+        "carries": 13,
+        "targets": 0
+      },
+      {
+        "game_id": "2024_02_ATL_PHI",
+        "kickoff": "2024-09-17T00:15:00+00:00",
+        "available_at_proxy": "2024-09-18T00:15:00+00:00",
+        "carries": 13,
+        "targets": 0
+      },
+      {
+        "game_id": "2024_03_PHI_NO",
+        "kickoff": "2024-09-22T17:00:00+00:00",
+        "available_at_proxy": "2024-09-23T17:00:00+00:00",
+        "carries": 8,
+        "targets": 0
+      }
+    ],
+    "team_source_games": [
+      {
+        "game_id": "2024_01_GB_PHI",
+        "kickoff": "2024-09-07T00:15:00+00:00",
+        "available_at_proxy": "2024-09-08T00:15:00+00:00",
+        "carries": 38,
+        "targets": 29
+      },
+      {
+        "game_id": "2024_02_ATL_PHI",
+        "kickoff": "2024-09-17T00:15:00+00:00",
+        "available_at_proxy": "2024-09-18T00:15:00+00:00",
+        "carries": 37,
+        "targets": 29
+      },
+      {
+        "game_id": "2024_03_PHI_NO",
+        "kickoff": "2024-09-22T17:00:00+00:00",
+        "available_at_proxy": "2024-09-23T17:00:00+00:00",
+        "carries": 25,
+        "targets": 36
+      }
+    ]
+  },
+  {
+    "game": "2024_04_PIT_IND",
+    "player": "Jonathan Taylor",
+    "player_id": "00-0036223",
+    "prediction_time": "2024-09-29T16:00:00+00:00",
+    "source_games": [
+      {
+        "game_id": "2024_01_HOU_IND",
+        "kickoff": "2024-09-08T17:00:00+00:00",
+        "available_at_proxy": "2024-09-09T17:00:00+00:00",
+        "carries": 16,
+        "targets": 0
+      },
+      {
+        "game_id": "2024_02_IND_GB",
+        "kickoff": "2024-09-15T17:00:00+00:00",
+        "available_at_proxy": "2024-09-16T17:00:00+00:00",
+        "carries": 12,
+        "targets": 4
+      },
+      {
+        "game_id": "2024_03_CHI_IND",
+        "kickoff": "2024-09-22T17:00:00+00:00",
+        "available_at_proxy": "2024-09-23T17:00:00+00:00",
+        "carries": 23,
+        "targets": 2
+      }
+    ],
+    "team_source_games": [
+      {
+        "game_id": "2024_01_HOU_IND",
+        "kickoff": "2024-09-08T17:00:00+00:00",
+        "available_at_proxy": "2024-09-09T17:00:00+00:00",
+        "carries": 22,
+        "targets": 19
+      },
+      {
+        "game_id": "2024_02_IND_GB",
+        "kickoff": "2024-09-15T17:00:00+00:00",
+        "available_at_proxy": "2024-09-16T17:00:00+00:00",
+        "carries": 18,
+        "targets": 31
+      },
+      {
+        "game_id": "2024_03_CHI_IND",
+        "kickoff": "2024-09-22T17:00:00+00:00",
+        "available_at_proxy": "2024-09-23T17:00:00+00:00",
+        "carries": 33,
+        "targets": 18
+      }
+    ]
+  },
+  {
+    "game": "2024_04_PIT_IND",
+    "player": "Michael Pittman",
+    "player_id": "00-0036252",
+    "prediction_time": "2024-09-29T16:00:00+00:00",
+    "source_games": [
+      {
+        "game_id": "2024_01_HOU_IND",
+        "kickoff": "2024-09-08T17:00:00+00:00",
+        "available_at_proxy": "2024-09-09T17:00:00+00:00",
+        "carries": 0,
+        "targets": 8
+      },
+      {
+        "game_id": "2024_02_IND_GB",
+        "kickoff": "2024-09-15T17:00:00+00:00",
+        "available_at_proxy": "2024-09-16T17:00:00+00:00",
+        "carries": 0,
+        "targets": 7
+      },
+      {
+        "game_id": "2024_03_CHI_IND",
+        "kickoff": "2024-09-22T17:00:00+00:00",
+        "available_at_proxy": "2024-09-23T17:00:00+00:00",
+        "carries": 0,
+        "targets": 5
+      }
+    ],
+    "team_source_games": [
+      {
+        "game_id": "2024_01_HOU_IND",
+        "kickoff": "2024-09-08T17:00:00+00:00",
+        "available_at_proxy": "2024-09-09T17:00:00+00:00",
+        "carries": 22,
+        "targets": 19
+      },
+      {
+        "game_id": "2024_02_IND_GB",
+        "kickoff": "2024-09-15T17:00:00+00:00",
+        "available_at_proxy": "2024-09-16T17:00:00+00:00",
+        "carries": 18,
+        "targets": 31
+      },
+      {
+        "game_id": "2024_03_CHI_IND",
+        "kickoff": "2024-09-22T17:00:00+00:00",
+        "available_at_proxy": "2024-09-23T17:00:00+00:00",
+        "carries": 33,
+        "targets": 18
+      }
+    ]
+  },
+  {
+    "game": "2024_04_PIT_IND",
+    "player": "Najee Harris",
+    "player_id": "00-0036893",
+    "prediction_time": "2024-09-29T16:00:00+00:00",
+    "source_games": [
+      {
+        "game_id": "2024_01_PIT_ATL",
+        "kickoff": "2024-09-08T17:00:00+00:00",
+        "available_at_proxy": "2024-09-09T17:00:00+00:00",
+        "carries": 20,
+        "targets": 2
+      },
+      {
+        "game_id": "2024_02_PIT_DEN",
+        "kickoff": "2024-09-15T20:25:00+00:00",
+        "available_at_proxy": "2024-09-16T20:25:00+00:00",
+        "carries": 17,
+        "targets": 2
+      },
+      {
+        "game_id": "2024_03_LAC_PIT",
+        "kickoff": "2024-09-22T17:00:00+00:00",
+        "available_at_proxy": "2024-09-23T17:00:00+00:00",
+        "carries": 18,
+        "targets": 5
+      }
+    ],
+    "team_source_games": [
+      {
+        "game_id": "2024_01_PIT_ATL",
+        "kickoff": "2024-09-08T17:00:00+00:00",
+        "available_at_proxy": "2024-09-09T17:00:00+00:00",
+        "carries": 41,
+        "targets": 22
+      },
+      {
+        "game_id": "2024_02_PIT_DEN",
+        "kickoff": "2024-09-15T20:25:00+00:00",
+        "available_at_proxy": "2024-09-16T20:25:00+00:00",
+        "carries": 36,
+        "targets": 18
+      },
+      {
+        "game_id": "2024_03_LAC_PIT",
+        "kickoff": "2024-09-22T17:00:00+00:00",
+        "available_at_proxy": "2024-09-23T17:00:00+00:00",
+        "carries": 31,
+        "targets": 31
+      }
+    ]
+  },
+  {
+    "game": "2024_04_PIT_IND",
+    "player": "Justin Fields",
+    "player_id": "00-0036945",
+    "prediction_time": "2024-09-29T16:00:00+00:00",
+    "source_games": [
+      {
+        "game_id": "2024_01_PIT_ATL",
+        "kickoff": "2024-09-08T17:00:00+00:00",
+        "available_at_proxy": "2024-09-09T17:00:00+00:00",
+        "carries": 14,
+        "targets": 0
+      },
+      {
+        "game_id": "2024_02_PIT_DEN",
+        "kickoff": "2024-09-15T20:25:00+00:00",
+        "available_at_proxy": "2024-09-16T20:25:00+00:00",
+        "carries": 8,
+        "targets": 0
+      },
+      {
+        "game_id": "2024_03_LAC_PIT",
+        "kickoff": "2024-09-22T17:00:00+00:00",
+        "available_at_proxy": "2024-09-23T17:00:00+00:00",
+        "carries": 6,
+        "targets": 0
+      }
+    ],
+    "team_source_games": [
+      {
+        "game_id": "2024_01_PIT_ATL",
+        "kickoff": "2024-09-08T17:00:00+00:00",
+        "available_at_proxy": "2024-09-09T17:00:00+00:00",
+        "carries": 41,
+        "targets": 22
+      },
+      {
+        "game_id": "2024_02_PIT_DEN",
+        "kickoff": "2024-09-15T20:25:00+00:00",
+        "available_at_proxy": "2024-09-16T20:25:00+00:00",
+        "carries": 36,
+        "targets": 18
+      },
+      {
+        "game_id": "2024_03_LAC_PIT",
+        "kickoff": "2024-09-22T17:00:00+00:00",
+        "available_at_proxy": "2024-09-23T17:00:00+00:00",
+        "carries": 31,
+        "targets": 31
+      }
+    ]
+  },
+  {
+    "game": "2024_04_NE_SF",
+    "player": "Jordan Mason",
+    "player_id": "00-0037525",
+    "prediction_time": "2024-09-29T19:05:00+00:00",
+    "source_games": [
+      {
+        "game_id": "2024_01_NYJ_SF",
+        "kickoff": "2024-09-10T00:15:00+00:00",
+        "available_at_proxy": "2024-09-11T00:15:00+00:00",
+        "carries": 28,
+        "targets": 1
+      },
+      {
+        "game_id": "2024_02_SF_MIN",
+        "kickoff": "2024-09-15T17:00:00+00:00",
+        "available_at_proxy": "2024-09-16T17:00:00+00:00",
+        "carries": 20,
+        "targets": 1
+      },
+      {
+        "game_id": "2024_03_SF_LA",
+        "kickoff": "2024-09-22T20:25:00+00:00",
+        "available_at_proxy": "2024-09-23T20:25:00+00:00",
+        "carries": 19,
+        "targets": 2
+      }
+    ],
+    "team_source_games": [
+      {
+        "game_id": "2024_01_NYJ_SF",
+        "kickoff": "2024-09-10T00:15:00+00:00",
+        "available_at_proxy": "2024-09-11T00:15:00+00:00",
+        "carries": 38,
+        "targets": 29
+      },
+      {
+        "game_id": "2024_02_SF_MIN",
+        "kickoff": "2024-09-15T17:00:00+00:00",
+        "available_at_proxy": "2024-09-16T17:00:00+00:00",
+        "carries": 25,
+        "targets": 36
+      },
+      {
+        "game_id": "2024_03_SF_LA",
+        "kickoff": "2024-09-22T20:25:00+00:00",
+        "available_at_proxy": "2024-09-23T20:25:00+00:00",
+        "carries": 34,
+        "targets": 30
+      }
+    ]
+  },
+  {
+    "game": "2024_04_NE_SF",
+    "player": "Deebo Samuel Sr.",
+    "player_id": "00-0035719",
+    "prediction_time": "2024-09-29T19:05:00+00:00",
+    "source_games": [
+      {
+        "game_id": "2024_01_NYJ_SF",
+        "kickoff": "2024-09-10T00:15:00+00:00",
+        "available_at_proxy": "2024-09-11T00:15:00+00:00",
+        "carries": 8,
+        "targets": 9
+      },
+      {
+        "game_id": "2024_02_SF_MIN",
+        "kickoff": "2024-09-15T17:00:00+00:00",
+        "available_at_proxy": "2024-09-16T17:00:00+00:00",
+        "carries": 2,
+        "targets": 10
+      }
+    ],
+    "team_source_games": [
+      {
+        "game_id": "2024_01_NYJ_SF",
+        "kickoff": "2024-09-10T00:15:00+00:00",
+        "available_at_proxy": "2024-09-11T00:15:00+00:00",
+        "carries": 38,
+        "targets": 29
+      },
+      {
+        "game_id": "2024_02_SF_MIN",
+        "kickoff": "2024-09-15T17:00:00+00:00",
+        "available_at_proxy": "2024-09-16T17:00:00+00:00",
+        "carries": 25,
+        "targets": 36
+      }
+    ]
+  },
+  {
+    "game": "2024_04_NE_SF",
+    "player": "Rhamondre Stevenson",
+    "player_id": "00-0036875",
+    "prediction_time": "2024-09-29T19:05:00+00:00",
+    "source_games": [
+      {
+        "game_id": "2024_01_NE_CIN",
+        "kickoff": "2024-09-08T17:00:00+00:00",
+        "available_at_proxy": "2024-09-09T17:00:00+00:00",
+        "carries": 25,
+        "targets": 3
+      },
+      {
+        "game_id": "2024_02_SEA_NE",
+        "kickoff": "2024-09-15T17:00:00+00:00",
+        "available_at_proxy": "2024-09-16T17:00:00+00:00",
+        "carries": 21,
+        "targets": 5
+      },
+      {
+        "game_id": "2024_03_NE_NYJ",
+        "kickoff": "2024-09-20T00:15:00+00:00",
+        "available_at_proxy": "2024-09-21T00:15:00+00:00",
+        "carries": 6,
+        "targets": 0
+      }
+    ],
+    "team_source_games": [
+      {
+        "game_id": "2024_01_NE_CIN",
+        "kickoff": "2024-09-08T17:00:00+00:00",
+        "available_at_proxy": "2024-09-09T17:00:00+00:00",
+        "carries": 39,
+        "targets": 23
+      },
+      {
+        "game_id": "2024_02_SEA_NE",
+        "kickoff": "2024-09-15T17:00:00+00:00",
+        "available_at_proxy": "2024-09-16T17:00:00+00:00",
+        "carries": 36,
+        "targets": 24
+      },
+      {
+        "game_id": "2024_03_NE_NYJ",
+        "kickoff": "2024-09-20T00:15:00+00:00",
+        "available_at_proxy": "2024-09-21T00:15:00+00:00",
+        "carries": 15,
+        "targets": 24
+      }
+    ]
+  },
+  {
+    "game": "2024_04_NE_SF",
+    "player": "Antonio Gibson",
+    "player_id": "00-0036328",
+    "prediction_time": "2024-09-29T19:05:00+00:00",
+    "source_games": [
+      {
+        "game_id": "2024_01_NE_CIN",
+        "kickoff": "2024-09-08T17:00:00+00:00",
+        "available_at_proxy": "2024-09-09T17:00:00+00:00",
+        "carries": 7,
+        "targets": 0
+      },
+      {
+        "game_id": "2024_02_SEA_NE",
+        "kickoff": "2024-09-15T17:00:00+00:00",
+        "available_at_proxy": "2024-09-16T17:00:00+00:00",
+        "carries": 11,
+        "targets": 1
+      },
+      {
+        "game_id": "2024_03_NE_NYJ",
+        "kickoff": "2024-09-20T00:15:00+00:00",
+        "available_at_proxy": "2024-09-21T00:15:00+00:00",
+        "carries": 5,
+        "targets": 3
+      }
+    ],
+    "team_source_games": [
+      {
+        "game_id": "2024_01_NE_CIN",
+        "kickoff": "2024-09-08T17:00:00+00:00",
+        "available_at_proxy": "2024-09-09T17:00:00+00:00",
+        "carries": 39,
+        "targets": 23
+      },
+      {
+        "game_id": "2024_02_SEA_NE",
+        "kickoff": "2024-09-15T17:00:00+00:00",
+        "available_at_proxy": "2024-09-16T17:00:00+00:00",
+        "carries": 36,
+        "targets": 24
+      },
+      {
+        "game_id": "2024_03_NE_NYJ",
+        "kickoff": "2024-09-20T00:15:00+00:00",
+        "available_at_proxy": "2024-09-21T00:15:00+00:00",
+        "carries": 15,
+        "targets": 24
+      }
+    ]
+  }
+]
