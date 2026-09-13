@@ -10,6 +10,8 @@ from nfl_td_model.odds import OddsAPIError
 from nfl_td_model.phase1 import build_phase1_audit
 from nfl_td_model.phase2 import build_phase2_features
 from nfl_td_model.phase2_verify import verify_historical_phase2, verify_phase2_features
+from nfl_td_model.phase3 import build_phase3
+from nfl_td_model.phase3_verify import verify_phase3
 from nfl_td_model.storage import connect_catalog
 from nfl_td_model.verify import verify_phase1
 
@@ -75,3 +77,22 @@ def phase2_verify() -> None:
         f"PHASE 2 VERIFIED: {summary['rows']} rows across {summary['games']} games "
         f"in {summary['seasons']} seasons"
     )
+
+
+@app.command("phase3-build")
+def phase3_build() -> None:
+    """Build chronological play-level xTD and strictly lagged player-game candidates."""
+    logging.basicConfig(level=logging.INFO, format="%(levelname)s %(name)s %(message)s")
+    output, report = build_phase3(Settings())
+    typer.echo(f"Phase 3 lagged features: {output}\nReport: {report}")
+
+
+@app.command("phase3-verify")
+def phase3_verify() -> None:
+    """Enforce Phase 3 artifact, aggregation and temporal acceptance."""
+    try:
+        summary = verify_phase3(Settings().data_dir, Path("reports"))
+    except (ValueError, FileNotFoundError) as exc:
+        typer.echo(f"PHASE 3 NOT VERIFIED: {exc}", err=True)
+        raise typer.Exit(code=1) from exc
+    typer.echo(f"PHASE 3 VERIFIED: {summary}")

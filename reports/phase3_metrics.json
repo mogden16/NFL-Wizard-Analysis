@@ -1,0 +1,3608 @@
+{
+  "opportunities_by_season": {
+    "2017": {
+      "rushing": 13355,
+      "receiving": 17161,
+      "lateral_or_ambiguous_dropped": 0
+    },
+    "2018": {
+      "rushing": 12872,
+      "receiving": 17158,
+      "lateral_or_ambiguous_dropped": 1
+    },
+    "2019": {
+      "rushing": 12989,
+      "receiving": 17135,
+      "lateral_or_ambiguous_dropped": 0
+    },
+    "2020": {
+      "rushing": 13372,
+      "receiving": 17301,
+      "lateral_or_ambiguous_dropped": 1
+    },
+    "2021": {
+      "rushing": 14093,
+      "receiving": 18044,
+      "lateral_or_ambiguous_dropped": 0
+    },
+    "2022": {
+      "rushing": 14345,
+      "receiving": 17292,
+      "lateral_or_ambiguous_dropped": 0
+    },
+    "2023": {
+      "rushing": 14176,
+      "receiving": 17475,
+      "lateral_or_ambiguous_dropped": 0
+    },
+    "2024": {
+      "rushing": 14278,
+      "receiving": 16993,
+      "lateral_or_ambiguous_dropped": 3
+    }
+  },
+  "modeled_rows": {
+    "rushing": 109480,
+    "receiving": 138559
+  },
+  "scored_rows": 217523,
+  "aggregate_rows": 35722,
+  "lagged_rows": 54916,
+  "seasons": [
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024
+  ],
+  "comparison": {
+    "rushing": {
+      "logistic": {
+        "architecture": "logistic",
+        "fit": {
+          "train_rows": 81026,
+          "fit_max_season": 2022,
+          "calibration": {
+            "season": 2023,
+            "fit_weeks": "1-9",
+            "check_weeks": "10+",
+            "raw": {
+              "log_loss": 0.08030390860157603,
+              "brier": 0.022083584940933175,
+              "calibration_gap": 0.00303807690561586
+            },
+            "sigmoid": {
+              "log_loss": 0.08009288168561078,
+              "brier": 0.022082140167882045,
+              "calibration_gap": 0.004526531062205406
+            },
+            "selected": true
+          }
+        },
+        "validation_rows": 14278,
+        "validation_tds": 511,
+        "metrics": {
+          "log_loss": 0.08999793176903866,
+          "brier": 0.023930532690972565,
+          "calibration_gap": 0.00354606426594897
+        },
+        "calibration": [
+          {
+            "bin": "0-1%",
+            "observations": 10573,
+            "mean_predicted": 0.0032638536291550936,
+            "actual_td_rate": 0.004634446230965667
+          },
+          {
+            "bin": "1-2%",
+            "observations": 1037,
+            "mean_predicted": 0.013499637745595705,
+            "actual_td_rate": 0.013500482160077145
+          },
+          {
+            "bin": "2-5%",
+            "observations": 972,
+            "mean_predicted": 0.032945133226081925,
+            "actual_td_rate": 0.03189300411522634
+          },
+          {
+            "bin": "5-10%",
+            "observations": 562,
+            "mean_predicted": 0.07191336358852624,
+            "actual_td_rate": 0.05338078291814947
+          },
+          {
+            "bin": "10-20%",
+            "observations": 395,
+            "mean_predicted": 0.1377325807040357,
+            "actual_td_rate": 0.17215189873417722
+          },
+          {
+            "bin": "20-35%",
+            "observations": 280,
+            "mean_predicted": 0.26588371074551254,
+            "actual_td_rate": 0.2714285714285714
+          },
+          {
+            "bin": "35-50%",
+            "observations": 155,
+            "mean_predicted": 0.4113441853015755,
+            "actual_td_rate": 0.3935483870967742
+          },
+          {
+            "bin": "50%+",
+            "observations": 304,
+            "mean_predicted": 0.5763354138649704,
+            "actual_td_rate": 0.5986842105263158
+          }
+        ],
+        "top_features": [
+          {
+            "feature": "log_yardline",
+            "importance": 1.1666554145906574
+          },
+          {
+            "feature": "run_location=Unknown",
+            "importance": 0.28637788009224424
+          },
+          {
+            "feature": "yardline_100",
+            "importance": 0.2601009251077481
+          },
+          {
+            "feature": "run_gap=end",
+            "importance": 0.17039321544253222
+          },
+          {
+            "feature": "inside_20",
+            "importance": 0.15058152241457023
+          },
+          {
+            "feature": "qtr",
+            "importance": 0.10595372336669734
+          },
+          {
+            "feature": "position=WR",
+            "importance": 0.10230511066271808
+          },
+          {
+            "feature": "position=QB",
+            "importance": 0.09955091791485672
+          },
+          {
+            "feature": "run_location=left",
+            "importance": 0.09526436149071797
+          },
+          {
+            "feature": "game_seconds_remaining",
+            "importance": 0.07176646550178054
+          },
+          {
+            "feature": "run_gap=guard",
+            "importance": 0.07010255187808878
+          },
+          {
+            "feature": "qb_scramble",
+            "importance": 0.060087301176522216
+          }
+        ]
+      },
+      "lightgbm": {
+        "architecture": "lightgbm",
+        "fit": {
+          "train_rows": 81026,
+          "fit_max_season": 2022,
+          "calibration": {
+            "season": 2023,
+            "fit_weeks": "1-9",
+            "check_weeks": "10+",
+            "raw": {
+              "log_loss": 0.08026097117455414,
+              "brier": 0.022085071133785196,
+              "calibration_gap": 0.003780538861239525
+            },
+            "sigmoid": {
+              "log_loss": 0.08006883112785773,
+              "brier": 0.02207524386046643,
+              "calibration_gap": 0.004138553277245529
+            },
+            "selected": true
+          }
+        },
+        "validation_rows": 14278,
+        "validation_tds": 511,
+        "metrics": {
+          "log_loss": 0.0898516627732563,
+          "brier": 0.023827492262819373,
+          "calibration_gap": 0.003121987700404308
+        },
+        "calibration": [
+          {
+            "bin": "0-1%",
+            "observations": 10700,
+            "mean_predicted": 0.0032303907028904057,
+            "actual_td_rate": 0.004766355140186916
+          },
+          {
+            "bin": "1-2%",
+            "observations": 782,
+            "mean_predicted": 0.013679696899569724,
+            "actual_td_rate": 0.015345268542199489
+          },
+          {
+            "bin": "2-5%",
+            "observations": 1079,
+            "mean_predicted": 0.032031003200487906,
+            "actual_td_rate": 0.026876737720111215
+          },
+          {
+            "bin": "5-10%",
+            "observations": 553,
+            "mean_predicted": 0.06829856049895076,
+            "actual_td_rate": 0.05605786618444846
+          },
+          {
+            "bin": "10-20%",
+            "observations": 419,
+            "mean_predicted": 0.1375652972428229,
+            "actual_td_rate": 0.15035799522673032
+          },
+          {
+            "bin": "20-35%",
+            "observations": 277,
+            "mean_predicted": 0.2668147802759381,
+            "actual_td_rate": 0.2779783393501805
+          },
+          {
+            "bin": "35-50%",
+            "observations": 173,
+            "mean_predicted": 0.4194328238703699,
+            "actual_td_rate": 0.43352601156069365
+          },
+          {
+            "bin": "50%+",
+            "observations": 295,
+            "mean_predicted": 0.574178577341461,
+            "actual_td_rate": 0.5864406779661017
+          }
+        ],
+        "top_features": [
+          {
+            "feature": "log_yardline",
+            "importance": 108592.03660917282
+          },
+          {
+            "feature": "inside_5",
+            "importance": 34839.90105447173
+          },
+          {
+            "feature": "inside_10",
+            "importance": 5999.992650508881
+          },
+          {
+            "feature": "run_gap=end",
+            "importance": 1541.7036858201027
+          },
+          {
+            "feature": "game_seconds_remaining",
+            "importance": 1538.699743166566
+          },
+          {
+            "feature": "score_differential",
+            "importance": 1511.2857023403049
+          },
+          {
+            "feature": "half_seconds_remaining",
+            "importance": 1415.463777139783
+          },
+          {
+            "feature": "ydstogo",
+            "importance": 900.3405941128731
+          },
+          {
+            "feature": "down",
+            "importance": 729.8417645990849
+          },
+          {
+            "feature": "run_location=Unknown",
+            "importance": 691.2056750059128
+          },
+          {
+            "feature": "qb_scramble",
+            "importance": 628.5869505405426
+          },
+          {
+            "feature": "position=WR",
+            "importance": 566.626895904541
+          }
+        ]
+      },
+      "selected": "logistic",
+      "selection_reason": "LightGBM did not meet the predeclared material-improvement rule"
+    },
+    "receiving": {
+      "logistic": {
+        "architecture": "logistic",
+        "fit": {
+          "train_rows": 104091,
+          "fit_max_season": 2022,
+          "calibration": {
+            "season": 2023,
+            "fit_weeks": "1-9",
+            "check_weeks": "10+",
+            "raw": {
+              "log_loss": 0.11481157789419048,
+              "brier": 0.03218188859492958,
+              "calibration_gap": 0.0041184845710785945
+            },
+            "sigmoid": {
+              "log_loss": 0.11514123381184704,
+              "brier": 0.03221915232969836,
+              "calibration_gap": 0.0053754196381709815
+            },
+            "selected": false
+          }
+        },
+        "validation_rows": 16993,
+        "validation_tds": 806,
+        "metrics": {
+          "log_loss": 0.11532690819022688,
+          "brier": 0.03295980566237094,
+          "calibration_gap": 0.005139656744386857
+        },
+        "calibration": [
+          {
+            "bin": "0-1%",
+            "observations": 10779,
+            "mean_predicted": 0.0028419642494168285,
+            "actual_td_rate": 0.003803692364783375
+          },
+          {
+            "bin": "1-2%",
+            "observations": 1661,
+            "mean_predicted": 0.01422536766410296,
+            "actual_td_rate": 0.012040939193257074
+          },
+          {
+            "bin": "2-5%",
+            "observations": 1523,
+            "mean_predicted": 0.03126354811509999,
+            "actual_td_rate": 0.02232435981615233
+          },
+          {
+            "bin": "5-10%",
+            "observations": 884,
+            "mean_predicted": 0.07220827501677166,
+            "actual_td_rate": 0.058823529411764705
+          },
+          {
+            "bin": "10-20%",
+            "observations": 747,
+            "mean_predicted": 0.14374584043751806,
+            "actual_td_rate": 0.15930388219544847
+          },
+          {
+            "bin": "20-35%",
+            "observations": 742,
+            "mean_predicted": 0.27022540871830847,
+            "actual_td_rate": 0.3045822102425876
+          },
+          {
+            "bin": "35-50%",
+            "observations": 451,
+            "mean_predicted": 0.41557848712554224,
+            "actual_td_rate": 0.43458980044345896
+          },
+          {
+            "bin": "50%+",
+            "observations": 206,
+            "mean_predicted": 0.5835348489663197,
+            "actual_td_rate": 0.5728155339805825
+          }
+        ],
+        "top_features": [
+          {
+            "feature": "relative_to_endzone",
+            "importance": 0.7521073210773165
+          },
+          {
+            "feature": "air_yards",
+            "importance": 0.7477844916930537
+          },
+          {
+            "feature": "log_yardline",
+            "importance": 0.6118181533111546
+          },
+          {
+            "feature": "yardline_100",
+            "importance": 0.48310423699006433
+          },
+          {
+            "feature": "game_seconds_remaining",
+            "importance": 0.16125680913542706
+          },
+          {
+            "feature": "inside_20",
+            "importance": 0.14845504800243398
+          },
+          {
+            "feature": "qtr",
+            "importance": 0.14466249312758458
+          },
+          {
+            "feature": "ydstogo",
+            "importance": 0.14265314737992354
+          },
+          {
+            "feature": "position=RB",
+            "importance": 0.10356092001139354
+          },
+          {
+            "feature": "score_differential",
+            "importance": 0.09532414681822116
+          },
+          {
+            "feature": "end_zone_target",
+            "importance": 0.09055435358984092
+          },
+          {
+            "feature": "shotgun",
+            "importance": 0.07414517506058622
+          }
+        ]
+      },
+      "lightgbm": {
+        "architecture": "lightgbm",
+        "fit": {
+          "train_rows": 104091,
+          "fit_max_season": 2022,
+          "calibration": {
+            "season": 2023,
+            "fit_weeks": "1-9",
+            "check_weeks": "10+",
+            "raw": {
+              "log_loss": 0.11263789511001816,
+              "brier": 0.03186061631126269,
+              "calibration_gap": 0.003890160273513952
+            },
+            "sigmoid": {
+              "log_loss": 0.11301598133204684,
+              "brier": 0.03189969489990451,
+              "calibration_gap": 0.005415120932280753
+            },
+            "selected": false
+          }
+        },
+        "validation_rows": 16993,
+        "validation_tds": 806,
+        "metrics": {
+          "log_loss": 0.11363487224258259,
+          "brier": 0.032829286300039666,
+          "calibration_gap": 0.003602987816305988
+        },
+        "calibration": [
+          {
+            "bin": "0-1%",
+            "observations": 11173,
+            "mean_predicted": 0.0031474373575884965,
+            "actual_td_rate": 0.0034905575942003044
+          },
+          {
+            "bin": "1-2%",
+            "observations": 1470,
+            "mean_predicted": 0.01418357943817324,
+            "actual_td_rate": 0.017687074829931974
+          },
+          {
+            "bin": "2-5%",
+            "observations": 1555,
+            "mean_predicted": 0.031490167251237225,
+            "actual_td_rate": 0.022508038585209004
+          },
+          {
+            "bin": "5-10%",
+            "observations": 738,
+            "mean_predicted": 0.07090766102746131,
+            "actual_td_rate": 0.06368563685636856
+          },
+          {
+            "bin": "10-20%",
+            "observations": 570,
+            "mean_predicted": 0.14305748370959429,
+            "actual_td_rate": 0.17192982456140352
+          },
+          {
+            "bin": "20-35%",
+            "observations": 719,
+            "mean_predicted": 0.2865193529372331,
+            "actual_td_rate": 0.2851182197496523
+          },
+          {
+            "bin": "35-50%",
+            "observations": 623,
+            "mean_predicted": 0.41820740865860684,
+            "actual_td_rate": 0.42857142857142855
+          },
+          {
+            "bin": "50%+",
+            "observations": 145,
+            "mean_predicted": 0.5515637657523553,
+            "actual_td_rate": 0.6137931034482759
+          }
+        ],
+        "top_features": [
+          {
+            "feature": "relative_to_endzone",
+            "importance": 213578.62593126297
+          },
+          {
+            "feature": "air_yards",
+            "importance": 7598.556217417121
+          },
+          {
+            "feature": "log_yardline",
+            "importance": 6953.882008448243
+          },
+          {
+            "feature": "half_seconds_remaining",
+            "importance": 2521.680153278634
+          },
+          {
+            "feature": "ydstogo",
+            "importance": 1892.060481786728
+          },
+          {
+            "feature": "score_differential",
+            "importance": 1787.9137552976608
+          },
+          {
+            "feature": "game_seconds_remaining",
+            "importance": 1632.2823239564896
+          },
+          {
+            "feature": "down",
+            "importance": 794.0668208599091
+          },
+          {
+            "feature": "position=RB",
+            "importance": 781.3068500757217
+          },
+          {
+            "feature": "shotgun",
+            "importance": 736.6456183195114
+          },
+          {
+            "feature": "pass_location=middle",
+            "importance": 699.965750336647
+          },
+          {
+            "feature": "inside_10",
+            "importance": 667.1206893920898
+          }
+        ]
+      },
+      "selected": "logistic",
+      "selection_reason": "LightGBM did not meet the predeclared material-improvement rule"
+    }
+  },
+  "sanity": {
+    "rushing": {
+      "one_vs_twenty_ratio": 27.063565386601493,
+      "goal_to_go_one_vs_non_goal_one": 1.0260278418397826,
+      "one_substantially_greater_than_twenty": true,
+      "goal_to_go_greater": true
+    },
+    "receiving": {
+      "end_zone_one_vs_short_fifty_ratio": 159.62763010290195,
+      "end_zone_target_greater": true
+    }
+  },
+  "probability_examples": {
+    "rushing": [
+      {
+        "scenario": "1-yard line; goal_to_go=0",
+        "xtd": 0.4541327253656804
+      },
+      {
+        "scenario": "1-yard line; goal_to_go=1",
+        "xtd": 0.4659528201157677
+      },
+      {
+        "scenario": "2-yard line; goal_to_go=0",
+        "xtd": 0.3133468653695467
+      },
+      {
+        "scenario": "2-yard line; goal_to_go=1",
+        "xtd": 0.3236754084758821
+      },
+      {
+        "scenario": "5-yard line; goal_to_go=0",
+        "xtd": 0.13885603193873217
+      },
+      {
+        "scenario": "5-yard line; goal_to_go=1",
+        "xtd": 0.14464458332944646
+      },
+      {
+        "scenario": "10-yard line; goal_to_go=0",
+        "xtd": 0.050779674216710605
+      },
+      {
+        "scenario": "10-yard line; goal_to_go=1",
+        "xtd": 0.05312305027062984
+      },
+      {
+        "scenario": "20-yard line; goal_to_go=0",
+        "xtd": 0.01643001566581453
+      },
+      {
+        "scenario": "20-yard line; goal_to_go=1",
+        "xtd": 0.01721697837885209
+      },
+      {
+        "scenario": "35-yard line; goal_to_go=0",
+        "xtd": 0.004270068874234502
+      },
+      {
+        "scenario": "35-yard line; goal_to_go=1",
+        "xtd": 0.0044772473355573555
+      },
+      {
+        "scenario": "50-yard line; goal_to_go=0",
+        "xtd": 0.002198620623177944
+      },
+      {
+        "scenario": "50-yard line; goal_to_go=1",
+        "xtd": 0.0023055276856396275
+      }
+    ],
+    "receiving": [
+      {
+        "scenario": "1-yard line; air_yards=3",
+        "xtd": 0.6735363525856616
+      },
+      {
+        "scenario": "1-yard line; air_yards=2",
+        "xtd": 0.6502985472072709
+      },
+      {
+        "scenario": "2-yard line; air_yards=3",
+        "xtd": 0.578793821430825
+      },
+      {
+        "scenario": "2-yard line; air_yards=3",
+        "xtd": 0.578793821430825
+      },
+      {
+        "scenario": "5-yard line; air_yards=3",
+        "xtd": 0.3088705072667831
+      },
+      {
+        "scenario": "5-yard line; air_yards=6",
+        "xtd": 0.4674242108518762
+      },
+      {
+        "scenario": "10-yard line; air_yards=3",
+        "xtd": 0.18865204123902532
+      },
+      {
+        "scenario": "10-yard line; air_yards=11",
+        "xtd": 0.4342535017410847
+      },
+      {
+        "scenario": "20-yard line; air_yards=3",
+        "xtd": 0.0592734657060566
+      },
+      {
+        "scenario": "20-yard line; air_yards=21",
+        "xtd": 0.3701672060007463
+      },
+      {
+        "scenario": "35-yard line; air_yards=3",
+        "xtd": 0.011707832388475514
+      },
+      {
+        "scenario": "35-yard line; air_yards=36",
+        "xtd": 0.3441950149874522
+      },
+      {
+        "scenario": "50-yard line; air_yards=3",
+        "xtd": 0.004073847032547336
+      },
+      {
+        "scenario": "50-yard line; air_yards=51",
+        "xtd": 0.4625835769020265
+      }
+    ]
+  },
+  "actual_minus_xtd_examples": {
+    "over": [
+      {
+        "season": 2019,
+        "player_id": "00-0032764",
+        "actual_td": 18,
+        "total_xtd": 9.49157377679925,
+        "rushing_xtd": 9.255645761852705,
+        "receiving_xtd": 0.23592801494654447,
+        "td_minus_xtd": 8.50842622320075,
+        "games": 15,
+        "player": "Derrick Henry"
+      },
+      {
+        "season": 2021,
+        "player_id": "00-0035719",
+        "actual_td": 14,
+        "total_xtd": 5.59019712544554,
+        "rushing_xtd": 2.589380863820535,
+        "receiving_xtd": 3.0008162616250047,
+        "td_minus_xtd": 8.40980287455446,
+        "games": 16,
+        "player": "Deebo Samuel Sr."
+      },
+      {
+        "season": 2020,
+        "player_id": "00-0033906",
+        "actual_td": 21,
+        "total_xtd": 12.93447964876054,
+        "rushing_xtd": 9.547175228458787,
+        "receiving_xtd": 3.387304420301752,
+        "td_minus_xtd": 8.06552035123946,
+        "games": 15,
+        "player": "Alvin Kamara"
+      },
+      {
+        "season": 2021,
+        "player_id": "00-0033699",
+        "actual_td": 20,
+        "total_xtd": 12.091599910099998,
+        "rushing_xtd": 8.671173262872227,
+        "receiving_xtd": 3.420426647227772,
+        "td_minus_xtd": 7.908400089900002,
+        "games": 16,
+        "player": "Austin Ekeler"
+      },
+      {
+        "season": 2024,
+        "player_id": "00-0037248",
+        "actual_td": 18,
+        "total_xtd": 10.323021102043619,
+        "rushing_xtd": 9.110166240190543,
+        "receiving_xtd": 1.2128548618530766,
+        "td_minus_xtd": 7.67697889795638,
+        "games": 16,
+        "player": "James Cook"
+      },
+      {
+        "season": 2019,
+        "player_id": "00-0033293",
+        "actual_td": 19,
+        "total_xtd": 11.667723231159934,
+        "rushing_xtd": 8.91995555273453,
+        "receiving_xtd": 2.747767678425404,
+        "td_minus_xtd": 7.332276768840066,
+        "games": 16,
+        "player": "Aaron Jones"
+      },
+      {
+        "season": 2023,
+        "player_id": "00-0031687",
+        "actual_td": 21,
+        "total_xtd": 13.943721282025074,
+        "rushing_xtd": 12.799060878201818,
+        "receiving_xtd": 1.1446604038232562,
+        "td_minus_xtd": 7.0562787179749265,
+        "games": 15,
+        "player": "Raheem Mostert"
+      },
+      {
+        "season": 2020,
+        "player_id": "00-0033040",
+        "actual_td": 17,
+        "total_xtd": 10.272175394622716,
+        "rushing_xtd": 0.39071329498064755,
+        "receiving_xtd": 9.881462099642068,
+        "td_minus_xtd": 6.727824605377285,
+        "games": 15,
+        "player": "Tyreek Hill"
+      }
+    ],
+    "under": [
+      {
+        "season": 2019,
+        "player_id": "00-0033856",
+        "actual_td": 3,
+        "total_xtd": 10.025610294209217,
+        "rushing_xtd": 7.98956341995432,
+        "receiving_xtd": 2.0360468742548976,
+        "td_minus_xtd": -7.0256102942092165,
+        "games": 15,
+        "player": "Leonard Fournette"
+      },
+      {
+        "season": 2023,
+        "player_id": "00-0035261",
+        "actual_td": 6,
+        "total_xtd": 12.857625284229005,
+        "rushing_xtd": 10.425006504541907,
+        "receiving_xtd": 2.4326187796871,
+        "td_minus_xtd": -6.857625284229005,
+        "games": 17,
+        "player": "Tony Pollard"
+      },
+      {
+        "season": 2022,
+        "player_id": "00-0035216",
+        "actual_td": 0,
+        "total_xtd": 6.855232925342317,
+        "rushing_xtd": 0.18699818331249193,
+        "receiving_xtd": 6.668234742029826,
+        "td_minus_xtd": -6.855232925342317,
+        "games": 17,
+        "player": "Diontae Johnson"
+      },
+      {
+        "season": 2024,
+        "player_id": "00-0037744",
+        "actual_td": 3,
+        "total_xtd": 8.840154481735755,
+        "rushing_xtd": 0.5969314337799415,
+        "receiving_xtd": 8.243223047955814,
+        "td_minus_xtd": -5.840154481735755,
+        "games": 16,
+        "player": "Trey McBride"
+      },
+      {
+        "season": 2020,
+        "player_id": "00-0035217",
+        "actual_td": 4,
+        "total_xtd": 9.671084197339388,
+        "rushing_xtd": 8.069502952324184,
+        "receiving_xtd": 1.601581245015204,
+        "td_minus_xtd": -5.671084197339389,
+        "games": 15,
+        "player": "Benny Snell"
+      },
+      {
+        "season": 2024,
+        "player_id": "00-0033293",
+        "actual_td": 7,
+        "total_xtd": 12.334570740950037,
+        "rushing_xtd": 8.798083853485762,
+        "receiving_xtd": 3.5364868874642754,
+        "td_minus_xtd": -5.334570740950037,
+        "games": 17,
+        "player": "Aaron Jones"
+      },
+      {
+        "season": 2020,
+        "player_id": "00-0033045",
+        "actual_td": 8,
+        "total_xtd": 13.086584170654904,
+        "rushing_xtd": 12.067949830542997,
+        "receiving_xtd": 1.0186343401119073,
+        "td_minus_xtd": -5.086584170654905,
+        "games": 15,
+        "player": "Ezekiel Elliott"
+      },
+      {
+        "season": 2023,
+        "player_id": "00-0034972",
+        "actual_td": 3,
+        "total_xtd": 8.017902121212316,
+        "rushing_xtd": 5.161834905031391,
+        "receiving_xtd": 2.8560672161809255,
+        "td_minus_xtd": -5.017902121212317,
+        "games": 16,
+        "player": "Alexander Mattison"
+      }
+    ]
+  },
+  "lagged_feature_coverage": {
+    "2018": {
+      "rows": 7230,
+      "with_xtd_history": 6624,
+      "families": {
+        "last3_xtd_games": {
+          "present": 7230,
+          "missing": 0,
+          "coverage_pct": 100.0
+        },
+        "last3_rushing_xtd": {
+          "present": 6624,
+          "missing": 606,
+          "coverage_pct": 91.62
+        },
+        "last3_rushing_xtd_sum": {
+          "present": 6624,
+          "missing": 606,
+          "coverage_pct": 91.62
+        },
+        "last3_receiving_xtd": {
+          "present": 6624,
+          "missing": 606,
+          "coverage_pct": 91.62
+        },
+        "last3_receiving_xtd_sum": {
+          "present": 6624,
+          "missing": 606,
+          "coverage_pct": 91.62
+        },
+        "last3_total_xtd": {
+          "present": 6624,
+          "missing": 606,
+          "coverage_pct": 91.62
+        },
+        "last3_total_xtd_sum": {
+          "present": 6624,
+          "missing": 606,
+          "coverage_pct": 91.62
+        },
+        "last3_rushing_xtd_share": {
+          "present": 6624,
+          "missing": 606,
+          "coverage_pct": 91.62
+        },
+        "last3_receiving_xtd_share": {
+          "present": 6624,
+          "missing": 606,
+          "coverage_pct": 91.62
+        },
+        "last3_total_xtd_share": {
+          "present": 6624,
+          "missing": 606,
+          "coverage_pct": 91.62
+        },
+        "last3_rushing_xtd_per_attempt": {
+          "present": 3075,
+          "missing": 4155,
+          "coverage_pct": 42.53
+        },
+        "last3_receiving_xtd_per_target": {
+          "present": 5744,
+          "missing": 1486,
+          "coverage_pct": 79.45
+        },
+        "last3_total_xtd_per_opportunity": {
+          "present": 6624,
+          "missing": 606,
+          "coverage_pct": 91.62
+        },
+        "last5_xtd_games": {
+          "present": 7230,
+          "missing": 0,
+          "coverage_pct": 100.0
+        },
+        "last5_rushing_xtd": {
+          "present": 6624,
+          "missing": 606,
+          "coverage_pct": 91.62
+        },
+        "last5_rushing_xtd_sum": {
+          "present": 6624,
+          "missing": 606,
+          "coverage_pct": 91.62
+        },
+        "last5_receiving_xtd": {
+          "present": 6624,
+          "missing": 606,
+          "coverage_pct": 91.62
+        },
+        "last5_receiving_xtd_sum": {
+          "present": 6624,
+          "missing": 606,
+          "coverage_pct": 91.62
+        },
+        "last5_total_xtd": {
+          "present": 6624,
+          "missing": 606,
+          "coverage_pct": 91.62
+        },
+        "last5_total_xtd_sum": {
+          "present": 6624,
+          "missing": 606,
+          "coverage_pct": 91.62
+        },
+        "last5_rushing_xtd_share": {
+          "present": 6624,
+          "missing": 606,
+          "coverage_pct": 91.62
+        },
+        "last5_receiving_xtd_share": {
+          "present": 6624,
+          "missing": 606,
+          "coverage_pct": 91.62
+        },
+        "last5_total_xtd_share": {
+          "present": 6624,
+          "missing": 606,
+          "coverage_pct": 91.62
+        },
+        "last5_rushing_xtd_per_attempt": {
+          "present": 3220,
+          "missing": 4010,
+          "coverage_pct": 44.54
+        },
+        "last5_receiving_xtd_per_target": {
+          "present": 5797,
+          "missing": 1433,
+          "coverage_pct": 80.18
+        },
+        "last5_total_xtd_per_opportunity": {
+          "present": 6624,
+          "missing": 606,
+          "coverage_pct": 91.62
+        },
+        "last8_xtd_games": {
+          "present": 7230,
+          "missing": 0,
+          "coverage_pct": 100.0
+        },
+        "last8_rushing_xtd": {
+          "present": 6624,
+          "missing": 606,
+          "coverage_pct": 91.62
+        },
+        "last8_rushing_xtd_sum": {
+          "present": 6624,
+          "missing": 606,
+          "coverage_pct": 91.62
+        },
+        "last8_receiving_xtd": {
+          "present": 6624,
+          "missing": 606,
+          "coverage_pct": 91.62
+        },
+        "last8_receiving_xtd_sum": {
+          "present": 6624,
+          "missing": 606,
+          "coverage_pct": 91.62
+        },
+        "last8_total_xtd": {
+          "present": 6624,
+          "missing": 606,
+          "coverage_pct": 91.62
+        },
+        "last8_total_xtd_sum": {
+          "present": 6624,
+          "missing": 606,
+          "coverage_pct": 91.62
+        },
+        "last8_rushing_xtd_share": {
+          "present": 6624,
+          "missing": 606,
+          "coverage_pct": 91.62
+        },
+        "last8_receiving_xtd_share": {
+          "present": 6624,
+          "missing": 606,
+          "coverage_pct": 91.62
+        },
+        "last8_total_xtd_share": {
+          "present": 6624,
+          "missing": 606,
+          "coverage_pct": 91.62
+        },
+        "last8_rushing_xtd_per_attempt": {
+          "present": 3297,
+          "missing": 3933,
+          "coverage_pct": 45.6
+        },
+        "last8_receiving_xtd_per_target": {
+          "present": 5823,
+          "missing": 1407,
+          "coverage_pct": 80.54
+        },
+        "last8_total_xtd_per_opportunity": {
+          "present": 6624,
+          "missing": 606,
+          "coverage_pct": 91.62
+        },
+        "season_xtd_games": {
+          "present": 7230,
+          "missing": 0,
+          "coverage_pct": 100.0
+        },
+        "season_rushing_xtd": {
+          "present": 6624,
+          "missing": 606,
+          "coverage_pct": 91.62
+        },
+        "season_rushing_xtd_sum": {
+          "present": 6624,
+          "missing": 606,
+          "coverage_pct": 91.62
+        },
+        "season_receiving_xtd": {
+          "present": 6624,
+          "missing": 606,
+          "coverage_pct": 91.62
+        },
+        "season_receiving_xtd_sum": {
+          "present": 6624,
+          "missing": 606,
+          "coverage_pct": 91.62
+        },
+        "season_total_xtd": {
+          "present": 6624,
+          "missing": 606,
+          "coverage_pct": 91.62
+        },
+        "season_total_xtd_sum": {
+          "present": 6624,
+          "missing": 606,
+          "coverage_pct": 91.62
+        },
+        "season_rushing_xtd_share": {
+          "present": 6624,
+          "missing": 606,
+          "coverage_pct": 91.62
+        },
+        "season_receiving_xtd_share": {
+          "present": 6624,
+          "missing": 606,
+          "coverage_pct": 91.62
+        },
+        "season_total_xtd_share": {
+          "present": 6624,
+          "missing": 606,
+          "coverage_pct": 91.62
+        },
+        "season_rushing_xtd_per_attempt": {
+          "present": 3331,
+          "missing": 3899,
+          "coverage_pct": 46.07
+        },
+        "season_receiving_xtd_per_target": {
+          "present": 5824,
+          "missing": 1406,
+          "coverage_pct": 80.55
+        },
+        "season_total_xtd_per_opportunity": {
+          "present": 6624,
+          "missing": 606,
+          "coverage_pct": 91.62
+        },
+        "ewma_xtd_games": {
+          "present": 7230,
+          "missing": 0,
+          "coverage_pct": 100.0
+        },
+        "ewma_rushing_xtd": {
+          "present": 6624,
+          "missing": 606,
+          "coverage_pct": 91.62
+        },
+        "ewma_rushing_xtd_sum": {
+          "present": 6624,
+          "missing": 606,
+          "coverage_pct": 91.62
+        },
+        "ewma_receiving_xtd": {
+          "present": 6624,
+          "missing": 606,
+          "coverage_pct": 91.62
+        },
+        "ewma_receiving_xtd_sum": {
+          "present": 6624,
+          "missing": 606,
+          "coverage_pct": 91.62
+        },
+        "ewma_total_xtd": {
+          "present": 6624,
+          "missing": 606,
+          "coverage_pct": 91.62
+        },
+        "ewma_total_xtd_sum": {
+          "present": 6624,
+          "missing": 606,
+          "coverage_pct": 91.62
+        },
+        "ewma_rushing_xtd_share": {
+          "present": 6624,
+          "missing": 606,
+          "coverage_pct": 91.62
+        },
+        "ewma_receiving_xtd_share": {
+          "present": 6624,
+          "missing": 606,
+          "coverage_pct": 91.62
+        },
+        "ewma_total_xtd_share": {
+          "present": 6624,
+          "missing": 606,
+          "coverage_pct": 91.62
+        },
+        "ewma_rushing_xtd_per_attempt": {
+          "present": 3331,
+          "missing": 3899,
+          "coverage_pct": 46.07
+        },
+        "ewma_receiving_xtd_per_target": {
+          "present": 5824,
+          "missing": 1406,
+          "coverage_pct": 80.55
+        },
+        "ewma_total_xtd_per_opportunity": {
+          "present": 6624,
+          "missing": 606,
+          "coverage_pct": 91.62
+        }
+      }
+    },
+    "2019": {
+      "rows": 7121,
+      "with_xtd_history": 6602,
+      "families": {
+        "last3_xtd_games": {
+          "present": 7121,
+          "missing": 0,
+          "coverage_pct": 100.0
+        },
+        "last3_rushing_xtd": {
+          "present": 6602,
+          "missing": 519,
+          "coverage_pct": 92.71
+        },
+        "last3_rushing_xtd_sum": {
+          "present": 6602,
+          "missing": 519,
+          "coverage_pct": 92.71
+        },
+        "last3_receiving_xtd": {
+          "present": 6602,
+          "missing": 519,
+          "coverage_pct": 92.71
+        },
+        "last3_receiving_xtd_sum": {
+          "present": 6602,
+          "missing": 519,
+          "coverage_pct": 92.71
+        },
+        "last3_total_xtd": {
+          "present": 6602,
+          "missing": 519,
+          "coverage_pct": 92.71
+        },
+        "last3_total_xtd_sum": {
+          "present": 6602,
+          "missing": 519,
+          "coverage_pct": 92.71
+        },
+        "last3_rushing_xtd_share": {
+          "present": 6602,
+          "missing": 519,
+          "coverage_pct": 92.71
+        },
+        "last3_receiving_xtd_share": {
+          "present": 6602,
+          "missing": 519,
+          "coverage_pct": 92.71
+        },
+        "last3_total_xtd_share": {
+          "present": 6602,
+          "missing": 519,
+          "coverage_pct": 92.71
+        },
+        "last3_rushing_xtd_per_attempt": {
+          "present": 3139,
+          "missing": 3982,
+          "coverage_pct": 44.08
+        },
+        "last3_receiving_xtd_per_target": {
+          "present": 5739,
+          "missing": 1382,
+          "coverage_pct": 80.59
+        },
+        "last3_total_xtd_per_opportunity": {
+          "present": 6602,
+          "missing": 519,
+          "coverage_pct": 92.71
+        },
+        "last5_xtd_games": {
+          "present": 7121,
+          "missing": 0,
+          "coverage_pct": 100.0
+        },
+        "last5_rushing_xtd": {
+          "present": 6602,
+          "missing": 519,
+          "coverage_pct": 92.71
+        },
+        "last5_rushing_xtd_sum": {
+          "present": 6602,
+          "missing": 519,
+          "coverage_pct": 92.71
+        },
+        "last5_receiving_xtd": {
+          "present": 6602,
+          "missing": 519,
+          "coverage_pct": 92.71
+        },
+        "last5_receiving_xtd_sum": {
+          "present": 6602,
+          "missing": 519,
+          "coverage_pct": 92.71
+        },
+        "last5_total_xtd": {
+          "present": 6602,
+          "missing": 519,
+          "coverage_pct": 92.71
+        },
+        "last5_total_xtd_sum": {
+          "present": 6602,
+          "missing": 519,
+          "coverage_pct": 92.71
+        },
+        "last5_rushing_xtd_share": {
+          "present": 6602,
+          "missing": 519,
+          "coverage_pct": 92.71
+        },
+        "last5_receiving_xtd_share": {
+          "present": 6602,
+          "missing": 519,
+          "coverage_pct": 92.71
+        },
+        "last5_total_xtd_share": {
+          "present": 6602,
+          "missing": 519,
+          "coverage_pct": 92.71
+        },
+        "last5_rushing_xtd_per_attempt": {
+          "present": 3392,
+          "missing": 3729,
+          "coverage_pct": 47.63
+        },
+        "last5_receiving_xtd_per_target": {
+          "present": 5796,
+          "missing": 1325,
+          "coverage_pct": 81.39
+        },
+        "last5_total_xtd_per_opportunity": {
+          "present": 6602,
+          "missing": 519,
+          "coverage_pct": 92.71
+        },
+        "last8_xtd_games": {
+          "present": 7121,
+          "missing": 0,
+          "coverage_pct": 100.0
+        },
+        "last8_rushing_xtd": {
+          "present": 6602,
+          "missing": 519,
+          "coverage_pct": 92.71
+        },
+        "last8_rushing_xtd_sum": {
+          "present": 6602,
+          "missing": 519,
+          "coverage_pct": 92.71
+        },
+        "last8_receiving_xtd": {
+          "present": 6602,
+          "missing": 519,
+          "coverage_pct": 92.71
+        },
+        "last8_receiving_xtd_sum": {
+          "present": 6602,
+          "missing": 519,
+          "coverage_pct": 92.71
+        },
+        "last8_total_xtd": {
+          "present": 6602,
+          "missing": 519,
+          "coverage_pct": 92.71
+        },
+        "last8_total_xtd_sum": {
+          "present": 6602,
+          "missing": 519,
+          "coverage_pct": 92.71
+        },
+        "last8_rushing_xtd_share": {
+          "present": 6602,
+          "missing": 519,
+          "coverage_pct": 92.71
+        },
+        "last8_receiving_xtd_share": {
+          "present": 6602,
+          "missing": 519,
+          "coverage_pct": 92.71
+        },
+        "last8_total_xtd_share": {
+          "present": 6602,
+          "missing": 519,
+          "coverage_pct": 92.71
+        },
+        "last8_rushing_xtd_per_attempt": {
+          "present": 3664,
+          "missing": 3457,
+          "coverage_pct": 51.45
+        },
+        "last8_receiving_xtd_per_target": {
+          "present": 5837,
+          "missing": 1284,
+          "coverage_pct": 81.97
+        },
+        "last8_total_xtd_per_opportunity": {
+          "present": 6602,
+          "missing": 519,
+          "coverage_pct": 92.71
+        },
+        "season_xtd_games": {
+          "present": 7121,
+          "missing": 0,
+          "coverage_pct": 100.0
+        },
+        "season_rushing_xtd": {
+          "present": 6439,
+          "missing": 682,
+          "coverage_pct": 90.42
+        },
+        "season_rushing_xtd_sum": {
+          "present": 6439,
+          "missing": 682,
+          "coverage_pct": 90.42
+        },
+        "season_receiving_xtd": {
+          "present": 6439,
+          "missing": 682,
+          "coverage_pct": 90.42
+        },
+        "season_receiving_xtd_sum": {
+          "present": 6439,
+          "missing": 682,
+          "coverage_pct": 90.42
+        },
+        "season_total_xtd": {
+          "present": 6439,
+          "missing": 682,
+          "coverage_pct": 90.42
+        },
+        "season_total_xtd_sum": {
+          "present": 6439,
+          "missing": 682,
+          "coverage_pct": 90.42
+        },
+        "season_rushing_xtd_share": {
+          "present": 6439,
+          "missing": 682,
+          "coverage_pct": 90.42
+        },
+        "season_receiving_xtd_share": {
+          "present": 6439,
+          "missing": 682,
+          "coverage_pct": 90.42
+        },
+        "season_total_xtd_share": {
+          "present": 6439,
+          "missing": 682,
+          "coverage_pct": 90.42
+        },
+        "season_rushing_xtd_per_attempt": {
+          "present": 3365,
+          "missing": 3756,
+          "coverage_pct": 47.25
+        },
+        "season_receiving_xtd_per_target": {
+          "present": 5631,
+          "missing": 1490,
+          "coverage_pct": 79.08
+        },
+        "season_total_xtd_per_opportunity": {
+          "present": 6439,
+          "missing": 682,
+          "coverage_pct": 90.42
+        },
+        "ewma_xtd_games": {
+          "present": 7121,
+          "missing": 0,
+          "coverage_pct": 100.0
+        },
+        "ewma_rushing_xtd": {
+          "present": 6602,
+          "missing": 519,
+          "coverage_pct": 92.71
+        },
+        "ewma_rushing_xtd_sum": {
+          "present": 6602,
+          "missing": 519,
+          "coverage_pct": 92.71
+        },
+        "ewma_receiving_xtd": {
+          "present": 6602,
+          "missing": 519,
+          "coverage_pct": 92.71
+        },
+        "ewma_receiving_xtd_sum": {
+          "present": 6602,
+          "missing": 519,
+          "coverage_pct": 92.71
+        },
+        "ewma_total_xtd": {
+          "present": 6602,
+          "missing": 519,
+          "coverage_pct": 92.71
+        },
+        "ewma_total_xtd_sum": {
+          "present": 6602,
+          "missing": 519,
+          "coverage_pct": 92.71
+        },
+        "ewma_rushing_xtd_share": {
+          "present": 6602,
+          "missing": 519,
+          "coverage_pct": 92.71
+        },
+        "ewma_receiving_xtd_share": {
+          "present": 6602,
+          "missing": 519,
+          "coverage_pct": 92.71
+        },
+        "ewma_total_xtd_share": {
+          "present": 6602,
+          "missing": 519,
+          "coverage_pct": 92.71
+        },
+        "ewma_rushing_xtd_per_attempt": {
+          "present": 3963,
+          "missing": 3158,
+          "coverage_pct": 55.65
+        },
+        "ewma_receiving_xtd_per_target": {
+          "present": 5963,
+          "missing": 1158,
+          "coverage_pct": 83.74
+        },
+        "ewma_total_xtd_per_opportunity": {
+          "present": 6602,
+          "missing": 519,
+          "coverage_pct": 92.71
+        }
+      }
+    },
+    "2020": {
+      "rows": 7642,
+      "with_xtd_history": 7316,
+      "families": {
+        "last3_xtd_games": {
+          "present": 7642,
+          "missing": 0,
+          "coverage_pct": 100.0
+        },
+        "last3_rushing_xtd": {
+          "present": 7316,
+          "missing": 326,
+          "coverage_pct": 95.73
+        },
+        "last3_rushing_xtd_sum": {
+          "present": 7316,
+          "missing": 326,
+          "coverage_pct": 95.73
+        },
+        "last3_receiving_xtd": {
+          "present": 7316,
+          "missing": 326,
+          "coverage_pct": 95.73
+        },
+        "last3_receiving_xtd_sum": {
+          "present": 7316,
+          "missing": 326,
+          "coverage_pct": 95.73
+        },
+        "last3_total_xtd": {
+          "present": 7316,
+          "missing": 326,
+          "coverage_pct": 95.73
+        },
+        "last3_total_xtd_sum": {
+          "present": 7316,
+          "missing": 326,
+          "coverage_pct": 95.73
+        },
+        "last3_rushing_xtd_share": {
+          "present": 7316,
+          "missing": 326,
+          "coverage_pct": 95.73
+        },
+        "last3_receiving_xtd_share": {
+          "present": 7316,
+          "missing": 326,
+          "coverage_pct": 95.73
+        },
+        "last3_total_xtd_share": {
+          "present": 7316,
+          "missing": 326,
+          "coverage_pct": 95.73
+        },
+        "last3_rushing_xtd_per_attempt": {
+          "present": 3652,
+          "missing": 3990,
+          "coverage_pct": 47.79
+        },
+        "last3_receiving_xtd_per_target": {
+          "present": 6384,
+          "missing": 1258,
+          "coverage_pct": 83.54
+        },
+        "last3_total_xtd_per_opportunity": {
+          "present": 7316,
+          "missing": 326,
+          "coverage_pct": 95.73
+        },
+        "last5_xtd_games": {
+          "present": 7642,
+          "missing": 0,
+          "coverage_pct": 100.0
+        },
+        "last5_rushing_xtd": {
+          "present": 7316,
+          "missing": 326,
+          "coverage_pct": 95.73
+        },
+        "last5_rushing_xtd_sum": {
+          "present": 7316,
+          "missing": 326,
+          "coverage_pct": 95.73
+        },
+        "last5_receiving_xtd": {
+          "present": 7316,
+          "missing": 326,
+          "coverage_pct": 95.73
+        },
+        "last5_receiving_xtd_sum": {
+          "present": 7316,
+          "missing": 326,
+          "coverage_pct": 95.73
+        },
+        "last5_total_xtd": {
+          "present": 7316,
+          "missing": 326,
+          "coverage_pct": 95.73
+        },
+        "last5_total_xtd_sum": {
+          "present": 7316,
+          "missing": 326,
+          "coverage_pct": 95.73
+        },
+        "last5_rushing_xtd_share": {
+          "present": 7316,
+          "missing": 326,
+          "coverage_pct": 95.73
+        },
+        "last5_receiving_xtd_share": {
+          "present": 7316,
+          "missing": 326,
+          "coverage_pct": 95.73
+        },
+        "last5_total_xtd_share": {
+          "present": 7316,
+          "missing": 326,
+          "coverage_pct": 95.73
+        },
+        "last5_rushing_xtd_per_attempt": {
+          "present": 3914,
+          "missing": 3728,
+          "coverage_pct": 51.22
+        },
+        "last5_receiving_xtd_per_target": {
+          "present": 6455,
+          "missing": 1187,
+          "coverage_pct": 84.47
+        },
+        "last5_total_xtd_per_opportunity": {
+          "present": 7316,
+          "missing": 326,
+          "coverage_pct": 95.73
+        },
+        "last8_xtd_games": {
+          "present": 7642,
+          "missing": 0,
+          "coverage_pct": 100.0
+        },
+        "last8_rushing_xtd": {
+          "present": 7316,
+          "missing": 326,
+          "coverage_pct": 95.73
+        },
+        "last8_rushing_xtd_sum": {
+          "present": 7316,
+          "missing": 326,
+          "coverage_pct": 95.73
+        },
+        "last8_receiving_xtd": {
+          "present": 7316,
+          "missing": 326,
+          "coverage_pct": 95.73
+        },
+        "last8_receiving_xtd_sum": {
+          "present": 7316,
+          "missing": 326,
+          "coverage_pct": 95.73
+        },
+        "last8_total_xtd": {
+          "present": 7316,
+          "missing": 326,
+          "coverage_pct": 95.73
+        },
+        "last8_total_xtd_sum": {
+          "present": 7316,
+          "missing": 326,
+          "coverage_pct": 95.73
+        },
+        "last8_rushing_xtd_share": {
+          "present": 7316,
+          "missing": 326,
+          "coverage_pct": 95.73
+        },
+        "last8_receiving_xtd_share": {
+          "present": 7316,
+          "missing": 326,
+          "coverage_pct": 95.73
+        },
+        "last8_total_xtd_share": {
+          "present": 7316,
+          "missing": 326,
+          "coverage_pct": 95.73
+        },
+        "last8_rushing_xtd_per_attempt": {
+          "present": 4158,
+          "missing": 3484,
+          "coverage_pct": 54.41
+        },
+        "last8_receiving_xtd_per_target": {
+          "present": 6502,
+          "missing": 1140,
+          "coverage_pct": 85.08
+        },
+        "last8_total_xtd_per_opportunity": {
+          "present": 7316,
+          "missing": 326,
+          "coverage_pct": 95.73
+        },
+        "season_xtd_games": {
+          "present": 7642,
+          "missing": 0,
+          "coverage_pct": 100.0
+        },
+        "season_rushing_xtd": {
+          "present": 7125,
+          "missing": 517,
+          "coverage_pct": 93.23
+        },
+        "season_rushing_xtd_sum": {
+          "present": 7125,
+          "missing": 517,
+          "coverage_pct": 93.23
+        },
+        "season_receiving_xtd": {
+          "present": 7125,
+          "missing": 517,
+          "coverage_pct": 93.23
+        },
+        "season_receiving_xtd_sum": {
+          "present": 7125,
+          "missing": 517,
+          "coverage_pct": 93.23
+        },
+        "season_total_xtd": {
+          "present": 7125,
+          "missing": 517,
+          "coverage_pct": 93.23
+        },
+        "season_total_xtd_sum": {
+          "present": 7125,
+          "missing": 517,
+          "coverage_pct": 93.23
+        },
+        "season_rushing_xtd_share": {
+          "present": 7125,
+          "missing": 517,
+          "coverage_pct": 93.23
+        },
+        "season_receiving_xtd_share": {
+          "present": 7125,
+          "missing": 517,
+          "coverage_pct": 93.23
+        },
+        "season_total_xtd_share": {
+          "present": 7125,
+          "missing": 517,
+          "coverage_pct": 93.23
+        },
+        "season_rushing_xtd_per_attempt": {
+          "present": 3801,
+          "missing": 3841,
+          "coverage_pct": 49.74
+        },
+        "season_receiving_xtd_per_target": {
+          "present": 6286,
+          "missing": 1356,
+          "coverage_pct": 82.26
+        },
+        "season_total_xtd_per_opportunity": {
+          "present": 7125,
+          "missing": 517,
+          "coverage_pct": 93.23
+        },
+        "ewma_xtd_games": {
+          "present": 7642,
+          "missing": 0,
+          "coverage_pct": 100.0
+        },
+        "ewma_rushing_xtd": {
+          "present": 7316,
+          "missing": 326,
+          "coverage_pct": 95.73
+        },
+        "ewma_rushing_xtd_sum": {
+          "present": 7316,
+          "missing": 326,
+          "coverage_pct": 95.73
+        },
+        "ewma_receiving_xtd": {
+          "present": 7316,
+          "missing": 326,
+          "coverage_pct": 95.73
+        },
+        "ewma_receiving_xtd_sum": {
+          "present": 7316,
+          "missing": 326,
+          "coverage_pct": 95.73
+        },
+        "ewma_total_xtd": {
+          "present": 7316,
+          "missing": 326,
+          "coverage_pct": 95.73
+        },
+        "ewma_total_xtd_sum": {
+          "present": 7316,
+          "missing": 326,
+          "coverage_pct": 95.73
+        },
+        "ewma_rushing_xtd_share": {
+          "present": 7316,
+          "missing": 326,
+          "coverage_pct": 95.73
+        },
+        "ewma_receiving_xtd_share": {
+          "present": 7316,
+          "missing": 326,
+          "coverage_pct": 95.73
+        },
+        "ewma_total_xtd_share": {
+          "present": 7316,
+          "missing": 326,
+          "coverage_pct": 95.73
+        },
+        "ewma_rushing_xtd_per_attempt": {
+          "present": 4636,
+          "missing": 3006,
+          "coverage_pct": 60.66
+        },
+        "ewma_receiving_xtd_per_target": {
+          "present": 6655,
+          "missing": 987,
+          "coverage_pct": 87.08
+        },
+        "ewma_total_xtd_per_opportunity": {
+          "present": 7316,
+          "missing": 326,
+          "coverage_pct": 95.73
+        }
+      }
+    },
+    "2021": {
+      "rows": 8487,
+      "with_xtd_history": 8068,
+      "families": {
+        "last3_xtd_games": {
+          "present": 8487,
+          "missing": 0,
+          "coverage_pct": 100.0
+        },
+        "last3_rushing_xtd": {
+          "present": 8068,
+          "missing": 419,
+          "coverage_pct": 95.06
+        },
+        "last3_rushing_xtd_sum": {
+          "present": 8068,
+          "missing": 419,
+          "coverage_pct": 95.06
+        },
+        "last3_receiving_xtd": {
+          "present": 8068,
+          "missing": 419,
+          "coverage_pct": 95.06
+        },
+        "last3_receiving_xtd_sum": {
+          "present": 8068,
+          "missing": 419,
+          "coverage_pct": 95.06
+        },
+        "last3_total_xtd": {
+          "present": 8068,
+          "missing": 419,
+          "coverage_pct": 95.06
+        },
+        "last3_total_xtd_sum": {
+          "present": 8068,
+          "missing": 419,
+          "coverage_pct": 95.06
+        },
+        "last3_rushing_xtd_share": {
+          "present": 8068,
+          "missing": 419,
+          "coverage_pct": 95.06
+        },
+        "last3_receiving_xtd_share": {
+          "present": 8068,
+          "missing": 419,
+          "coverage_pct": 95.06
+        },
+        "last3_total_xtd_share": {
+          "present": 8068,
+          "missing": 419,
+          "coverage_pct": 95.06
+        },
+        "last3_rushing_xtd_per_attempt": {
+          "present": 3964,
+          "missing": 4523,
+          "coverage_pct": 46.71
+        },
+        "last3_receiving_xtd_per_target": {
+          "present": 6906,
+          "missing": 1581,
+          "coverage_pct": 81.37
+        },
+        "last3_total_xtd_per_opportunity": {
+          "present": 8068,
+          "missing": 419,
+          "coverage_pct": 95.06
+        },
+        "last5_xtd_games": {
+          "present": 8487,
+          "missing": 0,
+          "coverage_pct": 100.0
+        },
+        "last5_rushing_xtd": {
+          "present": 8068,
+          "missing": 419,
+          "coverage_pct": 95.06
+        },
+        "last5_rushing_xtd_sum": {
+          "present": 8068,
+          "missing": 419,
+          "coverage_pct": 95.06
+        },
+        "last5_receiving_xtd": {
+          "present": 8068,
+          "missing": 419,
+          "coverage_pct": 95.06
+        },
+        "last5_receiving_xtd_sum": {
+          "present": 8068,
+          "missing": 419,
+          "coverage_pct": 95.06
+        },
+        "last5_total_xtd": {
+          "present": 8068,
+          "missing": 419,
+          "coverage_pct": 95.06
+        },
+        "last5_total_xtd_sum": {
+          "present": 8068,
+          "missing": 419,
+          "coverage_pct": 95.06
+        },
+        "last5_rushing_xtd_share": {
+          "present": 8068,
+          "missing": 419,
+          "coverage_pct": 95.06
+        },
+        "last5_receiving_xtd_share": {
+          "present": 8068,
+          "missing": 419,
+          "coverage_pct": 95.06
+        },
+        "last5_total_xtd_share": {
+          "present": 8068,
+          "missing": 419,
+          "coverage_pct": 95.06
+        },
+        "last5_rushing_xtd_per_attempt": {
+          "present": 4295,
+          "missing": 4192,
+          "coverage_pct": 50.61
+        },
+        "last5_receiving_xtd_per_target": {
+          "present": 6970,
+          "missing": 1517,
+          "coverage_pct": 82.13
+        },
+        "last5_total_xtd_per_opportunity": {
+          "present": 8068,
+          "missing": 419,
+          "coverage_pct": 95.06
+        },
+        "last8_xtd_games": {
+          "present": 8487,
+          "missing": 0,
+          "coverage_pct": 100.0
+        },
+        "last8_rushing_xtd": {
+          "present": 8068,
+          "missing": 419,
+          "coverage_pct": 95.06
+        },
+        "last8_rushing_xtd_sum": {
+          "present": 8068,
+          "missing": 419,
+          "coverage_pct": 95.06
+        },
+        "last8_receiving_xtd": {
+          "present": 8068,
+          "missing": 419,
+          "coverage_pct": 95.06
+        },
+        "last8_receiving_xtd_sum": {
+          "present": 8068,
+          "missing": 419,
+          "coverage_pct": 95.06
+        },
+        "last8_total_xtd": {
+          "present": 8068,
+          "missing": 419,
+          "coverage_pct": 95.06
+        },
+        "last8_total_xtd_sum": {
+          "present": 8068,
+          "missing": 419,
+          "coverage_pct": 95.06
+        },
+        "last8_rushing_xtd_share": {
+          "present": 8068,
+          "missing": 419,
+          "coverage_pct": 95.06
+        },
+        "last8_receiving_xtd_share": {
+          "present": 8068,
+          "missing": 419,
+          "coverage_pct": 95.06
+        },
+        "last8_total_xtd_share": {
+          "present": 8068,
+          "missing": 419,
+          "coverage_pct": 95.06
+        },
+        "last8_rushing_xtd_per_attempt": {
+          "present": 4558,
+          "missing": 3929,
+          "coverage_pct": 53.71
+        },
+        "last8_receiving_xtd_per_target": {
+          "present": 7019,
+          "missing": 1468,
+          "coverage_pct": 82.7
+        },
+        "last8_total_xtd_per_opportunity": {
+          "present": 8068,
+          "missing": 419,
+          "coverage_pct": 95.06
+        },
+        "season_xtd_games": {
+          "present": 8487,
+          "missing": 0,
+          "coverage_pct": 100.0
+        },
+        "season_rushing_xtd": {
+          "present": 7804,
+          "missing": 683,
+          "coverage_pct": 91.95
+        },
+        "season_rushing_xtd_sum": {
+          "present": 7804,
+          "missing": 683,
+          "coverage_pct": 91.95
+        },
+        "season_receiving_xtd": {
+          "present": 7804,
+          "missing": 683,
+          "coverage_pct": 91.95
+        },
+        "season_receiving_xtd_sum": {
+          "present": 7804,
+          "missing": 683,
+          "coverage_pct": 91.95
+        },
+        "season_total_xtd": {
+          "present": 7804,
+          "missing": 683,
+          "coverage_pct": 91.95
+        },
+        "season_total_xtd_sum": {
+          "present": 7804,
+          "missing": 683,
+          "coverage_pct": 91.95
+        },
+        "season_rushing_xtd_share": {
+          "present": 7804,
+          "missing": 683,
+          "coverage_pct": 91.95
+        },
+        "season_receiving_xtd_share": {
+          "present": 7804,
+          "missing": 683,
+          "coverage_pct": 91.95
+        },
+        "season_total_xtd_share": {
+          "present": 7804,
+          "missing": 683,
+          "coverage_pct": 91.95
+        },
+        "season_rushing_xtd_per_attempt": {
+          "present": 4113,
+          "missing": 4374,
+          "coverage_pct": 48.46
+        },
+        "season_receiving_xtd_per_target": {
+          "present": 6690,
+          "missing": 1797,
+          "coverage_pct": 78.83
+        },
+        "season_total_xtd_per_opportunity": {
+          "present": 7804,
+          "missing": 683,
+          "coverage_pct": 91.95
+        },
+        "ewma_xtd_games": {
+          "present": 8487,
+          "missing": 0,
+          "coverage_pct": 100.0
+        },
+        "ewma_rushing_xtd": {
+          "present": 8068,
+          "missing": 419,
+          "coverage_pct": 95.06
+        },
+        "ewma_rushing_xtd_sum": {
+          "present": 8068,
+          "missing": 419,
+          "coverage_pct": 95.06
+        },
+        "ewma_receiving_xtd": {
+          "present": 8068,
+          "missing": 419,
+          "coverage_pct": 95.06
+        },
+        "ewma_receiving_xtd_sum": {
+          "present": 8068,
+          "missing": 419,
+          "coverage_pct": 95.06
+        },
+        "ewma_total_xtd": {
+          "present": 8068,
+          "missing": 419,
+          "coverage_pct": 95.06
+        },
+        "ewma_total_xtd_sum": {
+          "present": 8068,
+          "missing": 419,
+          "coverage_pct": 95.06
+        },
+        "ewma_rushing_xtd_share": {
+          "present": 8068,
+          "missing": 419,
+          "coverage_pct": 95.06
+        },
+        "ewma_receiving_xtd_share": {
+          "present": 8068,
+          "missing": 419,
+          "coverage_pct": 95.06
+        },
+        "ewma_total_xtd_share": {
+          "present": 8068,
+          "missing": 419,
+          "coverage_pct": 95.06
+        },
+        "ewma_rushing_xtd_per_attempt": {
+          "present": 5113,
+          "missing": 3374,
+          "coverage_pct": 60.25
+        },
+        "ewma_receiving_xtd_per_target": {
+          "present": 7193,
+          "missing": 1294,
+          "coverage_pct": 84.75
+        },
+        "ewma_total_xtd_per_opportunity": {
+          "present": 8068,
+          "missing": 419,
+          "coverage_pct": 95.06
+        }
+      }
+    },
+    "2022": {
+      "rows": 8322,
+      "with_xtd_history": 7943,
+      "families": {
+        "last3_xtd_games": {
+          "present": 8322,
+          "missing": 0,
+          "coverage_pct": 100.0
+        },
+        "last3_rushing_xtd": {
+          "present": 7943,
+          "missing": 379,
+          "coverage_pct": 95.45
+        },
+        "last3_rushing_xtd_sum": {
+          "present": 7943,
+          "missing": 379,
+          "coverage_pct": 95.45
+        },
+        "last3_receiving_xtd": {
+          "present": 7943,
+          "missing": 379,
+          "coverage_pct": 95.45
+        },
+        "last3_receiving_xtd_sum": {
+          "present": 7943,
+          "missing": 379,
+          "coverage_pct": 95.45
+        },
+        "last3_total_xtd": {
+          "present": 7943,
+          "missing": 379,
+          "coverage_pct": 95.45
+        },
+        "last3_total_xtd_sum": {
+          "present": 7943,
+          "missing": 379,
+          "coverage_pct": 95.45
+        },
+        "last3_rushing_xtd_share": {
+          "present": 7943,
+          "missing": 379,
+          "coverage_pct": 95.45
+        },
+        "last3_receiving_xtd_share": {
+          "present": 7943,
+          "missing": 379,
+          "coverage_pct": 95.45
+        },
+        "last3_total_xtd_share": {
+          "present": 7943,
+          "missing": 379,
+          "coverage_pct": 95.45
+        },
+        "last3_rushing_xtd_per_attempt": {
+          "present": 3962,
+          "missing": 4360,
+          "coverage_pct": 47.61
+        },
+        "last3_receiving_xtd_per_target": {
+          "present": 6824,
+          "missing": 1498,
+          "coverage_pct": 82.0
+        },
+        "last3_total_xtd_per_opportunity": {
+          "present": 7943,
+          "missing": 379,
+          "coverage_pct": 95.45
+        },
+        "last5_xtd_games": {
+          "present": 8322,
+          "missing": 0,
+          "coverage_pct": 100.0
+        },
+        "last5_rushing_xtd": {
+          "present": 7943,
+          "missing": 379,
+          "coverage_pct": 95.45
+        },
+        "last5_rushing_xtd_sum": {
+          "present": 7943,
+          "missing": 379,
+          "coverage_pct": 95.45
+        },
+        "last5_receiving_xtd": {
+          "present": 7943,
+          "missing": 379,
+          "coverage_pct": 95.45
+        },
+        "last5_receiving_xtd_sum": {
+          "present": 7943,
+          "missing": 379,
+          "coverage_pct": 95.45
+        },
+        "last5_total_xtd": {
+          "present": 7943,
+          "missing": 379,
+          "coverage_pct": 95.45
+        },
+        "last5_total_xtd_sum": {
+          "present": 7943,
+          "missing": 379,
+          "coverage_pct": 95.45
+        },
+        "last5_rushing_xtd_share": {
+          "present": 7943,
+          "missing": 379,
+          "coverage_pct": 95.45
+        },
+        "last5_receiving_xtd_share": {
+          "present": 7943,
+          "missing": 379,
+          "coverage_pct": 95.45
+        },
+        "last5_total_xtd_share": {
+          "present": 7943,
+          "missing": 379,
+          "coverage_pct": 95.45
+        },
+        "last5_rushing_xtd_per_attempt": {
+          "present": 4225,
+          "missing": 4097,
+          "coverage_pct": 50.77
+        },
+        "last5_receiving_xtd_per_target": {
+          "present": 6880,
+          "missing": 1442,
+          "coverage_pct": 82.67
+        },
+        "last5_total_xtd_per_opportunity": {
+          "present": 7943,
+          "missing": 379,
+          "coverage_pct": 95.45
+        },
+        "last8_xtd_games": {
+          "present": 8322,
+          "missing": 0,
+          "coverage_pct": 100.0
+        },
+        "last8_rushing_xtd": {
+          "present": 7943,
+          "missing": 379,
+          "coverage_pct": 95.45
+        },
+        "last8_rushing_xtd_sum": {
+          "present": 7943,
+          "missing": 379,
+          "coverage_pct": 95.45
+        },
+        "last8_receiving_xtd": {
+          "present": 7943,
+          "missing": 379,
+          "coverage_pct": 95.45
+        },
+        "last8_receiving_xtd_sum": {
+          "present": 7943,
+          "missing": 379,
+          "coverage_pct": 95.45
+        },
+        "last8_total_xtd": {
+          "present": 7943,
+          "missing": 379,
+          "coverage_pct": 95.45
+        },
+        "last8_total_xtd_sum": {
+          "present": 7943,
+          "missing": 379,
+          "coverage_pct": 95.45
+        },
+        "last8_rushing_xtd_share": {
+          "present": 7943,
+          "missing": 379,
+          "coverage_pct": 95.45
+        },
+        "last8_receiving_xtd_share": {
+          "present": 7943,
+          "missing": 379,
+          "coverage_pct": 95.45
+        },
+        "last8_total_xtd_share": {
+          "present": 7943,
+          "missing": 379,
+          "coverage_pct": 95.45
+        },
+        "last8_rushing_xtd_per_attempt": {
+          "present": 4467,
+          "missing": 3855,
+          "coverage_pct": 53.68
+        },
+        "last8_receiving_xtd_per_target": {
+          "present": 6922,
+          "missing": 1400,
+          "coverage_pct": 83.18
+        },
+        "last8_total_xtd_per_opportunity": {
+          "present": 7943,
+          "missing": 379,
+          "coverage_pct": 95.45
+        },
+        "season_xtd_games": {
+          "present": 8322,
+          "missing": 0,
+          "coverage_pct": 100.0
+        },
+        "season_rushing_xtd": {
+          "present": 7652,
+          "missing": 670,
+          "coverage_pct": 91.95
+        },
+        "season_rushing_xtd_sum": {
+          "present": 7652,
+          "missing": 670,
+          "coverage_pct": 91.95
+        },
+        "season_receiving_xtd": {
+          "present": 7652,
+          "missing": 670,
+          "coverage_pct": 91.95
+        },
+        "season_receiving_xtd_sum": {
+          "present": 7652,
+          "missing": 670,
+          "coverage_pct": 91.95
+        },
+        "season_total_xtd": {
+          "present": 7652,
+          "missing": 670,
+          "coverage_pct": 91.95
+        },
+        "season_total_xtd_sum": {
+          "present": 7652,
+          "missing": 670,
+          "coverage_pct": 91.95
+        },
+        "season_rushing_xtd_share": {
+          "present": 7652,
+          "missing": 670,
+          "coverage_pct": 91.95
+        },
+        "season_receiving_xtd_share": {
+          "present": 7652,
+          "missing": 670,
+          "coverage_pct": 91.95
+        },
+        "season_total_xtd_share": {
+          "present": 7652,
+          "missing": 670,
+          "coverage_pct": 91.95
+        },
+        "season_rushing_xtd_per_attempt": {
+          "present": 4057,
+          "missing": 4265,
+          "coverage_pct": 48.75
+        },
+        "season_receiving_xtd_per_target": {
+          "present": 6650,
+          "missing": 1672,
+          "coverage_pct": 79.91
+        },
+        "season_total_xtd_per_opportunity": {
+          "present": 7652,
+          "missing": 670,
+          "coverage_pct": 91.95
+        },
+        "ewma_xtd_games": {
+          "present": 8322,
+          "missing": 0,
+          "coverage_pct": 100.0
+        },
+        "ewma_rushing_xtd": {
+          "present": 7943,
+          "missing": 379,
+          "coverage_pct": 95.45
+        },
+        "ewma_rushing_xtd_sum": {
+          "present": 7943,
+          "missing": 379,
+          "coverage_pct": 95.45
+        },
+        "ewma_receiving_xtd": {
+          "present": 7943,
+          "missing": 379,
+          "coverage_pct": 95.45
+        },
+        "ewma_receiving_xtd_sum": {
+          "present": 7943,
+          "missing": 379,
+          "coverage_pct": 95.45
+        },
+        "ewma_total_xtd": {
+          "present": 7943,
+          "missing": 379,
+          "coverage_pct": 95.45
+        },
+        "ewma_total_xtd_sum": {
+          "present": 7943,
+          "missing": 379,
+          "coverage_pct": 95.45
+        },
+        "ewma_rushing_xtd_share": {
+          "present": 7943,
+          "missing": 379,
+          "coverage_pct": 95.45
+        },
+        "ewma_receiving_xtd_share": {
+          "present": 7943,
+          "missing": 379,
+          "coverage_pct": 95.45
+        },
+        "ewma_total_xtd_share": {
+          "present": 7943,
+          "missing": 379,
+          "coverage_pct": 95.45
+        },
+        "ewma_rushing_xtd_per_attempt": {
+          "present": 5111,
+          "missing": 3211,
+          "coverage_pct": 61.42
+        },
+        "ewma_receiving_xtd_per_target": {
+          "present": 7093,
+          "missing": 1229,
+          "coverage_pct": 85.23
+        },
+        "ewma_total_xtd_per_opportunity": {
+          "present": 7943,
+          "missing": 379,
+          "coverage_pct": 95.45
+        }
+      }
+    },
+    "2023": {
+      "rows": 8006,
+      "with_xtd_history": 7537,
+      "families": {
+        "last3_xtd_games": {
+          "present": 8006,
+          "missing": 0,
+          "coverage_pct": 100.0
+        },
+        "last3_rushing_xtd": {
+          "present": 7537,
+          "missing": 469,
+          "coverage_pct": 94.14
+        },
+        "last3_rushing_xtd_sum": {
+          "present": 7537,
+          "missing": 469,
+          "coverage_pct": 94.14
+        },
+        "last3_receiving_xtd": {
+          "present": 7537,
+          "missing": 469,
+          "coverage_pct": 94.14
+        },
+        "last3_receiving_xtd_sum": {
+          "present": 7537,
+          "missing": 469,
+          "coverage_pct": 94.14
+        },
+        "last3_total_xtd": {
+          "present": 7537,
+          "missing": 469,
+          "coverage_pct": 94.14
+        },
+        "last3_total_xtd_sum": {
+          "present": 7537,
+          "missing": 469,
+          "coverage_pct": 94.14
+        },
+        "last3_rushing_xtd_share": {
+          "present": 7537,
+          "missing": 469,
+          "coverage_pct": 94.14
+        },
+        "last3_receiving_xtd_share": {
+          "present": 7537,
+          "missing": 469,
+          "coverage_pct": 94.14
+        },
+        "last3_total_xtd_share": {
+          "present": 7537,
+          "missing": 469,
+          "coverage_pct": 94.14
+        },
+        "last3_rushing_xtd_per_attempt": {
+          "present": 3773,
+          "missing": 4233,
+          "coverage_pct": 47.13
+        },
+        "last3_receiving_xtd_per_target": {
+          "present": 6562,
+          "missing": 1444,
+          "coverage_pct": 81.96
+        },
+        "last3_total_xtd_per_opportunity": {
+          "present": 7537,
+          "missing": 469,
+          "coverage_pct": 94.14
+        },
+        "last5_xtd_games": {
+          "present": 8006,
+          "missing": 0,
+          "coverage_pct": 100.0
+        },
+        "last5_rushing_xtd": {
+          "present": 7537,
+          "missing": 469,
+          "coverage_pct": 94.14
+        },
+        "last5_rushing_xtd_sum": {
+          "present": 7537,
+          "missing": 469,
+          "coverage_pct": 94.14
+        },
+        "last5_receiving_xtd": {
+          "present": 7537,
+          "missing": 469,
+          "coverage_pct": 94.14
+        },
+        "last5_receiving_xtd_sum": {
+          "present": 7537,
+          "missing": 469,
+          "coverage_pct": 94.14
+        },
+        "last5_total_xtd": {
+          "present": 7537,
+          "missing": 469,
+          "coverage_pct": 94.14
+        },
+        "last5_total_xtd_sum": {
+          "present": 7537,
+          "missing": 469,
+          "coverage_pct": 94.14
+        },
+        "last5_rushing_xtd_share": {
+          "present": 7537,
+          "missing": 469,
+          "coverage_pct": 94.14
+        },
+        "last5_receiving_xtd_share": {
+          "present": 7537,
+          "missing": 469,
+          "coverage_pct": 94.14
+        },
+        "last5_total_xtd_share": {
+          "present": 7537,
+          "missing": 469,
+          "coverage_pct": 94.14
+        },
+        "last5_rushing_xtd_per_attempt": {
+          "present": 4026,
+          "missing": 3980,
+          "coverage_pct": 50.29
+        },
+        "last5_receiving_xtd_per_target": {
+          "present": 6611,
+          "missing": 1395,
+          "coverage_pct": 82.58
+        },
+        "last5_total_xtd_per_opportunity": {
+          "present": 7537,
+          "missing": 469,
+          "coverage_pct": 94.14
+        },
+        "last8_xtd_games": {
+          "present": 8006,
+          "missing": 0,
+          "coverage_pct": 100.0
+        },
+        "last8_rushing_xtd": {
+          "present": 7537,
+          "missing": 469,
+          "coverage_pct": 94.14
+        },
+        "last8_rushing_xtd_sum": {
+          "present": 7537,
+          "missing": 469,
+          "coverage_pct": 94.14
+        },
+        "last8_receiving_xtd": {
+          "present": 7537,
+          "missing": 469,
+          "coverage_pct": 94.14
+        },
+        "last8_receiving_xtd_sum": {
+          "present": 7537,
+          "missing": 469,
+          "coverage_pct": 94.14
+        },
+        "last8_total_xtd": {
+          "present": 7537,
+          "missing": 469,
+          "coverage_pct": 94.14
+        },
+        "last8_total_xtd_sum": {
+          "present": 7537,
+          "missing": 469,
+          "coverage_pct": 94.14
+        },
+        "last8_rushing_xtd_share": {
+          "present": 7537,
+          "missing": 469,
+          "coverage_pct": 94.14
+        },
+        "last8_receiving_xtd_share": {
+          "present": 7537,
+          "missing": 469,
+          "coverage_pct": 94.14
+        },
+        "last8_total_xtd_share": {
+          "present": 7537,
+          "missing": 469,
+          "coverage_pct": 94.14
+        },
+        "last8_rushing_xtd_per_attempt": {
+          "present": 4271,
+          "missing": 3735,
+          "coverage_pct": 53.35
+        },
+        "last8_receiving_xtd_per_target": {
+          "present": 6656,
+          "missing": 1350,
+          "coverage_pct": 83.14
+        },
+        "last8_total_xtd_per_opportunity": {
+          "present": 7537,
+          "missing": 469,
+          "coverage_pct": 94.14
+        },
+        "season_xtd_games": {
+          "present": 8006,
+          "missing": 0,
+          "coverage_pct": 100.0
+        },
+        "season_rushing_xtd": {
+          "present": 7289,
+          "missing": 717,
+          "coverage_pct": 91.04
+        },
+        "season_rushing_xtd_sum": {
+          "present": 7289,
+          "missing": 717,
+          "coverage_pct": 91.04
+        },
+        "season_receiving_xtd": {
+          "present": 7289,
+          "missing": 717,
+          "coverage_pct": 91.04
+        },
+        "season_receiving_xtd_sum": {
+          "present": 7289,
+          "missing": 717,
+          "coverage_pct": 91.04
+        },
+        "season_total_xtd": {
+          "present": 7289,
+          "missing": 717,
+          "coverage_pct": 91.04
+        },
+        "season_total_xtd_sum": {
+          "present": 7289,
+          "missing": 717,
+          "coverage_pct": 91.04
+        },
+        "season_rushing_xtd_share": {
+          "present": 7289,
+          "missing": 717,
+          "coverage_pct": 91.04
+        },
+        "season_receiving_xtd_share": {
+          "present": 7289,
+          "missing": 717,
+          "coverage_pct": 91.04
+        },
+        "season_total_xtd_share": {
+          "present": 7289,
+          "missing": 717,
+          "coverage_pct": 91.04
+        },
+        "season_rushing_xtd_per_attempt": {
+          "present": 3934,
+          "missing": 4072,
+          "coverage_pct": 49.14
+        },
+        "season_receiving_xtd_per_target": {
+          "present": 6393,
+          "missing": 1613,
+          "coverage_pct": 79.85
+        },
+        "season_total_xtd_per_opportunity": {
+          "present": 7289,
+          "missing": 717,
+          "coverage_pct": 91.04
+        },
+        "ewma_xtd_games": {
+          "present": 8006,
+          "missing": 0,
+          "coverage_pct": 100.0
+        },
+        "ewma_rushing_xtd": {
+          "present": 7537,
+          "missing": 469,
+          "coverage_pct": 94.14
+        },
+        "ewma_rushing_xtd_sum": {
+          "present": 7537,
+          "missing": 469,
+          "coverage_pct": 94.14
+        },
+        "ewma_receiving_xtd": {
+          "present": 7537,
+          "missing": 469,
+          "coverage_pct": 94.14
+        },
+        "ewma_receiving_xtd_sum": {
+          "present": 7537,
+          "missing": 469,
+          "coverage_pct": 94.14
+        },
+        "ewma_total_xtd": {
+          "present": 7537,
+          "missing": 469,
+          "coverage_pct": 94.14
+        },
+        "ewma_total_xtd_sum": {
+          "present": 7537,
+          "missing": 469,
+          "coverage_pct": 94.14
+        },
+        "ewma_rushing_xtd_share": {
+          "present": 7537,
+          "missing": 469,
+          "coverage_pct": 94.14
+        },
+        "ewma_receiving_xtd_share": {
+          "present": 7537,
+          "missing": 469,
+          "coverage_pct": 94.14
+        },
+        "ewma_total_xtd_share": {
+          "present": 7537,
+          "missing": 469,
+          "coverage_pct": 94.14
+        },
+        "ewma_rushing_xtd_per_attempt": {
+          "present": 4959,
+          "missing": 3047,
+          "coverage_pct": 61.94
+        },
+        "ewma_receiving_xtd_per_target": {
+          "present": 6844,
+          "missing": 1162,
+          "coverage_pct": 85.49
+        },
+        "ewma_total_xtd_per_opportunity": {
+          "present": 7537,
+          "missing": 469,
+          "coverage_pct": 94.14
+        }
+      }
+    },
+    "2024": {
+      "rows": 8108,
+      "with_xtd_history": 7630,
+      "families": {
+        "last3_xtd_games": {
+          "present": 8108,
+          "missing": 0,
+          "coverage_pct": 100.0
+        },
+        "last3_rushing_xtd": {
+          "present": 7630,
+          "missing": 478,
+          "coverage_pct": 94.1
+        },
+        "last3_rushing_xtd_sum": {
+          "present": 7630,
+          "missing": 478,
+          "coverage_pct": 94.1
+        },
+        "last3_receiving_xtd": {
+          "present": 7630,
+          "missing": 478,
+          "coverage_pct": 94.1
+        },
+        "last3_receiving_xtd_sum": {
+          "present": 7630,
+          "missing": 478,
+          "coverage_pct": 94.1
+        },
+        "last3_total_xtd": {
+          "present": 7630,
+          "missing": 478,
+          "coverage_pct": 94.1
+        },
+        "last3_total_xtd_sum": {
+          "present": 7630,
+          "missing": 478,
+          "coverage_pct": 94.1
+        },
+        "last3_rushing_xtd_share": {
+          "present": 7630,
+          "missing": 478,
+          "coverage_pct": 94.1
+        },
+        "last3_receiving_xtd_share": {
+          "present": 7630,
+          "missing": 478,
+          "coverage_pct": 94.1
+        },
+        "last3_total_xtd_share": {
+          "present": 7630,
+          "missing": 478,
+          "coverage_pct": 94.1
+        },
+        "last3_rushing_xtd_per_attempt": {
+          "present": 3674,
+          "missing": 4434,
+          "coverage_pct": 45.31
+        },
+        "last3_receiving_xtd_per_target": {
+          "present": 6462,
+          "missing": 1646,
+          "coverage_pct": 79.7
+        },
+        "last3_total_xtd_per_opportunity": {
+          "present": 7630,
+          "missing": 478,
+          "coverage_pct": 94.1
+        },
+        "last5_xtd_games": {
+          "present": 8108,
+          "missing": 0,
+          "coverage_pct": 100.0
+        },
+        "last5_rushing_xtd": {
+          "present": 7630,
+          "missing": 478,
+          "coverage_pct": 94.1
+        },
+        "last5_rushing_xtd_sum": {
+          "present": 7630,
+          "missing": 478,
+          "coverage_pct": 94.1
+        },
+        "last5_receiving_xtd": {
+          "present": 7630,
+          "missing": 478,
+          "coverage_pct": 94.1
+        },
+        "last5_receiving_xtd_sum": {
+          "present": 7630,
+          "missing": 478,
+          "coverage_pct": 94.1
+        },
+        "last5_total_xtd": {
+          "present": 7630,
+          "missing": 478,
+          "coverage_pct": 94.1
+        },
+        "last5_total_xtd_sum": {
+          "present": 7630,
+          "missing": 478,
+          "coverage_pct": 94.1
+        },
+        "last5_rushing_xtd_share": {
+          "present": 7630,
+          "missing": 478,
+          "coverage_pct": 94.1
+        },
+        "last5_receiving_xtd_share": {
+          "present": 7630,
+          "missing": 478,
+          "coverage_pct": 94.1
+        },
+        "last5_total_xtd_share": {
+          "present": 7630,
+          "missing": 478,
+          "coverage_pct": 94.1
+        },
+        "last5_rushing_xtd_per_attempt": {
+          "present": 3925,
+          "missing": 4183,
+          "coverage_pct": 48.41
+        },
+        "last5_receiving_xtd_per_target": {
+          "present": 6520,
+          "missing": 1588,
+          "coverage_pct": 80.41
+        },
+        "last5_total_xtd_per_opportunity": {
+          "present": 7630,
+          "missing": 478,
+          "coverage_pct": 94.1
+        },
+        "last8_xtd_games": {
+          "present": 8108,
+          "missing": 0,
+          "coverage_pct": 100.0
+        },
+        "last8_rushing_xtd": {
+          "present": 7630,
+          "missing": 478,
+          "coverage_pct": 94.1
+        },
+        "last8_rushing_xtd_sum": {
+          "present": 7630,
+          "missing": 478,
+          "coverage_pct": 94.1
+        },
+        "last8_receiving_xtd": {
+          "present": 7630,
+          "missing": 478,
+          "coverage_pct": 94.1
+        },
+        "last8_receiving_xtd_sum": {
+          "present": 7630,
+          "missing": 478,
+          "coverage_pct": 94.1
+        },
+        "last8_total_xtd": {
+          "present": 7630,
+          "missing": 478,
+          "coverage_pct": 94.1
+        },
+        "last8_total_xtd_sum": {
+          "present": 7630,
+          "missing": 478,
+          "coverage_pct": 94.1
+        },
+        "last8_rushing_xtd_share": {
+          "present": 7630,
+          "missing": 478,
+          "coverage_pct": 94.1
+        },
+        "last8_receiving_xtd_share": {
+          "present": 7630,
+          "missing": 478,
+          "coverage_pct": 94.1
+        },
+        "last8_total_xtd_share": {
+          "present": 7630,
+          "missing": 478,
+          "coverage_pct": 94.1
+        },
+        "last8_rushing_xtd_per_attempt": {
+          "present": 4135,
+          "missing": 3973,
+          "coverage_pct": 51.0
+        },
+        "last8_receiving_xtd_per_target": {
+          "present": 6549,
+          "missing": 1559,
+          "coverage_pct": 80.77
+        },
+        "last8_total_xtd_per_opportunity": {
+          "present": 7630,
+          "missing": 478,
+          "coverage_pct": 94.1
+        },
+        "season_xtd_games": {
+          "present": 8108,
+          "missing": 0,
+          "coverage_pct": 100.0
+        },
+        "season_rushing_xtd": {
+          "present": 7311,
+          "missing": 797,
+          "coverage_pct": 90.17
+        },
+        "season_rushing_xtd_sum": {
+          "present": 7311,
+          "missing": 797,
+          "coverage_pct": 90.17
+        },
+        "season_receiving_xtd": {
+          "present": 7311,
+          "missing": 797,
+          "coverage_pct": 90.17
+        },
+        "season_receiving_xtd_sum": {
+          "present": 7311,
+          "missing": 797,
+          "coverage_pct": 90.17
+        },
+        "season_total_xtd": {
+          "present": 7311,
+          "missing": 797,
+          "coverage_pct": 90.17
+        },
+        "season_total_xtd_sum": {
+          "present": 7311,
+          "missing": 797,
+          "coverage_pct": 90.17
+        },
+        "season_rushing_xtd_share": {
+          "present": 7311,
+          "missing": 797,
+          "coverage_pct": 90.17
+        },
+        "season_receiving_xtd_share": {
+          "present": 7311,
+          "missing": 797,
+          "coverage_pct": 90.17
+        },
+        "season_total_xtd_share": {
+          "present": 7311,
+          "missing": 797,
+          "coverage_pct": 90.17
+        },
+        "season_rushing_xtd_per_attempt": {
+          "present": 3787,
+          "missing": 4321,
+          "coverage_pct": 46.71
+        },
+        "season_receiving_xtd_per_target": {
+          "present": 6254,
+          "missing": 1854,
+          "coverage_pct": 77.13
+        },
+        "season_total_xtd_per_opportunity": {
+          "present": 7311,
+          "missing": 797,
+          "coverage_pct": 90.17
+        },
+        "ewma_xtd_games": {
+          "present": 8108,
+          "missing": 0,
+          "coverage_pct": 100.0
+        },
+        "ewma_rushing_xtd": {
+          "present": 7630,
+          "missing": 478,
+          "coverage_pct": 94.1
+        },
+        "ewma_rushing_xtd_sum": {
+          "present": 7630,
+          "missing": 478,
+          "coverage_pct": 94.1
+        },
+        "ewma_receiving_xtd": {
+          "present": 7630,
+          "missing": 478,
+          "coverage_pct": 94.1
+        },
+        "ewma_receiving_xtd_sum": {
+          "present": 7630,
+          "missing": 478,
+          "coverage_pct": 94.1
+        },
+        "ewma_total_xtd": {
+          "present": 7630,
+          "missing": 478,
+          "coverage_pct": 94.1
+        },
+        "ewma_total_xtd_sum": {
+          "present": 7630,
+          "missing": 478,
+          "coverage_pct": 94.1
+        },
+        "ewma_rushing_xtd_share": {
+          "present": 7630,
+          "missing": 478,
+          "coverage_pct": 94.1
+        },
+        "ewma_receiving_xtd_share": {
+          "present": 7630,
+          "missing": 478,
+          "coverage_pct": 94.1
+        },
+        "ewma_total_xtd_share": {
+          "present": 7630,
+          "missing": 478,
+          "coverage_pct": 94.1
+        },
+        "ewma_rushing_xtd_per_attempt": {
+          "present": 4877,
+          "missing": 3231,
+          "coverage_pct": 60.15
+        },
+        "ewma_receiving_xtd_per_target": {
+          "present": 6684,
+          "missing": 1424,
+          "coverage_pct": 82.44
+        },
+        "ewma_total_xtd_per_opportunity": {
+          "present": 7630,
+          "missing": 478,
+          "coverage_pct": 94.1
+        }
+      }
+    }
+  },
+  "play_context_coverage": {
+    "2017": {
+      "rushing": {
+        "rows": 13355,
+        "feature_present_pct": {
+          "yardline_100": 100.0,
+          "log_yardline": 100.0,
+          "goal_to_go": 100.0,
+          "down": 100.0,
+          "ydstogo": 100.0,
+          "qtr": 100.0,
+          "game_seconds_remaining": 100.0,
+          "half_seconds_remaining": 100.0,
+          "score_differential": 100.0,
+          "shotgun": 100.0,
+          "no_huddle": 100.0,
+          "qb_scramble": 100.0,
+          "inside_5": 100.0,
+          "inside_10": 100.0,
+          "inside_20": 100.0,
+          "run_location": 99.22,
+          "run_gap": 71.43,
+          "position": 90.84
+        }
+      },
+      "receiving": {
+        "rows": 17161,
+        "feature_present_pct": {
+          "yardline_100": 100.0,
+          "log_yardline": 100.0,
+          "air_yards": 99.99,
+          "relative_to_endzone": 99.99,
+          "end_zone_target": 99.99,
+          "down": 100.0,
+          "ydstogo": 100.0,
+          "qtr": 100.0,
+          "game_seconds_remaining": 100.0,
+          "half_seconds_remaining": 100.0,
+          "score_differential": 100.0,
+          "shotgun": 100.0,
+          "no_huddle": 100.0,
+          "inside_5": 100.0,
+          "inside_10": 100.0,
+          "inside_20": 100.0,
+          "pass_location": 99.99,
+          "position": 91.18
+        }
+      }
+    },
+    "2018": {
+      "rushing": {
+        "rows": 12872,
+        "feature_present_pct": {
+          "yardline_100": 100.0,
+          "log_yardline": 100.0,
+          "goal_to_go": 100.0,
+          "down": 100.0,
+          "ydstogo": 100.0,
+          "qtr": 100.0,
+          "game_seconds_remaining": 100.0,
+          "half_seconds_remaining": 100.0,
+          "score_differential": 100.0,
+          "shotgun": 100.0,
+          "no_huddle": 100.0,
+          "qb_scramble": 100.0,
+          "inside_5": 100.0,
+          "inside_10": 100.0,
+          "inside_20": 100.0,
+          "run_location": 99.34,
+          "run_gap": 69.27,
+          "position": 91.14
+        }
+      },
+      "receiving": {
+        "rows": 17158,
+        "feature_present_pct": {
+          "yardline_100": 100.0,
+          "log_yardline": 100.0,
+          "air_yards": 100.0,
+          "relative_to_endzone": 100.0,
+          "end_zone_target": 100.0,
+          "down": 100.0,
+          "ydstogo": 100.0,
+          "qtr": 100.0,
+          "game_seconds_remaining": 100.0,
+          "half_seconds_remaining": 100.0,
+          "score_differential": 100.0,
+          "shotgun": 100.0,
+          "no_huddle": 100.0,
+          "inside_5": 100.0,
+          "inside_10": 100.0,
+          "inside_20": 100.0,
+          "pass_location": 100.0,
+          "position": 90.48
+        }
+      }
+    },
+    "2019": {
+      "rushing": {
+        "rows": 12989,
+        "feature_present_pct": {
+          "yardline_100": 100.0,
+          "log_yardline": 100.0,
+          "goal_to_go": 100.0,
+          "down": 100.0,
+          "ydstogo": 100.0,
+          "qtr": 100.0,
+          "game_seconds_remaining": 100.0,
+          "half_seconds_remaining": 100.0,
+          "score_differential": 100.0,
+          "shotgun": 100.0,
+          "no_huddle": 100.0,
+          "qb_scramble": 100.0,
+          "inside_5": 100.0,
+          "inside_10": 100.0,
+          "inside_20": 100.0,
+          "run_location": 99.21,
+          "run_gap": 71.85,
+          "position": 91.63
+        }
+      },
+      "receiving": {
+        "rows": 17135,
+        "feature_present_pct": {
+          "yardline_100": 100.0,
+          "log_yardline": 100.0,
+          "air_yards": 99.99,
+          "relative_to_endzone": 99.99,
+          "end_zone_target": 99.99,
+          "down": 100.0,
+          "ydstogo": 100.0,
+          "qtr": 100.0,
+          "game_seconds_remaining": 100.0,
+          "half_seconds_remaining": 100.0,
+          "score_differential": 100.0,
+          "shotgun": 100.0,
+          "no_huddle": 100.0,
+          "inside_5": 100.0,
+          "inside_10": 100.0,
+          "inside_20": 100.0,
+          "pass_location": 99.99,
+          "position": 90.87
+        }
+      }
+    },
+    "2020": {
+      "rushing": {
+        "rows": 13372,
+        "feature_present_pct": {
+          "yardline_100": 100.0,
+          "log_yardline": 100.0,
+          "goal_to_go": 100.0,
+          "down": 100.0,
+          "ydstogo": 100.0,
+          "qtr": 100.0,
+          "game_seconds_remaining": 100.0,
+          "half_seconds_remaining": 100.0,
+          "score_differential": 100.0,
+          "shotgun": 100.0,
+          "no_huddle": 100.0,
+          "qb_scramble": 100.0,
+          "inside_5": 100.0,
+          "inside_10": 100.0,
+          "inside_20": 100.0,
+          "run_location": 99.28,
+          "run_gap": 73.22,
+          "position": 90.88
+        }
+      },
+      "receiving": {
+        "rows": 17301,
+        "feature_present_pct": {
+          "yardline_100": 100.0,
+          "log_yardline": 100.0,
+          "air_yards": 99.99,
+          "relative_to_endzone": 99.99,
+          "end_zone_target": 99.99,
+          "down": 100.0,
+          "ydstogo": 100.0,
+          "qtr": 100.0,
+          "game_seconds_remaining": 100.0,
+          "half_seconds_remaining": 100.0,
+          "score_differential": 100.0,
+          "shotgun": 100.0,
+          "no_huddle": 100.0,
+          "inside_5": 100.0,
+          "inside_10": 100.0,
+          "inside_20": 100.0,
+          "pass_location": 99.99,
+          "position": 91.23
+        }
+      }
+    },
+    "2021": {
+      "rushing": {
+        "rows": 14093,
+        "feature_present_pct": {
+          "yardline_100": 100.0,
+          "log_yardline": 100.0,
+          "goal_to_go": 100.0,
+          "down": 100.0,
+          "ydstogo": 100.0,
+          "qtr": 100.0,
+          "game_seconds_remaining": 100.0,
+          "half_seconds_remaining": 100.0,
+          "score_differential": 100.0,
+          "shotgun": 100.0,
+          "no_huddle": 100.0,
+          "qb_scramble": 100.0,
+          "inside_5": 100.0,
+          "inside_10": 100.0,
+          "inside_20": 100.0,
+          "run_location": 99.27,
+          "run_gap": 72.78,
+          "position": 91.75
+        }
+      },
+      "receiving": {
+        "rows": 18044,
+        "feature_present_pct": {
+          "yardline_100": 100.0,
+          "log_yardline": 100.0,
+          "air_yards": 99.99,
+          "relative_to_endzone": 99.99,
+          "end_zone_target": 99.99,
+          "down": 100.0,
+          "ydstogo": 100.0,
+          "qtr": 100.0,
+          "game_seconds_remaining": 100.0,
+          "half_seconds_remaining": 100.0,
+          "score_differential": 100.0,
+          "shotgun": 100.0,
+          "no_huddle": 100.0,
+          "inside_5": 100.0,
+          "inside_10": 100.0,
+          "inside_20": 100.0,
+          "pass_location": 99.98,
+          "position": 91.08
+        }
+      }
+    },
+    "2022": {
+      "rushing": {
+        "rows": 14345,
+        "feature_present_pct": {
+          "yardline_100": 100.0,
+          "log_yardline": 100.0,
+          "goal_to_go": 100.0,
+          "down": 100.0,
+          "ydstogo": 100.0,
+          "qtr": 100.0,
+          "game_seconds_remaining": 100.0,
+          "half_seconds_remaining": 100.0,
+          "score_differential": 100.0,
+          "shotgun": 100.0,
+          "no_huddle": 100.0,
+          "qb_scramble": 100.0,
+          "inside_5": 100.0,
+          "inside_10": 100.0,
+          "inside_20": 100.0,
+          "run_location": 99.16,
+          "run_gap": 74.56,
+          "position": 91.15
+        }
+      },
+      "receiving": {
+        "rows": 17292,
+        "feature_present_pct": {
+          "yardline_100": 100.0,
+          "log_yardline": 100.0,
+          "air_yards": 100.0,
+          "relative_to_endzone": 100.0,
+          "end_zone_target": 100.0,
+          "down": 100.0,
+          "ydstogo": 100.0,
+          "qtr": 100.0,
+          "game_seconds_remaining": 100.0,
+          "half_seconds_remaining": 100.0,
+          "score_differential": 100.0,
+          "shotgun": 100.0,
+          "no_huddle": 100.0,
+          "inside_5": 100.0,
+          "inside_10": 100.0,
+          "inside_20": 100.0,
+          "pass_location": 99.99,
+          "position": 90.97
+        }
+      }
+    },
+    "2023": {
+      "rushing": {
+        "rows": 14176,
+        "feature_present_pct": {
+          "yardline_100": 100.0,
+          "log_yardline": 100.0,
+          "goal_to_go": 100.0,
+          "down": 100.0,
+          "ydstogo": 100.0,
+          "qtr": 100.0,
+          "game_seconds_remaining": 100.0,
+          "half_seconds_remaining": 100.0,
+          "score_differential": 100.0,
+          "shotgun": 100.0,
+          "no_huddle": 100.0,
+          "qb_scramble": 100.0,
+          "inside_5": 100.0,
+          "inside_10": 100.0,
+          "inside_20": 100.0,
+          "run_location": 99.27,
+          "run_gap": 73.02,
+          "position": 91.83
+        }
+      },
+      "receiving": {
+        "rows": 17475,
+        "feature_present_pct": {
+          "yardline_100": 100.0,
+          "log_yardline": 100.0,
+          "air_yards": 100.0,
+          "relative_to_endzone": 100.0,
+          "end_zone_target": 100.0,
+          "down": 100.0,
+          "ydstogo": 100.0,
+          "qtr": 100.0,
+          "game_seconds_remaining": 100.0,
+          "half_seconds_remaining": 100.0,
+          "score_differential": 100.0,
+          "shotgun": 100.0,
+          "no_huddle": 100.0,
+          "inside_5": 100.0,
+          "inside_10": 100.0,
+          "inside_20": 100.0,
+          "pass_location": 100.0,
+          "position": 91.93
+        }
+      }
+    },
+    "2024": {
+      "rushing": {
+        "rows": 14278,
+        "feature_present_pct": {
+          "yardline_100": 100.0,
+          "log_yardline": 100.0,
+          "goal_to_go": 100.0,
+          "down": 100.0,
+          "ydstogo": 100.0,
+          "qtr": 100.0,
+          "game_seconds_remaining": 100.0,
+          "half_seconds_remaining": 100.0,
+          "score_differential": 100.0,
+          "shotgun": 100.0,
+          "no_huddle": 100.0,
+          "qb_scramble": 100.0,
+          "inside_5": 100.0,
+          "inside_10": 100.0,
+          "inside_20": 100.0,
+          "run_location": 99.17,
+          "run_gap": 74.21,
+          "position": 92.06
+        }
+      },
+      "receiving": {
+        "rows": 16993,
+        "feature_present_pct": {
+          "yardline_100": 100.0,
+          "log_yardline": 100.0,
+          "air_yards": 100.0,
+          "relative_to_endzone": 100.0,
+          "end_zone_target": 100.0,
+          "down": 100.0,
+          "ydstogo": 100.0,
+          "qtr": 100.0,
+          "game_seconds_remaining": 100.0,
+          "half_seconds_remaining": 100.0,
+          "score_differential": 100.0,
+          "shotgun": 100.0,
+          "no_huddle": 100.0,
+          "inside_5": 100.0,
+          "inside_10": 100.0,
+          "inside_20": 100.0,
+          "pass_location": 100.0,
+          "position": 92.26
+        }
+      }
+    }
+  }
+}

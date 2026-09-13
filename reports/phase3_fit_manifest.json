@@ -1,0 +1,278 @@
+{
+  "2018_rushing": {
+    "train_rows": 13355,
+    "fit_max_season": 2017,
+    "architecture": "logistic",
+    "calibration_selected": false
+  },
+  "2018_receiving": {
+    "train_rows": 17161,
+    "fit_max_season": 2017,
+    "architecture": "logistic",
+    "calibration_selected": false
+  },
+  "2019_rushing": {
+    "train_rows": 13355,
+    "fit_max_season": 2017,
+    "calibration": {
+      "season": 2018,
+      "fit_weeks": "1-9",
+      "check_weeks": "10+",
+      "raw": {
+        "log_loss": 0.08961215388775012,
+        "brier": 0.024088750216427347,
+        "calibration_gap": 0.004511579584507349
+      },
+      "sigmoid": {
+        "log_loss": 0.0895002114277477,
+        "brier": 0.024056585851431528,
+        "calibration_gap": 0.004194143541134847
+      },
+      "selected": true
+    },
+    "architecture": "logistic",
+    "calibration_selected": true
+  },
+  "2019_receiving": {
+    "train_rows": 17161,
+    "fit_max_season": 2017,
+    "calibration": {
+      "season": 2018,
+      "fit_weeks": "1-9",
+      "check_weeks": "10+",
+      "raw": {
+        "log_loss": 0.11661200893020844,
+        "brier": 0.033413157265684265,
+        "calibration_gap": 0.005152644285269194
+      },
+      "sigmoid": {
+        "log_loss": 0.11681545549176588,
+        "brier": 0.03330788197373615,
+        "calibration_gap": 0.0059741351556579425
+      },
+      "selected": false
+    },
+    "architecture": "logistic",
+    "calibration_selected": false
+  },
+  "2020_rushing": {
+    "train_rows": 26227,
+    "fit_max_season": 2018,
+    "calibration": {
+      "season": 2019,
+      "fit_weeks": "1-9",
+      "check_weeks": "10+",
+      "raw": {
+        "log_loss": 0.08360385990315095,
+        "brier": 0.02217957501140807,
+        "calibration_gap": 0.006701214191179933
+      },
+      "sigmoid": {
+        "log_loss": 0.08379579863130455,
+        "brier": 0.022226264770190997,
+        "calibration_gap": 0.007213203754410573
+      },
+      "selected": false
+    },
+    "architecture": "logistic",
+    "calibration_selected": false
+  },
+  "2020_receiving": {
+    "train_rows": 34319,
+    "fit_max_season": 2018,
+    "calibration": {
+      "season": 2019,
+      "fit_weeks": "1-9",
+      "check_weeks": "10+",
+      "raw": {
+        "log_loss": 0.11390838514902736,
+        "brier": 0.03281847329231474,
+        "calibration_gap": 0.005887507313162613
+      },
+      "sigmoid": {
+        "log_loss": 0.11416329081354941,
+        "brier": 0.03281836192668339,
+        "calibration_gap": 0.006990252177211151
+      },
+      "selected": false
+    },
+    "architecture": "logistic",
+    "calibration_selected": false
+  },
+  "2021_rushing": {
+    "train_rows": 39216,
+    "fit_max_season": 2019,
+    "calibration": {
+      "season": 2020,
+      "fit_weeks": "1-9",
+      "check_weeks": "10+",
+      "raw": {
+        "log_loss": 0.09926163150516154,
+        "brier": 0.026818910358353657,
+        "calibration_gap": 0.0022634639578343976
+      },
+      "sigmoid": {
+        "log_loss": 0.09930523721962588,
+        "brier": 0.02682232042563151,
+        "calibration_gap": 0.0026837785454443264
+      },
+      "selected": false
+    },
+    "architecture": "logistic",
+    "calibration_selected": false
+  },
+  "2021_receiving": {
+    "train_rows": 51454,
+    "fit_max_season": 2019,
+    "calibration": {
+      "season": 2020,
+      "fit_weeks": "1-9",
+      "check_weeks": "10+",
+      "raw": {
+        "log_loss": 0.11355319171347607,
+        "brier": 0.033551477720113444,
+        "calibration_gap": 0.00794373056906197
+      },
+      "sigmoid": {
+        "log_loss": 0.11341970492369974,
+        "brier": 0.03357577618462575,
+        "calibration_gap": 0.007814301944049822
+      },
+      "selected": false
+    },
+    "architecture": "logistic",
+    "calibration_selected": false
+  },
+  "2022_rushing": {
+    "train_rows": 52588,
+    "fit_max_season": 2020,
+    "calibration": {
+      "season": 2021,
+      "fit_weeks": "1-9",
+      "check_weeks": "10+",
+      "raw": {
+        "log_loss": 0.08804739637997307,
+        "brier": 0.023064665872909007,
+        "calibration_gap": 0.003605496344216663
+      },
+      "sigmoid": {
+        "log_loss": 0.08807905118669652,
+        "brier": 0.023043849266580232,
+        "calibration_gap": 0.004009056581976027
+      },
+      "selected": false
+    },
+    "architecture": "logistic",
+    "calibration_selected": false
+  },
+  "2022_receiving": {
+    "train_rows": 68755,
+    "fit_max_season": 2020,
+    "calibration": {
+      "season": 2021,
+      "fit_weeks": "1-9",
+      "check_weeks": "10+",
+      "raw": {
+        "log_loss": 0.10962074340339716,
+        "brier": 0.03147878411093366,
+        "calibration_gap": 0.005708258729533983
+      },
+      "sigmoid": {
+        "log_loss": 0.10975952670129893,
+        "brier": 0.031554456186145885,
+        "calibration_gap": 0.0069755565832790335
+      },
+      "selected": false
+    },
+    "architecture": "logistic",
+    "calibration_selected": false
+  },
+  "2023_rushing": {
+    "train_rows": 66681,
+    "fit_max_season": 2021,
+    "calibration": {
+      "season": 2022,
+      "fit_weeks": "1-9",
+      "check_weeks": "10+",
+      "raw": {
+        "log_loss": 0.08201119375608405,
+        "brier": 0.021416893282237864,
+        "calibration_gap": 0.0033037922842356015
+      },
+      "sigmoid": {
+        "log_loss": 0.08224208301693978,
+        "brier": 0.02145896952322155,
+        "calibration_gap": 0.00504859874653621
+      },
+      "selected": false
+    },
+    "architecture": "logistic",
+    "calibration_selected": false
+  },
+  "2023_receiving": {
+    "train_rows": 86799,
+    "fit_max_season": 2021,
+    "calibration": {
+      "season": 2022,
+      "fit_weeks": "1-9",
+      "check_weeks": "10+",
+      "raw": {
+        "log_loss": 0.10969184356187753,
+        "brier": 0.031622520948299766,
+        "calibration_gap": 0.006846231021798272
+      },
+      "sigmoid": {
+        "log_loss": 0.11018527094166433,
+        "brier": 0.03180604643858731,
+        "calibration_gap": 0.007061634399349667
+      },
+      "selected": false
+    },
+    "architecture": "logistic",
+    "calibration_selected": false
+  },
+  "2024_rushing": {
+    "train_rows": 81026,
+    "fit_max_season": 2022,
+    "calibration": {
+      "season": 2023,
+      "fit_weeks": "1-9",
+      "check_weeks": "10+",
+      "raw": {
+        "log_loss": 0.08030390860157603,
+        "brier": 0.022083584940933175,
+        "calibration_gap": 0.00303807690561586
+      },
+      "sigmoid": {
+        "log_loss": 0.08009288168561078,
+        "brier": 0.022082140167882045,
+        "calibration_gap": 0.004526531062205406
+      },
+      "selected": true
+    },
+    "architecture": "logistic",
+    "calibration_selected": true
+  },
+  "2024_receiving": {
+    "train_rows": 104091,
+    "fit_max_season": 2022,
+    "calibration": {
+      "season": 2023,
+      "fit_weeks": "1-9",
+      "check_weeks": "10+",
+      "raw": {
+        "log_loss": 0.11481157789419048,
+        "brier": 0.03218188859492958,
+        "calibration_gap": 0.0041184845710785945
+      },
+      "sigmoid": {
+        "log_loss": 0.11514123381184704,
+        "brier": 0.03221915232969836,
+        "calibration_gap": 0.0053754196381709815
+      },
+      "selected": false
+    },
+    "architecture": "logistic",
+    "calibration_selected": false
+  }
+}
