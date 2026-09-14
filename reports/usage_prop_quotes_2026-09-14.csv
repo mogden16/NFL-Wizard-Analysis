@@ -1,131 +1,119 @@
 event_id,player,prop,line,side,price,sportsbook,quote_time,team,opponent
-5ad8135dc2b5f27de0b777acd317855a,Rashee Rice,receptions,5.5,Over,122,draftkings,2026-09-14T17:40:52+00:00,Kansas City Chiefs,Denver Broncos
-5ad8135dc2b5f27de0b777acd317855a,Rashee Rice,receptions,5.5,Under,-156,draftkings,2026-09-14T17:40:52+00:00,Kansas City Chiefs,Denver Broncos
-5ad8135dc2b5f27de0b777acd317855a,Jaylen Waddle,receptions,4.5,Over,-126,draftkings,2026-09-14T17:40:52+00:00,Kansas City Chiefs,Denver Broncos
-5ad8135dc2b5f27de0b777acd317855a,Jaylen Waddle,receptions,4.5,Under,-101,draftkings,2026-09-14T17:40:52+00:00,Kansas City Chiefs,Denver Broncos
-5ad8135dc2b5f27de0b777acd317855a,Travis Kelce,receptions,4.5,Over,126,draftkings,2026-09-14T17:40:52+00:00,Kansas City Chiefs,Denver Broncos
-5ad8135dc2b5f27de0b777acd317855a,Travis Kelce,receptions,4.5,Under,-161,draftkings,2026-09-14T17:40:52+00:00,Kansas City Chiefs,Denver Broncos
-5ad8135dc2b5f27de0b777acd317855a,Courtland Sutton,receptions,3.5,Over,-135,draftkings,2026-09-14T17:40:52+00:00,Kansas City Chiefs,Denver Broncos
-5ad8135dc2b5f27de0b777acd317855a,Courtland Sutton,receptions,3.5,Under,106,draftkings,2026-09-14T17:40:52+00:00,Kansas City Chiefs,Denver Broncos
-5ad8135dc2b5f27de0b777acd317855a,Xavier Worthy,receptions,3.5,Over,121,draftkings,2026-09-14T17:40:52+00:00,Kansas City Chiefs,Denver Broncos
-5ad8135dc2b5f27de0b777acd317855a,Xavier Worthy,receptions,3.5,Under,-155,draftkings,2026-09-14T17:40:52+00:00,Kansas City Chiefs,Denver Broncos
-5ad8135dc2b5f27de0b777acd317855a,Kenneth Walker III,receptions,3.5,Over,126,draftkings,2026-09-14T17:40:52+00:00,Kansas City Chiefs,Denver Broncos
-5ad8135dc2b5f27de0b777acd317855a,Kenneth Walker III,receptions,3.5,Under,-161,draftkings,2026-09-14T17:40:52+00:00,Kansas City Chiefs,Denver Broncos
-5ad8135dc2b5f27de0b777acd317855a,Evan Engram,receptions,2.5,Over,-135,draftkings,2026-09-14T17:40:52+00:00,Kansas City Chiefs,Denver Broncos
-5ad8135dc2b5f27de0b777acd317855a,Evan Engram,receptions,2.5,Under,106,draftkings,2026-09-14T17:40:52+00:00,Kansas City Chiefs,Denver Broncos
-5ad8135dc2b5f27de0b777acd317855a,RJ Harvey,receptions,2.5,Over,-102,draftkings,2026-09-14T17:40:52+00:00,Kansas City Chiefs,Denver Broncos
-5ad8135dc2b5f27de0b777acd317855a,RJ Harvey,receptions,2.5,Under,-126,draftkings,2026-09-14T17:40:52+00:00,Kansas City Chiefs,Denver Broncos
-5ad8135dc2b5f27de0b777acd317855a,Pat Bryant,receptions,2.5,Over,106,draftkings,2026-09-14T17:40:52+00:00,Kansas City Chiefs,Denver Broncos
-5ad8135dc2b5f27de0b777acd317855a,Pat Bryant,receptions,2.5,Under,-135,draftkings,2026-09-14T17:40:52+00:00,Kansas City Chiefs,Denver Broncos
-5ad8135dc2b5f27de0b777acd317855a,Tyquan Thornton,receptions,1.5,Over,109,draftkings,2026-09-14T17:40:52+00:00,Kansas City Chiefs,Denver Broncos
-5ad8135dc2b5f27de0b777acd317855a,Tyquan Thornton,receptions,1.5,Under,-139,draftkings,2026-09-14T17:40:52+00:00,Kansas City Chiefs,Denver Broncos
-5ad8135dc2b5f27de0b777acd317855a,Marvin Mims Jr.,receptions,1.5,Over,122,draftkings,2026-09-14T17:40:52+00:00,Kansas City Chiefs,Denver Broncos
-5ad8135dc2b5f27de0b777acd317855a,Marvin Mims Jr.,receptions,1.5,Under,-157,draftkings,2026-09-14T17:40:52+00:00,Kansas City Chiefs,Denver Broncos
-5ad8135dc2b5f27de0b777acd317855a,Noah Gray,receptions,1.5,Over,136,draftkings,2026-09-14T17:40:52+00:00,Kansas City Chiefs,Denver Broncos
-5ad8135dc2b5f27de0b777acd317855a,Noah Gray,receptions,1.5,Under,-174,draftkings,2026-09-14T17:40:52+00:00,Kansas City Chiefs,Denver Broncos
-5ad8135dc2b5f27de0b777acd317855a,Adam Trautman,receptions,0.5,Over,-239,draftkings,2026-09-14T17:40:52+00:00,Kansas City Chiefs,Denver Broncos
-5ad8135dc2b5f27de0b777acd317855a,Adam Trautman,receptions,0.5,Under,185,draftkings,2026-09-14T17:40:52+00:00,Kansas City Chiefs,Denver Broncos
-5ad8135dc2b5f27de0b777acd317855a,Kenneth Walker III,rushing_attempts,16.5,Over,-101,draftkings,2026-09-14T17:40:52+00:00,Kansas City Chiefs,Denver Broncos
-5ad8135dc2b5f27de0b777acd317855a,Kenneth Walker III,rushing_attempts,16.5,Under,-126,draftkings,2026-09-14T17:40:52+00:00,Kansas City Chiefs,Denver Broncos
-5ad8135dc2b5f27de0b777acd317855a,J.K. Dobbins,rushing_attempts,12.5,Over,101,draftkings,2026-09-14T17:40:52+00:00,Kansas City Chiefs,Denver Broncos
-5ad8135dc2b5f27de0b777acd317855a,J.K. Dobbins,rushing_attempts,12.5,Under,-129,draftkings,2026-09-14T17:40:52+00:00,Kansas City Chiefs,Denver Broncos
-5ad8135dc2b5f27de0b777acd317855a,Bo Nix,rushing_attempts,3.5,Over,-148,draftkings,2026-09-14T17:40:52+00:00,Kansas City Chiefs,Denver Broncos
-5ad8135dc2b5f27de0b777acd317855a,Bo Nix,rushing_attempts,3.5,Under,116,draftkings,2026-09-14T17:40:52+00:00,Kansas City Chiefs,Denver Broncos
-5ad8135dc2b5f27de0b777acd317855a,Patrick Mahomes,rushing_attempts,3.5,Over,-101,draftkings,2026-09-14T17:40:52+00:00,Kansas City Chiefs,Denver Broncos
-5ad8135dc2b5f27de0b777acd317855a,Patrick Mahomes,rushing_attempts,3.5,Under,-126,draftkings,2026-09-14T17:40:52+00:00,Kansas City Chiefs,Denver Broncos
-5ad8135dc2b5f27de0b777acd317855a,Xavier Worthy,receptions,3.5,Over,120,fanatics,2026-09-14T17:42:36+00:00,Kansas City Chiefs,Denver Broncos
-5ad8135dc2b5f27de0b777acd317855a,Xavier Worthy,receptions,3.5,Under,-165,fanatics,2026-09-14T17:42:36+00:00,Kansas City Chiefs,Denver Broncos
-5ad8135dc2b5f27de0b777acd317855a,J.K. Dobbins,rushing_attempts,12.5,Over,-105,fanatics,2026-09-14T17:42:36+00:00,Kansas City Chiefs,Denver Broncos
-5ad8135dc2b5f27de0b777acd317855a,J.K. Dobbins,rushing_attempts,12.5,Under,-125,fanatics,2026-09-14T17:42:36+00:00,Kansas City Chiefs,Denver Broncos
-5ad8135dc2b5f27de0b777acd317855a,Pat Bryant,receptions,2.5,Over,-108,fanduel,2026-09-14T17:43:10+00:00,Kansas City Chiefs,Denver Broncos
-5ad8135dc2b5f27de0b777acd317855a,Pat Bryant,receptions,2.5,Under,-122,fanduel,2026-09-14T17:43:10+00:00,Kansas City Chiefs,Denver Broncos
-5ad8135dc2b5f27de0b777acd317855a,Kenneth Walker III,receptions,3.5,Over,120,fanduel,2026-09-14T17:43:10+00:00,Kansas City Chiefs,Denver Broncos
-5ad8135dc2b5f27de0b777acd317855a,Kenneth Walker III,receptions,3.5,Under,-160,fanduel,2026-09-14T17:43:10+00:00,Kansas City Chiefs,Denver Broncos
-5ad8135dc2b5f27de0b777acd317855a,Evan Engram,receptions,2.5,Over,-138,fanduel,2026-09-14T17:43:10+00:00,Kansas City Chiefs,Denver Broncos
-5ad8135dc2b5f27de0b777acd317855a,Evan Engram,receptions,2.5,Under,104,fanduel,2026-09-14T17:43:10+00:00,Kansas City Chiefs,Denver Broncos
-5ad8135dc2b5f27de0b777acd317855a,Marvin Mims Jr.,receptions,1.5,Over,124,fanduel,2026-09-14T17:43:10+00:00,Kansas City Chiefs,Denver Broncos
-5ad8135dc2b5f27de0b777acd317855a,Marvin Mims Jr.,receptions,1.5,Under,-166,fanduel,2026-09-14T17:43:10+00:00,Kansas City Chiefs,Denver Broncos
-5ad8135dc2b5f27de0b777acd317855a,Rashee Rice,receptions,5.5,Over,116,fanduel,2026-09-14T17:43:10+00:00,Kansas City Chiefs,Denver Broncos
-5ad8135dc2b5f27de0b777acd317855a,Rashee Rice,receptions,5.5,Under,-154,fanduel,2026-09-14T17:43:10+00:00,Kansas City Chiefs,Denver Broncos
-5ad8135dc2b5f27de0b777acd317855a,RJ Harvey,receptions,2.5,Over,-102,fanduel,2026-09-14T17:43:10+00:00,Kansas City Chiefs,Denver Broncos
-5ad8135dc2b5f27de0b777acd317855a,RJ Harvey,receptions,2.5,Under,-130,fanduel,2026-09-14T17:43:10+00:00,Kansas City Chiefs,Denver Broncos
-5ad8135dc2b5f27de0b777acd317855a,Jaylen Waddle,receptions,4.5,Over,-128,fanduel,2026-09-14T17:43:10+00:00,Kansas City Chiefs,Denver Broncos
-5ad8135dc2b5f27de0b777acd317855a,Jaylen Waddle,receptions,4.5,Under,-104,fanduel,2026-09-14T17:43:10+00:00,Kansas City Chiefs,Denver Broncos
-5ad8135dc2b5f27de0b777acd317855a,Travis Kelce,receptions,4.5,Over,130,fanduel,2026-09-14T17:43:10+00:00,Kansas City Chiefs,Denver Broncos
-5ad8135dc2b5f27de0b777acd317855a,Travis Kelce,receptions,4.5,Under,-174,fanduel,2026-09-14T17:43:10+00:00,Kansas City Chiefs,Denver Broncos
-5ad8135dc2b5f27de0b777acd317855a,Xavier Worthy,receptions,3.5,Over,116,fanduel,2026-09-14T17:43:10+00:00,Kansas City Chiefs,Denver Broncos
-5ad8135dc2b5f27de0b777acd317855a,Xavier Worthy,receptions,3.5,Under,-154,fanduel,2026-09-14T17:43:10+00:00,Kansas City Chiefs,Denver Broncos
-5ad8135dc2b5f27de0b777acd317855a,Adam Trautman,receptions,1.5,Over,205,fanduel,2026-09-14T17:43:10+00:00,Kansas City Chiefs,Denver Broncos
-5ad8135dc2b5f27de0b777acd317855a,Adam Trautman,receptions,1.5,Under,-290,fanduel,2026-09-14T17:43:10+00:00,Kansas City Chiefs,Denver Broncos
-5ad8135dc2b5f27de0b777acd317855a,Noah Gray,receptions,1.5,Over,130,fanduel,2026-09-14T17:43:10+00:00,Kansas City Chiefs,Denver Broncos
-5ad8135dc2b5f27de0b777acd317855a,Noah Gray,receptions,1.5,Under,-174,fanduel,2026-09-14T17:43:10+00:00,Kansas City Chiefs,Denver Broncos
-5ad8135dc2b5f27de0b777acd317855a,Tyquan Thornton,receptions,1.5,Over,124,fanduel,2026-09-14T17:43:10+00:00,Kansas City Chiefs,Denver Broncos
-5ad8135dc2b5f27de0b777acd317855a,Tyquan Thornton,receptions,1.5,Under,-166,fanduel,2026-09-14T17:43:10+00:00,Kansas City Chiefs,Denver Broncos
-5ad8135dc2b5f27de0b777acd317855a,Courtland Sutton,receptions,3.5,Over,-136,fanduel,2026-09-14T17:43:10+00:00,Kansas City Chiefs,Denver Broncos
-5ad8135dc2b5f27de0b777acd317855a,Courtland Sutton,receptions,3.5,Under,102,fanduel,2026-09-14T17:43:10+00:00,Kansas City Chiefs,Denver Broncos
-5ad8135dc2b5f27de0b777acd317855a,Courtland Sutton,receptions,3.5,Over,-149,betonlineag,2026-09-14T17:42:17+00:00,Kansas City Chiefs,Denver Broncos
-5ad8135dc2b5f27de0b777acd317855a,Courtland Sutton,receptions,3.5,Under,115,betonlineag,2026-09-14T17:42:17+00:00,Kansas City Chiefs,Denver Broncos
-5ad8135dc2b5f27de0b777acd317855a,Xavier Worthy,receptions,3.5,Over,120,betonlineag,2026-09-14T17:42:17+00:00,Kansas City Chiefs,Denver Broncos
-5ad8135dc2b5f27de0b777acd317855a,Xavier Worthy,receptions,3.5,Under,-156,betonlineag,2026-09-14T17:42:17+00:00,Kansas City Chiefs,Denver Broncos
-5ad8135dc2b5f27de0b777acd317855a,Jaylen Waddle,receptions,4.5,Over,-120,betonlineag,2026-09-14T17:42:17+00:00,Kansas City Chiefs,Denver Broncos
-5ad8135dc2b5f27de0b777acd317855a,Jaylen Waddle,receptions,4.5,Under,-108,betonlineag,2026-09-14T17:42:17+00:00,Kansas City Chiefs,Denver Broncos
-5ad8135dc2b5f27de0b777acd317855a,RJ Harvey,receptions,2.5,Over,-106,betonlineag,2026-09-14T17:42:17+00:00,Kansas City Chiefs,Denver Broncos
-5ad8135dc2b5f27de0b777acd317855a,RJ Harvey,receptions,2.5,Under,-122,betonlineag,2026-09-14T17:42:17+00:00,Kansas City Chiefs,Denver Broncos
-5ad8135dc2b5f27de0b777acd317855a,Evan Engram,receptions,2.5,Over,-133,betonlineag,2026-09-14T17:42:17+00:00,Kansas City Chiefs,Denver Broncos
-5ad8135dc2b5f27de0b777acd317855a,Evan Engram,receptions,2.5,Under,103,betonlineag,2026-09-14T17:42:17+00:00,Kansas City Chiefs,Denver Broncos
-5ad8135dc2b5f27de0b777acd317855a,Pat Bryant,receptions,2.5,Over,105,betonlineag,2026-09-14T17:42:17+00:00,Kansas City Chiefs,Denver Broncos
-5ad8135dc2b5f27de0b777acd317855a,Pat Bryant,receptions,2.5,Under,-135,betonlineag,2026-09-14T17:42:17+00:00,Kansas City Chiefs,Denver Broncos
-5ad8135dc2b5f27de0b777acd317855a,Noah Gray,receptions,1.5,Over,130,betonlineag,2026-09-14T17:42:17+00:00,Kansas City Chiefs,Denver Broncos
-5ad8135dc2b5f27de0b777acd317855a,Noah Gray,receptions,1.5,Under,-169,betonlineag,2026-09-14T17:42:17+00:00,Kansas City Chiefs,Denver Broncos
-5ad8135dc2b5f27de0b777acd317855a,Tyquan Thornton,receptions,1.5,Over,122,betonlineag,2026-09-14T17:42:17+00:00,Kansas City Chiefs,Denver Broncos
-5ad8135dc2b5f27de0b777acd317855a,Tyquan Thornton,receptions,1.5,Under,-159,betonlineag,2026-09-14T17:42:17+00:00,Kansas City Chiefs,Denver Broncos
-5ad8135dc2b5f27de0b777acd317855a,Travis Kelce,receptions,4.5,Over,120,betonlineag,2026-09-14T17:42:17+00:00,Kansas City Chiefs,Denver Broncos
-5ad8135dc2b5f27de0b777acd317855a,Travis Kelce,receptions,4.5,Under,-156,betonlineag,2026-09-14T17:42:17+00:00,Kansas City Chiefs,Denver Broncos
-5ad8135dc2b5f27de0b777acd317855a,Kenneth Walker III,receptions,3.5,Over,126,betonlineag,2026-09-14T17:42:17+00:00,Kansas City Chiefs,Denver Broncos
-5ad8135dc2b5f27de0b777acd317855a,Kenneth Walker III,receptions,3.5,Under,-164,betonlineag,2026-09-14T17:42:17+00:00,Kansas City Chiefs,Denver Broncos
-5ad8135dc2b5f27de0b777acd317855a,Adam Trautman,receptions,0.5,Over,-233,betonlineag,2026-09-14T17:42:17+00:00,Kansas City Chiefs,Denver Broncos
-5ad8135dc2b5f27de0b777acd317855a,Adam Trautman,receptions,0.5,Under,174,betonlineag,2026-09-14T17:42:17+00:00,Kansas City Chiefs,Denver Broncos
-5ad8135dc2b5f27de0b777acd317855a,Marvin Mims Jr.,receptions,1.5,Over,122,betonlineag,2026-09-14T17:42:17+00:00,Kansas City Chiefs,Denver Broncos
-5ad8135dc2b5f27de0b777acd317855a,Marvin Mims Jr.,receptions,1.5,Under,-159,betonlineag,2026-09-14T17:42:17+00:00,Kansas City Chiefs,Denver Broncos
-5ad8135dc2b5f27de0b777acd317855a,Rashee Rice,receptions,4.5,Over,-164,betonlineag,2026-09-14T17:42:17+00:00,Kansas City Chiefs,Denver Broncos
-5ad8135dc2b5f27de0b777acd317855a,Rashee Rice,receptions,4.5,Under,126,betonlineag,2026-09-14T17:42:17+00:00,Kansas City Chiefs,Denver Broncos
-5ad8135dc2b5f27de0b777acd317855a,J.K. Dobbins,rushing_attempts,11.5,Over,-120,betonlineag,2026-09-14T17:42:17+00:00,Kansas City Chiefs,Denver Broncos
-5ad8135dc2b5f27de0b777acd317855a,J.K. Dobbins,rushing_attempts,11.5,Under,-108,betonlineag,2026-09-14T17:42:17+00:00,Kansas City Chiefs,Denver Broncos
-5ad8135dc2b5f27de0b777acd317855a,Kenneth Walker III,rushing_attempts,16.5,Over,-108,betonlineag,2026-09-14T17:42:17+00:00,Kansas City Chiefs,Denver Broncos
-5ad8135dc2b5f27de0b777acd317855a,Kenneth Walker III,rushing_attempts,16.5,Under,-120,betonlineag,2026-09-14T17:42:17+00:00,Kansas City Chiefs,Denver Broncos
-5ad8135dc2b5f27de0b777acd317855a,Adam Trautman,receptions,0.5,Over,-250,bovada,2026-09-14T17:41:44+00:00,Kansas City Chiefs,Denver Broncos
-5ad8135dc2b5f27de0b777acd317855a,Adam Trautman,receptions,0.5,Under,185,bovada,2026-09-14T17:41:44+00:00,Kansas City Chiefs,Denver Broncos
-5ad8135dc2b5f27de0b777acd317855a,Courtland Sutton,receptions,3.5,Over,-135,bovada,2026-09-14T17:41:44+00:00,Kansas City Chiefs,Denver Broncos
-5ad8135dc2b5f27de0b777acd317855a,Courtland Sutton,receptions,3.5,Under,105,bovada,2026-09-14T17:41:44+00:00,Kansas City Chiefs,Denver Broncos
-5ad8135dc2b5f27de0b777acd317855a,Evan Engram,receptions,2.5,Over,-135,bovada,2026-09-14T17:41:44+00:00,Kansas City Chiefs,Denver Broncos
-5ad8135dc2b5f27de0b777acd317855a,Evan Engram,receptions,2.5,Under,105,bovada,2026-09-14T17:41:44+00:00,Kansas City Chiefs,Denver Broncos
-5ad8135dc2b5f27de0b777acd317855a,Jaylen Waddle,receptions,4.5,Over,-130,bovada,2026-09-14T17:41:44+00:00,Kansas City Chiefs,Denver Broncos
-5ad8135dc2b5f27de0b777acd317855a,Jaylen Waddle,receptions,4.5,Under,100,bovada,2026-09-14T17:41:44+00:00,Kansas City Chiefs,Denver Broncos
-5ad8135dc2b5f27de0b777acd317855a,Kenneth Walker III,receptions,3.5,Over,125,bovada,2026-09-14T17:41:44+00:00,Kansas City Chiefs,Denver Broncos
-5ad8135dc2b5f27de0b777acd317855a,Kenneth Walker III,receptions,3.5,Under,-165,bovada,2026-09-14T17:41:44+00:00,Kansas City Chiefs,Denver Broncos
-5ad8135dc2b5f27de0b777acd317855a,Noah Gray,receptions,1.5,Over,135,bovada,2026-09-14T17:41:44+00:00,Kansas City Chiefs,Denver Broncos
-5ad8135dc2b5f27de0b777acd317855a,Noah Gray,receptions,1.5,Under,-180,bovada,2026-09-14T17:41:44+00:00,Kansas City Chiefs,Denver Broncos
-5ad8135dc2b5f27de0b777acd317855a,Pat Bryant,receptions,2.5,Over,100,bovada,2026-09-14T17:41:44+00:00,Kansas City Chiefs,Denver Broncos
-5ad8135dc2b5f27de0b777acd317855a,Pat Bryant,receptions,2.5,Under,-130,bovada,2026-09-14T17:41:44+00:00,Kansas City Chiefs,Denver Broncos
-5ad8135dc2b5f27de0b777acd317855a,Rashee Rice,receptions,5.5,Over,110,bovada,2026-09-14T17:41:44+00:00,Kansas City Chiefs,Denver Broncos
-5ad8135dc2b5f27de0b777acd317855a,Rashee Rice,receptions,5.5,Under,-145,bovada,2026-09-14T17:41:44+00:00,Kansas City Chiefs,Denver Broncos
-5ad8135dc2b5f27de0b777acd317855a,RJ Harvey,receptions,2.5,Over,-105,bovada,2026-09-14T17:41:44+00:00,Kansas City Chiefs,Denver Broncos
-5ad8135dc2b5f27de0b777acd317855a,RJ Harvey,receptions,2.5,Under,-125,bovada,2026-09-14T17:41:44+00:00,Kansas City Chiefs,Denver Broncos
-5ad8135dc2b5f27de0b777acd317855a,Travis Kelce,receptions,4.5,Over,120,bovada,2026-09-14T17:41:44+00:00,Kansas City Chiefs,Denver Broncos
-5ad8135dc2b5f27de0b777acd317855a,Travis Kelce,receptions,4.5,Under,-160,bovada,2026-09-14T17:41:44+00:00,Kansas City Chiefs,Denver Broncos
-5ad8135dc2b5f27de0b777acd317855a,Tyquan Thornton,receptions,1.5,Over,120,bovada,2026-09-14T17:41:44+00:00,Kansas City Chiefs,Denver Broncos
-5ad8135dc2b5f27de0b777acd317855a,Tyquan Thornton,receptions,1.5,Under,-160,bovada,2026-09-14T17:41:44+00:00,Kansas City Chiefs,Denver Broncos
-5ad8135dc2b5f27de0b777acd317855a,Xavier Worthy,receptions,3.5,Over,125,bovada,2026-09-14T17:41:44+00:00,Kansas City Chiefs,Denver Broncos
-5ad8135dc2b5f27de0b777acd317855a,Xavier Worthy,receptions,3.5,Under,-165,bovada,2026-09-14T17:41:44+00:00,Kansas City Chiefs,Denver Broncos
-5ad8135dc2b5f27de0b777acd317855a,RJ Harvey,receptions,2.5,Over,-107,betrivers,2026-09-14T17:42:27+00:00,Kansas City Chiefs,Denver Broncos
-5ad8135dc2b5f27de0b777acd317855a,Pat Bryant,receptions,2.5,Over,106,betrivers,2026-09-14T17:42:27+00:00,Kansas City Chiefs,Denver Broncos
-5ad8135dc2b5f27de0b777acd317855a,Jaylen Waddle,receptions,4.5,Over,-132,betrivers,2026-09-14T17:42:27+00:00,Kansas City Chiefs,Denver Broncos
-5ad8135dc2b5f27de0b777acd317855a,Travis Kelce,receptions,3.5,Over,-162,betrivers,2026-09-14T17:42:27+00:00,Kansas City Chiefs,Denver Broncos
-5ad8135dc2b5f27de0b777acd317855a,Courtland Sutton,receptions,3.5,Over,-152,betrivers,2026-09-14T17:42:27+00:00,Kansas City Chiefs,Denver Broncos
-5ad8135dc2b5f27de0b777acd317855a,Evan Engram,receptions,2.5,Over,-130,betrivers,2026-09-14T17:42:27+00:00,Kansas City Chiefs,Denver Broncos
-5ad8135dc2b5f27de0b777acd317855a,Adam Trautman,receptions,1.5,Over,175,betrivers,2026-09-14T17:42:27+00:00,Kansas City Chiefs,Denver Broncos
-5ad8135dc2b5f27de0b777acd317855a,Rashee Rice,receptions,5.5,Over,112,betrivers,2026-09-14T17:42:27+00:00,Kansas City Chiefs,Denver Broncos
-5ad8135dc2b5f27de0b777acd317855a,Xavier Worthy,receptions,3.5,Over,123,betrivers,2026-09-14T17:42:27+00:00,Kansas City Chiefs,Denver Broncos
-5ad8135dc2b5f27de0b777acd317855a,Tyquan Thornton,receptions,1.5,Over,125,betrivers,2026-09-14T17:42:27+00:00,Kansas City Chiefs,Denver Broncos
-5ad8135dc2b5f27de0b777acd317855a,Noah Gray,receptions,1.5,Over,140,betrivers,2026-09-14T17:42:27+00:00,Kansas City Chiefs,Denver Broncos
-5ad8135dc2b5f27de0b777acd317855a,Kenneth Walker III,receptions,3.5,Over,125,betrivers,2026-09-14T17:42:27+00:00,Kansas City Chiefs,Denver Broncos
+5ad8135dc2b5f27de0b777acd317855a,Rashee Rice,receptions,5.5,Over,122,draftkings,2026-09-14T17:56:58+00:00,Kansas City Chiefs,Denver Broncos
+5ad8135dc2b5f27de0b777acd317855a,Rashee Rice,receptions,5.5,Under,-156,draftkings,2026-09-14T17:56:58+00:00,Kansas City Chiefs,Denver Broncos
+5ad8135dc2b5f27de0b777acd317855a,Jaylen Waddle,receptions,4.5,Over,-126,draftkings,2026-09-14T17:56:58+00:00,Kansas City Chiefs,Denver Broncos
+5ad8135dc2b5f27de0b777acd317855a,Jaylen Waddle,receptions,4.5,Under,-101,draftkings,2026-09-14T17:56:58+00:00,Kansas City Chiefs,Denver Broncos
+5ad8135dc2b5f27de0b777acd317855a,Travis Kelce,receptions,4.5,Over,126,draftkings,2026-09-14T17:56:58+00:00,Kansas City Chiefs,Denver Broncos
+5ad8135dc2b5f27de0b777acd317855a,Travis Kelce,receptions,4.5,Under,-161,draftkings,2026-09-14T17:56:58+00:00,Kansas City Chiefs,Denver Broncos
+5ad8135dc2b5f27de0b777acd317855a,Courtland Sutton,receptions,3.5,Over,-135,draftkings,2026-09-14T17:56:58+00:00,Kansas City Chiefs,Denver Broncos
+5ad8135dc2b5f27de0b777acd317855a,Courtland Sutton,receptions,3.5,Under,106,draftkings,2026-09-14T17:56:58+00:00,Kansas City Chiefs,Denver Broncos
+5ad8135dc2b5f27de0b777acd317855a,Kenneth Walker III,receptions,3.5,Over,115,draftkings,2026-09-14T17:56:58+00:00,Kansas City Chiefs,Denver Broncos
+5ad8135dc2b5f27de0b777acd317855a,Kenneth Walker III,receptions,3.5,Under,-146,draftkings,2026-09-14T17:56:58+00:00,Kansas City Chiefs,Denver Broncos
+5ad8135dc2b5f27de0b777acd317855a,Xavier Worthy,receptions,3.5,Over,121,draftkings,2026-09-14T17:56:58+00:00,Kansas City Chiefs,Denver Broncos
+5ad8135dc2b5f27de0b777acd317855a,Xavier Worthy,receptions,3.5,Under,-155,draftkings,2026-09-14T17:56:58+00:00,Kansas City Chiefs,Denver Broncos
+5ad8135dc2b5f27de0b777acd317855a,Evan Engram,receptions,2.5,Over,-135,draftkings,2026-09-14T17:56:58+00:00,Kansas City Chiefs,Denver Broncos
+5ad8135dc2b5f27de0b777acd317855a,Evan Engram,receptions,2.5,Under,106,draftkings,2026-09-14T17:56:58+00:00,Kansas City Chiefs,Denver Broncos
+5ad8135dc2b5f27de0b777acd317855a,RJ Harvey,receptions,2.5,Over,-102,draftkings,2026-09-14T17:56:58+00:00,Kansas City Chiefs,Denver Broncos
+5ad8135dc2b5f27de0b777acd317855a,RJ Harvey,receptions,2.5,Under,-126,draftkings,2026-09-14T17:56:58+00:00,Kansas City Chiefs,Denver Broncos
+5ad8135dc2b5f27de0b777acd317855a,Pat Bryant,receptions,2.5,Over,106,draftkings,2026-09-14T17:56:58+00:00,Kansas City Chiefs,Denver Broncos
+5ad8135dc2b5f27de0b777acd317855a,Pat Bryant,receptions,2.5,Under,-135,draftkings,2026-09-14T17:56:58+00:00,Kansas City Chiefs,Denver Broncos
+5ad8135dc2b5f27de0b777acd317855a,Tyquan Thornton,receptions,1.5,Over,109,draftkings,2026-09-14T17:56:58+00:00,Kansas City Chiefs,Denver Broncos
+5ad8135dc2b5f27de0b777acd317855a,Tyquan Thornton,receptions,1.5,Under,-139,draftkings,2026-09-14T17:56:58+00:00,Kansas City Chiefs,Denver Broncos
+5ad8135dc2b5f27de0b777acd317855a,Marvin Mims Jr.,receptions,1.5,Over,122,draftkings,2026-09-14T17:56:58+00:00,Kansas City Chiefs,Denver Broncos
+5ad8135dc2b5f27de0b777acd317855a,Marvin Mims Jr.,receptions,1.5,Under,-157,draftkings,2026-09-14T17:56:58+00:00,Kansas City Chiefs,Denver Broncos
+5ad8135dc2b5f27de0b777acd317855a,Noah Gray,receptions,1.5,Over,136,draftkings,2026-09-14T17:56:58+00:00,Kansas City Chiefs,Denver Broncos
+5ad8135dc2b5f27de0b777acd317855a,Noah Gray,receptions,1.5,Under,-174,draftkings,2026-09-14T17:56:58+00:00,Kansas City Chiefs,Denver Broncos
+5ad8135dc2b5f27de0b777acd317855a,Adam Trautman,receptions,0.5,Over,-239,draftkings,2026-09-14T17:56:58+00:00,Kansas City Chiefs,Denver Broncos
+5ad8135dc2b5f27de0b777acd317855a,Adam Trautman,receptions,0.5,Under,185,draftkings,2026-09-14T17:56:58+00:00,Kansas City Chiefs,Denver Broncos
+5ad8135dc2b5f27de0b777acd317855a,Kenneth Walker III,rushing_attempts,16.5,Over,-101,draftkings,2026-09-14T17:56:58+00:00,Kansas City Chiefs,Denver Broncos
+5ad8135dc2b5f27de0b777acd317855a,Kenneth Walker III,rushing_attempts,16.5,Under,-126,draftkings,2026-09-14T17:56:58+00:00,Kansas City Chiefs,Denver Broncos
+5ad8135dc2b5f27de0b777acd317855a,J.K. Dobbins,rushing_attempts,12.5,Over,101,draftkings,2026-09-14T17:56:58+00:00,Kansas City Chiefs,Denver Broncos
+5ad8135dc2b5f27de0b777acd317855a,J.K. Dobbins,rushing_attempts,12.5,Under,-129,draftkings,2026-09-14T17:56:58+00:00,Kansas City Chiefs,Denver Broncos
+5ad8135dc2b5f27de0b777acd317855a,Bo Nix,rushing_attempts,3.5,Over,-148,draftkings,2026-09-14T17:56:58+00:00,Kansas City Chiefs,Denver Broncos
+5ad8135dc2b5f27de0b777acd317855a,Bo Nix,rushing_attempts,3.5,Under,116,draftkings,2026-09-14T17:56:58+00:00,Kansas City Chiefs,Denver Broncos
+5ad8135dc2b5f27de0b777acd317855a,Patrick Mahomes,rushing_attempts,3.5,Over,-101,draftkings,2026-09-14T17:56:58+00:00,Kansas City Chiefs,Denver Broncos
+5ad8135dc2b5f27de0b777acd317855a,Patrick Mahomes,rushing_attempts,3.5,Under,-126,draftkings,2026-09-14T17:56:58+00:00,Kansas City Chiefs,Denver Broncos
+5ad8135dc2b5f27de0b777acd317855a,Xavier Worthy,receptions,3.5,Over,125,fanatics,2026-09-14T17:56:13+00:00,Kansas City Chiefs,Denver Broncos
+5ad8135dc2b5f27de0b777acd317855a,Xavier Worthy,receptions,3.5,Under,-170,fanatics,2026-09-14T17:56:13+00:00,Kansas City Chiefs,Denver Broncos
+5ad8135dc2b5f27de0b777acd317855a,J.K. Dobbins,rushing_attempts,12.5,Over,105,fanatics,2026-09-14T17:56:13+00:00,Kansas City Chiefs,Denver Broncos
+5ad8135dc2b5f27de0b777acd317855a,J.K. Dobbins,rushing_attempts,12.5,Under,-140,fanatics,2026-09-14T17:56:13+00:00,Kansas City Chiefs,Denver Broncos
+5ad8135dc2b5f27de0b777acd317855a,Pat Bryant,receptions,2.5,Over,-108,fanduel,2026-09-14T17:56:39+00:00,Kansas City Chiefs,Denver Broncos
+5ad8135dc2b5f27de0b777acd317855a,Pat Bryant,receptions,2.5,Under,-122,fanduel,2026-09-14T17:56:39+00:00,Kansas City Chiefs,Denver Broncos
+5ad8135dc2b5f27de0b777acd317855a,Kenneth Walker III,receptions,3.5,Over,120,fanduel,2026-09-14T17:56:39+00:00,Kansas City Chiefs,Denver Broncos
+5ad8135dc2b5f27de0b777acd317855a,Kenneth Walker III,receptions,3.5,Under,-160,fanduel,2026-09-14T17:56:39+00:00,Kansas City Chiefs,Denver Broncos
+5ad8135dc2b5f27de0b777acd317855a,Evan Engram,receptions,2.5,Over,-138,fanduel,2026-09-14T17:56:39+00:00,Kansas City Chiefs,Denver Broncos
+5ad8135dc2b5f27de0b777acd317855a,Evan Engram,receptions,2.5,Under,104,fanduel,2026-09-14T17:56:39+00:00,Kansas City Chiefs,Denver Broncos
+5ad8135dc2b5f27de0b777acd317855a,Marvin Mims Jr.,receptions,1.5,Over,124,fanduel,2026-09-14T17:56:39+00:00,Kansas City Chiefs,Denver Broncos
+5ad8135dc2b5f27de0b777acd317855a,Marvin Mims Jr.,receptions,1.5,Under,-166,fanduel,2026-09-14T17:56:39+00:00,Kansas City Chiefs,Denver Broncos
+5ad8135dc2b5f27de0b777acd317855a,Rashee Rice,receptions,5.5,Over,116,fanduel,2026-09-14T17:56:39+00:00,Kansas City Chiefs,Denver Broncos
+5ad8135dc2b5f27de0b777acd317855a,Rashee Rice,receptions,5.5,Under,-154,fanduel,2026-09-14T17:56:39+00:00,Kansas City Chiefs,Denver Broncos
+5ad8135dc2b5f27de0b777acd317855a,RJ Harvey,receptions,2.5,Over,-102,fanduel,2026-09-14T17:56:39+00:00,Kansas City Chiefs,Denver Broncos
+5ad8135dc2b5f27de0b777acd317855a,RJ Harvey,receptions,2.5,Under,-130,fanduel,2026-09-14T17:56:39+00:00,Kansas City Chiefs,Denver Broncos
+5ad8135dc2b5f27de0b777acd317855a,Jaylen Waddle,receptions,4.5,Over,-128,fanduel,2026-09-14T17:56:39+00:00,Kansas City Chiefs,Denver Broncos
+5ad8135dc2b5f27de0b777acd317855a,Jaylen Waddle,receptions,4.5,Under,-104,fanduel,2026-09-14T17:56:39+00:00,Kansas City Chiefs,Denver Broncos
+5ad8135dc2b5f27de0b777acd317855a,Travis Kelce,receptions,4.5,Over,130,fanduel,2026-09-14T17:56:39+00:00,Kansas City Chiefs,Denver Broncos
+5ad8135dc2b5f27de0b777acd317855a,Travis Kelce,receptions,4.5,Under,-174,fanduel,2026-09-14T17:56:39+00:00,Kansas City Chiefs,Denver Broncos
+5ad8135dc2b5f27de0b777acd317855a,Xavier Worthy,receptions,3.5,Over,116,fanduel,2026-09-14T17:56:39+00:00,Kansas City Chiefs,Denver Broncos
+5ad8135dc2b5f27de0b777acd317855a,Xavier Worthy,receptions,3.5,Under,-154,fanduel,2026-09-14T17:56:39+00:00,Kansas City Chiefs,Denver Broncos
+5ad8135dc2b5f27de0b777acd317855a,Adam Trautman,receptions,1.5,Over,205,fanduel,2026-09-14T17:56:39+00:00,Kansas City Chiefs,Denver Broncos
+5ad8135dc2b5f27de0b777acd317855a,Adam Trautman,receptions,1.5,Under,-290,fanduel,2026-09-14T17:56:39+00:00,Kansas City Chiefs,Denver Broncos
+5ad8135dc2b5f27de0b777acd317855a,Noah Gray,receptions,1.5,Over,130,fanduel,2026-09-14T17:56:39+00:00,Kansas City Chiefs,Denver Broncos
+5ad8135dc2b5f27de0b777acd317855a,Noah Gray,receptions,1.5,Under,-174,fanduel,2026-09-14T17:56:39+00:00,Kansas City Chiefs,Denver Broncos
+5ad8135dc2b5f27de0b777acd317855a,Tyquan Thornton,receptions,1.5,Over,124,fanduel,2026-09-14T17:56:39+00:00,Kansas City Chiefs,Denver Broncos
+5ad8135dc2b5f27de0b777acd317855a,Tyquan Thornton,receptions,1.5,Under,-166,fanduel,2026-09-14T17:56:39+00:00,Kansas City Chiefs,Denver Broncos
+5ad8135dc2b5f27de0b777acd317855a,Courtland Sutton,receptions,3.5,Over,-136,fanduel,2026-09-14T17:56:39+00:00,Kansas City Chiefs,Denver Broncos
+5ad8135dc2b5f27de0b777acd317855a,Courtland Sutton,receptions,3.5,Under,102,fanduel,2026-09-14T17:56:39+00:00,Kansas City Chiefs,Denver Broncos
+5ad8135dc2b5f27de0b777acd317855a,Courtland Sutton,receptions,3.5,Over,-149,betonlineag,2026-09-14T17:56:26+00:00,Kansas City Chiefs,Denver Broncos
+5ad8135dc2b5f27de0b777acd317855a,Courtland Sutton,receptions,3.5,Under,115,betonlineag,2026-09-14T17:56:26+00:00,Kansas City Chiefs,Denver Broncos
+5ad8135dc2b5f27de0b777acd317855a,Xavier Worthy,receptions,3.5,Over,120,betonlineag,2026-09-14T17:56:26+00:00,Kansas City Chiefs,Denver Broncos
+5ad8135dc2b5f27de0b777acd317855a,Xavier Worthy,receptions,3.5,Under,-156,betonlineag,2026-09-14T17:56:26+00:00,Kansas City Chiefs,Denver Broncos
+5ad8135dc2b5f27de0b777acd317855a,Jaylen Waddle,receptions,4.5,Over,-123,betonlineag,2026-09-14T17:56:26+00:00,Kansas City Chiefs,Denver Broncos
+5ad8135dc2b5f27de0b777acd317855a,Jaylen Waddle,receptions,4.5,Under,-105,betonlineag,2026-09-14T17:56:26+00:00,Kansas City Chiefs,Denver Broncos
+5ad8135dc2b5f27de0b777acd317855a,RJ Harvey,receptions,2.5,Over,-106,betonlineag,2026-09-14T17:56:26+00:00,Kansas City Chiefs,Denver Broncos
+5ad8135dc2b5f27de0b777acd317855a,RJ Harvey,receptions,2.5,Under,-122,betonlineag,2026-09-14T17:56:26+00:00,Kansas City Chiefs,Denver Broncos
+5ad8135dc2b5f27de0b777acd317855a,Evan Engram,receptions,2.5,Over,-133,betonlineag,2026-09-14T17:56:26+00:00,Kansas City Chiefs,Denver Broncos
+5ad8135dc2b5f27de0b777acd317855a,Evan Engram,receptions,2.5,Under,103,betonlineag,2026-09-14T17:56:26+00:00,Kansas City Chiefs,Denver Broncos
+5ad8135dc2b5f27de0b777acd317855a,Pat Bryant,receptions,2.5,Over,105,betonlineag,2026-09-14T17:56:26+00:00,Kansas City Chiefs,Denver Broncos
+5ad8135dc2b5f27de0b777acd317855a,Pat Bryant,receptions,2.5,Under,-135,betonlineag,2026-09-14T17:56:26+00:00,Kansas City Chiefs,Denver Broncos
+5ad8135dc2b5f27de0b777acd317855a,Noah Gray,receptions,1.5,Over,130,betonlineag,2026-09-14T17:56:26+00:00,Kansas City Chiefs,Denver Broncos
+5ad8135dc2b5f27de0b777acd317855a,Noah Gray,receptions,1.5,Under,-169,betonlineag,2026-09-14T17:56:26+00:00,Kansas City Chiefs,Denver Broncos
+5ad8135dc2b5f27de0b777acd317855a,Tyquan Thornton,receptions,1.5,Over,122,betonlineag,2026-09-14T17:56:26+00:00,Kansas City Chiefs,Denver Broncos
+5ad8135dc2b5f27de0b777acd317855a,Tyquan Thornton,receptions,1.5,Under,-159,betonlineag,2026-09-14T17:56:26+00:00,Kansas City Chiefs,Denver Broncos
+5ad8135dc2b5f27de0b777acd317855a,Travis Kelce,receptions,4.5,Over,120,betonlineag,2026-09-14T17:56:26+00:00,Kansas City Chiefs,Denver Broncos
+5ad8135dc2b5f27de0b777acd317855a,Travis Kelce,receptions,4.5,Under,-156,betonlineag,2026-09-14T17:56:26+00:00,Kansas City Chiefs,Denver Broncos
+5ad8135dc2b5f27de0b777acd317855a,Kenneth Walker III,receptions,3.5,Over,126,betonlineag,2026-09-14T17:56:26+00:00,Kansas City Chiefs,Denver Broncos
+5ad8135dc2b5f27de0b777acd317855a,Kenneth Walker III,receptions,3.5,Under,-164,betonlineag,2026-09-14T17:56:26+00:00,Kansas City Chiefs,Denver Broncos
+5ad8135dc2b5f27de0b777acd317855a,Adam Trautman,receptions,0.5,Over,-233,betonlineag,2026-09-14T17:56:26+00:00,Kansas City Chiefs,Denver Broncos
+5ad8135dc2b5f27de0b777acd317855a,Adam Trautman,receptions,0.5,Under,174,betonlineag,2026-09-14T17:56:26+00:00,Kansas City Chiefs,Denver Broncos
+5ad8135dc2b5f27de0b777acd317855a,Marvin Mims Jr.,receptions,1.5,Over,122,betonlineag,2026-09-14T17:56:26+00:00,Kansas City Chiefs,Denver Broncos
+5ad8135dc2b5f27de0b777acd317855a,Marvin Mims Jr.,receptions,1.5,Under,-159,betonlineag,2026-09-14T17:56:26+00:00,Kansas City Chiefs,Denver Broncos
+5ad8135dc2b5f27de0b777acd317855a,Rashee Rice,receptions,4.5,Over,-164,betonlineag,2026-09-14T17:56:26+00:00,Kansas City Chiefs,Denver Broncos
+5ad8135dc2b5f27de0b777acd317855a,Rashee Rice,receptions,4.5,Under,126,betonlineag,2026-09-14T17:56:26+00:00,Kansas City Chiefs,Denver Broncos
+5ad8135dc2b5f27de0b777acd317855a,J.K. Dobbins,rushing_attempts,11.5,Over,-120,betonlineag,2026-09-14T17:56:26+00:00,Kansas City Chiefs,Denver Broncos
+5ad8135dc2b5f27de0b777acd317855a,J.K. Dobbins,rushing_attempts,11.5,Under,-108,betonlineag,2026-09-14T17:56:26+00:00,Kansas City Chiefs,Denver Broncos
+5ad8135dc2b5f27de0b777acd317855a,Kenneth Walker III,rushing_attempts,16.5,Over,-108,betonlineag,2026-09-14T17:56:26+00:00,Kansas City Chiefs,Denver Broncos
+5ad8135dc2b5f27de0b777acd317855a,Kenneth Walker III,rushing_attempts,16.5,Under,-120,betonlineag,2026-09-14T17:56:26+00:00,Kansas City Chiefs,Denver Broncos
+5ad8135dc2b5f27de0b777acd317855a,Adam Trautman,receptions,0.5,Over,-250,bovada,2026-09-14T17:55:15+00:00,Kansas City Chiefs,Denver Broncos
+5ad8135dc2b5f27de0b777acd317855a,Adam Trautman,receptions,0.5,Under,185,bovada,2026-09-14T17:55:15+00:00,Kansas City Chiefs,Denver Broncos
+5ad8135dc2b5f27de0b777acd317855a,Courtland Sutton,receptions,3.5,Over,-135,bovada,2026-09-14T17:55:15+00:00,Kansas City Chiefs,Denver Broncos
+5ad8135dc2b5f27de0b777acd317855a,Courtland Sutton,receptions,3.5,Under,105,bovada,2026-09-14T17:55:15+00:00,Kansas City Chiefs,Denver Broncos
+5ad8135dc2b5f27de0b777acd317855a,Evan Engram,receptions,2.5,Over,-135,bovada,2026-09-14T17:55:15+00:00,Kansas City Chiefs,Denver Broncos
+5ad8135dc2b5f27de0b777acd317855a,Evan Engram,receptions,2.5,Under,105,bovada,2026-09-14T17:55:15+00:00,Kansas City Chiefs,Denver Broncos
+5ad8135dc2b5f27de0b777acd317855a,Jaylen Waddle,receptions,4.5,Over,-130,bovada,2026-09-14T17:55:15+00:00,Kansas City Chiefs,Denver Broncos
+5ad8135dc2b5f27de0b777acd317855a,Jaylen Waddle,receptions,4.5,Under,100,bovada,2026-09-14T17:55:15+00:00,Kansas City Chiefs,Denver Broncos
+5ad8135dc2b5f27de0b777acd317855a,Kenneth Walker III,receptions,3.5,Over,115,bovada,2026-09-14T17:55:15+00:00,Kansas City Chiefs,Denver Broncos
+5ad8135dc2b5f27de0b777acd317855a,Kenneth Walker III,receptions,3.5,Under,-150,bovada,2026-09-14T17:55:15+00:00,Kansas City Chiefs,Denver Broncos
+5ad8135dc2b5f27de0b777acd317855a,Noah Gray,receptions,1.5,Over,135,bovada,2026-09-14T17:55:15+00:00,Kansas City Chiefs,Denver Broncos
+5ad8135dc2b5f27de0b777acd317855a,Noah Gray,receptions,1.5,Under,-180,bovada,2026-09-14T17:55:15+00:00,Kansas City Chiefs,Denver Broncos
+5ad8135dc2b5f27de0b777acd317855a,Pat Bryant,receptions,2.5,Over,100,bovada,2026-09-14T17:55:15+00:00,Kansas City Chiefs,Denver Broncos
+5ad8135dc2b5f27de0b777acd317855a,Pat Bryant,receptions,2.5,Under,-130,bovada,2026-09-14T17:55:15+00:00,Kansas City Chiefs,Denver Broncos
+5ad8135dc2b5f27de0b777acd317855a,Rashee Rice,receptions,5.5,Over,120,bovada,2026-09-14T17:55:15+00:00,Kansas City Chiefs,Denver Broncos
+5ad8135dc2b5f27de0b777acd317855a,Rashee Rice,receptions,5.5,Under,-160,bovada,2026-09-14T17:55:15+00:00,Kansas City Chiefs,Denver Broncos
+5ad8135dc2b5f27de0b777acd317855a,RJ Harvey,receptions,2.5,Over,-105,bovada,2026-09-14T17:55:15+00:00,Kansas City Chiefs,Denver Broncos
+5ad8135dc2b5f27de0b777acd317855a,RJ Harvey,receptions,2.5,Under,-125,bovada,2026-09-14T17:55:15+00:00,Kansas City Chiefs,Denver Broncos
+5ad8135dc2b5f27de0b777acd317855a,Travis Kelce,receptions,4.5,Over,120,bovada,2026-09-14T17:55:15+00:00,Kansas City Chiefs,Denver Broncos
+5ad8135dc2b5f27de0b777acd317855a,Travis Kelce,receptions,4.5,Under,-160,bovada,2026-09-14T17:55:15+00:00,Kansas City Chiefs,Denver Broncos
+5ad8135dc2b5f27de0b777acd317855a,Tyquan Thornton,receptions,1.5,Over,120,bovada,2026-09-14T17:55:15+00:00,Kansas City Chiefs,Denver Broncos
+5ad8135dc2b5f27de0b777acd317855a,Tyquan Thornton,receptions,1.5,Under,-160,bovada,2026-09-14T17:55:15+00:00,Kansas City Chiefs,Denver Broncos
+5ad8135dc2b5f27de0b777acd317855a,Xavier Worthy,receptions,3.5,Over,125,bovada,2026-09-14T17:55:15+00:00,Kansas City Chiefs,Denver Broncos
+5ad8135dc2b5f27de0b777acd317855a,Xavier Worthy,receptions,3.5,Under,-165,bovada,2026-09-14T17:55:15+00:00,Kansas City Chiefs,Denver Broncos

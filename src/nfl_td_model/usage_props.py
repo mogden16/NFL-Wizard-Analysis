@@ -229,6 +229,15 @@ def scan_current_slate(settings: Settings, now: datetime | None = None) -> tuple
     if not settings.odds_api_key:
         raise ValueError("ODDS_API_KEY is required for usage-prop scan")
     captured = now or datetime.now(UTC)
+    try:
+        from nfl_td_model.usage_prop_calibration import (
+            distribution_probabilities,
+            selected_distribution,
+        )
+        distribution_by_prop = {prop: selected_distribution(prop) for prop in PROP_MARKETS}
+    except FileNotFoundError:
+        from nfl_td_model.usage_prop_calibration import distribution_probabilities
+        distribution_by_prop = {prop: ("poisson", 0.0) for prop in PROP_MARKETS}
     eastern = ZoneInfo("America/New_York")
     with httpx.Client(timeout=30) as client:
         response = client.get(f"{LIVE_BASE}/events", params={"apiKey": settings.odds_api_key})
@@ -264,24 +273,29 @@ def scan_current_slate(settings: Settings, now: datetime | None = None) -> tuple
                 market_over = (1 / med_over_decimal) / (1 / med_over_decimal + 1 / med_under_decimal) if len(books) >= 3 else None
                 source = means.get(name)
                 mean = float(source["ewma_receptions_per_game" if prop == "receptions" else "ewma_carries_per_game"]) if source and source["ewma_receptions_per_game" if prop == "receptions" else "ewma_carries_per_game"] is not None else None
-                over, under, push = over_under_push(mean, line) if mean is not None else (None, None, None)
+                method, alpha = distribution_by_prop[prop]
+                over, under, push = distribution_probabilities(method, mean, line, alpha) if mean is not None else (None, None, None)
                 difference = over - market_over if over is not None and market_over is not None else None
                 age = max((captured - parse_time(str(o["quote_time"]))).total_seconds() / 60 for o in offers)
-                status = []
-                if len(books) < 3:
-                    status.append("INSUFFICIENT_MARKET")
-                if age > 15:
-                    status.append("STALE")
-                if difference is not None and abs(difference) < .05:
-                    status.append("MARKET_ALIGNED")
-                elif difference is not None:
-                    status.append("MODEL LEANS OVER" if difference > 0 else "MODEL LEANS UNDER")
                 player_name = next(iter({o["player"] for o in offers}))
                 teams = roster.get(name, set())
                 team = next(iter(teams)) if len(teams) == 1 else None
                 home_abbr = team_names.get(event.get("home_team"), event.get("home_team"))
                 away_abbr = team_names.get(event.get("away_team"), event.get("away_team"))
                 opponent = away_abbr if team == home_abbr else home_abbr if team == away_abbr else None
+                status = []
+                if len(books) < 3:
+                    status.append("INSUFFICIENT_MARKET")
+                if age > 15:
+                    status.append("STALE")
+                if source is None or source.get("player_history_games") is not None and int(source["player_history_games"]) < 4:
+                    status.append("LOW_HISTORY")
+                if source is not None and team is not None and source.get("team") not in {None, team}:
+                    status.append("TEAM_CHANGE")
+                if difference is not None and abs(difference) < .05:
+                    status.append("MARKET_ALIGNED")
+                elif difference is not None:
+                    status.append("MODEL LEANS OVER" if difference > 0 else "MODEL LEANS UNDER")
                 rows.append({"Player": player_name, "Team": team,
                              "Opponent": opponent, "Prop": prop, "Sportsbook Line": line,
                              "Model Mean": mean, "P(Over)": over, "P(Under)": under, "P(Push)": push,
@@ -290,7 +304,10 @@ def scan_current_slate(settings: Settings, now: datetime | None = None) -> tuple
                              "Median Under Odds": decimal_to_american(med_under_decimal),
                              "Books Quoting": len(books),
                              "Market No-Vig P(Over)": market_over, "Model Minus Market": difference,
-                             "Quote Age": age, "Status": "|".join(status) if status else "OK",
+                             "Quote Age": age, "Quote Timestamp": best_over["quote_time"],
+                             "Status": "|".join(status) if status else "OK",
+                             "Distribution Method": method,
+                             "Confidence / Data Quality Flag": "|".join(status) if status else "OK",
                              "EV Over": over * american_to_decimal(best_over["price"]) - 1 if over is not None else None,
                              "EV Under": under * american_to_decimal(best_under["price"]) - 1 if under is not None else None,
                              "event_id": event["id"], "books": len(books)})
@@ -303,9 +320,9 @@ def write_live_report(rows: list[dict[str, Any]], quotes: list[dict[str, Any]], 
     report = output_dir / f"usage_prop_opportunities_{day}.md"
     csv_path = output_dir / f"usage_prop_opportunities_{day}.csv"
     quote_path = output_dir / f"usage_prop_quotes_{day}.csv"
-    fields = ["Player", "Team", "Opponent", "Prop", "Sportsbook Line", "Model Mean", "P(Over)",
+    fields = ["Player", "Team", "Opponent", "Prop", "Sportsbook Line", "Model Mean", "Distribution Method", "P(Over)",
               "P(Under)", "P(Push)", "Best Over Odds", "Best Under Odds", "Market No-Vig P(Over)",
-              "Median Over Odds", "Median Under Odds", "Books Quoting", "Model Minus Market", "Quote Age", "Status"]
+              "Median Over Odds", "Median Under Odds", "Books Quoting", "Model Minus Market", "Quote Age", "Quote Timestamp", "Confidence / Data Quality Flag"]
     with csv_path.open("w", newline="", encoding="utf-8") as handle:
         writer = csv.DictWriter(handle, fieldnames=fields); writer.writeheader(); writer.writerows({f: row[f] for f in fields} for row in rows)
     with quote_path.open("w", newline="", encoding="utf-8") as handle:

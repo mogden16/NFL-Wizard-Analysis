@@ -27,6 +27,8 @@ from nfl_td_model.phase7_verify import verify_phase7
 from nfl_td_model.phase45 import build_stage_a
 from nfl_td_model.phase45_settle import settle_stage_b, verify_frozen, verify_settlement
 from nfl_td_model.storage import connect_catalog
+from nfl_td_model.usage_prop_audit import audit_large_disagreements
+from nfl_td_model.usage_prop_calibration import calibration_report as usage_calibration_report
 from nfl_td_model.usage_props import scan_current_slate as scan_usage_props
 from nfl_td_model.usage_props import validation_report as usage_validation_report
 from nfl_td_model.usage_props import write_live_report
@@ -235,7 +237,14 @@ def atd_price_scan() -> None:
 @app.command("usage-prop-validate")
 def usage_prop_validate() -> None:
     """Evaluate the frozen EWMA and Poisson usage-prop models on 2024."""
-    typer.echo(f"Usage prop validation: {usage_validation_report()}")
+    typer.echo(f"Usage prop mean validation: {usage_validation_report()}")
+    typer.echo(f"Usage prop distribution calibration: {usage_calibration_report()}")
+
+
+@app.command("usage-prop-audit")
+def usage_prop_audit() -> None:
+    """Audit the largest live usage-prop model/market discrepancies."""
+    typer.echo(f"Usage prop disagreement audit: {audit_large_disagreements()}")
 
 
 @app.command("usage-prop-scan")

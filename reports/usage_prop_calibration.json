@@ -1,0 +1,357 @@
+{
+  "development_seasons": [
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023
+  ],
+  "validation_season": 2024,
+  "market_matched_validation": {
+    "receptions": 0,
+    "rushing_attempts": 0
+  },
+  "market_data_note": "No historical player_receptions or player_rush_attempts lines are archived; no lines were fabricated.",
+  "receptions": {
+    "training_rows": 53816,
+    "validation_rows": 8108,
+    "training_variance_to_mean": 3.3318671746613253,
+    "negative_binomial_alpha": 0.9206380004334443,
+    "market_matched_rows": 0,
+    "methods": [
+      {
+        "method": "poisson",
+        "probability_metrics": {
+          "log_loss": 0.7677728943025118,
+          "brier": 0.17803449090628226,
+          "mean_prediction": 0.30714467764021897,
+          "actual_rate": 0.24247656635421805
+        },
+        "calibration": [
+          {
+            "bucket": "<40%",
+            "observations": 4634,
+            "mean_predicted_probability": 0.16861790930973092,
+            "actual_over_rate": 0.1536469572723349
+          },
+          {
+            "bucket": "40-45%",
+            "observations": 1047,
+            "mean_predicted_probability": 0.42534413993958425,
+            "actual_over_rate": 0.3151862464183381
+          },
+          {
+            "bucket": "45-50%",
+            "observations": 957,
+            "mean_predicted_probability": 0.47470639103238615,
+            "actual_over_rate": 0.3333333333333333
+          },
+          {
+            "bucket": "50-55%",
+            "observations": 798,
+            "mean_predicted_probability": 0.5254272027426102,
+            "actual_over_rate": 0.39223057644110276
+          },
+          {
+            "bucket": "55-60%",
+            "observations": 536,
+            "mean_predicted_probability": 0.5709345289283332,
+            "actual_over_rate": 0.43470149253731344
+          },
+          {
+            "bucket": "60-65%",
+            "observations": 136,
+            "mean_predicted_probability": 0.6177390333578981,
+            "actual_over_rate": 0.4338235294117647
+          },
+          {
+            "bucket": "65%+",
+            "observations": 0,
+            "mean_predicted_probability": null,
+            "actual_over_rate": null
+          }
+        ]
+      },
+      {
+        "method": "negative_binomial",
+        "probability_metrics": {
+          "log_loss": 0.7515831107336977,
+          "brier": 0.1702475586602293,
+          "mean_prediction": 0.2555578432162581,
+          "actual_rate": 0.24247656635421805
+        },
+        "calibration": [
+          {
+            "bucket": "<40%",
+            "observations": 6874,
+            "mean_predicted_probability": 0.22274220092884772,
+            "actual_over_rate": 0.2110852487634565
+          },
+          {
+            "bucket": "40-45%",
+            "observations": 857,
+            "mean_predicted_probability": 0.4203542276574964,
+            "actual_over_rate": 0.4352392065344224
+          },
+          {
+            "bucket": "45-50%",
+            "observations": 315,
+            "mean_predicted_probability": 0.4743271158586704,
+            "actual_over_rate": 0.346031746031746
+          },
+          {
+            "bucket": "50-55%",
+            "observations": 62,
+            "mean_predicted_probability": 0.504459500234927,
+            "actual_over_rate": 0.532258064516129
+          },
+          {
+            "bucket": "55-60%",
+            "observations": 0,
+            "mean_predicted_probability": null,
+            "actual_over_rate": null
+          },
+          {
+            "bucket": "60-65%",
+            "observations": 0,
+            "mean_predicted_probability": null,
+            "actual_over_rate": null
+          },
+          {
+            "bucket": "65%+",
+            "observations": 0,
+            "mean_predicted_probability": null,
+            "actual_over_rate": null
+          }
+        ]
+      },
+      {
+        "method": "empirical_residual",
+        "probability_metrics": {
+          "log_loss": 0.5399892849374214,
+          "brier": 0.17986455569479085,
+          "mean_prediction": 0.30026141066580114,
+          "actual_rate": 0.24247656635421805
+        },
+        "calibration": [
+          {
+            "bucket": "<40%",
+            "observations": 5586,
+            "mean_predicted_probability": 0.20229956515182151,
+            "actual_over_rate": 0.1833154314357322
+          },
+          {
+            "bucket": "40-45%",
+            "observations": 0,
+            "mean_predicted_probability": null,
+            "actual_over_rate": null
+          },
+          {
+            "bucket": "45-50%",
+            "observations": 992,
+            "mean_predicted_probability": 0.48128683669231226,
+            "actual_over_rate": 0.3155241935483871
+          },
+          {
+            "bucket": "50-55%",
+            "observations": 959,
+            "mean_predicted_probability": 0.5253803661121728,
+            "actual_over_rate": 0.3858185610010427
+          },
+          {
+            "bucket": "55-60%",
+            "observations": 571,
+            "mean_predicted_probability": 0.5660207244131238,
+            "actual_over_rate": 0.45359019264448336
+          },
+          {
+            "bucket": "60-65%",
+            "observations": 0,
+            "mean_predicted_probability": null,
+            "actual_over_rate": null
+          },
+          {
+            "bucket": "65%+",
+            "observations": 0,
+            "mean_predicted_probability": null,
+            "actual_over_rate": null
+          }
+        ]
+      }
+    ],
+    "selected_method": "negative_binomial",
+    "status": "RESEARCH_ONLY"
+  },
+  "rushing_attempts": {
+    "training_rows": 53816,
+    "validation_rows": 8108,
+    "training_variance_to_mean": 11.015098785998067,
+    "negative_binomial_alpha": 3.569535432642813,
+    "market_matched_rows": 0,
+    "methods": [
+      {
+        "method": "poisson",
+        "probability_metrics": {
+          "log_loss": 0.5518424526541928,
+          "brier": 0.11467613257602234,
+          "mean_prediction": 0.18914391056998567,
+          "actual_rate": 0.14294523926985694
+        },
+        "calibration": [
+          {
+            "bucket": "<40%",
+            "observations": 5809,
+            "mean_predicted_probability": 0.07166856398135443,
+            "actual_over_rate": 0.06817008090893441
+          },
+          {
+            "bucket": "40-45%",
+            "observations": 669,
+            "mean_predicted_probability": 0.42709399703226775,
+            "actual_over_rate": 0.31390134529147984
+          },
+          {
+            "bucket": "45-50%",
+            "observations": 738,
+            "mean_predicted_probability": 0.4749148987631916,
+            "actual_over_rate": 0.3333333333333333
+          },
+          {
+            "bucket": "50-55%",
+            "observations": 619,
+            "mean_predicted_probability": 0.522799044700425,
+            "actual_over_rate": 0.37479806138933763
+          },
+          {
+            "bucket": "55-60%",
+            "observations": 234,
+            "mean_predicted_probability": 0.5699681403906888,
+            "actual_over_rate": 0.2777777777777778
+          },
+          {
+            "bucket": "60-65%",
+            "observations": 39,
+            "mean_predicted_probability": 0.6168693823320249,
+            "actual_over_rate": 0.2564102564102564
+          },
+          {
+            "bucket": "65%+",
+            "observations": 0,
+            "mean_predicted_probability": null,
+            "actual_over_rate": null
+          }
+        ]
+      },
+      {
+        "method": "negative_binomial",
+        "probability_metrics": {
+          "log_loss": 0.5345692900044301,
+          "brier": 0.10635947168648457,
+          "mean_prediction": 0.11377164528470571,
+          "actual_rate": 0.14294523926985694
+        },
+        "calibration": [
+          {
+            "bucket": "<40%",
+            "observations": 8108,
+            "mean_predicted_probability": 0.11377164528470571,
+            "actual_over_rate": 0.14294523926985694
+          },
+          {
+            "bucket": "40-45%",
+            "observations": 0,
+            "mean_predicted_probability": null,
+            "actual_over_rate": null
+          },
+          {
+            "bucket": "45-50%",
+            "observations": 0,
+            "mean_predicted_probability": null,
+            "actual_over_rate": null
+          },
+          {
+            "bucket": "50-55%",
+            "observations": 0,
+            "mean_predicted_probability": null,
+            "actual_over_rate": null
+          },
+          {
+            "bucket": "55-60%",
+            "observations": 0,
+            "mean_predicted_probability": null,
+            "actual_over_rate": null
+          },
+          {
+            "bucket": "60-65%",
+            "observations": 0,
+            "mean_predicted_probability": null,
+            "actual_over_rate": null
+          },
+          {
+            "bucket": "65%+",
+            "observations": 0,
+            "mean_predicted_probability": null,
+            "actual_over_rate": null
+          }
+        ]
+      },
+      {
+        "method": "empirical_residual",
+        "probability_metrics": {
+          "log_loss": 0.4340114957069646,
+          "brier": 0.13857071767990883,
+          "mean_prediction": 0.22566298158994183,
+          "actual_rate": 0.14294523926985694
+        },
+        "calibration": [
+          {
+            "bucket": "<40%",
+            "observations": 6650,
+            "mean_predicted_probability": 0.1213499721099192,
+            "actual_over_rate": 0.10090225563909774
+          },
+          {
+            "bucket": "40-45%",
+            "observations": 0,
+            "mean_predicted_probability": null,
+            "actual_over_rate": null
+          },
+          {
+            "bucket": "45-50%",
+            "observations": 0,
+            "mean_predicted_probability": null,
+            "actual_over_rate": null
+          },
+          {
+            "bucket": "50-55%",
+            "observations": 0,
+            "mean_predicted_probability": null,
+            "actual_over_rate": null
+          },
+          {
+            "bucket": "55-60%",
+            "observations": 0,
+            "mean_predicted_probability": null,
+            "actual_over_rate": null
+          },
+          {
+            "bucket": "60-65%",
+            "observations": 130,
+            "mean_predicted_probability": 0.6432611737332766,
+            "actual_over_rate": 0.33076923076923076
+          },
+          {
+            "bucket": "65%+",
+            "observations": 1328,
+            "mean_predicted_probability": 0.7071341774209038,
+            "actual_over_rate": 0.33509036144578314
+          }
+        ]
+      }
+    ],
+    "selected_method": "negative_binomial",
+    "status": "RESEARCH_ONLY"
+  }
+}

@@ -1,0 +1,1232 @@
+[
+  {
+    "player": "Marvin Mims Jr.",
+    "prop": "receptions",
+    "line": 1.5,
+    "model_mean": 3.806799029820439,
+    "model_probability_over": 0.6402491032356746,
+    "market_no_vig_over": 0.4232164449818621,
+    "books": 3,
+    "quote_age_minutes": 0.7814797666666667,
+    "quote_time": "2026-09-14T17:56:39+00:00",
+    "exact_line_group": {
+      "player": "Marvin Mims Jr.",
+      "prop": "receptions",
+      "line": 1.5
+    },
+    "current_team": "DEN",
+    "prior_season_teams": [
+      "DEN"
+    ],
+    "current_position": "WR",
+    "current_season_games_available": 0,
+    "ewma_source_games": 16,
+    "last_3_actual_values": [
+      {
+        "game": "2024_15_IND_DEN",
+        "receptions": 4,
+        "carries": 1,
+        "targets": 4
+      },
+      {
+        "game": "2024_16_DEN_LAC",
+        "receptions": 3,
+        "carries": 1,
+        "targets": 5
+      },
+      {
+        "game": "2024_17_DEN_CIN",
+        "receptions": 8,
+        "carries": 1,
+        "targets": 8
+      }
+    ],
+    "last_5_actual_values": [
+      {
+        "game": "2024_12_DEN_LV",
+        "receptions": 3,
+        "carries": 2,
+        "targets": 5
+      },
+      {
+        "game": "2024_13_CLE_DEN",
+        "receptions": 3,
+        "carries": 1,
+        "targets": 4
+      },
+      {
+        "game": "2024_15_IND_DEN",
+        "receptions": 4,
+        "carries": 1,
+        "targets": 4
+      },
+      {
+        "game": "2024_16_DEN_LAC",
+        "receptions": 3,
+        "carries": 1,
+        "targets": 5
+      },
+      {
+        "game": "2024_17_DEN_CIN",
+        "receptions": 8,
+        "carries": 1,
+        "targets": 8
+      }
+    ],
+    "last_8_actual_values": [
+      {
+        "game": "2024_09_DEN_BAL",
+        "receptions": 1,
+        "carries": 0,
+        "targets": 2
+      },
+      {
+        "game": "2024_10_DEN_KC",
+        "receptions": 4,
+        "carries": 3,
+        "targets": 4
+      },
+      {
+        "game": "2024_11_ATL_DEN",
+        "receptions": 2,
+        "carries": 3,
+        "targets": 2
+      },
+      {
+        "game": "2024_12_DEN_LV",
+        "receptions": 3,
+        "carries": 2,
+        "targets": 5
+      },
+      {
+        "game": "2024_13_CLE_DEN",
+        "receptions": 3,
+        "carries": 1,
+        "targets": 4
+      },
+      {
+        "game": "2024_15_IND_DEN",
+        "receptions": 4,
+        "carries": 1,
+        "targets": 4
+      },
+      {
+        "game": "2024_16_DEN_LAC",
+        "receptions": 3,
+        "carries": 1,
+        "targets": 5
+      },
+      {
+        "game": "2024_17_DEN_CIN",
+        "receptions": 8,
+        "carries": 1,
+        "targets": 8
+      }
+    ],
+    "identity_ambiguity": false,
+    "team_identity_ambiguity": false,
+    "line_identity_ambiguity": false,
+    "diagnostic": "No current-game outcome or 2025 data loaded"
+  },
+  {
+    "player": "Jaylen Waddle",
+    "prop": "receptions",
+    "line": 4.5,
+    "model_mean": 3.9864613625398038,
+    "model_probability_over": 0.33005660773976103,
+    "market_no_vig_over": 0.5250272213147474,
+    "books": 4,
+    "quote_age_minutes": 1.9648131,
+    "quote_time": "2026-09-14T17:56:26+00:00",
+    "exact_line_group": {
+      "player": "Jaylen Waddle",
+      "prop": "receptions",
+      "line": 4.5
+    },
+    "current_team": "DEN",
+    "prior_season_teams": [
+      "MIA"
+    ],
+    "current_position": "WR",
+    "current_season_games_available": 0,
+    "ewma_source_games": 14,
+    "last_3_actual_values": [
+      {
+        "game": "2024_13_MIA_GB",
+        "receptions": 4,
+        "carries": 0,
+        "targets": 4
+      },
+      {
+        "game": "2024_14_NYJ_MIA",
+        "receptions": 9,
+        "carries": 0,
+        "targets": 12
+      },
+      {
+        "game": "2024_15_MIA_HOU",
+        "receptions": 0,
+        "carries": 0,
+        "targets": 2
+      }
+    ],
+    "last_5_actual_values": [
+      {
+        "game": "2024_11_LV_MIA",
+        "receptions": 2,
+        "carries": 0,
+        "targets": 3
+      },
+      {
+        "game": "2024_12_NE_MIA",
+        "receptions": 8,
+        "carries": 0,
+        "targets": 9
+      },
+      {
+        "game": "2024_13_MIA_GB",
+        "receptions": 4,
+        "carries": 0,
+        "targets": 4
+      },
+      {
+        "game": "2024_14_NYJ_MIA",
+        "receptions": 9,
+        "carries": 0,
+        "targets": 12
+      },
+      {
+        "game": "2024_15_MIA_HOU",
+        "receptions": 0,
+        "carries": 0,
+        "targets": 2
+      }
+    ],
+    "last_8_actual_values": [
+      {
+        "game": "2024_08_ARI_MIA",
+        "receptions": 4,
+        "carries": 0,
+        "targets": 6
+      },
+      {
+        "game": "2024_09_MIA_BUF",
+        "receptions": 2,
+        "carries": 0,
+        "targets": 2
+      },
+      {
+        "game": "2024_10_MIA_LA",
+        "receptions": 3,
+        "carries": 1,
+        "targets": 6
+      },
+      {
+        "game": "2024_11_LV_MIA",
+        "receptions": 2,
+        "carries": 0,
+        "targets": 3
+      },
+      {
+        "game": "2024_12_NE_MIA",
+        "receptions": 8,
+        "carries": 0,
+        "targets": 9
+      },
+      {
+        "game": "2024_13_MIA_GB",
+        "receptions": 4,
+        "carries": 0,
+        "targets": 4
+      },
+      {
+        "game": "2024_14_NYJ_MIA",
+        "receptions": 9,
+        "carries": 0,
+        "targets": 12
+      },
+      {
+        "game": "2024_15_MIA_HOU",
+        "receptions": 0,
+        "carries": 0,
+        "targets": 2
+      }
+    ],
+    "identity_ambiguity": false,
+    "team_identity_ambiguity": false,
+    "line_identity_ambiguity": false,
+    "diagnostic": "No current-game outcome or 2025 data loaded"
+  },
+  {
+    "player": "Tyquan Thornton",
+    "prop": "receptions",
+    "line": 1.5,
+    "model_mean": 1.0261107384674912,
+    "model_probability_over": 0.2582164129979611,
+    "market_no_vig_over": 0.42402399695120696,
+    "books": 4,
+    "quote_age_minutes": 1.9648131,
+    "quote_time": "2026-09-14T17:56:39+00:00",
+    "exact_line_group": {
+      "player": "Tyquan Thornton",
+      "prop": "receptions",
+      "line": 1.5
+    },
+    "current_team": "KC",
+    "prior_season_teams": [
+      "NE"
+    ],
+    "current_position": "WR",
+    "current_season_games_available": 0,
+    "ewma_source_games": 4,
+    "last_3_actual_values": [
+      {
+        "game": "2024_03_NE_NYJ",
+        "receptions": 0,
+        "carries": 0,
+        "targets": 1
+      },
+      {
+        "game": "2024_04_NE_SF",
+        "receptions": 0,
+        "carries": 0,
+        "targets": 1
+      },
+      {
+        "game": "2024_08_NYJ_NE",
+        "receptions": 2,
+        "carries": 0,
+        "targets": 3
+      }
+    ],
+    "last_5_actual_values": [
+      {
+        "game": "2024_01_NE_CIN",
+        "receptions": 2,
+        "carries": 0,
+        "targets": 3
+      },
+      {
+        "game": "2024_03_NE_NYJ",
+        "receptions": 0,
+        "carries": 0,
+        "targets": 1
+      },
+      {
+        "game": "2024_04_NE_SF",
+        "receptions": 0,
+        "carries": 0,
+        "targets": 1
+      },
+      {
+        "game": "2024_08_NYJ_NE",
+        "receptions": 2,
+        "carries": 0,
+        "targets": 3
+      }
+    ],
+    "last_8_actual_values": [
+      {
+        "game": "2024_01_NE_CIN",
+        "receptions": 2,
+        "carries": 0,
+        "targets": 3
+      },
+      {
+        "game": "2024_03_NE_NYJ",
+        "receptions": 0,
+        "carries": 0,
+        "targets": 1
+      },
+      {
+        "game": "2024_04_NE_SF",
+        "receptions": 0,
+        "carries": 0,
+        "targets": 1
+      },
+      {
+        "game": "2024_08_NYJ_NE",
+        "receptions": 2,
+        "carries": 0,
+        "targets": 3
+      }
+    ],
+    "identity_ambiguity": false,
+    "team_identity_ambiguity": false,
+    "line_identity_ambiguity": false,
+    "diagnostic": "No current-game outcome or 2025 data loaded"
+  },
+  {
+    "player": "Adam Trautman",
+    "prop": "receptions",
+    "line": 0.5,
+    "model_mean": 1.0216960270536286,
+    "model_probability_over": 0.5133239378830174,
+    "market_no_vig_over": 0.6676959270695486,
+    "books": 3,
+    "quote_age_minutes": 1.9648131,
+    "quote_time": "2026-09-14T17:56:26+00:00",
+    "exact_line_group": {
+      "player": "Adam Trautman",
+      "prop": "receptions",
+      "line": 0.5
+    },
+    "current_team": "DEN",
+    "prior_season_teams": [
+      "DEN"
+    ],
+    "current_position": "TE",
+    "current_season_games_available": 0,
+    "ewma_source_games": 13,
+    "last_3_actual_values": [
+      {
+        "game": "2024_15_IND_DEN",
+        "receptions": 2,
+        "carries": 0,
+        "targets": 2
+      },
+      {
+        "game": "2024_16_DEN_LAC",
+        "receptions": 1,
+        "carries": 0,
+        "targets": 1
+      },
+      {
+        "game": "2024_17_DEN_CIN",
+        "receptions": 1,
+        "carries": 0,
+        "targets": 3
+      }
+    ],
+    "last_5_actual_values": [
+      {
+        "game": "2024_12_DEN_LV",
+        "receptions": 1,
+        "carries": 0,
+        "targets": 2
+      },
+      {
+        "game": "2024_13_CLE_DEN",
+        "receptions": 0,
+        "carries": 0,
+        "targets": 1
+      },
+      {
+        "game": "2024_15_IND_DEN",
+        "receptions": 2,
+        "carries": 0,
+        "targets": 2
+      },
+      {
+        "game": "2024_16_DEN_LAC",
+        "receptions": 1,
+        "carries": 0,
+        "targets": 1
+      },
+      {
+        "game": "2024_17_DEN_CIN",
+        "receptions": 1,
+        "carries": 0,
+        "targets": 3
+      }
+    ],
+    "last_8_actual_values": [
+      {
+        "game": "2024_09_DEN_BAL",
+        "receptions": 1,
+        "carries": 0,
+        "targets": 1
+      },
+      {
+        "game": "2024_10_DEN_KC",
+        "receptions": 1,
+        "carries": 0,
+        "targets": 1
+      },
+      {
+        "game": "2024_11_ATL_DEN",
+        "receptions": 0,
+        "carries": 0,
+        "targets": 1
+      },
+      {
+        "game": "2024_12_DEN_LV",
+        "receptions": 1,
+        "carries": 0,
+        "targets": 2
+      },
+      {
+        "game": "2024_13_CLE_DEN",
+        "receptions": 0,
+        "carries": 0,
+        "targets": 1
+      },
+      {
+        "game": "2024_15_IND_DEN",
+        "receptions": 2,
+        "carries": 0,
+        "targets": 2
+      },
+      {
+        "game": "2024_16_DEN_LAC",
+        "receptions": 1,
+        "carries": 0,
+        "targets": 1
+      },
+      {
+        "game": "2024_17_DEN_CIN",
+        "receptions": 1,
+        "carries": 0,
+        "targets": 3
+      }
+    ],
+    "identity_ambiguity": false,
+    "team_identity_ambiguity": false,
+    "line_identity_ambiguity": false,
+    "diagnostic": "No current-game outcome or 2025 data loaded"
+  },
+  {
+    "player": "Xavier Worthy",
+    "prop": "receptions",
+    "line": 3.5,
+    "model_mean": 5.445226758829591,
+    "model_probability_over": 0.5200730591899837,
+    "market_no_vig_over": 0.4261269059191691,
+    "books": 5,
+    "quote_age_minutes": 1.9648131,
+    "quote_time": "2026-09-14T17:55:15+00:00",
+    "exact_line_group": {
+      "player": "Xavier Worthy",
+      "prop": "receptions",
+      "line": 3.5
+    },
+    "current_team": "KC",
+    "prior_season_teams": [
+      "KC"
+    ],
+    "current_position": "WR",
+    "current_season_games_available": 0,
+    "ewma_source_games": 16,
+    "last_3_actual_values": [
+      {
+        "game": "2024_15_KC_CLE",
+        "receptions": 6,
+        "carries": 3,
+        "targets": 11
+      },
+      {
+        "game": "2024_16_HOU_KC",
+        "receptions": 7,
+        "carries": 3,
+        "targets": 11
+      },
+      {
+        "game": "2024_17_KC_PIT",
+        "receptions": 8,
+        "carries": 2,
+        "targets": 9
+      }
+    ],
+    "last_5_actual_values": [
+      {
+        "game": "2024_13_LV_KC",
+        "receptions": 5,
+        "carries": 0,
+        "targets": 7
+      },
+      {
+        "game": "2024_14_LAC_KC",
+        "receptions": 5,
+        "carries": 1,
+        "targets": 6
+      },
+      {
+        "game": "2024_15_KC_CLE",
+        "receptions": 6,
+        "carries": 3,
+        "targets": 11
+      },
+      {
+        "game": "2024_16_HOU_KC",
+        "receptions": 7,
+        "carries": 3,
+        "targets": 11
+      },
+      {
+        "game": "2024_17_KC_PIT",
+        "receptions": 8,
+        "carries": 2,
+        "targets": 9
+      }
+    ],
+    "last_8_actual_values": [
+      {
+        "game": "2024_10_DEN_KC",
+        "receptions": 1,
+        "carries": 0,
+        "targets": 4
+      },
+      {
+        "game": "2024_11_KC_BUF",
+        "receptions": 4,
+        "carries": 1,
+        "targets": 5
+      },
+      {
+        "game": "2024_12_KC_CAR",
+        "receptions": 4,
+        "carries": 1,
+        "targets": 6
+      },
+      {
+        "game": "2024_13_LV_KC",
+        "receptions": 5,
+        "carries": 0,
+        "targets": 7
+      },
+      {
+        "game": "2024_14_LAC_KC",
+        "receptions": 5,
+        "carries": 1,
+        "targets": 6
+      },
+      {
+        "game": "2024_15_KC_CLE",
+        "receptions": 6,
+        "carries": 3,
+        "targets": 11
+      },
+      {
+        "game": "2024_16_HOU_KC",
+        "receptions": 7,
+        "carries": 3,
+        "targets": 11
+      },
+      {
+        "game": "2024_17_KC_PIT",
+        "receptions": 8,
+        "carries": 2,
+        "targets": 9
+      }
+    ],
+    "identity_ambiguity": false,
+    "team_identity_ambiguity": false,
+    "line_identity_ambiguity": false,
+    "diagnostic": "No current-game outcome or 2025 data loaded"
+  },
+  {
+    "player": "Noah Gray",
+    "prop": "receptions",
+    "line": 1.5,
+    "model_mean": 2.2668682848921113,
+    "model_probability_over": 0.49019723797042025,
+    "market_no_vig_over": 0.4038022253334316,
+    "books": 4,
+    "quote_age_minutes": 1.9648131,
+    "quote_time": "2026-09-14T17:56:58+00:00",
+    "exact_line_group": {
+      "player": "Noah Gray",
+      "prop": "receptions",
+      "line": 1.5
+    },
+    "current_team": "KC",
+    "prior_season_teams": [
+      "KC"
+    ],
+    "current_position": "TE",
+    "current_season_games_available": 0,
+    "ewma_source_games": 15,
+    "last_3_actual_values": [
+      {
+        "game": "2024_15_KC_CLE",
+        "receptions": 2,
+        "carries": 0,
+        "targets": 5
+      },
+      {
+        "game": "2024_16_HOU_KC",
+        "receptions": 1,
+        "carries": 0,
+        "targets": 1
+      },
+      {
+        "game": "2024_17_KC_PIT",
+        "receptions": 1,
+        "carries": 0,
+        "targets": 1
+      }
+    ],
+    "last_5_actual_values": [
+      {
+        "game": "2024_13_LV_KC",
+        "receptions": 4,
+        "carries": 0,
+        "targets": 6
+      },
+      {
+        "game": "2024_14_LAC_KC",
+        "receptions": 4,
+        "carries": 0,
+        "targets": 5
+      },
+      {
+        "game": "2024_15_KC_CLE",
+        "receptions": 2,
+        "carries": 0,
+        "targets": 5
+      },
+      {
+        "game": "2024_16_HOU_KC",
+        "receptions": 1,
+        "carries": 0,
+        "targets": 1
+      },
+      {
+        "game": "2024_17_KC_PIT",
+        "receptions": 1,
+        "carries": 0,
+        "targets": 1
+      }
+    ],
+    "last_8_actual_values": [
+      {
+        "game": "2024_10_DEN_KC",
+        "receptions": 2,
+        "carries": 0,
+        "targets": 2
+      },
+      {
+        "game": "2024_11_KC_BUF",
+        "receptions": 4,
+        "carries": 0,
+        "targets": 5
+      },
+      {
+        "game": "2024_12_KC_CAR",
+        "receptions": 4,
+        "carries": 0,
+        "targets": 4
+      },
+      {
+        "game": "2024_13_LV_KC",
+        "receptions": 4,
+        "carries": 0,
+        "targets": 6
+      },
+      {
+        "game": "2024_14_LAC_KC",
+        "receptions": 4,
+        "carries": 0,
+        "targets": 5
+      },
+      {
+        "game": "2024_15_KC_CLE",
+        "receptions": 2,
+        "carries": 0,
+        "targets": 5
+      },
+      {
+        "game": "2024_16_HOU_KC",
+        "receptions": 1,
+        "carries": 0,
+        "targets": 1
+      },
+      {
+        "game": "2024_17_KC_PIT",
+        "receptions": 1,
+        "carries": 0,
+        "targets": 1
+      }
+    ],
+    "identity_ambiguity": false,
+    "team_identity_ambiguity": false,
+    "line_identity_ambiguity": false,
+    "diagnostic": "No current-game outcome or 2025 data loaded"
+  },
+  {
+    "player": "Evan Engram",
+    "prop": "receptions",
+    "line": 2.5,
+    "model_mean": 5.267502261645771,
+    "model_probability_over": 0.6066586611437029,
+    "market_no_vig_over": 0.5401849043682434,
+    "books": 4,
+    "quote_age_minutes": 1.9648131,
+    "quote_time": "2026-09-14T17:56:26+00:00",
+    "exact_line_group": {
+      "player": "Evan Engram",
+      "prop": "receptions",
+      "line": 2.5
+    },
+    "current_team": "DEN",
+    "prior_season_teams": [
+      "JAX"
+    ],
+    "current_position": "TE",
+    "current_season_games_available": 0,
+    "ewma_source_games": 9,
+    "last_3_actual_values": [
+      {
+        "game": "2024_11_JAX_DET",
+        "receptions": 5,
+        "carries": 0,
+        "targets": 7
+      },
+      {
+        "game": "2024_13_HOU_JAX",
+        "receptions": 7,
+        "carries": 0,
+        "targets": 9
+      },
+      {
+        "game": "2024_14_JAX_TEN",
+        "receptions": 4,
+        "carries": 0,
+        "targets": 6
+      }
+    ],
+    "last_5_actual_values": [
+      {
+        "game": "2024_09_JAX_PHI",
+        "receptions": 5,
+        "carries": 0,
+        "targets": 10
+      },
+      {
+        "game": "2024_10_MIN_JAX",
+        "receptions": 6,
+        "carries": 0,
+        "targets": 8
+      },
+      {
+        "game": "2024_11_JAX_DET",
+        "receptions": 5,
+        "carries": 0,
+        "targets": 7
+      },
+      {
+        "game": "2024_13_HOU_JAX",
+        "receptions": 7,
+        "carries": 0,
+        "targets": 9
+      },
+      {
+        "game": "2024_14_JAX_TEN",
+        "receptions": 4,
+        "carries": 0,
+        "targets": 6
+      }
+    ],
+    "last_8_actual_values": [
+      {
+        "game": "2024_06_JAX_CHI",
+        "receptions": 10,
+        "carries": 0,
+        "targets": 10
+      },
+      {
+        "game": "2024_07_NE_JAX",
+        "receptions": 5,
+        "carries": 0,
+        "targets": 5
+      },
+      {
+        "game": "2024_08_GB_JAX",
+        "receptions": 4,
+        "carries": 0,
+        "targets": 5
+      },
+      {
+        "game": "2024_09_JAX_PHI",
+        "receptions": 5,
+        "carries": 0,
+        "targets": 10
+      },
+      {
+        "game": "2024_10_MIN_JAX",
+        "receptions": 6,
+        "carries": 0,
+        "targets": 8
+      },
+      {
+        "game": "2024_11_JAX_DET",
+        "receptions": 5,
+        "carries": 0,
+        "targets": 7
+      },
+      {
+        "game": "2024_13_HOU_JAX",
+        "receptions": 7,
+        "carries": 0,
+        "targets": 9
+      },
+      {
+        "game": "2024_14_JAX_TEN",
+        "receptions": 4,
+        "carries": 0,
+        "targets": 6
+      }
+    ],
+    "identity_ambiguity": false,
+    "team_identity_ambiguity": false,
+    "line_identity_ambiguity": false,
+    "diagnostic": "No current-game outcome or 2025 data loaded"
+  },
+  {
+    "player": "Travis Kelce",
+    "prop": "receptions",
+    "line": 4.5,
+    "model_mean": 6.150300574275179,
+    "model_probability_over": 0.4801565612725306,
+    "market_no_vig_over": 0.42123907357629053,
+    "books": 4,
+    "quote_age_minutes": 1.9648131,
+    "quote_time": "2026-09-14T17:56:39+00:00",
+    "exact_line_group": {
+      "player": "Travis Kelce",
+      "prop": "receptions",
+      "line": 4.5
+    },
+    "current_team": "KC",
+    "prior_season_teams": [
+      "KC"
+    ],
+    "current_position": "TE",
+    "current_season_games_available": 0,
+    "ewma_source_games": 16,
+    "last_3_actual_values": [
+      {
+        "game": "2024_15_KC_CLE",
+        "receptions": 4,
+        "carries": 0,
+        "targets": 8
+      },
+      {
+        "game": "2024_16_HOU_KC",
+        "receptions": 5,
+        "carries": 0,
+        "targets": 7
+      },
+      {
+        "game": "2024_17_KC_PIT",
+        "receptions": 8,
+        "carries": 0,
+        "targets": 11
+      }
+    ],
+    "last_5_actual_values": [
+      {
+        "game": "2024_13_LV_KC",
+        "receptions": 7,
+        "carries": 0,
+        "targets": 13
+      },
+      {
+        "game": "2024_14_LAC_KC",
+        "receptions": 5,
+        "carries": 0,
+        "targets": 6
+      },
+      {
+        "game": "2024_15_KC_CLE",
+        "receptions": 4,
+        "carries": 0,
+        "targets": 8
+      },
+      {
+        "game": "2024_16_HOU_KC",
+        "receptions": 5,
+        "carries": 0,
+        "targets": 7
+      },
+      {
+        "game": "2024_17_KC_PIT",
+        "receptions": 8,
+        "carries": 0,
+        "targets": 11
+      }
+    ],
+    "last_8_actual_values": [
+      {
+        "game": "2024_10_DEN_KC",
+        "receptions": 8,
+        "carries": 0,
+        "targets": 12
+      },
+      {
+        "game": "2024_11_KC_BUF",
+        "receptions": 2,
+        "carries": 0,
+        "targets": 4
+      },
+      {
+        "game": "2024_12_KC_CAR",
+        "receptions": 6,
+        "carries": 0,
+        "targets": 8
+      },
+      {
+        "game": "2024_13_LV_KC",
+        "receptions": 7,
+        "carries": 0,
+        "targets": 13
+      },
+      {
+        "game": "2024_14_LAC_KC",
+        "receptions": 5,
+        "carries": 0,
+        "targets": 6
+      },
+      {
+        "game": "2024_15_KC_CLE",
+        "receptions": 4,
+        "carries": 0,
+        "targets": 8
+      },
+      {
+        "game": "2024_16_HOU_KC",
+        "receptions": 5,
+        "carries": 0,
+        "targets": 7
+      },
+      {
+        "game": "2024_17_KC_PIT",
+        "receptions": 8,
+        "carries": 0,
+        "targets": 11
+      }
+    ],
+    "identity_ambiguity": false,
+    "team_identity_ambiguity": false,
+    "line_identity_ambiguity": false,
+    "diagnostic": "No current-game outcome or 2025 data loaded"
+  },
+  {
+    "player": "Rashee Rice",
+    "prop": "receptions",
+    "line": 5.5,
+    "model_mean": 5.5321764920023675,
+    "model_probability_over": 0.3742057920331198,
+    "market_no_vig_over": 0.42723631508678234,
+    "books": 3,
+    "quote_age_minutes": 1.9648131,
+    "quote_time": "2026-09-14T17:56:58+00:00",
+    "exact_line_group": {
+      "player": "Rashee Rice",
+      "prop": "receptions",
+      "line": 5.5
+    },
+    "current_team": "KC",
+    "prior_season_teams": [
+      "KC"
+    ],
+    "current_position": "WR",
+    "current_season_games_available": 0,
+    "ewma_source_games": 4,
+    "last_3_actual_values": [
+      {
+        "game": "2024_02_CIN_KC",
+        "receptions": 5,
+        "carries": 0,
+        "targets": 6
+      },
+      {
+        "game": "2024_03_KC_ATL",
+        "receptions": 12,
+        "carries": 1,
+        "targets": 14
+      },
+      {
+        "game": "2024_04_KC_LAC",
+        "receptions": 0,
+        "carries": 0,
+        "targets": 0
+      }
+    ],
+    "last_5_actual_values": [
+      {
+        "game": "2024_01_BAL_KC",
+        "receptions": 7,
+        "carries": 0,
+        "targets": 9
+      },
+      {
+        "game": "2024_02_CIN_KC",
+        "receptions": 5,
+        "carries": 0,
+        "targets": 6
+      },
+      {
+        "game": "2024_03_KC_ATL",
+        "receptions": 12,
+        "carries": 1,
+        "targets": 14
+      },
+      {
+        "game": "2024_04_KC_LAC",
+        "receptions": 0,
+        "carries": 0,
+        "targets": 0
+      }
+    ],
+    "last_8_actual_values": [
+      {
+        "game": "2024_01_BAL_KC",
+        "receptions": 7,
+        "carries": 0,
+        "targets": 9
+      },
+      {
+        "game": "2024_02_CIN_KC",
+        "receptions": 5,
+        "carries": 0,
+        "targets": 6
+      },
+      {
+        "game": "2024_03_KC_ATL",
+        "receptions": 12,
+        "carries": 1,
+        "targets": 14
+      },
+      {
+        "game": "2024_04_KC_LAC",
+        "receptions": 0,
+        "carries": 0,
+        "targets": 0
+      }
+    ],
+    "identity_ambiguity": false,
+    "team_identity_ambiguity": false,
+    "line_identity_ambiguity": false,
+    "diagnostic": "No current-game outcome or 2025 data loaded"
+  },
+  {
+    "player": "Courtland Sutton",
+    "prop": "receptions",
+    "line": 3.5,
+    "model_mean": 5.316659934610998,
+    "model_probability_over": 0.5122181131889074,
+    "market_no_vig_over": 0.5417850137421417,
+    "books": 4,
+    "quote_age_minutes": 1.9648131,
+    "quote_time": "2026-09-14T17:55:15+00:00",
+    "exact_line_group": {
+      "player": "Courtland Sutton",
+      "prop": "receptions",
+      "line": 3.5
+    },
+    "current_team": "DEN",
+    "prior_season_teams": [
+      "DEN"
+    ],
+    "current_position": "WR",
+    "current_season_games_available": 0,
+    "ewma_source_games": 15,
+    "last_3_actual_values": [
+      {
+        "game": "2024_15_IND_DEN",
+        "receptions": 3,
+        "carries": 0,
+        "targets": 9
+      },
+      {
+        "game": "2024_16_DEN_LAC",
+        "receptions": 5,
+        "carries": 0,
+        "targets": 6
+      },
+      {
+        "game": "2024_17_DEN_CIN",
+        "receptions": 5,
+        "carries": 0,
+        "targets": 9
+      }
+    ],
+    "last_5_actual_values": [
+      {
+        "game": "2024_12_DEN_LV",
+        "receptions": 8,
+        "carries": 0,
+        "targets": 10
+      },
+      {
+        "game": "2024_13_CLE_DEN",
+        "receptions": 6,
+        "carries": 0,
+        "targets": 9
+      },
+      {
+        "game": "2024_15_IND_DEN",
+        "receptions": 3,
+        "carries": 0,
+        "targets": 9
+      },
+      {
+        "game": "2024_16_DEN_LAC",
+        "receptions": 5,
+        "carries": 0,
+        "targets": 6
+      },
+      {
+        "game": "2024_17_DEN_CIN",
+        "receptions": 5,
+        "carries": 0,
+        "targets": 9
+      }
+    ],
+    "last_8_actual_values": [
+      {
+        "game": "2024_09_DEN_BAL",
+        "receptions": 7,
+        "carries": 0,
+        "targets": 10
+      },
+      {
+        "game": "2024_10_DEN_KC",
+        "receptions": 6,
+        "carries": 0,
+        "targets": 9
+      },
+      {
+        "game": "2024_11_ATL_DEN",
+        "receptions": 7,
+        "carries": 0,
+        "targets": 8
+      },
+      {
+        "game": "2024_12_DEN_LV",
+        "receptions": 8,
+        "carries": 0,
+        "targets": 10
+      },
+      {
+        "game": "2024_13_CLE_DEN",
+        "receptions": 6,
+        "carries": 0,
+        "targets": 9
+      },
+      {
+        "game": "2024_15_IND_DEN",
+        "receptions": 3,
+        "carries": 0,
+        "targets": 9
+      },
+      {
+        "game": "2024_16_DEN_LAC",
+        "receptions": 5,
+        "carries": 0,
+        "targets": 6
+      },
+      {
+        "game": "2024_17_DEN_CIN",
+        "receptions": 5,
+        "carries": 0,
+        "targets": 9
+      }
+    ],
+    "identity_ambiguity": false,
+    "team_identity_ambiguity": false,
+    "line_identity_ambiguity": false,
+    "diagnostic": "No current-game outcome or 2025 data loaded"
+  }
+]

@@ -25,15 +25,13 @@ improve the primary count errors:
 
 The receptions Poisson model lowers count deviance but worsens MAE/RMSE; the
 rushing-attempt model is worse on all three metrics. This MVP therefore uses
-EWMA means for the live display. Probability distributions are Poisson
-reference distributions with explicit Over, Under, and Push probabilities;
-these probabilities are descriptive and not calibrated betting claims.
+EWMA means for the live display. The mean model remains frozen at EWMA. Distribution calibration compares Poisson, training-only Negative Binomial, and empirical residual methods in `reports/usage_prop_calibration.json`. Negative Binomial is selected by 2024 probability log loss for both props (receptions 0.752 versus Poisson 0.768; rushing attempts 0.535 versus 0.552). Training variance/mean is 3.33 for receptions and 11.02 for rushing attempts, so Poisson understates dispersion. Because no timestamped historical receptions or rushing-attempt lines are archived, the market-matched validation population is zero and both markets remain `RESEARCH_ONLY`; no profitability conclusion is drawn.
 
 Run:
 
 ```powershell
 ./.venv/Scripts/nfl-td.exe usage-prop-validate
-./.venv/Scripts/nfl-td.exe usage-prop-scan
+./.venv/Scripts/nfl-td.exe usage-prop-scan`r`n./.venv/Scripts/nfl-td.exe usage-prop-audit
 ```
 
 The current live run found 20 player-lines (18 with a historical EWMA match)
@@ -43,8 +41,9 @@ disagreements were receptions: Marvin Mims Jr. +47.0 percentage points, Xavier
 Worthy +36.5 pp, Evan Engram +35.6 pp, Travis Kelce +31.3 pp, and Noah Gray
 +25.8 pp. These are model-versus-market diagnostics, not bets or guarantees.
 
-The main limitation is historical role continuity: live 2026 players are
+The disagreement audit in `reports/usage_prop_disagreement_audit.json` records prior games, source-game counts, team changes, exact lines, quote timestamps, and identity checks without loading current outcomes or 2025. The main limitation is historical role continuity: live 2026 players are
 matched to their latest available frozen 2024 EWMA history by normalized name,
 while the roster supplies only descriptive current team labels. Players with
 no safe prior match receive no model probability. Route participation is not
 used.
+
