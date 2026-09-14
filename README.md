@@ -150,3 +150,19 @@ the analysis is in `reports/PHASE5.md`, and the local historical feature table
 is `data/derived/phase5_2017_2024_player_features.parquet`. The feature table
 retains nulls and audited source IDs. The player ATD market comparison uses
 only the ten previously captured Phase 1 T-60 event snapshots.
+
+Phase 6 evaluates predeclared position-specific logistic models, three small
+LightGBM configurations, and fixed blends selected on 2023 out-of-fold
+component predictions. The 2024 validation benchmark is the frozen Phase 5
+hierarchical model; the 2025 holdout and September 13, 2026 exhibition are
+excluded from development.
+
+```powershell
+./.venv/Scripts/nfl-td.exe phase6-build
+./.venv/Scripts/nfl-td.exe phase6-verify
+```
+
+See `docs/PHASE6_PROTOCOL.md` for the predeclared promotion criteria,
+`reports/PHASE6.md` for results, and `reports/phase6_metrics.json` for full
+calibration and position tables. The 2023 OOF component and 2024 validation
+prediction CSVs are retained under `reports/`.

@@ -1,2 +1,4 @@
 # Preserve the exact hashed Phase 5 validation bytes across Windows checkouts.
 reports/phase5_validation_predictions.csv -text
+reports/phase6_validation_predictions.csv -text
+reports/phase6_2023_oof_components.csv -text

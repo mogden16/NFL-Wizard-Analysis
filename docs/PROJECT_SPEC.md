@@ -1594,3 +1594,40 @@ successful and missed representative examples. Run all prior tests and
 verifiers plus a Phase 5 verifier, then commit/tag `phase5-complete` and stop
 before Phase 6. The user's Phase 5 instruction is the authoritative complete
 requirement for this milestone.
+
+==================================================
+42. PHASE 6 POSITION AND NONLINEAR PLAYER MODELS (AUTHORIZED SEPTEMBER 14, 2026)
+==================================================
+
+Phase 6 preserves all Phase 0-5 predictive artifacts, the Phase 4.6 replay
+firewall, the untouched 2025 historical holdout, and the permanent September
+13, 2026 diagnostic exhibition exclusion. It compares position-specific RB,
+WR, TE, and QB rushing/receiving anytime-TD logistic models, one disciplined
+LightGBM model family, and a simple blend based only on chronological OOF
+component predictions. QB passing touchdowns never count. Player ATD odds
+remain a separate T-60 benchmark, never a football-model feature. Do not
+optimize betting returns or build XGBoost, neural networks, or a broad model
+search.
+
+Use lagged Phase 2 and 3 role, xTD, team environment and opponent fields,
+plus the frozen Phase 4 team TD expectation. Test core usage with and without
+xTD separately for RB, WR and TE. Do not fabricate historical designed-run,
+scramble, air-yard, or route participation features. Build 2023 component
+OOF predictions from 2022-only fits, select fixed simple-blend weights on
+2023, and validate in 2024. Calibrate only on chronologically separate data.
+
+The predeclared model configs, five blend weights, chronological split, and
+materiality/uncertainty promotion gates are in `docs/PHASE6_PROTOCOL.md`.
+Evaluate log loss first, then Brier score and calibration, overall and by
+position, with early/middle/late season stability and game-cluster uncertainty.
+Record every LightGBM configuration and feature contribution diagnostic.
+Promote a challenger only if it beats the frozen Phase 5 hierarchical 0.3804
+log-loss champion by the predeclared material margin without calibration,
+position, stability or integrity problems. It is acceptable to retain the
+Phase 5 hierarchy as `PHASE6_CHAMPION`.
+
+Save validation predictions, true OOF component predictions, experiment
+metrics, calibration tables, position diagnostics, market comparison, and
+an explicit Phase 6 report. Run the full prior tests/verifiers and a new
+Phase 6 verifier. Commit/tag `phase6-complete`, then stop before Phase 7.
+The user's Phase 6 instruction is the authoritative complete requirement.

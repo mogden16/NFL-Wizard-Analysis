@@ -1,0 +1,5388 @@
+{
+  "phase": 6,
+  "champion": "phase5_hierarchical",
+  "holdout_2025_untouched": true,
+  "diagnostic_exhibition_slate_excluded": true,
+  "population": {
+    "fit_rows": 6441,
+    "oof_rows": 6321,
+    "validation_rows": 6320,
+    "validation_positive_rate": 0.15822784810126583
+  },
+  "chronology": {
+    "component_fit_seasons": [
+      2022
+    ],
+    "oof_and_calibration_season": 2023,
+    "validation_season": 2024,
+    "team_model_fits": {
+      "2022": [
+        2021
+      ],
+      "2023": [
+        2021,
+        2022
+      ],
+      "2024": [
+        2021,
+        2022,
+        2023
+      ]
+    }
+  },
+  "promotion_thresholds": {
+    "minimum_absolute_log_loss_improvement": 0.005,
+    "maximum_position_log_loss_worsening": 0.01,
+    "maximum_segment_log_loss_worsening": 0.005,
+    "maximum_ece_worsening": 0.01
+  },
+  "metrics": {
+    "historical_td": {
+      "rows": 6320,
+      "positive_rate": 0.15822784810126583,
+      "log_loss": 0.4067611362238196,
+      "brier": 0.12412182420682599,
+      "calibration_table": [
+        {
+          "bin": "<10%",
+          "player_games": 2383,
+          "mean_probability": 0.07301314592442247,
+          "actual_td_rate": 0.08266890474192194
+        },
+        {
+          "bin": "10-20%",
+          "player_games": 1948,
+          "mean_probability": 0.13867410504815278,
+          "actual_td_rate": 0.12371663244353183
+        },
+        {
+          "bin": "20-30%",
+          "player_games": 1028,
+          "mean_probability": 0.24720874300081822,
+          "actual_td_rate": 0.22762645914396887
+        },
+        {
+          "bin": "30-40%",
+          "player_games": 561,
+          "mean_probability": 0.3452008578052145,
+          "actual_td_rate": 0.26916221033868093
+        },
+        {
+          "bin": "40-50%",
+          "player_games": 275,
+          "mean_probability": 0.43862945578013945,
+          "actual_td_rate": 0.41818181818181815
+        },
+        {
+          "bin": "50-60%",
+          "player_games": 107,
+          "mean_probability": 0.5345892883397826,
+          "actual_td_rate": 0.45794392523364486
+        },
+        {
+          "bin": "60%+",
+          "player_games": 18,
+          "mean_probability": 0.6381568359555095,
+          "actual_td_rate": 0.7222222222222222
+        }
+      ],
+      "ece": 0.020612726277557787,
+      "calibration_intercept": -0.3204058800645112,
+      "calibration_slope": 0.8450515030336292,
+      "roc_auc": 0.6855888157894736,
+      "pr_auc": 0.3132626406948461
+    },
+    "phase5_hierarchical": {
+      "rows": 6320,
+      "positive_rate": 0.15822784810126583,
+      "log_loss": 0.38038097539213184,
+      "brier": 0.11775722625009548,
+      "calibration_table": [
+        {
+          "bin": "<10%",
+          "player_games": 2235,
+          "mean_probability": 0.058513708463776744,
+          "actual_td_rate": 0.042058165548098436
+        },
+        {
+          "bin": "10-20%",
+          "player_games": 2151,
+          "mean_probability": 0.14493568722483935,
+          "actual_td_rate": 0.1320316132031613
+        },
+        {
+          "bin": "20-30%",
+          "player_games": 1153,
+          "mean_probability": 0.24364010285406995,
+          "actual_td_rate": 0.26279271465741544
+        },
+        {
+          "bin": "30-40%",
+          "player_games": 474,
+          "mean_probability": 0.34323379462246933,
+          "actual_td_rate": 0.3628691983122363
+        },
+        {
+          "bin": "40-50%",
+          "player_games": 243,
+          "mean_probability": 0.44176045908651806,
+          "actual_td_rate": 0.46502057613168724
+        },
+        {
+          "bin": "50-60%",
+          "player_games": 60,
+          "mean_probability": 0.5340627872883174,
+          "actual_td_rate": 0.55
+        },
+        {
+          "bin": "60%+",
+          "player_games": 4,
+          "mean_probability": 0.6387338993952234,
+          "actual_td_rate": 0.25
+        }
+      ],
+      "ece": 0.016469671075575208,
+      "calibration_intercept": 0.20528842506111375,
+      "calibration_slope": 1.1740454399054563,
+      "roc_auc": 0.7594919172932331,
+      "pr_auc": 0.3540901513434233
+    },
+    "phase5_pooled_logistic": {
+      "rows": 6320,
+      "positive_rate": 0.15822784810126583,
+      "log_loss": 0.3831436500555947,
+      "brier": 0.11885702641992611,
+      "calibration_table": [
+        {
+          "bin": "<10%",
+          "player_games": 2784,
+          "mean_probability": 0.06271986030915032,
+          "actual_td_rate": 0.051364942528735635
+        },
+        {
+          "bin": "10-20%",
+          "player_games": 1935,
+          "mean_probability": 0.1424202881023422,
+          "actual_td_rate": 0.16124031007751938
+        },
+        {
+          "bin": "20-30%",
+          "player_games": 841,
+          "mean_probability": 0.24448037829750616,
+          "actual_td_rate": 0.28418549346016647
+        },
+        {
+          "bin": "30-40%",
+          "player_games": 371,
+          "mean_probability": 0.3433719828972196,
+          "actual_td_rate": 0.3746630727762803
+        },
+        {
+          "bin": "40-50%",
+          "player_games": 202,
+          "mean_probability": 0.4459152998324235,
+          "actual_td_rate": 0.3811881188118812
+        },
+        {
+          "bin": "50-60%",
+          "player_games": 104,
+          "mean_probability": 0.5478968485757121,
+          "actual_td_rate": 0.49038461538461536
+        },
+        {
+          "bin": "60%+",
+          "player_games": 83,
+          "mean_probability": 0.6813603350043357,
+          "actual_td_rate": 0.46987951807228917
+        }
+      ],
+      "ece": 0.023677041209328266,
+      "calibration_intercept": -0.009530070912633977,
+      "calibration_slope": 0.9813232162899432,
+      "roc_auc": 0.7569191729323308,
+      "pr_auc": 0.3482659632132518
+    },
+    "position_logistic": {
+      "rows": 6320,
+      "positive_rate": 0.15822784810126583,
+      "log_loss": 0.3834682438731466,
+      "brier": 0.11863408101709351,
+      "calibration_table": [
+        {
+          "bin": "<10%",
+          "player_games": 2875,
+          "mean_probability": 0.05985992095017744,
+          "actual_td_rate": 0.05391304347826087
+        },
+        {
+          "bin": "10-20%",
+          "player_games": 1750,
+          "mean_probability": 0.1403047723793311,
+          "actual_td_rate": 0.164
+        },
+        {
+          "bin": "20-30%",
+          "player_games": 845,
+          "mean_probability": 0.24486681206423272,
+          "actual_td_rate": 0.263905325443787
+        },
+        {
+          "bin": "30-40%",
+          "player_games": 478,
+          "mean_probability": 0.34489960700796035,
+          "actual_td_rate": 0.34309623430962344
+        },
+        {
+          "bin": "40-50%",
+          "player_games": 242,
+          "mean_probability": 0.44058304188384995,
+          "actual_td_rate": 0.45041322314049587
+        },
+        {
+          "bin": "50-60%",
+          "player_games": 95,
+          "mean_probability": 0.539530168271978,
+          "actual_td_rate": 0.4842105263157895
+        },
+        {
+          "bin": "60%+",
+          "player_games": 35,
+          "mean_probability": 0.6723761441457878,
+          "actual_td_rate": 0.45714285714285713
+        }
+      ],
+      "ece": 0.014348245556725939,
+      "calibration_intercept": 0.009373239775952402,
+      "calibration_slope": 0.979212874312824,
+      "roc_auc": 0.7529062030075189,
+      "pr_auc": 0.3468001171487357
+    },
+    "lightgbm": {
+      "rows": 6320,
+      "positive_rate": 0.15822784810126583,
+      "log_loss": 0.38067827555449263,
+      "brier": 0.1177868546741943,
+      "calibration_table": [
+        {
+          "bin": "<10%",
+          "player_games": 2991,
+          "mean_probability": 0.05768382157112665,
+          "actual_td_rate": 0.05683717820127048
+        },
+        {
+          "bin": "10-20%",
+          "player_games": 1465,
+          "mean_probability": 0.14578281633734688,
+          "actual_td_rate": 0.1597269624573379
+        },
+        {
+          "bin": "20-30%",
+          "player_games": 952,
+          "mean_probability": 0.24379578266226196,
+          "actual_td_rate": 0.24579831932773108
+        },
+        {
+          "bin": "30-40%",
+          "player_games": 476,
+          "mean_probability": 0.3465308744586778,
+          "actual_td_rate": 0.35294117647058826
+        },
+        {
+          "bin": "40-50%",
+          "player_games": 287,
+          "mean_probability": 0.4453776441148043,
+          "actual_td_rate": 0.41114982578397213
+        },
+        {
+          "bin": "50-60%",
+          "player_games": 149,
+          "mean_probability": 0.5282303827324448,
+          "actual_td_rate": 0.5100671140939598
+        },
+        {
+          "bin": "60%+",
+          "player_games": 0,
+          "mean_probability": null,
+          "actual_td_rate": null
+        }
+      ],
+      "ece": 0.006399986382326852,
+      "calibration_intercept": 0.0006912924155975681,
+      "calibration_slope": 0.9906270770026054,
+      "roc_auc": 0.7549950187969924,
+      "pr_auc": 0.35273388486325946
+    },
+    "oof_blend": {
+      "rows": 6320,
+      "positive_rate": 0.15822784810126583,
+      "log_loss": 0.3801251080201824,
+      "brier": 0.11781868016884779,
+      "calibration_table": [
+        {
+          "bin": "<10%",
+          "player_games": 2532,
+          "mean_probability": 0.06117026851161316,
+          "actual_td_rate": 0.0462085308056872
+        },
+        {
+          "bin": "10-20%",
+          "player_games": 2105,
+          "mean_probability": 0.14295905951119103,
+          "actual_td_rate": 0.1505938242280285
+        },
+        {
+          "bin": "20-30%",
+          "player_games": 990,
+          "mean_probability": 0.24226101475002196,
+          "actual_td_rate": 0.2818181818181818
+        },
+        {
+          "bin": "30-40%",
+          "player_games": 409,
+          "mean_probability": 0.34470861176288575,
+          "actual_td_rate": 0.3643031784841076
+        },
+        {
+          "bin": "40-50%",
+          "player_games": 196,
+          "mean_probability": 0.4431584309032437,
+          "actual_td_rate": 0.46938775510204084
+        },
+        {
+          "bin": "50-60%",
+          "player_games": 71,
+          "mean_probability": 0.5373478865481901,
+          "actual_td_rate": 0.5492957746478874
+        },
+        {
+          "bin": "60%+",
+          "player_games": 17,
+          "mean_probability": 0.6392880914421157,
+          "actual_td_rate": 0.4117647058823529
+        }
+      ],
+      "ece": 0.017561268661291787,
+      "calibration_intercept": 0.2503033676002252,
+      "calibration_slope": 1.1448971602767133,
+      "roc_auc": 0.7608701127819549,
+      "pr_auc": 0.35425440844824757
+    }
+  },
+  "position_benchmarks": {
+    "RB": {
+      "historical_td": {
+        "rows": 1584,
+        "positive_rate": 0.21275252525252525,
+        "log_loss": 0.4659254242634437,
+        "brier": 0.14917877375520636,
+        "calibration_table": [
+          {
+            "bin": "<10%",
+            "player_games": 243,
+            "mean_probability": 0.08954585863545131,
+            "actual_td_rate": 0.09053497942386832
+          },
+          {
+            "bin": "10-20%",
+            "player_games": 629,
+            "mean_probability": 0.13841622057173555,
+            "actual_td_rate": 0.12241653418124006
+          },
+          {
+            "bin": "20-30%",
+            "player_games": 302,
+            "mean_probability": 0.2535981130361777,
+            "actual_td_rate": 0.22847682119205298
+          },
+          {
+            "bin": "30-40%",
+            "player_games": 173,
+            "mean_probability": 0.3510573553584883,
+            "actual_td_rate": 0.3236994219653179
+          },
+          {
+            "bin": "40-50%",
+            "player_games": 147,
+            "mean_probability": 0.4371126360848783,
+            "actual_td_rate": 0.4489795918367347
+          },
+          {
+            "bin": "50-60%",
+            "player_games": 74,
+            "mean_probability": 0.5344076660589405,
+            "actual_td_rate": 0.47297297297297297
+          },
+          {
+            "bin": "60%+",
+            "player_games": 16,
+            "mean_probability": 0.6389825827165989,
+            "actual_td_rate": 0.75
+          }
+        ],
+        "ece": 0.01937537889240533,
+        "calibration_intercept": -0.05430049332608985,
+        "calibration_slope": 1.0384171698749918,
+        "roc_auc": 0.7185208893034676,
+        "pr_auc": 0.4142466522671215
+      },
+      "phase5_hierarchical": {
+        "rows": 1584,
+        "positive_rate": 0.21275252525252525,
+        "log_loss": 0.4446861513966843,
+        "brier": 0.14289410718408524,
+        "calibration_table": [
+          {
+            "bin": "<10%",
+            "player_games": 411,
+            "mean_probability": 0.05791024386823023,
+            "actual_td_rate": 0.04866180048661801
+          },
+          {
+            "bin": "10-20%",
+            "player_games": 431,
+            "mean_probability": 0.14638049732034658,
+            "actual_td_rate": 0.12993039443155452
+          },
+          {
+            "bin": "20-30%",
+            "player_games": 231,
+            "mean_probability": 0.2455132716056613,
+            "actual_td_rate": 0.21645021645021645
+          },
+          {
+            "bin": "30-40%",
+            "player_games": 233,
+            "mean_probability": 0.3499999590346646,
+            "actual_td_rate": 0.3090128755364807
+          },
+          {
+            "bin": "40-50%",
+            "player_games": 215,
+            "mean_probability": 0.4433905222891798,
+            "actual_td_rate": 0.4883720930232558
+          },
+          {
+            "bin": "50-60%",
+            "player_games": 59,
+            "mean_probability": 0.534527005108487,
+            "actual_td_rate": 0.559322033898305
+          },
+          {
+            "bin": "60%+",
+            "player_games": 4,
+            "mean_probability": 0.6387338993952234,
+            "actual_td_rate": 0.25
+          }
+        ],
+        "ece": 0.0251537504892065,
+        "calibration_intercept": 0.013870639222993756,
+        "calibration_slope": 1.0901510633145497,
+        "roc_auc": 0.7639295734094169,
+        "pr_auc": 0.43549875383190395
+      },
+      "phase5_pooled_logistic": {
+        "rows": 1584,
+        "positive_rate": 0.21275252525252525,
+        "log_loss": 0.4562348773926689,
+        "brier": 0.14809678009449154,
+        "calibration_table": [
+          {
+            "bin": "<10%",
+            "player_games": 653,
+            "mean_probability": 0.06553686178825607,
+            "actual_td_rate": 0.07044410413476264
+          },
+          {
+            "bin": "10-20%",
+            "player_games": 347,
+            "mean_probability": 0.13804766249387668,
+            "actual_td_rate": 0.1786743515850144
+          },
+          {
+            "bin": "20-30%",
+            "player_games": 125,
+            "mean_probability": 0.25149446142846354,
+            "actual_td_rate": 0.304
+          },
+          {
+            "bin": "30-40%",
+            "player_games": 132,
+            "mean_probability": 0.35200067536664176,
+            "actual_td_rate": 0.3560606060606061
+          },
+          {
+            "bin": "40-50%",
+            "player_games": 146,
+            "mean_probability": 0.4512562248890167,
+            "actual_td_rate": 0.3904109589041096
+          },
+          {
+            "bin": "50-60%",
+            "player_games": 100,
+            "mean_probability": 0.547113921719314,
+            "actual_td_rate": 0.49
+          },
+          {
+            "bin": "60%+",
+            "player_games": 81,
+            "mean_probability": 0.6825884922233812,
+            "actual_td_rate": 0.4691358024691358
+          }
+        ],
+        "ece": 0.035533751525101416,
+        "calibration_intercept": -0.2649227644071118,
+        "calibration_slope": 0.7782686852651559,
+        "roc_auc": 0.7549156551390994,
+        "pr_auc": 0.40952271452970385
+      },
+      "position_logistic": {
+        "rows": 1584,
+        "positive_rate": 0.21275252525252525,
+        "log_loss": 0.45340419835570495,
+        "brier": 0.14573248584640672,
+        "calibration_table": [
+          {
+            "bin": "<10%",
+            "player_games": 585,
+            "mean_probability": 0.07035886000936928,
+            "actual_td_rate": 0.06837606837606838
+          },
+          {
+            "bin": "10-20%",
+            "player_games": 434,
+            "mean_probability": 0.1365158887567854,
+            "actual_td_rate": 0.17050691244239632
+          },
+          {
+            "bin": "20-30%",
+            "player_games": 156,
+            "mean_probability": 0.2504480480125277,
+            "actual_td_rate": 0.30128205128205127
+          },
+          {
+            "bin": "30-40%",
+            "player_games": 176,
+            "mean_probability": 0.34669052276852824,
+            "actual_td_rate": 0.3352272727272727
+          },
+          {
+            "bin": "40-50%",
+            "player_games": 143,
+            "mean_probability": 0.44159280749190455,
+            "actual_td_rate": 0.4965034965034965
+          },
+          {
+            "bin": "50-60%",
+            "player_games": 62,
+            "mean_probability": 0.545564192598249,
+            "actual_td_rate": 0.5161290322580645
+          },
+          {
+            "bin": "60%+",
+            "player_games": 28,
+            "mean_probability": 0.6722814703287353,
+            "actual_td_rate": 0.5
+          }
+        ],
+        "ece": 0.02548028001344476,
+        "calibration_intercept": 0.002114723912466755,
+        "calibration_slope": 0.9230557965711669,
+        "roc_auc": 0.7498709067935152,
+        "pr_auc": 0.41875593365576946
+      },
+      "lightgbm": {
+        "rows": 1584,
+        "positive_rate": 0.21275252525252525,
+        "log_loss": 0.4485795630056262,
+        "brier": 0.14414910129928785,
+        "calibration_table": [
+          {
+            "bin": "<10%",
+            "player_games": 686,
+            "mean_probability": 0.06482827672201527,
+            "actual_td_rate": 0.07580174927113703
+          },
+          {
+            "bin": "10-20%",
+            "player_games": 238,
+            "mean_probability": 0.13717826894811677,
+            "actual_td_rate": 0.17647058823529413
+          },
+          {
+            "bin": "20-30%",
+            "player_games": 117,
+            "mean_probability": 0.24618385696008163,
+            "actual_td_rate": 0.20512820512820512
+          },
+          {
+            "bin": "30-40%",
+            "player_games": 190,
+            "mean_probability": 0.3594200218804641,
+            "actual_td_rate": 0.3105263157894737
+          },
+          {
+            "bin": "40-50%",
+            "player_games": 210,
+            "mean_probability": 0.44473861267808196,
+            "actual_td_rate": 0.40476190476190477
+          },
+          {
+            "bin": "50-60%",
+            "player_games": 143,
+            "mean_probability": 0.5291539308895499,
+            "actual_td_rate": 0.5244755244755245
+          },
+          {
+            "bin": "60%+",
+            "player_games": 0,
+            "mean_probability": null,
+            "actual_td_rate": null
+          }
+        ],
+        "ece": 0.02527576411632974,
+        "calibration_intercept": -0.15144878346689186,
+        "calibration_slope": 0.8769677279959752,
+        "roc_auc": 0.7574082843334389,
+        "pr_auc": 0.4271056168475592
+      },
+      "oof_blend": {
+        "rows": 1584,
+        "positive_rate": 0.21275252525252525,
+        "log_loss": 0.44536323970771174,
+        "brier": 0.14358989501213487,
+        "calibration_table": [
+          {
+            "bin": "<10%",
+            "player_games": 491,
+            "mean_probability": 0.0644770909348469,
+            "actual_td_rate": 0.048879837067209775
+          },
+          {
+            "bin": "10-20%",
+            "player_games": 452,
+            "mean_probability": 0.14163439730105748,
+            "actual_td_rate": 0.15486725663716813
+          },
+          {
+            "bin": "20-30%",
+            "player_games": 183,
+            "mean_probability": 0.24815211032282053,
+            "actual_td_rate": 0.2677595628415301
+          },
+          {
+            "bin": "30-40%",
+            "player_games": 198,
+            "mean_probability": 0.35169079587384394,
+            "actual_td_rate": 0.3282828282828283
+          },
+          {
+            "bin": "40-50%",
+            "player_games": 174,
+            "mean_probability": 0.4445473544925871,
+            "actual_td_rate": 0.47701149425287354
+          },
+          {
+            "bin": "50-60%",
+            "player_games": 69,
+            "mean_probability": 0.5378356564874021,
+            "actual_td_rate": 0.5652173913043478
+          },
+          {
+            "bin": "60%+",
+            "player_games": 17,
+            "mean_probability": 0.6392880914421157,
+            "actual_td_rate": 0.4117647058823529
+          }
+        ],
+        "ece": 0.021002804948265057,
+        "calibration_intercept": 0.01578277811172867,
+        "calibration_slope": 1.010522613693386,
+        "roc_auc": 0.7615333179452645,
+        "pr_auc": 0.42648855983508316
+      }
+    },
+    "WR": {
+      "historical_td": {
+        "rows": 2567,
+        "positive_rate": 0.16595247370471367,
+        "log_loss": 0.43263198057703395,
+        "brier": 0.1339771094297808,
+        "calibration_table": [
+          {
+            "bin": "<10%",
+            "player_games": 763,
+            "mean_probability": 0.07860155575692304,
+            "actual_td_rate": 0.09174311926605505
+          },
+          {
+            "bin": "10-20%",
+            "player_games": 899,
+            "mean_probability": 0.13233736934035042,
+            "actual_td_rate": 0.13014460511679643
+          },
+          {
+            "bin": "20-30%",
+            "player_games": 482,
+            "mean_probability": 0.2436602697629803,
+            "actual_td_rate": 0.24273858921161826
+          },
+          {
+            "bin": "30-40%",
+            "player_games": 299,
+            "mean_probability": 0.34221860579065244,
+            "actual_td_rate": 0.2608695652173913
+          },
+          {
+            "bin": "40-50%",
+            "player_games": 101,
+            "mean_probability": 0.44065966901658377,
+            "actual_td_rate": 0.3465346534653465
+          },
+          {
+            "bin": "50-60%",
+            "player_games": 21,
+            "mean_probability": 0.5364934504950073,
+            "actual_td_rate": 0.38095238095238093
+          },
+          {
+            "bin": "60%+",
+            "player_games": 2,
+            "mean_probability": 0.6315508618667947,
+            "actual_td_rate": 0.5
+          }
+        ],
+        "ece": 0.019400861669812256,
+        "calibration_intercept": -0.4722853823806036,
+        "calibration_slope": 0.7274302531256583,
+        "roc_auc": 0.6490078568875498,
+        "pr_auc": 0.2635123472387546
+      },
+      "phase5_hierarchical": {
+        "rows": 2567,
+        "positive_rate": 0.16595247370471367,
+        "log_loss": 0.3973961003013021,
+        "brier": 0.12514770583799015,
+        "calibration_table": [
+          {
+            "bin": "<10%",
+            "player_games": 854,
+            "mean_probability": 0.05742161055737937,
+            "actual_td_rate": 0.040983606557377046
+          },
+          {
+            "bin": "10-20%",
+            "player_games": 843,
+            "mean_probability": 0.1467928360808133,
+            "actual_td_rate": 0.14472123368920523
+          },
+          {
+            "bin": "20-30%",
+            "player_games": 649,
+            "mean_probability": 0.2457743790288934,
+            "actual_td_rate": 0.27426810477657937
+          },
+          {
+            "bin": "30-40%",
+            "player_games": 195,
+            "mean_probability": 0.33809895120017747,
+            "actual_td_rate": 0.4256410256410256
+          },
+          {
+            "bin": "40-50%",
+            "player_games": 25,
+            "mean_probability": 0.4308805915582814,
+            "actual_td_rate": 0.32
+          },
+          {
+            "bin": "50-60%",
+            "player_games": 1,
+            "mean_probability": 0.5066739358983067,
+            "actual_td_rate": 0.0
+          },
+          {
+            "bin": "60%+",
+            "player_games": 0,
+            "mean_probability": null,
+            "actual_td_rate": null
+          }
+        ],
+        "ece": 0.021280186008257315,
+        "calibration_intercept": 0.44928405528128434,
+        "calibration_slope": 1.2776194025545582,
+        "roc_auc": 0.7458670754090165,
+        "pr_auc": 0.3200932577567135
+      },
+      "phase5_pooled_logistic": {
+        "rows": 2567,
+        "positive_rate": 0.16595247370471367,
+        "log_loss": 0.3977583740674087,
+        "brier": 0.12473808215159206,
+        "calibration_table": [
+          {
+            "bin": "<10%",
+            "player_games": 1009,
+            "mean_probability": 0.06316994237906964,
+            "actual_td_rate": 0.04757185332011893
+          },
+          {
+            "bin": "10-20%",
+            "player_games": 766,
+            "mean_probability": 0.14575494895837038,
+            "actual_td_rate": 0.17232375979112272
+          },
+          {
+            "bin": "20-30%",
+            "player_games": 539,
+            "mean_probability": 0.24416935531713163,
+            "actual_td_rate": 0.2690166975881262
+          },
+          {
+            "bin": "30-40%",
+            "player_games": 202,
+            "mean_probability": 0.3389702301586465,
+            "actual_td_rate": 0.39603960396039606
+          },
+          {
+            "bin": "40-50%",
+            "player_games": 45,
+            "mean_probability": 0.43219662838207135,
+            "actual_td_rate": 0.4
+          },
+          {
+            "bin": "50-60%",
+            "player_games": 4,
+            "mean_probability": 0.5674700199856657,
+            "actual_td_rate": 0.5
+          },
+          {
+            "bin": "60%+",
+            "player_games": 2,
+            "mean_probability": 0.6316199676329848,
+            "actual_td_rate": 0.5
+          }
+        ],
+        "ece": 0.024539493666844908,
+        "calibration_intercept": 0.3771433847272694,
+        "calibration_slope": 1.1957841191398295,
+        "roc_auc": 0.7462672657461192,
+        "pr_auc": 0.33348133276333597
+      },
+      "position_logistic": {
+        "rows": 2567,
+        "positive_rate": 0.16595247370471367,
+        "log_loss": 0.3986581426116733,
+        "brier": 0.12521617331955662,
+        "calibration_table": [
+          {
+            "bin": "<10%",
+            "player_games": 1006,
+            "mean_probability": 0.05984962160273099,
+            "actual_td_rate": 0.05069582504970179
+          },
+          {
+            "bin": "10-20%",
+            "player_games": 675,
+            "mean_probability": 0.14258318735782388,
+            "actual_td_rate": 0.15703703703703703
+          },
+          {
+            "bin": "20-30%",
+            "player_games": 493,
+            "mean_probability": 0.24650886136056893,
+            "actual_td_rate": 0.25557809330628806
+          },
+          {
+            "bin": "30-40%",
+            "player_games": 268,
+            "mean_probability": 0.3446052150150047,
+            "actual_td_rate": 0.3619402985074627
+          },
+          {
+            "bin": "40-50%",
+            "player_games": 90,
+            "mean_probability": 0.4383140220748414,
+            "actual_td_rate": 0.35555555555555557
+          },
+          {
+            "bin": "50-60%",
+            "player_games": 30,
+            "mean_probability": 0.5257515051267027,
+            "actual_td_rate": 0.4
+          },
+          {
+            "bin": "60%+",
+            "player_games": 5,
+            "mean_probability": 0.6252996491129663,
+            "actual_td_rate": 0.4
+          }
+        ],
+        "ece": 0.01574963263620419,
+        "calibration_intercept": 0.010938583332422038,
+        "calibration_slope": 1.01405959286232,
+        "roc_auc": 0.741512127411832,
+        "pr_auc": 0.3243478620115259
+      },
+      "lightgbm": {
+        "rows": 2567,
+        "positive_rate": 0.16595247370471367,
+        "log_loss": 0.39803201264849875,
+        "brier": 0.12506597508208595,
+        "calibration_table": [
+          {
+            "bin": "<10%",
+            "player_games": 1092,
+            "mean_probability": 0.054991996647979366,
+            "actual_td_rate": 0.054945054945054944
+          },
+          {
+            "bin": "10-20%",
+            "player_games": 619,
+            "mean_probability": 0.1512209302619647,
+            "actual_td_rate": 0.17609046849757673
+          },
+          {
+            "bin": "20-30%",
+            "player_games": 582,
+            "mean_probability": 0.2441229696582969,
+            "actual_td_rate": 0.2542955326460481
+          },
+          {
+            "bin": "30-40%",
+            "player_games": 214,
+            "mean_probability": 0.3358726476395406,
+            "actual_td_rate": 0.3925233644859813
+          },
+          {
+            "bin": "40-50%",
+            "player_games": 55,
+            "mean_probability": 0.4486423178943978,
+            "actual_td_rate": 0.43636363636363634
+          },
+          {
+            "bin": "50-60%",
+            "player_games": 5,
+            "mean_probability": 0.5074390028073305,
+            "actual_td_rate": 0.2
+          },
+          {
+            "bin": "60%+",
+            "player_games": 0,
+            "mean_probability": null,
+            "actual_td_rate": null
+          }
+        ],
+        "ece": 0.01390795172172783,
+        "calibration_intercept": 0.20581303144397908,
+        "calibration_slope": 1.0723842188703774,
+        "roc_auc": 0.7408888172566459,
+        "pr_auc": 0.3296363892851795
+      },
+      "oof_blend": {
+        "rows": 2567,
+        "positive_rate": 0.16595247370471367,
+        "log_loss": 0.3977629143241419,
+        "brier": 0.12511876349544793,
+        "calibration_table": [
+          {
+            "bin": "<10%",
+            "player_games": 939,
+            "mean_probability": 0.060358267666564124,
+            "actual_td_rate": 0.046858359957401494
+          },
+          {
+            "bin": "10-20%",
+            "player_games": 844,
+            "mean_probability": 0.14532208544719757,
+            "actual_td_rate": 0.16113744075829384
+          },
+          {
+            "bin": "20-30%",
+            "player_games": 595,
+            "mean_probability": 0.24371903660442765,
+            "actual_td_rate": 0.27899159663865547
+          },
+          {
+            "bin": "30-40%",
+            "player_games": 167,
+            "mean_probability": 0.3405965150375862,
+            "actual_td_rate": 0.4251497005988024
+          },
+          {
+            "bin": "40-50%",
+            "player_games": 21,
+            "mean_probability": 0.42959745940399197,
+            "actual_td_rate": 0.42857142857142855
+          },
+          {
+            "bin": "50-60%",
+            "player_games": 1,
+            "mean_probability": 0.5308959458218753,
+            "actual_td_rate": 0.0
+          },
+          {
+            "bin": "60%+",
+            "player_games": 0,
+            "mean_probability": null,
+            "actual_td_rate": null
+          }
+        ],
+        "ece": 0.02402982899254512,
+        "calibration_intercept": 0.538827041950643,
+        "calibration_slope": 1.2848204476342302,
+        "roc_auc": 0.747241975909638,
+        "pr_auc": 0.32882944278237547
+      }
+    },
+    "TE": {
+      "historical_td": {
+        "rows": 1394,
+        "positive_rate": 0.11262553802008608,
+        "log_loss": 0.3408823415453918,
+        "brier": 0.09701522506213249,
+        "calibration_table": [
+          {
+            "bin": "<10%",
+            "player_games": 873,
+            "mean_probability": 0.07152997093579097,
+            "actual_td_rate": 0.08018327605956473
+          },
+          {
+            "bin": "10-20%",
+            "player_games": 277,
+            "mean_probability": 0.15350791364312144,
+            "actual_td_rate": 0.11552346570397112
+          },
+          {
+            "bin": "20-30%",
+            "player_games": 164,
+            "mean_probability": 0.2462975672756068,
+            "actual_td_rate": 0.20121951219512196
+          },
+          {
+            "bin": "30-40%",
+            "player_games": 59,
+            "mean_probability": 0.34496726526001736,
+            "actual_td_rate": 0.1864406779661017
+          },
+          {
+            "bin": "40-50%",
+            "player_games": 14,
+            "mean_probability": 0.4343043198231361,
+            "actual_td_rate": 0.5
+          },
+          {
+            "bin": "50-60%",
+            "player_games": 7,
+            "mean_probability": 0.5320271227442569,
+            "actual_td_rate": 0.5714285714285714
+          },
+          {
+            "bin": "60%+",
+            "player_games": 0,
+            "mean_probability": null,
+            "actual_td_rate": null
+          }
+        ],
+        "ece": 0.02583747976973168,
+        "calibration_intercept": -0.6469182605486644,
+        "calibration_slope": 0.7145231059242885,
+        "roc_auc": 0.6261012620424388,
+        "pr_auc": 0.22007843130424476
+      },
+      "phase5_hierarchical": {
+        "rows": 1394,
+        "positive_rate": 0.11262553802008608,
+        "log_loss": 0.32079577310776636,
+        "brier": 0.09364550409337122,
+        "calibration_table": [
+          {
+            "bin": "<10%",
+            "player_games": 664,
+            "mean_probability": 0.06019714582789833,
+            "actual_td_rate": 0.043674698795180725
+          },
+          {
+            "bin": "10-20%",
+            "player_games": 499,
+            "mean_probability": 0.14084184822657134,
+            "actual_td_rate": 0.13627254509018036
+          },
+          {
+            "bin": "20-30%",
+            "player_games": 193,
+            "mean_probability": 0.23620520796427266,
+            "actual_td_rate": 0.23834196891191708
+          },
+          {
+            "bin": "30-40%",
+            "player_games": 36,
+            "mean_probability": 0.3298969411391883,
+            "actual_td_rate": 0.3888888888888889
+          },
+          {
+            "bin": "40-50%",
+            "player_games": 2,
+            "mean_probability": 0.41444932359901643,
+            "actual_td_rate": 0.0
+          },
+          {
+            "bin": "50-60%",
+            "player_games": 0,
+            "mean_probability": null,
+            "actual_td_rate": null
+          },
+          {
+            "bin": "60%+",
+            "player_games": 0,
+            "mean_probability": null,
+            "actual_td_rate": null
+          }
+        ],
+        "ece": 0.01191964901281651,
+        "calibration_intercept": 0.23405221729048653,
+        "calibration_slope": 1.1803866216222818,
+        "roc_auc": 0.7250230421865105,
+        "pr_auc": 0.22919190255122873
+      },
+      "phase5_pooled_logistic": {
+        "rows": 1394,
+        "positive_rate": 0.11262553802008608,
+        "log_loss": 0.3213276601089019,
+        "brier": 0.09355321266419427,
+        "calibration_table": [
+          {
+            "bin": "<10%",
+            "player_games": 767,
+            "mean_probability": 0.06612125865191452,
+            "actual_td_rate": 0.048239895697522815
+          },
+          {
+            "bin": "10-20%",
+            "player_games": 457,
+            "mean_probability": 0.14386668109128845,
+            "actual_td_rate": 0.16192560175054704
+          },
+          {
+            "bin": "20-30%",
+            "player_games": 132,
+            "mean_probability": 0.23821587976498368,
+            "actual_td_rate": 0.2727272727272727
+          },
+          {
+            "bin": "30-40%",
+            "player_games": 29,
+            "mean_probability": 0.3385250174960967,
+            "actual_td_rate": 0.27586206896551724
+          },
+          {
+            "bin": "40-50%",
+            "player_games": 9,
+            "mean_probability": 0.430990261018454,
+            "actual_td_rate": 0.2222222222222222
+          },
+          {
+            "bin": "50-60%",
+            "player_games": 0,
+            "mean_probability": null,
+            "actual_td_rate": null
+          },
+          {
+            "bin": "60%+",
+            "player_games": 0,
+            "mean_probability": null,
+            "actual_td_rate": null
+          }
+        ],
+        "ece": 0.021678316969063603,
+        "calibration_intercept": 0.32567772934221795,
+        "calibration_slope": 1.1955044545175801,
+        "roc_auc": 0.7272423008202503,
+        "pr_auc": 0.23958390582424152
+      },
+      "position_logistic": {
+        "rows": 1394,
+        "positive_rate": 0.11262553802008608,
+        "log_loss": 0.32309470296861503,
+        "brier": 0.09445857624907902,
+        "calibration_table": [
+          {
+            "bin": "<10%",
+            "player_games": 810,
+            "mean_probability": 0.05969357931578583,
+            "actual_td_rate": 0.050617283950617285
+          },
+          {
+            "bin": "10-20%",
+            "player_games": 402,
+            "mean_probability": 0.14234588913005045,
+            "actual_td_rate": 0.17661691542288557
+          },
+          {
+            "bin": "20-30%",
+            "player_games": 160,
+            "mean_probability": 0.2361401346492184,
+            "actual_td_rate": 0.25
+          },
+          {
+            "bin": "30-40%",
+            "player_games": 22,
+            "mean_probability": 0.3286620681422577,
+            "actual_td_rate": 0.22727272727272727
+          },
+          {
+            "bin": "40-50%",
+            "player_games": 0,
+            "mean_probability": null,
+            "actual_td_rate": null
+          },
+          {
+            "bin": "50-60%",
+            "player_games": 0,
+            "mean_probability": null,
+            "actual_td_rate": null
+          },
+          {
+            "bin": "60%+",
+            "player_games": 0,
+            "mean_probability": null,
+            "actual_td_rate": null
+          }
+        ],
+        "ece": 0.01834784488576827,
+        "calibration_intercept": 0.24596408703669967,
+        "calibration_slope": 1.1026744721501969,
+        "roc_auc": 0.7207492958616749,
+        "pr_auc": 0.21498692321664448
+      },
+      "lightgbm": {
+        "rows": 1394,
+        "positive_rate": 0.11262553802008608,
+        "log_loss": 0.3207842390864628,
+        "brier": 0.0936530737846164,
+        "calibration_table": [
+          {
+            "bin": "<10%",
+            "player_games": 805,
+            "mean_probability": 0.05426127955135959,
+            "actual_td_rate": 0.05217391304347826
+          },
+          {
+            "bin": "10-20%",
+            "player_games": 331,
+            "mean_probability": 0.1458935760400976,
+            "actual_td_rate": 0.14803625377643503
+          },
+          {
+            "bin": "20-30%",
+            "player_games": 207,
+            "mean_probability": 0.24203253179276113,
+            "actual_td_rate": 0.24154589371980675
+          },
+          {
+            "bin": "30-40%",
+            "player_games": 43,
+            "mean_probability": 0.3303910099207231,
+            "actual_td_rate": 0.32558139534883723
+          },
+          {
+            "bin": "40-50%",
+            "player_games": 7,
+            "mean_probability": 0.4801331443945801,
+            "actual_td_rate": 0.2857142857142857
+          },
+          {
+            "bin": "50-60%",
+            "player_games": 1,
+            "mean_probability": 0.5001198958920007,
+            "actual_td_rate": 0.0
+          },
+          {
+            "bin": "60%+",
+            "player_games": 0,
+            "mean_probability": null,
+            "actual_td_rate": null
+          }
+        ],
+        "ece": 0.0032698391563263122,
+        "calibration_intercept": -0.07482441732033804,
+        "calibration_slope": 0.971932247804079,
+        "roc_auc": 0.7257233186927485,
+        "pr_auc": 0.23637965966096758
+      },
+      "oof_blend": {
+        "rows": 1394,
+        "positive_rate": 0.11262553802008608,
+        "log_loss": 0.3202747074401431,
+        "brier": 0.09352325235051609,
+        "calibration_table": [
+          {
+            "bin": "<10%",
+            "player_games": 739,
+            "mean_probability": 0.06308043353397813,
+            "actual_td_rate": 0.04871447902571042
+          },
+          {
+            "bin": "10-20%",
+            "player_games": 462,
+            "mean_probability": 0.14252288493198276,
+            "actual_td_rate": 0.15151515151515152
+          },
+          {
+            "bin": "20-30%",
+            "player_games": 164,
+            "mean_probability": 0.23093413300087848,
+            "actual_td_rate": 0.2682926829268293
+          },
+          {
+            "bin": "30-40%",
+            "player_games": 29,
+            "mean_probability": 0.3270921944625502,
+            "actual_td_rate": 0.2413793103448276
+          },
+          {
+            "bin": "40-50%",
+            "player_games": 0,
+            "mean_probability": null,
+            "actual_td_rate": null
+          },
+          {
+            "bin": "50-60%",
+            "player_games": 0,
+            "mean_probability": null,
+            "actual_td_rate": null
+          },
+          {
+            "bin": "60%+",
+            "player_games": 0,
+            "mean_probability": null,
+            "actual_td_rate": null
+          }
+        ],
+        "ece": 0.016774277884005522,
+        "calibration_intercept": 0.4413841949435181,
+        "calibration_slope": 1.2513603180254669,
+        "roc_auc": 0.7289723957180152,
+        "pr_auc": 0.23075696024878312
+      }
+    },
+    "QB": {
+      "historical_td": {
+        "rows": 775,
+        "positive_rate": 0.1032258064516129,
+        "log_loss": 0.3186428782525456,
+        "brier": 0.08902230673036574,
+        "calibration_table": [
+          {
+            "bin": "<10%",
+            "player_games": 504,
+            "mean_probability": 0.05915085599207599,
+            "actual_td_rate": 0.06944444444444445
+          },
+          {
+            "bin": "10-20%",
+            "player_games": 143,
+            "mean_probability": 0.15091165579063123,
+            "actual_td_rate": 0.1048951048951049
+          },
+          {
+            "bin": "20-30%",
+            "player_games": 80,
+            "mean_probability": 0.24633633261199325,
+            "actual_td_rate": 0.1875
+          },
+          {
+            "bin": "30-40%",
+            "player_games": 30,
+            "mean_probability": 0.3416108989986915,
+            "actual_td_rate": 0.2
+          },
+          {
+            "bin": "40-50%",
+            "player_games": 13,
+            "mean_probability": 0.4446658297586453,
+            "actual_td_rate": 0.5384615384615384
+          },
+          {
+            "bin": "50-60%",
+            "player_games": 5,
+            "mean_probability": 0.532866848878039,
+            "actual_td_rate": 0.4
+          },
+          {
+            "bin": "60%+",
+            "player_games": 0,
+            "mean_probability": null,
+            "actual_td_rate": null
+          }
+        ],
+        "ece": 0.02917064179935739,
+        "calibration_intercept": -0.67805597365257,
+        "calibration_slope": 0.7077061830557104,
+        "roc_auc": 0.6396852517985611,
+        "pr_auc": 0.22399129100588724
+      },
+      "phase5_hierarchical": {
+        "rows": 775,
+        "positive_rate": 0.1032258064516129,
+        "log_loss": 0.2997674883616215,
+        "brier": 0.08527149745642866,
+        "calibration_table": [
+          {
+            "bin": "<10%",
+            "player_games": 306,
+            "mean_probability": 0.058719176277686094,
+            "actual_td_rate": 0.032679738562091505
+          },
+          {
+            "bin": "10-20%",
+            "player_games": 378,
+            "mean_probability": 0.14455086188988198,
+            "actual_td_rate": 0.10052910052910052
+          },
+          {
+            "bin": "20-30%",
+            "player_games": 80,
+            "mean_probability": 0.2388536965372305,
+            "actual_td_rate": 0.3625
+          },
+          {
+            "bin": "30-40%",
+            "player_games": 10,
+            "mean_probability": 0.33372428309282104,
+            "actual_td_rate": 0.3
+          },
+          {
+            "bin": "40-50%",
+            "player_games": 1,
+            "mean_probability": 0.41791582969515706,
+            "actual_td_rate": 0.0
+          },
+          {
+            "bin": "50-60%",
+            "player_games": 0,
+            "mean_probability": null,
+            "actual_td_rate": null
+          },
+          {
+            "bin": "60%+",
+            "player_games": 0,
+            "mean_probability": null,
+            "actual_td_rate": null
+          }
+        ],
+        "ece": 0.045490524739344854,
+        "calibration_intercept": 0.8290883731060403,
+        "calibration_slope": 1.600651623530144,
+        "roc_auc": 0.7637230215827338,
+        "pr_auc": 0.2806814281585409
+      },
+      "phase5_pooled_logistic": {
+        "rows": 775,
+        "positive_rate": 0.1032258064516129,
+        "log_loss": 0.29653589437228794,
+        "brier": 0.08512938318352872,
+        "calibration_table": [
+          {
+            "bin": "<10%",
+            "player_games": 355,
+            "mean_probability": 0.048909980581531246,
+            "actual_td_rate": 0.03380281690140845
+          },
+          {
+            "bin": "10-20%",
+            "player_games": 365,
+            "mean_probability": 0.13776809433377085,
+            "actual_td_rate": 0.12054794520547946
+          },
+          {
+            "bin": "20-30%",
+            "player_games": 45,
+            "mean_probability": 0.24709804054962065,
+            "actual_td_rate": 0.4444444444444444
+          },
+          {
+            "bin": "30-40%",
+            "player_games": 8,
+            "mean_probability": 0.32971306337979717,
+            "actual_td_rate": 0.5
+          },
+          {
+            "bin": "40-50%",
+            "player_games": 2,
+            "mean_probability": 0.43186055299691545,
+            "actual_td_rate": 0.0
+          },
+          {
+            "bin": "50-60%",
+            "player_games": 0,
+            "mean_probability": null,
+            "actual_td_rate": null
+          },
+          {
+            "bin": "60%+",
+            "player_games": 0,
+            "mean_probability": null,
+            "actual_td_rate": null
+          }
+        ],
+        "ece": 0.029361293306441903,
+        "calibration_intercept": 0.6195574976186665,
+        "calibration_slope": 1.3495147916735968,
+        "roc_auc": 0.7561151079136691,
+        "pr_auc": 0.27745973585823347
+      },
+      "position_logistic": {
+        "rows": 775,
+        "positive_rate": 0.1032258064516129,
+        "log_loss": 0.29880978459411,
+        "brier": 0.08493156418684493,
+        "calibration_table": [
+          {
+            "bin": "<10%",
+            "player_games": 474,
+            "mean_probability": 0.04720848322393503,
+            "actual_td_rate": 0.04852320675105485
+          },
+          {
+            "bin": "10-20%",
+            "player_games": 239,
+            "mean_probability": 0.13731697509026436,
+            "actual_td_rate": 0.1506276150627615
+          },
+          {
+            "bin": "20-30%",
+            "player_games": 36,
+            "mean_probability": 0.23697973638019107,
+            "actual_td_rate": 0.2777777777777778
+          },
+          {
+            "bin": "30-40%",
+            "player_games": 12,
+            "mean_probability": 0.35497641828276344,
+            "actual_td_rate": 0.25
+          },
+          {
+            "bin": "40-50%",
+            "player_games": 9,
+            "mean_probability": 0.44722918642373405,
+            "actual_td_rate": 0.6666666666666666
+          },
+          {
+            "bin": "50-60%",
+            "player_games": 3,
+            "mean_probability": 0.5526136303151322,
+            "actual_td_rate": 0.6666666666666666
+          },
+          {
+            "bin": "60%+",
+            "player_games": 2,
+            "mean_probability": 0.7913928151665738,
+            "actual_td_rate": 0.0
+          }
+        ],
+        "ece": 0.013461613518144568,
+        "calibration_intercept": -0.16719996313376467,
+        "calibration_slope": 0.8758948590579649,
+        "roc_auc": 0.7441007194244605,
+        "pr_auc": 0.2829084363771284
+      },
+      "lightgbm": {
+        "rows": 775,
+        "positive_rate": 0.1032258064516129,
+        "log_loss": 0.2921487328364595,
+        "brier": 0.08320516411789193,
+        "calibration_table": [
+          {
+            "bin": "<10%",
+            "player_games": 408,
+            "mean_probability": 0.059628730660537664,
+            "actual_td_rate": 0.0392156862745098
+          },
+          {
+            "bin": "10-20%",
+            "player_games": 277,
+            "mean_probability": 0.14089122174416213,
+            "actual_td_rate": 0.12274368231046931
+          },
+          {
+            "bin": "20-30%",
+            "player_games": 46,
+            "mean_probability": 0.24151676973724912,
+            "actual_td_rate": 0.2608695652173913
+          },
+          {
+            "bin": "30-40%",
+            "player_games": 29,
+            "mean_probability": 0.3646666228824027,
+            "actual_td_rate": 0.3793103448275862
+          },
+          {
+            "bin": "40-50%",
+            "player_games": 15,
+            "mean_probability": 0.4261343802398469,
+            "actual_td_rate": 0.4666666666666667
+          },
+          {
+            "bin": "50-60%",
+            "player_games": 0,
+            "mean_probability": null,
+            "actual_td_rate": null
+          },
+          {
+            "bin": "60%+",
+            "player_games": 0,
+            "mean_probability": null,
+            "actual_td_rate": null
+          }
+        ],
+        "ece": 0.019713898525847016,
+        "calibration_intercept": 0.2789195578608122,
+        "calibration_slope": 1.2530152558048155,
+        "roc_auc": 0.7550179856115107,
+        "pr_auc": 0.28336804541417326
+      },
+      "oof_blend": {
+        "rows": 775,
+        "positive_rate": 0.1032258064516129,
+        "log_loss": 0.2960193132243941,
+        "brier": 0.08466630361091872,
+        "calibration_table": [
+          {
+            "bin": "<10%",
+            "player_games": 363,
+            "mean_probability": 0.054909130859176716,
+            "actual_td_rate": 0.03581267217630854
+          },
+          {
+            "bin": "10-20%",
+            "player_games": 347,
+            "mean_probability": 0.1395177513976034,
+            "actual_td_rate": 0.11815561959654179
+          },
+          {
+            "bin": "20-30%",
+            "player_games": 48,
+            "mean_probability": 0.24042799628473102,
+            "actual_td_rate": 0.4166666666666667
+          },
+          {
+            "bin": "30-40%",
+            "player_games": 15,
+            "mean_probability": 0.3323835318205533,
+            "actual_td_rate": 0.4
+          },
+          {
+            "bin": "40-50%",
+            "player_games": 1,
+            "mean_probability": 0.4862661278417841,
+            "actual_td_rate": 0.0
+          },
+          {
+            "bin": "50-60%",
+            "player_games": 1,
+            "mean_probability": 0.5101437014688759,
+            "actual_td_rate": 0.0
+          },
+          {
+            "bin": "60%+",
+            "player_games": 0,
+            "mean_probability": null,
+            "actual_td_rate": null
+          }
+        ],
+        "ece": 0.03201908034475458,
+        "calibration_intercept": 0.6631484637684909,
+        "calibration_slope": 1.40705913147402,
+        "roc_auc": 0.7621043165467627,
+        "pr_auc": 0.29441648910884927
+      }
+    }
+  },
+  "position_models": {
+    "RB": {
+      "fit_rows": 1689,
+      "fit_positives": 322,
+      "fields": [
+        "expected_team_td",
+        "implied_team_points",
+        "team_spread",
+        "home",
+        "last5_carry_share",
+        "last5_goal_line_opportunity_share",
+        "last5_inside_5_carries_per_game",
+        "last5_inside_10_carries_per_game",
+        "last5_target_share",
+        "last5_snap_share",
+        "last5_opponent_allowed_red_zone_carries_per_game",
+        "last5_opponent_allowed_offensive_touchdowns_per_game",
+        "last5_rushing_xtd",
+        "last5_rushing_xtd_share",
+        "last5_receiving_xtd"
+      ],
+      "calibration": "raw",
+      "calibration_comparison": {
+        "raw": {
+          "rows": 1584,
+          "positive_rate": 0.21275252525252525,
+          "log_loss": 0.45340419835570495,
+          "brier": 0.14573248584640672,
+          "calibration_table": [
+            {
+              "bin": "<10%",
+              "player_games": 585,
+              "mean_probability": 0.07035886000936928,
+              "actual_td_rate": 0.06837606837606838
+            },
+            {
+              "bin": "10-20%",
+              "player_games": 434,
+              "mean_probability": 0.1365158887567854,
+              "actual_td_rate": 0.17050691244239632
+            },
+            {
+              "bin": "20-30%",
+              "player_games": 156,
+              "mean_probability": 0.2504480480125277,
+              "actual_td_rate": 0.30128205128205127
+            },
+            {
+              "bin": "30-40%",
+              "player_games": 176,
+              "mean_probability": 0.34669052276852824,
+              "actual_td_rate": 0.3352272727272727
+            },
+            {
+              "bin": "40-50%",
+              "player_games": 143,
+              "mean_probability": 0.44159280749190455,
+              "actual_td_rate": 0.4965034965034965
+            },
+            {
+              "bin": "50-60%",
+              "player_games": 62,
+              "mean_probability": 0.545564192598249,
+              "actual_td_rate": 0.5161290322580645
+            },
+            {
+              "bin": "60%+",
+              "player_games": 28,
+              "mean_probability": 0.6722814703287353,
+              "actual_td_rate": 0.5
+            }
+          ],
+          "ece": 0.02548028001344476,
+          "calibration_intercept": 0.002114723912466755,
+          "calibration_slope": 0.9230557965711669,
+          "roc_auc": 0.7498709067935152,
+          "pr_auc": 0.41875593365576946
+        },
+        "sigmoid": {
+          "rows": 1584,
+          "positive_rate": 0.21275252525252525,
+          "log_loss": 0.4534964459530553,
+          "brier": 0.14574441275518538,
+          "calibration_table": [
+            {
+              "bin": "<10%",
+              "player_games": 593,
+              "mean_probability": 0.06959854022372497,
+              "actual_td_rate": 0.06745362563237774
+            },
+            {
+              "bin": "10-20%",
+              "player_games": 423,
+              "mean_probability": 0.1369718484734172,
+              "actual_td_rate": 0.17494089834515367
+            },
+            {
+              "bin": "20-30%",
+              "player_games": 148,
+              "mean_probability": 0.24980963491659705,
+              "actual_td_rate": 0.27702702702702703
+            },
+            {
+              "bin": "30-40%",
+              "player_games": 177,
+              "mean_probability": 0.3485715635412882,
+              "actual_td_rate": 0.3389830508474576
+            },
+            {
+              "bin": "40-50%",
+              "player_games": 142,
+              "mean_probability": 0.4453538461725623,
+              "actual_td_rate": 0.49295774647887325
+            },
+            {
+              "bin": "50-60%",
+              "player_games": 68,
+              "mean_probability": 0.5474841474335532,
+              "actual_td_rate": 0.5441176470588235
+            },
+            {
+              "bin": "60%+",
+              "player_games": 33,
+              "mean_probability": 0.6751105824998436,
+              "actual_td_rate": 0.45454545454545453
+            }
+          ],
+          "ece": 0.023564083534746025,
+          "calibration_intercept": -0.044631593411178505,
+          "calibration_slope": 0.8981501963033454,
+          "roc_auc": 0.7498709067935152,
+          "pr_auc": 0.41875593365576946
+        }
+      },
+      "selected_metrics": {
+        "rows": 1584,
+        "positive_rate": 0.21275252525252525,
+        "log_loss": 0.45340419835570495,
+        "brier": 0.14573248584640672,
+        "calibration_table": [
+          {
+            "bin": "<10%",
+            "player_games": 585,
+            "mean_probability": 0.07035886000936928,
+            "actual_td_rate": 0.06837606837606838
+          },
+          {
+            "bin": "10-20%",
+            "player_games": 434,
+            "mean_probability": 0.1365158887567854,
+            "actual_td_rate": 0.17050691244239632
+          },
+          {
+            "bin": "20-30%",
+            "player_games": 156,
+            "mean_probability": 0.2504480480125277,
+            "actual_td_rate": 0.30128205128205127
+          },
+          {
+            "bin": "30-40%",
+            "player_games": 176,
+            "mean_probability": 0.34669052276852824,
+            "actual_td_rate": 0.3352272727272727
+          },
+          {
+            "bin": "40-50%",
+            "player_games": 143,
+            "mean_probability": 0.44159280749190455,
+            "actual_td_rate": 0.4965034965034965
+          },
+          {
+            "bin": "50-60%",
+            "player_games": 62,
+            "mean_probability": 0.545564192598249,
+            "actual_td_rate": 0.5161290322580645
+          },
+          {
+            "bin": "60%+",
+            "player_games": 28,
+            "mean_probability": 0.6722814703287353,
+            "actual_td_rate": 0.5
+          }
+        ],
+        "ece": 0.02548028001344476,
+        "calibration_intercept": 0.002114723912466755,
+        "calibration_slope": 0.9230557965711669,
+        "roc_auc": 0.7498709067935152,
+        "pr_auc": 0.41875593365576946
+      },
+      "xtd_ablation": {
+        "core_usage": {
+          "rows": 1584,
+          "positive_rate": 0.21275252525252525,
+          "log_loss": 0.4517922963809457,
+          "brier": 0.1454553875023762,
+          "calibration_table": [
+            {
+              "bin": "<10%",
+              "player_games": 580,
+              "mean_probability": 0.07073871026797807,
+              "actual_td_rate": 0.06724137931034482
+            },
+            {
+              "bin": "10-20%",
+              "player_games": 429,
+              "mean_probability": 0.13743295195916713,
+              "actual_td_rate": 0.16783216783216784
+            },
+            {
+              "bin": "20-30%",
+              "player_games": 160,
+              "mean_probability": 0.25176943924646605,
+              "actual_td_rate": 0.29375
+            },
+            {
+              "bin": "30-40%",
+              "player_games": 187,
+              "mean_probability": 0.3546889977964518,
+              "actual_td_rate": 0.37433155080213903
+            },
+            {
+              "bin": "40-50%",
+              "player_games": 145,
+              "mean_probability": 0.4483599808767647,
+              "actual_td_rate": 0.47586206896551725
+            },
+            {
+              "bin": "50-60%",
+              "player_games": 57,
+              "mean_probability": 0.5391070297013305,
+              "actual_td_rate": 0.47368421052631576
+            },
+            {
+              "bin": "60%+",
+              "player_games": 26,
+              "mean_probability": 0.6588484121786901,
+              "actual_td_rate": 0.5
+            }
+          ],
+          "ece": 0.023552225303070978,
+          "calibration_intercept": 0.011045651264341217,
+          "calibration_slope": 0.9418543861846626,
+          "roc_auc": 0.7526502775801388,
+          "pr_auc": 0.41947049448509627
+        },
+        "core_usage_xtd": {
+          "rows": 1584,
+          "positive_rate": 0.21275252525252525,
+          "log_loss": 0.45340419835570495,
+          "brier": 0.14573248584640672,
+          "calibration_table": [
+            {
+              "bin": "<10%",
+              "player_games": 585,
+              "mean_probability": 0.07035886000936928,
+              "actual_td_rate": 0.06837606837606838
+            },
+            {
+              "bin": "10-20%",
+              "player_games": 434,
+              "mean_probability": 0.1365158887567854,
+              "actual_td_rate": 0.17050691244239632
+            },
+            {
+              "bin": "20-30%",
+              "player_games": 156,
+              "mean_probability": 0.2504480480125277,
+              "actual_td_rate": 0.30128205128205127
+            },
+            {
+              "bin": "30-40%",
+              "player_games": 176,
+              "mean_probability": 0.34669052276852824,
+              "actual_td_rate": 0.3352272727272727
+            },
+            {
+              "bin": "40-50%",
+              "player_games": 143,
+              "mean_probability": 0.44159280749190455,
+              "actual_td_rate": 0.4965034965034965
+            },
+            {
+              "bin": "50-60%",
+              "player_games": 62,
+              "mean_probability": 0.545564192598249,
+              "actual_td_rate": 0.5161290322580645
+            },
+            {
+              "bin": "60%+",
+              "player_games": 28,
+              "mean_probability": 0.6722814703287353,
+              "actual_td_rate": 0.5
+            }
+          ],
+          "ece": 0.02548028001344476,
+          "calibration_intercept": 0.002114723912466755,
+          "calibration_slope": 0.9230557965711669,
+          "roc_auc": 0.7498709067935152,
+          "pr_auc": 0.41875593365576946
+        },
+        "xtd_minus_core_log_loss": 0.0016119019747592445
+      }
+    },
+    "WR": {
+      "fit_rows": 2580,
+      "fit_positives": 373,
+      "fields": [
+        "expected_team_td",
+        "implied_team_points",
+        "team_spread",
+        "home",
+        "last5_target_share",
+        "last5_red_zone_target_share",
+        "last5_end_zone_target_share",
+        "last5_snap_share",
+        "last5_opponent_allowed_red_zone_targets_per_game",
+        "last5_opponent_allowed_offensive_touchdowns_per_game",
+        "last5_receiving_xtd",
+        "last5_receiving_xtd_share"
+      ],
+      "calibration": "sigmoid",
+      "calibration_comparison": {
+        "raw": {
+          "rows": 2567,
+          "positive_rate": 0.16595247370471367,
+          "log_loss": 0.4011307637434048,
+          "brier": 0.12594065823108,
+          "calibration_table": [
+            {
+              "bin": "<10%",
+              "player_games": 1097,
+              "mean_probability": 0.06221064544812666,
+              "actual_td_rate": 0.05104831358249772
+            },
+            {
+              "bin": "10-20%",
+              "player_games": 773,
+              "mean_probability": 0.14579906776523308,
+              "actual_td_rate": 0.19404915912031048
+            },
+            {
+              "bin": "20-30%",
+              "player_games": 493,
+              "mean_probability": 0.24384161415538563,
+              "actual_td_rate": 0.29006085192697767
+            },
+            {
+              "bin": "30-40%",
+              "player_games": 162,
+              "mean_probability": 0.3380318601293733,
+              "actual_td_rate": 0.37037037037037035
+            },
+            {
+              "bin": "40-50%",
+              "player_games": 37,
+              "mean_probability": 0.4307786576351429,
+              "actual_td_rate": 0.40540540540540543
+            },
+            {
+              "bin": "50-60%",
+              "player_games": 5,
+              "mean_probability": 0.5259181740827745,
+              "actual_td_rate": 0.4
+            },
+            {
+              "bin": "60%+",
+              "player_games": 0,
+              "mean_probability": null,
+              "actual_td_rate": null
+            }
+          ],
+          "ece": 0.03082809612677068,
+          "calibration_intercept": 0.41206838157932496,
+          "calibration_slope": 1.1570646674630185,
+          "roc_auc": 0.741512127411832,
+          "pr_auc": 0.3243478620115259
+        },
+        "sigmoid": {
+          "rows": 2567,
+          "positive_rate": 0.16595247370471367,
+          "log_loss": 0.3986581426116733,
+          "brier": 0.12521617331955662,
+          "calibration_table": [
+            {
+              "bin": "<10%",
+              "player_games": 1006,
+              "mean_probability": 0.05984962160273099,
+              "actual_td_rate": 0.05069582504970179
+            },
+            {
+              "bin": "10-20%",
+              "player_games": 675,
+              "mean_probability": 0.14258318735782388,
+              "actual_td_rate": 0.15703703703703703
+            },
+            {
+              "bin": "20-30%",
+              "player_games": 493,
+              "mean_probability": 0.24650886136056893,
+              "actual_td_rate": 0.25557809330628806
+            },
+            {
+              "bin": "30-40%",
+              "player_games": 268,
+              "mean_probability": 0.3446052150150047,
+              "actual_td_rate": 0.3619402985074627
+            },
+            {
+              "bin": "40-50%",
+              "player_games": 90,
+              "mean_probability": 0.4383140220748414,
+              "actual_td_rate": 0.35555555555555557
+            },
+            {
+              "bin": "50-60%",
+              "player_games": 30,
+              "mean_probability": 0.5257515051267027,
+              "actual_td_rate": 0.4
+            },
+            {
+              "bin": "60%+",
+              "player_games": 5,
+              "mean_probability": 0.6252996491129663,
+              "actual_td_rate": 0.4
+            }
+          ],
+          "ece": 0.01574963263620419,
+          "calibration_intercept": 0.010938583332422038,
+          "calibration_slope": 1.01405959286232,
+          "roc_auc": 0.741512127411832,
+          "pr_auc": 0.3243478620115259
+        }
+      },
+      "selected_metrics": {
+        "rows": 2567,
+        "positive_rate": 0.16595247370471367,
+        "log_loss": 0.3986581426116733,
+        "brier": 0.12521617331955662,
+        "calibration_table": [
+          {
+            "bin": "<10%",
+            "player_games": 1006,
+            "mean_probability": 0.05984962160273099,
+            "actual_td_rate": 0.05069582504970179
+          },
+          {
+            "bin": "10-20%",
+            "player_games": 675,
+            "mean_probability": 0.14258318735782388,
+            "actual_td_rate": 0.15703703703703703
+          },
+          {
+            "bin": "20-30%",
+            "player_games": 493,
+            "mean_probability": 0.24650886136056893,
+            "actual_td_rate": 0.25557809330628806
+          },
+          {
+            "bin": "30-40%",
+            "player_games": 268,
+            "mean_probability": 0.3446052150150047,
+            "actual_td_rate": 0.3619402985074627
+          },
+          {
+            "bin": "40-50%",
+            "player_games": 90,
+            "mean_probability": 0.4383140220748414,
+            "actual_td_rate": 0.35555555555555557
+          },
+          {
+            "bin": "50-60%",
+            "player_games": 30,
+            "mean_probability": 0.5257515051267027,
+            "actual_td_rate": 0.4
+          },
+          {
+            "bin": "60%+",
+            "player_games": 5,
+            "mean_probability": 0.6252996491129663,
+            "actual_td_rate": 0.4
+          }
+        ],
+        "ece": 0.01574963263620419,
+        "calibration_intercept": 0.010938583332422038,
+        "calibration_slope": 1.01405959286232,
+        "roc_auc": 0.741512127411832,
+        "pr_auc": 0.3243478620115259
+      },
+      "xtd_ablation": {
+        "core_usage": {
+          "rows": 2567,
+          "positive_rate": 0.16595247370471367,
+          "log_loss": 0.401124093855195,
+          "brier": 0.12604901783148484,
+          "calibration_table": [
+            {
+              "bin": "<10%",
+              "player_games": 1082,
+              "mean_probability": 0.0617005596351088,
+              "actual_td_rate": 0.05545286506469501
+            },
+            {
+              "bin": "10-20%",
+              "player_games": 768,
+              "mean_probability": 0.14513514385639767,
+              "actual_td_rate": 0.17708333333333334
+            },
+            {
+              "bin": "20-30%",
+              "player_games": 495,
+              "mean_probability": 0.24284756654396483,
+              "actual_td_rate": 0.28888888888888886
+            },
+            {
+              "bin": "30-40%",
+              "player_games": 180,
+              "mean_probability": 0.337770602108755,
+              "actual_td_rate": 0.4
+            },
+            {
+              "bin": "40-50%",
+              "player_games": 40,
+              "mean_probability": 0.4344047259748557,
+              "actual_td_rate": 0.375
+            },
+            {
+              "bin": "50-60%",
+              "player_games": 2,
+              "mean_probability": 0.5158111623001211,
+              "actual_td_rate": 0.0
+            },
+            {
+              "bin": "60%+",
+              "player_games": 0,
+              "mean_probability": null,
+              "actual_td_rate": null
+            }
+          ],
+          "ece": 0.02676111125369314,
+          "calibration_intercept": 0.38418694238960993,
+          "calibration_slope": 1.1472128098405545,
+          "roc_auc": 0.7417653985566833,
+          "pr_auc": 0.31580401558297366
+        },
+        "core_usage_xtd": {
+          "rows": 2567,
+          "positive_rate": 0.16595247370471367,
+          "log_loss": 0.4011307637434048,
+          "brier": 0.12594065823108,
+          "calibration_table": [
+            {
+              "bin": "<10%",
+              "player_games": 1097,
+              "mean_probability": 0.06221064544812666,
+              "actual_td_rate": 0.05104831358249772
+            },
+            {
+              "bin": "10-20%",
+              "player_games": 773,
+              "mean_probability": 0.14579906776523308,
+              "actual_td_rate": 0.19404915912031048
+            },
+            {
+              "bin": "20-30%",
+              "player_games": 493,
+              "mean_probability": 0.24384161415538563,
+              "actual_td_rate": 0.29006085192697767
+            },
+            {
+              "bin": "30-40%",
+              "player_games": 162,
+              "mean_probability": 0.3380318601293733,
+              "actual_td_rate": 0.37037037037037035
+            },
+            {
+              "bin": "40-50%",
+              "player_games": 37,
+              "mean_probability": 0.4307786576351429,
+              "actual_td_rate": 0.40540540540540543
+            },
+            {
+              "bin": "50-60%",
+              "player_games": 5,
+              "mean_probability": 0.5259181740827745,
+              "actual_td_rate": 0.4
+            },
+            {
+              "bin": "60%+",
+              "player_games": 0,
+              "mean_probability": null,
+              "actual_td_rate": null
+            }
+          ],
+          "ece": 0.03082809612677068,
+          "calibration_intercept": 0.41206838157932496,
+          "calibration_slope": 1.1570646674630185,
+          "roc_auc": 0.741512127411832,
+          "pr_auc": 0.3243478620115259
+        },
+        "xtd_minus_core_log_loss": 6.6698882097981915e-06
+      }
+    },
+    "TE": {
+      "fit_rows": 1457,
+      "fit_positives": 152,
+      "fields": [
+        "expected_team_td",
+        "implied_team_points",
+        "team_spread",
+        "home",
+        "last5_target_share",
+        "last5_red_zone_target_share",
+        "last5_end_zone_target_share",
+        "last5_snap_share",
+        "last5_opponent_allowed_red_zone_targets_per_game",
+        "last5_opponent_allowed_offensive_touchdowns_per_game",
+        "last5_receiving_xtd",
+        "last5_receiving_xtd_share"
+      ],
+      "calibration": "raw",
+      "calibration_comparison": {
+        "raw": {
+          "rows": 1394,
+          "positive_rate": 0.11262553802008608,
+          "log_loss": 0.32309470296861503,
+          "brier": 0.09445857624907902,
+          "calibration_table": [
+            {
+              "bin": "<10%",
+              "player_games": 810,
+              "mean_probability": 0.05969357931578583,
+              "actual_td_rate": 0.050617283950617285
+            },
+            {
+              "bin": "10-20%",
+              "player_games": 402,
+              "mean_probability": 0.14234588913005045,
+              "actual_td_rate": 0.17661691542288557
+            },
+            {
+              "bin": "20-30%",
+              "player_games": 160,
+              "mean_probability": 0.2361401346492184,
+              "actual_td_rate": 0.25
+            },
+            {
+              "bin": "30-40%",
+              "player_games": 22,
+              "mean_probability": 0.3286620681422577,
+              "actual_td_rate": 0.22727272727272727
+            },
+            {
+              "bin": "40-50%",
+              "player_games": 0,
+              "mean_probability": null,
+              "actual_td_rate": null
+            },
+            {
+              "bin": "50-60%",
+              "player_games": 0,
+              "mean_probability": null,
+              "actual_td_rate": null
+            },
+            {
+              "bin": "60%+",
+              "player_games": 0,
+              "mean_probability": null,
+              "actual_td_rate": null
+            }
+          ],
+          "ece": 0.01834784488576827,
+          "calibration_intercept": 0.24596408703669967,
+          "calibration_slope": 1.1026744721501969,
+          "roc_auc": 0.7207492958616749,
+          "pr_auc": 0.21498692321664448
+        },
+        "sigmoid": {
+          "rows": 1394,
+          "positive_rate": 0.11262553802008608,
+          "log_loss": 0.3238578797212985,
+          "brier": 0.09446736427928205,
+          "calibration_table": [
+            {
+              "bin": "<10%",
+              "player_games": 770,
+              "mean_probability": 0.06527331706922214,
+              "actual_td_rate": 0.048051948051948054
+            },
+            {
+              "bin": "10-20%",
+              "player_games": 463,
+              "mean_probability": 0.1430576757910504,
+              "actual_td_rate": 0.17062634989200864
+            },
+            {
+              "bin": "20-30%",
+              "player_games": 152,
+              "mean_probability": 0.23502236462859172,
+              "actual_td_rate": 0.2631578947368421
+            },
+            {
+              "bin": "30-40%",
+              "player_games": 9,
+              "mean_probability": 0.3283572035238735,
+              "actual_td_rate": 0.1111111111111111
+            },
+            {
+              "bin": "40-50%",
+              "player_games": 0,
+              "mean_probability": null,
+              "actual_td_rate": null
+            },
+            {
+              "bin": "50-60%",
+              "player_games": 0,
+              "mean_probability": null,
+              "actual_td_rate": null
+            },
+            {
+              "bin": "60%+",
+              "player_games": 0,
+              "mean_probability": null,
+              "actual_td_rate": null
+            }
+          ],
+          "ece": 0.02313957364434264,
+          "calibration_intercept": 0.4945595251315012,
+          "calibration_slope": 1.2530726073090361,
+          "roc_auc": 0.7207492958616749,
+          "pr_auc": 0.21498692321664448
+        }
+      },
+      "selected_metrics": {
+        "rows": 1394,
+        "positive_rate": 0.11262553802008608,
+        "log_loss": 0.32309470296861503,
+        "brier": 0.09445857624907902,
+        "calibration_table": [
+          {
+            "bin": "<10%",
+            "player_games": 810,
+            "mean_probability": 0.05969357931578583,
+            "actual_td_rate": 0.050617283950617285
+          },
+          {
+            "bin": "10-20%",
+            "player_games": 402,
+            "mean_probability": 0.14234588913005045,
+            "actual_td_rate": 0.17661691542288557
+          },
+          {
+            "bin": "20-30%",
+            "player_games": 160,
+            "mean_probability": 0.2361401346492184,
+            "actual_td_rate": 0.25
+          },
+          {
+            "bin": "30-40%",
+            "player_games": 22,
+            "mean_probability": 0.3286620681422577,
+            "actual_td_rate": 0.22727272727272727
+          },
+          {
+            "bin": "40-50%",
+            "player_games": 0,
+            "mean_probability": null,
+            "actual_td_rate": null
+          },
+          {
+            "bin": "50-60%",
+            "player_games": 0,
+            "mean_probability": null,
+            "actual_td_rate": null
+          },
+          {
+            "bin": "60%+",
+            "player_games": 0,
+            "mean_probability": null,
+            "actual_td_rate": null
+          }
+        ],
+        "ece": 0.01834784488576827,
+        "calibration_intercept": 0.24596408703669967,
+        "calibration_slope": 1.1026744721501969,
+        "roc_auc": 0.7207492958616749,
+        "pr_auc": 0.21498692321664448
+      },
+      "xtd_ablation": {
+        "core_usage": {
+          "rows": 1394,
+          "positive_rate": 0.11262553802008608,
+          "log_loss": 0.3223404182241049,
+          "brier": 0.09421859641183139,
+          "calibration_table": [
+            {
+              "bin": "<10%",
+              "player_games": 816,
+              "mean_probability": 0.059972345513575324,
+              "actual_td_rate": 0.051470588235294115
+            },
+            {
+              "bin": "10-20%",
+              "player_games": 404,
+              "mean_probability": 0.1430908840753586,
+              "actual_td_rate": 0.17574257425742573
+            },
+            {
+              "bin": "20-30%",
+              "player_games": 154,
+              "mean_probability": 0.23860236346394129,
+              "actual_td_rate": 0.2597402597402597
+            },
+            {
+              "bin": "30-40%",
+              "player_games": 20,
+              "mean_probability": 0.3347695391473356,
+              "actual_td_rate": 0.2
+            },
+            {
+              "bin": "40-50%",
+              "player_games": 0,
+              "mean_probability": null,
+              "actual_td_rate": null
+            },
+            {
+              "bin": "50-60%",
+              "player_games": 0,
+              "mean_probability": null,
+              "actual_td_rate": null
+            },
+            {
+              "bin": "60%+",
+              "player_games": 0,
+              "mean_probability": null,
+              "actual_td_rate": null
+            }
+          ],
+          "ece": 0.018708280905403395,
+          "calibration_intercept": 0.28668242652124654,
+          "calibration_slope": 1.1221965736258657,
+          "roc_auc": 0.7242506783928653,
+          "pr_auc": 0.22210175523805398
+        },
+        "core_usage_xtd": {
+          "rows": 1394,
+          "positive_rate": 0.11262553802008608,
+          "log_loss": 0.32309470296861503,
+          "brier": 0.09445857624907902,
+          "calibration_table": [
+            {
+              "bin": "<10%",
+              "player_games": 810,
+              "mean_probability": 0.05969357931578583,
+              "actual_td_rate": 0.050617283950617285
+            },
+            {
+              "bin": "10-20%",
+              "player_games": 402,
+              "mean_probability": 0.14234588913005045,
+              "actual_td_rate": 0.17661691542288557
+            },
+            {
+              "bin": "20-30%",
+              "player_games": 160,
+              "mean_probability": 0.2361401346492184,
+              "actual_td_rate": 0.25
+            },
+            {
+              "bin": "30-40%",
+              "player_games": 22,
+              "mean_probability": 0.3286620681422577,
+              "actual_td_rate": 0.22727272727272727
+            },
+            {
+              "bin": "40-50%",
+              "player_games": 0,
+              "mean_probability": null,
+              "actual_td_rate": null
+            },
+            {
+              "bin": "50-60%",
+              "player_games": 0,
+              "mean_probability": null,
+              "actual_td_rate": null
+            },
+            {
+              "bin": "60%+",
+              "player_games": 0,
+              "mean_probability": null,
+              "actual_td_rate": null
+            }
+          ],
+          "ece": 0.01834784488576827,
+          "calibration_intercept": 0.24596408703669967,
+          "calibration_slope": 1.1026744721501969,
+          "roc_auc": 0.7207492958616749,
+          "pr_auc": 0.21498692321664448
+        },
+        "xtd_minus_core_log_loss": 0.0007542847445101142
+      }
+    },
+    "QB": {
+      "fit_rows": 715,
+      "fit_positives": 77,
+      "fields": [
+        "expected_team_td",
+        "implied_team_points",
+        "last5_carries_per_game",
+        "last5_red_zone_carries_per_game",
+        "last5_inside_10_carries_per_game",
+        "last5_inside_5_carries_per_game",
+        "last5_carry_share",
+        "last5_goal_line_opportunity_share",
+        "last5_snap_share",
+        "last5_opponent_allowed_red_zone_carries_per_game",
+        "last5_opponent_allowed_offensive_touchdowns_per_game",
+        "last5_rushing_xtd",
+        "last5_rushing_xtd_share"
+      ],
+      "calibration": "raw",
+      "calibration_comparison": {
+        "raw": {
+          "rows": 775,
+          "positive_rate": 0.1032258064516129,
+          "log_loss": 0.29880978459411,
+          "brier": 0.08493156418684493,
+          "calibration_table": [
+            {
+              "bin": "<10%",
+              "player_games": 474,
+              "mean_probability": 0.04720848322393503,
+              "actual_td_rate": 0.04852320675105485
+            },
+            {
+              "bin": "10-20%",
+              "player_games": 239,
+              "mean_probability": 0.13731697509026436,
+              "actual_td_rate": 0.1506276150627615
+            },
+            {
+              "bin": "20-30%",
+              "player_games": 36,
+              "mean_probability": 0.23697973638019107,
+              "actual_td_rate": 0.2777777777777778
+            },
+            {
+              "bin": "30-40%",
+              "player_games": 12,
+              "mean_probability": 0.35497641828276344,
+              "actual_td_rate": 0.25
+            },
+            {
+              "bin": "40-50%",
+              "player_games": 9,
+              "mean_probability": 0.44722918642373405,
+              "actual_td_rate": 0.6666666666666666
+            },
+            {
+              "bin": "50-60%",
+              "player_games": 3,
+              "mean_probability": 0.5526136303151322,
+              "actual_td_rate": 0.6666666666666666
+            },
+            {
+              "bin": "60%+",
+              "player_games": 2,
+              "mean_probability": 0.7913928151665738,
+              "actual_td_rate": 0.0
+            }
+          ],
+          "ece": 0.013461613518144568,
+          "calibration_intercept": -0.16719996313376467,
+          "calibration_slope": 0.8758948590579649,
+          "roc_auc": 0.7441007194244605,
+          "pr_auc": 0.2829084363771284
+        },
+        "sigmoid": {
+          "rows": 775,
+          "positive_rate": 0.1032258064516129,
+          "log_loss": 0.29966008162206076,
+          "brier": 0.08514922031311414,
+          "calibration_table": [
+            {
+              "bin": "<10%",
+              "player_games": 362,
+              "mean_probability": 0.04570423614251395,
+              "actual_td_rate": 0.03591160220994475
+            },
+            {
+              "bin": "10-20%",
+              "player_games": 309,
+              "mean_probability": 0.14192134613591198,
+              "actual_td_rate": 0.11974110032362459
+            },
+            {
+              "bin": "20-30%",
+              "player_games": 65,
+              "mean_probability": 0.23219982791019506,
+              "actual_td_rate": 0.23076923076923078
+            },
+            {
+              "bin": "30-40%",
+              "player_games": 18,
+              "mean_probability": 0.33051712060941746,
+              "actual_td_rate": 0.2222222222222222
+            },
+            {
+              "bin": "40-50%",
+              "player_games": 12,
+              "mean_probability": 0.44017856640565883,
+              "actual_td_rate": 0.5
+            },
+            {
+              "bin": "50-60%",
+              "player_games": 6,
+              "mean_probability": 0.5413783636602046,
+              "actual_td_rate": 0.6666666666666666
+            },
+            {
+              "bin": "60%+",
+              "player_games": 3,
+              "mean_probability": 0.746434883459253,
+              "actual_td_rate": 0.3333333333333333
+            }
+          ],
+          "ece": 0.019548152382280866,
+          "calibration_intercept": -0.3246172872519979,
+          "calibration_slope": 0.9133448306474993,
+          "roc_auc": 0.7441007194244605,
+          "pr_auc": 0.2829084363771284
+        }
+      },
+      "selected_metrics": {
+        "rows": 775,
+        "positive_rate": 0.1032258064516129,
+        "log_loss": 0.29880978459411,
+        "brier": 0.08493156418684493,
+        "calibration_table": [
+          {
+            "bin": "<10%",
+            "player_games": 474,
+            "mean_probability": 0.04720848322393503,
+            "actual_td_rate": 0.04852320675105485
+          },
+          {
+            "bin": "10-20%",
+            "player_games": 239,
+            "mean_probability": 0.13731697509026436,
+            "actual_td_rate": 0.1506276150627615
+          },
+          {
+            "bin": "20-30%",
+            "player_games": 36,
+            "mean_probability": 0.23697973638019107,
+            "actual_td_rate": 0.2777777777777778
+          },
+          {
+            "bin": "30-40%",
+            "player_games": 12,
+            "mean_probability": 0.35497641828276344,
+            "actual_td_rate": 0.25
+          },
+          {
+            "bin": "40-50%",
+            "player_games": 9,
+            "mean_probability": 0.44722918642373405,
+            "actual_td_rate": 0.6666666666666666
+          },
+          {
+            "bin": "50-60%",
+            "player_games": 3,
+            "mean_probability": 0.5526136303151322,
+            "actual_td_rate": 0.6666666666666666
+          },
+          {
+            "bin": "60%+",
+            "player_games": 2,
+            "mean_probability": 0.7913928151665738,
+            "actual_td_rate": 0.0
+          }
+        ],
+        "ece": 0.013461613518144568,
+        "calibration_intercept": -0.16719996313376467,
+        "calibration_slope": 0.8758948590579649,
+        "roc_auc": 0.7441007194244605,
+        "pr_auc": 0.2829084363771284
+      }
+    }
+  },
+  "lightgbm_registry": {
+    "conservative": {
+      "parameters": {
+        "n_estimators": 100,
+        "learning_rate": 0.03,
+        "num_leaves": 7,
+        "max_depth": 3,
+        "min_child_samples": 120,
+        "reg_lambda": 20.0
+      },
+      "fit_season": 2022,
+      "calibration": "sigmoid",
+      "calibration_fit_season": 2023,
+      "calibration_comparison": {
+        "raw": {
+          "rows": 6320,
+          "positive_rate": 0.15822784810126583,
+          "log_loss": 0.38344004412392413,
+          "brier": 0.11865915840107137,
+          "calibration_table": [
+            {
+              "bin": "<10%",
+              "player_games": 3001,
+              "mean_probability": 0.06548253048107049,
+              "actual_td_rate": 0.05798067310896368
+            },
+            {
+              "bin": "10-20%",
+              "player_games": 1748,
+              "mean_probability": 0.1468138952862256,
+              "actual_td_rate": 0.16762013729977115
+            },
+            {
+              "bin": "20-30%",
+              "player_games": 1008,
+              "mean_probability": 0.24254664092102074,
+              "actual_td_rate": 0.28869047619047616
+            },
+            {
+              "bin": "30-40%",
+              "player_games": 423,
+              "mean_probability": 0.34875806190762687,
+              "actual_td_rate": 0.40189125295508277
+            },
+            {
+              "bin": "40-50%",
+              "player_games": 140,
+              "mean_probability": 0.421707614868646,
+              "actual_td_rate": 0.5142857142857142
+            },
+            {
+              "bin": "50-60%",
+              "player_games": 0,
+              "mean_probability": null,
+              "actual_td_rate": null
+            },
+            {
+              "bin": "60%+",
+              "player_games": 0,
+              "mean_probability": null,
+              "actual_td_rate": null
+            }
+          ],
+          "ece": 0.022283488084880475,
+          "calibration_intercept": 0.48874198922928813,
+          "calibration_slope": 1.2279810196256322,
+          "roc_auc": 0.7555076127819549,
+          "pr_auc": 0.3514239245725805
+        },
+        "sigmoid": {
+          "rows": 6320,
+          "positive_rate": 0.15822784810126583,
+          "log_loss": 0.3807469281114574,
+          "brier": 0.1177955525101763,
+          "calibration_table": [
+            {
+              "bin": "<10%",
+              "player_games": 3054,
+              "mean_probability": 0.05843465419261549,
+              "actual_td_rate": 0.05893909626719057
+            },
+            {
+              "bin": "10-20%",
+              "player_games": 1418,
+              "mean_probability": 0.14710301290255906,
+              "actual_td_rate": 0.1622002820874471
+            },
+            {
+              "bin": "20-30%",
+              "player_games": 936,
+              "mean_probability": 0.24643620643070652,
+              "actual_td_rate": 0.24465811965811965
+            },
+            {
+              "bin": "30-40%",
+              "player_games": 455,
+              "mean_probability": 0.34287430610293057,
+              "actual_td_rate": 0.35604395604395606
+            },
+            {
+              "bin": "40-50%",
+              "player_games": 328,
+              "mean_probability": 0.44618327032901206,
+              "actual_td_rate": 0.40853658536585363
+            },
+            {
+              "bin": "50-60%",
+              "player_games": 129,
+              "mean_probability": 0.5259916938823186,
+              "actual_td_rate": 0.5038759689922481
+            },
+            {
+              "bin": "60%+",
+              "player_games": 0,
+              "mean_probability": null,
+              "actual_td_rate": null
+            }
+          ],
+          "ece": 0.007247787171039006,
+          "calibration_intercept": 0.006208668925120989,
+          "calibration_slope": 0.9928363973306119,
+          "roc_auc": 0.7555076127819549,
+          "pr_auc": 0.3514239245725805
+        }
+      },
+      "selected_metrics": {
+        "rows": 6320,
+        "positive_rate": 0.15822784810126583,
+        "log_loss": 0.3807469281114574,
+        "brier": 0.1177955525101763,
+        "calibration_table": [
+          {
+            "bin": "<10%",
+            "player_games": 3054,
+            "mean_probability": 0.05843465419261549,
+            "actual_td_rate": 0.05893909626719057
+          },
+          {
+            "bin": "10-20%",
+            "player_games": 1418,
+            "mean_probability": 0.14710301290255906,
+            "actual_td_rate": 0.1622002820874471
+          },
+          {
+            "bin": "20-30%",
+            "player_games": 936,
+            "mean_probability": 0.24643620643070652,
+            "actual_td_rate": 0.24465811965811965
+          },
+          {
+            "bin": "30-40%",
+            "player_games": 455,
+            "mean_probability": 0.34287430610293057,
+            "actual_td_rate": 0.35604395604395606
+          },
+          {
+            "bin": "40-50%",
+            "player_games": 328,
+            "mean_probability": 0.44618327032901206,
+            "actual_td_rate": 0.40853658536585363
+          },
+          {
+            "bin": "50-60%",
+            "player_games": 129,
+            "mean_probability": 0.5259916938823186,
+            "actual_td_rate": 0.5038759689922481
+          },
+          {
+            "bin": "60%+",
+            "player_games": 0,
+            "mean_probability": null,
+            "actual_td_rate": null
+          }
+        ],
+        "ece": 0.007247787171039006,
+        "calibration_intercept": 0.006208668925120989,
+        "calibration_slope": 0.9928363973306119,
+        "roc_auc": 0.7555076127819549,
+        "pr_auc": 0.3514239245725805
+      }
+    },
+    "shallow_medium": {
+      "parameters": {
+        "n_estimators": 140,
+        "learning_rate": 0.025,
+        "num_leaves": 7,
+        "max_depth": 3,
+        "min_child_samples": 100,
+        "reg_lambda": 12.0
+      },
+      "fit_season": 2022,
+      "calibration": "sigmoid",
+      "calibration_fit_season": 2023,
+      "calibration_comparison": {
+        "raw": {
+          "rows": 6320,
+          "positive_rate": 0.15822784810126583,
+          "log_loss": 0.3825364006686572,
+          "brier": 0.11838319209193515,
+          "calibration_table": [
+            {
+              "bin": "<10%",
+              "player_games": 2994,
+              "mean_probability": 0.06212683161251565,
+              "actual_td_rate": 0.05678022712090848
+            },
+            {
+              "bin": "10-20%",
+              "player_games": 1749,
+              "mean_probability": 0.14640530116802622,
+              "actual_td_rate": 0.16981132075471697
+            },
+            {
+              "bin": "20-30%",
+              "player_games": 936,
+              "mean_probability": 0.24206705128211967,
+              "actual_td_rate": 0.27884615384615385
+            },
+            {
+              "bin": "30-40%",
+              "player_games": 434,
+              "mean_probability": 0.34365364946638055,
+              "actual_td_rate": 0.3778801843317972
+            },
+            {
+              "bin": "40-50%",
+              "player_games": 207,
+              "mean_probability": 0.43358001958180153,
+              "actual_td_rate": 0.5217391304347826
+            },
+            {
+              "bin": "50-60%",
+              "player_games": 0,
+              "mean_probability": null,
+              "actual_td_rate": null
+            },
+            {
+              "bin": "60%+",
+              "player_games": 0,
+              "mean_probability": null,
+              "actual_td_rate": null
+            }
+          ],
+          "ece": 0.019695150978336694,
+          "calibration_intercept": 0.3768544772063155,
+          "calibration_slope": 1.160839363560707,
+          "roc_auc": 0.7549950187969924,
+          "pr_auc": 0.35273388486325946
+        },
+        "sigmoid": {
+          "rows": 6320,
+          "positive_rate": 0.15822784810126583,
+          "log_loss": 0.38067827555449263,
+          "brier": 0.1177868546741943,
+          "calibration_table": [
+            {
+              "bin": "<10%",
+              "player_games": 2991,
+              "mean_probability": 0.05768382157112665,
+              "actual_td_rate": 0.05683717820127048
+            },
+            {
+              "bin": "10-20%",
+              "player_games": 1465,
+              "mean_probability": 0.14578281633734688,
+              "actual_td_rate": 0.1597269624573379
+            },
+            {
+              "bin": "20-30%",
+              "player_games": 952,
+              "mean_probability": 0.24379578266226196,
+              "actual_td_rate": 0.24579831932773108
+            },
+            {
+              "bin": "30-40%",
+              "player_games": 476,
+              "mean_probability": 0.3465308744586778,
+              "actual_td_rate": 0.35294117647058826
+            },
+            {
+              "bin": "40-50%",
+              "player_games": 287,
+              "mean_probability": 0.4453776441148043,
+              "actual_td_rate": 0.41114982578397213
+            },
+            {
+              "bin": "50-60%",
+              "player_games": 149,
+              "mean_probability": 0.5282303827324448,
+              "actual_td_rate": 0.5100671140939598
+            },
+            {
+              "bin": "60%+",
+              "player_games": 0,
+              "mean_probability": null,
+              "actual_td_rate": null
+            }
+          ],
+          "ece": 0.006399986382326852,
+          "calibration_intercept": 0.0006912924155975681,
+          "calibration_slope": 0.9906270770026054,
+          "roc_auc": 0.7549950187969924,
+          "pr_auc": 0.35273388486325946
+        }
+      },
+      "selected_metrics": {
+        "rows": 6320,
+        "positive_rate": 0.15822784810126583,
+        "log_loss": 0.38067827555449263,
+        "brier": 0.1177868546741943,
+        "calibration_table": [
+          {
+            "bin": "<10%",
+            "player_games": 2991,
+            "mean_probability": 0.05768382157112665,
+            "actual_td_rate": 0.05683717820127048
+          },
+          {
+            "bin": "10-20%",
+            "player_games": 1465,
+            "mean_probability": 0.14578281633734688,
+            "actual_td_rate": 0.1597269624573379
+          },
+          {
+            "bin": "20-30%",
+            "player_games": 952,
+            "mean_probability": 0.24379578266226196,
+            "actual_td_rate": 0.24579831932773108
+          },
+          {
+            "bin": "30-40%",
+            "player_games": 476,
+            "mean_probability": 0.3465308744586778,
+            "actual_td_rate": 0.35294117647058826
+          },
+          {
+            "bin": "40-50%",
+            "player_games": 287,
+            "mean_probability": 0.4453776441148043,
+            "actual_td_rate": 0.41114982578397213
+          },
+          {
+            "bin": "50-60%",
+            "player_games": 149,
+            "mean_probability": 0.5282303827324448,
+            "actual_td_rate": 0.5100671140939598
+          },
+          {
+            "bin": "60%+",
+            "player_games": 0,
+            "mean_probability": null,
+            "actual_td_rate": null
+          }
+        ],
+        "ece": 0.006399986382326852,
+        "calibration_intercept": 0.0006912924155975681,
+        "calibration_slope": 0.9906270770026054,
+        "roc_auc": 0.7549950187969924,
+        "pr_auc": 0.35273388486325946
+      }
+    },
+    "moderate": {
+      "parameters": {
+        "n_estimators": 120,
+        "learning_rate": 0.03,
+        "num_leaves": 15,
+        "max_depth": 4,
+        "min_child_samples": 80,
+        "reg_lambda": 10.0
+      },
+      "fit_season": 2022,
+      "calibration": "sigmoid",
+      "calibration_fit_season": 2023,
+      "calibration_comparison": {
+        "raw": {
+          "rows": 6320,
+          "positive_rate": 0.15822784810126583,
+          "log_loss": 0.38311711541471155,
+          "brier": 0.11848278090303775,
+          "calibration_table": [
+            {
+              "bin": "<10%",
+              "player_games": 3027,
+              "mean_probability": 0.06124165852255462,
+              "actual_td_rate": 0.05946481665014866
+            },
+            {
+              "bin": "10-20%",
+              "player_games": 1786,
+              "mean_probability": 0.14587134087021375,
+              "actual_td_rate": 0.17469204927211646
+            },
+            {
+              "bin": "20-30%",
+              "player_games": 823,
+              "mean_probability": 0.24471024898227742,
+              "actual_td_rate": 0.26852976913730253
+            },
+            {
+              "bin": "30-40%",
+              "player_games": 451,
+              "mean_probability": 0.3432347071056967,
+              "actual_td_rate": 0.37472283813747226
+            },
+            {
+              "bin": "40-50%",
+              "player_games": 208,
+              "mean_probability": 0.4431775516478347,
+              "actual_td_rate": 0.5096153846153846
+            },
+            {
+              "bin": "50-60%",
+              "player_games": 25,
+              "mean_probability": 0.5165456009178186,
+              "actual_td_rate": 0.48
+            },
+            {
+              "bin": "60%+",
+              "player_games": 0,
+              "mean_probability": null,
+              "actual_td_rate": null
+            }
+          ],
+          "ece": 0.016675570730487876,
+          "calibration_intercept": 0.29139177955081774,
+          "calibration_slope": 1.1052460166163038,
+          "roc_auc": 0.752821522556391,
+          "pr_auc": 0.3526080322412139
+        },
+        "sigmoid": {
+          "rows": 6320,
+          "positive_rate": 0.15822784810126583,
+          "log_loss": 0.38177992992341625,
+          "brier": 0.11808983951231916,
+          "calibration_table": [
+            {
+              "bin": "<10%",
+              "player_games": 2969,
+              "mean_probability": 0.05844300004976041,
+              "actual_td_rate": 0.05692152239811384
+            },
+            {
+              "bin": "10-20%",
+              "player_games": 1543,
+              "mean_probability": 0.1445672187798511,
+              "actual_td_rate": 0.1646143875567077
+            },
+            {
+              "bin": "20-30%",
+              "player_games": 871,
+              "mean_probability": 0.2416513155232977,
+              "actual_td_rate": 0.23421354764638347
+            },
+            {
+              "bin": "30-40%",
+              "player_games": 504,
+              "mean_probability": 0.3465668302839964,
+              "actual_td_rate": 0.36706349206349204
+            },
+            {
+              "bin": "40-50%",
+              "player_games": 283,
+              "mean_probability": 0.4474742841103733,
+              "actual_td_rate": 0.392226148409894
+            },
+            {
+              "bin": "50-60%",
+              "player_games": 136,
+              "mean_probability": 0.541565984990351,
+              "actual_td_rate": 0.5147058823529411
+            },
+            {
+              "bin": "60%+",
+              "player_games": 14,
+              "mean_probability": 0.6060661672695099,
+              "actual_td_rate": 0.5
+            }
+          ],
+          "ece": 0.011555662125282128,
+          "calibration_intercept": -0.023071818310566088,
+          "calibration_slope": 0.9747970034839303,
+          "roc_auc": 0.752821522556391,
+          "pr_auc": 0.3526080322412139
+        }
+      },
+      "selected_metrics": {
+        "rows": 6320,
+        "positive_rate": 0.15822784810126583,
+        "log_loss": 0.38177992992341625,
+        "brier": 0.11808983951231916,
+        "calibration_table": [
+          {
+            "bin": "<10%",
+            "player_games": 2969,
+            "mean_probability": 0.05844300004976041,
+            "actual_td_rate": 0.05692152239811384
+          },
+          {
+            "bin": "10-20%",
+            "player_games": 1543,
+            "mean_probability": 0.1445672187798511,
+            "actual_td_rate": 0.1646143875567077
+          },
+          {
+            "bin": "20-30%",
+            "player_games": 871,
+            "mean_probability": 0.2416513155232977,
+            "actual_td_rate": 0.23421354764638347
+          },
+          {
+            "bin": "30-40%",
+            "player_games": 504,
+            "mean_probability": 0.3465668302839964,
+            "actual_td_rate": 0.36706349206349204
+          },
+          {
+            "bin": "40-50%",
+            "player_games": 283,
+            "mean_probability": 0.4474742841103733,
+            "actual_td_rate": 0.392226148409894
+          },
+          {
+            "bin": "50-60%",
+            "player_games": 136,
+            "mean_probability": 0.541565984990351,
+            "actual_td_rate": 0.5147058823529411
+          },
+          {
+            "bin": "60%+",
+            "player_games": 14,
+            "mean_probability": 0.6060661672695099,
+            "actual_td_rate": 0.5
+          }
+        ],
+        "ece": 0.011555662125282128,
+        "calibration_intercept": -0.023071818310566088,
+        "calibration_slope": 0.9747970034839303,
+        "roc_auc": 0.752821522556391,
+        "pr_auc": 0.3526080322412139
+      }
+    }
+  },
+  "selected_tree_config": "shallow_medium",
+  "lightgbm_diagnostics": {
+    "feature_gain": [
+      {
+        "feature": "last5_touch_share",
+        "gain": 6503.733590841293
+      },
+      {
+        "feature": "last5_snap_share",
+        "gain": 1831.6780367195606
+      },
+      {
+        "feature": "last5_target_share",
+        "gain": 1428.4618663787842
+      },
+      {
+        "feature": "last5_carry_share",
+        "gain": 945.383279800415
+      },
+      {
+        "feature": "expected_team_td",
+        "gain": 668.1829509735107
+      },
+      {
+        "feature": "last5_total_xtd",
+        "gain": 418.30220341682434
+      },
+      {
+        "feature": "last5_total_xtd_share",
+        "gain": 281.9270825982094
+      },
+      {
+        "feature": "implied_team_points",
+        "gain": 275.2223243713379
+      },
+      {
+        "feature": "last5_receiving_xtd_share",
+        "gain": 251.59375143051147
+      },
+      {
+        "feature": "last5_receiving_xtd",
+        "gain": 212.69727265834808
+      },
+      {
+        "feature": "last5_red_zone_target_share",
+        "gain": 207.06812810897827
+      },
+      {
+        "feature": "last5_goal_line_opportunity_share",
+        "gain": 203.1283785700798
+      },
+      {
+        "feature": "last5_total_xtd_per_opportunity",
+        "gain": 101.26687037944794
+      },
+      {
+        "feature": "team_spread",
+        "gain": 98.34650146961212
+      },
+      {
+        "feature": "last5_rushing_xtd_share",
+        "gain": 68.15512037277222
+      },
+      {
+        "feature": "last5_end_zone_target_share",
+        "gain": 60.706371903419495
+      },
+      {
+        "feature": "last5_opponent_allowed_red_zone_carries_per_game",
+        "gain": 32.638018012046814
+      },
+      {
+        "feature": "last5_opponent_allowed_red_zone_targets_per_game",
+        "gain": 30.469204127788544
+      },
+      {
+        "feature": "last5_rushing_xtd",
+        "gain": 29.32217001914978
+      },
+      {
+        "feature": "last5_inside_5_carries_per_game",
+        "gain": 19.25984001159668
+      },
+      {
+        "feature": "last5_opponent_allowed_offensive_touchdowns_per_game",
+        "gain": 12.81893002986908
+      },
+      {
+        "feature": "home",
+        "gain": 10.569609999656677
+      },
+      {
+        "feature": "last5_inside_10_carries_per_game",
+        "gain": 2.989000082015991
+      },
+      {
+        "feature": "is_rb",
+        "gain": 0.0
+      },
+      {
+        "feature": "is_wr",
+        "gain": 0.0
+      },
+      {
+        "feature": "is_te",
+        "gain": 0.0
+      },
+      {
+        "feature": "is_qb",
+        "gain": 0.0
+      }
+    ],
+    "joint_split_path_counts": {
+      "last5_goal_line_opportunity_share / expected_team_td": 5,
+      "last5_red_zone_target_share / implied_team_points": 5,
+      "last5_carry_share / team_spread": 1,
+      "last5_end_zone_target_share / implied_team_points": 1,
+      "last5_total_xtd_share / last5_opponent_allowed_red_zone_carries_per_game": 2
+    },
+    "interpretation": "Joint tree-path splits are descriptive, not causal interaction estimates."
+  },
+  "blend_registry": {
+    "hierarchy_control": {
+      "weights": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "component_fit_max_season": 2022,
+      "oof_metrics": {
+        "rows": 6321,
+        "positive_rate": 0.1507672836576491,
+        "log_loss": 0.3721996134971206,
+        "brier": 0.11342155103454478,
+        "calibration_table": [
+          {
+            "bin": "<10%",
+            "player_games": 2418,
+            "mean_probability": 0.05935286022764545,
+            "actual_td_rate": 0.04714640198511166
+          },
+          {
+            "bin": "10-20%",
+            "player_games": 2079,
+            "mean_probability": 0.14669612045024363,
+            "actual_td_rate": 0.12457912457912458
+          },
+          {
+            "bin": "20-30%",
+            "player_games": 1116,
+            "mean_probability": 0.24281417590608365,
+            "actual_td_rate": 0.26344086021505375
+          },
+          {
+            "bin": "30-40%",
+            "player_games": 455,
+            "mean_probability": 0.34436215965407907,
+            "actual_td_rate": 0.367032967032967
+          },
+          {
+            "bin": "40-50%",
+            "player_games": 214,
+            "mean_probability": 0.4410542614646782,
+            "actual_td_rate": 0.45794392523364486
+          },
+          {
+            "bin": "50-60%",
+            "player_games": 35,
+            "mean_probability": 0.5396927736018883,
+            "actual_td_rate": 0.5714285714285714
+          },
+          {
+            "bin": "60%+",
+            "player_games": 4,
+            "mean_probability": 0.6627222760053,
+            "actual_td_rate": 0.25
+          }
+        ],
+        "ece": 0.018226084095431392,
+        "calibration_intercept": 0.16539447832703308,
+        "calibration_slope": 1.1517576137987804,
+        "roc_auc": 0.7537189407362115,
+        "pr_auc": 0.35032803837521753
+      },
+      "validation_metrics": {
+        "rows": 6320,
+        "positive_rate": 0.15822784810126583,
+        "log_loss": 0.38038097539213184,
+        "brier": 0.11775722625009548,
+        "calibration_table": [
+          {
+            "bin": "<10%",
+            "player_games": 2235,
+            "mean_probability": 0.058513708463776744,
+            "actual_td_rate": 0.042058165548098436
+          },
+          {
+            "bin": "10-20%",
+            "player_games": 2151,
+            "mean_probability": 0.14493568722483935,
+            "actual_td_rate": 0.1320316132031613
+          },
+          {
+            "bin": "20-30%",
+            "player_games": 1153,
+            "mean_probability": 0.24364010285406995,
+            "actual_td_rate": 0.26279271465741544
+          },
+          {
+            "bin": "30-40%",
+            "player_games": 474,
+            "mean_probability": 0.34323379462246933,
+            "actual_td_rate": 0.3628691983122363
+          },
+          {
+            "bin": "40-50%",
+            "player_games": 243,
+            "mean_probability": 0.44176045908651806,
+            "actual_td_rate": 0.46502057613168724
+          },
+          {
+            "bin": "50-60%",
+            "player_games": 60,
+            "mean_probability": 0.5340627872883174,
+            "actual_td_rate": 0.55
+          },
+          {
+            "bin": "60%+",
+            "player_games": 4,
+            "mean_probability": 0.6387338993952234,
+            "actual_td_rate": 0.25
+          }
+        ],
+        "ece": 0.016469671075575208,
+        "calibration_intercept": 0.20528842506111375,
+        "calibration_slope": 1.1740454399054563,
+        "roc_auc": 0.7594919172932331,
+        "pr_auc": 0.3540901513434233
+      }
+    },
+    "hierarchy_position": {
+      "weights": [
+        0.75,
+        0,
+        0.25,
+        0
+      ],
+      "component_fit_max_season": 2022,
+      "oof_metrics": {
+        "rows": 6321,
+        "positive_rate": 0.1507672836576491,
+        "log_loss": 0.37084446280945,
+        "brier": 0.11318349454473184,
+        "calibration_table": [
+          {
+            "bin": "<10%",
+            "player_games": 2553,
+            "mean_probability": 0.0596377431781573,
+            "actual_td_rate": 0.04778691735213474
+          },
+          {
+            "bin": "10-20%",
+            "player_games": 2077,
+            "mean_probability": 0.14596824637226768,
+            "actual_td_rate": 0.13143957631198844
+          },
+          {
+            "bin": "20-30%",
+            "player_games": 1008,
+            "mean_probability": 0.2422368230765674,
+            "actual_td_rate": 0.26785714285714285
+          },
+          {
+            "bin": "30-40%",
+            "player_games": 447,
+            "mean_probability": 0.34519137482196827,
+            "actual_td_rate": 0.39149888143176736
+          },
+          {
+            "bin": "40-50%",
+            "player_games": 194,
+            "mean_probability": 0.44422998147054216,
+            "actual_td_rate": 0.4690721649484536
+          },
+          {
+            "bin": "50-60%",
+            "player_games": 33,
+            "mean_probability": 0.5356343917795138,
+            "actual_td_rate": 0.5151515151515151
+          },
+          {
+            "bin": "60%+",
+            "player_games": 9,
+            "mean_probability": 0.6407335983299309,
+            "actual_td_rate": 0.5555555555555556
+          }
+        ],
+        "ece": 0.017911385026236987,
+        "calibration_intercept": 0.21038679436997212,
+        "calibration_slope": 1.152663885427423,
+        "roc_auc": 0.7551683991098781,
+        "pr_auc": 0.352364692074503
+      },
+      "validation_metrics": {
+        "rows": 6320,
+        "positive_rate": 0.15822784810126583,
+        "log_loss": 0.37985733231567514,
+        "brier": 0.11766567829804286,
+        "calibration_table": [
+          {
+            "bin": "<10%",
+            "player_games": 2382,
+            "mean_probability": 0.05992544754731057,
+            "actual_td_rate": 0.0436607892527288
+          },
+          {
+            "bin": "10-20%",
+            "player_games": 2111,
+            "mean_probability": 0.1438404084945362,
+            "actual_td_rate": 0.14021790620558977
+          },
+          {
+            "bin": "20-30%",
+            "player_games": 1087,
+            "mean_probability": 0.2425031974203961,
+            "actual_td_rate": 0.2704691812327507
+          },
+          {
+            "bin": "30-40%",
+            "player_games": 446,
+            "mean_probability": 0.34379508552698246,
+            "actual_td_rate": 0.3609865470852018
+          },
+          {
+            "bin": "40-50%",
+            "player_games": 225,
+            "mean_probability": 0.44080053530158353,
+            "actual_td_rate": 0.4888888888888889
+          },
+          {
+            "bin": "50-60%",
+            "player_games": 61,
+            "mean_probability": 0.5345452950235815,
+            "actual_td_rate": 0.5245901639344263
+          },
+          {
+            "bin": "60%+",
+            "player_games": 8,
+            "mean_probability": 0.63921033575327,
+            "actual_td_rate": 0.375
+          }
+        ],
+        "ece": 0.01550581643801634,
+        "calibration_intercept": 0.24080443978032443,
+        "calibration_slope": 1.1687417722383113,
+        "roc_auc": 0.7603832706766918,
+        "pr_auc": 0.3552834965294195
+      }
+    },
+    "hierarchy_tree": {
+      "weights": [
+        0.75,
+        0,
+        0,
+        0.25
+      ],
+      "component_fit_max_season": 2022,
+      "oof_metrics": {
+        "rows": 6321,
+        "positive_rate": 0.1507672836576491,
+        "log_loss": 0.371312849874242,
+        "brier": 0.11329886064559398,
+        "calibration_table": [
+          {
+            "bin": "<10%",
+            "player_games": 2527,
+            "mean_probability": 0.06133438738908202,
+            "actual_td_rate": 0.04748713889988128
+          },
+          {
+            "bin": "10-20%",
+            "player_games": 2099,
+            "mean_probability": 0.14629421436218656,
+            "actual_td_rate": 0.13196760362077178
+          },
+          {
+            "bin": "20-30%",
+            "player_games": 1035,
+            "mean_probability": 0.2430148199586889,
+            "actual_td_rate": 0.2792270531400966
+          },
+          {
+            "bin": "30-40%",
+            "player_games": 447,
+            "mean_probability": 0.3453593994234978,
+            "actual_td_rate": 0.36465324384787473
+          },
+          {
+            "bin": "40-50%",
+            "player_games": 189,
+            "mean_probability": 0.43697229548840405,
+            "actual_td_rate": 0.4708994708994709
+          },
+          {
+            "bin": "50-60%",
+            "player_games": 21,
+            "mean_probability": 0.5278034737198452,
+            "actual_td_rate": 0.6666666666666666
+          },
+          {
+            "bin": "60%+",
+            "player_games": 3,
+            "mean_probability": 0.6188090544273878,
+            "actual_td_rate": 0.3333333333333333
+          }
+        ],
+        "ece": 0.019198283981450782,
+        "calibration_intercept": 0.27817112246484615,
+        "calibration_slope": 1.197941671943728,
+        "roc_auc": 0.7548126318489108,
+        "pr_auc": 0.3531033268022181
+      },
+      "validation_metrics": {
+        "rows": 6320,
+        "positive_rate": 0.15822784810126583,
+        "log_loss": 0.3800036164189955,
+        "brier": 0.11767295361243339,
+        "calibration_table": [
+          {
+            "bin": "<10%",
+            "player_games": 2382,
+            "mean_probability": 0.06119782499975884,
+            "actual_td_rate": 0.044920235096557515
+          },
+          {
+            "bin": "10-20%",
+            "player_games": 2102,
+            "mean_probability": 0.14433867617309007,
+            "actual_td_rate": 0.1379638439581351
+          },
+          {
+            "bin": "20-30%",
+            "player_games": 1107,
+            "mean_probability": 0.24298944412328358,
+            "actual_td_rate": 0.27461607949412825
+          },
+          {
+            "bin": "30-40%",
+            "player_games": 459,
+            "mean_probability": 0.34254244050521643,
+            "actual_td_rate": 0.3638344226579521
+          },
+          {
+            "bin": "40-50%",
+            "player_games": 236,
+            "mean_probability": 0.43975456606296687,
+            "actual_td_rate": 0.4872881355932203
+          },
+          {
+            "bin": "50-60%",
+            "player_games": 34,
+            "mean_probability": 0.5278088786513346,
+            "actual_td_rate": 0.5
+          },
+          {
+            "bin": "60%+",
+            "player_games": 0,
+            "mean_probability": null,
+            "actual_td_rate": null
+          }
+        ],
+        "ece": 0.017265861694964687,
+        "calibration_intercept": 0.3108460555635021,
+        "calibration_slope": 1.214016546185101,
+        "roc_auc": 0.760453007518797,
+        "pr_auc": 0.3560141585265402
+      }
+    },
+    "hierarchy_pool_position": {
+      "weights": [
+        0.5,
+        0.25,
+        0.25,
+        0
+      ],
+      "component_fit_max_season": 2022,
+      "oof_metrics": {
+        "rows": 6321,
+        "positive_rate": 0.1507672836576491,
+        "log_loss": 0.37006839935350605,
+        "brier": 0.1130953071987119,
+        "calibration_table": [
+          {
+            "bin": "<10%",
+            "player_games": 2703,
+            "mean_probability": 0.0601711473540351,
+            "actual_td_rate": 0.04846466888642249
+          },
+          {
+            "bin": "10-20%",
+            "player_games": 2066,
+            "mean_probability": 0.14525233924591718,
+            "actual_td_rate": 0.14230396902226525
+          },
+          {
+            "bin": "20-30%",
+            "player_games": 907,
+            "mean_probability": 0.24302498196874311,
+            "actual_td_rate": 0.28335170893054024
+          },
+          {
+            "bin": "30-40%",
+            "player_games": 395,
+            "mean_probability": 0.34490332096307075,
+            "actual_td_rate": 0.4
+          },
+          {
+            "bin": "40-50%",
+            "player_games": 193,
+            "mean_probability": 0.4438210330542471,
+            "actual_td_rate": 0.44041450777202074
+          },
+          {
+            "bin": "50-60%",
+            "player_games": 43,
+            "mean_probability": 0.5334697363167911,
+            "actual_td_rate": 0.4186046511627907
+          },
+          {
+            "bin": "60%+",
+            "player_games": 14,
+            "mean_probability": 0.6465049685773699,
+            "actual_td_rate": 0.7142857142857143
+          }
+        ],
+        "ece": 0.016234624621890105,
+        "calibration_intercept": 0.23179050874933022,
+        "calibration_slope": 1.1388453085131989,
+        "roc_auc": 0.7560345555567719,
+        "pr_auc": 0.35489256926209223
+      },
+      "validation_metrics": {
+        "rows": 6320,
+        "positive_rate": 0.15822784810126583,
+        "log_loss": 0.3801251080201824,
+        "brier": 0.11781868016884779,
+        "calibration_table": [
+          {
+            "bin": "<10%",
+            "player_games": 2532,
+            "mean_probability": 0.06117026851161316,
+            "actual_td_rate": 0.0462085308056872
+          },
+          {
+            "bin": "10-20%",
+            "player_games": 2105,
+            "mean_probability": 0.14295905951119103,
+            "actual_td_rate": 0.1505938242280285
+          },
+          {
+            "bin": "20-30%",
+            "player_games": 990,
+            "mean_probability": 0.24226101475002196,
+            "actual_td_rate": 0.2818181818181818
+          },
+          {
+            "bin": "30-40%",
+            "player_games": 409,
+            "mean_probability": 0.34470861176288575,
+            "actual_td_rate": 0.3643031784841076
+          },
+          {
+            "bin": "40-50%",
+            "player_games": 196,
+            "mean_probability": 0.4431584309032437,
+            "actual_td_rate": 0.46938775510204084
+          },
+          {
+            "bin": "50-60%",
+            "player_games": 71,
+            "mean_probability": 0.5373478865481901,
+            "actual_td_rate": 0.5492957746478874
+          },
+          {
+            "bin": "60%+",
+            "player_games": 17,
+            "mean_probability": 0.6392880914421157,
+            "actual_td_rate": 0.4117647058823529
+          }
+        ],
+        "ece": 0.017561268661291787,
+        "calibration_intercept": 0.2503033676002252,
+        "calibration_slope": 1.1448971602767133,
+        "roc_auc": 0.7608701127819549,
+        "pr_auc": 0.35425440844824757
+      }
+    },
+    "hierarchy_pool_tree": {
+      "weights": [
+        0.5,
+        0.25,
+        0,
+        0.25
+      ],
+      "component_fit_max_season": 2022,
+      "oof_metrics": {
+        "rows": 6321,
+        "positive_rate": 0.1507672836576491,
+        "log_loss": 0.37029858456339504,
+        "brier": 0.1131191981715195,
+        "calibration_table": [
+          {
+            "bin": "<10%",
+            "player_games": 2670,
+            "mean_probability": 0.0618823310273288,
+            "actual_td_rate": 0.04681647940074907
+          },
+          {
+            "bin": "10-20%",
+            "player_games": 2095,
+            "mean_probability": 0.1453331107647806,
+            "actual_td_rate": 0.1441527446300716
+          },
+          {
+            "bin": "20-30%",
+            "player_games": 921,
+            "mean_probability": 0.24303029277897334,
+            "actual_td_rate": 0.28664495114006516
+          },
+          {
+            "bin": "30-40%",
+            "player_games": 414,
+            "mean_probability": 0.3451745908980452,
+            "actual_td_rate": 0.3647342995169082
+          },
+          {
+            "bin": "40-50%",
+            "player_games": 190,
+            "mean_probability": 0.43980678093651066,
+            "actual_td_rate": 0.4789473684210526
+          },
+          {
+            "bin": "50-60%",
+            "player_games": 26,
+            "mean_probability": 0.5345844487106944,
+            "actual_td_rate": 0.6538461538461539
+          },
+          {
+            "bin": "60%+",
+            "player_games": 5,
+            "mean_probability": 0.621154409703161,
+            "actual_td_rate": 0.6
+          }
+        ],
+        "ece": 0.016074798072782597,
+        "calibration_intercept": 0.3113293323444558,
+        "calibration_slope": 1.191115552090626,
+        "roc_auc": 0.7562143939524256,
+        "pr_auc": 0.3563143989817043
+      },
+      "validation_metrics": {
+        "rows": 6320,
+        "positive_rate": 0.15822784810126583,
+        "log_loss": 0.3800039821053474,
+        "brier": 0.11773298725564442,
+        "calibration_table": [
+          {
+            "bin": "<10%",
+            "player_games": 2526,
+            "mean_probability": 0.062464094018822934,
+            "actual_td_rate": 0.04592240696753761
+          },
+          {
+            "bin": "10-20%",
+            "player_games": 2085,
+            "mean_probability": 0.14295752456459673,
+            "actual_td_rate": 0.14676258992805755
+          },
+          {
+            "bin": "20-30%",
+            "player_games": 1033,
+            "mean_probability": 0.2418855677300135,
+            "actual_td_rate": 0.2846079380445305
+          },
+          {
+            "bin": "30-40%",
+            "player_games": 401,
+            "mean_probability": 0.3428028296578027,
+            "actual_td_rate": 0.3765586034912718
+          },
+          {
+            "bin": "40-50%",
+            "player_games": 227,
+            "mean_probability": 0.4421784720861102,
+            "actual_td_rate": 0.4889867841409692
+          },
+          {
+            "bin": "50-60%",
+            "player_games": 44,
+            "mean_probability": 0.5319132949953345,
+            "actual_td_rate": 0.4772727272727273
+          },
+          {
+            "bin": "60%+",
+            "player_games": 4,
+            "mean_probability": 0.6116187282929176,
+            "actual_td_rate": 0.25
+          }
+        ],
+        "ece": 0.019282006858528336,
+        "calibration_intercept": 0.3306494237093816,
+        "calibration_slope": 1.195985310822894,
+        "roc_auc": 0.7613118421052631,
+        "pr_auc": 0.35572193436868216
+      }
+    }
+  },
+  "selected_blend": "hierarchy_pool_position",
+  "promotion": {
+    "position_logistic": {
+      "promoted": false,
+      "gates": {
+        "material_log_loss": false,
+        "bootstrap_interval_below_zero": false,
+        "ece": true,
+        "slope": true,
+        "position": true,
+        "chronology": false
+      },
+      "uncertainty": {
+        "paired_log_loss_difference": 0.003087268481014739,
+        "bootstrap_95_low": -0.00033413589530133513,
+        "bootstrap_95_high": 0.006635496786280252,
+        "game_clusters": 256,
+        "replicates": 2000
+      },
+      "position_log_loss_changes": {
+        "RB": 0.00871804695902062,
+        "WR": 0.001262042310371192,
+        "TE": 0.0022989298608486752,
+        "QB": -0.0009577037675114752
+      },
+      "segment_log_loss_changes": {
+        "early_2_6": 0.0034853859054009284,
+        "middle_7_12": 0.0047411729438455175,
+        "late_13_plus": 0.001233345175100209
+      },
+      "segments": {
+        "early_2_6": {
+          "rows": 1709,
+          "positive_rate": 0.16500877706260972,
+          "log_loss": 0.4012974443527865,
+          "brier": 0.12489009852694752,
+          "calibration_table": [
+            {
+              "bin": "<10%",
+              "player_games": 747,
+              "mean_probability": 0.06099175316591395,
+              "actual_td_rate": 0.06291834002677377
+            },
+            {
+              "bin": "10-20%",
+              "player_games": 461,
+              "mean_probability": 0.14201678442094,
+              "actual_td_rate": 0.16702819956616052
+            },
+            {
+              "bin": "20-30%",
+              "player_games": 247,
+              "mean_probability": 0.2444542787543565,
+              "actual_td_rate": 0.23481781376518218
+            },
+            {
+              "bin": "30-40%",
+              "player_games": 156,
+              "mean_probability": 0.3466596479303151,
+              "actual_td_rate": 0.3782051282051282
+            },
+            {
+              "bin": "40-50%",
+              "player_games": 51,
+              "mean_probability": 0.44352912155981455,
+              "actual_td_rate": 0.39215686274509803
+            },
+            {
+              "bin": "50-60%",
+              "player_games": 40,
+              "mean_probability": 0.5379087581181847,
+              "actual_td_rate": 0.475
+            },
+            {
+              "bin": "60%+",
+              "player_games": 7,
+              "mean_probability": 0.7091200318786022,
+              "actual_td_rate": 0.2857142857142857
+            }
+          ],
+          "ece": 0.016600877875736674,
+          "calibration_intercept": -0.11044349643576028,
+          "calibration_slope": 0.8977183735335785,
+          "roc_auc": 0.7350937094633884,
+          "pr_auc": 0.3357592252385746
+        },
+        "middle_7_12": {
+          "rows": 2243,
+          "positive_rate": 0.15202853321444493,
+          "log_loss": 0.3738084809976986,
+          "brier": 0.11503341603431891,
+          "calibration_table": [
+            {
+              "bin": "<10%",
+              "player_games": 1000,
+              "mean_probability": 0.06016294041724184,
+              "actual_td_rate": 0.05
+            },
+            {
+              "bin": "10-20%",
+              "player_games": 655,
+              "mean_probability": 0.13922048544694496,
+              "actual_td_rate": 0.15419847328244274
+            },
+            {
+              "bin": "20-30%",
+              "player_games": 307,
+              "mean_probability": 0.24514309735475662,
+              "actual_td_rate": 0.26058631921824105
+            },
+            {
+              "bin": "30-40%",
+              "player_games": 148,
+              "mean_probability": 0.34389888087266024,
+              "actual_td_rate": 0.32432432432432434
+            },
+            {
+              "bin": "40-50%",
+              "player_games": 107,
+              "mean_probability": 0.4386808179229623,
+              "actual_td_rate": 0.48598130841121495
+            },
+            {
+              "bin": "50-60%",
+              "player_games": 19,
+              "mean_probability": 0.5385432095436797,
+              "actual_td_rate": 0.42105263157894735
+            },
+            {
+              "bin": "60%+",
+              "player_games": 7,
+              "mean_probability": 0.6561073298084532,
+              "actual_td_rate": 0.2857142857142857
+            }
+          ],
+          "ece": 0.01671772211456462,
+          "calibration_intercept": 0.04175519577783245,
+          "calibration_slope": 1.0236910431838984,
+          "roc_auc": 0.7524091017018665,
+          "pr_auc": 0.33919804577059587
+        },
+        "late_13_plus": {
+          "rows": 2368,
+          "positive_rate": 0.15920608108108109,
+          "log_loss": 0.37975065287227044,
+          "brier": 0.11752967123331942,
+          "calibration_table": [
+            {
+              "bin": "<10%",
+              "player_games": 1128,
+              "mean_probability": 0.058841748847145894,
+              "actual_td_rate": 0.051418439716312055
+            },
+            {
+              "bin": "10-20%",
+              "player_games": 634,
+              "mean_probability": 0.1401801199968882,
+              "actual_td_rate": 0.1719242902208202
+            },
+            {
+              "bin": "20-30%",
+              "player_games": 291,
+              "mean_probability": 0.24492549296921068,
+              "actual_td_rate": 0.2920962199312715
+            },
+            {
+              "bin": "30-40%",
+              "player_games": 174,
+              "mean_probability": 0.34417283162943785,
+              "actual_td_rate": 0.3275862068965517
+            },
+            {
+              "bin": "40-50%",
+              "player_games": 84,
+              "mean_probability": 0.44121742164981165,
+              "actual_td_rate": 0.44047619047619047
+            },
+            {
+              "bin": "50-60%",
+              "player_games": 36,
+              "mean_probability": 0.5418526299939057,
+              "actual_td_rate": 0.5277777777777778
+            },
+            {
+              "bin": "60%+",
+              "player_games": 21,
+              "mean_probability": 0.6655511196806277,
+              "actual_td_rate": 0.5714285714285714
+            }
+          ],
+          "ece": 0.020125668278164408,
+          "calibration_intercept": 0.07466505887559595,
+          "calibration_slope": 1.000303993670758,
+          "roc_auc": 0.7659174508098113,
+          "pr_auc": 0.3686230259253304
+        }
+      }
+    },
+    "lightgbm": {
+      "promoted": false,
+      "gates": {
+        "material_log_loss": false,
+        "bootstrap_interval_below_zero": false,
+        "ece": true,
+        "slope": true,
+        "position": true,
+        "chronology": true
+      },
+      "uncertainty": {
+        "paired_log_loss_difference": 0.0002973001623607441,
+        "bootstrap_95_low": -0.0024053063264218473,
+        "bootstrap_95_high": 0.0030359041342086436,
+        "game_clusters": 256,
+        "replicates": 2000
+      },
+      "position_log_loss_changes": {
+        "RB": 0.0038934116089418547,
+        "WR": 0.000635912347196621,
+        "TE": -1.1534021303549746e-05,
+        "QB": -0.007618755525162002
+      },
+      "segment_log_loss_changes": {
+        "early_2_6": -0.001300698170126957,
+        "middle_7_12": 0.0029291649565435507,
+        "late_13_plus": -0.001042350844028872
+      },
+      "segments": {
+        "early_2_6": {
+          "rows": 1709,
+          "positive_rate": 0.16500877706260972,
+          "log_loss": 0.39651136027725864,
+          "brier": 0.12350585592080487,
+          "calibration_table": [
+            {
+              "bin": "<10%",
+              "player_games": 763,
+              "mean_probability": 0.05715177752096342,
+              "actual_td_rate": 0.061598951507208385
+            },
+            {
+              "bin": "10-20%",
+              "player_games": 434,
+              "mean_probability": 0.14737640666173193,
+              "actual_td_rate": 0.15668202764976957
+            },
+            {
+              "bin": "20-30%",
+              "player_games": 250,
+              "mean_probability": 0.24503503851836186,
+              "actual_td_rate": 0.268
+            },
+            {
+              "bin": "30-40%",
+              "player_games": 132,
+              "mean_probability": 0.3448923372780705,
+              "actual_td_rate": 0.3484848484848485
+            },
+            {
+              "bin": "40-50%",
+              "player_games": 92,
+              "mean_probability": 0.44208106208144116,
+              "actual_td_rate": 0.41304347826086957
+            },
+            {
+              "bin": "50-60%",
+              "player_games": 38,
+              "mean_probability": 0.5286093653262728,
+              "actual_td_rate": 0.42105263157894735
+            },
+            {
+              "bin": "60%+",
+              "player_games": 0,
+              "mean_probability": null,
+              "actual_td_rate": null
+            }
+          ],
+          "ece": 0.01194025670211143,
+          "calibration_intercept": -0.05419337737783857,
+          "calibration_slope": 0.9376056629681544,
+          "roc_auc": 0.7428407063372547,
+          "pr_auc": 0.3377745693249979
+        },
+        "middle_7_12": {
+          "rows": 2243,
+          "positive_rate": 0.15202853321444493,
+          "log_loss": 0.3719964730103966,
+          "brier": 0.1140220604158569,
+          "calibration_table": [
+            {
+              "bin": "<10%",
+              "player_games": 1050,
+              "mean_probability": 0.05827147598422429,
+              "actual_td_rate": 0.05714285714285714
+            },
+            {
+              "bin": "10-20%",
+              "player_games": 532,
+              "mean_probability": 0.1446828431530469,
+              "actual_td_rate": 0.15037593984962405
+            },
+            {
+              "bin": "20-30%",
+              "player_games": 351,
+              "mean_probability": 0.24263968638420025,
+              "actual_td_rate": 0.21652421652421652
+            },
+            {
+              "bin": "30-40%",
+              "player_games": 164,
+              "mean_probability": 0.34657754173775446,
+              "actual_td_rate": 0.3353658536585366
+            },
+            {
+              "bin": "40-50%",
+              "player_games": 95,
+              "mean_probability": 0.44869295338787946,
+              "actual_td_rate": 0.4421052631578947
+            },
+            {
+              "bin": "50-60%",
+              "player_games": 51,
+              "mean_probability": 0.5262335336852013,
+              "actual_td_rate": 0.5490196078431373
+            },
+            {
+              "bin": "60%+",
+              "player_games": 0,
+              "mean_probability": null,
+              "actual_td_rate": null
+            }
+          ],
+          "ece": 0.007582231094856825,
+          "calibration_intercept": -0.02884806687834341,
+          "calibration_slope": 1.003277623476781,
+          "roc_auc": 0.7527305722329635,
+          "pr_auc": 0.3500124107344175
+        },
+        "late_13_plus": {
+          "rows": 2368,
+          "positive_rate": 0.15920608108108109,
+          "log_loss": 0.37747495685314136,
+          "brier": 0.11722547815012055,
+          "calibration_table": [
+            {
+              "bin": "<10%",
+              "player_games": 1178,
+              "mean_probability": 0.057504630125050256,
+              "actual_td_rate": 0.053480475382003394
+            },
+            {
+              "bin": "10-20%",
+              "player_games": 499,
+              "mean_probability": 0.1455695248208428,
+              "actual_td_rate": 0.17234468937875752
+            },
+            {
+              "bin": "20-30%",
+              "player_games": 351,
+              "mean_probability": 0.24406921807415558,
+              "actual_td_rate": 0.25925925925925924
+            },
+            {
+              "bin": "30-40%",
+              "player_games": 180,
+              "mean_probability": 0.34768994931463115,
+              "actual_td_rate": 0.37222222222222223
+            },
+            {
+              "bin": "40-50%",
+              "player_games": 100,
+              "mean_probability": 0.4452609557760772,
+              "actual_td_rate": 0.38
+            },
+            {
+              "bin": "50-60%",
+              "player_games": 60,
+              "mean_probability": 0.5296876821131776,
+              "actual_td_rate": 0.5333333333333333
+            },
+            {
+              "bin": "60%+",
+              "player_games": 0,
+              "mean_probability": null,
+              "actual_td_rate": null
+            }
+          ],
+          "ece": 0.014608787851293707,
+          "calibration_intercept": 0.06827561557436543,
+          "calibration_slope": 1.016794011460068,
+          "roc_auc": 0.7655284323221073,
+          "pr_auc": 0.37256720488351347
+        }
+      }
+    },
+    "oof_blend": {
+      "promoted": false,
+      "gates": {
+        "material_log_loss": false,
+        "bootstrap_interval_below_zero": false,
+        "ece": true,
+        "slope": true,
+        "position": true,
+        "chronology": true
+      },
+      "uncertainty": {
+        "paired_log_loss_difference": -0.0002558673719494935,
+        "bootstrap_95_low": -0.001560389706423049,
+        "bootstrap_95_high": 0.0011074916958417327,
+        "game_clusters": 256,
+        "replicates": 2000
+      },
+      "position_log_loss_changes": {
+        "RB": 0.0006770883110274184,
+        "WR": 0.0003668140228397787,
+        "TE": -0.0005210656676232772,
+        "QB": -0.003748175137227361
+      },
+      "segment_log_loss_changes": {
+        "early_2_6": -0.0009149822578325972,
+        "middle_7_12": 0.00046577333451697234,
+        "late_13_plus": -0.0004637274921480694
+      },
+      "segments": {
+        "early_2_6": {
+          "rows": 1709,
+          "positive_rate": 0.16500877706260972,
+          "log_loss": 0.396897076189553,
+          "brier": 0.12394036757095737,
+          "calibration_table": [
+            {
+              "bin": "<10%",
+              "player_games": 639,
+              "mean_probability": 0.06241450651552912,
+              "actual_td_rate": 0.053208137715179966
+            },
+            {
+              "bin": "10-20%",
+              "player_games": 582,
+              "mean_probability": 0.14555787643337917,
+              "actual_td_rate": 0.15463917525773196
+            },
+            {
+              "bin": "20-30%",
+              "player_games": 274,
+              "mean_probability": 0.24305638717109457,
+              "actual_td_rate": 0.27007299270072993
+            },
+            {
+              "bin": "30-40%",
+              "player_games": 129,
+              "mean_probability": 0.3453994196255198,
+              "actual_td_rate": 0.3643410852713178
+            },
+            {
+              "bin": "40-50%",
+              "player_games": 55,
+              "mean_probability": 0.43402209594900715,
+              "actual_td_rate": 0.43636363636363634
+            },
+            {
+              "bin": "50-60%",
+              "player_games": 26,
+              "mean_probability": 0.5350459842475697,
+              "actual_td_rate": 0.46153846153846156
+            },
+            {
+              "bin": "60%+",
+              "player_games": 4,
+              "mean_probability": 0.629773021358714,
+              "actual_td_rate": 0.25
+            }
+          ],
+          "ece": 0.014378749421474981,
+          "calibration_intercept": 0.12038500209914169,
+          "calibration_slope": 1.0641411040494908,
+          "roc_auc": 0.7453741669027418,
+          "pr_auc": 0.3378857328571994
+        },
+        "middle_7_12": {
+          "rows": 2243,
+          "positive_rate": 0.15202853321444493,
+          "log_loss": 0.36953308138837004,
+          "brier": 0.11356542151416098,
+          "calibration_table": [
+            {
+              "bin": "<10%",
+              "player_games": 894,
+              "mean_probability": 0.06147836263617423,
+              "actual_td_rate": 0.042505592841163314
+            },
+            {
+              "bin": "10-20%",
+              "player_games": 759,
+              "mean_probability": 0.14166259292277522,
+              "actual_td_rate": 0.14361001317523056
+            },
+            {
+              "bin": "20-30%",
+              "player_games": 360,
+              "mean_probability": 0.23975778756406144,
+              "actual_td_rate": 0.2638888888888889
+            },
+            {
+              "bin": "30-40%",
+              "player_games": 136,
+              "mean_probability": 0.34224821076771,
+              "actual_td_rate": 0.3602941176470588
+            },
+            {
+              "bin": "40-50%",
+              "player_games": 77,
+              "mean_probability": 0.44583400245116406,
+              "actual_td_rate": 0.5454545454545454
+            },
+            {
+              "bin": "50-60%",
+              "player_games": 15,
+              "mean_probability": 0.5409430492555202,
+              "actual_td_rate": 0.5333333333333333
+            },
+            {
+              "bin": "60%+",
+              "player_games": 2,
+              "mean_probability": 0.622256436968061,
+              "actual_td_rate": 0.0
+            }
+          ],
+          "ece": 0.01721383343955059,
+          "calibration_intercept": 0.321897423161743,
+          "calibration_slope": 1.2117056665498958,
+          "roc_auc": 0.7620655522354922,
+          "pr_auc": 0.3562372825642946
+        },
+        "late_13_plus": {
+          "rows": 2368,
+          "positive_rate": 0.15920608108108109,
+          "log_loss": 0.37805358020502217,
+          "brier": 0.11742936234463208,
+          "calibration_table": [
+            {
+              "bin": "<10%",
+              "player_games": 999,
+              "mean_probability": 0.0600986927039456,
+              "actual_td_rate": 0.04504504504504504
+            },
+            {
+              "bin": "10-20%",
+              "player_games": 764,
+              "mean_probability": 0.14226731434351322,
+              "actual_td_rate": 0.1544502617801047
+            },
+            {
+              "bin": "20-30%",
+              "player_games": 356,
+              "mean_probability": 0.24418019942297667,
+              "actual_td_rate": 0.3089887640449438
+            },
+            {
+              "bin": "30-40%",
+              "player_games": 144,
+              "mean_probability": 0.34641347510360876,
+              "actual_td_rate": 0.3680555555555556
+            },
+            {
+              "bin": "40-50%",
+              "player_games": 64,
+              "mean_probability": 0.44779092173594887,
+              "actual_td_rate": 0.40625
+            },
+            {
+              "bin": "50-60%",
+              "player_games": 30,
+              "mean_probability": 0.537545287188396,
+              "actual_td_rate": 0.6333333333333333
+            },
+            {
+              "bin": "60%+",
+              "player_games": 11,
+              "mean_probability": 0.6458447813768173,
+              "actual_td_rate": 0.5454545454545454
+            }
+          ],
+          "ece": 0.024143254820055755,
+          "calibration_intercept": 0.2909541236581102,
+          "calibration_slope": 1.1476115156103215,
+          "roc_auc": 0.770496411570902,
+          "pr_auc": 0.3694242795335778
+        }
+      }
+    }
+  },
+  "market": {
+    "rows": 223,
+    "games": 10,
+    "football": {
+      "rows": 223,
+      "positive_rate": 0.17488789237668162,
+      "log_loss": 0.4100051958343598,
+      "brier": 0.13081706473171006,
+      "calibration_table": [
+        {
+          "bin": "<10%",
+          "player_games": 74,
+          "mean_probability": 0.05783449352404844,
+          "actual_td_rate": 0.05405405405405406
+        },
+        {
+          "bin": "10-20%",
+          "player_games": 78,
+          "mean_probability": 0.1457812759860045,
+          "actual_td_rate": 0.14102564102564102
+        },
+        {
+          "bin": "20-30%",
+          "player_games": 44,
+          "mean_probability": 0.2422720679218757,
+          "actual_td_rate": 0.3409090909090909
+        },
+        {
+          "bin": "30-40%",
+          "player_games": 16,
+          "mean_probability": 0.3450680060830938,
+          "actual_td_rate": 0.3125
+        },
+        {
+          "bin": "40-50%",
+          "player_games": 9,
+          "mean_probability": 0.4324440396425276,
+          "actual_td_rate": 0.3333333333333333
+        },
+        {
+          "bin": "50-60%",
+          "player_games": 2,
+          "mean_probability": 0.5053780230585362,
+          "actual_td_rate": 0.5
+        },
+        {
+          "bin": "60%+",
+          "player_games": 0,
+          "mean_probability": null,
+          "actual_td_rate": null
+        }
+      ],
+      "ece": 0.028764850041949435,
+      "calibration_intercept": 0.2513921738885719,
+      "calibration_slope": 1.1219151368993687,
+      "roc_auc": 0.7515328874024526,
+      "pr_auc": 0.3374294967473917
+    },
+    "market_raw": {
+      "rows": 223,
+      "positive_rate": 0.17488789237668162,
+      "log_loss": 0.39043516762133196,
+      "brier": 0.12165245571454382,
+      "calibration_table": [
+        {
+          "bin": "<10%",
+          "player_games": 59,
+          "mean_probability": 0.07158845082730457,
+          "actual_td_rate": 0.01694915254237288
+        },
+        {
+          "bin": "10-20%",
+          "player_games": 57,
+          "mean_probability": 0.14753593904803325,
+          "actual_td_rate": 0.08771929824561403
+        },
+        {
+          "bin": "20-30%",
+          "player_games": 52,
+          "mean_probability": 0.248693570837936,
+          "actual_td_rate": 0.15384615384615385
+        },
+        {
+          "bin": "30-40%",
+          "player_games": 24,
+          "mean_probability": 0.34603416406518006,
+          "actual_td_rate": 0.4583333333333333
+        },
+        {
+          "bin": "40-50%",
+          "player_games": 14,
+          "mean_probability": 0.4371483793100266,
+          "actual_td_rate": 0.35714285714285715
+        },
+        {
+          "bin": "50-60%",
+          "player_games": 15,
+          "mean_probability": 0.5428011150541825,
+          "actual_td_rate": 0.5333333333333333
+        },
+        {
+          "bin": "60%+",
+          "player_games": 2,
+          "mean_probability": 0.634944277468947,
+          "actual_td_rate": 0.5
+        }
+      ],
+      "ece": 0.07081836529887094,
+      "calibration_intercept": 0.026526842322790317,
+      "calibration_slope": 1.381937573481396,
+      "roc_auc": 0.7995401337792643,
+      "pr_auc": 0.4449628979376393
+    },
+    "by_position": {
+      "RB": {
+        "rows": 59,
+        "football": {
+          "rows": 59,
+          "positive_rate": 0.2033898305084746,
+          "log_loss": 0.42333883259640986,
+          "brier": 0.13939854621181832,
+          "calibration_table": [
+            {
+              "bin": "<10%",
+              "player_games": 19,
+              "mean_probability": 0.05491302334460293,
+              "actual_td_rate": 0.05263157894736842
+            },
+            {
+              "bin": "10-20%",
+              "player_games": 11,
+              "mean_probability": 0.1344945113516969,
+              "actual_td_rate": 0.0
+            },
+            {
+              "bin": "20-30%",
+              "player_games": 9,
+              "mean_probability": 0.2329023267931607,
+              "actual_td_rate": 0.3333333333333333
+            },
+            {
+              "bin": "30-40%",
+              "player_games": 10,
+              "mean_probability": 0.35567042180862934,
+              "actual_td_rate": 0.4
+            },
+            {
+              "bin": "40-50%",
+              "player_games": 8,
+              "mean_probability": 0.43161017130018553,
+              "actual_td_rate": 0.375
+            },
+            {
+              "bin": "50-60%",
+              "player_games": 2,
+              "mean_probability": 0.5053780230585362,
+              "actual_td_rate": 0.5
+            },
+            {
+              "bin": "60%+",
+              "player_games": 0,
+              "mean_probability": null,
+              "actual_td_rate": null
+            }
+          ],
+          "ece": 0.056501683486609125,
+          "calibration_intercept": 0.05751459098095849,
+          "calibration_slope": 1.1370526581521505,
+          "roc_auc": 0.7677304964539007,
+          "pr_auc": 0.40019667506879786
+        },
+        "market_raw": {
+          "rows": 59,
+          "positive_rate": 0.2033898305084746,
+          "log_loss": 0.4269403611806261,
+          "brier": 0.1409029709917102,
+          "calibration_table": [
+            {
+              "bin": "<10%",
+              "player_games": 15,
+              "mean_probability": 0.06277211841851947,
+              "actual_td_rate": 0.0
+            },
+            {
+              "bin": "10-20%",
+              "player_games": 8,
+              "mean_probability": 0.14587669275169274,
+              "actual_td_rate": 0.0
+            },
+            {
+              "bin": "20-30%",
+              "player_games": 10,
+              "mean_probability": 0.2377485010323756,
+              "actual_td_rate": 0.1
+            },
+            {
+              "bin": "30-40%",
+              "player_games": 8,
+              "mean_probability": 0.3390902854341763,
+              "actual_td_rate": 0.625
+            },
+            {
+              "bin": "40-50%",
+              "player_games": 5,
+              "mean_probability": 0.443503461990857,
+              "actual_td_rate": 0.2
+            },
+            {
+              "bin": "50-60%",
+              "player_games": 11,
+              "mean_probability": 0.5453302439754792,
+              "actual_td_rate": 0.36363636363636365
+            },
+            {
+              "bin": "60%+",
+              "player_games": 2,
+              "mean_probability": 0.634944277468947,
+              "actual_td_rate": 0.5
+            }
+          ],
+          "ece": 0.1569389253180361,
+          "calibration_intercept": -0.3761196560245501,
+          "calibration_slope": 1.2785679885887187,
+          "roc_auc": 0.8023049645390071,
+          "pr_auc": 0.4912071262071262
+        },
+        "mean_football_minus_market_p": -0.06856934773816156,
+        "mean_actual_minus_football_p": -0.010834739731515572,
+        "mean_actual_minus_market_p": -0.07940408746967713
+      },
+      "WR": {
+        "rows": 95,
+        "football": {
+          "rows": 95,
+          "positive_rate": 0.18947368421052632,
+          "log_loss": 0.4472269033022251,
+          "brier": 0.14488371326957886,
+          "calibration_table": [
+            {
+              "bin": "<10%",
+              "player_games": 32,
+              "mean_probability": 0.05827387455096623,
+              "actual_td_rate": 0.0625
+            },
+            {
+              "bin": "10-20%",
+              "player_games": 29,
+              "mean_probability": 0.15318590450388772,
+              "actual_td_rate": 0.20689655172413793
+            },
+            {
+              "bin": "20-30%",
+              "player_games": 27,
+              "mean_probability": 0.24979059623369754,
+              "actual_td_rate": 0.3333333333333333
+            },
+            {
+              "bin": "30-40%",
+              "player_games": 6,
+              "mean_probability": 0.3273973132072012,
+              "actual_td_rate": 0.16666666666666666
+            },
+            {
+              "bin": "40-50%",
+              "player_games": 1,
+              "mean_probability": 0.4391149863812638,
+              "actual_td_rate": 0.0
+            },
+            {
+              "bin": "50-60%",
+              "player_games": 0,
+              "mean_probability": null,
+              "actual_td_rate": null
+            },
+            {
+              "bin": "60%+",
+              "player_games": 0,
+              "mean_probability": null,
+              "actual_td_rate": null
+            }
+          ],
+          "ece": 0.05633681632706288,
+          "calibration_intercept": 0.24182968517398748,
+          "calibration_slope": 1.0289617253166599,
+          "roc_auc": 0.702020202020202,
+          "pr_auc": 0.2913920688031984
+        },
+        "market_raw": {
+          "rows": 95,
+          "positive_rate": 0.18947368421052632,
+          "log_loss": 0.3948840201869844,
+          "brier": 0.12333235144244802,
+          "calibration_table": [
+            {
+              "bin": "<10%",
+              "player_games": 23,
+              "mean_probability": 0.07703820473909574,
+              "actual_td_rate": 0.0
+            },
+            {
+              "bin": "10-20%",
+              "player_games": 24,
+              "mean_probability": 0.15445277342963548,
+              "actual_td_rate": 0.125
+            },
+            {
+              "bin": "20-30%",
+              "player_games": 25,
+              "mean_probability": 0.2553321203144867,
+              "actual_td_rate": 0.16
+            },
+            {
+              "bin": "30-40%",
+              "player_games": 13,
+              "mean_probability": 0.34963843265648165,
+              "actual_td_rate": 0.38461538461538464
+            },
+            {
+              "bin": "40-50%",
+              "player_games": 6,
+              "mean_probability": 0.4374637037680516,
+              "actual_td_rate": 0.3333333333333333
+            },
+            {
+              "bin": "50-60%",
+              "player_games": 4,
+              "mean_probability": 0.5358460105206164,
+              "actual_td_rate": 1.0
+            },
+            {
+              "bin": "60%+",
+              "player_games": 0,
+              "mean_probability": null,
+              "actual_td_rate": null
+            }
+          ],
+          "ece": 0.0820857561596232,
+          "calibration_intercept": 0.6713121150821088,
+          "calibration_slope": 1.9422392458354114,
+          "roc_auc": 0.816017316017316,
+          "pr_auc": 0.577795569418706
+        },
+        "mean_football_minus_market_p": -0.06021593671810201,
+        "mean_actual_minus_football_p": 0.026789471787600324,
+        "mean_actual_minus_market_p": -0.03342646493050167
+      },
+      "TE": {
+        "rows": 48,
+        "football": {
+          "rows": 48,
+          "positive_rate": 0.125,
+          "log_loss": 0.34563762668530834,
+          "brier": 0.1027610832614468,
+          "calibration_table": [
+            {
+              "bin": "<10%",
+              "player_games": 17,
+              "mean_probability": 0.053966381798395247,
+              "actual_td_rate": 0.058823529411764705
+            },
+            {
+              "bin": "10-20%",
+              "player_games": 26,
+              "mean_probability": 0.14231840085475744,
+              "actual_td_rate": 0.15384615384615385
+            },
+            {
+              "bin": "20-30%",
+              "player_games": 5,
+              "mean_probability": 0.2318162531288237,
+              "actual_td_rate": 0.2
+            },
+            {
+              "bin": "30-40%",
+              "player_games": 0,
+              "mean_probability": null,
+              "actual_td_rate": null
+            },
+            {
+              "bin": "40-50%",
+              "player_games": 0,
+              "mean_probability": null,
+              "actual_td_rate": null
+            },
+            {
+              "bin": "50-60%",
+              "player_games": 0,
+              "mean_probability": null,
+              "actual_td_rate": null
+            },
+            {
+              "bin": "60%+",
+              "player_games": 0,
+              "mean_probability": null,
+              "actual_td_rate": null
+            }
+          ],
+          "ece": 0.011278632350993875,
+          "calibration_intercept": 0.7753037737641972,
+          "calibration_slope": 1.4041241917455596,
+          "roc_auc": 0.6865079365079365,
+          "pr_auc": 0.3561406967479074
+        },
+        "market_raw": {
+          "rows": 48,
+          "positive_rate": 0.125,
+          "log_loss": 0.35456481159747916,
+          "brier": 0.10404881506947299,
+          "calibration_table": [
+            {
+              "bin": "<10%",
+              "player_games": 17,
+              "mean_probability": 0.07038780072755732,
+              "actual_td_rate": 0.058823529411764705
+            },
+            {
+              "bin": "10-20%",
+              "player_games": 15,
+              "mean_probability": 0.1303853553853554,
+              "actual_td_rate": 0.06666666666666667
+            },
+            {
+              "bin": "20-30%",
+              "player_games": 13,
+              "mean_probability": 0.2414058944749482,
+              "actual_td_rate": 0.23076923076923078
+            },
+            {
+              "bin": "30-40%",
+              "player_games": 3,
+              "mean_probability": 0.34893267651888343,
+              "actual_td_rate": 0.3333333333333333
+            },
+            {
+              "bin": "40-50%",
+              "player_games": 0,
+              "mean_probability": null,
+              "actual_td_rate": null
+            },
+            {
+              "bin": "50-60%",
+              "player_games": 0,
+              "mean_probability": null,
+              "actual_td_rate": null
+            },
+            {
+              "bin": "60%+",
+              "player_games": 0,
+              "mean_probability": null,
+              "actual_td_rate": null
+            }
+          ],
+          "ece": 0.027863491684995464,
+          "calibration_intercept": -0.19516468092928307,
+          "calibration_slope": 1.033832284997402,
+          "roc_auc": 0.6785714285714285,
+          "pr_auc": 0.3550563236047107
+        },
+        "mean_football_minus_market_p": -0.032513737967484385,
+        "mean_actual_minus_football_p": 0.004650246282488929,
+        "mean_actual_minus_market_p": -0.027863491684995453
+      },
+      "QB": {
+        "rows": 21,
+        "football": {
+          "rows": 21,
+          "positive_rate": 0.14285714285714285,
+          "log_loss": 0.3512859834889471,
+          "brier": 0.10720030721498208,
+          "calibration_table": [
+            {
+              "bin": "<10%",
+              "player_games": 6,
+              "mean_probability": 0.07570210017141493,
+              "actual_td_rate": 0.0
+            },
+            {
+              "bin": "10-20%",
+              "player_games": 12,
+              "mean_probability": 0.14573585410027065,
+              "actual_td_rate": 0.08333333333333333
+            },
+            {
+              "bin": "20-30%",
+              "player_games": 3,
+              "mean_probability": 0.2201408944900435,
+              "actual_td_rate": 0.6666666666666666
+            },
+            {
+              "bin": "30-40%",
+              "player_games": 0,
+              "mean_probability": null,
+              "actual_td_rate": null
+            },
+            {
+              "bin": "40-50%",
+              "player_games": 0,
+              "mean_probability": null,
+              "actual_td_rate": null
+            },
+            {
+              "bin": "50-60%",
+              "player_games": 0,
+              "mean_probability": null,
+              "actual_td_rate": null
+            },
+            {
+              "bin": "60%+",
+              "player_games": 0,
+              "mean_probability": null,
+              "actual_td_rate": null
+            }
+          ],
+          "ece": 0.12107715079817175,
+          "calibration_intercept": 6.6675838531808616,
+          "calibration_slope": 5.112092765461996,
+          "roc_auc": 0.888888888888889,
+          "pr_auc": 0.7777777777777777
+        },
+        "market_raw": {
+          "rows": 21,
+          "positive_rate": 0.14285714285714285,
+          "log_loss": 0.3497365807360745,
+          "brier": 0.10020503930786233,
+          "calibration_table": [
+            {
+              "bin": "<10%",
+              "player_games": 4,
+              "mean_probability": 0.0784163752913753,
+              "actual_td_rate": 0.0
+            },
+            {
+              "bin": "10-20%",
+              "player_games": 10,
+              "mean_probability": 0.15798880906327714,
+              "actual_td_rate": 0.1
+            },
+            {
+              "bin": "20-30%",
+              "player_games": 4,
+              "mean_probability": 0.25825025930310536,
+              "actual_td_rate": 0.0
+            },
+            {
+              "bin": "30-40%",
+              "player_games": 0,
+              "mean_probability": null,
+              "actual_td_rate": null
+            },
+            {
+              "bin": "40-50%",
+              "player_games": 3,
+              "mean_probability": 0.425925925925926,
+              "actual_td_rate": 0.6666666666666666
+            },
+            {
+              "bin": "50-60%",
+              "player_games": 0,
+              "mean_probability": null,
+              "actual_td_rate": null
+            },
+            {
+              "bin": "60%+",
+              "player_games": 0,
+              "mean_probability": null,
+              "actual_td_rate": null
+            }
+          ],
+          "ece": 0.12613223101109122,
+          "calibration_intercept": 0.6442720550448032,
+          "calibration_slope": 1.9957035998192396,
+          "roc_auc": 0.75,
+          "pr_auc": 0.6180555555555556
+        },
+        "mean_football_minus_market_p": -0.06385080348031448,
+        "mean_actual_minus_football_p": 0.006501641252292013,
+        "mean_actual_minus_market_p": -0.057349162228022485
+      }
+    },
+    "limitation": "Ten Phase 1 T-60 games; raw implied probability includes book margin."
+  },
+  "answers": {
+    "Do position models improve on pooled models?": "No overall. Position logistic log loss 0.3835 versus frozen pooled logistic 0.3831 and hierarchy 0.3804; see position table.",
+    "Does LightGBM materially beat hierarchy?": "No; it fails at least one predeclared gate.",
+    "Does xTD add within a position?": "No clear 2024 log-loss gain. RB xTD-minus-core log loss +0.0016; WR xTD-minus-core log loss +0.0000; TE xTD-minus-core log loss +0.0008. Negative values favor xTD; small differences are not strong evidence.",
+    "Does the OOF ensemble materially improve?": "No; it fails at least one predeclared gate.",
+    "Which model advances to Phase 7?": "phase5_hierarchical.",
+    "Does market still outperform best football model?": "Yes on 223 matched 2024 T-60 player quotes; this is a narrow sample."
+  },
+  "missing_feature_families": [
+    "safe historical route participation",
+    "QB designed-run/scramble usage",
+    "player air-yard history"
+  ],
+  "feature_missing_pct_by_season": {
+    "expected_team_td": {
+      "2022": 0.0,
+      "2023": 0.0,
+      "2024": 0.0
+    },
+    "home": {
+      "2022": 0.0,
+      "2023": 0.0,
+      "2024": 0.0
+    },
+    "implied_team_points": {
+      "2022": 0.0,
+      "2023": 0.0,
+      "2024": 0.0
+    },
+    "is_qb": {
+      "2022": 0.0,
+      "2023": 0.0,
+      "2024": 0.0
+    },
+    "is_rb": {
+      "2022": 0.0,
+      "2023": 0.0,
+      "2024": 0.0
+    },
+    "is_te": {
+      "2022": 0.0,
+      "2023": 0.0,
+      "2024": 0.0
+    },
+    "is_wr": {
+      "2022": 0.0,
+      "2023": 0.0,
+      "2024": 0.0
+    },
+    "last5_carries_per_game": {
+      "2022": 0.0,
+      "2023": 0.0,
+      "2024": 0.0
+    },
+    "last5_carry_share": {
+      "2022": 0.0,
+      "2023": 0.0,
+      "2024": 0.0
+    },
+    "last5_end_zone_target_share": {
+      "2022": 2.61,
+      "2023": 2.59,
+      "2024": 1.34
+    },
+    "last5_goal_line_opportunity_share": {
+      "2022": 3.62,
+      "2023": 4.51,
+      "2024": 2.56
+    },
+    "last5_inside_10_carries_per_game": {
+      "2022": 0.0,
+      "2023": 0.0,
+      "2024": 0.0
+    },
+    "last5_inside_5_carries_per_game": {
+      "2022": 0.0,
+      "2023": 0.0,
+      "2024": 0.0
+    },
+    "last5_opponent_allowed_offensive_touchdowns_per_game": {
+      "2022": 0.0,
+      "2023": 0.0,
+      "2024": 0.0
+    },
+    "last5_opponent_allowed_red_zone_carries_per_game": {
+      "2022": 0.0,
+      "2023": 0.0,
+      "2024": 0.0
+    },
+    "last5_opponent_allowed_red_zone_targets_per_game": {
+      "2022": 0.0,
+      "2023": 0.0,
+      "2024": 0.0
+    },
+    "last5_receiving_xtd": {
+      "2022": 0.17,
+      "2023": 0.9,
+      "2024": 0.4
+    },
+    "last5_receiving_xtd_share": {
+      "2022": 0.17,
+      "2023": 0.9,
+      "2024": 0.4
+    },
+    "last5_red_zone_carries_per_game": {
+      "2022": 0.0,
+      "2023": 0.0,
+      "2024": 0.0
+    },
+    "last5_red_zone_target_share": {
+      "2022": 0.65,
+      "2023": 0.55,
+      "2024": 0.35
+    },
+    "last5_rushing_xtd": {
+      "2022": 0.17,
+      "2023": 0.9,
+      "2024": 0.4
+    },
+    "last5_rushing_xtd_share": {
+      "2022": 0.17,
+      "2023": 0.9,
+      "2024": 0.4
+    },
+    "last5_snap_share": {
+      "2022": 0.05,
+      "2023": 0.08,
+      "2024": 0.16
+    },
+    "last5_target_share": {
+      "2022": 0.0,
+      "2023": 0.0,
+      "2024": 0.0
+    },
+    "last5_total_xtd": {
+      "2022": 0.17,
+      "2023": 0.9,
+      "2024": 0.4
+    },
+    "last5_total_xtd_per_opportunity": {
+      "2022": 0.17,
+      "2023": 0.9,
+      "2024": 0.4
+    },
+    "last5_total_xtd_share": {
+      "2022": 0.17,
+      "2023": 0.9,
+      "2024": 0.4
+    },
+    "last5_touch_share": {
+      "2022": 0.0,
+      "2023": 0.0,
+      "2024": 0.0
+    },
+    "team_spread": {
+      "2022": 0.0,
+      "2023": 0.0,
+      "2024": 0.0
+    }
+  },
+  "artifact_hashes": {
+    "validation_predictions": "99d6f3837717f145be616da81c99d2a7ed303db63d354f5f6ba205732d2f347b",
+    "oof_components": "30672400bed0cfe9e3ce75d1cf19d605e81d21681001bc0c31105b3469ed5faf",
+    "phase5_features": "43e7ee76002457649c2cead34faa26537e02728629b5ea5202938c4f7ead3542",
+    "phase5_predictions": "dfefcfeb235619d6c326b1d7a5e7f960fc6f40fb6313048ad22038e94acf7156"
+  }
+}

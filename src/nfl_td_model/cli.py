@@ -17,6 +17,8 @@ from nfl_td_model.phase4_market import collect_market_snapshots
 from nfl_td_model.phase4_verify import verify_phase4
 from nfl_td_model.phase5 import build_phase5
 from nfl_td_model.phase5_verify import verify_phase5
+from nfl_td_model.phase6 import build_phase6
+from nfl_td_model.phase6_verify import verify_phase6
 from nfl_td_model.phase45 import build_stage_a
 from nfl_td_model.phase45_settle import settle_stage_b, verify_frozen, verify_settlement
 from nfl_td_model.storage import connect_catalog
@@ -173,3 +175,21 @@ def phase5_verify() -> None:
         typer.echo(f"PHASE 5 NOT VERIFIED: {exc}", err=True)
         raise typer.Exit(code=1) from exc
     typer.echo(f"PHASE 5 VERIFIED: {summary}")
+
+
+@app.command("phase6-build")
+def phase6_build() -> None:
+    """Evaluate preregistered position, LightGBM, and OOF-blend challengers."""
+    predictions, report = build_phase6()
+    typer.echo(f"Phase 6 predictions: {predictions}\nReport: {report}")
+
+
+@app.command("phase6-verify")
+def phase6_verify() -> None:
+    """Verify frozen inputs, true 2023 OOF scores, and champion promotion."""
+    try:
+        summary = verify_phase6()
+    except (ValueError, FileNotFoundError, KeyError) as exc:
+        typer.echo(f"PHASE 6 NOT VERIFIED: {exc}", err=True)
+        raise typer.Exit(code=1) from exc
+    typer.echo(f"PHASE 6 VERIFIED: {summary}")
