@@ -1,0 +1,124 @@
+{
+  "training_seasons": [
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023
+  ],
+  "validation_season": 2024,
+  "receptions": {
+    "training_rows": 53816,
+    "validation_rows": 8108,
+    "model": {
+      "mae": 1.1839445698592217,
+      "rmse": 1.7925187144083674,
+      "bias": 0.011698543047654197,
+      "count_deviance": 1.809945449188932
+    },
+    "ewma_baseline": {
+      "mae": 1.11675807815971,
+      "rmse": 1.7532354006518678,
+      "bias": 0.30481886564060107,
+      "count_deviance": 2.2406252108229703
+    },
+    "model_minus_baseline_mae": 0.06718649169951174,
+    "model_minus_baseline_rmse": 0.03928331375649963,
+    "calibration": [
+      {
+        "bucket": "<40%",
+        "player_games": 2915,
+        "average_model_probability": 0.3481225257154218,
+        "actual_hit_rate": 0.25111492281303605
+      },
+      {
+        "bucket": "40-45%",
+        "player_games": 1446,
+        "average_model_probability": 0.4262051650683627,
+        "actual_hit_rate": 0.3188105117565698
+      },
+      {
+        "bucket": "45-50%",
+        "player_games": 1370,
+        "average_model_probability": 0.47520220641849653,
+        "actual_hit_rate": 0.38394160583941606
+      },
+      {
+        "bucket": "50-55%",
+        "player_games": 1492,
+        "average_model_probability": 0.5229483317459681,
+        "actual_hit_rate": 0.339142091152815
+      },
+      {
+        "bucket": "55-60%",
+        "player_games": 634,
+        "average_model_probability": 0.5719767553632716,
+        "actual_hit_rate": 0.5220820189274448
+      },
+      {
+        "bucket": "60-65%",
+        "player_games": 251,
+        "average_model_probability": 0.6155845446437332,
+        "actual_hit_rate": 0.5617529880478087
+      }
+    ]
+  },
+  "rushing_attempts": {
+    "training_rows": 53816,
+    "validation_rows": 8108,
+    "model": {
+      "mae": 1.5518669091193729,
+      "rmse": 3.1022896834218603,
+      "bias": -0.08243339066728163,
+      "count_deviance": 2.6271642103654425
+    },
+    "ewma_baseline": {
+      "mae": 1.233370639075001,
+      "rmse": 2.77081483802605,
+      "bias": 0.40439350979149236,
+      "count_deviance": 2.3359565745403126
+    },
+    "model_minus_baseline_mae": 0.31849627004437187,
+    "model_minus_baseline_rmse": 0.3314748453958103,
+    "calibration": [
+      {
+        "bucket": "<40%",
+        "player_games": 670,
+        "average_model_probability": 0.3257348548098165,
+        "actual_hit_rate": 0.48208955223880595
+      },
+      {
+        "bucket": "40-45%",
+        "player_games": 3101,
+        "average_model_probability": 0.4394729976678657,
+        "actual_hit_rate": 0.09158336020638504
+      },
+      {
+        "bucket": "45-50%",
+        "player_games": 2949,
+        "average_model_probability": 0.4628799842123023,
+        "actual_hit_rate": 0.15971515768056968
+      },
+      {
+        "bucket": "50-55%",
+        "player_games": 765,
+        "average_model_probability": 0.5226311526229579,
+        "actual_hit_rate": 0.4745098039215686
+      },
+      {
+        "bucket": "55-60%",
+        "player_games": 465,
+        "average_model_probability": 0.5734078849496685,
+        "actual_hit_rate": 0.4645161290322581
+      },
+      {
+        "bucket": "60-65%",
+        "player_games": 158,
+        "average_model_probability": 0.6157606992206455,
+        "actual_hit_rate": 0.569620253164557
+      }
+    ]
+  }
+}
