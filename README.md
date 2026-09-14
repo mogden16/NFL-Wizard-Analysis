@@ -190,6 +190,13 @@ underlying per-book quote CSV under `reports/`. Consensus differences require
 three distinct books; stale and unusually dispersed quotes remain visible
 with flags. These are raw price differences, not bets or expected-value claims.
 
+The Cloudflare Pages dashboard under `cloudflare-app/` shows this scan separately
+from usage-prop model projections. After running both live scanners for a slate,
+run `python scripts/publish_cloudflare_reports.py` to copy their latest matching
+date into the read-only site data. The script also records the usage quote update
+and ATD scan capture times. Review the changed files before publishing; the
+dashboard displays saved snapshots, not live odds.
+
 ## Usage props MVP
 
 The `usage_props` extension reuses `phase2_*_player_features.parquet` for
