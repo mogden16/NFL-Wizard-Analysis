@@ -1,0 +1,43 @@
+{
+  "schema": "phase7-rule-v1",
+  "development_season": 2023,
+  "validation_season": 2024,
+  "model_version": "phase5_hierarchical_frozen",
+  "probability_source": "frozen_phase5_hierarchical",
+  "prediction_offset_minutes": -60,
+  "candidate_grid": {
+    "min_edge": [
+      0.0,
+      0.025,
+      0.05,
+      0.075,
+      0.1
+    ],
+    "min_ev": [
+      0.0,
+      0.05,
+      0.1,
+      0.15
+    ],
+    "min_books": [
+      1,
+      2,
+      3
+    ]
+  },
+  "shortlist": [],
+  "status": "NO_BET",
+  "quote_age_rule": null,
+  "dispersion_rule": null,
+  "eligible_positions": [
+    "RB",
+    "WR",
+    "TE",
+    "QB",
+    "FB"
+  ],
+  "odds_ranges": "all",
+  "flat_stake_units": 1.0,
+  "settlement_rule": "affirmative_play_only; other status policy_unknown",
+  "eligibility_limitation": "historical active status unavailable; all strategies diagnostic proxy"
+}

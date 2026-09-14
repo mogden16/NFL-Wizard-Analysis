@@ -1,0 +1,9 @@
+{
+  "rows": 12641,
+  "seasons": [
+    2023,
+    2024
+  ],
+  "sha256": "d37b9edfaf1ac00b2bcd1bc1f1991406ca9d0df61fc51114edbb804a3b9a9882",
+  "schema": "Schema({'season': Int32, 'game': String, 'team': String, 'opponent': String, 'player_id': String, 'player': String, 'position': String, 'prediction_time': Datetime(time_unit='us', time_zone='UTC'), 'expected_team_td': Float64, 'p_football': Float64, 'expected_player_td': Float64, 'event_id': String, 'kickoff': Datetime(time_unit='us', time_zone='UTC')})"
+}

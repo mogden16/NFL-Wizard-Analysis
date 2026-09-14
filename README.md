@@ -160,6 +160,20 @@ excluded from development.
 ```powershell
 ./.venv/Scripts/nfl-td.exe phase6-build
 ./.venv/Scripts/nfl-td.exe phase6-verify
+
+## Phase 7 historical ATD market-edge backtest
+
+Phase 7 freezes the Phase 5 hierarchical football model, captures 2023/2024
+historical ATD Yes quotes at kickoff minus 60 minutes, and keeps pregame
+predictions separate from result settlement. The complete predeclared
+protocol is in [docs/PHASE7_PROTOCOL.md](docs/PHASE7_PROTOCOL.md); the
+findings and limitations are in [docs/PHASE7_REPORT.md](docs/PHASE7_REPORT.md).
+The 2023-only frozen rule has no qualifying candidate, so the primary 2024
+benchmark is NO BET. The 2025 holdout remains sealed.
+
+```powershell
+./.venv/Scripts/nfl-td.exe phase7-verify
+```
 ```
 
 See `docs/PHASE6_PROTOCOL.md` for the predeclared promotion criteria,

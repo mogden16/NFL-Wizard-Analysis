@@ -1,0 +1,2491 @@
+{
+  "season": 2023,
+  "graded_rows": 5240,
+  "full_grid": [
+    {
+      "min_edge": 0.0,
+      "min_ev": 0.0,
+      "min_books": 1,
+      "bets": 1605,
+      "wins": 174,
+      "losses": 1431,
+      "average_odds": 1141.0367601246105,
+      "average_clv_best": 0.003005153419174219,
+      "average_clv_median": -0.001001439954856996,
+      "clv_coverage": 0.9919003115264797,
+      "best": {
+        "units": -341.77805383022775,
+        "roi": -0.21294582793160607,
+        "max_drawdown": 435.82805383022765,
+        "longest_losing_streak": 49,
+        "largest_winner_gross_share": 0.02570642291817701,
+        "top_two_winner_gross_share": 0.04957667277076995
+      },
+      "median": {
+        "units": -682.3775818721911,
+        "roi": -0.4251573718829851,
+        "max_drawdown": 696.1525818721911,
+        "longest_losing_streak": 49,
+        "largest_winner_gross_share": 0.025379950613175755,
+        "top_two_winner_gross_share": 0.04675254060321849
+      }
+    },
+    {
+      "min_edge": 0.0,
+      "min_ev": 0.0,
+      "min_books": 2,
+      "bets": 1603,
+      "wins": 174,
+      "losses": 1429,
+      "average_odds": 1138.4054897067997,
+      "average_clv_best": 0.0030057441820192134,
+      "average_clv_median": -0.0010058528518155246,
+      "clv_coverage": 0.991890205864005,
+      "best": {
+        "units": -339.77805383022775,
+        "roi": -0.2119638514224752,
+        "max_drawdown": 434.82805383022765,
+        "longest_losing_streak": 49,
+        "largest_winner_gross_share": 0.02570642291817701,
+        "top_two_winner_gross_share": 0.04957667277076995
+      },
+      "median": {
+        "units": -680.3775818721911,
+        "roi": -0.42444016336381224,
+        "max_drawdown": 694.1525818721911,
+        "longest_losing_streak": 49,
+        "largest_winner_gross_share": 0.025379950613175755,
+        "top_two_winner_gross_share": 0.04675254060321849
+      }
+    },
+    {
+      "min_edge": 0.0,
+      "min_ev": 0.0,
+      "min_books": 3,
+      "bets": 1600,
+      "wins": 174,
+      "losses": 1426,
+      "average_odds": 1138.07125,
+      "average_clv_best": 0.003009109501463336,
+      "average_clv_median": -0.0010100033186663019,
+      "clv_coverage": 0.991875,
+      "best": {
+        "units": -336.77805383022775,
+        "roi": -0.21048628364389235,
+        "max_drawdown": 431.8280538302277,
+        "longest_losing_streak": 48,
+        "largest_winner_gross_share": 0.02570642291817701,
+        "top_two_winner_gross_share": 0.04957667277076995
+      },
+      "median": {
+        "units": -677.3775818721911,
+        "roi": -0.4233609886701194,
+        "max_drawdown": 691.1525818721911,
+        "longest_losing_streak": 48,
+        "largest_winner_gross_share": 0.025379950613175755,
+        "top_two_winner_gross_share": 0.04675254060321849
+      }
+    },
+    {
+      "min_edge": 0.0,
+      "min_ev": 0.05,
+      "min_books": 1,
+      "bets": 1339,
+      "wins": 132,
+      "losses": 1207,
+      "average_odds": 1210.7908887229275,
+      "average_clv_best": 0.003224493653787519,
+      "average_clv_median": -0.0011092175906849432,
+      "clv_coverage": 0.9910380881254668,
+      "best": {
+        "units": -292.54761904761904,
+        "roi": -0.2184821650841068,
+        "max_drawdown": 413.6976190476189,
+        "longest_losing_streak": 51,
+        "largest_winner_gross_share": 0.03061941833519931,
+        "top_two_winner_gross_share": 0.05905173536074153
+      },
+      "median": {
+        "units": -591.3066352201258,
+        "roi": -0.4416031629724614,
+        "max_drawdown": 601.8316352201259,
+        "longest_losing_streak": 51,
+        "largest_winner_gross_share": 0.030859517231914584,
+        "top_two_winner_gross_share": 0.056846479111421606
+      }
+    },
+    {
+      "min_edge": 0.0,
+      "min_ev": 0.05,
+      "min_books": 2,
+      "bets": 1337,
+      "wins": 132,
+      "losses": 1205,
+      "average_odds": 1207.7404637247569,
+      "average_clv_best": 0.003225533648800929,
+      "average_clv_median": -0.0011146696692909098,
+      "clv_coverage": 0.9910246821241586,
+      "best": {
+        "units": -290.54761904761904,
+        "roi": -0.21731310325177192,
+        "max_drawdown": 412.6976190476189,
+        "longest_losing_streak": 51,
+        "largest_winner_gross_share": 0.03061941833519931,
+        "top_two_winner_gross_share": 0.05905173536074153
+      },
+      "median": {
+        "units": -589.3066352201258,
+        "roi": -0.4407678647869303,
+        "max_drawdown": 599.8316352201259,
+        "longest_losing_streak": 51,
+        "largest_winner_gross_share": 0.030859517231914584,
+        "top_two_winner_gross_share": 0.056846479111421606
+      }
+    },
+    {
+      "min_edge": 0.0,
+      "min_ev": 0.05,
+      "min_books": 3,
+      "bets": 1334,
+      "wins": 132,
+      "losses": 1202,
+      "average_odds": 1207.4955022488755,
+      "average_clv_best": 0.003230072325319966,
+      "average_clv_median": -0.0011198924559578287,
+      "clv_coverage": 0.9910044977511244,
+      "best": {
+        "units": -287.54761904761904,
+        "roi": -0.21555293781680587,
+        "max_drawdown": 409.69761904761896,
+        "longest_losing_streak": 51,
+        "largest_winner_gross_share": 0.03061941833519931,
+        "top_two_winner_gross_share": 0.05905173536074153
+      },
+      "median": {
+        "units": -586.3066352201258,
+        "roi": -0.4395102213044422,
+        "max_drawdown": 596.8316352201259,
+        "longest_losing_streak": 51,
+        "largest_winner_gross_share": 0.030859517231914584,
+        "top_two_winner_gross_share": 0.056846479111421606
+      }
+    },
+    {
+      "min_edge": 0.0,
+      "min_ev": 0.1,
+      "min_books": 1,
+      "bets": 1121,
+      "wins": 103,
+      "losses": 1018,
+      "average_odds": 1276.3122212310436,
+      "average_clv_best": 0.003608712958844877,
+      "average_clv_median": -0.001123157728767382,
+      "clv_coverage": 0.9910793933987511,
+      "best": {
+        "units": -237.1,
+        "roi": -0.21150758251561105,
+        "max_drawdown": 344.59999999999997,
+        "longest_losing_streak": 46,
+        "largest_winner_gross_share": 0.03585606351645537,
+        "top_two_winner_gross_share": 0.06915097963887822
+      },
+      "median": {
+        "units": -500.71,
+        "roi": -0.4466636931311329,
+        "max_drawdown": 511.915,
+        "longest_losing_streak": 46,
+        "largest_winner_gross_share": 0.03672988072454523,
+        "top_two_winner_gross_share": 0.06766030659784647
+      }
+    },
+    {
+      "min_edge": 0.0,
+      "min_ev": 0.1,
+      "min_books": 2,
+      "bets": 1119,
+      "wins": 103,
+      "losses": 1016,
+      "average_odds": 1272.7846291331546,
+      "average_clv_best": 0.003610648425033229,
+      "average_clv_median": -0.0011296968792341758,
+      "clv_coverage": 0.9910634495084897,
+      "best": {
+        "units": -235.1,
+        "roi": -0.2100983020554066,
+        "max_drawdown": 343.59999999999997,
+        "longest_losing_streak": 46,
+        "largest_winner_gross_share": 0.03585606351645537,
+        "top_two_winner_gross_share": 0.06915097963887822
+      },
+      "median": {
+        "units": -498.71,
+        "roi": -0.44567470956210903,
+        "max_drawdown": 509.915,
+        "longest_losing_streak": 46,
+        "largest_winner_gross_share": 0.03672988072454523,
+        "top_two_winner_gross_share": 0.06766030659784647
+      }
+    },
+    {
+      "min_edge": 0.0,
+      "min_ev": 0.1,
+      "min_books": 3,
+      "bets": 1116,
+      "wins": 103,
+      "losses": 1013,
+      "average_odds": 1272.6666666666667,
+      "average_clv_best": 0.0036171181128152046,
+      "average_clv_median": -0.0011359802833950177,
+      "clv_coverage": 0.9910394265232975,
+      "best": {
+        "units": -232.1,
+        "roi": -0.20797491039426522,
+        "max_drawdown": 340.59999999999997,
+        "longest_losing_streak": 46,
+        "largest_winner_gross_share": 0.03585606351645537,
+        "top_two_winner_gross_share": 0.06915097963887822
+      },
+      "median": {
+        "units": -495.71,
+        "roi": -0.4441845878136201,
+        "max_drawdown": 506.915,
+        "longest_losing_streak": 46,
+        "largest_winner_gross_share": 0.03672988072454523,
+        "top_two_winner_gross_share": 0.06766030659784647
+      }
+    },
+    {
+      "min_edge": 0.0,
+      "min_ev": 0.15,
+      "min_books": 1,
+      "bets": 932,
+      "wins": 73,
+      "losses": 859,
+      "average_odds": 1363.0718884120172,
+      "average_clv_best": 0.003731761116466224,
+      "average_clv_median": -0.0011021321735821055,
+      "clv_coverage": 0.9914163090128756,
+      "best": {
+        "units": -234.55,
+        "roi": -0.2516630901287554,
+        "max_drawdown": 341.40000000000003,
+        "longest_losing_streak": 56,
+        "largest_winner_gross_share": 0.04483945872367683,
+        "top_two_winner_gross_share": 0.08647609896709103
+      },
+      "median": {
+        "units": -458.465,
+        "roi": -0.4919152360515021,
+        "max_drawdown": 469.89000000000004,
+        "longest_losing_streak": 56,
+        "largest_winner_gross_share": 0.047436553609547225,
+        "top_two_winner_gross_share": 0.08738312507021857
+      }
+    },
+    {
+      "min_edge": 0.0,
+      "min_ev": 0.15,
+      "min_books": 2,
+      "bets": 930,
+      "wins": 73,
+      "losses": 857,
+      "average_odds": 1359.0139784946236,
+      "average_clv_best": 0.0037343560495661427,
+      "average_clv_median": -0.0011099550319283115,
+      "clv_coverage": 0.9913978494623656,
+      "best": {
+        "units": -232.55,
+        "roi": -0.2500537634408602,
+        "max_drawdown": 340.40000000000003,
+        "longest_losing_streak": 56,
+        "largest_winner_gross_share": 0.04483945872367683,
+        "top_two_winner_gross_share": 0.08647609896709103
+      },
+      "median": {
+        "units": -456.465,
+        "roi": -0.49082258064516127,
+        "max_drawdown": 467.89000000000004,
+        "longest_losing_streak": 56,
+        "largest_winner_gross_share": 0.047436553609547225,
+        "top_two_winner_gross_share": 0.08738312507021857
+      }
+    },
+    {
+      "min_edge": 0.0,
+      "min_ev": 0.15,
+      "min_books": 3,
+      "bets": 927,
+      "wins": 73,
+      "losses": 854,
+      "average_odds": 1359.151024811219,
+      "average_clv_best": 0.003742546036030194,
+      "average_clv_median": -0.0011174556290173968,
+      "clv_coverage": 0.9913700107874865,
+      "best": {
+        "units": -229.55,
+        "roi": -0.2476267529665588,
+        "max_drawdown": 337.40000000000003,
+        "longest_losing_streak": 56,
+        "largest_winner_gross_share": 0.04483945872367683,
+        "top_two_winner_gross_share": 0.08647609896709103
+      },
+      "median": {
+        "units": -453.465,
+        "roi": -0.48917475728155335,
+        "max_drawdown": 464.89000000000004,
+        "longest_losing_streak": 56,
+        "largest_winner_gross_share": 0.047436553609547225,
+        "top_two_winner_gross_share": 0.08738312507021857
+      }
+    },
+    {
+      "min_edge": 0.025,
+      "min_ev": 0.0,
+      "min_books": 1,
+      "bets": 671,
+      "wins": 77,
+      "losses": 594,
+      "average_odds": 1025.6616989567808,
+      "average_clv_best": 0.004133908580013472,
+      "average_clv_median": -0.0015188903652662788,
+      "clv_coverage": 0.9895678092399404,
+      "best": {
+        "units": -138.69761904761904,
+        "roi": -0.2067028599815485,
+        "max_drawdown": 211.8976190476191,
+        "longest_losing_streak": 36,
+        "largest_winner_gross_share": 0.05051587903381845,
+        "top_two_winner_gross_share": 0.09883541550094914
+      },
+      "median": {
+        "units": -286.8266352201258,
+        "roi": -0.4274614533831979,
+        "max_drawdown": 297.9516352201257,
+        "longest_losing_streak": 36,
+        "largest_winner_gross_share": 0.05208784951607338,
+        "top_two_winner_gross_share": 0.10417569903214675
+      }
+    },
+    {
+      "min_edge": 0.025,
+      "min_ev": 0.0,
+      "min_books": 2,
+      "bets": 670,
+      "wins": 77,
+      "losses": 593,
+      "average_odds": 1022.2671641791045,
+      "average_clv_best": 0.004132495178301867,
+      "average_clv_median": -0.0015287260134454932,
+      "clv_coverage": 0.9895522388059701,
+      "best": {
+        "units": -137.69761904761904,
+        "roi": -0.20551883439943142,
+        "max_drawdown": 211.8976190476191,
+        "longest_losing_streak": 36,
+        "largest_winner_gross_share": 0.05051587903381845,
+        "top_two_winner_gross_share": 0.09883541550094914
+      },
+      "median": {
+        "units": -285.8266352201258,
+        "roi": -0.42660691823899377,
+        "max_drawdown": 297.9516352201257,
+        "longest_losing_streak": 36,
+        "largest_winner_gross_share": 0.05208784951607338,
+        "top_two_winner_gross_share": 0.10417569903214675
+      }
+    },
+    {
+      "min_edge": 0.025,
+      "min_ev": 0.0,
+      "min_books": 3,
+      "bets": 668,
+      "wins": 77,
+      "losses": 591,
+      "average_odds": 1021.8098802395209,
+      "average_clv_best": 0.004144998945861025,
+      "average_clv_median": -0.0015333030374378447,
+      "clv_coverage": 0.9895209580838323,
+      "best": {
+        "units": -135.69761904761904,
+        "roi": -0.2031401482748788,
+        "max_drawdown": 209.8976190476191,
+        "longest_losing_streak": 36,
+        "largest_winner_gross_share": 0.05051587903381845,
+        "top_two_winner_gross_share": 0.09883541550094914
+      },
+      "median": {
+        "units": -283.8266352201258,
+        "roi": -0.42489017248521826,
+        "max_drawdown": 295.95163522012564,
+        "longest_losing_streak": 36,
+        "largest_winner_gross_share": 0.05208784951607338,
+        "top_two_winner_gross_share": 0.10417569903214675
+      }
+    },
+    {
+      "min_edge": 0.025,
+      "min_ev": 0.05,
+      "min_books": 1,
+      "bets": 671,
+      "wins": 77,
+      "losses": 594,
+      "average_odds": 1025.6616989567808,
+      "average_clv_best": 0.004133908580013472,
+      "average_clv_median": -0.0015188903652662788,
+      "clv_coverage": 0.9895678092399404,
+      "best": {
+        "units": -138.69761904761904,
+        "roi": -0.2067028599815485,
+        "max_drawdown": 211.8976190476191,
+        "longest_losing_streak": 36,
+        "largest_winner_gross_share": 0.05051587903381845,
+        "top_two_winner_gross_share": 0.09883541550094914
+      },
+      "median": {
+        "units": -286.8266352201258,
+        "roi": -0.4274614533831979,
+        "max_drawdown": 297.9516352201257,
+        "longest_losing_streak": 36,
+        "largest_winner_gross_share": 0.05208784951607338,
+        "top_two_winner_gross_share": 0.10417569903214675
+      }
+    },
+    {
+      "min_edge": 0.025,
+      "min_ev": 0.05,
+      "min_books": 2,
+      "bets": 670,
+      "wins": 77,
+      "losses": 593,
+      "average_odds": 1022.2671641791045,
+      "average_clv_best": 0.004132495178301867,
+      "average_clv_median": -0.0015287260134454932,
+      "clv_coverage": 0.9895522388059701,
+      "best": {
+        "units": -137.69761904761904,
+        "roi": -0.20551883439943142,
+        "max_drawdown": 211.8976190476191,
+        "longest_losing_streak": 36,
+        "largest_winner_gross_share": 0.05051587903381845,
+        "top_two_winner_gross_share": 0.09883541550094914
+      },
+      "median": {
+        "units": -285.8266352201258,
+        "roi": -0.42660691823899377,
+        "max_drawdown": 297.9516352201257,
+        "longest_losing_streak": 36,
+        "largest_winner_gross_share": 0.05208784951607338,
+        "top_two_winner_gross_share": 0.10417569903214675
+      }
+    },
+    {
+      "min_edge": 0.025,
+      "min_ev": 0.05,
+      "min_books": 3,
+      "bets": 668,
+      "wins": 77,
+      "losses": 591,
+      "average_odds": 1021.8098802395209,
+      "average_clv_best": 0.004144998945861025,
+      "average_clv_median": -0.0015333030374378447,
+      "clv_coverage": 0.9895209580838323,
+      "best": {
+        "units": -135.69761904761904,
+        "roi": -0.2031401482748788,
+        "max_drawdown": 209.8976190476191,
+        "longest_losing_streak": 36,
+        "largest_winner_gross_share": 0.05051587903381845,
+        "top_two_winner_gross_share": 0.09883541550094914
+      },
+      "median": {
+        "units": -283.8266352201258,
+        "roi": -0.42489017248521826,
+        "max_drawdown": 295.95163522012564,
+        "longest_losing_streak": 36,
+        "largest_winner_gross_share": 0.05208784951607338,
+        "top_two_winner_gross_share": 0.10417569903214675
+      }
+    },
+    {
+      "min_edge": 0.025,
+      "min_ev": 0.1,
+      "min_books": 1,
+      "bets": 652,
+      "wins": 69,
+      "losses": 583,
+      "average_odds": 1051.1365030674847,
+      "average_clv_best": 0.004207186213086838,
+      "average_clv_median": -0.0013763777830966488,
+      "clv_coverage": 0.9892638036809815,
+      "best": {
+        "units": -140.3,
+        "roi": -0.2151840490797546,
+        "max_drawdown": 212.50000000000003,
+        "longest_losing_streak": 43,
+        "largest_winner_gross_share": 0.051953919132595436,
+        "top_two_winner_gross_share": 0.1016489722159476
+      },
+      "median": {
+        "units": -286.035,
+        "roi": -0.43870398773006136,
+        "max_drawdown": 295.4099999999999,
+        "longest_losing_streak": 43,
+        "largest_winner_gross_share": 0.05387840317882579,
+        "top_two_winner_gross_share": 0.10775680635765159
+      }
+    },
+    {
+      "min_edge": 0.025,
+      "min_ev": 0.1,
+      "min_books": 2,
+      "bets": 651,
+      "wins": 69,
+      "losses": 582,
+      "average_odds": 1047.6820276497697,
+      "average_clv_best": 0.004205844896779818,
+      "average_clv_median": -0.0013862815798676225,
+      "clv_coverage": 0.989247311827957,
+      "best": {
+        "units": -139.3,
+        "roi": -0.21397849462365592,
+        "max_drawdown": 212.50000000000003,
+        "longest_losing_streak": 43,
+        "largest_winner_gross_share": 0.051953919132595436,
+        "top_two_winner_gross_share": 0.1016489722159476
+      },
+      "median": {
+        "units": -285.035,
+        "roi": -0.43784178187404,
+        "max_drawdown": 295.4099999999999,
+        "longest_losing_streak": 43,
+        "largest_winner_gross_share": 0.05387840317882579,
+        "top_two_winner_gross_share": 0.10775680635765159
+      }
+    },
+    {
+      "min_edge": 0.025,
+      "min_ev": 0.1,
+      "min_books": 3,
+      "bets": 649,
+      "wins": 69,
+      "losses": 580,
+      "average_odds": 1047.2896764252696,
+      "average_clv_best": 0.004218947217330534,
+      "average_clv_median": -0.0013905536340428695,
+      "clv_coverage": 0.9892141756548536,
+      "best": {
+        "units": -137.3,
+        "roi": -0.2115562403697997,
+        "max_drawdown": 210.50000000000003,
+        "longest_losing_streak": 43,
+        "largest_winner_gross_share": 0.051953919132595436,
+        "top_two_winner_gross_share": 0.1016489722159476
+      },
+      "median": {
+        "units": -283.035,
+        "roi": -0.43610939907550084,
+        "max_drawdown": 293.4099999999999,
+        "longest_losing_streak": 43,
+        "largest_winner_gross_share": 0.05387840317882579,
+        "top_two_winner_gross_share": 0.10775680635765159
+      }
+    },
+    {
+      "min_edge": 0.025,
+      "min_ev": 0.15,
+      "min_books": 1,
+      "bets": 609,
+      "wins": 56,
+      "losses": 553,
+      "average_odds": 1105.0623973727422,
+      "average_clv_best": 0.00425915926542372,
+      "average_clv_median": -0.0013260435688175855,
+      "clv_coverage": 0.9901477832512315,
+      "best": {
+        "units": -147.55,
+        "roi": -0.2422824302134647,
+        "max_drawdown": 222.8,
+        "longest_losing_streak": 42,
+        "largest_winner_gross_share": 0.0567270933530645,
+        "top_two_winner_gross_share": 0.11098779134295228
+      },
+      "median": {
+        "units": -285.715,
+        "roi": -0.46915435139573064,
+        "max_drawdown": 296.48999999999995,
+        "longest_losing_streak": 42,
+        "largest_winner_gross_share": 0.05986119684980451,
+        "top_two_winner_gross_share": 0.11972239369960902
+      }
+    },
+    {
+      "min_edge": 0.025,
+      "min_ev": 0.15,
+      "min_books": 2,
+      "bets": 608,
+      "wins": 56,
+      "losses": 552,
+      "average_odds": 1101.452302631579,
+      "average_clv_best": 0.004257810702883216,
+      "average_clv_median": -0.0013365650120472318,
+      "clv_coverage": 0.9901315789473685,
+      "best": {
+        "units": -146.55,
+        "roi": -0.24103618421052633,
+        "max_drawdown": 222.8,
+        "longest_losing_streak": 42,
+        "largest_winner_gross_share": 0.0567270933530645,
+        "top_two_winner_gross_share": 0.11098779134295228
+      },
+      "median": {
+        "units": -284.715,
+        "roi": -0.46828125,
+        "max_drawdown": 296.48999999999995,
+        "longest_losing_streak": 42,
+        "largest_winner_gross_share": 0.05986119684980451,
+        "top_two_winner_gross_share": 0.11972239369960902
+      }
+    },
+    {
+      "min_edge": 0.025,
+      "min_ev": 0.15,
+      "min_books": 3,
+      "bets": 606,
+      "wins": 56,
+      "losses": 550,
+      "average_odds": 1101.2095709570958,
+      "average_clv_best": 0.004272003405226159,
+      "average_clv_median": -0.0013409761176975527,
+      "clv_coverage": 0.9900990099009901,
+      "best": {
+        "units": -144.55,
+        "roi": -0.23853135313531354,
+        "max_drawdown": 220.8,
+        "longest_losing_streak": 42,
+        "largest_winner_gross_share": 0.0567270933530645,
+        "top_two_winner_gross_share": 0.11098779134295228
+      },
+      "median": {
+        "units": -282.715,
+        "roi": -0.46652640264026396,
+        "max_drawdown": 294.48999999999995,
+        "longest_losing_streak": 42,
+        "largest_winner_gross_share": 0.05986119684980451,
+        "top_two_winner_gross_share": 0.11972239369960902
+      }
+    },
+    {
+      "min_edge": 0.05,
+      "min_ev": 0.0,
+      "min_books": 1,
+      "bets": 280,
+      "wins": 34,
+      "losses": 246,
+      "average_odds": 1019.575,
+      "average_clv_best": 0.006041168854392706,
+      "average_clv_median": -0.0020973443101052576,
+      "clv_coverage": 0.9857142857142858,
+      "best": {
+        "units": -33.45,
+        "roi": -0.11946428571428573,
+        "max_drawdown": 87.6,
+        "longest_losing_streak": 38,
+        "largest_winner_gross_share": 0.09409550693954363,
+        "top_two_winner_gross_share": 0.18819101387908727
+      },
+      "median": {
+        "units": -103.005,
+        "roi": -0.367875,
+        "max_drawdown": 108.25999999999998,
+        "longest_losing_streak": 38,
+        "largest_winner_gross_share": 0.11189202419665023,
+        "top_two_winner_gross_share": 0.18357285219762928
+      }
+    },
+    {
+      "min_edge": 0.05,
+      "min_ev": 0.0,
+      "min_books": 2,
+      "bets": 280,
+      "wins": 34,
+      "losses": 246,
+      "average_odds": 1019.575,
+      "average_clv_best": 0.006041168854392706,
+      "average_clv_median": -0.0020973443101052576,
+      "clv_coverage": 0.9857142857142858,
+      "best": {
+        "units": -33.45,
+        "roi": -0.11946428571428573,
+        "max_drawdown": 87.6,
+        "longest_losing_streak": 38,
+        "largest_winner_gross_share": 0.09409550693954363,
+        "top_two_winner_gross_share": 0.18819101387908727
+      },
+      "median": {
+        "units": -103.005,
+        "roi": -0.367875,
+        "max_drawdown": 108.25999999999998,
+        "longest_losing_streak": 38,
+        "largest_winner_gross_share": 0.11189202419665023,
+        "top_two_winner_gross_share": 0.18357285219762928
+      }
+    },
+    {
+      "min_edge": 0.05,
+      "min_ev": 0.0,
+      "min_books": 3,
+      "bets": 279,
+      "wins": 34,
+      "losses": 245,
+      "average_odds": 1016.7777777777778,
+      "average_clv_best": 0.006063136741135952,
+      "average_clv_median": -0.0021048616732239145,
+      "clv_coverage": 0.985663082437276,
+      "best": {
+        "units": -32.45,
+        "roi": -0.11630824372759857,
+        "max_drawdown": 86.60000000000001,
+        "longest_losing_streak": 37,
+        "largest_winner_gross_share": 0.09409550693954363,
+        "top_two_winner_gross_share": 0.18819101387908727
+      },
+      "median": {
+        "units": -102.005,
+        "roi": -0.36560931899641574,
+        "max_drawdown": 107.25999999999998,
+        "longest_losing_streak": 37,
+        "largest_winner_gross_share": 0.11189202419665023,
+        "top_two_winner_gross_share": 0.18357285219762928
+      }
+    },
+    {
+      "min_edge": 0.05,
+      "min_ev": 0.05,
+      "min_books": 1,
+      "bets": 280,
+      "wins": 34,
+      "losses": 246,
+      "average_odds": 1019.575,
+      "average_clv_best": 0.006041168854392706,
+      "average_clv_median": -0.0020973443101052576,
+      "clv_coverage": 0.9857142857142858,
+      "best": {
+        "units": -33.45,
+        "roi": -0.11946428571428573,
+        "max_drawdown": 87.6,
+        "longest_losing_streak": 38,
+        "largest_winner_gross_share": 0.09409550693954363,
+        "top_two_winner_gross_share": 0.18819101387908727
+      },
+      "median": {
+        "units": -103.005,
+        "roi": -0.367875,
+        "max_drawdown": 108.25999999999998,
+        "longest_losing_streak": 38,
+        "largest_winner_gross_share": 0.11189202419665023,
+        "top_two_winner_gross_share": 0.18357285219762928
+      }
+    },
+    {
+      "min_edge": 0.05,
+      "min_ev": 0.05,
+      "min_books": 2,
+      "bets": 280,
+      "wins": 34,
+      "losses": 246,
+      "average_odds": 1019.575,
+      "average_clv_best": 0.006041168854392706,
+      "average_clv_median": -0.0020973443101052576,
+      "clv_coverage": 0.9857142857142858,
+      "best": {
+        "units": -33.45,
+        "roi": -0.11946428571428573,
+        "max_drawdown": 87.6,
+        "longest_losing_streak": 38,
+        "largest_winner_gross_share": 0.09409550693954363,
+        "top_two_winner_gross_share": 0.18819101387908727
+      },
+      "median": {
+        "units": -103.005,
+        "roi": -0.367875,
+        "max_drawdown": 108.25999999999998,
+        "longest_losing_streak": 38,
+        "largest_winner_gross_share": 0.11189202419665023,
+        "top_two_winner_gross_share": 0.18357285219762928
+      }
+    },
+    {
+      "min_edge": 0.05,
+      "min_ev": 0.05,
+      "min_books": 3,
+      "bets": 279,
+      "wins": 34,
+      "losses": 245,
+      "average_odds": 1016.7777777777778,
+      "average_clv_best": 0.006063136741135952,
+      "average_clv_median": -0.0021048616732239145,
+      "clv_coverage": 0.985663082437276,
+      "best": {
+        "units": -32.45,
+        "roi": -0.11630824372759857,
+        "max_drawdown": 86.60000000000001,
+        "longest_losing_streak": 37,
+        "largest_winner_gross_share": 0.09409550693954363,
+        "top_two_winner_gross_share": 0.18819101387908727
+      },
+      "median": {
+        "units": -102.005,
+        "roi": -0.36560931899641574,
+        "max_drawdown": 107.25999999999998,
+        "longest_losing_streak": 37,
+        "largest_winner_gross_share": 0.11189202419665023,
+        "top_two_winner_gross_share": 0.18357285219762928
+      }
+    },
+    {
+      "min_edge": 0.05,
+      "min_ev": 0.1,
+      "min_books": 1,
+      "bets": 280,
+      "wins": 34,
+      "losses": 246,
+      "average_odds": 1019.575,
+      "average_clv_best": 0.006041168854392706,
+      "average_clv_median": -0.0020973443101052576,
+      "clv_coverage": 0.9857142857142858,
+      "best": {
+        "units": -33.45,
+        "roi": -0.11946428571428573,
+        "max_drawdown": 87.6,
+        "longest_losing_streak": 38,
+        "largest_winner_gross_share": 0.09409550693954363,
+        "top_two_winner_gross_share": 0.18819101387908727
+      },
+      "median": {
+        "units": -103.005,
+        "roi": -0.367875,
+        "max_drawdown": 108.25999999999998,
+        "longest_losing_streak": 38,
+        "largest_winner_gross_share": 0.11189202419665023,
+        "top_two_winner_gross_share": 0.18357285219762928
+      }
+    },
+    {
+      "min_edge": 0.05,
+      "min_ev": 0.1,
+      "min_books": 2,
+      "bets": 280,
+      "wins": 34,
+      "losses": 246,
+      "average_odds": 1019.575,
+      "average_clv_best": 0.006041168854392706,
+      "average_clv_median": -0.0020973443101052576,
+      "clv_coverage": 0.9857142857142858,
+      "best": {
+        "units": -33.45,
+        "roi": -0.11946428571428573,
+        "max_drawdown": 87.6,
+        "longest_losing_streak": 38,
+        "largest_winner_gross_share": 0.09409550693954363,
+        "top_two_winner_gross_share": 0.18819101387908727
+      },
+      "median": {
+        "units": -103.005,
+        "roi": -0.367875,
+        "max_drawdown": 108.25999999999998,
+        "longest_losing_streak": 38,
+        "largest_winner_gross_share": 0.11189202419665023,
+        "top_two_winner_gross_share": 0.18357285219762928
+      }
+    },
+    {
+      "min_edge": 0.05,
+      "min_ev": 0.1,
+      "min_books": 3,
+      "bets": 279,
+      "wins": 34,
+      "losses": 245,
+      "average_odds": 1016.7777777777778,
+      "average_clv_best": 0.006063136741135952,
+      "average_clv_median": -0.0021048616732239145,
+      "clv_coverage": 0.985663082437276,
+      "best": {
+        "units": -32.45,
+        "roi": -0.11630824372759857,
+        "max_drawdown": 86.60000000000001,
+        "longest_losing_streak": 37,
+        "largest_winner_gross_share": 0.09409550693954363,
+        "top_two_winner_gross_share": 0.18819101387908727
+      },
+      "median": {
+        "units": -102.005,
+        "roi": -0.36560931899641574,
+        "max_drawdown": 107.25999999999998,
+        "longest_losing_streak": 37,
+        "largest_winner_gross_share": 0.11189202419665023,
+        "top_two_winner_gross_share": 0.18357285219762928
+      }
+    },
+    {
+      "min_edge": 0.05,
+      "min_ev": 0.15,
+      "min_books": 1,
+      "bets": 276,
+      "wins": 34,
+      "losses": 242,
+      "average_odds": 1032.1666666666667,
+      "average_clv_best": 0.006076279640969212,
+      "average_clv_median": -0.002210745854989162,
+      "clv_coverage": 0.9855072463768116,
+      "best": {
+        "units": -29.45,
+        "roi": -0.10670289855072464,
+        "max_drawdown": 87.60000000000001,
+        "longest_losing_streak": 38,
+        "largest_winner_gross_share": 0.09409550693954363,
+        "top_two_winner_gross_share": 0.18819101387908727
+      },
+      "median": {
+        "units": -99.005,
+        "roi": -0.358713768115942,
+        "max_drawdown": 106.25999999999998,
+        "longest_losing_streak": 38,
+        "largest_winner_gross_share": 0.11189202419665023,
+        "top_two_winner_gross_share": 0.18357285219762928
+      }
+    },
+    {
+      "min_edge": 0.05,
+      "min_ev": 0.15,
+      "min_books": 2,
+      "bets": 276,
+      "wins": 34,
+      "losses": 242,
+      "average_odds": 1032.1666666666667,
+      "average_clv_best": 0.006076279640969212,
+      "average_clv_median": -0.002210745854989162,
+      "clv_coverage": 0.9855072463768116,
+      "best": {
+        "units": -29.45,
+        "roi": -0.10670289855072464,
+        "max_drawdown": 87.60000000000001,
+        "longest_losing_streak": 38,
+        "largest_winner_gross_share": 0.09409550693954363,
+        "top_two_winner_gross_share": 0.18819101387908727
+      },
+      "median": {
+        "units": -99.005,
+        "roi": -0.358713768115942,
+        "max_drawdown": 106.25999999999998,
+        "longest_losing_streak": 38,
+        "largest_winner_gross_share": 0.11189202419665023,
+        "top_two_winner_gross_share": 0.18357285219762928
+      }
+    },
+    {
+      "min_edge": 0.05,
+      "min_ev": 0.15,
+      "min_books": 3,
+      "bets": 275,
+      "wins": 34,
+      "losses": 241,
+      "average_odds": 1029.3745454545453,
+      "average_clv_best": 0.006098701337061348,
+      "average_clv_median": -0.002218784930825486,
+      "clv_coverage": 0.9854545454545455,
+      "best": {
+        "units": -28.45,
+        "roi": -0.10345454545454545,
+        "max_drawdown": 86.60000000000001,
+        "longest_losing_streak": 37,
+        "largest_winner_gross_share": 0.09409550693954363,
+        "top_two_winner_gross_share": 0.18819101387908727
+      },
+      "median": {
+        "units": -98.005,
+        "roi": -0.3563818181818182,
+        "max_drawdown": 105.25999999999998,
+        "longest_losing_streak": 37,
+        "largest_winner_gross_share": 0.11189202419665023,
+        "top_two_winner_gross_share": 0.18357285219762928
+      }
+    },
+    {
+      "min_edge": 0.075,
+      "min_ev": 0.0,
+      "min_books": 1,
+      "bets": 120,
+      "wins": 19,
+      "losses": 101,
+      "average_odds": 938.5416666666666,
+      "average_clv_best": 0.006041134269532421,
+      "average_clv_median": -0.002566022314830954,
+      "clv_coverage": 0.9916666666666667,
+      "best": {
+        "units": 2.65,
+        "roi": 0.022083333333333333,
+        "max_drawdown": 27.350000000000005,
+        "longest_losing_streak": 23,
+        "largest_winner_gross_share": 0.15436565364206464,
+        "top_two_winner_gross_share": 0.27978774722624217
+      },
+      "median": {
+        "units": -26.869999999999997,
+        "roi": -0.22391666666666665,
+        "max_drawdown": 39.495,
+        "longest_losing_streak": 23,
+        "largest_winner_gross_share": 0.13827060569270203,
+        "top_two_winner_gross_share": 0.27316875758802106
+      }
+    },
+    {
+      "min_edge": 0.075,
+      "min_ev": 0.0,
+      "min_books": 2,
+      "bets": 120,
+      "wins": 19,
+      "losses": 101,
+      "average_odds": 938.5416666666666,
+      "average_clv_best": 0.006041134269532421,
+      "average_clv_median": -0.002566022314830954,
+      "clv_coverage": 0.9916666666666667,
+      "best": {
+        "units": 2.65,
+        "roi": 0.022083333333333333,
+        "max_drawdown": 27.350000000000005,
+        "longest_losing_streak": 23,
+        "largest_winner_gross_share": 0.15436565364206464,
+        "top_two_winner_gross_share": 0.27978774722624217
+      },
+      "median": {
+        "units": -26.869999999999997,
+        "roi": -0.22391666666666665,
+        "max_drawdown": 39.495,
+        "longest_losing_streak": 23,
+        "largest_winner_gross_share": 0.13827060569270203,
+        "top_two_winner_gross_share": 0.27316875758802106
+      }
+    },
+    {
+      "min_edge": 0.075,
+      "min_ev": 0.0,
+      "min_books": 3,
+      "bets": 119,
+      "wins": 19,
+      "losses": 100,
+      "average_odds": 931.3025210084033,
+      "average_clv_best": 0.006092330322664052,
+      "average_clv_median": -0.0025875855275606257,
+      "clv_coverage": 0.9915966386554622,
+      "best": {
+        "units": 3.65,
+        "roi": 0.030672268907563024,
+        "max_drawdown": 26.350000000000005,
+        "longest_losing_streak": 22,
+        "largest_winner_gross_share": 0.15436565364206464,
+        "top_two_winner_gross_share": 0.27978774722624217
+      },
+      "median": {
+        "units": -25.869999999999997,
+        "roi": -0.21739495798319325,
+        "max_drawdown": 38.495,
+        "longest_losing_streak": 22,
+        "largest_winner_gross_share": 0.13827060569270203,
+        "top_two_winner_gross_share": 0.27316875758802106
+      }
+    },
+    {
+      "min_edge": 0.075,
+      "min_ev": 0.05,
+      "min_books": 1,
+      "bets": 120,
+      "wins": 19,
+      "losses": 101,
+      "average_odds": 938.5416666666666,
+      "average_clv_best": 0.006041134269532421,
+      "average_clv_median": -0.002566022314830954,
+      "clv_coverage": 0.9916666666666667,
+      "best": {
+        "units": 2.65,
+        "roi": 0.022083333333333333,
+        "max_drawdown": 27.350000000000005,
+        "longest_losing_streak": 23,
+        "largest_winner_gross_share": 0.15436565364206464,
+        "top_two_winner_gross_share": 0.27978774722624217
+      },
+      "median": {
+        "units": -26.869999999999997,
+        "roi": -0.22391666666666665,
+        "max_drawdown": 39.495,
+        "longest_losing_streak": 23,
+        "largest_winner_gross_share": 0.13827060569270203,
+        "top_two_winner_gross_share": 0.27316875758802106
+      }
+    },
+    {
+      "min_edge": 0.075,
+      "min_ev": 0.05,
+      "min_books": 2,
+      "bets": 120,
+      "wins": 19,
+      "losses": 101,
+      "average_odds": 938.5416666666666,
+      "average_clv_best": 0.006041134269532421,
+      "average_clv_median": -0.002566022314830954,
+      "clv_coverage": 0.9916666666666667,
+      "best": {
+        "units": 2.65,
+        "roi": 0.022083333333333333,
+        "max_drawdown": 27.350000000000005,
+        "longest_losing_streak": 23,
+        "largest_winner_gross_share": 0.15436565364206464,
+        "top_two_winner_gross_share": 0.27978774722624217
+      },
+      "median": {
+        "units": -26.869999999999997,
+        "roi": -0.22391666666666665,
+        "max_drawdown": 39.495,
+        "longest_losing_streak": 23,
+        "largest_winner_gross_share": 0.13827060569270203,
+        "top_two_winner_gross_share": 0.27316875758802106
+      }
+    },
+    {
+      "min_edge": 0.075,
+      "min_ev": 0.05,
+      "min_books": 3,
+      "bets": 119,
+      "wins": 19,
+      "losses": 100,
+      "average_odds": 931.3025210084033,
+      "average_clv_best": 0.006092330322664052,
+      "average_clv_median": -0.0025875855275606257,
+      "clv_coverage": 0.9915966386554622,
+      "best": {
+        "units": 3.65,
+        "roi": 0.030672268907563024,
+        "max_drawdown": 26.350000000000005,
+        "longest_losing_streak": 22,
+        "largest_winner_gross_share": 0.15436565364206464,
+        "top_two_winner_gross_share": 0.27978774722624217
+      },
+      "median": {
+        "units": -25.869999999999997,
+        "roi": -0.21739495798319325,
+        "max_drawdown": 38.495,
+        "longest_losing_streak": 22,
+        "largest_winner_gross_share": 0.13827060569270203,
+        "top_two_winner_gross_share": 0.27316875758802106
+      }
+    },
+    {
+      "min_edge": 0.075,
+      "min_ev": 0.1,
+      "min_books": 1,
+      "bets": 120,
+      "wins": 19,
+      "losses": 101,
+      "average_odds": 938.5416666666666,
+      "average_clv_best": 0.006041134269532421,
+      "average_clv_median": -0.002566022314830954,
+      "clv_coverage": 0.9916666666666667,
+      "best": {
+        "units": 2.65,
+        "roi": 0.022083333333333333,
+        "max_drawdown": 27.350000000000005,
+        "longest_losing_streak": 23,
+        "largest_winner_gross_share": 0.15436565364206464,
+        "top_two_winner_gross_share": 0.27978774722624217
+      },
+      "median": {
+        "units": -26.869999999999997,
+        "roi": -0.22391666666666665,
+        "max_drawdown": 39.495,
+        "longest_losing_streak": 23,
+        "largest_winner_gross_share": 0.13827060569270203,
+        "top_two_winner_gross_share": 0.27316875758802106
+      }
+    },
+    {
+      "min_edge": 0.075,
+      "min_ev": 0.1,
+      "min_books": 2,
+      "bets": 120,
+      "wins": 19,
+      "losses": 101,
+      "average_odds": 938.5416666666666,
+      "average_clv_best": 0.006041134269532421,
+      "average_clv_median": -0.002566022314830954,
+      "clv_coverage": 0.9916666666666667,
+      "best": {
+        "units": 2.65,
+        "roi": 0.022083333333333333,
+        "max_drawdown": 27.350000000000005,
+        "longest_losing_streak": 23,
+        "largest_winner_gross_share": 0.15436565364206464,
+        "top_two_winner_gross_share": 0.27978774722624217
+      },
+      "median": {
+        "units": -26.869999999999997,
+        "roi": -0.22391666666666665,
+        "max_drawdown": 39.495,
+        "longest_losing_streak": 23,
+        "largest_winner_gross_share": 0.13827060569270203,
+        "top_two_winner_gross_share": 0.27316875758802106
+      }
+    },
+    {
+      "min_edge": 0.075,
+      "min_ev": 0.1,
+      "min_books": 3,
+      "bets": 119,
+      "wins": 19,
+      "losses": 100,
+      "average_odds": 931.3025210084033,
+      "average_clv_best": 0.006092330322664052,
+      "average_clv_median": -0.0025875855275606257,
+      "clv_coverage": 0.9915966386554622,
+      "best": {
+        "units": 3.65,
+        "roi": 0.030672268907563024,
+        "max_drawdown": 26.350000000000005,
+        "longest_losing_streak": 22,
+        "largest_winner_gross_share": 0.15436565364206464,
+        "top_two_winner_gross_share": 0.27978774722624217
+      },
+      "median": {
+        "units": -25.869999999999997,
+        "roi": -0.21739495798319325,
+        "max_drawdown": 38.495,
+        "longest_losing_streak": 22,
+        "largest_winner_gross_share": 0.13827060569270203,
+        "top_two_winner_gross_share": 0.27316875758802106
+      }
+    },
+    {
+      "min_edge": 0.075,
+      "min_ev": 0.15,
+      "min_books": 1,
+      "bets": 120,
+      "wins": 19,
+      "losses": 101,
+      "average_odds": 938.5416666666666,
+      "average_clv_best": 0.006041134269532421,
+      "average_clv_median": -0.002566022314830954,
+      "clv_coverage": 0.9916666666666667,
+      "best": {
+        "units": 2.65,
+        "roi": 0.022083333333333333,
+        "max_drawdown": 27.350000000000005,
+        "longest_losing_streak": 23,
+        "largest_winner_gross_share": 0.15436565364206464,
+        "top_two_winner_gross_share": 0.27978774722624217
+      },
+      "median": {
+        "units": -26.869999999999997,
+        "roi": -0.22391666666666665,
+        "max_drawdown": 39.495,
+        "longest_losing_streak": 23,
+        "largest_winner_gross_share": 0.13827060569270203,
+        "top_two_winner_gross_share": 0.27316875758802106
+      }
+    },
+    {
+      "min_edge": 0.075,
+      "min_ev": 0.15,
+      "min_books": 2,
+      "bets": 120,
+      "wins": 19,
+      "losses": 101,
+      "average_odds": 938.5416666666666,
+      "average_clv_best": 0.006041134269532421,
+      "average_clv_median": -0.002566022314830954,
+      "clv_coverage": 0.9916666666666667,
+      "best": {
+        "units": 2.65,
+        "roi": 0.022083333333333333,
+        "max_drawdown": 27.350000000000005,
+        "longest_losing_streak": 23,
+        "largest_winner_gross_share": 0.15436565364206464,
+        "top_two_winner_gross_share": 0.27978774722624217
+      },
+      "median": {
+        "units": -26.869999999999997,
+        "roi": -0.22391666666666665,
+        "max_drawdown": 39.495,
+        "longest_losing_streak": 23,
+        "largest_winner_gross_share": 0.13827060569270203,
+        "top_two_winner_gross_share": 0.27316875758802106
+      }
+    },
+    {
+      "min_edge": 0.075,
+      "min_ev": 0.15,
+      "min_books": 3,
+      "bets": 119,
+      "wins": 19,
+      "losses": 100,
+      "average_odds": 931.3025210084033,
+      "average_clv_best": 0.006092330322664052,
+      "average_clv_median": -0.0025875855275606257,
+      "clv_coverage": 0.9915966386554622,
+      "best": {
+        "units": 3.65,
+        "roi": 0.030672268907563024,
+        "max_drawdown": 26.350000000000005,
+        "longest_losing_streak": 22,
+        "largest_winner_gross_share": 0.15436565364206464,
+        "top_two_winner_gross_share": 0.27978774722624217
+      },
+      "median": {
+        "units": -25.869999999999997,
+        "roi": -0.21739495798319325,
+        "max_drawdown": 38.495,
+        "longest_losing_streak": 22,
+        "largest_winner_gross_share": 0.13827060569270203,
+        "top_two_winner_gross_share": 0.27316875758802106
+      }
+    },
+    {
+      "min_edge": 0.1,
+      "min_ev": 0.0,
+      "min_books": 1,
+      "bets": 41,
+      "wins": 9,
+      "losses": 32,
+      "average_odds": 1090.9756097560976,
+      "average_clv_best": 0.0041193489882447145,
+      "average_clv_median": -0.003223832600927459,
+      "clv_coverage": 0.975609756097561,
+      "best": {
+        "units": 9.0,
+        "roi": 0.21951219512195122,
+        "max_drawdown": 10.2,
+        "longest_losing_streak": 8,
+        "largest_winner_gross_share": 0.3902439024390244,
+        "top_two_winner_gross_share": 0.5487804878048781
+      },
+      "median": {
+        "units": -2.695,
+        "roi": -0.06573170731707317,
+        "max_drawdown": 14.02,
+        "longest_losing_streak": 8,
+        "largest_winner_gross_share": 0.3412386964681795,
+        "top_two_winner_gross_share": 0.5374509469373827
+      }
+    },
+    {
+      "min_edge": 0.1,
+      "min_ev": 0.0,
+      "min_books": 2,
+      "bets": 41,
+      "wins": 9,
+      "losses": 32,
+      "average_odds": 1090.9756097560976,
+      "average_clv_best": 0.0041193489882447145,
+      "average_clv_median": -0.003223832600927459,
+      "clv_coverage": 0.975609756097561,
+      "best": {
+        "units": 9.0,
+        "roi": 0.21951219512195122,
+        "max_drawdown": 10.2,
+        "longest_losing_streak": 8,
+        "largest_winner_gross_share": 0.3902439024390244,
+        "top_two_winner_gross_share": 0.5487804878048781
+      },
+      "median": {
+        "units": -2.695,
+        "roi": -0.06573170731707317,
+        "max_drawdown": 14.02,
+        "longest_losing_streak": 8,
+        "largest_winner_gross_share": 0.3412386964681795,
+        "top_two_winner_gross_share": 0.5374509469373827
+      }
+    },
+    {
+      "min_edge": 0.1,
+      "min_ev": 0.0,
+      "min_books": 3,
+      "bets": 40,
+      "wins": 9,
+      "losses": 31,
+      "average_odds": 1073.25,
+      "average_clv_best": 0.00422497332127663,
+      "average_clv_median": -0.0033044284159506458,
+      "clv_coverage": 0.975,
+      "best": {
+        "units": 10.0,
+        "roi": 0.25,
+        "max_drawdown": 9.2,
+        "longest_losing_streak": 8,
+        "largest_winner_gross_share": 0.3902439024390244,
+        "top_two_winner_gross_share": 0.5487804878048781
+      },
+      "median": {
+        "units": -1.6949999999999998,
+        "roi": -0.042374999999999996,
+        "max_drawdown": 13.02,
+        "longest_losing_streak": 8,
+        "largest_winner_gross_share": 0.3412386964681795,
+        "top_two_winner_gross_share": 0.5374509469373827
+      }
+    },
+    {
+      "min_edge": 0.1,
+      "min_ev": 0.05,
+      "min_books": 1,
+      "bets": 41,
+      "wins": 9,
+      "losses": 32,
+      "average_odds": 1090.9756097560976,
+      "average_clv_best": 0.0041193489882447145,
+      "average_clv_median": -0.003223832600927459,
+      "clv_coverage": 0.975609756097561,
+      "best": {
+        "units": 9.0,
+        "roi": 0.21951219512195122,
+        "max_drawdown": 10.2,
+        "longest_losing_streak": 8,
+        "largest_winner_gross_share": 0.3902439024390244,
+        "top_two_winner_gross_share": 0.5487804878048781
+      },
+      "median": {
+        "units": -2.695,
+        "roi": -0.06573170731707317,
+        "max_drawdown": 14.02,
+        "longest_losing_streak": 8,
+        "largest_winner_gross_share": 0.3412386964681795,
+        "top_two_winner_gross_share": 0.5374509469373827
+      }
+    },
+    {
+      "min_edge": 0.1,
+      "min_ev": 0.05,
+      "min_books": 2,
+      "bets": 41,
+      "wins": 9,
+      "losses": 32,
+      "average_odds": 1090.9756097560976,
+      "average_clv_best": 0.0041193489882447145,
+      "average_clv_median": -0.003223832600927459,
+      "clv_coverage": 0.975609756097561,
+      "best": {
+        "units": 9.0,
+        "roi": 0.21951219512195122,
+        "max_drawdown": 10.2,
+        "longest_losing_streak": 8,
+        "largest_winner_gross_share": 0.3902439024390244,
+        "top_two_winner_gross_share": 0.5487804878048781
+      },
+      "median": {
+        "units": -2.695,
+        "roi": -0.06573170731707317,
+        "max_drawdown": 14.02,
+        "longest_losing_streak": 8,
+        "largest_winner_gross_share": 0.3412386964681795,
+        "top_two_winner_gross_share": 0.5374509469373827
+      }
+    },
+    {
+      "min_edge": 0.1,
+      "min_ev": 0.05,
+      "min_books": 3,
+      "bets": 40,
+      "wins": 9,
+      "losses": 31,
+      "average_odds": 1073.25,
+      "average_clv_best": 0.00422497332127663,
+      "average_clv_median": -0.0033044284159506458,
+      "clv_coverage": 0.975,
+      "best": {
+        "units": 10.0,
+        "roi": 0.25,
+        "max_drawdown": 9.2,
+        "longest_losing_streak": 8,
+        "largest_winner_gross_share": 0.3902439024390244,
+        "top_two_winner_gross_share": 0.5487804878048781
+      },
+      "median": {
+        "units": -1.6949999999999998,
+        "roi": -0.042374999999999996,
+        "max_drawdown": 13.02,
+        "longest_losing_streak": 8,
+        "largest_winner_gross_share": 0.3412386964681795,
+        "top_two_winner_gross_share": 0.5374509469373827
+      }
+    },
+    {
+      "min_edge": 0.1,
+      "min_ev": 0.1,
+      "min_books": 1,
+      "bets": 41,
+      "wins": 9,
+      "losses": 32,
+      "average_odds": 1090.9756097560976,
+      "average_clv_best": 0.0041193489882447145,
+      "average_clv_median": -0.003223832600927459,
+      "clv_coverage": 0.975609756097561,
+      "best": {
+        "units": 9.0,
+        "roi": 0.21951219512195122,
+        "max_drawdown": 10.2,
+        "longest_losing_streak": 8,
+        "largest_winner_gross_share": 0.3902439024390244,
+        "top_two_winner_gross_share": 0.5487804878048781
+      },
+      "median": {
+        "units": -2.695,
+        "roi": -0.06573170731707317,
+        "max_drawdown": 14.02,
+        "longest_losing_streak": 8,
+        "largest_winner_gross_share": 0.3412386964681795,
+        "top_two_winner_gross_share": 0.5374509469373827
+      }
+    },
+    {
+      "min_edge": 0.1,
+      "min_ev": 0.1,
+      "min_books": 2,
+      "bets": 41,
+      "wins": 9,
+      "losses": 32,
+      "average_odds": 1090.9756097560976,
+      "average_clv_best": 0.0041193489882447145,
+      "average_clv_median": -0.003223832600927459,
+      "clv_coverage": 0.975609756097561,
+      "best": {
+        "units": 9.0,
+        "roi": 0.21951219512195122,
+        "max_drawdown": 10.2,
+        "longest_losing_streak": 8,
+        "largest_winner_gross_share": 0.3902439024390244,
+        "top_two_winner_gross_share": 0.5487804878048781
+      },
+      "median": {
+        "units": -2.695,
+        "roi": -0.06573170731707317,
+        "max_drawdown": 14.02,
+        "longest_losing_streak": 8,
+        "largest_winner_gross_share": 0.3412386964681795,
+        "top_two_winner_gross_share": 0.5374509469373827
+      }
+    },
+    {
+      "min_edge": 0.1,
+      "min_ev": 0.1,
+      "min_books": 3,
+      "bets": 40,
+      "wins": 9,
+      "losses": 31,
+      "average_odds": 1073.25,
+      "average_clv_best": 0.00422497332127663,
+      "average_clv_median": -0.0033044284159506458,
+      "clv_coverage": 0.975,
+      "best": {
+        "units": 10.0,
+        "roi": 0.25,
+        "max_drawdown": 9.2,
+        "longest_losing_streak": 8,
+        "largest_winner_gross_share": 0.3902439024390244,
+        "top_two_winner_gross_share": 0.5487804878048781
+      },
+      "median": {
+        "units": -1.6949999999999998,
+        "roi": -0.042374999999999996,
+        "max_drawdown": 13.02,
+        "longest_losing_streak": 8,
+        "largest_winner_gross_share": 0.3412386964681795,
+        "top_two_winner_gross_share": 0.5374509469373827
+      }
+    },
+    {
+      "min_edge": 0.1,
+      "min_ev": 0.15,
+      "min_books": 1,
+      "bets": 41,
+      "wins": 9,
+      "losses": 32,
+      "average_odds": 1090.9756097560976,
+      "average_clv_best": 0.0041193489882447145,
+      "average_clv_median": -0.003223832600927459,
+      "clv_coverage": 0.975609756097561,
+      "best": {
+        "units": 9.0,
+        "roi": 0.21951219512195122,
+        "max_drawdown": 10.2,
+        "longest_losing_streak": 8,
+        "largest_winner_gross_share": 0.3902439024390244,
+        "top_two_winner_gross_share": 0.5487804878048781
+      },
+      "median": {
+        "units": -2.695,
+        "roi": -0.06573170731707317,
+        "max_drawdown": 14.02,
+        "longest_losing_streak": 8,
+        "largest_winner_gross_share": 0.3412386964681795,
+        "top_two_winner_gross_share": 0.5374509469373827
+      }
+    },
+    {
+      "min_edge": 0.1,
+      "min_ev": 0.15,
+      "min_books": 2,
+      "bets": 41,
+      "wins": 9,
+      "losses": 32,
+      "average_odds": 1090.9756097560976,
+      "average_clv_best": 0.0041193489882447145,
+      "average_clv_median": -0.003223832600927459,
+      "clv_coverage": 0.975609756097561,
+      "best": {
+        "units": 9.0,
+        "roi": 0.21951219512195122,
+        "max_drawdown": 10.2,
+        "longest_losing_streak": 8,
+        "largest_winner_gross_share": 0.3902439024390244,
+        "top_two_winner_gross_share": 0.5487804878048781
+      },
+      "median": {
+        "units": -2.695,
+        "roi": -0.06573170731707317,
+        "max_drawdown": 14.02,
+        "longest_losing_streak": 8,
+        "largest_winner_gross_share": 0.3412386964681795,
+        "top_two_winner_gross_share": 0.5374509469373827
+      }
+    },
+    {
+      "min_edge": 0.1,
+      "min_ev": 0.15,
+      "min_books": 3,
+      "bets": 40,
+      "wins": 9,
+      "losses": 31,
+      "average_odds": 1073.25,
+      "average_clv_best": 0.00422497332127663,
+      "average_clv_median": -0.0033044284159506458,
+      "clv_coverage": 0.975,
+      "best": {
+        "units": 10.0,
+        "roi": 0.25,
+        "max_drawdown": 9.2,
+        "longest_losing_streak": 8,
+        "largest_winner_gross_share": 0.3902439024390244,
+        "top_two_winner_gross_share": 0.5487804878048781
+      },
+      "median": {
+        "units": -1.6949999999999998,
+        "roi": -0.042374999999999996,
+        "max_drawdown": 13.02,
+        "longest_losing_streak": 8,
+        "largest_winner_gross_share": 0.3412386964681795,
+        "top_two_winner_gross_share": 0.5374509469373827
+      }
+    }
+  ],
+  "shortlist_metrics": [],
+  "diagnostics": {
+    "edge_buckets": [
+      {
+        "bucket": "<=-10pp",
+        "observations": 524,
+        "football_probability": 0.2361204921935262,
+        "market_probability": 0.3805358348207657,
+        "actual_td_rate": 0.3893129770992366,
+        "calibration_residual": 0.008777142278470944,
+        "average_odds": 158.79770992366412,
+        "roi": -0.010561440416845523,
+        "average_clv": 0.0024672468059453462
+      },
+      {
+        "bucket": "-10:-5pp",
+        "observations": 948,
+        "football_probability": 0.20807964801741827,
+        "market_probability": 0.27915826040462177,
+        "actual_td_rate": 0.26582278481012656,
+        "calibration_residual": -0.013335475594495237,
+        "average_odds": 330.06962025316454,
+        "roi": -0.05751188804182461,
+        "average_clv": 0.0027336861228348676
+      },
+      {
+        "bucket": "-5:-2.5pp",
+        "observations": 882,
+        "football_probability": 0.1587775027301039,
+        "market_probability": 0.19546780104701805,
+        "actual_td_rate": 0.1870748299319728,
+        "calibration_residual": -0.008392971115045224,
+        "average_odds": 606.2970521541951,
+        "roi": -0.08939193683423799,
+        "average_clv": 0.002084261504195855
+      },
+      {
+        "bucket": "-2.5:0pp",
+        "observations": 1281,
+        "football_probability": 0.1206227636631348,
+        "market_probability": 0.13301472310785567,
+        "actual_td_rate": 0.11943793911007025,
+        "calibration_residual": -0.013576783997785415,
+        "average_odds": 1086.751756440281,
+        "roi": -0.09904576038065499,
+        "average_clv": 0.0018925811892959651
+      },
+      {
+        "bucket": "0:+2.5pp",
+        "observations": 934,
+        "football_probability": 0.13003263222995917,
+        "market_probability": 0.11906072700816119,
+        "actual_td_rate": 0.10385438972162742,
+        "calibration_residual": -0.015206337286533754,
+        "average_odds": 1223.923982869379,
+        "roi": -0.21743087235825342,
+        "average_clv": 0.0021975096402978575
+      },
+      {
+        "bucket": "+2.5:+5pp",
+        "observations": 391,
+        "football_probability": 0.16832703778304678,
+        "market_probability": 0.1328870192267184,
+        "actual_td_rate": 0.10997442455242967,
+        "calibration_residual": -0.022912594674288727,
+        "average_odds": 1030.0204603580562,
+        "roi": -0.2691754962854707,
+        "average_clv": 0.0027771976631870052
+      },
+      {
+        "bucket": "+5:+10pp",
+        "observations": 239,
+        "football_probability": 0.2040985320390158,
+        "market_probability": 0.1359523765188503,
+        "actual_td_rate": 0.10460251046025104,
+        "calibration_residual": -0.031349866058599254,
+        "average_odds": 1007.326359832636,
+        "roi": -0.1776150627615063,
+        "average_clv": 0.006366901035095756
+      },
+      {
+        "bucket": ">+10pp",
+        "observations": 41,
+        "football_probability": 0.2911409642146,
+        "market_probability": 0.16192398368668223,
+        "actual_td_rate": 0.21951219512195122,
+        "calibration_residual": 0.05758821143526898,
+        "average_odds": 1090.9756097560976,
+        "roi": 0.21951219512195122,
+        "average_clv": 0.0041193489882447145
+      }
+    ],
+    "quote_age": [
+      {
+        "bucket": "<=5m",
+        "bets": 1272,
+        "wins": 225,
+        "losses": 1047,
+        "average_odds": 808.7452830188679,
+        "average_clv_best": 0.0016986460582377948,
+        "average_clv_median": -0.0012153305408419306,
+        "clv_coverage": 0.9984276729559748,
+        "best": {
+          "units": -168.51456958153128,
+          "roi": -0.13248000753265038,
+          "max_drawdown": 230.91115765365333,
+          "longest_losing_streak": 31,
+          "largest_winner_gross_share": 0.03187303856213316,
+          "top_two_winner_gross_share": 0.06374607712426632
+        },
+        "median": {
+          "units": -388.35972450419314,
+          "roi": -0.3053142488240512,
+          "max_drawdown": 391.4490525674345,
+          "longest_losing_streak": 31,
+          "largest_winner_gross_share": 0.02884730968767026,
+          "top_two_winner_gross_share": 0.05313978100360311
+        }
+      },
+      {
+        "bucket": "5-15m",
+        "bets": 3939,
+        "wins": 717,
+        "losses": 3222,
+        "average_odds": 787.047220106626,
+        "average_clv_best": 0.002736673549376009,
+        "average_clv_median": -0.0005493844551190218,
+        "clv_coverage": 0.9921299822289922,
+        "best": {
+          "units": -437.79263717857117,
+          "roi": -0.1111430914390889,
+          "max_drawdown": 483.50559862237736,
+          "longest_losing_streak": 39,
+          "largest_winner_gross_share": 0.010775059501889592,
+          "top_two_winner_gross_share": 0.021550119003779185
+        },
+        "median": {
+          "units": -1106.5784441179735,
+          "roi": -0.28092877484589324,
+          "max_drawdown": 1121.6518890049347,
+          "longest_losing_streak": 39,
+          "largest_winner_gross_share": 0.01039981839025323,
+          "top_two_winner_gross_share": 0.02056327727163707
+        }
+      },
+      {
+        "bucket": "15-30m",
+        "bets": 29,
+        "wins": 6,
+        "losses": 23,
+        "average_odds": 877.9310344827586,
+        "average_clv_best": 0.0012425207704351664,
+        "average_clv_median": -9.62513558130907e-05,
+        "clv_coverage": 1.0,
+        "best": {
+          "units": -1.2476190476190474,
+          "roi": -0.04302134646962232,
+          "max_drawdown": 18.55,
+          "longest_losing_streak": 13,
+          "largest_winner_gross_share": 0.5516637478108581,
+          "top_two_winner_gross_share": 0.781523642732049
+        },
+        "median": {
+          "units": -5.725,
+          "roi": -0.19741379310344825,
+          "max_drawdown": 18.94423076923077,
+          "longest_losing_streak": 13,
+          "largest_winner_gross_share": 0.5499276410998554,
+          "top_two_winner_gross_share": 0.7670043415340088
+        }
+      },
+      {
+        "bucket": ">30m",
+        "bets": 0,
+        "wins": 0,
+        "losses": 0,
+        "average_odds": null,
+        "average_clv_best": null,
+        "average_clv_median": null,
+        "clv_coverage": null,
+        "best": {
+          "units": 0,
+          "roi": null,
+          "max_drawdown": 0.0,
+          "longest_losing_streak": 0,
+          "largest_winner_gross_share": null,
+          "top_two_winner_gross_share": null
+        },
+        "median": {
+          "units": 0,
+          "roi": null,
+          "max_drawdown": 0.0,
+          "longest_losing_streak": 0,
+          "largest_winner_gross_share": null,
+          "top_two_winner_gross_share": null
+        }
+      }
+    ],
+    "odds_range": [
+      {
+        "bucket": "negative",
+        "bets": 151,
+        "wins": 84,
+        "losses": 67,
+        "average_odds": -131.3841059602649,
+        "average_clv_best": 0.002773700982503509,
+        "average_clv_median": -0.0007660752400196086,
+        "clv_coverage": 0.9933774834437086,
+        "best": {
+          "units": -2.1348258077214806,
+          "roi": -0.014137919256433646,
+          "max_drawdown": 10.044155363251788,
+          "longest_losing_streak": 4,
+          "largest_winner_gross_share": 0.014967566163159071,
+          "top_two_winner_gross_share": 0.029650035827972255
+        },
+        "median": {
+          "units": -10.2692015156071,
+          "roi": -0.06800795705700066,
+          "max_drawdown": 17.187349070555197,
+          "longest_losing_streak": 4,
+          "largest_winner_gross_share": 0.01573849067368186,
+          "top_two_winner_gross_share": 0.03147698134736372
+        }
+      },
+      {
+        "bucket": "+100-199",
+        "bets": 696,
+        "wins": 291,
+        "losses": 405,
+        "average_odds": 149.35775862068965,
+        "average_clv_best": 0.0044080551122177005,
+        "average_clv_median": 0.00035977025425579196,
+        "clv_coverage": 0.9942528735632183,
+        "best": {
+          "units": 23.15,
+          "roi": 0.03326149425287356,
+          "max_drawdown": 18.83,
+          "longest_losing_streak": 8,
+          "largest_winner_gross_share": 0.004554478570594419,
+          "top_two_winner_gross_share": 0.009108957141188838
+        },
+        "median": {
+          "units": -39.33396710655956,
+          "roi": -0.05651432055540167,
+          "max_drawdown": 41.323295169800645,
+          "longest_losing_streak": 8,
+          "largest_winner_gross_share": 0.005059261275545144,
+          "top_two_winner_gross_share": 0.009981785759859337
+        }
+      },
+      {
+        "bucket": "+200-299",
+        "bets": 643,
+        "wins": 203,
+        "losses": 440,
+        "average_odds": 244.90668740279938,
+        "average_clv_best": 0.0032868942989332816,
+        "average_clv_median": -0.00023686900653270172,
+        "clv_coverage": 0.9937791601866252,
+        "best": {
+          "units": 50.95,
+          "roi": 0.07923794712286159,
+          "max_drawdown": 43.5,
+          "longest_losing_streak": 16,
+          "largest_winner_gross_share": 0.006008758529381811,
+          "top_two_winner_gross_share": 0.012017517058763623
+        },
+        "median": {
+          "units": -30.37,
+          "roi": -0.04723172628304821,
+          "max_drawdown": 61.31500000000001,
+          "longest_losing_streak": 16,
+          "largest_winner_gross_share": 0.007079559602568171,
+          "top_two_winner_gross_share": 0.013792935087762128
+        }
+      },
+      {
+        "bucket": "+300-499",
+        "bets": 921,
+        "wins": 159,
+        "losses": 762,
+        "average_odds": 385.87296416938113,
+        "average_clv_best": 0.002130099418119866,
+        "average_clv_median": -0.0011954337695421642,
+        "clv_coverage": 0.995656894679696,
+        "best": {
+          "units": -163.27,
+          "roi": -0.17727470141150925,
+          "max_drawdown": 174.61999999999998,
+          "longest_losing_streak": 23,
+          "largest_winner_gross_share": 0.00818398944432382,
+          "top_two_winner_gross_share": 0.016200958695906334
+        },
+        "median": {
+          "units": -284.805,
+          "roi": -0.3092345276872964,
+          "max_drawdown": 286.80499999999995,
+          "longest_losing_streak": 23,
+          "largest_winner_gross_share": 0.009430107188885047,
+          "top_two_winner_gross_share": 0.018336319533943147
+        }
+      },
+      {
+        "bucket": "+500+",
+        "bets": 2829,
+        "wins": 211,
+        "losses": 2618,
+        "average_odds": 1257.4708377518557,
+        "average_clv_best": 0.001911063694838592,
+        "average_clv_median": -0.000916980759545264,
+        "clv_coverage": 0.9929303640862496,
+        "best": {
+          "units": -516.25,
+          "roi": -0.18248497702368327,
+          "max_drawdown": 577.25,
+          "longest_losing_streak": 73,
+          "largest_winner_gross_share": 0.014273819436184132,
+          "top_two_winner_gross_share": 0.028547638872368265
+        },
+        "median": {
+          "units": -1135.885,
+          "roi": -0.401514669494521,
+          "max_drawdown": 1153.3850000000002,
+          "longest_losing_streak": 73,
+          "largest_winner_gross_share": 0.014843652483106911,
+          "top_two_winner_gross_share": 0.029349949227961393
+        }
+      }
+    ],
+    "position": [
+      {
+        "position": "RB",
+        "bets": 1278,
+        "wins": 309,
+        "losses": 969,
+        "average_odds": 609.9773082942097,
+        "average_clv_best": 0.003154557227928878,
+        "average_clv_median": -0.0005446240289721305,
+        "clv_coverage": 0.9906103286384976,
+        "best": {
+          "units": -231.1145939169417,
+          "roi": -0.180840840310596,
+          "max_drawdown": 240.52768915503685,
+          "longest_losing_streak": 18,
+          "largest_winner_gross_share": 0.03388059960788266,
+          "top_two_winner_gross_share": 0.06505075124713469
+        },
+        "median": {
+          "units": -398.4159661863382,
+          "roi": -0.311749582305429,
+          "max_drawdown": 398.76596618633823,
+          "longest_losing_streak": 18,
+          "largest_winner_gross_share": 0.028041443594310583,
+          "top_two_winner_gross_share": 0.056082887188621165
+        }
+      },
+      {
+        "position": "WR",
+        "bets": 2258,
+        "wins": 409,
+        "losses": 1849,
+        "average_odds": 756.2803365810452,
+        "average_clv_best": 0.0022118266386109376,
+        "average_clv_median": -0.0008632467829812297,
+        "clv_coverage": 0.9946855624446412,
+        "best": {
+          "units": -230.66747056844545,
+          "roi": -0.10215565569904582,
+          "max_drawdown": 283.72031379946884,
+          "longest_losing_streak": 31,
+          "largest_winner_gross_share": 0.018537599321776975,
+          "top_two_winner_gross_share": 0.035839358688768815
+        },
+        "median": {
+          "units": -626.565017357705,
+          "roi": -0.2774867215933149,
+          "max_drawdown": 647.0326238739964,
+          "longest_losing_streak": 31,
+          "largest_winner_gross_share": 0.017587847456334828,
+          "top_two_winner_gross_share": 0.03108549782980109
+        }
+      },
+      {
+        "position": "TE",
+        "bets": 1208,
+        "wins": 146,
+        "losses": 1062,
+        "average_odds": 1081.9834437086092,
+        "average_clv_best": 0.002195413593621277,
+        "average_clv_median": -0.0008690606972273191,
+        "clv_coverage": 0.9942052980132451,
+        "best": {
+          "units": -127.27787068004459,
+          "roi": -0.10536247572851373,
+          "max_drawdown": 186.9778706800446,
+          "longest_losing_streak": 37,
+          "largest_winner_gross_share": 0.032095099772406266,
+          "top_two_winner_gross_share": 0.06205052622665211
+        },
+        "median": {
+          "units": -361.81830131554267,
+          "roi": -0.29951846135392607,
+          "max_drawdown": 376.59330131554276,
+          "longest_losing_streak": 37,
+          "largest_winner_gross_share": 0.03142041564544589,
+          "top_two_winner_gross_share": 0.059984429868578514
+        }
+      },
+      {
+        "position": "QB",
+        "bets": 496,
+        "wins": 84,
+        "losses": 412,
+        "average_odds": 725.9979838709677,
+        "average_clv_best": 0.0026115587458477416,
+        "average_clv_median": -3.5586771642622535e-05,
+        "clv_coverage": 0.9959677419354839,
+        "best": {
+          "units": -18.494890642289743,
+          "roi": -0.03728808597235835,
+          "max_drawdown": 74.97967025661481,
+          "longest_losing_streak": 32,
+          "largest_winner_gross_share": 0.040660209027820846,
+          "top_two_winner_gross_share": 0.0787791549914029
+        },
+        "median": {
+          "units": -113.86388376258084,
+          "roi": -0.22956428177939686,
+          "max_drawdown": 126.22821182582192,
+          "longest_losing_streak": 32,
+          "largest_winner_gross_share": 0.04695841676843731,
+          "top_two_winner_gross_share": 0.07966159987502758
+        }
+      },
+      {
+        "position": "FB",
+        "bets": 0,
+        "wins": 0,
+        "losses": 0,
+        "average_odds": null,
+        "average_clv_best": null,
+        "average_clv_median": null,
+        "clv_coverage": null,
+        "best": {
+          "units": 0,
+          "roi": null,
+          "max_drawdown": 0.0,
+          "longest_losing_streak": 0,
+          "largest_winner_gross_share": null,
+          "top_two_winner_gross_share": null
+        },
+        "median": {
+          "units": 0,
+          "roi": null,
+          "max_drawdown": 0.0,
+          "longest_losing_streak": 0,
+          "largest_winner_gross_share": null,
+          "top_two_winner_gross_share": null
+        }
+      }
+    ],
+    "sportsbook": [
+      {
+        "sportsbook": "barstool",
+        "bets": 286,
+        "wins": 68,
+        "losses": 218,
+        "average_odds": 454.3181818181818,
+        "average_clv_best": 0.00235748482295263,
+        "average_clv_median": -0.0008630240349066799,
+        "clv_coverage": 0.972027972027972,
+        "best": {
+          "units": -24.298970944309925,
+          "roi": -0.08496143686821653,
+          "max_drawdown": 43.32261904761904,
+          "longest_losing_streak": 13,
+          "largest_winner_gross_share": 0.06195114222418476,
+          "top_two_winner_gross_share": 0.11357709407767205
+        },
+        "median": {
+          "units": -59.90020362419843,
+          "roi": -0.20944127141328123,
+          "max_drawdown": 62.65895249502048,
+          "longest_losing_streak": 13,
+          "largest_winner_gross_share": 0.06957630719430603,
+          "top_two_winner_gross_share": 0.11068957962730504
+        }
+      },
+      {
+        "sportsbook": "betmgm",
+        "bets": 382,
+        "wins": 71,
+        "losses": 311,
+        "average_odds": 883.3586387434555,
+        "average_clv_best": 0.0007262191986209513,
+        "average_clv_median": -0.0003789239445652098,
+        "clv_coverage": 0.9973821989528796,
+        "best": {
+          "units": 57.31683418031244,
+          "roi": 0.15004406853484933,
+          "max_drawdown": 44.97134387351779,
+          "longest_losing_streak": 19,
+          "largest_winner_gross_share": 0.08145161235099362,
+          "top_two_winner_gross_share": 0.1493279559768216
+        },
+        "median": {
+          "units": -31.913056688180347,
+          "roi": -0.0835420332151318,
+          "max_drawdown": 57.05379878741946,
+          "longest_losing_streak": 19,
+          "largest_winner_gross_share": 0.07703692528524479,
+          "top_two_winner_gross_share": 0.13436673014868278
+        }
+      },
+      {
+        "sportsbook": "betrivers",
+        "bets": 211,
+        "wins": 21,
+        "losses": 190,
+        "average_odds": 1244.4407582938388,
+        "average_clv_best": 0.002767558694096405,
+        "average_clv_median": 9.317362431510223e-06,
+        "clv_coverage": 1.0,
+        "best": {
+          "units": -6.070575539568345,
+          "roi": -0.028770500187527703,
+          "max_drawdown": 62.12,
+          "longest_losing_streak": 47,
+          "largest_winner_gross_share": 0.16310603965628043,
+          "top_two_winner_gross_share": 0.3153383433354755
+        },
+        "median": {
+          "units": -41.29209261686326,
+          "roi": -0.19569712140693488,
+          "max_drawdown": 62.56709261686325,
+          "longest_losing_streak": 47,
+          "largest_winner_gross_share": 0.14794102336009854,
+          "top_two_winner_gross_share": 0.28243286277836993
+        }
+      },
+      {
+        "sportsbook": "bovada",
+        "bets": 277,
+        "wins": 60,
+        "losses": 217,
+        "average_odds": 509.4945848375451,
+        "average_clv_best": 0.001381805251248513,
+        "average_clv_median": -0.0010538205631469867,
+        "clv_coverage": 0.9927797833935018,
+        "best": {
+          "units": -62.91010309181655,
+          "roi": -0.22711228553002366,
+          "max_drawdown": 67.60349931823163,
+          "longest_losing_streak": 12,
+          "largest_winner_gross_share": 0.11681492661861889,
+          "top_two_winner_gross_share": 0.18171210807340718
+        },
+        "median": {
+          "units": -92.57101755310961,
+          "roi": -0.33419139910869894,
+          "max_drawdown": 95.16362406940033,
+          "longest_losing_streak": 12,
+          "largest_winner_gross_share": 0.08036712832774524,
+          "top_two_winner_gross_share": 0.1486791874063287
+        }
+      },
+      {
+        "sportsbook": "draftkings",
+        "bets": 1116,
+        "wins": 177,
+        "losses": 939,
+        "average_odds": 855.7258064516129,
+        "average_clv_best": 0.0009709874940864146,
+        "average_clv_median": -0.0012841782639340775,
+        "clv_coverage": 1.0,
+        "best": {
+          "units": -223.7023576435568,
+          "roi": -0.20045014125766739,
+          "max_drawdown": 252.10391210825995,
+          "longest_losing_streak": 25,
+          "largest_winner_gross_share": 0.039144543952022694,
+          "top_two_winner_gross_share": 0.07828908790404539
+        },
+        "median": {
+          "units": -393.54223083584066,
+          "roi": -0.352636407558997,
+          "max_drawdown": 405.6672308358403,
+          "longest_losing_streak": 25,
+          "largest_winner_gross_share": 0.0348331274648722,
+          "top_two_winner_gross_share": 0.06508294868436648
+        }
+      },
+      {
+        "sportsbook": "fanduel",
+        "bets": 1941,
+        "wins": 332,
+        "losses": 1609,
+        "average_odds": 874.5929933024214,
+        "average_clv_best": 0.00151375114471115,
+        "average_clv_median": -0.0005211397546617338,
+        "clv_coverage": 0.9948480164863472,
+        "best": {
+          "units": -267.3947460690356,
+          "roi": -0.13776133233850366,
+          "max_drawdown": 305.75947257674943,
+          "longest_losing_streak": 32,
+          "largest_winner_gross_share": 0.019379769066809195,
+          "top_two_winner_gross_share": 0.03726878666694076
+        },
+        "median": {
+          "units": -605.1878620589387,
+          "roi": -0.31179178879904107,
+          "max_drawdown": 610.3928620589394,
+          "longest_losing_streak": 32,
+          "largest_winner_gross_share": 0.01593923742824819,
+          "top_two_winner_gross_share": 0.03038417134759811
+        }
+      },
+      {
+        "sportsbook": "pointsbetus",
+        "bets": 515,
+        "wins": 123,
+        "losses": 392,
+        "average_odds": 432.75728155339806,
+        "average_clv_best": 0.008392201379141474,
+        "average_clv_median": -0.00012290268902058818,
+        "clv_coverage": 1.0,
+        "best": {
+          "units": -5.350151804235286,
+          "roi": -0.010388644280068516,
+          "max_drawdown": 36.535353535353536,
+          "longest_losing_streak": 22,
+          "largest_winner_gross_share": 0.04914006843313206,
+          "top_two_winner_gross_share": 0.07241694295408935
+        },
+        "median": {
+          "units": -101.87484938977207,
+          "roi": -0.197815241533538,
+          "max_drawdown": 108.31417745301316,
+          "longest_losing_streak": 22,
+          "largest_winner_gross_share": 0.03274448967977577,
+          "top_two_winner_gross_share": 0.05342522000384468
+        }
+      },
+      {
+        "sportsbook": "unibet_us",
+        "bets": 6,
+        "wins": 1,
+        "losses": 5,
+        "average_odds": 1298.5,
+        "average_clv_best": 0.00631942775814844,
+        "average_clv_median": -0.0062639534529898774,
+        "clv_coverage": 1.0,
+        "best": {
+          "units": -4.08256880733945,
+          "roi": -0.6804281345565749,
+          "max_drawdown": 4.08256880733945,
+          "longest_losing_streak": 3,
+          "largest_winner_gross_share": 1.0,
+          "top_two_winner_gross_share": 1.0
+        },
+        "median": {
+          "units": -4.166666666666666,
+          "roi": -0.6944444444444443,
+          "max_drawdown": 4.166666666666666,
+          "longest_losing_streak": 3,
+          "largest_winner_gross_share": 1.0,
+          "top_two_winner_gross_share": 1.0
+        }
+      },
+      {
+        "sportsbook": "williamhill_us",
+        "bets": 506,
+        "wins": 95,
+        "losses": 411,
+        "average_odds": 790.596837944664,
+        "average_clv_best": 0.005315053487082083,
+        "average_clv_median": -0.0009597769579941826,
+        "clv_coverage": 0.9762845849802372,
+        "best": {
+          "units": -71.06218608817197,
+          "roi": -0.14043910294105133,
+          "max_drawdown": 111.244830313414,
+          "longest_losing_streak": 29,
+          "largest_winner_gross_share": 0.058834290218703164,
+          "top_two_winner_gross_share": 0.11178515141553602
+        },
+        "median": {
+          "units": -170.21518918859695,
+          "roi": -0.33639365452291886,
+          "max_drawdown": 172.43535047891942,
+          "longest_losing_streak": 29,
+          "largest_winner_gross_share": 0.03945431594288131,
+          "top_two_winner_gross_share": 0.07890863188576262
+        }
+      }
+    ],
+    "dispersion": [
+      {
+        "bucket": "<=5%",
+        "bets": 373,
+        "wins": 110,
+        "losses": 263,
+        "average_odds": 379.97855227882036,
+        "average_clv_best": 0.001091824824009872,
+        "average_clv_median": 0.0014791826404732234,
+        "clv_coverage": 0.9946380697050938,
+        "best": {
+          "units": -85.71069069669376,
+          "roi": -0.22978737452196718,
+          "max_drawdown": 104.68025591408512,
+          "longest_losing_streak": 11,
+          "largest_winner_gross_share": 0.06204547833835384,
+          "top_two_winner_gross_share": 0.12409095667670768
+        },
+        "median": {
+          "units": -94.24443349996938,
+          "roi": -0.2526660415548777,
+          "max_drawdown": 112.74699760253351,
+          "longest_losing_streak": 11,
+          "largest_winner_gross_share": 0.06518303501412502,
+          "top_two_winner_gross_share": 0.13036607002825004
+        }
+      },
+      {
+        "bucket": "5-15%",
+        "bets": 1668,
+        "wins": 453,
+        "losses": 1215,
+        "average_odds": 424.48920863309354,
+        "average_clv_best": 0.002209215923150769,
+        "average_clv_median": 0.00022518019007875193,
+        "clv_coverage": 0.9952038369304557,
+        "best": {
+          "units": -166.03608128079998,
+          "roi": -0.0995420151563549,
+          "max_drawdown": 182.6401917929294,
+          "longest_losing_streak": 18,
+          "largest_winner_gross_share": 0.016206467826612416,
+          "top_two_winner_gross_share": 0.03145961401636528
+        },
+        "median": {
+          "units": -301.85876513807807,
+          "roi": -0.1809704826966895,
+          "max_drawdown": 314.3906997176096,
+          "longest_losing_streak": 18,
+          "largest_winner_gross_share": 0.01752193350727327,
+          "top_two_winner_gross_share": 0.03285362532613738
+        }
+      },
+      {
+        "bucket": "15-30%",
+        "bets": 1515,
+        "wins": 239,
+        "losses": 1276,
+        "average_odds": 674.8204620462046,
+        "average_clv_best": 0.002114517055529591,
+        "average_clv_median": -0.0009587036598121296,
+        "clv_coverage": 0.9953795379537954,
+        "best": {
+          "units": -195.50805383022774,
+          "roi": -0.1290482203499853,
+          "max_drawdown": 216.67761904761912,
+          "longest_losing_streak": 43,
+          "largest_winner_gross_share": 0.025914121895361634,
+          "top_two_winner_gross_share": 0.04442420896347709
+        },
+        "median": {
+          "units": -428.2849699841192,
+          "roi": -0.2826963498245011,
+          "max_drawdown": 430.2849699841196,
+          "longest_losing_streak": 43,
+          "largest_winner_gross_share": 0.02595211742274743,
+          "top_two_winner_gross_share": 0.04482638463929102
+        }
+      },
+      {
+        "bucket": ">30%",
+        "bets": 1684,
+        "wins": 146,
+        "losses": 1538,
+        "average_odds": 1355.2434679334917,
+        "average_clv_best": 0.0033736071135428668,
+        "average_clv_median": -0.0018928840518502587,
+        "clv_coverage": 0.9904988123515439,
+        "best": {
+          "units": -160.3,
+          "roi": -0.09519002375296913,
+          "max_drawdown": 248.54999999999995,
+          "longest_losing_streak": 44,
+          "largest_winner_gross_share": 0.02177542280612615,
+          "top_two_winner_gross_share": 0.0435508456122523
+        },
+        "median": {
+          "units": -676.275,
+          "roi": -0.40158847980997625,
+          "max_drawdown": 684.275,
+          "longest_losing_streak": 44,
+          "largest_winner_gross_share": 0.02494995503205779,
+          "top_two_winner_gross_share": 0.04815921552699527
+        }
+      }
+    ]
+  }
+}

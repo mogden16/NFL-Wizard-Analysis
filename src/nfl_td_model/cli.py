@@ -19,6 +19,7 @@ from nfl_td_model.phase5 import build_phase5
 from nfl_td_model.phase5_verify import verify_phase5
 from nfl_td_model.phase6 import build_phase6
 from nfl_td_model.phase6_verify import verify_phase6
+from nfl_td_model.phase7_verify import verify_phase7
 from nfl_td_model.phase45 import build_stage_a
 from nfl_td_model.phase45_settle import settle_stage_b, verify_frozen, verify_settlement
 from nfl_td_model.storage import connect_catalog
@@ -193,3 +194,14 @@ def phase6_verify() -> None:
         typer.echo(f"PHASE 6 NOT VERIFIED: {exc}", err=True)
         raise typer.Exit(code=1) from exc
     typer.echo(f"PHASE 6 VERIFIED: {summary}")
+
+
+@app.command("phase7-verify")
+def phase7_verify() -> None:
+    """Verify frozen T-60 quotes, chronological settlements, and 2023 rule."""
+    try:
+        summary = verify_phase7()
+    except (ValueError, FileNotFoundError, KeyError) as exc:
+        typer.echo(f"PHASE 7 NOT VERIFIED: {exc}", err=True)
+        raise typer.Exit(code=1) from exc
+    typer.echo(f"PHASE 7 VERIFIED: {summary}")

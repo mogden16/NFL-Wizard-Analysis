@@ -1,0 +1,117 @@
+{
+  "training_season": 2023,
+  "validation_season": 2024,
+  "training_rows": 5240,
+  "validation_rows": 5142,
+  "market_calibration": {
+    "intercept": 0.07538356676930678,
+    "market_logit_coefficient": 1.136936270397845
+  },
+  "residual_regression": {
+    "intercept": 0.07975808435193153,
+    "market_logit_coefficient": 1.139395072772435,
+    "edge_coefficient_per_10pp": 0.004106726597012129,
+    "edge_standard_error": 0.07244410927829956,
+    "edge_z_score": 0.056688206093277044,
+    "edge_p_value": 0.9547935690823568,
+    "training_market_only_log_loss": 0.4062650149178427,
+    "training_market_plus_edge_log_loss": 0.40626479433332136
+  },
+  "validation": {
+    "raw_market": {
+      "log_loss": 0.425208793836082,
+      "brier": 0.13529461141904384,
+      "mean_prediction": 0.20284125781482693,
+      "actual_td_rate": 0.19330999611046285
+    },
+    "2023_calibrated_market": {
+      "log_loss": 0.42540370757765467,
+      "brier": 0.1354828201639912,
+      "mean_prediction": 0.1924022736423366,
+      "actual_td_rate": 0.19330999611046285
+    },
+    "2023_market_plus_edge": {
+      "log_loss": 0.4253826443621608,
+      "brier": 0.1354775988665849,
+      "mean_prediction": 0.192336928255576,
+      "actual_td_rate": 0.19330999611046285
+    },
+    "football": {
+      "log_loss": 0.4343800929277115,
+      "brier": 0.13849627521664007,
+      "mean_prediction": 0.1723438923675668,
+      "actual_td_rate": 0.19330999611046285
+    }
+  },
+  "by_position": [
+    {
+      "position": "RB",
+      "observations": 1286,
+      "football": {
+        "log_loss": 0.4998361819316333,
+        "brier": 0.16470514010810666,
+        "mean_prediction": 0.23787188105624033,
+        "actual_td_rate": 0.25972006220839816
+      },
+      "raw_market": {
+        "log_loss": 0.48898943987015664,
+        "brier": 0.161116485621918,
+        "mean_prediction": 0.28151335511415815,
+        "actual_td_rate": 0.25972006220839816
+      },
+      "average_football_minus_market": -0.04364147405791783
+    },
+    {
+      "position": "WR",
+      "observations": 2150,
+      "football": {
+        "log_loss": 0.44632397041005417,
+        "brier": 0.1444949794290452,
+        "mean_prediction": 0.16584664447481748,
+        "actual_td_rate": 0.19767441860465115
+      },
+      "raw_market": {
+        "log_loss": 0.43837948525372067,
+        "brier": 0.14115482526556436,
+        "mean_prediction": 0.19940593173585813,
+        "actual_td_rate": 0.19767441860465115
+      },
+      "average_football_minus_market": -0.033559287261040675
+    },
+    {
+      "position": "TE",
+      "observations": 1208,
+      "football": {
+        "log_loss": 0.3476765622958861,
+        "brier": 0.10398927358411418,
+        "mean_prediction": 0.12272017385263072,
+        "actual_td_rate": 0.12831125827814568
+      },
+      "raw_market": {
+        "log_loss": 0.3456143938346536,
+        "brier": 0.10320846968016309,
+        "mean_prediction": 0.13445523090495545,
+        "actual_td_rate": 0.12831125827814568
+      },
+      "average_football_minus_market": -0.011735057052324742
+    },
+    {
+      "position": "QB",
+      "observations": 498,
+      "football": {
+        "log_loss": 0.4241029803918981,
+        "brier": 0.12862206570859597,
+        "mean_prediction": 0.15155180698969464,
+        "actual_td_rate": 0.1606425702811245
+      },
+      "raw_market": {
+        "log_loss": 0.3967171027798224,
+        "brier": 0.12114535283601685,
+        "mean_prediction": 0.1803993992806252,
+        "actual_td_rate": 0.1606425702811245
+      },
+      "average_football_minus_market": -0.02884759229093055
+    }
+  ],
+  "market_caveat": "one-sided Yes implied prices; no two-sided de-vigging"
+}

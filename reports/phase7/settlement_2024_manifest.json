@@ -1,0 +1,15 @@
+{
+  "season": 2024,
+  "stage_a_sha256": "b6eba31fb02936643b2e1650d0983f7240cdbafa29d54e7bebcf2ea08fe5f8f8",
+  "settlement_sha256": "bf445fe0b33b945a680ad89506952334516715c68a02ff4731572cdd3471f300",
+  "rows": 9793,
+  "graded_played": 5142,
+  "policy_unknown": 374,
+  "unmodeled": 4277,
+  "positive_snap_mapping": {
+    "offensive_pfr_rows": 23907,
+    "gsis_matched_rows": 23869,
+    "ambiguous_pfr_ids": 0
+  },
+  "frozen_rule_sha256": "fc0fe94c9d88167b939b01d2f98186db07b41f8419dfed3c9bdc1080ba5d6d0b"
+}

@@ -1,0 +1,2562 @@
+[
+  {
+    "season": 2024,
+    "game": "2024_02_BUF_MIA",
+    "event_id": "ddd9b67cf1d68282e1e8652000c0d015",
+    "kickoff": "2024-09-13T00:15:00+00:00",
+    "snapshot_time": "2024-09-13T00:10:41Z",
+    "payload_sha256": "00e9b1a57b6496ca80263bc0a8dcb6d5b817a4d7a3193cd73bddfa49f947d814",
+    "quote_count": 188,
+    "book_count": 6
+  },
+  {
+    "season": 2024,
+    "game": "2024_02_CLE_JAX",
+    "event_id": "111ac41e21c6f16a2d3d1511f07e2004",
+    "kickoff": "2024-09-15T17:00:00+00:00",
+    "snapshot_time": "2024-09-15T16:55:37Z",
+    "payload_sha256": "48f0900c8106a605aab494bfb0c39d361b4084faa5c04d529cfa59b2a4a89b36",
+    "quote_count": 171,
+    "book_count": 6
+  },
+  {
+    "season": 2024,
+    "game": "2024_02_IND_GB",
+    "event_id": "c4e5642a8746f3e8fbb09d59a611ffe4",
+    "kickoff": "2024-09-15T17:00:00+00:00",
+    "snapshot_time": "2024-09-15T16:55:37Z",
+    "payload_sha256": "563636c63bac7c0ab3e4c278ebdbfe8057608a01ec8f5a76d03712463a38b87d",
+    "quote_count": 177,
+    "book_count": 6
+  },
+  {
+    "season": 2024,
+    "game": "2024_02_LAC_CAR",
+    "event_id": "b4769cda12183128858f49f475aabfce",
+    "kickoff": "2024-09-15T17:00:00+00:00",
+    "snapshot_time": "2024-09-15T16:55:37Z",
+    "payload_sha256": "5db6903a51849f8ecb45a27367c581bd3b0144516565b45dc5e05926f0d4a88d",
+    "quote_count": 189,
+    "book_count": 6
+  },
+  {
+    "season": 2024,
+    "game": "2024_02_LV_BAL",
+    "event_id": "5a2bfc721fb2300d4578743aee7ad891",
+    "kickoff": "2024-09-15T17:00:00+00:00",
+    "snapshot_time": "2024-09-15T16:55:37Z",
+    "payload_sha256": "18f61de8910c1421cf0266081a4582670772ed9cb614c83195b4bcc06f40ed1c",
+    "quote_count": 173,
+    "book_count": 6
+  },
+  {
+    "season": 2024,
+    "game": "2024_02_NO_DAL",
+    "event_id": "5b05775b536cda3f2efab93935af4f54",
+    "kickoff": "2024-09-15T17:00:00+00:00",
+    "snapshot_time": "2024-09-15T16:55:37Z",
+    "payload_sha256": "5a276ab63cc6fc3cb20493fecc22c4b702be1c733d70c69471742cd60a1d10b2",
+    "quote_count": 185,
+    "book_count": 6
+  },
+  {
+    "season": 2024,
+    "game": "2024_02_NYG_WAS",
+    "event_id": "495d9f2c316b05ef092099ef9401a180",
+    "kickoff": "2024-09-15T17:00:00+00:00",
+    "snapshot_time": "2024-09-15T16:55:37Z",
+    "payload_sha256": "3e6d76569c2efa69ad2e83ae48031ea1c6b79dcfb05d511c7695cd01dd5ea371",
+    "quote_count": 188,
+    "book_count": 6
+  },
+  {
+    "season": 2024,
+    "game": "2024_02_NYJ_TEN",
+    "event_id": "17d4d840f9f4094d76c6e9b53b18ac05",
+    "kickoff": "2024-09-15T17:00:00+00:00",
+    "snapshot_time": "2024-09-15T16:55:37Z",
+    "payload_sha256": "236d6402fad3a21e23354bca589e72785296339fd235d2ddb5c823b88ca57a96",
+    "quote_count": 183,
+    "book_count": 6
+  },
+  {
+    "season": 2024,
+    "game": "2024_02_SEA_NE",
+    "event_id": "42d27889b51ada96c20671b30129ce4e",
+    "kickoff": "2024-09-15T17:00:00+00:00",
+    "snapshot_time": "2024-09-15T16:55:37Z",
+    "payload_sha256": "e9f6d07ec8c89045f60b85c1faf7cadef9f4dd515ac38a405a652a90a35c8d93",
+    "quote_count": 182,
+    "book_count": 6
+  },
+  {
+    "season": 2024,
+    "game": "2024_02_SF_MIN",
+    "event_id": "9d5dace601f10c135f5c03facf23fd22",
+    "kickoff": "2024-09-15T17:00:00+00:00",
+    "snapshot_time": "2024-09-15T16:55:37Z",
+    "payload_sha256": "434fa7f3894fbfcd6bc6b8fdf0c27658c1a314d5fe96100d5dd4562f9f756817",
+    "quote_count": 190,
+    "book_count": 6
+  },
+  {
+    "season": 2024,
+    "game": "2024_02_TB_DET",
+    "event_id": "787ae4144b2b45d7ef8a9c7b1ab6abd8",
+    "kickoff": "2024-09-15T17:00:00+00:00",
+    "snapshot_time": "2024-09-15T16:55:37Z",
+    "payload_sha256": "d37ee2d329c4688231e57ca08b5c3383ee7ed79afdc166fed2a26546ae30d858",
+    "quote_count": 177,
+    "book_count": 6
+  },
+  {
+    "season": 2024,
+    "game": "2024_02_LA_ARI",
+    "event_id": "db997fc1b5fe71f4960012f81c21a017",
+    "kickoff": "2024-09-15T20:05:00+00:00",
+    "snapshot_time": "2024-09-15T20:00:38Z",
+    "payload_sha256": "ea523bcdfec4296feb0a69bc522f113ec84ade4e30e7ab8d17f214eb4793f2f5",
+    "quote_count": 185,
+    "book_count": 6
+  },
+  {
+    "season": 2024,
+    "game": "2024_02_CIN_KC",
+    "event_id": "faaeaab20409da65e7314cc1857ccfba",
+    "kickoff": "2024-09-15T20:25:00+00:00",
+    "snapshot_time": "2024-09-15T20:20:37Z",
+    "payload_sha256": "f0b56d1c02f4cbf91193d61c41184dd378cb61a4676af81aea48f91b2e9bcfb4",
+    "quote_count": 185,
+    "book_count": 6
+  },
+  {
+    "season": 2024,
+    "game": "2024_02_PIT_DEN",
+    "event_id": "3a300e2fb659ca896b5e60252f13150c",
+    "kickoff": "2024-09-15T20:25:00+00:00",
+    "snapshot_time": "2024-09-15T20:20:37Z",
+    "payload_sha256": "3ae86e7687fed68a48fd521ede250071253f22e7b1f0d59b142ef8c1609b3cb1",
+    "quote_count": 183,
+    "book_count": 6
+  },
+  {
+    "season": 2024,
+    "game": "2024_02_CHI_HOU",
+    "event_id": "7533f0f2d5cfe270fa0ccdc32a98c7fd",
+    "kickoff": "2024-09-16T00:20:00+00:00",
+    "snapshot_time": "2024-09-16T00:15:38Z",
+    "payload_sha256": "2748a1c8f1107b0747269f1f5defc3f2ccbaa8fcf727c93f34b230aed3bce411",
+    "quote_count": 189,
+    "book_count": 6
+  },
+  {
+    "season": 2024,
+    "game": "2024_02_ATL_PHI",
+    "event_id": "2cefb0f9bcf18ed3f64396174ece14ad",
+    "kickoff": "2024-09-17T00:15:00+00:00",
+    "snapshot_time": "2024-09-17T00:10:39Z",
+    "payload_sha256": "85d168a5afaf971b954abb4f8a08cf26eb2d21a47d8b1a9277c72bedb7b2894e",
+    "quote_count": 170,
+    "book_count": 6
+  },
+  {
+    "season": 2024,
+    "game": "2024_03_NE_NYJ",
+    "event_id": "ff0f310a02a527f105b5b37dbd61c502",
+    "kickoff": "2024-09-20T00:15:00+00:00",
+    "snapshot_time": "2024-09-20T00:10:39Z",
+    "payload_sha256": "1d866abd142ac3d0636a3ffa640fe8b3dfa5770e7240ec1c850f6e51ac311905",
+    "quote_count": 183,
+    "book_count": 6
+  },
+  {
+    "season": 2024,
+    "game": "2024_03_CHI_IND",
+    "event_id": "e46e4c9f5d6884910657cd6581da3978",
+    "kickoff": "2024-09-22T17:00:00+00:00",
+    "snapshot_time": "2024-09-22T16:55:37Z",
+    "payload_sha256": "10956958d1376bb6f6e5935de86b4bf595e51de333acd175b18dd3f1e3fb0c60",
+    "quote_count": 172,
+    "book_count": 6
+  },
+  {
+    "season": 2024,
+    "game": "2024_03_DEN_TB",
+    "event_id": "8b6897f314b84276526a4ba371d67e20",
+    "kickoff": "2024-09-22T17:00:00+00:00",
+    "snapshot_time": "2024-09-22T16:55:37Z",
+    "payload_sha256": "2f3d2c403b38b23b3bf6dd2072b5b27047b8cc33d9ab6f4343ea0017ca28dea5",
+    "quote_count": 177,
+    "book_count": 6
+  },
+  {
+    "season": 2024,
+    "game": "2024_03_GB_TEN",
+    "event_id": "81cee90c26bf0ec45c3bc946b8143e19",
+    "kickoff": "2024-09-22T17:00:00+00:00",
+    "snapshot_time": "2024-09-22T16:55:37Z",
+    "payload_sha256": "8488fa2f5d311ad85b0bb0a258cae77475460ec19ae70af66ac4c54ab6a5cfd0",
+    "quote_count": 185,
+    "book_count": 6
+  },
+  {
+    "season": 2024,
+    "game": "2024_03_HOU_MIN",
+    "event_id": "fc293a1ac914f24cb110ed2b8250292d",
+    "kickoff": "2024-09-22T17:00:00+00:00",
+    "snapshot_time": "2024-09-22T16:55:37Z",
+    "payload_sha256": "1cc811db03baef859f4baf1d7ee23bfdad740937f53e5e65a3dd5c8fccf915b7",
+    "quote_count": 174,
+    "book_count": 6
+  },
+  {
+    "season": 2024,
+    "game": "2024_03_LAC_PIT",
+    "event_id": "2ee776f967540a404694111f27822004",
+    "kickoff": "2024-09-22T17:00:00+00:00",
+    "snapshot_time": "2024-09-22T16:55:37Z",
+    "payload_sha256": "77961000a7e8fe517f310417e9fdc438e06db67d3ac6c36d865402ccb27c90ae",
+    "quote_count": 183,
+    "book_count": 6
+  },
+  {
+    "season": 2024,
+    "game": "2024_03_NYG_CLE",
+    "event_id": "200c20527d1d6f44257155548cdac1e8",
+    "kickoff": "2024-09-22T17:00:00+00:00",
+    "snapshot_time": "2024-09-22T16:55:37Z",
+    "payload_sha256": "61ea56fcf0ac4ca084a9491b6e621c621b3fb033d0f78dcfb1e4348dfa42b3ef",
+    "quote_count": 177,
+    "book_count": 6
+  },
+  {
+    "season": 2024,
+    "game": "2024_03_PHI_NO",
+    "event_id": "326301fd41fe90d64929b44a2e227b23",
+    "kickoff": "2024-09-22T17:00:00+00:00",
+    "snapshot_time": "2024-09-22T16:55:37Z",
+    "payload_sha256": "c4f7aed71ae731b061e20c2212717673b84ba03c6b40c47174c419aa846b21b1",
+    "quote_count": 172,
+    "book_count": 6
+  },
+  {
+    "season": 2024,
+    "game": "2024_03_CAR_LV",
+    "event_id": "49397bc00cf6d5e50f0a943538f1b00d",
+    "kickoff": "2024-09-22T20:05:00+00:00",
+    "snapshot_time": "2024-09-22T20:00:39Z",
+    "payload_sha256": "2be1cd31095b57d2bd87b46676cc9606035bcafd4f8cd90924e59a24411b0d5c",
+    "quote_count": 172,
+    "book_count": 6
+  },
+  {
+    "season": 2024,
+    "game": "2024_03_MIA_SEA",
+    "event_id": "acc41dc7aeae8f8db0604c743213916c",
+    "kickoff": "2024-09-22T20:05:00+00:00",
+    "snapshot_time": "2024-09-22T20:00:39Z",
+    "payload_sha256": "78d76a8d13baa6b8387a2aec44df6f8371fef38324a74af8c7d8efeb06e92a91",
+    "quote_count": 177,
+    "book_count": 6
+  },
+  {
+    "season": 2024,
+    "game": "2024_03_BAL_DAL",
+    "event_id": "cd904fbb09c5130b857595217364bb07",
+    "kickoff": "2024-09-22T20:25:00+00:00",
+    "snapshot_time": "2024-09-22T20:20:38Z",
+    "payload_sha256": "f06c3b21587de0ea90024f6178c5c8acb29013095ad97c340e090b57c0716044",
+    "quote_count": 184,
+    "book_count": 6
+  },
+  {
+    "season": 2024,
+    "game": "2024_03_DET_ARI",
+    "event_id": "e61fbdc294fce579705fa0ed6de85ce2",
+    "kickoff": "2024-09-22T20:25:00+00:00",
+    "snapshot_time": "2024-09-22T20:20:38Z",
+    "payload_sha256": "d4848ee6f11adcdeef9b655dfe874b1fc7e6490517aab0ff6868e1f041a1ec75",
+    "quote_count": 183,
+    "book_count": 6
+  },
+  {
+    "season": 2024,
+    "game": "2024_03_SF_LA",
+    "event_id": "f89d2da2d1b692de14ddf77e186cc5c7",
+    "kickoff": "2024-09-22T20:25:00+00:00",
+    "snapshot_time": "2024-09-22T20:20:38Z",
+    "payload_sha256": "ad9a0979f0128579d6cc6eb88176262ef756e0a52fd7799cf3d599f51a16f84b",
+    "quote_count": 172,
+    "book_count": 6
+  },
+  {
+    "season": 2024,
+    "game": "2024_03_KC_ATL",
+    "event_id": "bd907bcbaaefa56a30c4fa2c57281a51",
+    "kickoff": "2024-09-23T00:20:00+00:00",
+    "snapshot_time": "2024-09-23T00:15:38Z",
+    "payload_sha256": "62dce0a232c07ddd06adc534339fa081996b0440910d60d2ffc2948f55cc3555",
+    "quote_count": 179,
+    "book_count": 6
+  },
+  {
+    "season": 2024,
+    "game": "2024_03_JAX_BUF",
+    "event_id": "96be3ba73fc562e49a0120b5923c3213",
+    "kickoff": "2024-09-23T23:30:00+00:00",
+    "snapshot_time": "2024-09-23T23:25:39Z",
+    "payload_sha256": "96ea6ec3b9255078f40c745a06a9bec54fe8c1d7f967f80b879ca45872996634",
+    "quote_count": 173,
+    "book_count": 6
+  },
+  {
+    "season": 2024,
+    "game": "2024_03_WAS_CIN",
+    "event_id": "8e047915fdc9b7dc77d2276e740f55d2",
+    "kickoff": "2024-09-24T00:15:00+00:00",
+    "snapshot_time": "2024-09-24T00:10:38Z",
+    "payload_sha256": "3f98e5d7054864ef2ef87389d949b37c30da6c065f60d84ebb0422842d2f6420",
+    "quote_count": 185,
+    "book_count": 6
+  },
+  {
+    "season": 2024,
+    "game": "2024_04_DAL_NYG",
+    "event_id": "b08196b0745d9e2e0bebfe8627fc5a1f",
+    "kickoff": "2024-09-27T00:15:00+00:00",
+    "snapshot_time": "2024-09-27T00:10:39Z",
+    "payload_sha256": "b73db6a4742ca2fce7f403e931cdcf160d1cfac9c542af83a69aac39fd726bd8",
+    "quote_count": 163,
+    "book_count": 5
+  },
+  {
+    "season": 2024,
+    "game": "2024_04_CIN_CAR",
+    "event_id": "82483a4f1a2ae000d00778810d85d13c",
+    "kickoff": "2024-09-29T17:00:00+00:00",
+    "snapshot_time": "2024-09-29T16:55:38Z",
+    "payload_sha256": "ae41d45bcf10f5c6bfd650faedd0d1f735c40dd4b601c393f74052a5dfb82c81",
+    "quote_count": 200,
+    "book_count": 7
+  },
+  {
+    "season": 2024,
+    "game": "2024_04_DEN_NYJ",
+    "event_id": "701d98795b391636de6d0860c6782f2d",
+    "kickoff": "2024-09-29T17:00:00+00:00",
+    "snapshot_time": "2024-09-29T16:55:38Z",
+    "payload_sha256": "3f3554974758156f1d1963f84e192d58ccda7d6abfd621c144dcd27a6fe94ddd",
+    "quote_count": 206,
+    "book_count": 7
+  },
+  {
+    "season": 2024,
+    "game": "2024_04_JAX_HOU",
+    "event_id": "3855431777952837560f29bff9d6b4e3",
+    "kickoff": "2024-09-29T17:00:00+00:00",
+    "snapshot_time": "2024-09-29T16:55:38Z",
+    "payload_sha256": "3feb35327a863a1c2c26e747cdd29735ffd60b83073fda722bbbc0c833c4023c",
+    "quote_count": 185,
+    "book_count": 7
+  },
+  {
+    "season": 2024,
+    "game": "2024_04_LA_CHI",
+    "event_id": "e603ee3c4035a8558b9bcb6aded87ff4",
+    "kickoff": "2024-09-29T17:00:00+00:00",
+    "snapshot_time": "2024-09-29T16:55:38Z",
+    "payload_sha256": "34c4f2566f60e918425470296eb3dd907f6dd0fcea6abd1ab07b1851e06acf3a",
+    "quote_count": 188,
+    "book_count": 7
+  },
+  {
+    "season": 2024,
+    "game": "2024_04_MIN_GB",
+    "event_id": "1f9f768db4ab5e36fad5080f8a338725",
+    "kickoff": "2024-09-29T17:00:00+00:00",
+    "snapshot_time": "2024-09-29T16:55:38Z",
+    "payload_sha256": "004ae069c5b6b290b0ffee51134fe75811f14b3bc56768fbdf0b503f29c1acbc",
+    "quote_count": 213,
+    "book_count": 7
+  },
+  {
+    "season": 2024,
+    "game": "2024_04_NO_ATL",
+    "event_id": "3858ab1dfdb4db4987218c709a51d1bf",
+    "kickoff": "2024-09-29T17:00:00+00:00",
+    "snapshot_time": "2024-09-29T16:55:38Z",
+    "payload_sha256": "de72add736f0bf9ac36856b02e7a1e59dbdf4122f17f0359a917a61ab5464c92",
+    "quote_count": 207,
+    "book_count": 7
+  },
+  {
+    "season": 2024,
+    "game": "2024_04_PHI_TB",
+    "event_id": "6b08b0416089dbb0459c208f5c0c6d41",
+    "kickoff": "2024-09-29T17:00:00+00:00",
+    "snapshot_time": "2024-09-29T16:55:38Z",
+    "payload_sha256": "c33fdb21ad620a40634c99477f59e66bc083b9b64bfea3ac018d7c94c931bc35",
+    "quote_count": 188,
+    "book_count": 7
+  },
+  {
+    "season": 2024,
+    "game": "2024_04_PIT_IND",
+    "event_id": "a0a3ae18f5a26bdaa0e2f32aa8af7ce0",
+    "kickoff": "2024-09-29T17:00:00+00:00",
+    "snapshot_time": "2024-09-29T16:55:38Z",
+    "payload_sha256": "6ce56b3e9e514e4f668ececed07fd2d34fc63c37ad2798f2a3321224df580711",
+    "quote_count": 196,
+    "book_count": 7
+  },
+  {
+    "season": 2024,
+    "game": "2024_04_NE_SF",
+    "event_id": "2536f23add2224ed79c070c55af28bbf",
+    "kickoff": "2024-09-29T20:05:00+00:00",
+    "snapshot_time": "2024-09-29T20:00:38Z",
+    "payload_sha256": "ade6608d44b96d871cb12b78f4d11a406477bde51eb2985cfb1333d31ad14b4c",
+    "quote_count": 176,
+    "book_count": 7
+  },
+  {
+    "season": 2024,
+    "game": "2024_04_WAS_ARI",
+    "event_id": "b0461ea737b89685d0aee3050bca0cc5",
+    "kickoff": "2024-09-29T20:05:00+00:00",
+    "snapshot_time": "2024-09-29T20:00:38Z",
+    "payload_sha256": "de60ccbd3fbbfe898a87d113a7c11e3524ba063bfa88b061d4c8c9a2cde9fb4d",
+    "quote_count": 195,
+    "book_count": 7
+  },
+  {
+    "season": 2024,
+    "game": "2024_04_CLE_LV",
+    "event_id": "3f180e883b429700dd32ff2133ac37ef",
+    "kickoff": "2024-09-29T20:25:00+00:00",
+    "snapshot_time": "2024-09-29T20:20:38Z",
+    "payload_sha256": "7bbcf38e1e0e89fd412ee8b23bd11d683771631060f83136f32974e5096c6512",
+    "quote_count": 173,
+    "book_count": 7
+  },
+  {
+    "season": 2024,
+    "game": "2024_04_KC_LAC",
+    "event_id": "b839e959b4e28cdd96341dbcf99d4a42",
+    "kickoff": "2024-09-29T20:25:00+00:00",
+    "snapshot_time": "2024-09-29T20:20:38Z",
+    "payload_sha256": "07dee3d4528775a77104956574dde41b7da4266bb49e61a2c73772c39111b58e",
+    "quote_count": 203,
+    "book_count": 7
+  },
+  {
+    "season": 2024,
+    "game": "2024_04_BUF_BAL",
+    "event_id": "ce925c8cb892e1806399345e7885828d",
+    "kickoff": "2024-09-30T00:20:00+00:00",
+    "snapshot_time": "2024-09-30T00:15:38Z",
+    "payload_sha256": "a3041f9f7f40956aa14e59570d4272d0ab7f6fe2e2bc79829f342c63ea0b21bb",
+    "quote_count": 203,
+    "book_count": 7
+  },
+  {
+    "season": 2024,
+    "game": "2024_04_TEN_MIA",
+    "event_id": "a207d1faa78a276de49cdebb7ef4fc0e",
+    "kickoff": "2024-09-30T23:30:00+00:00",
+    "snapshot_time": "2024-09-30T23:25:38Z",
+    "payload_sha256": "3797b6c0cef5ed0b5868babe6c1bb3a13a55a0c6d50ea98bad905205c923c9e0",
+    "quote_count": 210,
+    "book_count": 7
+  },
+  {
+    "season": 2024,
+    "game": "2024_04_SEA_DET",
+    "event_id": "2b7f812133cedc184625d7bc8362564a",
+    "kickoff": "2024-10-01T00:15:00+00:00",
+    "snapshot_time": "2024-10-01T00:10:39Z",
+    "payload_sha256": "c0a8a0efd51ef5a044d9e64795b76aa595aaab3b2876bb31b9bc88348cb059e7",
+    "quote_count": 209,
+    "book_count": 7
+  },
+  {
+    "season": 2024,
+    "game": "2024_05_TB_ATL",
+    "event_id": "b516611a4ade7c4d55fcde561ed71328",
+    "kickoff": "2024-10-04T00:15:00+00:00",
+    "snapshot_time": "2024-10-04T00:10:40Z",
+    "payload_sha256": "e82453bc2ef93c3818b39cf2d3809d4763bb119be2974626fd39c9c3bdda62ef",
+    "quote_count": 197,
+    "book_count": 7
+  },
+  {
+    "season": 2024,
+    "game": "2024_05_NYJ_MIN",
+    "event_id": "b782886bcc4874123d3bb50e5d1e88c3",
+    "kickoff": "2024-10-06T13:30:00+00:00",
+    "snapshot_time": "2024-10-06T13:25:37Z",
+    "payload_sha256": "9a3e773ff27dfd4baee69831fefa2df8d420a9b474bd2d4fd2da9be68be3998b",
+    "quote_count": 194,
+    "book_count": 7
+  },
+  {
+    "season": 2024,
+    "game": "2024_05_BAL_CIN",
+    "event_id": "73da5785865b6ab0852df1aa0c47994e",
+    "kickoff": "2024-10-06T17:00:00+00:00",
+    "snapshot_time": "2024-10-06T16:55:38Z",
+    "payload_sha256": "07d0425cb842c43aca3af01cdd6f3465b9d880ab65fc174a37e1e132c0b1e93b",
+    "quote_count": 199,
+    "book_count": 7
+  },
+  {
+    "season": 2024,
+    "game": "2024_05_BUF_HOU",
+    "event_id": "2eb8e0798cb1b1f9d0f0d414253b4e37",
+    "kickoff": "2024-10-06T17:00:00+00:00",
+    "snapshot_time": "2024-10-06T16:55:38Z",
+    "payload_sha256": "78b5de6356639a2b3cafbed3aee39bd6c1f375af84cc84bd8b5349c22376dd88",
+    "quote_count": 208,
+    "book_count": 7
+  },
+  {
+    "season": 2024,
+    "game": "2024_05_CAR_CHI",
+    "event_id": "b727380f1b93218185ba53da28e0f6a7",
+    "kickoff": "2024-10-06T17:00:00+00:00",
+    "snapshot_time": "2024-10-06T16:55:38Z",
+    "payload_sha256": "3a023fc253b833710cce0fa4c5c7271d713830115c0cb25f0b73b7e6ee31380b",
+    "quote_count": 199,
+    "book_count": 7
+  },
+  {
+    "season": 2024,
+    "game": "2024_05_CLE_WAS",
+    "event_id": "43f21c8e455914cc71d00ca0001ae85b",
+    "kickoff": "2024-10-06T17:00:00+00:00",
+    "snapshot_time": "2024-10-06T16:55:38Z",
+    "payload_sha256": "d4ec87a4dff58813233ea8c384e550b5de403a294487f1d6aaffd73486bc784e",
+    "quote_count": 200,
+    "book_count": 7
+  },
+  {
+    "season": 2024,
+    "game": "2024_05_IND_JAX",
+    "event_id": "dba45197b1cd2dbafe7f83ebffd2be90",
+    "kickoff": "2024-10-06T17:00:00+00:00",
+    "snapshot_time": "2024-10-06T16:55:38Z",
+    "payload_sha256": "22c59e29f1bb25d7c86afa1bc822ee9b0f0298a4cf20007e30c29c99be0c1900",
+    "quote_count": 202,
+    "book_count": 7
+  },
+  {
+    "season": 2024,
+    "game": "2024_05_MIA_NE",
+    "event_id": "5cb3b58ed90ecfac2acac9115e08c017",
+    "kickoff": "2024-10-06T17:00:00+00:00",
+    "snapshot_time": "2024-10-06T16:55:38Z",
+    "payload_sha256": "40e1214233418a81eb1a1a33c8340df57b3b8a2fefae7b3a815d9c69aebef33e",
+    "quote_count": 211,
+    "book_count": 7
+  },
+  {
+    "season": 2024,
+    "game": "2024_05_ARI_SF",
+    "event_id": "a0877d6a0f0a97e5790884008b9974c9",
+    "kickoff": "2024-10-06T20:05:00+00:00",
+    "snapshot_time": "2024-10-06T20:00:37Z",
+    "payload_sha256": "5f678516396ad305fed412bd11ee01fc07efb693bb350f893113d7a23c34543a",
+    "quote_count": 202,
+    "book_count": 7
+  },
+  {
+    "season": 2024,
+    "game": "2024_05_LV_DEN",
+    "event_id": "9a9219cd7180fe6481e6bd9e460a7622",
+    "kickoff": "2024-10-06T20:05:00+00:00",
+    "snapshot_time": "2024-10-06T20:00:37Z",
+    "payload_sha256": "22fc8cdb6bdddef8599b93914baf6f02dff67ea126a41bef3c2651626fc88db1",
+    "quote_count": 198,
+    "book_count": 7
+  },
+  {
+    "season": 2024,
+    "game": "2024_05_GB_LA",
+    "event_id": "f555a965152f8896b1cf418205724508",
+    "kickoff": "2024-10-06T20:25:00+00:00",
+    "snapshot_time": "2024-10-06T20:20:37Z",
+    "payload_sha256": "a03a92de30f52590897ce8a2a30eb13eefce5490205faca5491b8bc24098d1f6",
+    "quote_count": 180,
+    "book_count": 7
+  },
+  {
+    "season": 2024,
+    "game": "2024_05_NYG_SEA",
+    "event_id": "777e65cf50b4517465cea9ac9d686227",
+    "kickoff": "2024-10-06T20:25:00+00:00",
+    "snapshot_time": "2024-10-06T20:20:37Z",
+    "payload_sha256": "06f1c65069255bc6d1158d506c1eac6a6906c0685fae79c416d202500ca4ba5b",
+    "quote_count": 201,
+    "book_count": 7
+  },
+  {
+    "season": 2024,
+    "game": "2024_05_DAL_PIT",
+    "event_id": "504a7b09264059083346ab086141da30",
+    "kickoff": "2024-10-07T00:20:00+00:00",
+    "snapshot_time": "2024-10-07T00:15:37Z",
+    "payload_sha256": "47ae87d6e3d21d4b7c389c8e61132864ad9f36eb85fa634512966c1835bca22a",
+    "quote_count": 189,
+    "book_count": 7
+  },
+  {
+    "season": 2024,
+    "game": "2024_05_NO_KC",
+    "event_id": "5e0d59f75b7f9056461e2970aca2a6cb",
+    "kickoff": "2024-10-08T00:15:00+00:00",
+    "snapshot_time": "2024-10-08T00:10:38Z",
+    "payload_sha256": "3bcfe79bd6e852158594d6e41c5dd675ac7b80ae8cebefc4003701bc76c5ac6e",
+    "quote_count": 209,
+    "book_count": 7
+  },
+  {
+    "season": 2024,
+    "game": "2024_06_SF_SEA",
+    "event_id": "0dac14546d6008893a8b3b6c417472a6",
+    "kickoff": "2024-10-11T00:15:00+00:00",
+    "snapshot_time": "2024-10-11T00:10:38Z",
+    "payload_sha256": "d930fab6849e2e04bfa0d3b9d71d99cb6e90ec28bc76dffa3bf64584d83b26f0",
+    "quote_count": 187,
+    "book_count": 7
+  },
+  {
+    "season": 2024,
+    "game": "2024_06_JAX_CHI",
+    "event_id": "c1bcc8bbec33008ae587584b1b3de2d0",
+    "kickoff": "2024-10-13T13:30:00+00:00",
+    "snapshot_time": "2024-10-13T13:25:38Z",
+    "payload_sha256": "4e49622ca03f2305776bc981c33b01cd9ccb965c7f97ba554ca69519993820de",
+    "quote_count": 170,
+    "book_count": 7
+  },
+  {
+    "season": 2024,
+    "game": "2024_06_ARI_GB",
+    "event_id": "fb08594af963cff8fae2f93b2e0f4269",
+    "kickoff": "2024-10-13T17:00:00+00:00",
+    "snapshot_time": "2024-10-13T16:55:38Z",
+    "payload_sha256": "f322f24c88a8dab9181095dc877a0f84738ab0454b33d520d451d56c66dc0624",
+    "quote_count": 181,
+    "book_count": 7
+  },
+  {
+    "season": 2024,
+    "game": "2024_06_CLE_PHI",
+    "event_id": "8bd202ca7bacf3396a1b774f12de0fab",
+    "kickoff": "2024-10-13T17:00:00+00:00",
+    "snapshot_time": "2024-10-13T16:55:38Z",
+    "payload_sha256": "49635fea2c13187076b5a0708db62b1a0ce36a68ad2703e2f1320268d5e0ddef",
+    "quote_count": 139,
+    "book_count": 6
+  },
+  {
+    "season": 2024,
+    "game": "2024_06_HOU_NE",
+    "event_id": "febb2d674e85a32c8636ff900fffb5d2",
+    "kickoff": "2024-10-13T17:00:00+00:00",
+    "snapshot_time": "2024-10-13T16:55:38Z",
+    "payload_sha256": "06632ed74f562a1340b66fe645ba2b0abab526041be97eae027e03ffac1557c7",
+    "quote_count": 169,
+    "book_count": 7
+  },
+  {
+    "season": 2024,
+    "game": "2024_06_IND_TEN",
+    "event_id": "bdc58f80a5a9b4515ee631fddc63a2c8",
+    "kickoff": "2024-10-13T17:00:00+00:00",
+    "snapshot_time": "2024-10-13T16:55:38Z",
+    "payload_sha256": "7e82cef8abd15d6c78e1dbcb325f40ab2c4a0eb05e12e4113a8cbabd79468c75",
+    "quote_count": 157,
+    "book_count": 6
+  },
+  {
+    "season": 2024,
+    "game": "2024_06_TB_NO",
+    "event_id": "ba1097486d1edb57bfe2bc22f5c4573e",
+    "kickoff": "2024-10-13T17:00:00+00:00",
+    "snapshot_time": "2024-10-13T16:55:38Z",
+    "payload_sha256": "c18696d0ba026aacb126907e4fecd1e23cb2a7e128bf28ed2d8f87dbccc2a4cc",
+    "quote_count": 167,
+    "book_count": 7
+  },
+  {
+    "season": 2024,
+    "game": "2024_06_WAS_BAL",
+    "event_id": "c3b700ee54cf3cb44de965e6cfcb19f9",
+    "kickoff": "2024-10-13T17:00:00+00:00",
+    "snapshot_time": "2024-10-13T16:55:38Z",
+    "payload_sha256": "d9374c213ffb1a8f10ad7687166e6b8ea9f04768dfa2fe84cd395b82a6df4721",
+    "quote_count": 174,
+    "book_count": 7
+  },
+  {
+    "season": 2024,
+    "game": "2024_06_LAC_DEN",
+    "event_id": "76fbc0191f917329bad82f76a9a22a2e",
+    "kickoff": "2024-10-13T20:05:00+00:00",
+    "snapshot_time": "2024-10-13T20:00:38Z",
+    "payload_sha256": "cf27b8aeb0c04bd5d80ce950bbc11cf60694d7258a21ebef40d07e3040415ff0",
+    "quote_count": 192,
+    "book_count": 7
+  },
+  {
+    "season": 2024,
+    "game": "2024_06_PIT_LV",
+    "event_id": "81df9672b5e68bc84e98641d5de2505b",
+    "kickoff": "2024-10-13T20:05:00+00:00",
+    "snapshot_time": "2024-10-13T20:00:38Z",
+    "payload_sha256": "f675efd88fb2336ae789ac393fe555b86e437ca165b105188bed630e7aa60aff",
+    "quote_count": 166,
+    "book_count": 7
+  },
+  {
+    "season": 2024,
+    "game": "2024_06_ATL_CAR",
+    "event_id": "67c389265b00a40407a23054e45d8e45",
+    "kickoff": "2024-10-13T20:25:00+00:00",
+    "snapshot_time": "2024-10-13T20:20:38Z",
+    "payload_sha256": "930836a17f8bf6f4b04d36c4cb3b056fa299d7e92c33c42da85ecbd35f63dadd",
+    "quote_count": 165,
+    "book_count": 7
+  },
+  {
+    "season": 2024,
+    "game": "2024_06_DET_DAL",
+    "event_id": "d4d2902446e120ea6f1afafdc0b3d55d",
+    "kickoff": "2024-10-13T20:25:00+00:00",
+    "snapshot_time": "2024-10-13T20:20:38Z",
+    "payload_sha256": "c8756d639468f992513c9e00a2576dd0489465993c481d426d5652401694f1bb",
+    "quote_count": 175,
+    "book_count": 7
+  },
+  {
+    "season": 2024,
+    "game": "2024_06_CIN_NYG",
+    "event_id": "245c50e05349966d749c7e3f05699647",
+    "kickoff": "2024-10-14T00:20:00+00:00",
+    "snapshot_time": "2024-10-14T00:15:38Z",
+    "payload_sha256": "1ab867b7506eeced71e3af8f6eab5edebb101cf802e50519868609cbe71dc265",
+    "quote_count": 176,
+    "book_count": 7
+  },
+  {
+    "season": 2024,
+    "game": "2024_06_BUF_NYJ",
+    "event_id": "79b5655b7342104f50bc735a5d838b71",
+    "kickoff": "2024-10-15T00:15:00+00:00",
+    "snapshot_time": "2024-10-15T00:10:38Z",
+    "payload_sha256": "bae41c26c0d00ec1e7643979d0a403b7c93d24772efd733f4b216bf81ee3a68a",
+    "quote_count": 168,
+    "book_count": 7
+  },
+  {
+    "season": 2024,
+    "game": "2024_07_DEN_NO",
+    "event_id": "cc1d6e0125f5444f70609ce9e0829fa9",
+    "kickoff": "2024-10-18T00:15:00+00:00",
+    "snapshot_time": "2024-10-18T00:10:39Z",
+    "payload_sha256": "c63a66a8dc94ec06da59f13ace79ad1bf8ca0493c0a2a58c66b44dad08b32ffe",
+    "quote_count": 173,
+    "book_count": 7
+  },
+  {
+    "season": 2024,
+    "game": "2024_07_NE_JAX",
+    "event_id": "964d089b9bbbf792a705da3b3f355312",
+    "kickoff": "2024-10-20T13:30:00+00:00",
+    "snapshot_time": "2024-10-20T13:25:38Z",
+    "payload_sha256": "fd6d62ec48b842a1f89930f272683f60161f29a02c2b240a8a13ff785172f3b5",
+    "quote_count": 177,
+    "book_count": 7
+  },
+  {
+    "season": 2024,
+    "game": "2024_07_CIN_CLE",
+    "event_id": "63e9b5302666e36b47431100bcb22973",
+    "kickoff": "2024-10-20T17:00:00+00:00",
+    "snapshot_time": "2024-10-20T16:55:38Z",
+    "payload_sha256": "97baec5b9ebe2401c2c53c5392a5b4834315edd04b58fd7354e5be0f8c547f7b",
+    "quote_count": 179,
+    "book_count": 7
+  },
+  {
+    "season": 2024,
+    "game": "2024_07_DET_MIN",
+    "event_id": "497242e77fc7f2e1fa4cc70a2bd37b20",
+    "kickoff": "2024-10-20T17:00:00+00:00",
+    "snapshot_time": "2024-10-20T16:55:38Z",
+    "payload_sha256": "5d6cad4bb25b0648c504bc2f0f42f329680ee1dfe36caf4b30d47f030b37af27",
+    "quote_count": 182,
+    "book_count": 7
+  },
+  {
+    "season": 2024,
+    "game": "2024_07_HOU_GB",
+    "event_id": "15077c31238fbc767b91e73f8068f2a2",
+    "kickoff": "2024-10-20T17:00:00+00:00",
+    "snapshot_time": "2024-10-20T16:55:38Z",
+    "payload_sha256": "4c44a08c46f9d2e82a5c2ecb14fda4fa4d9bde88dbd220ede0bbabd03d9b3b20",
+    "quote_count": 177,
+    "book_count": 7
+  },
+  {
+    "season": 2024,
+    "game": "2024_07_MIA_IND",
+    "event_id": "3d634649562df7c3b2b22d626162a9c9",
+    "kickoff": "2024-10-20T17:00:00+00:00",
+    "snapshot_time": "2024-10-20T16:55:38Z",
+    "payload_sha256": "8d5519922456d092dfbe3ebe9c8e5f584c5122cdc6b22067d8baebc25aa06247",
+    "quote_count": 198,
+    "book_count": 7
+  },
+  {
+    "season": 2024,
+    "game": "2024_07_PHI_NYG",
+    "event_id": "a60ecb3c882d09f08b6e194e858aec42",
+    "kickoff": "2024-10-20T17:00:00+00:00",
+    "snapshot_time": "2024-10-20T16:55:38Z",
+    "payload_sha256": "eb8d74d8bc0379dc13bbe61b02c534d8b1f9fed45321f5427ff777ab874b37e7",
+    "quote_count": 174,
+    "book_count": 7
+  },
+  {
+    "season": 2024,
+    "game": "2024_07_SEA_ATL",
+    "event_id": "514ad4e46861e2aa51571079d75856b5",
+    "kickoff": "2024-10-20T17:00:00+00:00",
+    "snapshot_time": "2024-10-20T16:55:38Z",
+    "payload_sha256": "773f9a025cafe4bbddfb726a81711f35643796c9e76e33db39406cbbc4d027e3",
+    "quote_count": 194,
+    "book_count": 7
+  },
+  {
+    "season": 2024,
+    "game": "2024_07_TEN_BUF",
+    "event_id": "4084732a953c2a15d46aca93da86fe87",
+    "kickoff": "2024-10-20T17:00:00+00:00",
+    "snapshot_time": "2024-10-20T16:55:38Z",
+    "payload_sha256": "19f1a41fbb0d2d2174ddde7158db71b0569ba6a46ebe6829b2cedc964e681716",
+    "quote_count": 181,
+    "book_count": 7
+  },
+  {
+    "season": 2024,
+    "game": "2024_07_CAR_WAS",
+    "event_id": "205e5260b14ecb55558ddb85f419edaf",
+    "kickoff": "2024-10-20T20:05:00+00:00",
+    "snapshot_time": "2024-10-20T20:00:38Z",
+    "payload_sha256": "8b95cc01a7ca6d18616fe059c19e6da798fceb1c230d80b94628b7118bc14705",
+    "quote_count": 179,
+    "book_count": 7
+  },
+  {
+    "season": 2024,
+    "game": "2024_07_LV_LA",
+    "event_id": "2bc06cb4fb03e96b39448675c1943487",
+    "kickoff": "2024-10-20T20:05:00+00:00",
+    "snapshot_time": "2024-10-20T20:00:38Z",
+    "payload_sha256": "3a63d415fb285b7d21db66c16771c098fec981d94a934267bdf73e521ae950b2",
+    "quote_count": 143,
+    "book_count": 6
+  },
+  {
+    "season": 2024,
+    "game": "2024_07_KC_SF",
+    "event_id": "a0b429ad5863438f4550ced4f368d2e2",
+    "kickoff": "2024-10-20T20:25:00+00:00",
+    "snapshot_time": "2024-10-20T20:20:38Z",
+    "payload_sha256": "92453c78640528441168bff33bd1effbbac0dc6a0d056a7896a70e59798240c9",
+    "quote_count": 198,
+    "book_count": 7
+  },
+  {
+    "season": 2024,
+    "game": "2024_07_NYJ_PIT",
+    "event_id": "6103604599da91e8a44ce683292242ec",
+    "kickoff": "2024-10-21T00:20:00+00:00",
+    "snapshot_time": "2024-10-21T00:15:38Z",
+    "payload_sha256": "418b519fa41b0f2c87e013bb8c3bae40e1a3ee2c4f9da22eeea9fe4aa6abf131",
+    "quote_count": 188,
+    "book_count": 7
+  },
+  {
+    "season": 2024,
+    "game": "2024_07_BAL_TB",
+    "event_id": "269f082de1c875831ceb05c8e0fa6e9e",
+    "kickoff": "2024-10-22T00:15:00+00:00",
+    "snapshot_time": "2024-10-22T00:10:39Z",
+    "payload_sha256": "87cc75c7e5de46c1d5637be8711dcae46965b42442e8e39d00ed6f92a78a2440",
+    "quote_count": 167,
+    "book_count": 7
+  },
+  {
+    "season": 2024,
+    "game": "2024_07_LAC_ARI",
+    "event_id": "c38d6ebf21ca6194da4757c090eac3a2",
+    "kickoff": "2024-10-22T01:00:00+00:00",
+    "snapshot_time": "2024-10-22T00:55:39Z",
+    "payload_sha256": "11107800f25a92597c091e06e52af9f2d53ec2c721acf08faebc2b0a44310573",
+    "quote_count": 187,
+    "book_count": 7
+  },
+  {
+    "season": 2024,
+    "game": "2024_08_MIN_LA",
+    "event_id": "1f22f5d9de70779ac521b9c1de59162f",
+    "kickoff": "2024-10-25T00:15:00+00:00",
+    "snapshot_time": "2024-10-25T00:10:39Z",
+    "payload_sha256": "0ad595974590cf3439bdae00781b39fb9bccd1087886edac03beb9730c107782",
+    "quote_count": 137,
+    "book_count": 5
+  },
+  {
+    "season": 2024,
+    "game": "2024_08_ARI_MIA",
+    "event_id": "2883af924ad72a75da65e3257b9284e7",
+    "kickoff": "2024-10-27T17:00:00+00:00",
+    "snapshot_time": "2024-10-27T16:55:38Z",
+    "payload_sha256": "0964b71f2ad61163db478f6ae7014178d60ebf7775d20383c50cfd1814794b80",
+    "quote_count": 187,
+    "book_count": 7
+  },
+  {
+    "season": 2024,
+    "game": "2024_08_ATL_TB",
+    "event_id": "9693ad2122e496b05f7efd56f0ef03d0",
+    "kickoff": "2024-10-27T17:00:00+00:00",
+    "snapshot_time": "2024-10-27T16:55:38Z",
+    "payload_sha256": "c277a2a78c4daf8c1663b3a01711ac621a584f9c6769c5dee1c36ba7d7167384",
+    "quote_count": 183,
+    "book_count": 7
+  },
+  {
+    "season": 2024,
+    "game": "2024_08_BAL_CLE",
+    "event_id": "4a54b04a572fde8db5f1e1478c1ef673",
+    "kickoff": "2024-10-27T17:00:00+00:00",
+    "snapshot_time": "2024-10-27T16:55:38Z",
+    "payload_sha256": "eeea80250baf3bb8b583f5289cd93c22bf43bdc2258c9e838e294c7eb060aa6f",
+    "quote_count": 182,
+    "book_count": 7
+  },
+  {
+    "season": 2024,
+    "game": "2024_08_GB_JAX",
+    "event_id": "4708973e15052d8b7c29a53f0c4561dc",
+    "kickoff": "2024-10-27T17:00:00+00:00",
+    "snapshot_time": "2024-10-27T16:55:38Z",
+    "payload_sha256": "e4dd5ef86dc69e43464529955db9f82498ebacd958bf1f5e6576950297ea4225",
+    "quote_count": 179,
+    "book_count": 7
+  },
+  {
+    "season": 2024,
+    "game": "2024_08_IND_HOU",
+    "event_id": "e07e64de78a6095754d2a048255dadac",
+    "kickoff": "2024-10-27T17:00:00+00:00",
+    "snapshot_time": "2024-10-27T16:55:38Z",
+    "payload_sha256": "cea2818c9ac993066146be096f2ced8a9911ed5cbbd3074fdb9302981e1fa942",
+    "quote_count": 183,
+    "book_count": 7
+  },
+  {
+    "season": 2024,
+    "game": "2024_08_NYJ_NE",
+    "event_id": "7679451910267ad5cd8620cf63870aaa",
+    "kickoff": "2024-10-27T17:00:00+00:00",
+    "snapshot_time": "2024-10-27T16:55:38Z",
+    "payload_sha256": "e82cd4a700daf265b5ec8c176d5c4d53d647821199a10ad95c4ff436072a2694",
+    "quote_count": 184,
+    "book_count": 7
+  },
+  {
+    "season": 2024,
+    "game": "2024_08_PHI_CIN",
+    "event_id": "9b5367d7e95dd05cb7517d99484bf95b",
+    "kickoff": "2024-10-27T17:00:00+00:00",
+    "snapshot_time": "2024-10-27T16:55:38Z",
+    "payload_sha256": "2e7c78f59215d25859f7febc13ff52f6f2f2cf2d66f7140f21293509a41e19a2",
+    "quote_count": 171,
+    "book_count": 7
+  },
+  {
+    "season": 2024,
+    "game": "2024_08_TEN_DET",
+    "event_id": "5fd9657af1356ec2a567b07d75a8e6a3",
+    "kickoff": "2024-10-27T17:00:00+00:00",
+    "snapshot_time": "2024-10-27T16:55:38Z",
+    "payload_sha256": "a3fcc16874d54e87bd7c8aa5dccf2178268896505013ac9df67ac9deea2cea68",
+    "quote_count": 171,
+    "book_count": 7
+  },
+  {
+    "season": 2024,
+    "game": "2024_08_BUF_SEA",
+    "event_id": "9a263061dd1c784a20f393971744d176",
+    "kickoff": "2024-10-27T20:05:00+00:00",
+    "snapshot_time": "2024-10-27T20:00:37Z",
+    "payload_sha256": "5bb94ae92a9abb59452f674268ee1d335f93a0f5a1464bec70f738094a9d5868",
+    "quote_count": 184,
+    "book_count": 7
+  },
+  {
+    "season": 2024,
+    "game": "2024_08_NO_LAC",
+    "event_id": "70c540bd6e70676319e44a7dd02cbd38",
+    "kickoff": "2024-10-27T20:05:00+00:00",
+    "snapshot_time": "2024-10-27T20:00:37Z",
+    "payload_sha256": "b6bfa53c225b1bbecf30a94fccf1494962713df795fb09e82fb7cad0145f4f10",
+    "quote_count": 179,
+    "book_count": 7
+  },
+  {
+    "season": 2024,
+    "game": "2024_08_CAR_DEN",
+    "event_id": "bba53e1026b6121c0255771479517a2f",
+    "kickoff": "2024-10-27T20:25:00+00:00",
+    "snapshot_time": "2024-10-27T20:20:38Z",
+    "payload_sha256": "bc4bbafac8836417431df5509fa4af6e11f4db5f73a3b245bf197ad9e1597415",
+    "quote_count": 181,
+    "book_count": 7
+  },
+  {
+    "season": 2024,
+    "game": "2024_08_CHI_WAS",
+    "event_id": "fb5217800ed73d9cae485efbba37ba96",
+    "kickoff": "2024-10-27T20:25:00+00:00",
+    "snapshot_time": "2024-10-27T20:20:38Z",
+    "payload_sha256": "caeb9d9c75abcfbee2c51fbe293bdfb32665b8daf46373ec2b1b6413b1d5d3a0",
+    "quote_count": 175,
+    "book_count": 7
+  },
+  {
+    "season": 2024,
+    "game": "2024_08_KC_LV",
+    "event_id": "ccc621108fb48382b825128007dc8120",
+    "kickoff": "2024-10-27T20:25:00+00:00",
+    "snapshot_time": "2024-10-27T20:20:38Z",
+    "payload_sha256": "c68011005d3a9a64d3545473efe5d35b0ccf56bb9e4dd6e5264a59d9876d4f65",
+    "quote_count": 174,
+    "book_count": 7
+  },
+  {
+    "season": 2024,
+    "game": "2024_08_DAL_SF",
+    "event_id": "ef27be93158f43d94f94035d2af7096f",
+    "kickoff": "2024-10-28T00:20:00+00:00",
+    "snapshot_time": "2024-10-28T00:15:38Z",
+    "payload_sha256": "a811f1352442465a7fa65d84f1438127b445d91b860fea37afd6b58e858b15a3",
+    "quote_count": 194,
+    "book_count": 7
+  },
+  {
+    "season": 2024,
+    "game": "2024_08_NYG_PIT",
+    "event_id": "86278ec4bbdcadd945d79df6c695c2ec",
+    "kickoff": "2024-10-29T00:15:00+00:00",
+    "snapshot_time": "2024-10-29T00:10:39Z",
+    "payload_sha256": "7a8a4455f44cde540bea3a25ecd0a30c1d3434f685a65f2a272fd42a786009af",
+    "quote_count": 193,
+    "book_count": 7
+  },
+  {
+    "season": 2024,
+    "game": "2024_09_HOU_NYJ",
+    "event_id": "edde9aeb8a9114f38b30b45c7cffbfa8",
+    "kickoff": "2024-11-01T00:15:00+00:00",
+    "snapshot_time": "2024-11-01T00:10:39Z",
+    "payload_sha256": "ef3048cf0b171fd74c0e86d133a61618bfec656f1c525ec7ddfc3a7ee1a44a84",
+    "quote_count": 182,
+    "book_count": 7
+  },
+  {
+    "season": 2024,
+    "game": "2024_09_DAL_ATL",
+    "event_id": "db18946165af62532b19d4c509d7ba56",
+    "kickoff": "2024-11-03T18:00:00+00:00",
+    "snapshot_time": "2024-11-03T17:55:37Z",
+    "payload_sha256": "246206087dfad6c2c94c4c16a4750067a0e43b5c84f175ef0c5601d36a5e6289",
+    "quote_count": 185,
+    "book_count": 7
+  },
+  {
+    "season": 2024,
+    "game": "2024_09_DEN_BAL",
+    "event_id": "11154d508a0b557087b0fa84cccf8a66",
+    "kickoff": "2024-11-03T18:00:00+00:00",
+    "snapshot_time": "2024-11-03T17:55:37Z",
+    "payload_sha256": "29175d6a44783f35531b59aa65258906a23750d9e3bfbc13d26245587ff2dbdf",
+    "quote_count": 188,
+    "book_count": 7
+  },
+  {
+    "season": 2024,
+    "game": "2024_09_LAC_CLE",
+    "event_id": "fc022a0b74f3182e2da491dfe4276301",
+    "kickoff": "2024-11-03T18:00:00+00:00",
+    "snapshot_time": "2024-11-03T17:55:37Z",
+    "payload_sha256": "fa853f6e7ba1adc8883d20844eea5ad3740ca97750b8b4e99c60e09a04eb7034",
+    "quote_count": 182,
+    "book_count": 7
+  },
+  {
+    "season": 2024,
+    "game": "2024_09_LV_CIN",
+    "event_id": "3d24ae93125568c136d57ff911a4d2e4",
+    "kickoff": "2024-11-03T18:00:00+00:00",
+    "snapshot_time": "2024-11-03T17:55:37Z",
+    "payload_sha256": "cc487ad4e63f69185012d96b3cbd618b32da2553f0fb768e717f05ab1469e5a6",
+    "quote_count": 163,
+    "book_count": 7
+  },
+  {
+    "season": 2024,
+    "game": "2024_09_MIA_BUF",
+    "event_id": "7c2d09c53f3c271b20f53db0b21f1498",
+    "kickoff": "2024-11-03T18:00:00+00:00",
+    "snapshot_time": "2024-11-03T17:55:37Z",
+    "payload_sha256": "283c8dcc6abe033c58a88a46ad51cc9c51fd8fe8845a31a8650277071894624b",
+    "quote_count": 182,
+    "book_count": 7
+  },
+  {
+    "season": 2024,
+    "game": "2024_09_NE_TEN",
+    "event_id": "31f1bb5fbbc8c3d9b8719357fa40941e",
+    "kickoff": "2024-11-03T18:00:00+00:00",
+    "snapshot_time": "2024-11-03T17:55:37Z",
+    "payload_sha256": "7d72051339d7cddc66d4199549e771d982cb1e1a0ffb9c10606ac3a01bbd2078",
+    "quote_count": 142,
+    "book_count": 6
+  },
+  {
+    "season": 2024,
+    "game": "2024_09_NO_CAR",
+    "event_id": "3de2d54334c462aa393418b75994fee1",
+    "kickoff": "2024-11-03T18:00:00+00:00",
+    "snapshot_time": "2024-11-03T17:55:37Z",
+    "payload_sha256": "a0d3864378c6784c12d79b3285ebfd423280e82e225c29c2890575d055a3d09e",
+    "quote_count": 164,
+    "book_count": 7
+  },
+  {
+    "season": 2024,
+    "game": "2024_09_WAS_NYG",
+    "event_id": "5791e31f6f4b95476889c4854b508faf",
+    "kickoff": "2024-11-03T18:00:00+00:00",
+    "snapshot_time": "2024-11-03T17:55:37Z",
+    "payload_sha256": "a1f790398d82f108e69beeda9b26bb3bbb722d40fa50383418241f94d62af6ef",
+    "quote_count": 175,
+    "book_count": 7
+  },
+  {
+    "season": 2024,
+    "game": "2024_09_CHI_ARI",
+    "event_id": "597e7fb5542c56bda7f1a73402cd47e0",
+    "kickoff": "2024-11-03T21:05:00+00:00",
+    "snapshot_time": "2024-11-03T21:00:38Z",
+    "payload_sha256": "aede006ea26c5380c2a46dff14fded9713c29904447bb9e5aedbbeed5607231f",
+    "quote_count": 179,
+    "book_count": 7
+  },
+  {
+    "season": 2024,
+    "game": "2024_09_JAX_PHI",
+    "event_id": "ef026bf62bfb6cda42ee983680eda2d4",
+    "kickoff": "2024-11-03T21:05:00+00:00",
+    "snapshot_time": "2024-11-03T21:00:38Z",
+    "payload_sha256": "12721911cf7ba8369cc077754de01ec2e0f56d450e9ba3eb7f92d17e83383250",
+    "quote_count": 169,
+    "book_count": 7
+  },
+  {
+    "season": 2024,
+    "game": "2024_09_DET_GB",
+    "event_id": "84d2187ad0c2a42b32879d3bcbaee8dd",
+    "kickoff": "2024-11-03T21:25:00+00:00",
+    "snapshot_time": "2024-11-03T21:20:38Z",
+    "payload_sha256": "2d32e884b6539413334e4bb6c2038c2888f7e5985a18e9edd9069eb026ed69d0",
+    "quote_count": 178,
+    "book_count": 7
+  },
+  {
+    "season": 2024,
+    "game": "2024_09_LA_SEA",
+    "event_id": "8baadfa082af81fe72b1cfd941d96edf",
+    "kickoff": "2024-11-03T21:25:00+00:00",
+    "snapshot_time": "2024-11-03T21:20:38Z",
+    "payload_sha256": "ced096d1b0059414187608be12f50c7347177542ca2c08bdce92316c3ed6cb90",
+    "quote_count": 180,
+    "book_count": 7
+  },
+  {
+    "season": 2024,
+    "game": "2024_09_IND_MIN",
+    "event_id": "d555bf749139691c613e4aec350592c1",
+    "kickoff": "2024-11-04T01:20:00+00:00",
+    "snapshot_time": "2024-11-04T01:15:38Z",
+    "payload_sha256": "62cb134bb43f4173bd9ec3ca05fd280b710e0e99164579855d2892bf5f639876",
+    "quote_count": 192,
+    "book_count": 7
+  },
+  {
+    "season": 2024,
+    "game": "2024_09_TB_KC",
+    "event_id": "8f751d18969af50ec341e0b282e5b4d6",
+    "kickoff": "2024-11-05T01:15:00+00:00",
+    "snapshot_time": "2024-11-05T01:10:39Z",
+    "payload_sha256": "7e8c970ffe27dfc37a5c2d789ae1de814c8b3edceae6cebf799fe43c05784bff",
+    "quote_count": 167,
+    "book_count": 7
+  },
+  {
+    "season": 2024,
+    "game": "2024_10_CIN_BAL",
+    "event_id": "89f860b80a0c5b61375d4aa49d9ec853",
+    "kickoff": "2024-11-08T01:15:00+00:00",
+    "snapshot_time": "2024-11-08T01:10:39Z",
+    "payload_sha256": "2d26904d80440b8bdeb293e456c86638b31727ae3da03953e4d021dbb421f694",
+    "quote_count": 180,
+    "book_count": 7
+  },
+  {
+    "season": 2024,
+    "game": "2024_10_NYG_CAR",
+    "event_id": "9016850451d9e4190ec1bd178dac4849",
+    "kickoff": "2024-11-10T14:30:00+00:00",
+    "snapshot_time": "2024-11-10T14:25:37Z",
+    "payload_sha256": "e2df9dbbc418fce4c95f8415fbf01fbb8f6ffa627aa6fbcf88b4873d7897a04a",
+    "quote_count": 172,
+    "book_count": 7
+  },
+  {
+    "season": 2024,
+    "game": "2024_10_ATL_NO",
+    "event_id": "a6383a73f7e6937fcdc376b50d4dc510",
+    "kickoff": "2024-11-10T18:00:00+00:00",
+    "snapshot_time": "2024-11-10T17:55:37Z",
+    "payload_sha256": "7682608d7c1177779ba4494b9faf1c76a09ed9aec3a61e2c166cf7759c04b8cc",
+    "quote_count": 179,
+    "book_count": 7
+  },
+  {
+    "season": 2024,
+    "game": "2024_10_BUF_IND",
+    "event_id": "80899c1a82df27832eff9206d9c2ab1b",
+    "kickoff": "2024-11-10T18:00:00+00:00",
+    "snapshot_time": "2024-11-10T17:55:37Z",
+    "payload_sha256": "71f2aee5b89269a417d5edeeddfc8a0e337c56c60ca8dc216494a683eb940a06",
+    "quote_count": 185,
+    "book_count": 7
+  },
+  {
+    "season": 2024,
+    "game": "2024_10_DEN_KC",
+    "event_id": "d4901034c9f4ee931bc6971a4b089209",
+    "kickoff": "2024-11-10T18:00:00+00:00",
+    "snapshot_time": "2024-11-10T17:55:37Z",
+    "payload_sha256": "7283ad87a8175c7c28e1455f13cc728ca11dce9d09066a59333da031e248849f",
+    "quote_count": 181,
+    "book_count": 7
+  },
+  {
+    "season": 2024,
+    "game": "2024_10_MIN_JAX",
+    "event_id": "a59741270a5f21dfb288838acf98537b",
+    "kickoff": "2024-11-10T18:00:00+00:00",
+    "snapshot_time": "2024-11-10T17:55:37Z",
+    "payload_sha256": "09fe52ef348d2dc728ac07758e7798b96789708a4338b9380a2b00be0cebed49",
+    "quote_count": 186,
+    "book_count": 7
+  },
+  {
+    "season": 2024,
+    "game": "2024_10_NE_CHI",
+    "event_id": "c885c70be6b073f94096eb0db2a27c3c",
+    "kickoff": "2024-11-10T18:00:00+00:00",
+    "snapshot_time": "2024-11-10T17:55:37Z",
+    "payload_sha256": "79a27ac887c64f0def5f22622f88e56ce7d28520e0a38263edfa7a0933ceafbe",
+    "quote_count": 177,
+    "book_count": 7
+  },
+  {
+    "season": 2024,
+    "game": "2024_10_PIT_WAS",
+    "event_id": "928f8f873c2bf276d0b2a63a8f8941b4",
+    "kickoff": "2024-11-10T18:00:00+00:00",
+    "snapshot_time": "2024-11-10T17:55:37Z",
+    "payload_sha256": "4b35b1866e79b3f4c5897b301fd741de0ced2260197208ab9f88d9c951b6b19f",
+    "quote_count": 182,
+    "book_count": 7
+  },
+  {
+    "season": 2024,
+    "game": "2024_10_SF_TB",
+    "event_id": "853cc3b59ffe65a55a55d799789bc726",
+    "kickoff": "2024-11-10T18:00:00+00:00",
+    "snapshot_time": "2024-11-10T17:55:37Z",
+    "payload_sha256": "ca6068310aa0c95ade41ea9412f925fa4a976012b3c967b7069a733e4a45addd",
+    "quote_count": 189,
+    "book_count": 7
+  },
+  {
+    "season": 2024,
+    "game": "2024_10_TEN_LAC",
+    "event_id": "6214d50d3a5b442078f670ff8e08945e",
+    "kickoff": "2024-11-10T21:05:00+00:00",
+    "snapshot_time": "2024-11-10T21:00:37Z",
+    "payload_sha256": "35c53042fcf6525f00103677693ba5c8e74f93ee2efc15ef7bb6c6ad2ab072d3",
+    "quote_count": 156,
+    "book_count": 6
+  },
+  {
+    "season": 2024,
+    "game": "2024_10_NYJ_ARI",
+    "event_id": "1c2195dfc898e85136f4d40b4ac512fb",
+    "kickoff": "2024-11-10T21:25:00+00:00",
+    "snapshot_time": "2024-11-10T21:20:37Z",
+    "payload_sha256": "0b53a6ca55847717775b27794e2d640fd95a5b1b48efb10bb129007b7c8b0b6f",
+    "quote_count": 185,
+    "book_count": 7
+  },
+  {
+    "season": 2024,
+    "game": "2024_10_PHI_DAL",
+    "event_id": "776c336fae7523f356cb0cd4a32ba356",
+    "kickoff": "2024-11-10T21:25:00+00:00",
+    "snapshot_time": "2024-11-10T21:20:37Z",
+    "payload_sha256": "9484d38e80bccd6e14bceb8ae225bafe6479258772e30452dc561f62636e1fa9",
+    "quote_count": 183,
+    "book_count": 7
+  },
+  {
+    "season": 2024,
+    "game": "2024_10_DET_HOU",
+    "event_id": "e27b5c11ba461a77a8e7773b2ea30238",
+    "kickoff": "2024-11-11T01:20:00+00:00",
+    "snapshot_time": "2024-11-11T01:15:37Z",
+    "payload_sha256": "c8f40afb62a68676c4935b8b1cd8d0f5bfcac39a8d6fcb47ff7c234fdf35149c",
+    "quote_count": 177,
+    "book_count": 7
+  },
+  {
+    "season": 2024,
+    "game": "2024_10_MIA_LA",
+    "event_id": "d6eab9011bd146fdbb2639f6e8c07056",
+    "kickoff": "2024-11-12T01:15:00+00:00",
+    "snapshot_time": "2024-11-12T01:10:38Z",
+    "payload_sha256": "e1e28dd3a8574f63db7fd0abf3c74a7560690d6ce31e2e8804841e6beae8f386",
+    "quote_count": 197,
+    "book_count": 7
+  },
+  {
+    "season": 2024,
+    "game": "2024_11_WAS_PHI",
+    "event_id": "ac99fa94b66a64304ae19873d0a7907a",
+    "kickoff": "2024-11-15T01:15:00+00:00",
+    "snapshot_time": "2024-11-15T01:10:38Z",
+    "payload_sha256": "9b4ecec8b2ba3c6ad59cd72ab41d67069cd87cb7c0e55ddf88ae697c2d6dfd31",
+    "quote_count": 178,
+    "book_count": 7
+  },
+  {
+    "season": 2024,
+    "game": "2024_11_BAL_PIT",
+    "event_id": "1e5feffbcc2b9c122727b45963203298",
+    "kickoff": "2024-11-17T18:00:00+00:00",
+    "snapshot_time": "2024-11-17T17:55:38Z",
+    "payload_sha256": "f1c0d360e3b0fa4779f732b818bd6b5b5f393373bc203bf5ddd7b9d376fba265",
+    "quote_count": 192,
+    "book_count": 7
+  },
+  {
+    "season": 2024,
+    "game": "2024_11_CLE_NO",
+    "event_id": "ca63340028583e516e8053ee36318425",
+    "kickoff": "2024-11-17T18:00:00+00:00",
+    "snapshot_time": "2024-11-17T17:55:38Z",
+    "payload_sha256": "b8be2cf823761d707ca14c0f2e47d38f21522e3d032c91eb7371a80154de7625",
+    "quote_count": 171,
+    "book_count": 7
+  },
+  {
+    "season": 2024,
+    "game": "2024_11_GB_CHI",
+    "event_id": "7c742858a76089990395c3179731744b",
+    "kickoff": "2024-11-17T18:00:00+00:00",
+    "snapshot_time": "2024-11-17T17:55:38Z",
+    "payload_sha256": "711f429536d7f4cc3ea81564136bfd77db35d00ce000336f57c432bed973a2e2",
+    "quote_count": 181,
+    "book_count": 7
+  },
+  {
+    "season": 2024,
+    "game": "2024_11_IND_NYJ",
+    "event_id": "e552bfd99b12a0acd319b922f7a9fa7c",
+    "kickoff": "2024-11-17T18:00:00+00:00",
+    "snapshot_time": "2024-11-17T17:55:38Z",
+    "payload_sha256": "130740cdd41358df86c398fb89120ff758b718c5a4f1083ee4618111f836d718",
+    "quote_count": 174,
+    "book_count": 7
+  },
+  {
+    "season": 2024,
+    "game": "2024_11_JAX_DET",
+    "event_id": "d0f73537e153be7455c87ae97864ef7d",
+    "kickoff": "2024-11-17T18:00:00+00:00",
+    "snapshot_time": "2024-11-17T17:55:38Z",
+    "payload_sha256": "d560f385155ef358bf266b9a1434a207609e052060b4daf299cfbedad6ef51a7",
+    "quote_count": 175,
+    "book_count": 7
+  },
+  {
+    "season": 2024,
+    "game": "2024_11_LA_NE",
+    "event_id": "73f1d28c0bfe32a1ff292b688bb85df3",
+    "kickoff": "2024-11-17T18:00:00+00:00",
+    "snapshot_time": "2024-11-17T17:55:38Z",
+    "payload_sha256": "bfd78c0dd4a0c8a550f346c515da3fd4f22c4dd82c1c70361b4ecdddf1b23cd8",
+    "quote_count": 190,
+    "book_count": 7
+  },
+  {
+    "season": 2024,
+    "game": "2024_11_LV_MIA",
+    "event_id": "7614724acc0987e643d0a60e73167b2e",
+    "kickoff": "2024-11-17T18:00:00+00:00",
+    "snapshot_time": "2024-11-17T17:55:38Z",
+    "payload_sha256": "e23dd10172f53976c7608ff6bb1fdc99cbe4e538c809daa8396be0321167b53b",
+    "quote_count": 182,
+    "book_count": 7
+  },
+  {
+    "season": 2024,
+    "game": "2024_11_MIN_TEN",
+    "event_id": "6aa05bdde84274ea82472f0bc79baaad",
+    "kickoff": "2024-11-17T18:00:00+00:00",
+    "snapshot_time": "2024-11-17T17:55:38Z",
+    "payload_sha256": "6dd36be8454705a8a2a345b48574a1a5b2fa63aea9ceeb0d9e2d6829bfaa1e1b",
+    "quote_count": 182,
+    "book_count": 7
+  },
+  {
+    "season": 2024,
+    "game": "2024_11_ATL_DEN",
+    "event_id": "4baedb2bf9b85f9b9ec40e88bacc1792",
+    "kickoff": "2024-11-17T21:05:00+00:00",
+    "snapshot_time": "2024-11-17T21:00:38Z",
+    "payload_sha256": "b3107f45c69a6e34370f5f960d9fda2cbd4e41e689c3ee4ba9f4d4bcb002c751",
+    "quote_count": 180,
+    "book_count": 7
+  },
+  {
+    "season": 2024,
+    "game": "2024_11_SEA_SF",
+    "event_id": "cc4a0f06f87d64f4a02816ca7da514fa",
+    "kickoff": "2024-11-17T21:05:00+00:00",
+    "snapshot_time": "2024-11-17T21:00:38Z",
+    "payload_sha256": "eb3dac02a7914cd78322c69bfde1be63117210dc98f02f711e91fcea561841f5",
+    "quote_count": 180,
+    "book_count": 7
+  },
+  {
+    "season": 2024,
+    "game": "2024_11_KC_BUF",
+    "event_id": "2ac4732d168fd3fd0958719e2b11aad1",
+    "kickoff": "2024-11-17T21:25:00+00:00",
+    "snapshot_time": "2024-11-17T21:20:38Z",
+    "payload_sha256": "55207aa499ae44a83b99259489bc58dffc3eea2a735139f085cec2b4808b11fa",
+    "quote_count": 174,
+    "book_count": 7
+  },
+  {
+    "season": 2024,
+    "game": "2024_11_CIN_LAC",
+    "event_id": "a2b3fd60eede2230285512b8c3b4eed3",
+    "kickoff": "2024-11-18T01:20:00+00:00",
+    "snapshot_time": "2024-11-18T01:15:38Z",
+    "payload_sha256": "f1c8deb8f6dccb25f40db6d3e37cf4d8a3e78f9fca4e2f9c7e8ed9d7ce16796d",
+    "quote_count": 182,
+    "book_count": 7
+  },
+  {
+    "season": 2024,
+    "game": "2024_11_HOU_DAL",
+    "event_id": "81c2170ca58c6a837e5c0f1528e8513c",
+    "kickoff": "2024-11-19T01:15:00+00:00",
+    "snapshot_time": "2024-11-19T01:10:38Z",
+    "payload_sha256": "f23e44dd74acfd160f64de556907c603e60061b490aa39382c61145556330c91",
+    "quote_count": 182,
+    "book_count": 7
+  },
+  {
+    "season": 2024,
+    "game": "2024_12_PIT_CLE",
+    "event_id": "3544bdfabe61cc6d4389984a5ca83955",
+    "kickoff": "2024-11-22T01:15:00+00:00",
+    "snapshot_time": "2024-11-22T01:10:39Z",
+    "payload_sha256": "de59678b9b0b8ace9f5cfa940552bd0d402a2ec50fc5d3de4fe52732a4665667",
+    "quote_count": 180,
+    "book_count": 7
+  },
+  {
+    "season": 2024,
+    "game": "2024_12_DAL_WAS",
+    "event_id": "3c833a498591fa8934c84aa7f3215b7f",
+    "kickoff": "2024-11-24T18:00:00+00:00",
+    "snapshot_time": "2024-11-24T17:55:38Z",
+    "payload_sha256": "7e425b1153b052796d49593d09ec93f53b1ac672445567161265bb8ed57da357",
+    "quote_count": 176,
+    "book_count": 7
+  },
+  {
+    "season": 2024,
+    "game": "2024_12_DET_IND",
+    "event_id": "2f2541411e68f807dc47d527f5dd4cba",
+    "kickoff": "2024-11-24T18:00:00+00:00",
+    "snapshot_time": "2024-11-24T17:55:38Z",
+    "payload_sha256": "d9752376a14acac282a5a4d68fa4a76f19da7c13b54e961bf3c3b2a2a7a06224",
+    "quote_count": 186,
+    "book_count": 7
+  },
+  {
+    "season": 2024,
+    "game": "2024_12_KC_CAR",
+    "event_id": "2c895731f7e3bd3effe4e87779fbdcc2",
+    "kickoff": "2024-11-24T18:00:00+00:00",
+    "snapshot_time": "2024-11-24T17:55:38Z",
+    "payload_sha256": "6556513bb18e6344d8405842d4b0127ccba5f8649f2277d703a198792aa4278e",
+    "quote_count": 169,
+    "book_count": 7
+  },
+  {
+    "season": 2024,
+    "game": "2024_12_MIN_CHI",
+    "event_id": "bc6d508d57f822879df4dbc3c4465226",
+    "kickoff": "2024-11-24T18:00:00+00:00",
+    "snapshot_time": "2024-11-24T17:55:38Z",
+    "payload_sha256": "751722098aa37536e7334b62d5bb34051dd98b79c4351724c6c62f818cb6b490",
+    "quote_count": 176,
+    "book_count": 7
+  },
+  {
+    "season": 2024,
+    "game": "2024_12_NE_MIA",
+    "event_id": "366a8618003ac848eac5144aebbeace4",
+    "kickoff": "2024-11-24T18:00:00+00:00",
+    "snapshot_time": "2024-11-24T17:55:38Z",
+    "payload_sha256": "ca7f311f52c1a317c119b573ebc1d3477d47ae83f72d4c0f1da527011257233e",
+    "quote_count": 190,
+    "book_count": 7
+  },
+  {
+    "season": 2024,
+    "game": "2024_12_TB_NYG",
+    "event_id": "28c6ab7cb99a26666b9c7d649bbd46f3",
+    "kickoff": "2024-11-24T18:00:00+00:00",
+    "snapshot_time": "2024-11-24T17:55:38Z",
+    "payload_sha256": "417fe7c2a4daef156374b7ade4a41e4471d86724f7f9579b05752367f2497e1a",
+    "quote_count": 190,
+    "book_count": 7
+  },
+  {
+    "season": 2024,
+    "game": "2024_12_TEN_HOU",
+    "event_id": "56f4bfb8e21ec6003f31a080be045fc3",
+    "kickoff": "2024-11-24T18:00:00+00:00",
+    "snapshot_time": "2024-11-24T17:55:38Z",
+    "payload_sha256": "0fd3cfa5738d0a1ba2768f62fc476f8e9647c3511d9fac50a6644a2039c0a2a7",
+    "quote_count": 177,
+    "book_count": 7
+  },
+  {
+    "season": 2024,
+    "game": "2024_12_DEN_LV",
+    "event_id": "19d5cf9ece71b4671440a3b9e03942c4",
+    "kickoff": "2024-11-24T21:05:00+00:00",
+    "snapshot_time": "2024-11-24T21:00:38Z",
+    "payload_sha256": "f7d28a64b979e9d41391f33d0c92277ab49bb6c53af5ffe1d851288225f0b9c3",
+    "quote_count": 174,
+    "book_count": 7
+  },
+  {
+    "season": 2024,
+    "game": "2024_12_ARI_SEA",
+    "event_id": "d9a2e1ead2367a3b0f46d247ed5b2906",
+    "kickoff": "2024-11-24T21:25:00+00:00",
+    "snapshot_time": "2024-11-24T21:20:38Z",
+    "payload_sha256": "37c5d856684b48d5eac5badeb82a2f6c9b7897ff99840d0fe6b0add53c4bb0d8",
+    "quote_count": 185,
+    "book_count": 7
+  },
+  {
+    "season": 2024,
+    "game": "2024_12_SF_GB",
+    "event_id": "b26e961510947a770532c902ceb27e75",
+    "kickoff": "2024-11-24T21:25:00+00:00",
+    "snapshot_time": "2024-11-24T21:20:38Z",
+    "payload_sha256": "1086eb929aecf5e43f8b75ff046a1f50aaefc47a6d2f1ca557d0a6feca10ef8e",
+    "quote_count": 196,
+    "book_count": 7
+  },
+  {
+    "season": 2024,
+    "game": "2024_12_PHI_LA",
+    "event_id": "40c0ee76eb698fbd5d42139045c27c3e",
+    "kickoff": "2024-11-25T01:20:00+00:00",
+    "snapshot_time": "2024-11-25T01:15:38Z",
+    "payload_sha256": "f445974677a8e1dd8b85223bfcbcab1e3d165d7791ff7f049f7196368840b203",
+    "quote_count": 184,
+    "book_count": 7
+  },
+  {
+    "season": 2024,
+    "game": "2024_12_BAL_LAC",
+    "event_id": "887b10368f0b3f33a8c47e955736da89",
+    "kickoff": "2024-11-26T01:15:00+00:00",
+    "snapshot_time": "2024-11-26T01:10:39Z",
+    "payload_sha256": "8f285ce26dea26f7483ee29cd362ce0028b8823cb2ce84e18526807d2b259536",
+    "quote_count": 195,
+    "book_count": 7
+  },
+  {
+    "season": 2024,
+    "game": "2024_13_CHI_DET",
+    "event_id": "818a0f592da4fc2dea2a8caa3170bd6f",
+    "kickoff": "2024-11-28T17:30:00+00:00",
+    "snapshot_time": "2024-11-28T17:25:39Z",
+    "payload_sha256": "40b1c28dc7fc0522285eebbe689095ea36e758a393d08656a24bdf3dbf80cc1b",
+    "quote_count": 170,
+    "book_count": 7
+  },
+  {
+    "season": 2024,
+    "game": "2024_13_NYG_DAL",
+    "event_id": "1c53fc0f9537ba80e2c121bb58979a24",
+    "kickoff": "2024-11-28T21:30:00+00:00",
+    "snapshot_time": "2024-11-28T21:25:38Z",
+    "payload_sha256": "4786fd66f29d30134827bcdc1e138c59983a7977249a9afb6b7a74a54fd7ae11",
+    "quote_count": 188,
+    "book_count": 7
+  },
+  {
+    "season": 2024,
+    "game": "2024_13_MIA_GB",
+    "event_id": "e6b414e1b7a012e57d1a0746769f28a2",
+    "kickoff": "2024-11-29T01:20:00+00:00",
+    "snapshot_time": "2024-11-29T01:15:39Z",
+    "payload_sha256": "c9c46520a91fc2bef93bb53521da701f2b945cffacecf828582ab2a79b6d4394",
+    "quote_count": 192,
+    "book_count": 7
+  },
+  {
+    "season": 2024,
+    "game": "2024_13_LV_KC",
+    "event_id": "d703217fef577dba3f2d0c38881dd7d3",
+    "kickoff": "2024-11-29T20:00:00+00:00",
+    "snapshot_time": "2024-11-29T19:55:38Z",
+    "payload_sha256": "7699accda8f3a9f180321478680a4c8d192a45cd719cdf5fc4d2dfd5273f3a01",
+    "quote_count": 167,
+    "book_count": 7
+  },
+  {
+    "season": 2024,
+    "game": "2024_13_ARI_MIN",
+    "event_id": "2be5371e838993958fd7eb2eda6fc412",
+    "kickoff": "2024-12-01T18:00:00+00:00",
+    "snapshot_time": "2024-12-01T17:55:38Z",
+    "payload_sha256": "ca856c8536aa6f8714f694239eb9d1f5f7f5399743dfdc23cb6776bcce8dd787",
+    "quote_count": 187,
+    "book_count": 7
+  },
+  {
+    "season": 2024,
+    "game": "2024_13_HOU_JAX",
+    "event_id": "0693d63a0af985e361e21fa59fdd8bed",
+    "kickoff": "2024-12-01T18:00:00+00:00",
+    "snapshot_time": "2024-12-01T17:55:38Z",
+    "payload_sha256": "a00600924afcce1fb1cffe00c2050c57caf7896a3728c5d5672e77127b84bcf2",
+    "quote_count": 179,
+    "book_count": 7
+  },
+  {
+    "season": 2024,
+    "game": "2024_13_IND_NE",
+    "event_id": "8b7a76ee61f07cddbb60fc1e079bfeed",
+    "kickoff": "2024-12-01T18:00:00+00:00",
+    "snapshot_time": "2024-12-01T17:55:38Z",
+    "payload_sha256": "bf5823d9fe7a2c1adc48fb8789b8942a78c8e24d19b1ff518678f8f2b4409d6c",
+    "quote_count": 179,
+    "book_count": 7
+  },
+  {
+    "season": 2024,
+    "game": "2024_13_LAC_ATL",
+    "event_id": "45b543405582d30cef04650884f45c6d",
+    "kickoff": "2024-12-01T18:00:00+00:00",
+    "snapshot_time": "2024-12-01T17:55:38Z",
+    "payload_sha256": "c8c46cfbcf8c2b996f4123d4a42b9735b17d3448c01b014d6cf4de4bba4ef1bc",
+    "quote_count": 188,
+    "book_count": 7
+  },
+  {
+    "season": 2024,
+    "game": "2024_13_PIT_CIN",
+    "event_id": "041764a17c3ecb1fccd45fc75b7a2b49",
+    "kickoff": "2024-12-01T18:00:00+00:00",
+    "snapshot_time": "2024-12-01T17:55:38Z",
+    "payload_sha256": "d5c08d1b47418a9ddda07b5e4295686b46b4cbbbb4b3c9788c1edeb14a2595d8",
+    "quote_count": 181,
+    "book_count": 7
+  },
+  {
+    "season": 2024,
+    "game": "2024_13_SEA_NYJ",
+    "event_id": "63057e9eb2da9cc89ac93911769b9a3e",
+    "kickoff": "2024-12-01T18:00:00+00:00",
+    "snapshot_time": "2024-12-01T17:55:38Z",
+    "payload_sha256": "e0be71f04ec2d2b9d564384c14b58200c23cef59275401a26b8802f6f2d7013d",
+    "quote_count": 189,
+    "book_count": 7
+  },
+  {
+    "season": 2024,
+    "game": "2024_13_TEN_WAS",
+    "event_id": "cea1abe8ef88e4105f4cd505b45cd781",
+    "kickoff": "2024-12-01T18:00:00+00:00",
+    "snapshot_time": "2024-12-01T17:55:38Z",
+    "payload_sha256": "e9e8f123c8b570818a2554b36557261377a6e9dfda87ad2cab44decd3bf97107",
+    "quote_count": 171,
+    "book_count": 7
+  },
+  {
+    "season": 2024,
+    "game": "2024_13_LA_NO",
+    "event_id": "9dcbd3e2d022d7ed1ef1e0e7f8b08f2b",
+    "kickoff": "2024-12-01T21:05:00+00:00",
+    "snapshot_time": "2024-12-01T21:00:37Z",
+    "payload_sha256": "f1a50bb8820591b4f33a6db9cf2c8415f61730293810ba37c7359f9bbf4847b3",
+    "quote_count": 186,
+    "book_count": 7
+  },
+  {
+    "season": 2024,
+    "game": "2024_13_TB_CAR",
+    "event_id": "59ffd762ad2b5d96196f4f58037ab670",
+    "kickoff": "2024-12-01T21:05:00+00:00",
+    "snapshot_time": "2024-12-01T21:00:37Z",
+    "payload_sha256": "e3a5c8658d45fcfacf6180adc41439489a2469d5d1c0b8208fba26f3c1d024ef",
+    "quote_count": 182,
+    "book_count": 7
+  },
+  {
+    "season": 2024,
+    "game": "2024_13_PHI_BAL",
+    "event_id": "afa7eb720baa94269de839965e41b8b3",
+    "kickoff": "2024-12-01T21:25:00+00:00",
+    "snapshot_time": "2024-12-01T21:20:39Z",
+    "payload_sha256": "b73500031ded238889dd9a541370eb24581ec77c83b427a60602eec6ad05f7b6",
+    "quote_count": 165,
+    "book_count": 7
+  },
+  {
+    "season": 2024,
+    "game": "2024_13_SF_BUF",
+    "event_id": "31557235498f42eeba725001c12c97ff",
+    "kickoff": "2024-12-02T01:20:00+00:00",
+    "snapshot_time": "2024-12-02T01:15:37Z",
+    "payload_sha256": "b5d7216b671bee198cae76037e816b99416033e27209087a274890c88288e521",
+    "quote_count": 192,
+    "book_count": 7
+  },
+  {
+    "season": 2024,
+    "game": "2024_13_CLE_DEN",
+    "event_id": "e73de417d2fd01292ed12cea2a906903",
+    "kickoff": "2024-12-03T01:15:00+00:00",
+    "snapshot_time": "2024-12-03T01:10:38Z",
+    "payload_sha256": "074158cc9488bdce60d7d647815b33ab24bdca4cdfe39e57f36e25c170b03be5",
+    "quote_count": 184,
+    "book_count": 7
+  },
+  {
+    "season": 2024,
+    "game": "2024_14_GB_DET",
+    "event_id": "e0b1a11b515324fa603bb16ff278dcbf",
+    "kickoff": "2024-12-06T01:15:00+00:00",
+    "snapshot_time": "2024-12-06T01:10:38Z",
+    "payload_sha256": "8e923304933547d077ee1c7f1b208a0f166b2d533521a012447aaa76aa1a4996",
+    "quote_count": 182,
+    "book_count": 7
+  },
+  {
+    "season": 2024,
+    "game": "2024_14_ATL_MIN",
+    "event_id": "c14dd2e8bf469a6736f73be3c28706e8",
+    "kickoff": "2024-12-08T18:00:00+00:00",
+    "snapshot_time": "2024-12-08T17:55:38Z",
+    "payload_sha256": "6cc4931c28a4b43de618adcf070b46dcc23ed2ed6f006bdde1ea0a5a0b341ded",
+    "quote_count": 181,
+    "book_count": 7
+  },
+  {
+    "season": 2024,
+    "game": "2024_14_CAR_PHI",
+    "event_id": "757ca79be58cadb6fece7718e6e260a2",
+    "kickoff": "2024-12-08T18:00:00+00:00",
+    "snapshot_time": "2024-12-08T17:55:38Z",
+    "payload_sha256": "a43159b34829a552495bc04bb065c52b4784c425ed6c0b91b191d494ffd2919e",
+    "quote_count": 176,
+    "book_count": 7
+  },
+  {
+    "season": 2024,
+    "game": "2024_14_CLE_PIT",
+    "event_id": "7ae6be20a581839e77dd6b3f4eab564b",
+    "kickoff": "2024-12-08T18:00:00+00:00",
+    "snapshot_time": "2024-12-08T17:55:38Z",
+    "payload_sha256": "4d78481237f84ae94587d7b2aeae6328e1c22a174f8959bfad5607ed853f5a8e",
+    "quote_count": 184,
+    "book_count": 7
+  },
+  {
+    "season": 2024,
+    "game": "2024_14_JAX_TEN",
+    "event_id": "7d1198f17462901352e686d8d9515232",
+    "kickoff": "2024-12-08T18:00:00+00:00",
+    "snapshot_time": "2024-12-08T17:55:38Z",
+    "payload_sha256": "65a0aa56b88c08d8ade191952f55eb18c3f88b5636733c3ed2e76ac8ac7383d5",
+    "quote_count": 179,
+    "book_count": 7
+  },
+  {
+    "season": 2024,
+    "game": "2024_14_LV_TB",
+    "event_id": "48859a2a659fe2dd71db168127a01b13",
+    "kickoff": "2024-12-08T18:00:00+00:00",
+    "snapshot_time": "2024-12-08T17:55:38Z",
+    "payload_sha256": "07af79bcd77cf9fa0157fdf6bd99152bec199eab9fcbe5f3a64e6adf8f2b3e05",
+    "quote_count": 186,
+    "book_count": 7
+  },
+  {
+    "season": 2024,
+    "game": "2024_14_NO_NYG",
+    "event_id": "20f2d85ab93463d3c7dbe2573da7f892",
+    "kickoff": "2024-12-08T18:00:00+00:00",
+    "snapshot_time": "2024-12-08T17:55:38Z",
+    "payload_sha256": "6d666ca8d6ecc46d1efdad3b1855ecb21944fb365c9bc4242b3d7dfd4f1c7777",
+    "quote_count": 185,
+    "book_count": 7
+  },
+  {
+    "season": 2024,
+    "game": "2024_14_NYJ_MIA",
+    "event_id": "b8419de1f0e84d8b18da62151ab69596",
+    "kickoff": "2024-12-08T18:00:00+00:00",
+    "snapshot_time": "2024-12-08T17:55:38Z",
+    "payload_sha256": "3d033b60e7ca9802283fa7c27b5081864a747c95b656a3c6429f16b5930aa7bb",
+    "quote_count": 190,
+    "book_count": 7
+  },
+  {
+    "season": 2024,
+    "game": "2024_14_SEA_ARI",
+    "event_id": "8c7efb50e0c8c9be94e7b969c58da045",
+    "kickoff": "2024-12-08T21:05:00+00:00",
+    "snapshot_time": "2024-12-08T21:00:38Z",
+    "payload_sha256": "6f6707081b54228deff6075edb930cf13e1dd333f4a9b3ca986414c501fdda62",
+    "quote_count": 195,
+    "book_count": 7
+  },
+  {
+    "season": 2024,
+    "game": "2024_14_BUF_LA",
+    "event_id": "5188cb03fd7577d7448874486c26dccb",
+    "kickoff": "2024-12-08T21:25:00+00:00",
+    "snapshot_time": "2024-12-08T21:20:37Z",
+    "payload_sha256": "3af045f05b3554348aebd25d7274fae60a8ab5ff3ed36aea97e8a68bd2abfd52",
+    "quote_count": 190,
+    "book_count": 7
+  },
+  {
+    "season": 2024,
+    "game": "2024_14_CHI_SF",
+    "event_id": "57e91ca052d9484f67f83308f3fb7f65",
+    "kickoff": "2024-12-08T21:25:00+00:00",
+    "snapshot_time": "2024-12-08T21:20:37Z",
+    "payload_sha256": "1b2650d2d41dac07ac006094c2ed7e4cdcf51a3c00b7d037bc3dfa0cbafe1092",
+    "quote_count": 183,
+    "book_count": 7
+  },
+  {
+    "season": 2024,
+    "game": "2024_14_LAC_KC",
+    "event_id": "c70e1ecbef22c98419d4707199d050af",
+    "kickoff": "2024-12-09T01:20:00+00:00",
+    "snapshot_time": "2024-12-09T01:15:38Z",
+    "payload_sha256": "b574e01b21f2ef45068f6dd718ed1df1aba9f0fa35f8f5a8fbb3709fbd5db94c",
+    "quote_count": 189,
+    "book_count": 7
+  },
+  {
+    "season": 2024,
+    "game": "2024_14_CIN_DAL",
+    "event_id": "2fd335893dbb8ab9c0e1aea6c98a969c",
+    "kickoff": "2024-12-10T01:15:00+00:00",
+    "snapshot_time": "2024-12-10T01:10:38Z",
+    "payload_sha256": "cfe668f268dd06830c396987191c2018fba6f0a7544be4fc437fdaf0388aac82",
+    "quote_count": 199,
+    "book_count": 7
+  },
+  {
+    "season": 2024,
+    "game": "2024_15_LA_SF",
+    "event_id": "b89ffb3a984d693fd6e69cdc3f2d585a",
+    "kickoff": "2024-12-13T01:15:00+00:00",
+    "snapshot_time": "2024-12-13T01:10:38Z",
+    "payload_sha256": "71cf43cd0af28642a4b00182c872299d97def5f2b84a63f629a141856121361b",
+    "quote_count": 197,
+    "book_count": 7
+  },
+  {
+    "season": 2024,
+    "game": "2024_15_BAL_NYG",
+    "event_id": "5b0eca40563ea0d05181677441c3c0bc",
+    "kickoff": "2024-12-15T18:00:00+00:00",
+    "snapshot_time": "2024-12-15T17:55:37Z",
+    "payload_sha256": "3a0637672828dcc833273aa57892485b50a363859a33c6da45a02cda5036d087",
+    "quote_count": 173,
+    "book_count": 7
+  },
+  {
+    "season": 2024,
+    "game": "2024_15_CIN_TEN",
+    "event_id": "f6d5d91ea4480042265698647a6120f6",
+    "kickoff": "2024-12-15T18:00:00+00:00",
+    "snapshot_time": "2024-12-15T17:55:37Z",
+    "payload_sha256": "d05ae217e5d57fa621d4b1c3b08574df016e65edbf402a887c087e651127518f",
+    "quote_count": 188,
+    "book_count": 7
+  },
+  {
+    "season": 2024,
+    "game": "2024_15_DAL_CAR",
+    "event_id": "5e028b3e2019613c56d3431d4e04e46d",
+    "kickoff": "2024-12-15T18:00:00+00:00",
+    "snapshot_time": "2024-12-15T17:55:37Z",
+    "payload_sha256": "d9051f29fe4de6b048bc13e0948ba47bde9e38e124f171221729c52b2663c699",
+    "quote_count": 156,
+    "book_count": 6
+  },
+  {
+    "season": 2024,
+    "game": "2024_15_KC_CLE",
+    "event_id": "9db2aef33225a4bda04bbc7c33e50e63",
+    "kickoff": "2024-12-15T18:00:00+00:00",
+    "snapshot_time": "2024-12-15T17:55:37Z",
+    "payload_sha256": "03099eb3bcaab03120ee14204e4ea02d5929a218602174b675c2ecb4998793d2",
+    "quote_count": 169,
+    "book_count": 7
+  },
+  {
+    "season": 2024,
+    "game": "2024_15_MIA_HOU",
+    "event_id": "79eb6a96467e443fcd884f1aab38fb40",
+    "kickoff": "2024-12-15T18:00:00+00:00",
+    "snapshot_time": "2024-12-15T17:55:37Z",
+    "payload_sha256": "f2eb838f54e6b88dd51d1714a66836270956edb57ceba788fa7d6b77b6621128",
+    "quote_count": 174,
+    "book_count": 7
+  },
+  {
+    "season": 2024,
+    "game": "2024_15_NYJ_JAX",
+    "event_id": "7b58ba499776572737bf4335349ee5ca",
+    "kickoff": "2024-12-15T18:00:00+00:00",
+    "snapshot_time": "2024-12-15T17:55:37Z",
+    "payload_sha256": "830c394808f656b2417c89acbb151a6a9739d5f9e6f8867587bcf20b51ae3042",
+    "quote_count": 160,
+    "book_count": 7
+  },
+  {
+    "season": 2024,
+    "game": "2024_15_WAS_NO",
+    "event_id": "3b7db9e7d8af9f357fa301fb43f2e6af",
+    "kickoff": "2024-12-15T18:00:00+00:00",
+    "snapshot_time": "2024-12-15T17:55:37Z",
+    "payload_sha256": "ba5b34b097cf68e980d16ca689af2e9fc0284068910c84ee128f7cb224bc8ff1",
+    "quote_count": 175,
+    "book_count": 7
+  },
+  {
+    "season": 2024,
+    "game": "2024_15_BUF_DET",
+    "event_id": "f3d85c6f4152c6f9c28df5332d7d01ae",
+    "kickoff": "2024-12-15T21:25:00+00:00",
+    "snapshot_time": "2024-12-15T21:20:37Z",
+    "payload_sha256": "2263eb5c421f8c90f169f7158aa7ab838f9c944b631071ed3ea10ac4486a217a",
+    "quote_count": 190,
+    "book_count": 7
+  },
+  {
+    "season": 2024,
+    "game": "2024_15_IND_DEN",
+    "event_id": "f3f5d87420f5bc34d3affc8f44a1c934",
+    "kickoff": "2024-12-15T21:25:00+00:00",
+    "snapshot_time": "2024-12-15T21:20:37Z",
+    "payload_sha256": "ce233ff9d8715d6e82d0a27ec81b90873f4e2e5cf8e9d9998e1db400d2e3f320",
+    "quote_count": 188,
+    "book_count": 7
+  },
+  {
+    "season": 2024,
+    "game": "2024_15_NE_ARI",
+    "event_id": "c562ac548944fe897e62f4a142de4d54",
+    "kickoff": "2024-12-15T21:25:00+00:00",
+    "snapshot_time": "2024-12-15T21:20:37Z",
+    "payload_sha256": "d6bd5d2d986e7f6b4c25e0f5e074eb292011502df445bb2ea687aa28393007da",
+    "quote_count": 145,
+    "book_count": 6
+  },
+  {
+    "season": 2024,
+    "game": "2024_15_PIT_PHI",
+    "event_id": "9cec3324e93aa4ece67f4ed4447bc212",
+    "kickoff": "2024-12-15T21:25:00+00:00",
+    "snapshot_time": "2024-12-15T21:20:37Z",
+    "payload_sha256": "2ed476d533635d865abd22308fa83d384bcb0f9dd2a494dacf7a8d88bac11325",
+    "quote_count": 190,
+    "book_count": 7
+  },
+  {
+    "season": 2024,
+    "game": "2024_15_TB_LAC",
+    "event_id": "531a7692ed7474109ad7d6e331751234",
+    "kickoff": "2024-12-15T21:25:00+00:00",
+    "snapshot_time": "2024-12-15T21:20:37Z",
+    "payload_sha256": "54f78993e93b78ee8a0775c396a854d835320c37420ddd17cb40355436291a7f",
+    "quote_count": 178,
+    "book_count": 7
+  },
+  {
+    "season": 2024,
+    "game": "2024_15_GB_SEA",
+    "event_id": "d6e49bbdc498fb1113b86f472f93d8af",
+    "kickoff": "2024-12-16T01:20:00+00:00",
+    "snapshot_time": "2024-12-16T01:15:37Z",
+    "payload_sha256": "497f0aab600b32566bcd128578e9276c7b11aa1d887a274b6fc2b8980457c564",
+    "quote_count": 157,
+    "book_count": 6
+  },
+  {
+    "season": 2024,
+    "game": "2024_15_CHI_MIN",
+    "event_id": "307cc09543c511d894a76fef99e429bb",
+    "kickoff": "2024-12-17T01:00:00+00:00",
+    "snapshot_time": "2024-12-17T00:55:38Z",
+    "payload_sha256": "401bfde142e2589f875165d6111589f498cd74c73fc2362a4ed6ee8283c74e18",
+    "quote_count": 176,
+    "book_count": 7
+  },
+  {
+    "season": 2024,
+    "game": "2024_15_ATL_LV",
+    "event_id": "b72078945287a94944a0ffefcd09c42c",
+    "kickoff": "2024-12-17T01:30:00+00:00",
+    "snapshot_time": "2024-12-17T01:25:38Z",
+    "payload_sha256": "e496d813aa31b131d77a78d4cdfe0a71c7716ff4103b3b3b920b0fa8a6057d9c",
+    "quote_count": 171,
+    "book_count": 7
+  },
+  {
+    "season": 2024,
+    "game": "2024_16_DEN_LAC",
+    "event_id": "a9bf9c4e9be5107617933461faf7f382",
+    "kickoff": "2024-12-20T01:15:00+00:00",
+    "snapshot_time": "2024-12-20T01:10:38Z",
+    "payload_sha256": "c6c922250fb7929ef02d3fcd9b86ac1eb8c788c296b7f85895dc372589e01ae9",
+    "quote_count": 157,
+    "book_count": 6
+  },
+  {
+    "season": 2024,
+    "game": "2024_16_HOU_KC",
+    "event_id": "5000078dc935bf60015a51c01eaee016",
+    "kickoff": "2024-12-21T18:00:00+00:00",
+    "snapshot_time": "2024-12-21T17:55:38Z",
+    "payload_sha256": "03975466c15c7a25773942dfaaeb6ae5f98deb7ff41660d509df78079d157cb6",
+    "quote_count": 179,
+    "book_count": 7
+  },
+  {
+    "season": 2024,
+    "game": "2024_16_PIT_BAL",
+    "event_id": "77184e40f6e14084fd2c378c157640b8",
+    "kickoff": "2024-12-21T21:30:00+00:00",
+    "snapshot_time": "2024-12-21T21:25:38Z",
+    "payload_sha256": "5862ba59175974db4ae51ecd63c6ef683ccc1cb297d98b5becd3654998ffe042",
+    "quote_count": 170,
+    "book_count": 7
+  },
+  {
+    "season": 2024,
+    "game": "2024_16_ARI_CAR",
+    "event_id": "36091a3b07686b0c7c912d4d4a244474",
+    "kickoff": "2024-12-22T18:00:00+00:00",
+    "snapshot_time": "2024-12-22T17:55:38Z",
+    "payload_sha256": "31d1d0acdf36704d66574d318ce2b8626426ccd27d53b07c0004dbacfb267d6b",
+    "quote_count": 166,
+    "book_count": 7
+  },
+  {
+    "season": 2024,
+    "game": "2024_16_CLE_CIN",
+    "event_id": "134659e6aca5f32ceb1392398557953b",
+    "kickoff": "2024-12-22T18:00:00+00:00",
+    "snapshot_time": "2024-12-22T17:55:38Z",
+    "payload_sha256": "d0fe5c1f95f10b68f7eb2915e9a9a708f0d4f40054bdc06d1b08688631ad3498",
+    "quote_count": 174,
+    "book_count": 7
+  },
+  {
+    "season": 2024,
+    "game": "2024_16_DET_CHI",
+    "event_id": "534fd9bc355dbfa4d35156e6d59e3913",
+    "kickoff": "2024-12-22T18:00:00+00:00",
+    "snapshot_time": "2024-12-22T17:55:38Z",
+    "payload_sha256": "2b0d11a514693a6ac877259d4ed9a60501e5c7b951991344c0771a8a39e84546",
+    "quote_count": 169,
+    "book_count": 7
+  },
+  {
+    "season": 2024,
+    "game": "2024_16_LA_NYJ",
+    "event_id": "d9ace22fff68cd1916da62a70491e424",
+    "kickoff": "2024-12-22T18:00:00+00:00",
+    "snapshot_time": "2024-12-22T17:55:38Z",
+    "payload_sha256": "e20b8708116480ea5afebf97683d8e2d2b7dd2569e60d3a54f7910df3f55f4e9",
+    "quote_count": 179,
+    "book_count": 7
+  },
+  {
+    "season": 2024,
+    "game": "2024_16_NYG_ATL",
+    "event_id": "9c6ae1f00e07b696e2dd19a0efb7be8f",
+    "kickoff": "2024-12-22T18:00:00+00:00",
+    "snapshot_time": "2024-12-22T17:55:38Z",
+    "payload_sha256": "931c9299292cc579b2b2726f064279e3635c96d06800f523b8eb5590c256049e",
+    "quote_count": 178,
+    "book_count": 7
+  },
+  {
+    "season": 2024,
+    "game": "2024_16_PHI_WAS",
+    "event_id": "7f9202e3018e484a3f30bc99422776fa",
+    "kickoff": "2024-12-22T18:00:00+00:00",
+    "snapshot_time": "2024-12-22T17:55:38Z",
+    "payload_sha256": "0f9a898e2711cdc5b43bc9460c0a518381f21c40ff82404ea3f9609e610fe8f7",
+    "quote_count": 177,
+    "book_count": 7
+  },
+  {
+    "season": 2024,
+    "game": "2024_16_TEN_IND",
+    "event_id": "f03bb31e9ff7b81ad1e18e36b7cdddb7",
+    "kickoff": "2024-12-22T18:00:00+00:00",
+    "snapshot_time": "2024-12-22T17:55:38Z",
+    "payload_sha256": "8395c0b30294adaaaf1aa200bd198a68a0851ab7d80a4de363ccc577bc7adcb5",
+    "quote_count": 186,
+    "book_count": 7
+  },
+  {
+    "season": 2024,
+    "game": "2024_16_MIN_SEA",
+    "event_id": "87ed34522672eabe6cb5b85c34c4e8ce",
+    "kickoff": "2024-12-22T21:05:00+00:00",
+    "snapshot_time": "2024-12-22T21:00:37Z",
+    "payload_sha256": "e6da12d4af2f3663517b370185643719d30c572293a779ac9ca24703a61147b6",
+    "quote_count": 161,
+    "book_count": 6
+  },
+  {
+    "season": 2024,
+    "game": "2024_16_JAX_LV",
+    "event_id": "d93e285150cc30bb71e930879219d26e",
+    "kickoff": "2024-12-22T21:25:00+00:00",
+    "snapshot_time": "2024-12-22T21:20:37Z",
+    "payload_sha256": "7ce66066c343b862549e6417f2bf1ce951d63fc2ffe6d36d33dfea897c4d7533",
+    "quote_count": 181,
+    "book_count": 7
+  },
+  {
+    "season": 2024,
+    "game": "2024_16_NE_BUF",
+    "event_id": "987be0b1af962f068e2928a9067998c9",
+    "kickoff": "2024-12-22T21:25:00+00:00",
+    "snapshot_time": "2024-12-22T21:20:37Z",
+    "payload_sha256": "91cba459c0cf011f0d8595009b72d06b589c01baada7019c795497d0c273dd9c",
+    "quote_count": 176,
+    "book_count": 7
+  },
+  {
+    "season": 2024,
+    "game": "2024_16_SF_MIA",
+    "event_id": "b0e2f4e7023b4f29ca1e1e64f93726f2",
+    "kickoff": "2024-12-22T21:25:00+00:00",
+    "snapshot_time": "2024-12-22T21:20:37Z",
+    "payload_sha256": "277d50b9ea16307a0f0d8f6a0b44d699e3034b39c9f5d2f48744099ba008d015",
+    "quote_count": 181,
+    "book_count": 7
+  },
+  {
+    "season": 2024,
+    "game": "2024_16_TB_DAL",
+    "event_id": "beea49da0ca78cc5636fa84188603fa0",
+    "kickoff": "2024-12-23T01:20:00+00:00",
+    "snapshot_time": "2024-12-23T01:15:37Z",
+    "payload_sha256": "26211e8dd2337cc88e89aa140fff0b6457c873532f139746900857ce4639bc3c",
+    "quote_count": 188,
+    "book_count": 7
+  },
+  {
+    "season": 2024,
+    "game": "2024_16_NO_GB",
+    "event_id": "14c12ef82be07b0dc984dd20d477bb8f",
+    "kickoff": "2024-12-24T01:15:00+00:00",
+    "snapshot_time": "2024-12-24T01:10:38Z",
+    "payload_sha256": "6311293b0993d588c8bcaee76e7c2186252e8bd9c85e1ebb2db2028c22ee5e71",
+    "quote_count": 178,
+    "book_count": 7
+  },
+  {
+    "season": 2024,
+    "game": "2024_17_KC_PIT",
+    "event_id": "ce94e5673c8b7a0834f1948f1c5f52c7",
+    "kickoff": "2024-12-25T18:00:00+00:00",
+    "snapshot_time": "2024-12-25T17:55:38Z",
+    "payload_sha256": "a4c3dcedc281c90a0220e6c989691436fffc5fcb96a1d5061c77e4d6642f3fca",
+    "quote_count": 199,
+    "book_count": 7
+  },
+  {
+    "season": 2024,
+    "game": "2024_17_BAL_HOU",
+    "event_id": "adf41cffa9d818a982d19273df911106",
+    "kickoff": "2024-12-25T21:30:00+00:00",
+    "snapshot_time": "2024-12-25T21:25:37Z",
+    "payload_sha256": "302d6dc219f94c324dfa44d81e701e876cc13a920a55df94b8d20b27032d23c4",
+    "quote_count": 181,
+    "book_count": 7
+  },
+  {
+    "season": 2024,
+    "game": "2024_17_SEA_CHI",
+    "event_id": "1cc92f3601760bad475efd70d52ca482",
+    "kickoff": "2024-12-27T01:15:00+00:00",
+    "snapshot_time": "2024-12-27T01:10:38Z",
+    "payload_sha256": "51083085dc29add9e0fc3e97200ca4b2052556d78f8b74b7ae6fceb9acdd9e90",
+    "quote_count": 177,
+    "book_count": 7
+  },
+  {
+    "season": 2024,
+    "game": "2024_17_LAC_NE",
+    "event_id": "1bccaf2a9388f9d02f8f0c23cbc6b121",
+    "kickoff": "2024-12-28T18:00:00+00:00",
+    "snapshot_time": "2024-12-28T17:55:38Z",
+    "payload_sha256": "17c916bdbe62bca42a71ee6e9cb077f269d0c9d80c5eaefef2c309f6a0ab6ce8",
+    "quote_count": 164,
+    "book_count": 7
+  },
+  {
+    "season": 2024,
+    "game": "2024_17_DEN_CIN",
+    "event_id": "aa15f18a1c3124af14045b32185ff166",
+    "kickoff": "2024-12-28T21:30:00+00:00",
+    "snapshot_time": "2024-12-28T21:25:38Z",
+    "payload_sha256": "0bd354da623813b985532fc7cec5b8005bbe8c39cbd731e0cbe818d72abc2a2b",
+    "quote_count": 190,
+    "book_count": 7
+  },
+  {
+    "season": 2024,
+    "game": "2024_17_ARI_LA",
+    "event_id": "8297b863d5f355bd3127adf93cf196a7",
+    "kickoff": "2024-12-29T01:15:00+00:00",
+    "snapshot_time": "2024-12-29T01:10:38Z",
+    "payload_sha256": "11a0100032d2fb6fdb7494998435290d6d5c56a0aaf3dc1fc3f9318237444cbd",
+    "quote_count": 187,
+    "book_count": 7
+  },
+  {
+    "season": 2024,
+    "game": "2024_17_CAR_TB",
+    "event_id": "cb4060acc9d027ca0069619ef9983415",
+    "kickoff": "2024-12-29T18:00:00+00:00",
+    "snapshot_time": "2024-12-29T17:55:37Z",
+    "payload_sha256": "df55e783f01bb004ddcad584f9a7ed29c90e05a31ad01a046f87b5888e2dafbf",
+    "quote_count": 138,
+    "book_count": 6
+  },
+  {
+    "season": 2024,
+    "game": "2024_17_DAL_PHI",
+    "event_id": "d91d050a1528e77a870d681bbe42f514",
+    "kickoff": "2024-12-29T18:00:00+00:00",
+    "snapshot_time": "2024-12-29T17:55:37Z",
+    "payload_sha256": "73a87c9735fbc76ecac34809b30d7a18fd1164277b638651cec450a6e48da43f",
+    "quote_count": 182,
+    "book_count": 7
+  },
+  {
+    "season": 2024,
+    "game": "2024_17_IND_NYG",
+    "event_id": "0ce683697325d7715a78889240d82cc7",
+    "kickoff": "2024-12-29T18:00:00+00:00",
+    "snapshot_time": "2024-12-29T17:55:37Z",
+    "payload_sha256": "bb3777d743b2cff5ad34b0b6e62a82552a381e1ca6ad66dec16553493d6c6747",
+    "quote_count": 182,
+    "book_count": 7
+  },
+  {
+    "season": 2024,
+    "game": "2024_17_LV_NO",
+    "event_id": "398f58cef1cbb3c99805b52375104238",
+    "kickoff": "2024-12-29T18:00:00+00:00",
+    "snapshot_time": "2024-12-29T17:55:37Z",
+    "payload_sha256": "483bba4a64acc538649226d66c7e44679f5968fdffa1908d2c7e84b64ed05923",
+    "quote_count": 172,
+    "book_count": 7
+  },
+  {
+    "season": 2024,
+    "game": "2024_17_NYJ_BUF",
+    "event_id": "eb5a71180b3558fdc20a896e98c00385",
+    "kickoff": "2024-12-29T18:00:00+00:00",
+    "snapshot_time": "2024-12-29T17:55:37Z",
+    "payload_sha256": "fdc072aee138ba6007ac1cb34878f8c46285404b5637740d70067f5b713a3759",
+    "quote_count": 179,
+    "book_count": 7
+  },
+  {
+    "season": 2024,
+    "game": "2024_17_TEN_JAX",
+    "event_id": "68e8e424d470fb6d60f1b2f0a3f3d1e3",
+    "kickoff": "2024-12-29T18:00:00+00:00",
+    "snapshot_time": "2024-12-29T17:55:37Z",
+    "payload_sha256": "a5a635a58306afaf69e3e8c7f43e20c879f0aedebc3a3215b2daa326ccdcaa24",
+    "quote_count": 180,
+    "book_count": 7
+  },
+  {
+    "season": 2024,
+    "game": "2024_17_MIA_CLE",
+    "event_id": "7c63b1e23a0c65ee07312131e1b7be7e",
+    "kickoff": "2024-12-29T21:05:00+00:00",
+    "snapshot_time": "2024-12-29T21:00:37Z",
+    "payload_sha256": "98ba72b7e7aa24ca9e65ac04b3c9c8bb41017418125d2725d00adbf1d1b12949",
+    "quote_count": 173,
+    "book_count": 7
+  },
+  {
+    "season": 2024,
+    "game": "2024_17_GB_MIN",
+    "event_id": "c6aa971def88c7d2127d05ace3a8e643",
+    "kickoff": "2024-12-29T21:25:00+00:00",
+    "snapshot_time": "2024-12-29T21:20:37Z",
+    "payload_sha256": "0e038bf4045c693975594508af69965d9e22f2a8e3df45b48c8f0ff828821425",
+    "quote_count": 187,
+    "book_count": 7
+  },
+  {
+    "season": 2024,
+    "game": "2024_17_ATL_WAS",
+    "event_id": "5f99b5d40cf65d48be81c3812cd1e95e",
+    "kickoff": "2024-12-30T01:20:00+00:00",
+    "snapshot_time": "2024-12-30T01:15:37Z",
+    "payload_sha256": "bc445c45645103032a8ed545e8e60ccaf4472e625ce0f820383bacd917528d2a",
+    "quote_count": 171,
+    "book_count": 7
+  },
+  {
+    "season": 2024,
+    "game": "2024_17_DET_SF",
+    "event_id": "987f7eb725e6a3937511b6c60dee5f18",
+    "kickoff": "2024-12-31T01:15:00+00:00",
+    "snapshot_time": "2024-12-31T01:10:38Z",
+    "payload_sha256": "65cf4d24369ff2be78fd5aba98385c89d4f780309db1da9257b9c72db7be86bc",
+    "quote_count": 178,
+    "book_count": 7
+  },
+  {
+    "season": 2024,
+    "game": "2024_18_CLE_BAL",
+    "event_id": "15a56f0e44d8fdb660a6a0aed2449e4b",
+    "kickoff": "2025-01-04T21:30:00+00:00",
+    "snapshot_time": "2025-01-04T21:25:38Z",
+    "payload_sha256": "8b39f6a4170cb1a351f07cebe3292016337b68d5dc46edb6c514101a6a988810",
+    "quote_count": 168,
+    "book_count": 7
+  },
+  {
+    "season": 2024,
+    "game": "2024_18_CIN_PIT",
+    "event_id": "68aa07e4336438b1f2f5a4dfb82fe9cc",
+    "kickoff": "2025-01-05T01:00:00+00:00",
+    "snapshot_time": "2025-01-05T00:55:38Z",
+    "payload_sha256": "2e371df31cfa0552755747e9dc7fd9ca4af0852e95a47f1d1fa191036f867473",
+    "quote_count": 176,
+    "book_count": 7
+  },
+  {
+    "season": 2024,
+    "game": "2024_18_BUF_NE",
+    "event_id": "a578e4a27a55666b1043c20dbb3d74cd",
+    "kickoff": "2025-01-05T18:00:00+00:00",
+    "snapshot_time": "2025-01-05T17:55:38Z",
+    "payload_sha256": "2e093631ba18404e76d4b19da5340e6e2607635469aa180daca490f08a17f84f",
+    "quote_count": 136,
+    "book_count": 6
+  },
+  {
+    "season": 2024,
+    "game": "2024_18_CAR_ATL",
+    "event_id": "4da44c8ba4e595d3fe313cbeb1fe797b",
+    "kickoff": "2025-01-05T18:00:00+00:00",
+    "snapshot_time": "2025-01-05T17:55:38Z",
+    "payload_sha256": "a2dd4fae6685b9d4847a8657b1178d8b329a073b18ae4510c6c012363d2d2d51",
+    "quote_count": 169,
+    "book_count": 7
+  },
+  {
+    "season": 2024,
+    "game": "2024_18_CHI_GB",
+    "event_id": "d2e5d211cba187e5865c9783f3db5288",
+    "kickoff": "2025-01-05T18:00:00+00:00",
+    "snapshot_time": "2025-01-05T17:55:38Z",
+    "payload_sha256": "da4430875efc238bbe150de039f27a70033523225a21130ec42ae0e4393f9beb",
+    "quote_count": 134,
+    "book_count": 6
+  },
+  {
+    "season": 2024,
+    "game": "2024_18_HOU_TEN",
+    "event_id": "b1d966863dd3f4c8fc78180f63a20a2f",
+    "kickoff": "2025-01-05T18:00:00+00:00",
+    "snapshot_time": "2025-01-05T17:55:38Z",
+    "payload_sha256": "739c78390b8df8b9d02cfa75d35588b40dca3a823cf6e262e1a3538a9231add6",
+    "quote_count": 118,
+    "book_count": 6
+  },
+  {
+    "season": 2024,
+    "game": "2024_18_JAX_IND",
+    "event_id": "ec3a43f544c27aba390eea6b4f1bb55a",
+    "kickoff": "2025-01-05T18:00:00+00:00",
+    "snapshot_time": "2025-01-05T17:55:38Z",
+    "payload_sha256": "1c62cc843d32d21aaea7aa7cc8a224468f578aaec4b66676ce966c4776366299",
+    "quote_count": 173,
+    "book_count": 7
+  },
+  {
+    "season": 2024,
+    "game": "2024_18_NO_TB",
+    "event_id": "983cd3ee325119e16969d4797a6d94f2",
+    "kickoff": "2025-01-05T18:00:00+00:00",
+    "snapshot_time": "2025-01-05T17:55:38Z",
+    "payload_sha256": "d28f95fd7cdb32a795e9c691013687744eb103db0fa2785ec567cb8c49deeaf4",
+    "quote_count": 168,
+    "book_count": 7
+  },
+  {
+    "season": 2024,
+    "game": "2024_18_NYG_PHI",
+    "event_id": "60b1da9a88c680190bfbf3ac935bff82",
+    "kickoff": "2025-01-05T18:00:00+00:00",
+    "snapshot_time": "2025-01-05T17:55:38Z",
+    "payload_sha256": "da88f4ee19444100d5057dd1945dc8c02df30a8922eba55f91eba4bd59b40651",
+    "quote_count": 152,
+    "book_count": 7
+  },
+  {
+    "season": 2024,
+    "game": "2024_18_WAS_DAL",
+    "event_id": "e1ba96b7e56eba655eafcf8249b1d3df",
+    "kickoff": "2025-01-05T18:00:00+00:00",
+    "snapshot_time": "2025-01-05T17:55:38Z",
+    "payload_sha256": "f2d395a6056d356717c41c6b119209074c2145af72b3477fa84c0c37f5b2709d",
+    "quote_count": 175,
+    "book_count": 7
+  },
+  {
+    "season": 2024,
+    "game": "2024_18_KC_DEN",
+    "event_id": "d0a37e977bf675c070587b2e13a37e17",
+    "kickoff": "2025-01-05T21:25:00+00:00",
+    "snapshot_time": "2025-01-05T21:20:37Z",
+    "payload_sha256": "445f0125adb0ebb33245e32ee8698f774922b686406b7cba0bd8e004d5d1c5ff",
+    "quote_count": 165,
+    "book_count": 7
+  },
+  {
+    "season": 2024,
+    "game": "2024_18_LAC_LV",
+    "event_id": "6b14461632df941a9ea60ff83ddca897",
+    "kickoff": "2025-01-05T21:25:00+00:00",
+    "snapshot_time": "2025-01-05T21:20:37Z",
+    "payload_sha256": "79ef6ed5a808ca04751d9799782caf9e8a5ef53898a76f8f2ef145bd00675f55",
+    "quote_count": 166,
+    "book_count": 7
+  },
+  {
+    "season": 2024,
+    "game": "2024_18_MIA_NYJ",
+    "event_id": "704a4d59f3dd729fbf089bbe0b6ae27d",
+    "kickoff": "2025-01-05T21:25:00+00:00",
+    "snapshot_time": "2025-01-05T21:20:37Z",
+    "payload_sha256": "43e810e7eaf03a6d7eb58444878dea4e5a24a0210f1d5d082649211d693047b4",
+    "quote_count": 176,
+    "book_count": 7
+  },
+  {
+    "season": 2024,
+    "game": "2024_18_SEA_LA",
+    "event_id": "2cf5abcfe39f3ac0d82ffb5a90b49e93",
+    "kickoff": "2025-01-05T21:25:00+00:00",
+    "snapshot_time": "2025-01-05T21:20:37Z",
+    "payload_sha256": "fae056868c218108ce5ee69d149156da737a063c808b742655fd06a06dea7d36",
+    "quote_count": 178,
+    "book_count": 7
+  },
+  {
+    "season": 2024,
+    "game": "2024_18_SF_ARI",
+    "event_id": "ebda13c375e6e6bb69822f91bce86756",
+    "kickoff": "2025-01-05T21:25:00+00:00",
+    "snapshot_time": "2025-01-05T21:20:37Z",
+    "payload_sha256": "5ff04661ff0eb09319eb319e214499e4e8a9ec70c9756e3ca4b68bec0b640007",
+    "quote_count": 144,
+    "book_count": 7
+  },
+  {
+    "season": 2024,
+    "game": "2024_18_MIN_DET",
+    "event_id": "09d8388d4ccba7ddafec2e400b5c013f",
+    "kickoff": "2025-01-06T01:20:00+00:00",
+    "snapshot_time": "2025-01-06T01:15:37Z",
+    "payload_sha256": "db98642c59b83030a434bc1c47e4473fa43ae46f8a6504f2dd84a698562a3400",
+    "quote_count": 184,
+    "book_count": 7
+  }
+]

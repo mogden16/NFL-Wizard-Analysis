@@ -1,0 +1,14 @@
+{
+  "season": 2023,
+  "stage_a_sha256": "b6eba31fb02936643b2e1650d0983f7240cdbafa29d54e7bebcf2ea08fe5f8f8",
+  "settlement_sha256": "cb88920e849a1547a08509cf4eeef3a0b0881f71648a4abb941a7cc1ee48a3c5",
+  "rows": 14746,
+  "graded_played": 5240,
+  "policy_unknown": 324,
+  "unmodeled": 9182,
+  "positive_snap_mapping": {
+    "offensive_pfr_rows": 23842,
+    "gsis_matched_rows": 23829,
+    "ambiguous_pfr_ids": 0
+  }
+}

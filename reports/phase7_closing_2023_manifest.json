@@ -1,0 +1,2562 @@
+[
+  {
+    "season": 2023,
+    "game": "2023_02_MIN_PHI",
+    "event_id": "217559949d3b88a1267c2c4c480eab51",
+    "kickoff": "2023-09-15T00:15:00+00:00",
+    "snapshot_time": "2023-09-15T00:10:44Z",
+    "payload_sha256": "9ba8a5d1d3e48d956eaf82a4571c93315d2e5c4c2000799b45274ba9cebdbb00",
+    "quote_count": 225,
+    "book_count": 9
+  },
+  {
+    "season": 2023,
+    "game": "2023_02_BAL_CIN",
+    "event_id": "b11493a11859c02a97dfa186c32a2b7a",
+    "kickoff": "2023-09-17T17:00:00+00:00",
+    "snapshot_time": "2023-09-17T16:55:41Z",
+    "payload_sha256": "403574857cefe2fe28840b4b1609e58eb6d18781492c0ea59203844808b9e0a9",
+    "quote_count": 230,
+    "book_count": 9
+  },
+  {
+    "season": 2023,
+    "game": "2023_02_CHI_TB",
+    "event_id": "ec238fc4bfd91d24ae566950edc120fe",
+    "kickoff": "2023-09-17T17:00:00+00:00",
+    "snapshot_time": "2023-09-17T16:55:41Z",
+    "payload_sha256": "8ae3e37a3f49846f56bae113d72ca8f26390284a9ccf99665daf2f337d5d6f11",
+    "quote_count": 236,
+    "book_count": 9
+  },
+  {
+    "season": 2023,
+    "game": "2023_02_GB_ATL",
+    "event_id": "666546663407166ca824cc304f740dfe",
+    "kickoff": "2023-09-17T17:00:00+00:00",
+    "snapshot_time": "2023-09-17T16:55:41Z",
+    "payload_sha256": "7068d11ac598b7a0748c51b4e22d23620b90367c1ce23717bed981c09653198b",
+    "quote_count": 228,
+    "book_count": 9
+  },
+  {
+    "season": 2023,
+    "game": "2023_02_IND_HOU",
+    "event_id": "2ecfbe1dcf553f66dd34b4772c1c9b99",
+    "kickoff": "2023-09-17T17:00:00+00:00",
+    "snapshot_time": "2023-09-17T16:55:41Z",
+    "payload_sha256": "86fe89337c74b6c19b062862137d7b45da5bc3e3e653c109f33cb98bb93ec04c",
+    "quote_count": 235,
+    "book_count": 9
+  },
+  {
+    "season": 2023,
+    "game": "2023_02_KC_JAX",
+    "event_id": "450d0600bc30565494c6df8096e04976",
+    "kickoff": "2023-09-17T17:00:00+00:00",
+    "snapshot_time": "2023-09-17T16:55:41Z",
+    "payload_sha256": "b4b4fefd27a8261af1d88bb73d2faa29aa984d8fe55a006c89961f5124e3fe22",
+    "quote_count": 240,
+    "book_count": 9
+  },
+  {
+    "season": 2023,
+    "game": "2023_02_LAC_TEN",
+    "event_id": "eab3d772c3c8e4a6d3813ece55055529",
+    "kickoff": "2023-09-17T17:00:00+00:00",
+    "snapshot_time": "2023-09-17T16:55:41Z",
+    "payload_sha256": "16bfbb3f9da510b72e5630aeeabf27813f007655e5d8429fa1370269035f3116",
+    "quote_count": 227,
+    "book_count": 9
+  },
+  {
+    "season": 2023,
+    "game": "2023_02_LV_BUF",
+    "event_id": "1ed637f2ef1ae5f2f7184d38e94fe137",
+    "kickoff": "2023-09-17T17:00:00+00:00",
+    "snapshot_time": "2023-09-17T16:55:41Z",
+    "payload_sha256": "198b488425f8094a57c10a521463f47a44317909042cb6dff6c7934bb4f00079",
+    "quote_count": 242,
+    "book_count": 9
+  },
+  {
+    "season": 2023,
+    "game": "2023_02_SEA_DET",
+    "event_id": "30e317800515c33d2635df2d05a6d14d",
+    "kickoff": "2023-09-17T17:00:00+00:00",
+    "snapshot_time": "2023-09-17T16:55:41Z",
+    "payload_sha256": "a1606fbe5ee0a7d8f553460238c30553373bdedd1afec6697b2963c2e3e39af2",
+    "quote_count": 227,
+    "book_count": 9
+  },
+  {
+    "season": 2023,
+    "game": "2023_02_NYG_ARI",
+    "event_id": "6166ce062983d3566b0ef03d8fd2ab87",
+    "kickoff": "2023-09-17T20:05:00+00:00",
+    "snapshot_time": "2023-09-17T20:00:40Z",
+    "payload_sha256": "1595d9f0cf9c79df3f8130be769b65cf0c60340a6661bcc60f71b67c88511cb8",
+    "quote_count": 232,
+    "book_count": 9
+  },
+  {
+    "season": 2023,
+    "game": "2023_02_SF_LA",
+    "event_id": "a6a30233e1ec7fb3b9f9a5e4444ff14b",
+    "kickoff": "2023-09-17T20:05:00+00:00",
+    "snapshot_time": "2023-09-17T20:00:40Z",
+    "payload_sha256": "153ded0150bf745e5796eaede65eb97f2ed341031d89775f76804a7e10606826",
+    "quote_count": 203,
+    "book_count": 8
+  },
+  {
+    "season": 2023,
+    "game": "2023_02_NYJ_DAL",
+    "event_id": "8d0feb26abd99c7136450e434ba91173",
+    "kickoff": "2023-09-17T20:25:00+00:00",
+    "snapshot_time": "2023-09-17T20:20:40Z",
+    "payload_sha256": "c2d75f509d32f4ef7e50c537c5aa1dd5deeb41d44578817ba49cf0a3e94e6d6f",
+    "quote_count": 239,
+    "book_count": 9
+  },
+  {
+    "season": 2023,
+    "game": "2023_02_WAS_DEN",
+    "event_id": "7e881b03dcf88ddd4e9d1a3c609db6d3",
+    "kickoff": "2023-09-17T20:25:00+00:00",
+    "snapshot_time": "2023-09-17T20:20:40Z",
+    "payload_sha256": "18c5e66013927b0c522c706ea95d420aa1561338e634e4c973ab3c2c446ed784",
+    "quote_count": 247,
+    "book_count": 9
+  },
+  {
+    "season": 2023,
+    "game": "2023_02_MIA_NE",
+    "event_id": "9003a41d4bd320e1c437ea6dc5a2fec6",
+    "kickoff": "2023-09-18T00:20:00+00:00",
+    "snapshot_time": "2023-09-18T00:15:41Z",
+    "payload_sha256": "9855ba06956b9192f5f60f63ee8b0f36fda00381479195515f8bdd97f5f7fbe1",
+    "quote_count": 229,
+    "book_count": 9
+  },
+  {
+    "season": 2023,
+    "game": "2023_02_NO_CAR",
+    "event_id": "e1573fb36f89f2e295e128bf5ec13a6a",
+    "kickoff": "2023-09-18T23:15:00+00:00",
+    "snapshot_time": "2023-09-18T23:10:42Z",
+    "payload_sha256": "b5a2e832863433e61209a2719ee8ef2c41aa38ec6b897c7ffedd041e0b41ef5a",
+    "quote_count": 227,
+    "book_count": 9
+  },
+  {
+    "season": 2023,
+    "game": "2023_02_CLE_PIT",
+    "event_id": "7ea45f55c7bb922c581f809166c0fab3",
+    "kickoff": "2023-09-19T00:15:00+00:00",
+    "snapshot_time": "2023-09-19T00:10:42Z",
+    "payload_sha256": "d2b36e37eb0e62522f00eca11b43e969529432e3fb3565723ecd7590c79e5acc",
+    "quote_count": 226,
+    "book_count": 9
+  },
+  {
+    "season": 2023,
+    "game": "2023_03_NYG_SF",
+    "event_id": "47b49faf45f8a39f9910f004a79ff360",
+    "kickoff": "2023-09-22T00:15:00+00:00",
+    "snapshot_time": "2023-09-22T00:10:43Z",
+    "payload_sha256": "031b6c67c6ac04f0766a3884a52053aa0c14e496d8910f254e838db279b7c8ac",
+    "quote_count": 219,
+    "book_count": 9
+  },
+  {
+    "season": 2023,
+    "game": "2023_03_ATL_DET",
+    "event_id": "4609c9aaa9bc0b3a76b75f2f85f6a5f1",
+    "kickoff": "2023-09-24T17:00:00+00:00",
+    "snapshot_time": "2023-09-24T16:55:40Z",
+    "payload_sha256": "65f4089851f4ba50d14a5bd433127844562be8a65a431a45bbd5e33b5e1e46f3",
+    "quote_count": 196,
+    "book_count": 8
+  },
+  {
+    "season": 2023,
+    "game": "2023_03_BUF_WAS",
+    "event_id": "f049d09c797baccf11023b4cb7bc9b0b",
+    "kickoff": "2023-09-24T17:00:00+00:00",
+    "snapshot_time": "2023-09-24T16:55:40Z",
+    "payload_sha256": "4d6281d3f9440a88ea8ab66e572e9555520ccaabca29eb3dfd02a421f5dd0402",
+    "quote_count": 211,
+    "book_count": 8
+  },
+  {
+    "season": 2023,
+    "game": "2023_03_DEN_MIA",
+    "event_id": "2ff30bbaf02729644dc5dd83dd02ab12",
+    "kickoff": "2023-09-24T17:00:00+00:00",
+    "snapshot_time": "2023-09-24T16:55:40Z",
+    "payload_sha256": "ae686c6c2fa69096af449d3d3e12268ca27a115a0888d2f4ba0ad351aaf3578b",
+    "quote_count": 211,
+    "book_count": 8
+  },
+  {
+    "season": 2023,
+    "game": "2023_03_HOU_JAX",
+    "event_id": "c6aa32a2bdcc85e5d8b8ae2e570607e6",
+    "kickoff": "2023-09-24T17:00:00+00:00",
+    "snapshot_time": "2023-09-24T16:55:40Z",
+    "payload_sha256": "b95db05ec4610628e4545104ceeb33fa7fa872d21715e0c31065f73a20de2563",
+    "quote_count": 207,
+    "book_count": 8
+  },
+  {
+    "season": 2023,
+    "game": "2023_03_IND_BAL",
+    "event_id": "2c66bee99eec7cca649ecb6b249868fb",
+    "kickoff": "2023-09-24T17:00:00+00:00",
+    "snapshot_time": "2023-09-24T16:55:40Z",
+    "payload_sha256": "b2c46f5f38e8dbf508123b650a803899242019ffade5e6e8b37fc17d386f2bf4",
+    "quote_count": 193,
+    "book_count": 8
+  },
+  {
+    "season": 2023,
+    "game": "2023_03_LAC_MIN",
+    "event_id": "1db441aef0ee06367729d9f1fc3e57b0",
+    "kickoff": "2023-09-24T17:00:00+00:00",
+    "snapshot_time": "2023-09-24T16:55:40Z",
+    "payload_sha256": "6d30d8ca1153b795322bcc37f789d5f10a3bade39b10a7a58db5eb15d86887fa",
+    "quote_count": 214,
+    "book_count": 8
+  },
+  {
+    "season": 2023,
+    "game": "2023_03_NE_NYJ",
+    "event_id": "66edacbc3505803f401192da0fb09b49",
+    "kickoff": "2023-09-24T17:00:00+00:00",
+    "snapshot_time": "2023-09-24T16:55:40Z",
+    "payload_sha256": "9632dcc2db5cc0b82df822c5bf98179c7e29c59a8e48088d9b12bd497e7edc66",
+    "quote_count": 208,
+    "book_count": 8
+  },
+  {
+    "season": 2023,
+    "game": "2023_03_NO_GB",
+    "event_id": "caae83ff4cadf6b1d63bc8a70af76865",
+    "kickoff": "2023-09-24T17:00:00+00:00",
+    "snapshot_time": "2023-09-24T16:55:40Z",
+    "payload_sha256": "f409ca7687d9eb8c5b140ec07bb18ab79df68ecd074c4942396e575b78dc69c2",
+    "quote_count": 194,
+    "book_count": 8
+  },
+  {
+    "season": 2023,
+    "game": "2023_03_TEN_CLE",
+    "event_id": "f72ef9b6be34818391c726a0cd690f48",
+    "kickoff": "2023-09-24T17:00:00+00:00",
+    "snapshot_time": "2023-09-24T16:55:40Z",
+    "payload_sha256": "eb39e6eb1b33443086f9e2c675ba7135da3739673514d1b76223c780098cd8a3",
+    "quote_count": 212,
+    "book_count": 8
+  },
+  {
+    "season": 2023,
+    "game": "2023_03_CAR_SEA",
+    "event_id": "4b3ed4ec08352199ff98bdf14b247c88",
+    "kickoff": "2023-09-24T20:05:00+00:00",
+    "snapshot_time": "2023-09-24T20:00:40Z",
+    "payload_sha256": "f5c9a90f7557facddaf46933144058ee4bdfda5a63186d44dc2afdd6ad26943f",
+    "quote_count": 205,
+    "book_count": 8
+  },
+  {
+    "season": 2023,
+    "game": "2023_03_CHI_KC",
+    "event_id": "806b105d4be36f9d8ac4a782cb43c1f1",
+    "kickoff": "2023-09-24T20:25:00+00:00",
+    "snapshot_time": "2023-09-24T20:20:40Z",
+    "payload_sha256": "9a641450732dc683842a72a03d8ec043e26b8ae9ecdaa6d989aca0a0af92e2e7",
+    "quote_count": 189,
+    "book_count": 8
+  },
+  {
+    "season": 2023,
+    "game": "2023_03_DAL_ARI",
+    "event_id": "9541cadef6a637071b8588eb4938a5c8",
+    "kickoff": "2023-09-24T20:25:00+00:00",
+    "snapshot_time": "2023-09-24T20:20:40Z",
+    "payload_sha256": "d9d472449cad96bf0da6ba51cd5663ec3e5c79b67806ed895ef08c362ddb324a",
+    "quote_count": 207,
+    "book_count": 8
+  },
+  {
+    "season": 2023,
+    "game": "2023_03_PIT_LV",
+    "event_id": "abf76aa8adc82854d703518042be4452",
+    "kickoff": "2023-09-25T00:20:00+00:00",
+    "snapshot_time": "2023-09-25T00:15:40Z",
+    "payload_sha256": "1f15a19faaa261fc24c40d9ddd605223ddbbc57237820c3c54771aa382f1b08e",
+    "quote_count": 211,
+    "book_count": 8
+  },
+  {
+    "season": 2023,
+    "game": "2023_03_PHI_TB",
+    "event_id": "1e006c91ca2e69c339ed517495a2f428",
+    "kickoff": "2023-09-25T23:15:00+00:00",
+    "snapshot_time": "2023-09-25T23:10:41Z",
+    "payload_sha256": "01287148eae8155d84b8cf2d6e44f6c763bd9351e277103393580e1182024e4c",
+    "quote_count": 204,
+    "book_count": 8
+  },
+  {
+    "season": 2023,
+    "game": "2023_03_LA_CIN",
+    "event_id": "8251607b68015d2972e7f4b773149cb2",
+    "kickoff": "2023-09-26T00:15:00+00:00",
+    "snapshot_time": "2023-09-26T00:10:41Z",
+    "payload_sha256": "b3dcf69bef06a3d4b16869cd3987ddd9e150c9fdfc1fc4dbbe9e5bb7f1bbf296",
+    "quote_count": 176,
+    "book_count": 8
+  },
+  {
+    "season": 2023,
+    "game": "2023_04_DET_GB",
+    "event_id": "934acd8d5f569c955f4a02aa42284fa4",
+    "kickoff": "2023-09-29T00:15:00+00:00",
+    "snapshot_time": "2023-09-29T00:10:42Z",
+    "payload_sha256": "46bae9c279d92014cd8c0ebd106a18096e1495e5ee0b864f70faa4b951661219",
+    "quote_count": 209,
+    "book_count": 8
+  },
+  {
+    "season": 2023,
+    "game": "2023_04_ATL_JAX",
+    "event_id": "679ec2fdc4a6bc423cdc77759cc226b7",
+    "kickoff": "2023-10-01T13:30:00+00:00",
+    "snapshot_time": "2023-10-01T13:25:40Z",
+    "payload_sha256": "54122208d1a3f21e243b63425445a94b669750d83f48320c224ec09b90011b17",
+    "quote_count": 183,
+    "book_count": 7
+  },
+  {
+    "season": 2023,
+    "game": "2023_04_BAL_CLE",
+    "event_id": "f2a6d22204b5c05c9860c4a0934715a7",
+    "kickoff": "2023-10-01T17:00:00+00:00",
+    "snapshot_time": "2023-10-01T16:55:40Z",
+    "payload_sha256": "220856131ffc5aad74b4dd57b7923aa95a0d359aebe527f42961613879c09b7c",
+    "quote_count": 176,
+    "book_count": 7
+  },
+  {
+    "season": 2023,
+    "game": "2023_04_CIN_TEN",
+    "event_id": "21557c1796a67d11b1d49a025fc5f74f",
+    "kickoff": "2023-10-01T17:00:00+00:00",
+    "snapshot_time": "2023-10-01T16:55:40Z",
+    "payload_sha256": "cd712f0da438ae83de3398db064bc05201db194093e5fbfaf57b2ae7f7208132",
+    "quote_count": 170,
+    "book_count": 7
+  },
+  {
+    "season": 2023,
+    "game": "2023_04_DEN_CHI",
+    "event_id": "c341da353c0b5f8267f046c60e7ad2ad",
+    "kickoff": "2023-10-01T17:00:00+00:00",
+    "snapshot_time": "2023-10-01T16:55:40Z",
+    "payload_sha256": "9c7e3a77b611f427838a8c108b891d37f04c53a80153a8c4fee2f44e1aca0d96",
+    "quote_count": 196,
+    "book_count": 7
+  },
+  {
+    "season": 2023,
+    "game": "2023_04_LA_IND",
+    "event_id": "c5d8f1bdd3a599a9643b955f27aa1afb",
+    "kickoff": "2023-10-01T17:00:00+00:00",
+    "snapshot_time": "2023-10-01T16:55:40Z",
+    "payload_sha256": "4398f217edc5f902d5a07d2e27d5bd0df6dd78183992a0180a8a8bab02310313",
+    "quote_count": 162,
+    "book_count": 7
+  },
+  {
+    "season": 2023,
+    "game": "2023_04_MIA_BUF",
+    "event_id": "c8507434f37635cdaed5f91a0fd5d54a",
+    "kickoff": "2023-10-01T17:00:00+00:00",
+    "snapshot_time": "2023-10-01T16:55:40Z",
+    "payload_sha256": "a3d635a922cacce30e85ddea309fcc8a80ff5bb0b3cd8a068603a7485d2ad331",
+    "quote_count": 186,
+    "book_count": 7
+  },
+  {
+    "season": 2023,
+    "game": "2023_04_MIN_CAR",
+    "event_id": "a1d0ade76d13bd11993b0e6f654ef787",
+    "kickoff": "2023-10-01T17:00:00+00:00",
+    "snapshot_time": "2023-10-01T16:55:40Z",
+    "payload_sha256": "f6e2d40c461f126f13e9ec48cc5be875728be05a59d68c0bcfaf4bc11f488c90",
+    "quote_count": 158,
+    "book_count": 7
+  },
+  {
+    "season": 2023,
+    "game": "2023_04_PIT_HOU",
+    "event_id": "24264c7ce10b65e575310ae99c25fb7f",
+    "kickoff": "2023-10-01T17:00:00+00:00",
+    "snapshot_time": "2023-10-01T16:55:40Z",
+    "payload_sha256": "f1146529c006baa720ce5afde6de243cee43274dea66a299ebda5e9116fe3612",
+    "quote_count": 179,
+    "book_count": 7
+  },
+  {
+    "season": 2023,
+    "game": "2023_04_TB_NO",
+    "event_id": "99ad9bb646b822c7dc5af2f7eb2945c7",
+    "kickoff": "2023-10-01T17:00:00+00:00",
+    "snapshot_time": "2023-10-01T16:55:40Z",
+    "payload_sha256": "f57770e5b8e662f919e7178986fc22ccc9622664b4d60063a9f873ee643411b8",
+    "quote_count": 172,
+    "book_count": 7
+  },
+  {
+    "season": 2023,
+    "game": "2023_04_WAS_PHI",
+    "event_id": "bb0df615dfa27a50a742c4af2e81e9e1",
+    "kickoff": "2023-10-01T17:00:00+00:00",
+    "snapshot_time": "2023-10-01T16:55:40Z",
+    "payload_sha256": "c55a51f7e1d147a7f3d81d534273e149dd952922f7f322d2b8efae8f7b36242f",
+    "quote_count": 183,
+    "book_count": 7
+  },
+  {
+    "season": 2023,
+    "game": "2023_04_LV_LAC",
+    "event_id": "411f92b1c380589ce362b17fed7d2b6a",
+    "kickoff": "2023-10-01T20:05:00+00:00",
+    "snapshot_time": "2023-10-01T20:00:40Z",
+    "payload_sha256": "c3150226f4c5cec818f3a6c69095c8cb758c8f2f668b593f795526caf85b1535",
+    "quote_count": 167,
+    "book_count": 7
+  },
+  {
+    "season": 2023,
+    "game": "2023_04_ARI_SF",
+    "event_id": "ea59f24a92e52fee542214baf4d33560",
+    "kickoff": "2023-10-01T20:25:00+00:00",
+    "snapshot_time": "2023-10-01T20:20:40Z",
+    "payload_sha256": "65e4495b68971db4541d2730bad87eb9efe7d475fa340359d567ff9e72690e29",
+    "quote_count": 177,
+    "book_count": 7
+  },
+  {
+    "season": 2023,
+    "game": "2023_04_NE_DAL",
+    "event_id": "19b8f1eaf555f3eef3ce87a61ad7ad16",
+    "kickoff": "2023-10-01T20:25:00+00:00",
+    "snapshot_time": "2023-10-01T20:20:40Z",
+    "payload_sha256": "dfe9a9dc0f39e420d858daf7e564396ee7459820c6153ac807a2f635d3b5dfe6",
+    "quote_count": 177,
+    "book_count": 7
+  },
+  {
+    "season": 2023,
+    "game": "2023_04_KC_NYJ",
+    "event_id": "e588f3f6aef44746b18980633bd7b312",
+    "kickoff": "2023-10-02T00:20:00+00:00",
+    "snapshot_time": "2023-10-02T00:15:41Z",
+    "payload_sha256": "bec766520e949ec8531991b77c994a9572518159b2d72548b191709bfa947af7",
+    "quote_count": 208,
+    "book_count": 8
+  },
+  {
+    "season": 2023,
+    "game": "2023_04_SEA_NYG",
+    "event_id": "5176634f6d30e29b08199d1e0ed6309d",
+    "kickoff": "2023-10-03T00:15:00+00:00",
+    "snapshot_time": "2023-10-03T00:10:42Z",
+    "payload_sha256": "253655a6c112cc2df6c64fff8118e5c4c800dff98fb4e6ab17ad4013f6e6b83a",
+    "quote_count": 190,
+    "book_count": 7
+  },
+  {
+    "season": 2023,
+    "game": "2023_05_CHI_WAS",
+    "event_id": "115303070d36ce1e366dc4a3091c53cd",
+    "kickoff": "2023-10-06T00:15:00+00:00",
+    "snapshot_time": "2023-10-06T00:10:42Z",
+    "payload_sha256": "1e602c9beb058ac1e5623d9468a2d9e14bc4acac6ecba17ecf50e6aeba855aee",
+    "quote_count": 191,
+    "book_count": 7
+  },
+  {
+    "season": 2023,
+    "game": "2023_05_JAX_BUF",
+    "event_id": "fdb93b64c39ea4a4312ffe74788b551b",
+    "kickoff": "2023-10-08T13:30:00+00:00",
+    "snapshot_time": "2023-10-08T13:25:38Z",
+    "payload_sha256": "91e2dce76368a4a1b4aa13618fc3cc5df2a50a85d3d851c26ae21e7b75f7af4a",
+    "quote_count": 128,
+    "book_count": 6
+  },
+  {
+    "season": 2023,
+    "game": "2023_05_BAL_PIT",
+    "event_id": "bef2023cdadb009e088e3ef6db2ea809",
+    "kickoff": "2023-10-08T17:00:00+00:00",
+    "snapshot_time": "2023-10-08T16:55:38Z",
+    "payload_sha256": "e5c105d8ef72a82eb6a9fa91e7a1a92e8c61fa765a4db27aa2d9362ccf609197",
+    "quote_count": 180,
+    "book_count": 7
+  },
+  {
+    "season": 2023,
+    "game": "2023_05_CAR_DET",
+    "event_id": "83400c65dd84cef26b7911a49fe909f5",
+    "kickoff": "2023-10-08T17:00:00+00:00",
+    "snapshot_time": "2023-10-08T16:55:38Z",
+    "payload_sha256": "e22f674c37a628a50100d917330cca0ca06d488c7419243bf5648ec8d60ad5d8",
+    "quote_count": 183,
+    "book_count": 7
+  },
+  {
+    "season": 2023,
+    "game": "2023_05_HOU_ATL",
+    "event_id": "093f902b13a40cc6d60eb0a38e6d40e1",
+    "kickoff": "2023-10-08T17:00:00+00:00",
+    "snapshot_time": "2023-10-08T16:55:38Z",
+    "payload_sha256": "a7376b061af81b2b6dd60ba9140970622adece66958360040f5f5fa63a4a6b38",
+    "quote_count": 175,
+    "book_count": 7
+  },
+  {
+    "season": 2023,
+    "game": "2023_05_NO_NE",
+    "event_id": "088c8fc0a2e5f02bb2591f44a41a2cd1",
+    "kickoff": "2023-10-08T17:00:00+00:00",
+    "snapshot_time": "2023-10-08T16:55:38Z",
+    "payload_sha256": "f1c91a3530f0d8e2ff7e8b72f2396740a4d966805d3f3402ddc99ac260045284",
+    "quote_count": 157,
+    "book_count": 6
+  },
+  {
+    "season": 2023,
+    "game": "2023_05_NYG_MIA",
+    "event_id": "d72ca5073fe1d69e6cd3beb37e52c081",
+    "kickoff": "2023-10-08T17:00:00+00:00",
+    "snapshot_time": "2023-10-08T16:55:38Z",
+    "payload_sha256": "5da551f2440d7c0bab5dcf3aab634930ba1efce3cea4ed7ef5545615f3136395",
+    "quote_count": 177,
+    "book_count": 7
+  },
+  {
+    "season": 2023,
+    "game": "2023_05_TEN_IND",
+    "event_id": "b0302377625f15c445b6ce2227a50529",
+    "kickoff": "2023-10-08T17:00:00+00:00",
+    "snapshot_time": "2023-10-08T16:55:38Z",
+    "payload_sha256": "44b4fafbed473c455d92e3b1b313563eb95bb7b3f0588fb54f03d6a0f25efa34",
+    "quote_count": 177,
+    "book_count": 7
+  },
+  {
+    "season": 2023,
+    "game": "2023_05_CIN_ARI",
+    "event_id": "51324a8a97c14d19e5c8e9091ba8b37c",
+    "kickoff": "2023-10-08T20:05:00+00:00",
+    "snapshot_time": "2023-10-08T20:00:38Z",
+    "payload_sha256": "30df9b05af42114dfdbcc8a629b5f09ccbe8d442db622d44c8a438a2c18864d4",
+    "quote_count": 181,
+    "book_count": 7
+  },
+  {
+    "season": 2023,
+    "game": "2023_05_PHI_LA",
+    "event_id": "483964581fdd3bb0bf48d4735c2da6e2",
+    "kickoff": "2023-10-08T20:05:00+00:00",
+    "snapshot_time": "2023-10-08T20:00:38Z",
+    "payload_sha256": "be942bd9dac6871d7f0009ac03f4b0e967351271cef279fedf5f7a4f722a5d83",
+    "quote_count": 155,
+    "book_count": 7
+  },
+  {
+    "season": 2023,
+    "game": "2023_05_KC_MIN",
+    "event_id": "166bf980718e06c346f9eb8a6ed882db",
+    "kickoff": "2023-10-08T20:25:00+00:00",
+    "snapshot_time": "2023-10-08T20:20:38Z",
+    "payload_sha256": "2d5e50038286bc2522f7ca67ca1b62f66f1059b9570e68a7269b8c1b6dac12a6",
+    "quote_count": 187,
+    "book_count": 7
+  },
+  {
+    "season": 2023,
+    "game": "2023_05_NYJ_DEN",
+    "event_id": "8b607ae76ab2f647be17e7553ff57533",
+    "kickoff": "2023-10-08T20:25:00+00:00",
+    "snapshot_time": "2023-10-08T20:20:38Z",
+    "payload_sha256": "fdaeff68fd449ee3abcc65b4fb1b559605264aa40275cac4080638ab0c16c947",
+    "quote_count": 181,
+    "book_count": 7
+  },
+  {
+    "season": 2023,
+    "game": "2023_05_DAL_SF",
+    "event_id": "c240c9cee93e5677cdd74f93f77dd4c9",
+    "kickoff": "2023-10-09T00:20:00+00:00",
+    "snapshot_time": "2023-10-09T00:15:38Z",
+    "payload_sha256": "0d1b00167e91be25d7aec98efacec23c6038b1d807442bec8e6aceccf78f3589",
+    "quote_count": 206,
+    "book_count": 8
+  },
+  {
+    "season": 2023,
+    "game": "2023_05_GB_LV",
+    "event_id": "353b0556f31bd97a30c0a55212c1617f",
+    "kickoff": "2023-10-10T00:15:00+00:00",
+    "snapshot_time": "2023-10-10T00:10:40Z",
+    "payload_sha256": "4b2a7f406141cd4d60b49a460d284ff3ed7b1af2cd115e6a9d63aa570bb8cd53",
+    "quote_count": 198,
+    "book_count": 7
+  },
+  {
+    "season": 2023,
+    "game": "2023_06_DEN_KC",
+    "event_id": "b956b90b48a7a34230fac518cd294c7a",
+    "kickoff": "2023-10-13T00:15:00+00:00",
+    "snapshot_time": "2023-10-13T00:10:40Z",
+    "payload_sha256": "6b8e575ed7ac3e1a91a216f2c8a32a1857986c9aa7c99238fa53b8204da027de",
+    "quote_count": 216,
+    "book_count": 8
+  },
+  {
+    "season": 2023,
+    "game": "2023_06_BAL_TEN",
+    "event_id": "0cd8d5597260f1a2c9692f4c54ffb91f",
+    "kickoff": "2023-10-15T13:30:00+00:00",
+    "snapshot_time": "2023-10-15T13:25:41Z",
+    "payload_sha256": "6ca8b04c468eb04ba567d8a611e546b2a4ed4a46a55fd9322fc6519700bce0be",
+    "quote_count": 208,
+    "book_count": 8
+  },
+  {
+    "season": 2023,
+    "game": "2023_06_CAR_MIA",
+    "event_id": "6e17a8cfafca4010863de42a11a5e05c",
+    "kickoff": "2023-10-15T17:00:00+00:00",
+    "snapshot_time": "2023-10-15T16:55:41Z",
+    "payload_sha256": "399248eb328cc0a83de2d6d39136067df8e1531a6b15d8a317407bec09790ead",
+    "quote_count": 180,
+    "book_count": 7
+  },
+  {
+    "season": 2023,
+    "game": "2023_06_IND_JAX",
+    "event_id": "4580cdc2486bd4dbb44cde4fd680e832",
+    "kickoff": "2023-10-15T17:00:00+00:00",
+    "snapshot_time": "2023-10-15T16:55:41Z",
+    "payload_sha256": "fe431d3651cc8b35f06067dfddc4083a5a921c37b7f63bb7256c4f0a93fb77c8",
+    "quote_count": 177,
+    "book_count": 7
+  },
+  {
+    "season": 2023,
+    "game": "2023_06_MIN_CHI",
+    "event_id": "9b493f1a26dccbb3d34e029ad34e0235",
+    "kickoff": "2023-10-15T17:00:00+00:00",
+    "snapshot_time": "2023-10-15T16:55:41Z",
+    "payload_sha256": "19692a7adbcf02cd3f20cec5dd43280949f2102ef78146f5d736c8f1893eef34",
+    "quote_count": 180,
+    "book_count": 7
+  },
+  {
+    "season": 2023,
+    "game": "2023_06_NO_HOU",
+    "event_id": "c6e270f707e1122b6e6431cfbf1124fa",
+    "kickoff": "2023-10-15T17:00:00+00:00",
+    "snapshot_time": "2023-10-15T16:55:41Z",
+    "payload_sha256": "ba7a0f6e0aaccc40b849e4a8c5ab2b4d0bfe88760ce76c1b3051b5c62760b1cc",
+    "quote_count": 177,
+    "book_count": 7
+  },
+  {
+    "season": 2023,
+    "game": "2023_06_SEA_CIN",
+    "event_id": "bfc6774467b939acbabaa8414f1a4961",
+    "kickoff": "2023-10-15T17:00:00+00:00",
+    "snapshot_time": "2023-10-15T16:55:41Z",
+    "payload_sha256": "714cfc984875847492ca8e46421c067abfce1c3fc270103955896fa56dd49d86",
+    "quote_count": 185,
+    "book_count": 7
+  },
+  {
+    "season": 2023,
+    "game": "2023_06_SF_CLE",
+    "event_id": "417e02503976f3971e0750e60fff16e2",
+    "kickoff": "2023-10-15T17:00:00+00:00",
+    "snapshot_time": "2023-10-15T16:55:41Z",
+    "payload_sha256": "fb89e1ddfedb532d1400d6b2efb193ab5a4ac5a426ac9c3df6e0e77749dec7fb",
+    "quote_count": 177,
+    "book_count": 7
+  },
+  {
+    "season": 2023,
+    "game": "2023_06_WAS_ATL",
+    "event_id": "7c8e887a27e43988654b137a001f6d3b",
+    "kickoff": "2023-10-15T17:00:00+00:00",
+    "snapshot_time": "2023-10-15T16:55:41Z",
+    "payload_sha256": "01ac55cb2cee754ade974bc5ce7e7da65e11def93d956b645849dbdb4c9bfd05",
+    "quote_count": 183,
+    "book_count": 7
+  },
+  {
+    "season": 2023,
+    "game": "2023_06_NE_LV",
+    "event_id": "3377b0af3e43d0a451483df35f3491c9",
+    "kickoff": "2023-10-15T20:05:00+00:00",
+    "snapshot_time": "2023-10-15T20:00:41Z",
+    "payload_sha256": "7e84bac26be408fcb7ae1c9084c3f374c0d59530e8e716afc8d5bb367f3af204",
+    "quote_count": 186,
+    "book_count": 7
+  },
+  {
+    "season": 2023,
+    "game": "2023_06_ARI_LA",
+    "event_id": "a87c4b6c187d59ac7f17783f0b810501",
+    "kickoff": "2023-10-15T20:25:00+00:00",
+    "snapshot_time": "2023-10-15T20:20:40Z",
+    "payload_sha256": "0102b366813a8bebcfb9bfe02474de9989f10cff821ba5c4ec3ba5585f46a1b7",
+    "quote_count": 177,
+    "book_count": 7
+  },
+  {
+    "season": 2023,
+    "game": "2023_06_DET_TB",
+    "event_id": "18aaf89457d739e1a06bda112ef80cc7",
+    "kickoff": "2023-10-15T20:25:00+00:00",
+    "snapshot_time": "2023-10-15T20:20:40Z",
+    "payload_sha256": "58eaf2839a89a6e62b6c0a463237481de4f3f169fbfae85d2b19977a734ea0be",
+    "quote_count": 174,
+    "book_count": 7
+  },
+  {
+    "season": 2023,
+    "game": "2023_06_PHI_NYJ",
+    "event_id": "efeda644ef61c16b001be5fa849d5271",
+    "kickoff": "2023-10-15T20:25:00+00:00",
+    "snapshot_time": "2023-10-15T20:20:40Z",
+    "payload_sha256": "a09d8bcb5b77599c9a8f4a633fc2fcca84b08daa17b99443265d9092161c9c03",
+    "quote_count": 173,
+    "book_count": 7
+  },
+  {
+    "season": 2023,
+    "game": "2023_06_NYG_BUF",
+    "event_id": "68b7be06e7590bd403fd52db5c1d1c35",
+    "kickoff": "2023-10-16T00:20:00+00:00",
+    "snapshot_time": "2023-10-16T00:15:42Z",
+    "payload_sha256": "cd7c3e6a09d83708be08bcd766306129f9d9364d4693366c7fc919f1efbb1572",
+    "quote_count": 182,
+    "book_count": 7
+  },
+  {
+    "season": 2023,
+    "game": "2023_06_DAL_LAC",
+    "event_id": "818b323e8a88e6a5701ea3f725f51d3c",
+    "kickoff": "2023-10-17T00:15:00+00:00",
+    "snapshot_time": "2023-10-17T00:10:42Z",
+    "payload_sha256": "c51cfcd725726f2bd1e2e023a373c05b5746c9fa49470a6cbc0c2c84f2e2f3fa",
+    "quote_count": 204,
+    "book_count": 8
+  },
+  {
+    "season": 2023,
+    "game": "2023_07_JAX_NO",
+    "event_id": "16143d5b3cfe34d32198da53771e14ee",
+    "kickoff": "2023-10-20T00:15:00+00:00",
+    "snapshot_time": "2023-10-20T00:10:42Z",
+    "payload_sha256": "7b5fab80824106d2bd2e686dbcefb135272dd485734847803ae611d22925a75f",
+    "quote_count": 164,
+    "book_count": 7
+  },
+  {
+    "season": 2023,
+    "game": "2023_07_ATL_TB",
+    "event_id": "949fd4373890ee339add53eb5f343dc0",
+    "kickoff": "2023-10-22T17:00:00+00:00",
+    "snapshot_time": "2023-10-22T16:55:40Z",
+    "payload_sha256": "15617086e030354b8387cf48b290edb398e5467a8874e510de4e66d96ff24c62",
+    "quote_count": 191,
+    "book_count": 8
+  },
+  {
+    "season": 2023,
+    "game": "2023_07_BUF_NE",
+    "event_id": "3080378924a7a8fa778d90243a1f4d54",
+    "kickoff": "2023-10-22T17:00:00+00:00",
+    "snapshot_time": "2023-10-22T16:55:40Z",
+    "payload_sha256": "491a6c904a102db6cc10a3efe30eabbcb65766a026886c6d2d8cc43d324409be",
+    "quote_count": 200,
+    "book_count": 8
+  },
+  {
+    "season": 2023,
+    "game": "2023_07_CLE_IND",
+    "event_id": "5daeacbcda1ca66cf0ac102b1b6c3728",
+    "kickoff": "2023-10-22T17:00:00+00:00",
+    "snapshot_time": "2023-10-22T16:55:40Z",
+    "payload_sha256": "f357b377649d88da52feffe2d939baf963d415b0dfe5b54dbcc0af8bc03c4778",
+    "quote_count": 180,
+    "book_count": 8
+  },
+  {
+    "season": 2023,
+    "game": "2023_07_DET_BAL",
+    "event_id": "17d4277bfa01c37a1c599fb1fb3d3d13",
+    "kickoff": "2023-10-22T17:00:00+00:00",
+    "snapshot_time": "2023-10-22T16:55:40Z",
+    "payload_sha256": "3f010365424c09e5c70ec744b033346ef9025e0e498348c5b3835df0e1d7f55a",
+    "quote_count": 197,
+    "book_count": 8
+  },
+  {
+    "season": 2023,
+    "game": "2023_07_LV_CHI",
+    "event_id": "2decc44ccdfb309756fa93d864f5773f",
+    "kickoff": "2023-10-22T17:00:00+00:00",
+    "snapshot_time": "2023-10-22T16:55:40Z",
+    "payload_sha256": "b47eb922a1dc05eaa0783345c9f296e1bdfd68f561610555976838dfa310f8c3",
+    "quote_count": 204,
+    "book_count": 8
+  },
+  {
+    "season": 2023,
+    "game": "2023_07_WAS_NYG",
+    "event_id": "50bd8049327bddb2433b90e98994d98b",
+    "kickoff": "2023-10-22T17:00:00+00:00",
+    "snapshot_time": "2023-10-22T16:55:40Z",
+    "payload_sha256": "b868003c93f1546c7dff29d5f85923327b4e152d428ea382889978c03c53aff4",
+    "quote_count": 188,
+    "book_count": 8
+  },
+  {
+    "season": 2023,
+    "game": "2023_07_ARI_SEA",
+    "event_id": "547cb2dc8c177f05c94b27b7ba6adaae",
+    "kickoff": "2023-10-22T20:05:00+00:00",
+    "snapshot_time": "2023-10-22T20:00:40Z",
+    "payload_sha256": "8424001492fd823c4d3798d5e327a8844ad7741996a1cd5c302cd42df4120db2",
+    "quote_count": 193,
+    "book_count": 8
+  },
+  {
+    "season": 2023,
+    "game": "2023_07_PIT_LA",
+    "event_id": "1c4772551a69fb6409e6a77dbd6845ab",
+    "kickoff": "2023-10-22T20:05:00+00:00",
+    "snapshot_time": "2023-10-22T20:00:40Z",
+    "payload_sha256": "8495428f04352764695a8822ad4e6d2ea6b9ae0868bf13fcf3e9b6140b481a40",
+    "quote_count": 182,
+    "book_count": 8
+  },
+  {
+    "season": 2023,
+    "game": "2023_07_GB_DEN",
+    "event_id": "e5a039468378fe43795987ade2d44536",
+    "kickoff": "2023-10-22T20:25:00+00:00",
+    "snapshot_time": "2023-10-22T20:20:40Z",
+    "payload_sha256": "bc6f50581a8f1f2189495679996d544b9070eb5e349ede7c94463437b34311c5",
+    "quote_count": 195,
+    "book_count": 8
+  },
+  {
+    "season": 2023,
+    "game": "2023_07_LAC_KC",
+    "event_id": "c992a4e4d0046cd4926bf3524e35ff79",
+    "kickoff": "2023-10-22T20:25:00+00:00",
+    "snapshot_time": "2023-10-22T20:20:40Z",
+    "payload_sha256": "5ff8d5fa318a4aaee041489d18f2a29b212a778847ae7e5ceba9b35462773541",
+    "quote_count": 202,
+    "book_count": 8
+  },
+  {
+    "season": 2023,
+    "game": "2023_07_MIA_PHI",
+    "event_id": "029287f953eb89c62eb833591b639086",
+    "kickoff": "2023-10-23T00:20:00+00:00",
+    "snapshot_time": "2023-10-23T00:15:41Z",
+    "payload_sha256": "6c53ec33d4ff22ccb0b650deccb464057bc57f2ed9521e8772e96fa1c41bfaf4",
+    "quote_count": 206,
+    "book_count": 8
+  },
+  {
+    "season": 2023,
+    "game": "2023_07_SF_MIN",
+    "event_id": "42ccfa93a908006e5677687427c528db",
+    "kickoff": "2023-10-24T00:15:00+00:00",
+    "snapshot_time": "2023-10-24T00:10:42Z",
+    "payload_sha256": "841ece0262facfa30090462c996ec58ff2e0a5cadc3d72280c7c568e25afbd26",
+    "quote_count": 213,
+    "book_count": 8
+  },
+  {
+    "season": 2023,
+    "game": "2023_08_TB_BUF",
+    "event_id": "623ebe645e0e4dec5759ce364b68682f",
+    "kickoff": "2023-10-27T00:15:00+00:00",
+    "snapshot_time": "2023-10-27T00:10:43Z",
+    "payload_sha256": "195bd2682093b5b4fcee6adb35de353740ecd321d681e5a291c33335c74fce42",
+    "quote_count": 191,
+    "book_count": 8
+  },
+  {
+    "season": 2023,
+    "game": "2023_08_ATL_TEN",
+    "event_id": "97819f71c474956d24e436f0465f1591",
+    "kickoff": "2023-10-29T17:00:00+00:00",
+    "snapshot_time": "2023-10-29T16:55:40Z",
+    "payload_sha256": "d9f3806268a7c6fc672f7d35fdda311d510f8cbe6bfe4283fa4c6a736683fb77",
+    "quote_count": 231,
+    "book_count": 9
+  },
+  {
+    "season": 2023,
+    "game": "2023_08_HOU_CAR",
+    "event_id": "e8fd2231245ca0c308b65b0f736f5e0c",
+    "kickoff": "2023-10-29T17:00:00+00:00",
+    "snapshot_time": "2023-10-29T16:55:40Z",
+    "payload_sha256": "e639617cf2b4945a29bc714927874318376a6aee74c4526150980b3b213ede30",
+    "quote_count": 228,
+    "book_count": 9
+  },
+  {
+    "season": 2023,
+    "game": "2023_08_JAX_PIT",
+    "event_id": "b1ac8bca9348e03321aa9bb276a6aadb",
+    "kickoff": "2023-10-29T17:00:00+00:00",
+    "snapshot_time": "2023-10-29T16:55:40Z",
+    "payload_sha256": "f07b2f325ab279ec790a94de57457b659fb94714be58042ea373cfcd2c9024ca",
+    "quote_count": 222,
+    "book_count": 9
+  },
+  {
+    "season": 2023,
+    "game": "2023_08_LA_DAL",
+    "event_id": "3bd722d85e1bb286bb75111a0787eb87",
+    "kickoff": "2023-10-29T17:00:00+00:00",
+    "snapshot_time": "2023-10-29T16:55:40Z",
+    "payload_sha256": "c4a76d673a4da6e96ce59760029f9bf873a5432c6ae3569df9886f667da2749a",
+    "quote_count": 214,
+    "book_count": 9
+  },
+  {
+    "season": 2023,
+    "game": "2023_08_MIN_GB",
+    "event_id": "93991757289dd5b650742a6e18184271",
+    "kickoff": "2023-10-29T17:00:00+00:00",
+    "snapshot_time": "2023-10-29T16:55:40Z",
+    "payload_sha256": "3183306b1a22afc9873b4cd99bc020ddaadb1d2267f168009a679871b3463c30",
+    "quote_count": 243,
+    "book_count": 9
+  },
+  {
+    "season": 2023,
+    "game": "2023_08_NE_MIA",
+    "event_id": "21c7005a3e6cd5da08d67e737a83d89d",
+    "kickoff": "2023-10-29T17:00:00+00:00",
+    "snapshot_time": "2023-10-29T16:55:40Z",
+    "payload_sha256": "24308e2d752288d80ecd20faf8fd0432d5a08adc51b50c58a61b5445d3466b89",
+    "quote_count": 217,
+    "book_count": 9
+  },
+  {
+    "season": 2023,
+    "game": "2023_08_NO_IND",
+    "event_id": "f6d472a6b7b7e70ba2d43f8a975fdccc",
+    "kickoff": "2023-10-29T17:00:00+00:00",
+    "snapshot_time": "2023-10-29T16:55:40Z",
+    "payload_sha256": "76a4fd9670a73a0b8358bd3f74b46694103e703c4ac68e43e73dd500587e7f34",
+    "quote_count": 205,
+    "book_count": 9
+  },
+  {
+    "season": 2023,
+    "game": "2023_08_NYJ_NYG",
+    "event_id": "b82f30e931a965bc7277d187549ca294",
+    "kickoff": "2023-10-29T17:00:00+00:00",
+    "snapshot_time": "2023-10-29T16:55:40Z",
+    "payload_sha256": "8bc7dc59f1377d39e4da90f4a8284dd3b839edb8d640582b8e33110e422e76cf",
+    "quote_count": 225,
+    "book_count": 9
+  },
+  {
+    "season": 2023,
+    "game": "2023_08_PHI_WAS",
+    "event_id": "4d8b130d0b5c36b7eac558283ebb4490",
+    "kickoff": "2023-10-29T17:00:00+00:00",
+    "snapshot_time": "2023-10-29T16:55:40Z",
+    "payload_sha256": "6d1482a721b54e9ca8082c919fa36076c304545cc492aa1df273c36a5fd9ef9f",
+    "quote_count": 221,
+    "book_count": 9
+  },
+  {
+    "season": 2023,
+    "game": "2023_08_CLE_SEA",
+    "event_id": "787552bac1bf53711f90ae8de5c55aef",
+    "kickoff": "2023-10-29T20:05:00+00:00",
+    "snapshot_time": "2023-10-29T20:00:40Z",
+    "payload_sha256": "2bc7031fbbd6350e4f84ff930cd71624c942b363b246a13e81dabbf200ce8338",
+    "quote_count": 221,
+    "book_count": 9
+  },
+  {
+    "season": 2023,
+    "game": "2023_08_BAL_ARI",
+    "event_id": "ada6e4fa41270f4b036701448503cea6",
+    "kickoff": "2023-10-29T20:25:00+00:00",
+    "snapshot_time": "2023-10-29T20:20:40Z",
+    "payload_sha256": "cbeb22b0d0ebd751e107b3d8291c3aa2d54109115338500666c910532578e308",
+    "quote_count": 200,
+    "book_count": 9
+  },
+  {
+    "season": 2023,
+    "game": "2023_08_CIN_SF",
+    "event_id": "aba08270582c4520f5ee43171e98e269",
+    "kickoff": "2023-10-29T20:25:00+00:00",
+    "snapshot_time": "2023-10-29T20:20:40Z",
+    "payload_sha256": "f156a45953050f9b7208cba87f75203b6dc40edeed8fe2c9c484a9a6c9aa15b9",
+    "quote_count": 221,
+    "book_count": 9
+  },
+  {
+    "season": 2023,
+    "game": "2023_08_KC_DEN",
+    "event_id": "4b3bf6a14799c3aba60073fab153a9b1",
+    "kickoff": "2023-10-29T20:25:00+00:00",
+    "snapshot_time": "2023-10-29T20:20:40Z",
+    "payload_sha256": "7fe3558ff7629c806e28c55c8cd975a53933c240b3032c7b91bd7f139d88610e",
+    "quote_count": 242,
+    "book_count": 9
+  },
+  {
+    "season": 2023,
+    "game": "2023_08_CHI_LAC",
+    "event_id": "56fab852b2d32615b5a38fb949e166e5",
+    "kickoff": "2023-10-30T00:20:00+00:00",
+    "snapshot_time": "2023-10-30T00:15:40Z",
+    "payload_sha256": "e0f8c6a4c9799930d15d1babe8deadaf66f10cb0af7427bccdf4096ebb2447e8",
+    "quote_count": 235,
+    "book_count": 9
+  },
+  {
+    "season": 2023,
+    "game": "2023_08_LV_DET",
+    "event_id": "8b59fe43939a2e45652c93373a06fa05",
+    "kickoff": "2023-10-31T00:15:00+00:00",
+    "snapshot_time": "2023-10-31T00:10:41Z",
+    "payload_sha256": "f7d05cd4c8aa03598e805624fd752c07d14f844ddafdc75aedec8b7e87ebdb54",
+    "quote_count": 226,
+    "book_count": 9
+  },
+  {
+    "season": 2023,
+    "game": "2023_09_TEN_PIT",
+    "event_id": "32af8c89aaa69de55f0267103f5cc765",
+    "kickoff": "2023-11-03T00:15:00+00:00",
+    "snapshot_time": "2023-11-03T00:10:43Z",
+    "payload_sha256": "45eaa33d8665940f569159d729f865c63b7f1181dc6ba9e26d732ddfde4ee02e",
+    "quote_count": 219,
+    "book_count": 9
+  },
+  {
+    "season": 2023,
+    "game": "2023_09_MIA_KC",
+    "event_id": "3f6905c62a5e2b8cd7c8822856860a60",
+    "kickoff": "2023-11-05T14:30:00+00:00",
+    "snapshot_time": "2023-11-05T14:25:40Z",
+    "payload_sha256": "98ae240fb13f688c7b0021e27774044063faa956f6e30cda764187a65f091046",
+    "quote_count": 210,
+    "book_count": 8
+  },
+  {
+    "season": 2023,
+    "game": "2023_09_ARI_CLE",
+    "event_id": "13a6db4b4dcde6ea412927c1668faf65",
+    "kickoff": "2023-11-05T18:00:00+00:00",
+    "snapshot_time": "2023-11-05T17:55:41Z",
+    "payload_sha256": "8ccc2d43226ecfdb6c27aca5d63a506a6b53875d06722e60bb4bb2623900ec3c",
+    "quote_count": 180,
+    "book_count": 8
+  },
+  {
+    "season": 2023,
+    "game": "2023_09_CHI_NO",
+    "event_id": "64ad3ec55cefcf573466f418bd52f408",
+    "kickoff": "2023-11-05T18:00:00+00:00",
+    "snapshot_time": "2023-11-05T17:55:41Z",
+    "payload_sha256": "91b52fa2aab4b2dc81ba4fce6059a623f80a5e4834131b011e75db10969f277a",
+    "quote_count": 227,
+    "book_count": 9
+  },
+  {
+    "season": 2023,
+    "game": "2023_09_LA_GB",
+    "event_id": "c0b98a80a1d531cc3f1bc4c99e1a1b76",
+    "kickoff": "2023-11-05T18:00:00+00:00",
+    "snapshot_time": "2023-11-05T17:55:41Z",
+    "payload_sha256": "234da46138be8580504a717e9e74748bd52643770d20d7b536e35fc21ff60b4d",
+    "quote_count": 220,
+    "book_count": 9
+  },
+  {
+    "season": 2023,
+    "game": "2023_09_MIN_ATL",
+    "event_id": "c1362543e7eb1a7fb370510089fdd2bb",
+    "kickoff": "2023-11-05T18:00:00+00:00",
+    "snapshot_time": "2023-11-05T17:55:41Z",
+    "payload_sha256": "3d014c65ef6315ba5d4c5e1f3c730cd2289e92351a7b32790b2a7533c181778f",
+    "quote_count": 232,
+    "book_count": 9
+  },
+  {
+    "season": 2023,
+    "game": "2023_09_SEA_BAL",
+    "event_id": "6342c443837605582abb04112f1e1221",
+    "kickoff": "2023-11-05T18:00:00+00:00",
+    "snapshot_time": "2023-11-05T17:55:41Z",
+    "payload_sha256": "0e618cba24042c081c65a31f1dd0fd22ec0591ed289b4184abeaf775453a95cf",
+    "quote_count": 246,
+    "book_count": 9
+  },
+  {
+    "season": 2023,
+    "game": "2023_09_TB_HOU",
+    "event_id": "cb6cae2ee8545b9f028840116a6d8aac",
+    "kickoff": "2023-11-05T18:00:00+00:00",
+    "snapshot_time": "2023-11-05T17:55:41Z",
+    "payload_sha256": "e6030de40c13cddd3beab1232f078963faad0169c6736d3f90c3955f4e906195",
+    "quote_count": 232,
+    "book_count": 9
+  },
+  {
+    "season": 2023,
+    "game": "2023_09_WAS_NE",
+    "event_id": "bc6c1c48eee564737dc27d9c184dd041",
+    "kickoff": "2023-11-05T18:00:00+00:00",
+    "snapshot_time": "2023-11-05T17:55:41Z",
+    "payload_sha256": "7c2ef2fe675ddd51fba5dffb8a0830215d3dc7514f97ae6038badacff36c8fd1",
+    "quote_count": 226,
+    "book_count": 9
+  },
+  {
+    "season": 2023,
+    "game": "2023_09_IND_CAR",
+    "event_id": "18005bf9b379df1435ae3caa1e12ac00",
+    "kickoff": "2023-11-05T21:05:00+00:00",
+    "snapshot_time": "2023-11-05T21:00:41Z",
+    "payload_sha256": "af12a5ce0d22f44a918e1a33215deca12a696f7b31dcf2d674d9042c5ef90c80",
+    "quote_count": 190,
+    "book_count": 8
+  },
+  {
+    "season": 2023,
+    "game": "2023_09_DAL_PHI",
+    "event_id": "3530767142f1ffd184aa029401f5acbb",
+    "kickoff": "2023-11-05T21:25:00+00:00",
+    "snapshot_time": "2023-11-05T21:20:40Z",
+    "payload_sha256": "ebc072d095d163a18b42713cbbf340cdbc243ff352209b4ffb3107d65c317612",
+    "quote_count": 220,
+    "book_count": 9
+  },
+  {
+    "season": 2023,
+    "game": "2023_09_NYG_LV",
+    "event_id": "d882b26f19332ec0aa9397de2285e457",
+    "kickoff": "2023-11-05T21:25:00+00:00",
+    "snapshot_time": "2023-11-05T21:20:40Z",
+    "payload_sha256": "f29d2f13e3cdd32bf53e21ecb216e7e3012ae40bc5adcfe609f9747dea917e23",
+    "quote_count": 216,
+    "book_count": 9
+  },
+  {
+    "season": 2023,
+    "game": "2023_09_BUF_CIN",
+    "event_id": "68afbfc763fee8c6dcabf1c129275c5b",
+    "kickoff": "2023-11-06T01:20:00+00:00",
+    "snapshot_time": "2023-11-06T01:15:40Z",
+    "payload_sha256": "3a571dff257b9c8ef25fd136ba99223c8b72e16a8aaf0784cd51f003b61d6c86",
+    "quote_count": 231,
+    "book_count": 9
+  },
+  {
+    "season": 2023,
+    "game": "2023_09_LAC_NYJ",
+    "event_id": "a0dcb94e3a5fa0633a6a5e013d5d43db",
+    "kickoff": "2023-11-07T01:15:00+00:00",
+    "snapshot_time": "2023-11-07T01:10:43Z",
+    "payload_sha256": "26318937c7dc1e071b5e4313bb035763b43858ed177ca9b517d89f2599966c70",
+    "quote_count": 219,
+    "book_count": 9
+  },
+  {
+    "season": 2023,
+    "game": "2023_10_CAR_CHI",
+    "event_id": "79846786112c7d5116a2326be9abedcb",
+    "kickoff": "2023-11-10T01:15:00+00:00",
+    "snapshot_time": "2023-11-10T01:10:45Z",
+    "payload_sha256": "4a07d01907e3a8cdaba8860a60f2ec1f8f4597435d2dae2e12ca084685319367",
+    "quote_count": 226,
+    "book_count": 9
+  },
+  {
+    "season": 2023,
+    "game": "2023_10_IND_NE",
+    "event_id": "b5b610ddb0ca0f0bc3d51e07ecc4c520",
+    "kickoff": "2023-11-12T14:30:00+00:00",
+    "snapshot_time": "2023-11-12T14:25:40Z",
+    "payload_sha256": "f5bf0594547252b282f8e544688733d7d9eabae698e58824f0a225ed781099c0",
+    "quote_count": 216,
+    "book_count": 9
+  },
+  {
+    "season": 2023,
+    "game": "2023_10_CLE_BAL",
+    "event_id": "c5eeafee32ce8de348c503a58d42e8d5",
+    "kickoff": "2023-11-12T18:00:00+00:00",
+    "snapshot_time": "2023-11-12T17:55:40Z",
+    "payload_sha256": "1318597564f1ad607fd7dac22effe208f04246ce13bc69a0d139028ad88a4f04",
+    "quote_count": 208,
+    "book_count": 9
+  },
+  {
+    "season": 2023,
+    "game": "2023_10_GB_PIT",
+    "event_id": "598cba017220362c51b4e9436b864e55",
+    "kickoff": "2023-11-12T18:00:00+00:00",
+    "snapshot_time": "2023-11-12T17:55:40Z",
+    "payload_sha256": "ce3661ef7a6be0d8fa56176264ed924af50876233369dd3d1c15844408ec87b3",
+    "quote_count": 219,
+    "book_count": 9
+  },
+  {
+    "season": 2023,
+    "game": "2023_10_HOU_CIN",
+    "event_id": "98081ab3500423fd829a5b9c1d47fe0c",
+    "kickoff": "2023-11-12T18:00:00+00:00",
+    "snapshot_time": "2023-11-12T17:55:40Z",
+    "payload_sha256": "69266d73ed1fa042b2325b88cbe12fa8829029918e00fa0d566be3fe86a342e2",
+    "quote_count": 226,
+    "book_count": 9
+  },
+  {
+    "season": 2023,
+    "game": "2023_10_NO_MIN",
+    "event_id": "1ef403b76cec4a4fafa9896083ab1e98",
+    "kickoff": "2023-11-12T18:00:00+00:00",
+    "snapshot_time": "2023-11-12T17:55:40Z",
+    "payload_sha256": "0e7bed0329c8ddb9e52b554f36045fb48841af8b747ef0b73d3cdc870dc01237",
+    "quote_count": 222,
+    "book_count": 9
+  },
+  {
+    "season": 2023,
+    "game": "2023_10_SF_JAX",
+    "event_id": "6dbc9e87817daefec0b0657fc11b19f4",
+    "kickoff": "2023-11-12T18:00:00+00:00",
+    "snapshot_time": "2023-11-12T17:55:40Z",
+    "payload_sha256": "7b615215979a409c60f8221ff2a26fcbd64c6dd7831887f4bc719dd32b556646",
+    "quote_count": 212,
+    "book_count": 9
+  },
+  {
+    "season": 2023,
+    "game": "2023_10_TEN_TB",
+    "event_id": "07fc4a3bb61dceee5482086876af7ca0",
+    "kickoff": "2023-11-12T18:00:00+00:00",
+    "snapshot_time": "2023-11-12T17:55:40Z",
+    "payload_sha256": "05f2de4e4157c4175e31e24714eee360d697edc1cd4ef8cb8088ec147d408252",
+    "quote_count": 197,
+    "book_count": 9
+  },
+  {
+    "season": 2023,
+    "game": "2023_10_ATL_ARI",
+    "event_id": "5879128840c29e3469a6ceb64bab9470",
+    "kickoff": "2023-11-12T21:05:00+00:00",
+    "snapshot_time": "2023-11-12T21:00:39Z",
+    "payload_sha256": "032086e2105da4a833908a2856acc369acf775ec070034a51eb351cb32ad610e",
+    "quote_count": 212,
+    "book_count": 9
+  },
+  {
+    "season": 2023,
+    "game": "2023_10_DET_LAC",
+    "event_id": "93ca64cd0a848ea783fffc08d2f520c2",
+    "kickoff": "2023-11-12T21:05:00+00:00",
+    "snapshot_time": "2023-11-12T21:00:39Z",
+    "payload_sha256": "6c85dee9d9f8e455554b4dbb0d470c7fe5c2072824f9bb2697168117bd15917d",
+    "quote_count": 221,
+    "book_count": 9
+  },
+  {
+    "season": 2023,
+    "game": "2023_10_NYG_DAL",
+    "event_id": "fc007baa989f1a6102c9b6100f2a07f7",
+    "kickoff": "2023-11-12T21:25:00+00:00",
+    "snapshot_time": "2023-11-12T21:20:38Z",
+    "payload_sha256": "8abe66450bee81de20030c4962f700e6b1c0f59b7eb84db8d6342d9e62d1d3e2",
+    "quote_count": 212,
+    "book_count": 9
+  },
+  {
+    "season": 2023,
+    "game": "2023_10_WAS_SEA",
+    "event_id": "e658ecc30213f84c4b68dc3cf5f3f44c",
+    "kickoff": "2023-11-12T21:25:00+00:00",
+    "snapshot_time": "2023-11-12T21:20:38Z",
+    "payload_sha256": "3fa2de11523ad91596108fdf4344ec423997f2ef5aaad623b0befdf3d1efd108",
+    "quote_count": 225,
+    "book_count": 9
+  },
+  {
+    "season": 2023,
+    "game": "2023_10_NYJ_LV",
+    "event_id": "93b978585bf0aa7cafb48cc3ef875fc9",
+    "kickoff": "2023-11-13T01:20:00+00:00",
+    "snapshot_time": "2023-11-13T01:15:38Z",
+    "payload_sha256": "9d3e418e42f74e1974d2fbf42c2f6959b8e5391ec9e0738007fd6de996b24481",
+    "quote_count": 229,
+    "book_count": 9
+  },
+  {
+    "season": 2023,
+    "game": "2023_10_DEN_BUF",
+    "event_id": "9a9404cf872703411250a88f6c2b7ac6",
+    "kickoff": "2023-11-14T01:15:00+00:00",
+    "snapshot_time": "2023-11-14T01:10:41Z",
+    "payload_sha256": "4871b46d46002e2273d08fbfc5df6a69b9b95e3a4f2a1c63582a0d7f83aaead2",
+    "quote_count": 225,
+    "book_count": 9
+  },
+  {
+    "season": 2023,
+    "game": "2023_11_CIN_BAL",
+    "event_id": "ad2140bcb78fd6f6d37bee937bfa4d90",
+    "kickoff": "2023-11-17T01:15:00+00:00",
+    "snapshot_time": "2023-11-17T01:10:43Z",
+    "payload_sha256": "c2bd2e77f40188bc7bc08ff2866135049c2246f58a1399d0f0bad43b79d3961f",
+    "quote_count": 222,
+    "book_count": 8
+  },
+  {
+    "season": 2023,
+    "game": "2023_11_ARI_HOU",
+    "event_id": "e1950715bf70945e95a913a3270cd69c",
+    "kickoff": "2023-11-19T18:00:00+00:00",
+    "snapshot_time": "2023-11-19T17:55:41Z",
+    "payload_sha256": "2207756acd61ada5c8c9d1ff8c9800f9776551f61bd3c762570d02994a0f2d3b",
+    "quote_count": 189,
+    "book_count": 8
+  },
+  {
+    "season": 2023,
+    "game": "2023_11_CHI_DET",
+    "event_id": "725fda19c1793f5a81c16263426788ee",
+    "kickoff": "2023-11-19T18:00:00+00:00",
+    "snapshot_time": "2023-11-19T17:55:41Z",
+    "payload_sha256": "4bf9e9a7cfaff68b02b82427992b9c9350a36b479ea56ea28f759c9e530d7039",
+    "quote_count": 225,
+    "book_count": 8
+  },
+  {
+    "season": 2023,
+    "game": "2023_11_DAL_CAR",
+    "event_id": "3d08e5109caaffbcbe0deb49638886df",
+    "kickoff": "2023-11-19T18:00:00+00:00",
+    "snapshot_time": "2023-11-19T17:55:41Z",
+    "payload_sha256": "043dfb6adee0f6ea5e11302ba8fb5af1879adac4763f9eeaf37b40bc279201a3",
+    "quote_count": 218,
+    "book_count": 8
+  },
+  {
+    "season": 2023,
+    "game": "2023_11_LAC_GB",
+    "event_id": "d676d3d58ba5c3b249015c9797c11459",
+    "kickoff": "2023-11-19T18:00:00+00:00",
+    "snapshot_time": "2023-11-19T17:55:41Z",
+    "payload_sha256": "2856dd79e792d6029ad657f3c360aa0a7b2a3ee55647ef90b615959f820072a8",
+    "quote_count": 197,
+    "book_count": 8
+  },
+  {
+    "season": 2023,
+    "game": "2023_11_LV_MIA",
+    "event_id": "e968a3bb4e60b63f814badcfbf9977ab",
+    "kickoff": "2023-11-19T18:00:00+00:00",
+    "snapshot_time": "2023-11-19T17:55:41Z",
+    "payload_sha256": "be40d5fa2ecc354e11df6508c3c06308e544d3b173fb66ea06d9678e627f0dcb",
+    "quote_count": 196,
+    "book_count": 8
+  },
+  {
+    "season": 2023,
+    "game": "2023_11_NYG_WAS",
+    "event_id": "643c0a5da6ec46a44b0b1d5dd3819b9c",
+    "kickoff": "2023-11-19T18:00:00+00:00",
+    "snapshot_time": "2023-11-19T17:55:41Z",
+    "payload_sha256": "dd7637ff0ecb4ccefec33bc88bfdfcffdb4de2679c4f270d1336becafbab23a2",
+    "quote_count": 219,
+    "book_count": 8
+  },
+  {
+    "season": 2023,
+    "game": "2023_11_PIT_CLE",
+    "event_id": "3152f45199a800df6949bedc3667cc56",
+    "kickoff": "2023-11-19T18:00:00+00:00",
+    "snapshot_time": "2023-11-19T17:55:41Z",
+    "payload_sha256": "026b763f1835ff3e1bbb409fd25a79fd56e3a9219fdbb2b504c280463c3cb732",
+    "quote_count": 218,
+    "book_count": 8
+  },
+  {
+    "season": 2023,
+    "game": "2023_11_TEN_JAX",
+    "event_id": "14322e4bcc697089c189622915db1a04",
+    "kickoff": "2023-11-19T18:00:00+00:00",
+    "snapshot_time": "2023-11-19T17:55:41Z",
+    "payload_sha256": "bedfa1d02bc31d6d0553c6b954cc6f7358f02169440d4d3c583c251b2c1369a4",
+    "quote_count": 189,
+    "book_count": 8
+  },
+  {
+    "season": 2023,
+    "game": "2023_11_TB_SF",
+    "event_id": "8dcb7c89abe06e78be444bc54284ad95",
+    "kickoff": "2023-11-19T21:05:00+00:00",
+    "snapshot_time": "2023-11-19T21:00:41Z",
+    "payload_sha256": "c7ffe455226c5c0aba5daa2be645cdb7dffd4b47b55301cd62ecf8c1f3b8d8f2",
+    "quote_count": 192,
+    "book_count": 7
+  },
+  {
+    "season": 2023,
+    "game": "2023_11_NYJ_BUF",
+    "event_id": "7ffa1ceb2b78914d13f2e894ed2e83bd",
+    "kickoff": "2023-11-19T21:25:00+00:00",
+    "snapshot_time": "2023-11-19T21:20:40Z",
+    "payload_sha256": "5d26991a8249eddb3dc6ffba8cc413a34ca68d9212b65e5351b1037843b69433",
+    "quote_count": 209,
+    "book_count": 8
+  },
+  {
+    "season": 2023,
+    "game": "2023_11_SEA_LA",
+    "event_id": "bc7543ec7bf3dddcc6d71b433ef360d0",
+    "kickoff": "2023-11-19T21:25:00+00:00",
+    "snapshot_time": "2023-11-19T21:20:40Z",
+    "payload_sha256": "1a2b700b8989ecc0a0ba068c9683016a2865c604b2cd2a82d96e08d2e9a097a6",
+    "quote_count": 225,
+    "book_count": 8
+  },
+  {
+    "season": 2023,
+    "game": "2023_11_MIN_DEN",
+    "event_id": "d59ec10420e78737c5fdfb5371c4c8e0",
+    "kickoff": "2023-11-20T01:20:00+00:00",
+    "snapshot_time": "2023-11-20T01:15:41Z",
+    "payload_sha256": "c343f96f2834c6ecc0bb518374eb44137e76d0a2f6d18505c81a592fd4300e69",
+    "quote_count": 227,
+    "book_count": 8
+  },
+  {
+    "season": 2023,
+    "game": "2023_11_PHI_KC",
+    "event_id": "7ada5a3ce1269f9c0953a196b5fb4a0c",
+    "kickoff": "2023-11-21T01:15:00+00:00",
+    "snapshot_time": "2023-11-21T01:10:42Z",
+    "payload_sha256": "b9393552448bcdd03b93a1efcb65e29025a39efa5877db4e9375d12d18270f03",
+    "quote_count": 218,
+    "book_count": 8
+  },
+  {
+    "season": 2023,
+    "game": "2023_12_GB_DET",
+    "event_id": "0f2909e25d9307a32b840dcccf848e5f",
+    "kickoff": "2023-11-23T17:30:00+00:00",
+    "snapshot_time": "2023-11-23T17:25:39Z",
+    "payload_sha256": "14d0908ca0a167dc5e16f148c9f1b2a89c6dc3ad950c1b72351e09ccc41af4d2",
+    "quote_count": 200,
+    "book_count": 8
+  },
+  {
+    "season": 2023,
+    "game": "2023_12_WAS_DAL",
+    "event_id": "a6e073fff37db15464e7e44b71462a20",
+    "kickoff": "2023-11-23T21:30:00+00:00",
+    "snapshot_time": "2023-11-23T21:25:40Z",
+    "payload_sha256": "00588aa3b97681942fd2bc13870471e7f3601c16dbb1f724f553b5f6ad7827b4",
+    "quote_count": 238,
+    "book_count": 8
+  },
+  {
+    "season": 2023,
+    "game": "2023_12_SF_SEA",
+    "event_id": "d001a3b1c793ab693130ede3dc9e6810",
+    "kickoff": "2023-11-24T01:20:00+00:00",
+    "snapshot_time": "2023-11-24T01:15:40Z",
+    "payload_sha256": "0a5ad2034cb786f64df2c9e33cc9550e512849947739e8416e3de621cc0c0c6e",
+    "quote_count": 223,
+    "book_count": 8
+  },
+  {
+    "season": 2023,
+    "game": "2023_12_MIA_NYJ",
+    "event_id": "32c414934534235b0885860a21180ddc",
+    "kickoff": "2023-11-24T20:00:00+00:00",
+    "snapshot_time": "2023-11-24T19:55:40Z",
+    "payload_sha256": "57b2849a85d06b44360ce2a59a2a4358b65a4326ebb61c9293126b109c867cb1",
+    "quote_count": 224,
+    "book_count": 8
+  },
+  {
+    "season": 2023,
+    "game": "2023_12_CAR_TEN",
+    "event_id": "387496b9809d0ba1d218674c095a9851",
+    "kickoff": "2023-11-26T18:00:00+00:00",
+    "snapshot_time": "2023-11-26T17:55:38Z",
+    "payload_sha256": "bec6f31f432363dc70c2c700dfa1a36d37749505d9dae581f8f12c3fdb3caa2c",
+    "quote_count": 206,
+    "book_count": 8
+  },
+  {
+    "season": 2023,
+    "game": "2023_12_JAX_HOU",
+    "event_id": "e5dae7f38f74481f9ca66ff314785ba7",
+    "kickoff": "2023-11-26T18:00:00+00:00",
+    "snapshot_time": "2023-11-26T17:55:38Z",
+    "payload_sha256": "8ba7a9d3a905685fa2f6dd1b6e33e3c6920b4bbd43cd1a61d2d0341856f04065",
+    "quote_count": 221,
+    "book_count": 8
+  },
+  {
+    "season": 2023,
+    "game": "2023_12_NE_NYG",
+    "event_id": "68d540f963b61e7362b7bf8d27740352",
+    "kickoff": "2023-11-26T18:00:00+00:00",
+    "snapshot_time": "2023-11-26T17:55:38Z",
+    "payload_sha256": "27166a539ab1d3ddfc98ce17e9b72a85f983fccaa20583e61c7564af6ab32393",
+    "quote_count": 195,
+    "book_count": 8
+  },
+  {
+    "season": 2023,
+    "game": "2023_12_NO_ATL",
+    "event_id": "4a12e8418289ef8d56250b020a9b5c15",
+    "kickoff": "2023-11-26T18:00:00+00:00",
+    "snapshot_time": "2023-11-26T17:55:38Z",
+    "payload_sha256": "1cb0d3175666f70ea0c7f97c1360dd323efc5dd44174c6b91d44e0940c11bc79",
+    "quote_count": 209,
+    "book_count": 8
+  },
+  {
+    "season": 2023,
+    "game": "2023_12_PIT_CIN",
+    "event_id": "4fc56a4d2185021682448f394e367742",
+    "kickoff": "2023-11-26T18:00:00+00:00",
+    "snapshot_time": "2023-11-26T17:55:38Z",
+    "payload_sha256": "b93b511471f42f168ac29670df5c995965058900e11dd2ad31d26e7f9bc14447",
+    "quote_count": 216,
+    "book_count": 8
+  },
+  {
+    "season": 2023,
+    "game": "2023_12_TB_IND",
+    "event_id": "a721e155795f890bffe4c51c3dc0a472",
+    "kickoff": "2023-11-26T18:00:00+00:00",
+    "snapshot_time": "2023-11-26T17:55:38Z",
+    "payload_sha256": "369a548c91b5cad12ae354c5bd475cba3772383613033ab34b923cc3dc29a5b5",
+    "quote_count": 193,
+    "book_count": 8
+  },
+  {
+    "season": 2023,
+    "game": "2023_12_CLE_DEN",
+    "event_id": "f1788bb541815fe2a101212cf18d5af9",
+    "kickoff": "2023-11-26T21:05:00+00:00",
+    "snapshot_time": "2023-11-26T21:00:38Z",
+    "payload_sha256": "1db2ac600b1e55bfc2ca3f77e09e8dedc299a770a107cd527e568262e1427374",
+    "quote_count": 207,
+    "book_count": 8
+  },
+  {
+    "season": 2023,
+    "game": "2023_12_LA_ARI",
+    "event_id": "f67d77c0cd4a8ecb8d3fb6ad0f3b1aea",
+    "kickoff": "2023-11-26T21:05:00+00:00",
+    "snapshot_time": "2023-11-26T21:00:38Z",
+    "payload_sha256": "9c53914cc2133a40b0af9a1b2833c56eb7cfc0bfb140d80486d143e79efa7419",
+    "quote_count": 186,
+    "book_count": 8
+  },
+  {
+    "season": 2023,
+    "game": "2023_12_BUF_PHI",
+    "event_id": "5e766a287ba24d40d9e40aa41efe19de",
+    "kickoff": "2023-11-26T21:25:00+00:00",
+    "snapshot_time": "2023-11-26T21:20:38Z",
+    "payload_sha256": "acbd4b0c9bac4fc377ed51b92f14d85d99a9af19008a77472c9e1a86b0a9f8e0",
+    "quote_count": 192,
+    "book_count": 8
+  },
+  {
+    "season": 2023,
+    "game": "2023_12_KC_LV",
+    "event_id": "c491f05b066449d95732c4f52ac57e66",
+    "kickoff": "2023-11-26T21:25:00+00:00",
+    "snapshot_time": "2023-11-26T21:20:38Z",
+    "payload_sha256": "aeba1e82e81f84d7e6cfca0ac149294b68062865d55a533810bf3b96f4455649",
+    "quote_count": 216,
+    "book_count": 8
+  },
+  {
+    "season": 2023,
+    "game": "2023_12_BAL_LAC",
+    "event_id": "eb77c9dad13ef82ba5ff4dcf439d3bab",
+    "kickoff": "2023-11-27T01:20:00+00:00",
+    "snapshot_time": "2023-11-27T01:15:39Z",
+    "payload_sha256": "645463e9b12f113340dd150b37cdc3945c5e08a2129fcf8302d70d1ef2b92ada",
+    "quote_count": 209,
+    "book_count": 8
+  },
+  {
+    "season": 2023,
+    "game": "2023_12_CHI_MIN",
+    "event_id": "c1b7e562062eb3bac053a2f5ecf399f9",
+    "kickoff": "2023-11-28T01:15:00+00:00",
+    "snapshot_time": "2023-11-28T01:10:39Z",
+    "payload_sha256": "24eda0381ee6f2e40f343bd6dfe50fd37d9db0e72b53627a61d22eb6a20d3038",
+    "quote_count": 218,
+    "book_count": 8
+  },
+  {
+    "season": 2023,
+    "game": "2023_13_SEA_DAL",
+    "event_id": "b2eeb176fc9adfc63b9098b313905792",
+    "kickoff": "2023-12-01T01:15:00+00:00",
+    "snapshot_time": "2023-12-01T01:10:39Z",
+    "payload_sha256": "c089cd1cc798da65e78fa6fc893f54d4532bde691469a2bdcdec92e04d2bf1a3",
+    "quote_count": 215,
+    "book_count": 8
+  },
+  {
+    "season": 2023,
+    "game": "2023_13_ARI_PIT",
+    "event_id": "76ae384526017414d68d617bf80b8aab",
+    "kickoff": "2023-12-03T18:00:00+00:00",
+    "snapshot_time": "2023-12-03T17:55:38Z",
+    "payload_sha256": "e317e1c0d6798081e6cf98f76b8c78888cf795a62196d4a60f4f94c85452f407",
+    "quote_count": 208,
+    "book_count": 8
+  },
+  {
+    "season": 2023,
+    "game": "2023_13_ATL_NYJ",
+    "event_id": "d9498cb661062746dfc500a20c3a87e8",
+    "kickoff": "2023-12-03T18:00:00+00:00",
+    "snapshot_time": "2023-12-03T17:55:38Z",
+    "payload_sha256": "ecde99952cc310749ac0179b2fcb9521771083a723e5fd71bd25e55582bd4260",
+    "quote_count": 221,
+    "book_count": 8
+  },
+  {
+    "season": 2023,
+    "game": "2023_13_DEN_HOU",
+    "event_id": "53c6da53a7ba5f06aae182ee5ce38616",
+    "kickoff": "2023-12-03T18:00:00+00:00",
+    "snapshot_time": "2023-12-03T17:55:38Z",
+    "payload_sha256": "152721ce985d691e41a1b0eab8a8620c6051f85034db055378e7aa8637372688",
+    "quote_count": 199,
+    "book_count": 8
+  },
+  {
+    "season": 2023,
+    "game": "2023_13_DET_NO",
+    "event_id": "41c4d77b6a910a6b2364fbeb51dba059",
+    "kickoff": "2023-12-03T18:00:00+00:00",
+    "snapshot_time": "2023-12-03T17:55:38Z",
+    "payload_sha256": "32732357bf11822b488636812a6bb6f20ad40abfe2d7662479bcad4ce0d98470",
+    "quote_count": 211,
+    "book_count": 8
+  },
+  {
+    "season": 2023,
+    "game": "2023_13_IND_TEN",
+    "event_id": "6cd4bff8b0950234be09e6c0acda7b95",
+    "kickoff": "2023-12-03T18:00:00+00:00",
+    "snapshot_time": "2023-12-03T17:55:38Z",
+    "payload_sha256": "5fa609b32e2392e84fb2dc63beaa5cf1499581209fdb55bcad52c9e92e3d4aaf",
+    "quote_count": 224,
+    "book_count": 8
+  },
+  {
+    "season": 2023,
+    "game": "2023_13_LAC_NE",
+    "event_id": "ad1bbe3e94716ca03c3059092cbd1eee",
+    "kickoff": "2023-12-03T18:00:00+00:00",
+    "snapshot_time": "2023-12-03T17:55:38Z",
+    "payload_sha256": "94acdfb6de3b1af24291a642125223accbb9ba2a7233aaa3535e4eebdda361ca",
+    "quote_count": 213,
+    "book_count": 8
+  },
+  {
+    "season": 2023,
+    "game": "2023_13_MIA_WAS",
+    "event_id": "5e0c5b79c3cb142f3361ade464174b68",
+    "kickoff": "2023-12-03T18:00:00+00:00",
+    "snapshot_time": "2023-12-03T17:55:38Z",
+    "payload_sha256": "ade78104f3daddbfa5958d0cff8e5a9d9960ac8837ff606a54d59b3af32a06c7",
+    "quote_count": 216,
+    "book_count": 8
+  },
+  {
+    "season": 2023,
+    "game": "2023_13_CAR_TB",
+    "event_id": "b70cc20a6410503c2661e5074c3bedd8",
+    "kickoff": "2023-12-03T21:05:00+00:00",
+    "snapshot_time": "2023-12-03T21:00:38Z",
+    "payload_sha256": "8948ae05802eccf9599f489a77ded408dd9a532602e48c3d0fd6539932ee4a76",
+    "quote_count": 206,
+    "book_count": 8
+  },
+  {
+    "season": 2023,
+    "game": "2023_13_CLE_LA",
+    "event_id": "4622746235a30217e61503cbcb3204bc",
+    "kickoff": "2023-12-03T21:25:00+00:00",
+    "snapshot_time": "2023-12-03T21:20:38Z",
+    "payload_sha256": "79a5494e8774720f4d93add02d831501e9114ed28f46b67d83171fec24bc1caa",
+    "quote_count": 205,
+    "book_count": 8
+  },
+  {
+    "season": 2023,
+    "game": "2023_13_SF_PHI",
+    "event_id": "01d2c501c2836b50ef978f04c4673c6f",
+    "kickoff": "2023-12-03T21:25:00+00:00",
+    "snapshot_time": "2023-12-03T21:20:38Z",
+    "payload_sha256": "d90574db224d5b9445b7e8c0598122152140a12ba5d054dafaa20f2509524ba2",
+    "quote_count": 203,
+    "book_count": 8
+  },
+  {
+    "season": 2023,
+    "game": "2023_13_KC_GB",
+    "event_id": "fed9bbf95a14428f10feee2cad9f7068",
+    "kickoff": "2023-12-04T01:20:00+00:00",
+    "snapshot_time": "2023-12-04T01:15:37Z",
+    "payload_sha256": "3a9c0ddadc5dff55b9fe71dcf493574dc2d0cd9aa9bddac4a8aa6e92267a9ab5",
+    "quote_count": 216,
+    "book_count": 8
+  },
+  {
+    "season": 2023,
+    "game": "2023_13_CIN_JAX",
+    "event_id": "a4e3931e811a989c571fff8bf47def0a",
+    "kickoff": "2023-12-05T01:15:00+00:00",
+    "snapshot_time": "2023-12-05T01:10:39Z",
+    "payload_sha256": "5c740d030c2e58655b77809aa0fb6b8efe3b6ff9292d8f65535357be5bbe281f",
+    "quote_count": 224,
+    "book_count": 8
+  },
+  {
+    "season": 2023,
+    "game": "2023_14_NE_PIT",
+    "event_id": "4275f59e3fbef9a01b3007538c0b61fc",
+    "kickoff": "2023-12-08T01:15:00+00:00",
+    "snapshot_time": "2023-12-08T01:10:40Z",
+    "payload_sha256": "2b883b950897132fdeaabdb404cd2b9b4290bd1d9b8b3ff944c2cbb1862e72d8",
+    "quote_count": 209,
+    "book_count": 8
+  },
+  {
+    "season": 2023,
+    "game": "2023_14_CAR_NO",
+    "event_id": "21466b3f0fdff97da5c44d0774f2c1a6",
+    "kickoff": "2023-12-10T18:00:00+00:00",
+    "snapshot_time": "2023-12-10T17:55:38Z",
+    "payload_sha256": "b684c68990fd45fc826e8ab55fef86698f67f733116599067d8773768fd7a223",
+    "quote_count": 199,
+    "book_count": 8
+  },
+  {
+    "season": 2023,
+    "game": "2023_14_DET_CHI",
+    "event_id": "003f1b5d02fe699b7efae4b3af1df39c",
+    "kickoff": "2023-12-10T18:00:00+00:00",
+    "snapshot_time": "2023-12-10T17:55:38Z",
+    "payload_sha256": "3aa8769ecdcdd2203ed2455e38edcd5adc72a1f813b26d6af2cebc3b5a3d8714",
+    "quote_count": 221,
+    "book_count": 8
+  },
+  {
+    "season": 2023,
+    "game": "2023_14_HOU_NYJ",
+    "event_id": "affdea10708b9e802b8b0c445be6ce4b",
+    "kickoff": "2023-12-10T18:00:00+00:00",
+    "snapshot_time": "2023-12-10T17:55:38Z",
+    "payload_sha256": "dae6a0320a8509ad7480df610a18511a5ffcc9de7c734dd03d91b9efb8e5855c",
+    "quote_count": 184,
+    "book_count": 8
+  },
+  {
+    "season": 2023,
+    "game": "2023_14_IND_CIN",
+    "event_id": "44ce059ff332b5b1169459132488a51e",
+    "kickoff": "2023-12-10T18:00:00+00:00",
+    "snapshot_time": "2023-12-10T17:55:38Z",
+    "payload_sha256": "cbbafdcf22b4bfc4c4774de71f1729be7423ad66cfe7511f3ddf4494269784ac",
+    "quote_count": 207,
+    "book_count": 8
+  },
+  {
+    "season": 2023,
+    "game": "2023_14_JAX_CLE",
+    "event_id": "48d726d4f5811eab626ddfb09bf48235",
+    "kickoff": "2023-12-10T18:00:00+00:00",
+    "snapshot_time": "2023-12-10T17:55:38Z",
+    "payload_sha256": "ae0d454001f9080a0ceb9e25ca6242af3723d5b60360567be86b10862213994e",
+    "quote_count": 199,
+    "book_count": 8
+  },
+  {
+    "season": 2023,
+    "game": "2023_14_LA_BAL",
+    "event_id": "c4fa37180b109663749897f5e7ddb134",
+    "kickoff": "2023-12-10T18:00:00+00:00",
+    "snapshot_time": "2023-12-10T17:55:38Z",
+    "payload_sha256": "bf8e0110f16824ebc8707ddcc087505720b7e79e933288542546fb76c1156905",
+    "quote_count": 219,
+    "book_count": 8
+  },
+  {
+    "season": 2023,
+    "game": "2023_14_TB_ATL",
+    "event_id": "75558e1b61a377e60eba1971dfb6a46c",
+    "kickoff": "2023-12-10T18:00:00+00:00",
+    "snapshot_time": "2023-12-10T17:55:38Z",
+    "payload_sha256": "019e3434bee860493889d502bfb60674f497f80b7a499119c009b296f7ddd124",
+    "quote_count": 227,
+    "book_count": 8
+  },
+  {
+    "season": 2023,
+    "game": "2023_14_MIN_LV",
+    "event_id": "2c2e60cf464088acdefc0c972de49317",
+    "kickoff": "2023-12-10T21:05:00+00:00",
+    "snapshot_time": "2023-12-10T21:00:38Z",
+    "payload_sha256": "7c744dce9fd2a857656c831856ade3a93f0c9ead5d98e73b428dcc03a22336e8",
+    "quote_count": 202,
+    "book_count": 8
+  },
+  {
+    "season": 2023,
+    "game": "2023_14_SEA_SF",
+    "event_id": "4fc535d395a9c86c6fa686a251a47acd",
+    "kickoff": "2023-12-10T21:05:00+00:00",
+    "snapshot_time": "2023-12-10T21:00:38Z",
+    "payload_sha256": "7b5e56bc5f8a96e2c224565afac10da9cbce0b2fc279b3885068475513014877",
+    "quote_count": 211,
+    "book_count": 8
+  },
+  {
+    "season": 2023,
+    "game": "2023_14_BUF_KC",
+    "event_id": "3f3e724f37cedc82b772233204dc42eb",
+    "kickoff": "2023-12-10T21:25:00+00:00",
+    "snapshot_time": "2023-12-10T21:20:38Z",
+    "payload_sha256": "458d5be2c75db33bafdf5e9d7e5b2ae9e60ce8345c2cf2eb3bdb8b02ffb0a936",
+    "quote_count": 234,
+    "book_count": 8
+  },
+  {
+    "season": 2023,
+    "game": "2023_14_DEN_LAC",
+    "event_id": "1b45a999d8130829ebd2663fed2dff9e",
+    "kickoff": "2023-12-10T21:25:00+00:00",
+    "snapshot_time": "2023-12-10T21:20:38Z",
+    "payload_sha256": "eda3dfe77ad0497750c5e3d383155f8188336df30d4226f9a8e9ea0813ead994",
+    "quote_count": 214,
+    "book_count": 8
+  },
+  {
+    "season": 2023,
+    "game": "2023_14_PHI_DAL",
+    "event_id": "419340a84b66e0873b00597841a3531c",
+    "kickoff": "2023-12-11T01:20:00+00:00",
+    "snapshot_time": "2023-12-11T01:15:38Z",
+    "payload_sha256": "749b31d6013a834d138d3e1b28983ec37652212a22ce10c4e27b1f0fbaef381e",
+    "quote_count": 220,
+    "book_count": 8
+  },
+  {
+    "season": 2023,
+    "game": "2023_14_GB_NYG",
+    "event_id": "ea43090cd4cc2eb2fb98ba3847aba986",
+    "kickoff": "2023-12-12T01:15:00+00:00",
+    "snapshot_time": "2023-12-12T01:10:39Z",
+    "payload_sha256": "564c08d9ddd5b5ae053e60b076e68ea4bcdd89fd6eaa1fdb906184f8399b9c9e",
+    "quote_count": 205,
+    "book_count": 8
+  },
+  {
+    "season": 2023,
+    "game": "2023_14_TEN_MIA",
+    "event_id": "2c4ca7353e2db06d12d583f8a46d38a7",
+    "kickoff": "2023-12-12T01:15:00+00:00",
+    "snapshot_time": "2023-12-12T01:10:39Z",
+    "payload_sha256": "c5300ef69a034484aeb2676ba29a171d8de34f1ffed8004f1e8805f9bb735663",
+    "quote_count": 213,
+    "book_count": 8
+  },
+  {
+    "season": 2023,
+    "game": "2023_15_LAC_LV",
+    "event_id": "72a6214a3f806871b60e04ee1f977abe",
+    "kickoff": "2023-12-15T01:15:00+00:00",
+    "snapshot_time": "2023-12-15T01:10:39Z",
+    "payload_sha256": "a87562d74e6ddea26cdefde0b3a96dd17b9758d179a9f55722cc35081fd83eb8",
+    "quote_count": 218,
+    "book_count": 8
+  },
+  {
+    "season": 2023,
+    "game": "2023_15_MIN_CIN",
+    "event_id": "504debed5f593861f189755b6f1cd04c",
+    "kickoff": "2023-12-16T18:00:00+00:00",
+    "snapshot_time": "2023-12-16T17:55:38Z",
+    "payload_sha256": "5856f374e951f73d20cb7ec8870a728a7587926d6793241e94a95110d3e036c9",
+    "quote_count": 222,
+    "book_count": 8
+  },
+  {
+    "season": 2023,
+    "game": "2023_15_PIT_IND",
+    "event_id": "333bbb25233d3e004f0979b9a9987074",
+    "kickoff": "2023-12-16T21:30:00+00:00",
+    "snapshot_time": "2023-12-16T21:25:38Z",
+    "payload_sha256": "dacdc90b0a2f3690d7b720f9f1b4bac43e87904472688c2d805bf96baecd1c25",
+    "quote_count": 222,
+    "book_count": 8
+  },
+  {
+    "season": 2023,
+    "game": "2023_15_DEN_DET",
+    "event_id": "b8d545e119fa18b7183acc18f89d9b55",
+    "kickoff": "2023-12-17T01:15:00+00:00",
+    "snapshot_time": "2023-12-17T01:10:38Z",
+    "payload_sha256": "42c1552c5d08f822a7035ffbe2c9ec93393d20207c6434beef089619aecd2852",
+    "quote_count": 219,
+    "book_count": 8
+  },
+  {
+    "season": 2023,
+    "game": "2023_15_ATL_CAR",
+    "event_id": "89a76d31332effa87075701f164a8e0a",
+    "kickoff": "2023-12-17T18:00:00+00:00",
+    "snapshot_time": "2023-12-17T17:55:38Z",
+    "payload_sha256": "177339f52f6611515abdc29a803e1bcdfcfe5237f8e08c5753d578c8505efb5f",
+    "quote_count": 205,
+    "book_count": 8
+  },
+  {
+    "season": 2023,
+    "game": "2023_15_CHI_CLE",
+    "event_id": "abf4a23e7c6b9dd94d13a3070a32a65f",
+    "kickoff": "2023-12-17T18:00:00+00:00",
+    "snapshot_time": "2023-12-17T17:55:38Z",
+    "payload_sha256": "70b610112be76e199c9e24fc00cb69cc71bd7a72281275d7d0aaccb03fb7a1ba",
+    "quote_count": 226,
+    "book_count": 8
+  },
+  {
+    "season": 2023,
+    "game": "2023_15_HOU_TEN",
+    "event_id": "e3f50249e8a9b42484ad0922fca4f9f0",
+    "kickoff": "2023-12-17T18:00:00+00:00",
+    "snapshot_time": "2023-12-17T17:55:38Z",
+    "payload_sha256": "ef748f42310818250d8929a902d684be9e71fb92e31697ae85f2a7617aeed293",
+    "quote_count": 223,
+    "book_count": 8
+  },
+  {
+    "season": 2023,
+    "game": "2023_15_KC_NE",
+    "event_id": "8aea6316338b72fd46c714d6eb8fb3e7",
+    "kickoff": "2023-12-17T18:00:00+00:00",
+    "snapshot_time": "2023-12-17T17:55:38Z",
+    "payload_sha256": "8e7878f24ab9579f8025f7a712f1f26c4048078322502b90f7d343012be60e77",
+    "quote_count": 210,
+    "book_count": 8
+  },
+  {
+    "season": 2023,
+    "game": "2023_15_NYG_NO",
+    "event_id": "269d93043744dc23028a0de89fbc3c14",
+    "kickoff": "2023-12-17T18:00:00+00:00",
+    "snapshot_time": "2023-12-17T17:55:38Z",
+    "payload_sha256": "332d0345f5026685eddb7f495ef5a95f968a3aebfb5b3e8d422c2c4cb9c393fb",
+    "quote_count": 206,
+    "book_count": 8
+  },
+  {
+    "season": 2023,
+    "game": "2023_15_NYJ_MIA",
+    "event_id": "de64df56de3a6998f152879e68fee61c",
+    "kickoff": "2023-12-17T18:00:00+00:00",
+    "snapshot_time": "2023-12-17T17:55:38Z",
+    "payload_sha256": "b3839878e591c270d0ee6d5be3de029d75852631ff4b1ec571f97c1d33d95e72",
+    "quote_count": 231,
+    "book_count": 8
+  },
+  {
+    "season": 2023,
+    "game": "2023_15_TB_GB",
+    "event_id": "3c35ab18ec14298b28d7881f50bb503d",
+    "kickoff": "2023-12-17T18:00:00+00:00",
+    "snapshot_time": "2023-12-17T17:55:38Z",
+    "payload_sha256": "c63f2b908bb866e03498870343345c392f5054458fbdb6ad1b8061cc925064a8",
+    "quote_count": 208,
+    "book_count": 8
+  },
+  {
+    "season": 2023,
+    "game": "2023_15_SF_ARI",
+    "event_id": "d2e02edc27163741a907439f1dafd4c2",
+    "kickoff": "2023-12-17T21:05:00+00:00",
+    "snapshot_time": "2023-12-17T21:00:38Z",
+    "payload_sha256": "2853469c403ad0339fa8d6e5a8bf2736e0a6ad6742ac5502aff7887292374c49",
+    "quote_count": 178,
+    "book_count": 7
+  },
+  {
+    "season": 2023,
+    "game": "2023_15_WAS_LA",
+    "event_id": "56468ff158e85d48b0d04faa35a86461",
+    "kickoff": "2023-12-17T21:05:00+00:00",
+    "snapshot_time": "2023-12-17T21:00:38Z",
+    "payload_sha256": "2d757811c0d0df7006716dbf52cddfc64a241534e861f4a74164f845dc6eca62",
+    "quote_count": 215,
+    "book_count": 8
+  },
+  {
+    "season": 2023,
+    "game": "2023_15_DAL_BUF",
+    "event_id": "16807f51a2a89040e6573ff24bfcd9ab",
+    "kickoff": "2023-12-17T21:25:00+00:00",
+    "snapshot_time": "2023-12-17T21:20:38Z",
+    "payload_sha256": "4964a8c45ff029e55bef528f18f4f232cb28a8ffefdbcde5df71e2b4d12b3263",
+    "quote_count": 225,
+    "book_count": 8
+  },
+  {
+    "season": 2023,
+    "game": "2023_15_BAL_JAX",
+    "event_id": "89e5efd7cfa4a336f328dc372458c1aa",
+    "kickoff": "2023-12-18T01:20:00+00:00",
+    "snapshot_time": "2023-12-18T01:15:38Z",
+    "payload_sha256": "12817c45474f33568c2dc9e67986add28a74cdc70edaa8b4bf13a3c7516d8633",
+    "quote_count": 213,
+    "book_count": 8
+  },
+  {
+    "season": 2023,
+    "game": "2023_15_PHI_SEA",
+    "event_id": "f51da6d224ba8d719fe220e807cd0442",
+    "kickoff": "2023-12-19T01:15:00+00:00",
+    "snapshot_time": "2023-12-19T01:10:38Z",
+    "payload_sha256": "447a16b3268d48bc4573c78e1c068091395f24d79c5418dd6a40d79be03ac80f",
+    "quote_count": 219,
+    "book_count": 8
+  },
+  {
+    "season": 2023,
+    "game": "2023_16_NO_LA",
+    "event_id": "11009ecb9244b0f3f598ed07bc26ac7b",
+    "kickoff": "2023-12-22T01:15:00+00:00",
+    "snapshot_time": "2023-12-22T01:10:39Z",
+    "payload_sha256": "d5f68fed39992c894a96f1cf318b3726c1f82c846d4c089322c20021e0234f74",
+    "quote_count": 230,
+    "book_count": 8
+  },
+  {
+    "season": 2023,
+    "game": "2023_16_CIN_PIT",
+    "event_id": "d86898556d2e1132370891f1fc23603f",
+    "kickoff": "2023-12-23T21:30:00+00:00",
+    "snapshot_time": "2023-12-23T21:25:38Z",
+    "payload_sha256": "899361c5f85933de69210de0d25731468f76eed2bb55d80e296e8440ac3dca17",
+    "quote_count": 210,
+    "book_count": 8
+  },
+  {
+    "season": 2023,
+    "game": "2023_16_BUF_LAC",
+    "event_id": "cf855efaf0c22025c0ad8d8a605679a1",
+    "kickoff": "2023-12-24T01:00:00+00:00",
+    "snapshot_time": "2023-12-24T00:55:38Z",
+    "payload_sha256": "020db825c4ea83841415d6d336cb89e04d8a2d73277132d44ee35cf14956eb02",
+    "quote_count": 223,
+    "book_count": 8
+  },
+  {
+    "season": 2023,
+    "game": "2023_16_CLE_HOU",
+    "event_id": "5500b405eeb2cd0ef11921548ec01793",
+    "kickoff": "2023-12-24T18:00:00+00:00",
+    "snapshot_time": "2023-12-24T17:55:38Z",
+    "payload_sha256": "b2e52039f6cbc097374ccff217c34d9c7ac419552745b6759d15031a40390ae2",
+    "quote_count": 201,
+    "book_count": 8
+  },
+  {
+    "season": 2023,
+    "game": "2023_16_DET_MIN",
+    "event_id": "961b2207f2c12f9cbf59a2b6e7c99469",
+    "kickoff": "2023-12-24T18:00:00+00:00",
+    "snapshot_time": "2023-12-24T17:55:38Z",
+    "payload_sha256": "141a6e38085b28e3630c144ae783be6b5da1663f30eef7a393622dfc511b22b2",
+    "quote_count": 206,
+    "book_count": 8
+  },
+  {
+    "season": 2023,
+    "game": "2023_16_GB_CAR",
+    "event_id": "a9a95caf10c8a405258a388d5bee57a5",
+    "kickoff": "2023-12-24T18:00:00+00:00",
+    "snapshot_time": "2023-12-24T17:55:38Z",
+    "payload_sha256": "41074cff72ea7cb2f838f807b459fe890eda207447b75ebc443e089a68906abe",
+    "quote_count": 203,
+    "book_count": 8
+  },
+  {
+    "season": 2023,
+    "game": "2023_16_IND_ATL",
+    "event_id": "3877bbd549c811dc565cc9e08345eff2",
+    "kickoff": "2023-12-24T18:00:00+00:00",
+    "snapshot_time": "2023-12-24T17:55:38Z",
+    "payload_sha256": "6edc1581dcf7e82095ee5bbb292460f966c8b8f6b5a7f1fc9db2c2c761ecad23",
+    "quote_count": 216,
+    "book_count": 8
+  },
+  {
+    "season": 2023,
+    "game": "2023_16_SEA_TEN",
+    "event_id": "de97e48e6a47020a876631d2075c788d",
+    "kickoff": "2023-12-24T18:00:00+00:00",
+    "snapshot_time": "2023-12-24T17:55:38Z",
+    "payload_sha256": "f1362054e6352e6997a75d7b487c759751f4096734ec368b69806158940a1123",
+    "quote_count": 193,
+    "book_count": 8
+  },
+  {
+    "season": 2023,
+    "game": "2023_16_WAS_NYJ",
+    "event_id": "c6c5f6a4a8e8b48115dfd68af22c08c4",
+    "kickoff": "2023-12-24T18:00:00+00:00",
+    "snapshot_time": "2023-12-24T17:55:38Z",
+    "payload_sha256": "8f059c232a92a36f69fc3d7089ee98b39b88b1e6790dbc3faa4f21dfab556944",
+    "quote_count": 202,
+    "book_count": 8
+  },
+  {
+    "season": 2023,
+    "game": "2023_16_JAX_TB",
+    "event_id": "61c73107ddf7135cabd60aee621545a0",
+    "kickoff": "2023-12-24T21:05:00+00:00",
+    "snapshot_time": "2023-12-24T21:00:38Z",
+    "payload_sha256": "68ece0e890592fbb751c7dd711060bb39f9b747fb1f1f4b6b55cfd3b863c0c13",
+    "quote_count": 213,
+    "book_count": 8
+  },
+  {
+    "season": 2023,
+    "game": "2023_16_ARI_CHI",
+    "event_id": "092ea6c489184135df2f5f61dcf4c1b4",
+    "kickoff": "2023-12-24T21:25:00+00:00",
+    "snapshot_time": "2023-12-24T21:20:38Z",
+    "payload_sha256": "7b6bffcef1b38c147e23e71d8865e84b372d54a647b2c3dd14ac2f1edef19f8e",
+    "quote_count": 205,
+    "book_count": 8
+  },
+  {
+    "season": 2023,
+    "game": "2023_16_DAL_MIA",
+    "event_id": "434c4d5264c6da9735c189a2a62b024b",
+    "kickoff": "2023-12-24T21:25:00+00:00",
+    "snapshot_time": "2023-12-24T21:20:38Z",
+    "payload_sha256": "a6483b13b2bde2165720cf1b31b835b63d2e590b5776e2cd3cea4a2f0c7a4950",
+    "quote_count": 219,
+    "book_count": 8
+  },
+  {
+    "season": 2023,
+    "game": "2023_16_NE_DEN",
+    "event_id": "1a815be65f48c8cace4642809bf9baa2",
+    "kickoff": "2023-12-25T01:15:00+00:00",
+    "snapshot_time": "2023-12-25T01:10:38Z",
+    "payload_sha256": "e9d74c18ac2c2ce9de658025f7a1d2f50e5c3adb435b61fd2263f226209852d5",
+    "quote_count": 215,
+    "book_count": 8
+  },
+  {
+    "season": 2023,
+    "game": "2023_16_LV_KC",
+    "event_id": "25aea15aa16519945e654a0a5158ccf0",
+    "kickoff": "2023-12-25T18:00:00+00:00",
+    "snapshot_time": "2023-12-25T17:55:38Z",
+    "payload_sha256": "b6aef1b8e71bbd784f9dbe66a224d1b5817ab9e1dab950016a38c84c634af54f",
+    "quote_count": 214,
+    "book_count": 8
+  },
+  {
+    "season": 2023,
+    "game": "2023_16_NYG_PHI",
+    "event_id": "361a376a7fe6aa6a72a42331299683dc",
+    "kickoff": "2023-12-25T21:30:00+00:00",
+    "snapshot_time": "2023-12-25T21:25:39Z",
+    "payload_sha256": "2183c88a2156796259e4db2a44fbd01eed76d354dd7820a4b753916968ff5796",
+    "quote_count": 197,
+    "book_count": 7
+  },
+  {
+    "season": 2023,
+    "game": "2023_16_BAL_SF",
+    "event_id": "809b12cea8824cbfd8643214b2e16192",
+    "kickoff": "2023-12-26T01:15:00+00:00",
+    "snapshot_time": "2023-12-26T01:10:38Z",
+    "payload_sha256": "f5bbbd6e965a4e39a242cdae564bb7f7dfdd8fc108fda6a688b3f15e7babd1c1",
+    "quote_count": 208,
+    "book_count": 8
+  },
+  {
+    "season": 2023,
+    "game": "2023_17_NYJ_CLE",
+    "event_id": "856010af3973ce10b0dd20f7dfc50fb6",
+    "kickoff": "2023-12-29T01:15:00+00:00",
+    "snapshot_time": "2023-12-29T01:10:39Z",
+    "payload_sha256": "35d760fdc38f4266ef7da9e415becab5b77830c47ab17ae0ecaf802f2198ae80",
+    "quote_count": 215,
+    "book_count": 8
+  },
+  {
+    "season": 2023,
+    "game": "2023_17_DET_DAL",
+    "event_id": "e282b9dedc7fbb32af43dcd2c0514ddf",
+    "kickoff": "2023-12-31T01:15:00+00:00",
+    "snapshot_time": "2023-12-31T01:10:38Z",
+    "payload_sha256": "2f76c391c52b2cae92eead40681de085f6344fd7fb2a417698face58347d958a",
+    "quote_count": 213,
+    "book_count": 8
+  },
+  {
+    "season": 2023,
+    "game": "2023_17_ARI_PHI",
+    "event_id": "f88a82df08055b17c6a314f1e5ab282d",
+    "kickoff": "2023-12-31T18:00:00+00:00",
+    "snapshot_time": "2023-12-31T17:55:38Z",
+    "payload_sha256": "c8a40a9312e2c5b7ef008c94369d26330c22563de32c45b5da4380228c317407",
+    "quote_count": 224,
+    "book_count": 8
+  },
+  {
+    "season": 2023,
+    "game": "2023_17_ATL_CHI",
+    "event_id": "04a8a0b984c5853cc74b3f7aa350169d",
+    "kickoff": "2023-12-31T18:00:00+00:00",
+    "snapshot_time": "2023-12-31T17:55:38Z",
+    "payload_sha256": "50e22bfc313efa43d0f9dd4ab2cb3e8454b070b6af097b53a834dee12b242971",
+    "quote_count": 209,
+    "book_count": 8
+  },
+  {
+    "season": 2023,
+    "game": "2023_17_CAR_JAX",
+    "event_id": "14ee1908972456dd89e80d242417c095",
+    "kickoff": "2023-12-31T18:00:00+00:00",
+    "snapshot_time": "2023-12-31T17:55:38Z",
+    "payload_sha256": "660d623ae0d0787177b96dbc6c38d069c7f1235d08fa29956bbeb786c5377760",
+    "quote_count": 198,
+    "book_count": 8
+  },
+  {
+    "season": 2023,
+    "game": "2023_17_LA_NYG",
+    "event_id": "61dcb8f3d6ed2f109976809f81c282a0",
+    "kickoff": "2023-12-31T18:00:00+00:00",
+    "snapshot_time": "2023-12-31T17:55:38Z",
+    "payload_sha256": "48285f0736f56c65dffeed9e447cfb77fb25194b23b22d03a6c2397f20cd5d4f",
+    "quote_count": 220,
+    "book_count": 8
+  },
+  {
+    "season": 2023,
+    "game": "2023_17_LV_IND",
+    "event_id": "ca9b6b094079a726579f7cc265ce6c18",
+    "kickoff": "2023-12-31T18:00:00+00:00",
+    "snapshot_time": "2023-12-31T17:55:38Z",
+    "payload_sha256": "a7266195b73f78c227df230d5b952350d4d14079f584f5c948a4044c056ff886",
+    "quote_count": 202,
+    "book_count": 8
+  },
+  {
+    "season": 2023,
+    "game": "2023_17_MIA_BAL",
+    "event_id": "10c45d3ea3c7306b41f67688c09df290",
+    "kickoff": "2023-12-31T18:00:00+00:00",
+    "snapshot_time": "2023-12-31T17:55:38Z",
+    "payload_sha256": "ea770f077fafee749e98ddbaaa11248ddb5a963a5354dc6573f31a687579f333",
+    "quote_count": 231,
+    "book_count": 8
+  },
+  {
+    "season": 2023,
+    "game": "2023_17_NE_BUF",
+    "event_id": "51a3c6804628bc320376f1281759cd59",
+    "kickoff": "2023-12-31T18:00:00+00:00",
+    "snapshot_time": "2023-12-31T17:55:38Z",
+    "payload_sha256": "9fc5a060e3f15af9bee0ea1733ef34cabd428232f09e039d223a71c0756d1a02",
+    "quote_count": 208,
+    "book_count": 8
+  },
+  {
+    "season": 2023,
+    "game": "2023_17_NO_TB",
+    "event_id": "bcbee01dcb5f170e494bbaf61b01d213",
+    "kickoff": "2023-12-31T18:00:00+00:00",
+    "snapshot_time": "2023-12-31T17:55:38Z",
+    "payload_sha256": "7973ec6de9d068fe1954a2415bcfa5d626e0a33dba2adf3431d801b8bd44327d",
+    "quote_count": 212,
+    "book_count": 8
+  },
+  {
+    "season": 2023,
+    "game": "2023_17_SF_WAS",
+    "event_id": "4b3400a92d27954eba760f003c253ddb",
+    "kickoff": "2023-12-31T18:00:00+00:00",
+    "snapshot_time": "2023-12-31T17:55:38Z",
+    "payload_sha256": "da79de1a0a9c4498307e815af9ab56c987b5eabe8241d4bebe7db0834a4ce581",
+    "quote_count": 219,
+    "book_count": 8
+  },
+  {
+    "season": 2023,
+    "game": "2023_17_TEN_HOU",
+    "event_id": "1eefaa757efae485b1164d514ef95c72",
+    "kickoff": "2023-12-31T18:00:00+00:00",
+    "snapshot_time": "2023-12-31T17:55:38Z",
+    "payload_sha256": "f35c1950f8d382366c3c51663493f13231cf7b8ac410d57985d77f6bb913951e",
+    "quote_count": 215,
+    "book_count": 8
+  },
+  {
+    "season": 2023,
+    "game": "2023_17_PIT_SEA",
+    "event_id": "a030104232f100d142c34a800ea48fc8",
+    "kickoff": "2023-12-31T21:05:00+00:00",
+    "snapshot_time": "2023-12-31T21:00:38Z",
+    "payload_sha256": "5c4318c1ba17443298150e7086627200d888cf670e303b04ce8a59e8df76c4bc",
+    "quote_count": 206,
+    "book_count": 8
+  },
+  {
+    "season": 2023,
+    "game": "2023_17_CIN_KC",
+    "event_id": "15e520010a81e82faa9db037632923aa",
+    "kickoff": "2023-12-31T21:25:00+00:00",
+    "snapshot_time": "2023-12-31T21:20:38Z",
+    "payload_sha256": "9fb22d84bf0602d64649b48644ac3ea9ebf9b42abe55c723e712d0ca89ee46f8",
+    "quote_count": 226,
+    "book_count": 8
+  },
+  {
+    "season": 2023,
+    "game": "2023_17_LAC_DEN",
+    "event_id": "0cad8e04a03b002316d6fca721bf68af",
+    "kickoff": "2023-12-31T21:25:00+00:00",
+    "snapshot_time": "2023-12-31T21:20:38Z",
+    "payload_sha256": "6d04dab2a9078a860e4745ca9aa66bce1e65e01c813f93b177bb48c44a70f870",
+    "quote_count": 214,
+    "book_count": 8
+  },
+  {
+    "season": 2023,
+    "game": "2023_17_GB_MIN",
+    "event_id": "952206f7c222510449ef202c2cce48b2",
+    "kickoff": "2024-01-01T01:20:00+00:00",
+    "snapshot_time": "2024-01-01T01:15:38Z",
+    "payload_sha256": "ee4ae0579bd629b474698048f39beb6861dfa2ccc39224821d36469aaab34225",
+    "quote_count": 224,
+    "book_count": 8
+  },
+  {
+    "season": 2023,
+    "game": "2023_18_PIT_BAL",
+    "event_id": "f1db1ea65e63375c8f6f9766dac5d4f7",
+    "kickoff": "2024-01-06T21:30:00+00:00",
+    "snapshot_time": "2024-01-06T21:25:39Z",
+    "payload_sha256": "65dabfa3eb62aa4dc5760cd2a474498328b79535158ce6ba54f31ab1c9bd8ebb",
+    "quote_count": 179,
+    "book_count": 8
+  },
+  {
+    "season": 2023,
+    "game": "2023_18_HOU_IND",
+    "event_id": "2e8d909625844e0aea3dad1beee6712f",
+    "kickoff": "2024-01-07T01:15:00+00:00",
+    "snapshot_time": "2024-01-07T01:10:38Z",
+    "payload_sha256": "33c8ea5f946d20b1ec078588c611abc95a7593e33f72af9151f10472b25bab35",
+    "quote_count": 215,
+    "book_count": 8
+  },
+  {
+    "season": 2023,
+    "game": "2023_18_ATL_NO",
+    "event_id": "794e49c4f03306ab9c79cb84fcc2b0ac",
+    "kickoff": "2024-01-07T18:00:00+00:00",
+    "snapshot_time": "2024-01-07T17:55:38Z",
+    "payload_sha256": "478fe5789b15ff9630353fc31eb0eaf08bd65337ee1afc1b45eb0ee3c5355a75",
+    "quote_count": 207,
+    "book_count": 8
+  },
+  {
+    "season": 2023,
+    "game": "2023_18_CLE_CIN",
+    "event_id": "b51ff34c488e8470c3d975a781cc638d",
+    "kickoff": "2024-01-07T18:00:00+00:00",
+    "snapshot_time": "2024-01-07T17:55:38Z",
+    "payload_sha256": "8adb7fd42395099caea4a2f207e1cfb427ad01f0a84e999c9ec6a0ea8ba6752b",
+    "quote_count": 163,
+    "book_count": 8
+  },
+  {
+    "season": 2023,
+    "game": "2023_18_JAX_TEN",
+    "event_id": "77acb65d6a0314b676df5b4832ef45a3",
+    "kickoff": "2024-01-07T18:00:00+00:00",
+    "snapshot_time": "2024-01-07T17:55:38Z",
+    "payload_sha256": "420e1f2f679feee79d94a6d3de57fa3bb8653eaf2d3d8136e99dcacb48530950",
+    "quote_count": 220,
+    "book_count": 8
+  },
+  {
+    "season": 2023,
+    "game": "2023_18_MIN_DET",
+    "event_id": "46b392b972587cb9f66805dcea8dcac9",
+    "kickoff": "2024-01-07T18:00:00+00:00",
+    "snapshot_time": "2024-01-07T17:55:38Z",
+    "payload_sha256": "548543185297650c51ff6107f4de7854ba0f83d05eb138d4bc05498aa378885f",
+    "quote_count": 174,
+    "book_count": 8
+  },
+  {
+    "season": 2023,
+    "game": "2023_18_NYJ_NE",
+    "event_id": "fb5a05459a7e5616f95e2caa7732c20f",
+    "kickoff": "2024-01-07T18:00:00+00:00",
+    "snapshot_time": "2024-01-07T17:55:38Z",
+    "payload_sha256": "f478ed1fb65f519bbf204ac08c0d33b31b3df371e7a8e088ed0bfb7339e33cdd",
+    "quote_count": 150,
+    "book_count": 7
+  },
+  {
+    "season": 2023,
+    "game": "2023_18_TB_CAR",
+    "event_id": "50c6ec417a0a3cb00945bee203ecccad",
+    "kickoff": "2024-01-07T18:00:00+00:00",
+    "snapshot_time": "2024-01-07T17:55:38Z",
+    "payload_sha256": "ed51be76e3393dba3d08ee2d4f5753a4afd317412670048a9929b36a901cd953",
+    "quote_count": 206,
+    "book_count": 8
+  },
+  {
+    "season": 2023,
+    "game": "2023_18_CHI_GB",
+    "event_id": "2b2da592b91fb61473aed5b4fe975254",
+    "kickoff": "2024-01-07T21:25:00+00:00",
+    "snapshot_time": "2024-01-07T21:20:38Z",
+    "payload_sha256": "f169b0aeafe04bf613b535002fbb7e47ae257716cfaa7d786fa4730960c0bdc2",
+    "quote_count": 205,
+    "book_count": 8
+  },
+  {
+    "season": 2023,
+    "game": "2023_18_DAL_WAS",
+    "event_id": "d7e8bbb2997c341248c04ec59abb94fb",
+    "kickoff": "2024-01-07T21:25:00+00:00",
+    "snapshot_time": "2024-01-07T21:20:38Z",
+    "payload_sha256": "97478401c56a43deee88581c71d3319ee47c268180bfba89e7e5a574406d25e2",
+    "quote_count": 190,
+    "book_count": 8
+  },
+  {
+    "season": 2023,
+    "game": "2023_18_DEN_LV",
+    "event_id": "cc55919e69edfb7f2749f3430f5b4b26",
+    "kickoff": "2024-01-07T21:25:00+00:00",
+    "snapshot_time": "2024-01-07T21:20:38Z",
+    "payload_sha256": "f55bc9ca55d8548057656d7edc8dc88a5a1b421e1d4a264c669aa9a3e998ea15",
+    "quote_count": 191,
+    "book_count": 8
+  },
+  {
+    "season": 2023,
+    "game": "2023_18_KC_LAC",
+    "event_id": "a50417b93fb8ac1e9653946bb4850eb4",
+    "kickoff": "2024-01-07T21:25:00+00:00",
+    "snapshot_time": "2024-01-07T21:20:38Z",
+    "payload_sha256": "073ba6a857a97bf5919943e223a84d7d083ae123fab03eec4e15d9a02a12a8fb",
+    "quote_count": 185,
+    "book_count": 8
+  },
+  {
+    "season": 2023,
+    "game": "2023_18_LA_SF",
+    "event_id": "52c6f0c38ee6458d03e5caffe56af385",
+    "kickoff": "2024-01-07T21:25:00+00:00",
+    "snapshot_time": "2024-01-07T21:20:38Z",
+    "payload_sha256": "74395b28a407b64aa66c76dfe907404f067220a4e6145028625acd08f5d44a8c",
+    "quote_count": 156,
+    "book_count": 8
+  },
+  {
+    "season": 2023,
+    "game": "2023_18_PHI_NYG",
+    "event_id": "66c7e39643ecae341addae9fff981d0b",
+    "kickoff": "2024-01-07T21:25:00+00:00",
+    "snapshot_time": "2024-01-07T21:20:38Z",
+    "payload_sha256": "ea3d6c9c8cff7e120205d8eb169f0fca6e6dc6ec010938de4ff16ab8eef12435",
+    "quote_count": 184,
+    "book_count": 8
+  },
+  {
+    "season": 2023,
+    "game": "2023_18_SEA_ARI",
+    "event_id": "c275e949047e5983348e5431f78e4013",
+    "kickoff": "2024-01-07T21:25:00+00:00",
+    "snapshot_time": "2024-01-07T21:20:38Z",
+    "payload_sha256": "e06757cd1dfd2cf07d86b0f5587f15c353657478a57d217ecd1b56c84eff0677",
+    "quote_count": 190,
+    "book_count": 8
+  },
+  {
+    "season": 2023,
+    "game": "2023_18_BUF_MIA",
+    "event_id": "4ede93bcf0120eff85ceba01144694b9",
+    "kickoff": "2024-01-08T01:20:00+00:00",
+    "snapshot_time": "2024-01-08T01:15:38Z",
+    "payload_sha256": "4660ad3304a4d6e68fe2f760d5e296aaebdff25a06c9a930a6e63d5a66fa29f5",
+    "quote_count": 212,
+    "book_count": 8
+  }
+]

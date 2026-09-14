@@ -1,0 +1,15 @@
+{
+  "schema": "phase7-stage-a-v1",
+  "created_at_utc": "2026-09-14T16:30:06.264279+00:00",
+  "prediction_sha256": "b6eba31fb02936643b2e1650d0983f7240cdbafa29d54e7bebcf2ea08fe5f8f8",
+  "quotes_sha256": "27079620e6577205cafadae1de12120c5dfaf31f738d4ef6f04989f82102c8fd",
+  "pregame_view_sha256": "d37b9edfaf1ac00b2bcd1bc1f1991406ca9d0df61fc51114edbb804a3b9a9882",
+  "quote_manifest_sha256": "81a8a6e4dcc2ae08edd6261c595f8f22b083f33339d0cb4f6ae5240d70fbd575",
+  "model_version": "phase5_hierarchical_frozen",
+  "seasons": [
+    2023,
+    2024
+  ],
+  "quoted_players": 24539,
+  "strict_live_eligibility_confirmed": false
+}

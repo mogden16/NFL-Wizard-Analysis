@@ -2,3 +2,7 @@
 reports/phase5_validation_predictions.csv -text
 reports/phase6_validation_predictions.csv -text
 reports/phase6_2023_oof_components.csv -text
+# Preserve SHA-256 sealed Phase 7 bytes across Windows checkouts.
+reports/phase7/stage_a/*.csv -text
+reports/phase7/settlement_*.csv -text
+reports/phase7/development/frozen_rule.json -text

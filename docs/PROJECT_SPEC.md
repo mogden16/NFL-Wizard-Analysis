@@ -1631,3 +1631,34 @@ metrics, calibration tables, position diagnostics, market comparison, and
 an explicit Phase 6 report. Run the full prior tests/verifiers and a new
 Phase 6 verifier. Commit/tag `phase6-complete`, then stop before Phase 7.
 The user's Phase 6 instruction is the authoritative complete requirement.
+
+==================================================
+43. PHASE 7 HISTORICAL ATD MARKET-EDGE BACKTEST (AUTHORIZED SEPTEMBER 14, 2026)
+==================================================
+
+Freeze the Phase 6 champion (the Phase 5 hierarchical football probability)
+and all Phase 0-6 predictive inputs. Develop historical T-60 player ATD
+betting diagnostics on 2023; independently validate only a pre-frozen 2023
+rule on 2024. The 2025 holdout remains sealed and September 13, 2026 remains
+an excluded diagnostic exhibition. Do not retrain the football model.
+
+Retain best and median timestamped Yes prices, all sportsbook quotes, quote
+ages, market dispersion, raw one-sided implied probabilities, football-minus-
+market edges, and independent best/median EV. Ordinary two-sided de-vigging
+is invalid without No prices. Freeze and hash the prediction-only Stage A
+artifact before Stage B opens results or closing odds. Maintain the Phase 4.6
+inactive/DNP distinctions. Unknown historical sportsbook-specific DNP rules
+remain `policy_unknown`, not silently graded.
+
+Use the predeclared 60-rule edge/EV/book-count grid and selection gates in
+`docs/PHASE7_PROTOCOL.md`. Analyze fixed disagreement, quote-age, dispersion,
+position, odds-range and CLV buckets; fit a simple 2023 market-logit versus
+market-logit-plus-football-edge residual diagnostic and evaluate on 2024.
+Bootstrap candidate ROI by game. Compare every strategy with NO BET and
+advance at most one frozen, hashed strategy only if independent 2024 results
+pass the stated robustness gates. `NO_ROBUST_EDGE` is an acceptable outcome.
+
+Save complete quote, prediction, settlement and report artifacts, run all
+prior tests and verifiers plus a Phase 7 verifier, then commit/tag
+`phase7-complete`. Stop before Phase 8 and do not inspect 2025. The user's
+Phase 7 instruction is the authoritative complete requirement.
