@@ -1,8 +1,9 @@
 # nfl_td_model
 
-Phase 0 and Phase 1 point-in-time proof of concept for NFL anytime-touchdown research. No
-probability models or betting recommendations are implemented. The ten-game audit uses
-paid historical quotes and fails closed when a required market timestamp is missing.
+Point-in-time NFL anytime-touchdown research through Phase 4, plus a one-day
+Phase 4.5 diagnostic exhibition. Phase 5 player probability modeling has not begun.
+The ten-game Phase 1 audit uses paid historical quotes and fails closed when a
+required market timestamp is missing.
 
 ```powershell
 python -m pip install uv
@@ -51,3 +52,18 @@ coverage, representative source histories, and the exact feature contract are in
 [completion audit](reports/PHASE2_COMPLETION_AUDIT.md).
 The same 24-hour *assumed* availability boundary applies to prior-game football data.
 Routes remain null where a point-in-time receiver route source is unavailable.
+
+Phase 4.5 reconstructs all September 13, 2026 games at kickoff minus 60 minutes.
+The frozen prediction and quote CSVs, their SHA-256 manifest, and the separate
+settlement report live under `reports/`. The exact replay commands are:
+
+```powershell
+python -m uv run nfl-td phase45-predict  # refuses to overwrite the frozen artifact
+python -m uv run nfl-td phase45-verify
+python -m uv run nfl-td phase45-settle   # requires all 13 games to be final
+python -m uv run nfl-td phase45-verify
+```
+
+The September 13 outcomes are flagged `diagnostic_exhibition_slate` and are
+forbidden as inputs to later model, feature, calibration, or betting-rule choices.
+The one-day betting figures are descriptive and do not validate an edge.

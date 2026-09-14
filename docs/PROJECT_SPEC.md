@@ -1487,3 +1487,26 @@ Then build the 10-game point-in-time reconstruction.
 The purpose of Phase 1 is not to make predictions.
 
 The purpose is to prove that the future modeling dataset can be trusted.
+
+==================================================
+39. PHASE 4.5 DIAGNOSTIC EXHIBITION (ADDED SEPTEMBER 13, 2026)
+==================================================
+
+The September 13, 2026 full slate is a diagnostic, end-to-end, point-in-time
+replay between Phases 4 and 5. It is not model training, validation, feature
+selection, calibration, or threshold optimization. The complete instruction
+for this one-off milestone is the user's September 13, 2026 Phase 4.5 request.
+
+Freeze and SHA-256 hash the T-60 player predictions and all available T-60
+ATD quotes before loading any current-game result. Settle in a separate stage
+only after every slate game is final. Preserve both the best-price and median
+price diagnostics, the predeclared EV thresholds, calibration snapshot, and
+closing-line comparison. Keep the Phase 1-4 checkpoints frozen.
+
+Flag every September 13, 2026 prediction and result as
+`diagnostic_exhibition_slate = TRUE`. Outcomes from this date must never be
+used to choose Phase 5 features or model class, tune hyperparameters, select
+ensemble weights or betting thresholds, fit calibration, or alter the
+Phase 4.5 player allocation. A one-day result provides essentially no
+statistical evidence of a sustainable betting edge. Stop after Phase 4.5;
+Phase 5 requires a new explicit instruction.

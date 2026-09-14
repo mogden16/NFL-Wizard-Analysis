@@ -15,6 +15,8 @@ from nfl_td_model.phase3_verify import verify_phase3
 from nfl_td_model.phase4 import build_phase4
 from nfl_td_model.phase4_market import collect_market_snapshots
 from nfl_td_model.phase4_verify import verify_phase4
+from nfl_td_model.phase45 import build_stage_a
+from nfl_td_model.phase45_settle import settle_stage_b, verify_frozen, verify_settlement
 from nfl_td_model.storage import connect_catalog
 from nfl_td_model.verify import verify_phase1
 
@@ -125,3 +127,29 @@ def phase4_verify() -> None:
         typer.echo(f"PHASE 4 NOT VERIFIED: {exc}", err=True)
         raise typer.Exit(code=1) from exc
     typer.echo(f"PHASE 4 VERIFIED: {summary}")
+
+
+@app.command("phase45-predict")
+def phase45_predict() -> None:
+    """Freeze September 13 T-60 predictions; rejects an existing artifact."""
+    typer.echo(f"PHASE 4.5 STAGE A: {build_stage_a(Settings())}")
+
+
+@app.command("phase45-settle")
+def phase45_settle() -> None:
+    """Settle only after all games are final and Stage A hashes verify."""
+    try:
+        result = settle_stage_b(Settings())
+    except RuntimeError as exc:
+        typer.echo(f"PHASE 4.5 SETTLEMENT WAITING: {exc}", err=True)
+        raise typer.Exit(code=1) from exc
+    typer.echo(f"PHASE 4.5 STAGE B: {result}")
+
+
+@app.command("phase45-verify")
+def phase45_verify() -> None:
+    """Verify the immutable pregame artifact and its exhibition designation."""
+    manifest = verify_frozen()
+    typer.echo(f"PHASE 4.5 STAGE A VERIFIED: {manifest['prediction_sha256']}")
+    if Path("reports/phase45_report.json").exists():
+        typer.echo(f"PHASE 4.5 SETTLEMENT VERIFIED: {verify_settlement()}")
