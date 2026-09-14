@@ -35,7 +35,7 @@ Run:
 ```
 
 The current live run found 20 player-lines (18 with a historical EWMA match)
-and 231 underlying sportsbook quotes. Thirteen lines had at least three paired
+and 118 underlying sportsbook quotes. Thirteen lines had at least three paired
 books and therefore a no-vig consensus comparison. The largest displayed
 disagreements were receptions: Marvin Mims Jr. +47.0 percentage points, Xavier
 Worthy +36.5 pp, Evan Engram +35.6 pp, Travis Kelce +31.3 pp, and Noah Gray
@@ -46,4 +46,5 @@ matched to their latest available frozen 2024 EWMA history by normalized name,
 while the roster supplies only descriptive current team labels. Players with
 no safe prior match receive no model probability. Route participation is not
 used.
+
 
