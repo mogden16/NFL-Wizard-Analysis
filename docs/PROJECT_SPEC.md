@@ -1510,3 +1510,41 @@ ensemble weights or betting thresholds, fit calibration, or alter the
 Phase 4.5 player allocation. A one-day result provides essentially no
 statistical evidence of a sustainable betting edge. Stop after Phase 4.5;
 Phase 5 requires a new explicit instruction.
+
+==================================================
+40. PHASE 4.6 REPLAY INTEGRITY HARDENING (ADDED SEPTEMBER 14, 2026)
+==================================================
+
+Phase 4.6 changes replay infrastructure only. It does not refit or alter a
+Phase 1-4 model, change the Phase 4.5 player allocation or betting rule, or
+use September 13 results to choose prediction logic. The original September
+13 prediction, quote, settlement, audit, and sensitivity artifacts remain
+unchanged and permanently carry `diagnostic_exhibition_slate = TRUE`.
+
+Future prospective Stage A events use a closed-schema pregame snapshot with
+only historical player opportunity summaries, a frozen team expectation,
+timestamped T-60 quotes, and contemporaneous official NFL availability
+evidence. The offline prediction worker has no network, 2026 game-stat, or
+settlement reader. It rejects unknown fields at all nested levels. Stage B is
+a separate command that verifies Stage A hashes before requesting final game
+data, and refuses to run until the scoreboard marks the game final.
+
+At T-60, a known official inactive/out status excludes a player from betting
+eligibility. A complete official availability snapshot for the player's team
+must be documented; otherwise the prediction remains visible but no wager is
+eligible. Later DNP information never rewrites Stage A. Stage B records
+`eligible_at_prediction_time`, `inactive_known_at_prediction_time`,
+`ultimately_played`, and `settlement_status` separately. A DNP bet is graded
+only when both participation evidence and the relevant sportsbook's documented
+DNP rule are available; otherwise settlement remains pending.
+
+All book quotes retain price, book, quote timestamp, and age at T-60. Best and
+median prices, book count, and an outcome-independent extreme-price flag are
+reported. The flag is descriptive and never removes a price or changes a bet.
+
+The prospective task scheduler discovers future events daily, registers an
+event task at each kickoff minus 60 minutes, and invokes Stage A only then.
+The event-odds request cannot pass market updates after that cutoff to the
+worker. Missing official availability coverage results in no eligible bets.
+No Stage B task is scheduled automatically; the separate settlement command
+must be invoked after the game is final. Stop before Phase 5.

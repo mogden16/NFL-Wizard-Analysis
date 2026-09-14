@@ -67,3 +67,62 @@ python -m uv run nfl-td phase45-verify
 The September 13 outcomes are flagged `diagnostic_exhibition_slate` and are
 forbidden as inputs to later model, feature, calibration, or betting-rule choices.
 The one-day betting figures are descriptive and do not validate an edge.
+
+Phase 4.6 adds a separate prospective replay path for games after September 13,
+2026. The September 13 files are never regenerated. The Windows scheduler can
+be installed with:
+
+```powershell
+./scripts/phase46_tasks.ps1
+```
+
+It discovers upcoming games each morning, registers one event task for each
+T-60 cutoff, captures current odds, and invokes the offline Stage A worker in
+a separate Python process. The Odds API documents that the live `/events`
+endpoint does not consume quota; each event-odds request may consume credits.
+The task needs the project `.venv` and `ODDS_API_KEY` in `.env`.
+
+Official availability is a fail-closed input. For an event to have eligible
+bets, put `data/pregame_availability/<event-id>.json` in place before T-60:
+
+```json
+{
+  "event_id": "event-id",
+  "availability": [
+    {"player": "Example Player", "team": "ATL", "status": "inactive",
+     "source_url": "https://www.nfl.com/news/example-official-game-day-inactives", "source_kind": "official_nfl",
+     "published_at": "2026-09-20T15:00:00Z", "retrieved_at": "2026-09-20T16:00:00Z"}
+  ],
+  "availability_coverage": [
+    {"team": "ATL", "source_url": "https://www.nfl.com/news/example-official-game-day-inactives",
+     "source_kind": "official_nfl", "published_at": "2026-09-20T15:00:00Z",
+     "retrieved_at": "2026-09-20T16:00:00Z", "complete": true}
+  ]
+}
+```
+
+Coverage must be complete for each team separately, based on a full official
+game-day status source captured by T-60. An injury-report page listing only
+some players must not be marked complete. Without documented complete coverage,
+the worker still freezes quotes and predictions but marks wagers ineligible.
+The availability file's source and timestamps are recorded; its authenticity
+is an operator responsibility until an official machine-readable feed exists.
+
+After the game is final, run Stage B as a separate process:
+
+```powershell
+./.venv/Scripts/python.exe -m nfl_td_model.phase46_settle reports/phase46/YYYY-MM-DD/EVENT_ID `
+  --participation-file data/participation/EVENT_ID.json `
+  --book-rules-file data/book_dnp_rules.json
+```
+
+The optional participation file contains `{"players":[{"player":"...",
+"team":"...","played":false,"source_url":"https://www.nfl.com/...",
+"published_at":"..."}]}`. The optional book-rules file maps a sportsbook key
+to `{"rule":"void_if_dnp","source_url":"https://...",
+"retrieved_at":"..."}` (or `action_if_dnp`). A player missing from a boxscore
+is **not** assumed to have been a DNP; without affirmative participation
+evidence or a book rule, its wager remains pending rather than being graded
+as a loss or silently voided. Quote age and best-versus-median deviation are
+retained for future quality research, never used to revise the September 13
+portfolio or to filter wagers in this phase.
