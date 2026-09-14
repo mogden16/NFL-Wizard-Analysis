@@ -83,6 +83,16 @@ class HistoricalOddsClient:
     def events(self, prediction_time: datetime) -> dict[str, Any]:
         return self._get("/events", prediction_time)
 
+    def featured_odds(self, prediction_time: datetime) -> dict[str, Any]:
+        """Return historical timestamped spread and total snapshots for all listed games."""
+        return self._get(
+            "/odds",
+            prediction_time,
+            regions=self.regions,
+            markets="spreads,totals",
+            oddsFormat="american",
+        )
+
     def event_odds(self, event_id: str, prediction_time: datetime) -> dict[str, Any]:
         return self._get(
             f"/events/{event_id}/odds",

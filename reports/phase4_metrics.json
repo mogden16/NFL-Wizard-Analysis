@@ -1,0 +1,1996 @@
+{
+  "football_team_games": 4222,
+  "football_games": 2111,
+  "football_coverage": {
+    "first_kickoff": "2017-09-08T00:30:00+00:00",
+    "last_kickoff": "2025-01-06T01:20:00+00:00",
+    "by_season": {
+      "2017": {
+        "team_games": 512,
+        "first_kickoff": "2017-09-08T00:30:00+00:00",
+        "last_kickoff": "2017-12-31T21:25:00+00:00",
+        "feature_present_pct": {
+          "last5_off_epa_per_play": 93.75,
+          "last5_off_pass_epa": 93.75,
+          "last5_off_rush_epa": 93.75,
+          "last5_off_success_rate": 93.75,
+          "last5_def_epa_allowed": 93.75,
+          "last5_def_pass_epa_allowed": 93.75,
+          "last5_def_rush_epa_allowed": 93.75,
+          "last5_def_success_allowed": 93.75,
+          "last5_off_plays": 93.75,
+          "last5_off_pass_rate": 93.75,
+          "last5_off_red_zone_trips": 93.75,
+          "last5_off_red_zone_td_conversion": 91.21,
+          "last5_def_red_zone_td_allowed": 91.21,
+          "rest_days": 93.75,
+          "last5_off_xtd": 0.0,
+          "last5_def_xtd_allowed": 0.0,
+          "last5_off_red_zone_xtd": 0.0
+        }
+      },
+      "2018": {
+        "team_games": 512,
+        "first_kickoff": "2018-09-07T00:20:00+00:00",
+        "last_kickoff": "2018-12-31T01:20:00+00:00",
+        "feature_present_pct": {
+          "last5_off_epa_per_play": 100.0,
+          "last5_off_pass_epa": 100.0,
+          "last5_off_rush_epa": 100.0,
+          "last5_off_success_rate": 100.0,
+          "last5_def_epa_allowed": 100.0,
+          "last5_def_pass_epa_allowed": 100.0,
+          "last5_def_rush_epa_allowed": 100.0,
+          "last5_def_success_allowed": 100.0,
+          "last5_off_plays": 100.0,
+          "last5_off_pass_rate": 100.0,
+          "last5_off_red_zone_trips": 100.0,
+          "last5_off_red_zone_td_conversion": 95.7,
+          "last5_def_red_zone_td_allowed": 95.7,
+          "rest_days": 100.0,
+          "last5_off_xtd": 68.75,
+          "last5_def_xtd_allowed": 68.75,
+          "last5_off_red_zone_xtd": 68.75
+        }
+      },
+      "2019": {
+        "team_games": 512,
+        "first_kickoff": "2019-09-06T00:20:00+00:00",
+        "last_kickoff": "2019-12-30T01:20:00+00:00",
+        "feature_present_pct": {
+          "last5_off_epa_per_play": 100.0,
+          "last5_off_pass_epa": 100.0,
+          "last5_off_rush_epa": 100.0,
+          "last5_off_success_rate": 100.0,
+          "last5_def_epa_allowed": 100.0,
+          "last5_def_pass_epa_allowed": 100.0,
+          "last5_def_rush_epa_allowed": 100.0,
+          "last5_def_success_allowed": 100.0,
+          "last5_off_plays": 100.0,
+          "last5_off_pass_rate": 100.0,
+          "last5_off_red_zone_trips": 100.0,
+          "last5_off_red_zone_td_conversion": 95.31,
+          "last5_def_red_zone_td_allowed": 95.31,
+          "rest_days": 100.0,
+          "last5_off_xtd": 100.0,
+          "last5_def_xtd_allowed": 100.0,
+          "last5_off_red_zone_xtd": 100.0
+        }
+      },
+      "2020": {
+        "team_games": 512,
+        "first_kickoff": "2020-09-11T00:20:00+00:00",
+        "last_kickoff": "2021-01-04T01:20:00+00:00",
+        "feature_present_pct": {
+          "last5_off_epa_per_play": 100.0,
+          "last5_off_pass_epa": 100.0,
+          "last5_off_rush_epa": 100.0,
+          "last5_off_success_rate": 100.0,
+          "last5_def_epa_allowed": 100.0,
+          "last5_def_pass_epa_allowed": 100.0,
+          "last5_def_rush_epa_allowed": 100.0,
+          "last5_def_success_allowed": 100.0,
+          "last5_off_plays": 100.0,
+          "last5_off_pass_rate": 100.0,
+          "last5_off_red_zone_trips": 100.0,
+          "last5_off_red_zone_td_conversion": 95.12,
+          "last5_def_red_zone_td_allowed": 95.31,
+          "rest_days": 100.0,
+          "last5_off_xtd": 100.0,
+          "last5_def_xtd_allowed": 100.0,
+          "last5_off_red_zone_xtd": 100.0
+        }
+      },
+      "2021": {
+        "team_games": 544,
+        "first_kickoff": "2021-09-10T00:20:00+00:00",
+        "last_kickoff": "2022-01-10T01:20:00+00:00",
+        "feature_present_pct": {
+          "last5_off_epa_per_play": 100.0,
+          "last5_off_pass_epa": 100.0,
+          "last5_off_rush_epa": 100.0,
+          "last5_off_success_rate": 100.0,
+          "last5_def_epa_allowed": 100.0,
+          "last5_def_pass_epa_allowed": 100.0,
+          "last5_def_rush_epa_allowed": 100.0,
+          "last5_def_success_allowed": 100.0,
+          "last5_off_plays": 100.0,
+          "last5_off_pass_rate": 100.0,
+          "last5_off_red_zone_trips": 100.0,
+          "last5_off_red_zone_td_conversion": 97.43,
+          "last5_def_red_zone_td_allowed": 97.79,
+          "rest_days": 100.0,
+          "last5_off_xtd": 100.0,
+          "last5_def_xtd_allowed": 100.0,
+          "last5_off_red_zone_xtd": 100.0
+        }
+      },
+      "2022": {
+        "team_games": 542,
+        "first_kickoff": "2022-09-09T00:20:00+00:00",
+        "last_kickoff": "2023-01-09T01:20:00+00:00",
+        "feature_present_pct": {
+          "last5_off_epa_per_play": 100.0,
+          "last5_off_pass_epa": 100.0,
+          "last5_off_rush_epa": 100.0,
+          "last5_off_success_rate": 100.0,
+          "last5_def_epa_allowed": 100.0,
+          "last5_def_pass_epa_allowed": 100.0,
+          "last5_def_rush_epa_allowed": 100.0,
+          "last5_def_success_allowed": 100.0,
+          "last5_off_plays": 100.0,
+          "last5_off_pass_rate": 100.0,
+          "last5_off_red_zone_trips": 100.0,
+          "last5_off_red_zone_td_conversion": 96.86,
+          "last5_def_red_zone_td_allowed": 96.86,
+          "rest_days": 100.0,
+          "last5_off_xtd": 100.0,
+          "last5_def_xtd_allowed": 100.0,
+          "last5_off_red_zone_xtd": 100.0
+        }
+      },
+      "2023": {
+        "team_games": 544,
+        "first_kickoff": "2023-09-08T00:20:00+00:00",
+        "last_kickoff": "2024-01-08T01:20:00+00:00",
+        "feature_present_pct": {
+          "last5_off_epa_per_play": 100.0,
+          "last5_off_pass_epa": 100.0,
+          "last5_off_rush_epa": 100.0,
+          "last5_off_success_rate": 100.0,
+          "last5_def_epa_allowed": 100.0,
+          "last5_def_pass_epa_allowed": 100.0,
+          "last5_def_rush_epa_allowed": 100.0,
+          "last5_def_success_allowed": 100.0,
+          "last5_off_plays": 100.0,
+          "last5_off_pass_rate": 100.0,
+          "last5_off_red_zone_trips": 100.0,
+          "last5_off_red_zone_td_conversion": 94.12,
+          "last5_def_red_zone_td_allowed": 94.12,
+          "rest_days": 100.0,
+          "last5_off_xtd": 100.0,
+          "last5_def_xtd_allowed": 100.0,
+          "last5_off_red_zone_xtd": 100.0
+        }
+      },
+      "2024": {
+        "team_games": 544,
+        "first_kickoff": "2024-09-06T00:20:00+00:00",
+        "last_kickoff": "2025-01-06T01:20:00+00:00",
+        "feature_present_pct": {
+          "last5_off_epa_per_play": 100.0,
+          "last5_off_pass_epa": 100.0,
+          "last5_off_rush_epa": 100.0,
+          "last5_off_success_rate": 100.0,
+          "last5_def_epa_allowed": 100.0,
+          "last5_def_pass_epa_allowed": 100.0,
+          "last5_def_rush_epa_allowed": 100.0,
+          "last5_def_success_allowed": 100.0,
+          "last5_off_plays": 100.0,
+          "last5_off_pass_rate": 100.0,
+          "last5_off_red_zone_trips": 100.0,
+          "last5_off_red_zone_td_conversion": 97.43,
+          "last5_def_red_zone_td_allowed": 96.69,
+          "rest_days": 100.0,
+          "last5_off_xtd": 100.0,
+          "last5_def_xtd_allowed": 100.0,
+          "last5_off_red_zone_xtd": 100.0
+        }
+      }
+    }
+  },
+  "market_coverage": {
+    "snapshot_count": 223,
+    "team_games": 2174,
+    "games": 1087,
+    "by_season": {
+      "2021": {
+        "team_games": 544,
+        "games": 272
+      },
+      "2022": {
+        "team_games": 542,
+        "games": 271
+      },
+      "2023": {
+        "team_games": 544,
+        "games": 272
+      },
+      "2024": {
+        "team_games": 544,
+        "games": 272
+      }
+    },
+    "missing_games": {},
+    "first_kickoff": "2021-09-10T00:20:00+00:00",
+    "last_kickoff": "2025-01-06T01:20:00+00:00",
+    "quote_age_minutes": {
+      "median": 10.0,
+      "p90": 419.0,
+      "max": 660.0
+    }
+  },
+  "strict_train_rows": 1630,
+  "validation_rows": 544,
+  "league_points_per_offensive_td": 9.512348922753548,
+  "headline_metrics": {
+    "points-per-TD ratio": {
+      "train_rows": 1630,
+      "points_per_offensive_td": 9.512348922753548,
+      "metrics": {
+        "mae": 1.0117391866839542,
+        "rmse": 1.298105676583247,
+        "poisson_deviance": 0.8127299168794456,
+        "mean_prediction_bias": -0.09697158300675272,
+        "calibration_gap": 0.1742523575555511
+      },
+      "calibration": [
+        {
+          "range": "<1.5",
+          "team_games": 3,
+          "mean_predicted": 1.3316024012079695,
+          "mean_actual": 1.6666666666666667
+        },
+        {
+          "range": "1.5\u20132.0",
+          "team_games": 113,
+          "mean_predicted": 1.8320386785599398,
+          "mean_actual": 1.6460176991150441
+        },
+        {
+          "range": "2.0\u20132.5",
+          "team_games": 246,
+          "mean_predicted": 2.273681186016368,
+          "mean_actual": 2.3780487804878048
+        },
+        {
+          "range": "2.5\u20133.0",
+          "team_games": 168,
+          "mean_predicted": 2.6979340943647374,
+          "mean_actual": 2.9285714285714284
+        },
+        {
+          "range": "3.0\u20133.5",
+          "team_games": 14,
+          "mean_predicted": 3.11812723929479,
+          "mean_actual": 3.7142857142857144
+        },
+        {
+          "range": "3.5\u20134.0",
+          "team_games": 0,
+          "mean_predicted": null,
+          "mean_actual": null
+        },
+        {
+          "range": "4.0+",
+          "team_games": 0,
+          "mean_predicted": null,
+          "mean_actual": null
+        }
+      ]
+    },
+    "market-only": {
+      "train_rows": 1630,
+      "train_seasons": [
+        2021,
+        2022,
+        2023
+      ],
+      "validation_rows": 544,
+      "fit_max_season": 2023,
+      "metrics": {
+        "mae": 1.0069737033983832,
+        "rmse": 1.2913758253124745,
+        "poisson_deviance": 0.8068557206548628,
+        "mean_prediction_bias": -0.10629716144521127,
+        "calibration_gap": 0.1342034942865686
+      },
+      "calibration": [
+        {
+          "range": "<1.5",
+          "team_games": 3,
+          "mean_predicted": 1.378017154686546,
+          "mean_actual": 1.6666666666666667
+        },
+        {
+          "range": "1.5\u20132.0",
+          "team_games": 148,
+          "mean_predicted": 1.8080440711679004,
+          "mean_actual": 1.7567567567567568
+        },
+        {
+          "range": "2.0\u20132.5",
+          "team_games": 215,
+          "mean_predicted": 2.2679697960978724,
+          "mean_actual": 2.441860465116279
+        },
+        {
+          "range": "2.5\u20133.0",
+          "team_games": 139,
+          "mean_predicted": 2.70980625673616,
+          "mean_actual": 2.827338129496403
+        },
+        {
+          "range": "3.0\u20133.5",
+          "team_games": 34,
+          "mean_predicted": 3.1796602864168664,
+          "mean_actual": 3.4411764705882355
+        },
+        {
+          "range": "3.5\u20134.0",
+          "team_games": 5,
+          "mean_predicted": 3.612948918270811,
+          "mean_actual": 4.0
+        },
+        {
+          "range": "4.0+",
+          "team_games": 0,
+          "mean_predicted": null,
+          "mean_actual": null
+        }
+      ],
+      "important_features": [
+        {
+          "feature": "implied_team_points",
+          "importance": 0.10314546905230695
+        },
+        {
+          "feature": "team_spread",
+          "importance": 0.08078773739976795
+        },
+        {
+          "feature": "game_total",
+          "importance": 0.06440600449472364
+        },
+        {
+          "feature": "home",
+          "importance": 0.021307589898576763
+        }
+      ],
+      "fields": [
+        "implied_team_points",
+        "team_spread",
+        "game_total",
+        "home"
+      ],
+      "architecture": "poisson"
+    },
+    "football+market": {
+      "train_rows": 1630,
+      "train_seasons": [
+        2021,
+        2022,
+        2023
+      ],
+      "validation_rows": 544,
+      "fit_max_season": 2023,
+      "metrics": {
+        "mae": 1.0043566411301783,
+        "rmse": 1.2859616070880484,
+        "poisson_deviance": 0.8021682499629754,
+        "mean_prediction_bias": -0.09100910198612545,
+        "calibration_gap": 0.1260265146653773
+      },
+      "calibration": [
+        {
+          "range": "<1.5",
+          "team_games": 4,
+          "mean_predicted": 1.3865832140969054,
+          "mean_actual": 1.5
+        },
+        {
+          "range": "1.5\u20132.0",
+          "team_games": 145,
+          "mean_predicted": 1.7827246399785073,
+          "mean_actual": 1.7241379310344827
+        },
+        {
+          "range": "2.0\u20132.5",
+          "team_games": 206,
+          "mean_predicted": 2.2486589173264924,
+          "mean_actual": 2.3737864077669903
+        },
+        {
+          "range": "2.5\u20133.0",
+          "team_games": 138,
+          "mean_predicted": 2.718250810547254,
+          "mean_actual": 2.86231884057971
+        },
+        {
+          "range": "3.0\u20133.5",
+          "team_games": 40,
+          "mean_predicted": 3.1769407647406283,
+          "mean_actual": 3.5
+        },
+        {
+          "range": "3.5\u20134.0",
+          "team_games": 11,
+          "mean_predicted": 3.7299694047157206,
+          "mean_actual": 3.6363636363636362
+        },
+        {
+          "range": "4.0+",
+          "team_games": 0,
+          "mean_predicted": null,
+          "mean_actual": null
+        }
+      ],
+      "important_features": [
+        {
+          "feature": "implied_team_points",
+          "importance": 0.09109757545488431
+        },
+        {
+          "feature": "team_spread",
+          "importance": 0.0711916068288165
+        },
+        {
+          "feature": "game_total",
+          "importance": 0.057109142339670474
+        },
+        {
+          "feature": "last5_off_rush_epa",
+          "importance": 0.027015948372660487
+        },
+        {
+          "feature": "home",
+          "importance": 0.025027412203165657
+        },
+        {
+          "feature": "last5_off_pass_epa",
+          "importance": 0.02018197069003316
+        },
+        {
+          "feature": "missingindicator_last5_off_red_zone_td_conversion",
+          "importance": 0.019994062421544768
+        },
+        {
+          "feature": "last5_off_red_zone_trips",
+          "importance": 0.01801524931454564
+        },
+        {
+          "feature": "missingindicator_last5_def_red_zone_td_allowed",
+          "importance": 0.016025735984822733
+        },
+        {
+          "feature": "rest_days",
+          "importance": 0.012419850348709674
+        }
+      ],
+      "fields": [
+        "implied_team_points",
+        "team_spread",
+        "game_total",
+        "home",
+        "last5_off_epa_per_play",
+        "last5_off_pass_epa",
+        "last5_off_rush_epa",
+        "last5_off_success_rate",
+        "last5_def_epa_allowed",
+        "last5_def_pass_epa_allowed",
+        "last5_def_rush_epa_allowed",
+        "last5_def_success_allowed",
+        "last5_off_plays",
+        "last5_off_pass_rate",
+        "last5_off_red_zone_trips",
+        "last5_off_red_zone_td_conversion",
+        "last5_def_red_zone_td_allowed",
+        "rest_days"
+      ],
+      "architecture": "poisson"
+    },
+    "football-only diagnostic": {
+      "train_rows": 3678,
+      "train_seasons": [
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023
+      ],
+      "validation_rows": 544,
+      "fit_max_season": 2023,
+      "metrics": {
+        "mae": 1.0486468474904644,
+        "rmse": 1.340746748357744,
+        "poisson_deviance": 0.8621466876823016,
+        "mean_prediction_bias": -0.008268158802885284,
+        "calibration_gap": 0.0795156725753608
+      },
+      "calibration": [
+        {
+          "range": "<1.5",
+          "team_games": 0,
+          "mean_predicted": null,
+          "mean_actual": null
+        },
+        {
+          "range": "1.5\u20132.0",
+          "team_games": 71,
+          "mean_predicted": 1.8759526193237808,
+          "mean_actual": 1.8591549295774648
+        },
+        {
+          "range": "2.0\u20132.5",
+          "team_games": 268,
+          "mean_predicted": 2.251690363591204,
+          "mean_actual": 2.1977611940298507
+        },
+        {
+          "range": "2.5\u20133.0",
+          "team_games": 158,
+          "mean_predicted": 2.7244726683519014,
+          "mean_actual": 2.8734177215189876
+        },
+        {
+          "range": "3.0\u20133.5",
+          "team_games": 44,
+          "mean_predicted": 3.130310689356415,
+          "mean_actual": 3.0454545454545454
+        },
+        {
+          "range": "3.5\u20134.0",
+          "team_games": 3,
+          "mean_predicted": 3.5520387551722252,
+          "mean_actual": 3.6666666666666665
+        },
+        {
+          "range": "4.0+",
+          "team_games": 0,
+          "mean_predicted": null,
+          "mean_actual": null
+        }
+      ],
+      "important_features": [
+        {
+          "feature": "last5_off_red_zone_trips",
+          "importance": 0.05368435005423464
+        },
+        {
+          "feature": "last5_off_success_rate",
+          "importance": 0.04168131044055266
+        },
+        {
+          "feature": "last5_def_epa_allowed",
+          "importance": 0.04063181245989414
+        },
+        {
+          "feature": "last5_off_pass_epa",
+          "importance": 0.03751595254990429
+        },
+        {
+          "feature": "last5_off_epa_per_play",
+          "importance": 0.029294377214779167
+        },
+        {
+          "feature": "last5_off_pass_rate",
+          "importance": 0.015587295969088534
+        },
+        {
+          "feature": "last5_off_rush_epa",
+          "importance": 0.01453644323721208
+        },
+        {
+          "feature": "missingindicator_last5_off_red_zone_td_conversion",
+          "importance": 0.014160354838852859
+        },
+        {
+          "feature": "missingindicator_last5_def_red_zone_td_allowed",
+          "importance": 0.012072920554456976
+        },
+        {
+          "feature": "last5_def_success_allowed",
+          "importance": 0.010167360220733428
+        }
+      ]
+    }
+  },
+  "market_model": "A_market_only_poisson",
+  "football_challenger": "D_plus_rest_poisson",
+  "selected_model": "A_market_only_poisson",
+  "football_material_improvement": false,
+  "incremental_football_vs_market": {
+    "mae_pct": -0.25989380451274524,
+    "rmse_pct": -0.41925968554630266,
+    "poisson_deviance_pct": -0.5809552528279638,
+    "calibration_gap_pct": -6.092970726776148
+  },
+  "experiments": {
+    "A_market_only_poisson": {
+      "train_rows": 1630,
+      "train_seasons": [
+        2021,
+        2022,
+        2023
+      ],
+      "validation_rows": 544,
+      "fit_max_season": 2023,
+      "metrics": {
+        "mae": 1.0069737033983832,
+        "rmse": 1.2913758253124745,
+        "poisson_deviance": 0.8068557206548628,
+        "mean_prediction_bias": -0.10629716144521127,
+        "calibration_gap": 0.1342034942865686
+      },
+      "calibration": [
+        {
+          "range": "<1.5",
+          "team_games": 3,
+          "mean_predicted": 1.378017154686546,
+          "mean_actual": 1.6666666666666667
+        },
+        {
+          "range": "1.5\u20132.0",
+          "team_games": 148,
+          "mean_predicted": 1.8080440711679004,
+          "mean_actual": 1.7567567567567568
+        },
+        {
+          "range": "2.0\u20132.5",
+          "team_games": 215,
+          "mean_predicted": 2.2679697960978724,
+          "mean_actual": 2.441860465116279
+        },
+        {
+          "range": "2.5\u20133.0",
+          "team_games": 139,
+          "mean_predicted": 2.70980625673616,
+          "mean_actual": 2.827338129496403
+        },
+        {
+          "range": "3.0\u20133.5",
+          "team_games": 34,
+          "mean_predicted": 3.1796602864168664,
+          "mean_actual": 3.4411764705882355
+        },
+        {
+          "range": "3.5\u20134.0",
+          "team_games": 5,
+          "mean_predicted": 3.612948918270811,
+          "mean_actual": 4.0
+        },
+        {
+          "range": "4.0+",
+          "team_games": 0,
+          "mean_predicted": null,
+          "mean_actual": null
+        }
+      ],
+      "important_features": [
+        {
+          "feature": "implied_team_points",
+          "importance": 0.10314546905230695
+        },
+        {
+          "feature": "team_spread",
+          "importance": 0.08078773739976795
+        },
+        {
+          "feature": "game_total",
+          "importance": 0.06440600449472364
+        },
+        {
+          "feature": "home",
+          "importance": 0.021307589898576763
+        }
+      ],
+      "fields": [
+        "implied_team_points",
+        "team_spread",
+        "game_total",
+        "home"
+      ],
+      "architecture": "poisson"
+    },
+    "A_market_only_lightgbm": {
+      "train_rows": 1630,
+      "train_seasons": [
+        2021,
+        2022,
+        2023
+      ],
+      "validation_rows": 544,
+      "fit_max_season": 2023,
+      "metrics": {
+        "mae": 1.0107320813499867,
+        "rmse": 1.3064771144535239,
+        "poisson_deviance": 0.8212587066447716,
+        "mean_prediction_bias": -0.10262826537422215,
+        "calibration_gap": 0.1853044736397494
+      },
+      "calibration": [
+        {
+          "range": "<1.5",
+          "team_games": 4,
+          "mean_predicted": 1.4154535127314636,
+          "mean_actual": 1.25
+        },
+        {
+          "range": "1.5\u20132.0",
+          "team_games": 137,
+          "mean_predicted": 1.8222567342572966,
+          "mean_actual": 1.7226277372262773
+        },
+        {
+          "range": "2.0\u20132.5",
+          "team_games": 234,
+          "mean_predicted": 2.228743278305551,
+          "mean_actual": 2.448717948717949
+        },
+        {
+          "range": "2.5\u20133.0",
+          "team_games": 122,
+          "mean_predicted": 2.7752028054242257,
+          "mean_actual": 2.9672131147540983
+        },
+        {
+          "range": "3.0\u20133.5",
+          "team_games": 46,
+          "mean_predicted": 3.156020478348868,
+          "mean_actual": 2.9782608695652173
+        },
+        {
+          "range": "3.5\u20134.0",
+          "team_games": 1,
+          "mean_predicted": 3.5816256029452886,
+          "mean_actual": 7.0
+        },
+        {
+          "range": "4.0+",
+          "team_games": 0,
+          "mean_predicted": null,
+          "mean_actual": null
+        }
+      ],
+      "important_features": [
+        {
+          "feature": "implied_team_points",
+          "importance": 2623.036031201482
+        },
+        {
+          "feature": "game_total",
+          "importance": 363.3892206400633
+        },
+        {
+          "feature": "team_spread",
+          "importance": 246.5290251970291
+        },
+        {
+          "feature": "home",
+          "importance": 68.58933794498444
+        }
+      ],
+      "fields": [
+        "implied_team_points",
+        "team_spread",
+        "game_total",
+        "home"
+      ],
+      "architecture": "lightgbm"
+    },
+    "B_market_efficiency_poisson": {
+      "train_rows": 1630,
+      "train_seasons": [
+        2021,
+        2022,
+        2023
+      ],
+      "validation_rows": 544,
+      "fit_max_season": 2023,
+      "metrics": {
+        "mae": 1.0057111202258449,
+        "rmse": 1.2864448589909072,
+        "poisson_deviance": 0.8034100360456672,
+        "mean_prediction_bias": -0.09514277962112823,
+        "calibration_gap": 0.14094890362148824
+      },
+      "calibration": [
+        {
+          "range": "<1.5",
+          "team_games": 2,
+          "mean_predicted": 1.3045832464413003,
+          "mean_actual": 1.5
+        },
+        {
+          "range": "1.5\u20132.0",
+          "team_games": 145,
+          "mean_predicted": 1.782477694676538,
+          "mean_actual": 1.696551724137931
+        },
+        {
+          "range": "2.0\u20132.5",
+          "team_games": 208,
+          "mean_predicted": 2.245886188709062,
+          "mean_actual": 2.394230769230769
+        },
+        {
+          "range": "2.5\u20133.0",
+          "team_games": 141,
+          "mean_predicted": 2.713118090635221,
+          "mean_actual": 2.872340425531915
+        },
+        {
+          "range": "3.0\u20133.5",
+          "team_games": 38,
+          "mean_predicted": 3.175439343033951,
+          "mean_actual": 3.4473684210526314
+        },
+        {
+          "range": "3.5\u20134.0",
+          "team_games": 10,
+          "mean_predicted": 3.6813222598784563,
+          "mean_actual": 3.7
+        },
+        {
+          "range": "4.0+",
+          "team_games": 0,
+          "mean_predicted": null,
+          "mean_actual": null
+        }
+      ],
+      "important_features": [
+        {
+          "feature": "implied_team_points",
+          "importance": 0.091510152215618
+        },
+        {
+          "feature": "team_spread",
+          "importance": 0.07281471776913585
+        },
+        {
+          "feature": "game_total",
+          "importance": 0.05552685368816713
+        },
+        {
+          "feature": "last5_off_rush_epa",
+          "importance": 0.028750983839085444
+        },
+        {
+          "feature": "last5_off_pass_epa",
+          "importance": 0.02512450163588384
+        },
+        {
+          "feature": "home",
+          "importance": 0.024650310174109763
+        },
+        {
+          "feature": "last5_off_epa_per_play",
+          "importance": 0.010255160843787529
+        },
+        {
+          "feature": "last5_def_rush_epa_allowed",
+          "importance": 0.008163534622111127
+        },
+        {
+          "feature": "last5_def_epa_allowed",
+          "importance": 0.0078498518464344
+        },
+        {
+          "feature": "last5_off_success_rate",
+          "importance": 0.006054494040246537
+        }
+      ],
+      "fields": [
+        "implied_team_points",
+        "team_spread",
+        "game_total",
+        "home",
+        "last5_off_epa_per_play",
+        "last5_off_pass_epa",
+        "last5_off_rush_epa",
+        "last5_off_success_rate",
+        "last5_def_epa_allowed",
+        "last5_def_pass_epa_allowed",
+        "last5_def_rush_epa_allowed",
+        "last5_def_success_allowed"
+      ],
+      "architecture": "poisson"
+    },
+    "B_market_efficiency_lightgbm": {
+      "train_rows": 1630,
+      "train_seasons": [
+        2021,
+        2022,
+        2023
+      ],
+      "validation_rows": 544,
+      "fit_max_season": 2023,
+      "metrics": {
+        "mae": 1.0148596915748924,
+        "rmse": 1.308153998337071,
+        "poisson_deviance": 0.8264169523892474,
+        "mean_prediction_bias": -0.08319055193748955,
+        "calibration_gap": 0.11862581297004941
+      },
+      "calibration": [
+        {
+          "range": "<1.5",
+          "team_games": 2,
+          "mean_predicted": 1.4434218895693565,
+          "mean_actual": 1.5
+        },
+        {
+          "range": "1.5\u20132.0",
+          "team_games": 145,
+          "mean_predicted": 1.825092351730043,
+          "mean_actual": 1.7586206896551724
+        },
+        {
+          "range": "2.0\u20132.5",
+          "team_games": 195,
+          "mean_predicted": 2.2044183926961454,
+          "mean_actual": 2.405128205128205
+        },
+        {
+          "range": "2.5\u20133.0",
+          "team_games": 138,
+          "mean_predicted": 2.719439311402145,
+          "mean_actual": 2.8115942028985508
+        },
+        {
+          "range": "3.0\u20133.5",
+          "team_games": 63,
+          "mean_predicted": 3.1514877483295956,
+          "mean_actual": 3.1904761904761907
+        },
+        {
+          "range": "3.5\u20134.0",
+          "team_games": 1,
+          "mean_predicted": 3.531165272001787,
+          "mean_actual": 4.0
+        },
+        {
+          "range": "4.0+",
+          "team_games": 0,
+          "mean_predicted": null,
+          "mean_actual": null
+        }
+      ],
+      "important_features": [
+        {
+          "feature": "implied_team_points",
+          "importance": 2500.269491791725
+        },
+        {
+          "feature": "last5_off_rush_epa",
+          "importance": 242.5559898018837
+        },
+        {
+          "feature": "last5_off_pass_epa",
+          "importance": 229.49882942438126
+        },
+        {
+          "feature": "team_spread",
+          "importance": 221.35830003023148
+        },
+        {
+          "feature": "game_total",
+          "importance": 133.53377950191498
+        },
+        {
+          "feature": "last5_def_rush_epa_allowed",
+          "importance": 110.6214091181755
+        },
+        {
+          "feature": "last5_def_epa_allowed",
+          "importance": 95.0365000963211
+        },
+        {
+          "feature": "last5_def_success_allowed",
+          "importance": 73.55490690469742
+        },
+        {
+          "feature": "last5_off_success_rate",
+          "importance": 62.1274197101593
+        },
+        {
+          "feature": "last5_off_epa_per_play",
+          "importance": 58.42970013618469
+        }
+      ],
+      "fields": [
+        "implied_team_points",
+        "team_spread",
+        "game_total",
+        "home",
+        "last5_off_epa_per_play",
+        "last5_off_pass_epa",
+        "last5_off_rush_epa",
+        "last5_off_success_rate",
+        "last5_def_epa_allowed",
+        "last5_def_pass_epa_allowed",
+        "last5_def_rush_epa_allowed",
+        "last5_def_success_allowed"
+      ],
+      "architecture": "lightgbm"
+    },
+    "C_market_efficiency_pace_redzone_poisson": {
+      "train_rows": 1630,
+      "train_seasons": [
+        2021,
+        2022,
+        2023
+      ],
+      "validation_rows": 544,
+      "fit_max_season": 2023,
+      "metrics": {
+        "mae": 1.0046781071890465,
+        "rmse": 1.2867958688034993,
+        "poisson_deviance": 0.8030852619391665,
+        "mean_prediction_bias": -0.09122836221371701,
+        "calibration_gap": 0.12863906498530797
+      },
+      "calibration": [
+        {
+          "range": "<1.5",
+          "team_games": 3,
+          "mean_predicted": 1.354550915391048,
+          "mean_actual": 1.6666666666666667
+        },
+        {
+          "range": "1.5\u20132.0",
+          "team_games": 146,
+          "mean_predicted": 1.7830572812576566,
+          "mean_actual": 1.7191780821917808
+        },
+        {
+          "range": "2.0\u20132.5",
+          "team_games": 203,
+          "mean_predicted": 2.2467994038868557,
+          "mean_actual": 2.399014778325123
+        },
+        {
+          "range": "2.5\u20133.0",
+          "team_games": 143,
+          "mean_predicted": 2.714033318180778,
+          "mean_actual": 2.8181818181818183
+        },
+        {
+          "range": "3.0\u20133.5",
+          "team_games": 38,
+          "mean_predicted": 3.1822464096528704,
+          "mean_actual": 3.526315789473684
+        },
+        {
+          "range": "3.5\u20134.0",
+          "team_games": 11,
+          "mean_predicted": 3.7135770991140733,
+          "mean_actual": 3.6363636363636362
+        },
+        {
+          "range": "4.0+",
+          "team_games": 0,
+          "mean_predicted": null,
+          "mean_actual": null
+        }
+      ],
+      "important_features": [
+        {
+          "feature": "implied_team_points",
+          "importance": 0.09073590773719459
+        },
+        {
+          "feature": "team_spread",
+          "importance": 0.07157149881806818
+        },
+        {
+          "feature": "game_total",
+          "importance": 0.05594469689324794
+        },
+        {
+          "feature": "last5_off_rush_epa",
+          "importance": 0.027152806442266773
+        },
+        {
+          "feature": "home",
+          "importance": 0.025070390460886684
+        },
+        {
+          "feature": "last5_off_pass_epa",
+          "importance": 0.021015290616722287
+        },
+        {
+          "feature": "missingindicator_last5_off_red_zone_td_conversion",
+          "importance": 0.019731554228006532
+        },
+        {
+          "feature": "last5_off_red_zone_trips",
+          "importance": 0.017394930148226066
+        },
+        {
+          "feature": "missingindicator_last5_def_red_zone_td_allowed",
+          "importance": 0.01594365341607387
+        },
+        {
+          "feature": "last5_off_plays",
+          "importance": 0.01241303771015299
+        }
+      ],
+      "fields": [
+        "implied_team_points",
+        "team_spread",
+        "game_total",
+        "home",
+        "last5_off_epa_per_play",
+        "last5_off_pass_epa",
+        "last5_off_rush_epa",
+        "last5_off_success_rate",
+        "last5_def_epa_allowed",
+        "last5_def_pass_epa_allowed",
+        "last5_def_rush_epa_allowed",
+        "last5_def_success_allowed",
+        "last5_off_plays",
+        "last5_off_pass_rate",
+        "last5_off_red_zone_trips",
+        "last5_off_red_zone_td_conversion",
+        "last5_def_red_zone_td_allowed"
+      ],
+      "architecture": "poisson"
+    },
+    "C_market_efficiency_pace_redzone_lightgbm": {
+      "train_rows": 1630,
+      "train_seasons": [
+        2021,
+        2022,
+        2023
+      ],
+      "validation_rows": 544,
+      "fit_max_season": 2023,
+      "metrics": {
+        "mae": 1.016449558707952,
+        "rmse": 1.3076384920269832,
+        "poisson_deviance": 0.8261001402699667,
+        "mean_prediction_bias": -0.08629963149308778,
+        "calibration_gap": 0.09036022913355896
+      },
+      "calibration": [
+        {
+          "range": "<1.5",
+          "team_games": 3,
+          "mean_predicted": 1.4285280707184818,
+          "mean_actual": 1.6666666666666667
+        },
+        {
+          "range": "1.5\u20132.0",
+          "team_games": 144,
+          "mean_predicted": 1.8201700177653346,
+          "mean_actual": 1.8125
+        },
+        {
+          "range": "2.0\u20132.5",
+          "team_games": 203,
+          "mean_predicted": 2.2129830200231404,
+          "mean_actual": 2.41871921182266
+        },
+        {
+          "range": "2.5\u20133.0",
+          "team_games": 128,
+          "mean_predicted": 2.7213527438625422,
+          "mean_actual": 2.7421875
+        },
+        {
+          "range": "3.0\u20133.5",
+          "team_games": 66,
+          "mean_predicted": 3.168094385125663,
+          "mean_actual": 3.212121212121212
+        },
+        {
+          "range": "3.5\u20134.0",
+          "team_games": 0,
+          "mean_predicted": null,
+          "mean_actual": null
+        },
+        {
+          "range": "4.0+",
+          "team_games": 0,
+          "mean_predicted": null,
+          "mean_actual": null
+        }
+      ],
+      "important_features": [
+        {
+          "feature": "implied_team_points",
+          "importance": 2458.1702954769135
+        },
+        {
+          "feature": "team_spread",
+          "importance": 216.22485876083374
+        },
+        {
+          "feature": "last5_off_rush_epa",
+          "importance": 209.43425953388214
+        },
+        {
+          "feature": "last5_off_pass_epa",
+          "importance": 189.83200120925903
+        },
+        {
+          "feature": "last5_off_red_zone_td_conversion",
+          "importance": 159.55169987678528
+        },
+        {
+          "feature": "game_total",
+          "importance": 126.59786987304688
+        },
+        {
+          "feature": "last5_def_rush_epa_allowed",
+          "importance": 107.20357024669647
+        },
+        {
+          "feature": "last5_off_epa_per_play",
+          "importance": 73.3599796295166
+        },
+        {
+          "feature": "last5_def_red_zone_td_allowed",
+          "importance": 71.44691944122314
+        },
+        {
+          "feature": "last5_def_epa_allowed",
+          "importance": 64.30394876003265
+        }
+      ],
+      "fields": [
+        "implied_team_points",
+        "team_spread",
+        "game_total",
+        "home",
+        "last5_off_epa_per_play",
+        "last5_off_pass_epa",
+        "last5_off_rush_epa",
+        "last5_off_success_rate",
+        "last5_def_epa_allowed",
+        "last5_def_pass_epa_allowed",
+        "last5_def_rush_epa_allowed",
+        "last5_def_success_allowed",
+        "last5_off_plays",
+        "last5_off_pass_rate",
+        "last5_off_red_zone_trips",
+        "last5_off_red_zone_td_conversion",
+        "last5_def_red_zone_td_allowed"
+      ],
+      "architecture": "lightgbm"
+    },
+    "D_plus_rest_poisson": {
+      "train_rows": 1630,
+      "train_seasons": [
+        2021,
+        2022,
+        2023
+      ],
+      "validation_rows": 544,
+      "fit_max_season": 2023,
+      "metrics": {
+        "mae": 1.0043566411301783,
+        "rmse": 1.2859616070880484,
+        "poisson_deviance": 0.8021682499629754,
+        "mean_prediction_bias": -0.09100910198612545,
+        "calibration_gap": 0.1260265146653773
+      },
+      "calibration": [
+        {
+          "range": "<1.5",
+          "team_games": 4,
+          "mean_predicted": 1.3865832140969054,
+          "mean_actual": 1.5
+        },
+        {
+          "range": "1.5\u20132.0",
+          "team_games": 145,
+          "mean_predicted": 1.7827246399785073,
+          "mean_actual": 1.7241379310344827
+        },
+        {
+          "range": "2.0\u20132.5",
+          "team_games": 206,
+          "mean_predicted": 2.2486589173264924,
+          "mean_actual": 2.3737864077669903
+        },
+        {
+          "range": "2.5\u20133.0",
+          "team_games": 138,
+          "mean_predicted": 2.718250810547254,
+          "mean_actual": 2.86231884057971
+        },
+        {
+          "range": "3.0\u20133.5",
+          "team_games": 40,
+          "mean_predicted": 3.1769407647406283,
+          "mean_actual": 3.5
+        },
+        {
+          "range": "3.5\u20134.0",
+          "team_games": 11,
+          "mean_predicted": 3.7299694047157206,
+          "mean_actual": 3.6363636363636362
+        },
+        {
+          "range": "4.0+",
+          "team_games": 0,
+          "mean_predicted": null,
+          "mean_actual": null
+        }
+      ],
+      "important_features": [
+        {
+          "feature": "implied_team_points",
+          "importance": 0.09109757545488431
+        },
+        {
+          "feature": "team_spread",
+          "importance": 0.0711916068288165
+        },
+        {
+          "feature": "game_total",
+          "importance": 0.057109142339670474
+        },
+        {
+          "feature": "last5_off_rush_epa",
+          "importance": 0.027015948372660487
+        },
+        {
+          "feature": "home",
+          "importance": 0.025027412203165657
+        },
+        {
+          "feature": "last5_off_pass_epa",
+          "importance": 0.02018197069003316
+        },
+        {
+          "feature": "missingindicator_last5_off_red_zone_td_conversion",
+          "importance": 0.019994062421544768
+        },
+        {
+          "feature": "last5_off_red_zone_trips",
+          "importance": 0.01801524931454564
+        },
+        {
+          "feature": "missingindicator_last5_def_red_zone_td_allowed",
+          "importance": 0.016025735984822733
+        },
+        {
+          "feature": "rest_days",
+          "importance": 0.012419850348709674
+        }
+      ],
+      "fields": [
+        "implied_team_points",
+        "team_spread",
+        "game_total",
+        "home",
+        "last5_off_epa_per_play",
+        "last5_off_pass_epa",
+        "last5_off_rush_epa",
+        "last5_off_success_rate",
+        "last5_def_epa_allowed",
+        "last5_def_pass_epa_allowed",
+        "last5_def_rush_epa_allowed",
+        "last5_def_success_allowed",
+        "last5_off_plays",
+        "last5_off_pass_rate",
+        "last5_off_red_zone_trips",
+        "last5_off_red_zone_td_conversion",
+        "last5_def_red_zone_td_allowed",
+        "rest_days"
+      ],
+      "architecture": "poisson"
+    },
+    "D_plus_rest_lightgbm": {
+      "train_rows": 1630,
+      "train_seasons": [
+        2021,
+        2022,
+        2023
+      ],
+      "validation_rows": 544,
+      "fit_max_season": 2023,
+      "metrics": {
+        "mae": 1.0154849957111751,
+        "rmse": 1.3094866537659657,
+        "poisson_deviance": 0.827180701146021,
+        "mean_prediction_bias": -0.08752194077506897,
+        "calibration_gap": 0.11075616897557275
+      },
+      "calibration": [
+        {
+          "range": "<1.5",
+          "team_games": 3,
+          "mean_predicted": 1.4451339184185956,
+          "mean_actual": 1.6666666666666667
+        },
+        {
+          "range": "1.5\u20132.0",
+          "team_games": 139,
+          "mean_predicted": 1.8188385872079984,
+          "mean_actual": 1.776978417266187
+        },
+        {
+          "range": "2.0\u20132.5",
+          "team_games": 207,
+          "mean_predicted": 2.201734831608042,
+          "mean_actual": 2.42512077294686
+        },
+        {
+          "range": "2.5\u20133.0",
+          "team_games": 130,
+          "mean_predicted": 2.716432478041108,
+          "mean_actual": 2.753846153846154
+        },
+        {
+          "range": "3.0\u20133.5",
+          "team_games": 64,
+          "mean_predicted": 3.1693378141306394,
+          "mean_actual": 3.203125
+        },
+        {
+          "range": "3.5\u20134.0",
+          "team_games": 1,
+          "mean_predicted": 3.501146448625271,
+          "mean_actual": 3.0
+        },
+        {
+          "range": "4.0+",
+          "team_games": 0,
+          "mean_predicted": null,
+          "mean_actual": null
+        }
+      ],
+      "important_features": [
+        {
+          "feature": "implied_team_points",
+          "importance": 2475.510850429535
+        },
+        {
+          "feature": "last5_off_rush_epa",
+          "importance": 235.95644068717957
+        },
+        {
+          "feature": "team_spread",
+          "importance": 213.5415097475052
+        },
+        {
+          "feature": "last5_off_pass_epa",
+          "importance": 193.94538128376007
+        },
+        {
+          "feature": "last5_off_red_zone_td_conversion",
+          "importance": 137.56591963768005
+        },
+        {
+          "feature": "game_total",
+          "importance": 119.47686994075775
+        },
+        {
+          "feature": "rest_days",
+          "importance": 115.60923969745636
+        },
+        {
+          "feature": "last5_def_rush_epa_allowed",
+          "importance": 99.85619008541107
+        },
+        {
+          "feature": "last5_off_epa_per_play",
+          "importance": 66.4989697933197
+        },
+        {
+          "feature": "last5_def_red_zone_td_allowed",
+          "importance": 60.78781998157501
+        }
+      ],
+      "fields": [
+        "implied_team_points",
+        "team_spread",
+        "game_total",
+        "home",
+        "last5_off_epa_per_play",
+        "last5_off_pass_epa",
+        "last5_off_rush_epa",
+        "last5_off_success_rate",
+        "last5_def_epa_allowed",
+        "last5_def_pass_epa_allowed",
+        "last5_def_rush_epa_allowed",
+        "last5_def_success_allowed",
+        "last5_off_plays",
+        "last5_off_pass_rate",
+        "last5_off_red_zone_trips",
+        "last5_off_red_zone_td_conversion",
+        "last5_def_red_zone_td_allowed",
+        "rest_days"
+      ],
+      "architecture": "lightgbm"
+    },
+    "C_plus_xtd_poisson": {
+      "train_rows": 1630,
+      "train_seasons": [
+        2021,
+        2022,
+        2023
+      ],
+      "validation_rows": 544,
+      "fit_max_season": 2023,
+      "metrics": {
+        "mae": 1.0041402747488468,
+        "rmse": 1.287592608535281,
+        "poisson_deviance": 0.8034754645626901,
+        "mean_prediction_bias": -0.10438075840905205,
+        "calibration_gap": 0.12235541201297198
+      },
+      "calibration": [
+        {
+          "range": "<1.5",
+          "team_games": 5,
+          "mean_predicted": 1.4081258160685006,
+          "mean_actual": 1.6
+        },
+        {
+          "range": "1.5\u20132.0",
+          "team_games": 152,
+          "mean_predicted": 1.7886171594124196,
+          "mean_actual": 1.763157894736842
+        },
+        {
+          "range": "2.0\u20132.5",
+          "team_games": 197,
+          "mean_predicted": 2.247071521460357,
+          "mean_actual": 2.3908629441624365
+        },
+        {
+          "range": "2.5\u20133.0",
+          "team_games": 147,
+          "mean_predicted": 2.7168618164281564,
+          "mean_actual": 2.9183673469387754
+        },
+        {
+          "range": "3.0\u20133.5",
+          "team_games": 34,
+          "mean_predicted": 3.1941413841416844,
+          "mean_actual": 3.235294117647059
+        },
+        {
+          "range": "3.5\u20134.0",
+          "team_games": 8,
+          "mean_predicted": 3.704318595177536,
+          "mean_actual": 3.875
+        },
+        {
+          "range": "4.0+",
+          "team_games": 1,
+          "mean_predicted": 4.019297549578403,
+          "mean_actual": 3.0
+        }
+      ],
+      "important_features": [
+        {
+          "feature": "implied_team_points",
+          "importance": 0.08931548349885318
+        },
+        {
+          "feature": "team_spread",
+          "importance": 0.07089316993414124
+        },
+        {
+          "feature": "game_total",
+          "importance": 0.054443202532668815
+        },
+        {
+          "feature": "last5_off_xtd",
+          "importance": 0.027417138705123814
+        },
+        {
+          "feature": "last5_off_rush_epa",
+          "importance": 0.026798225216659293
+        },
+        {
+          "feature": "home",
+          "importance": 0.02570843016439686
+        },
+        {
+          "feature": "last5_def_xtd_allowed",
+          "importance": 0.021641877876506465
+        },
+        {
+          "feature": "last5_off_pass_epa",
+          "importance": 0.02021343118149195
+        },
+        {
+          "feature": "last5_off_red_zone_xtd",
+          "importance": 0.019238220570207812
+        },
+        {
+          "feature": "missingindicator_last5_off_red_zone_td_conversion",
+          "importance": 0.019082551072749723
+        }
+      ],
+      "fields": [
+        "implied_team_points",
+        "team_spread",
+        "game_total",
+        "home",
+        "last5_off_epa_per_play",
+        "last5_off_pass_epa",
+        "last5_off_rush_epa",
+        "last5_off_success_rate",
+        "last5_def_epa_allowed",
+        "last5_def_pass_epa_allowed",
+        "last5_def_rush_epa_allowed",
+        "last5_def_success_allowed",
+        "last5_off_plays",
+        "last5_off_pass_rate",
+        "last5_off_red_zone_trips",
+        "last5_off_red_zone_td_conversion",
+        "last5_def_red_zone_td_allowed",
+        "last5_off_xtd",
+        "last5_def_xtd_allowed",
+        "last5_off_red_zone_xtd"
+      ],
+      "architecture": "poisson"
+    },
+    "C_plus_xtd_lightgbm": {
+      "train_rows": 1630,
+      "train_seasons": [
+        2021,
+        2022,
+        2023
+      ],
+      "validation_rows": 544,
+      "fit_max_season": 2023,
+      "metrics": {
+        "mae": 1.0177600265882258,
+        "rmse": 1.3099864703634605,
+        "poisson_deviance": 0.8286098359995998,
+        "mean_prediction_bias": -0.08867411633335287,
+        "calibration_gap": 0.09332997850711304
+      },
+      "calibration": [
+        {
+          "range": "<1.5",
+          "team_games": 4,
+          "mean_predicted": 1.4684937560030857,
+          "mean_actual": 1.5
+        },
+        {
+          "range": "1.5\u20132.0",
+          "team_games": 142,
+          "mean_predicted": 1.824592827611564,
+          "mean_actual": 1.8309859154929577
+        },
+        {
+          "range": "2.0\u20132.5",
+          "team_games": 200,
+          "mean_predicted": 2.208428168686353,
+          "mean_actual": 2.37
+        },
+        {
+          "range": "2.5\u20133.0",
+          "team_games": 132,
+          "mean_predicted": 2.7033567872823356,
+          "mean_actual": 2.8257575757575757
+        },
+        {
+          "range": "3.0\u20133.5",
+          "team_games": 66,
+          "mean_predicted": 3.15555143198883,
+          "mean_actual": 3.1363636363636362
+        },
+        {
+          "range": "3.5\u20134.0",
+          "team_games": 0,
+          "mean_predicted": null,
+          "mean_actual": null
+        },
+        {
+          "range": "4.0+",
+          "team_games": 0,
+          "mean_predicted": null,
+          "mean_actual": null
+        }
+      ],
+      "important_features": [
+        {
+          "feature": "implied_team_points",
+          "importance": 2460.136375427246
+        },
+        {
+          "feature": "team_spread",
+          "importance": 210.72951996326447
+        },
+        {
+          "feature": "last5_off_rush_epa",
+          "importance": 207.48118996620178
+        },
+        {
+          "feature": "last5_off_pass_epa",
+          "importance": 192.21330785751343
+        },
+        {
+          "feature": "last5_off_red_zone_td_conversion",
+          "importance": 154.3011096715927
+        },
+        {
+          "feature": "game_total",
+          "importance": 119.18970036506653
+        },
+        {
+          "feature": "last5_def_rush_epa_allowed",
+          "importance": 103.00461030006409
+        },
+        {
+          "feature": "last5_def_xtd_allowed",
+          "importance": 78.75408959388733
+        },
+        {
+          "feature": "last5_def_success_allowed",
+          "importance": 71.08773934841156
+        },
+        {
+          "feature": "last5_off_epa_per_play",
+          "importance": 66.87692987918854
+        }
+      ],
+      "fields": [
+        "implied_team_points",
+        "team_spread",
+        "game_total",
+        "home",
+        "last5_off_epa_per_play",
+        "last5_off_pass_epa",
+        "last5_off_rush_epa",
+        "last5_off_success_rate",
+        "last5_def_epa_allowed",
+        "last5_def_pass_epa_allowed",
+        "last5_def_rush_epa_allowed",
+        "last5_def_success_allowed",
+        "last5_off_plays",
+        "last5_off_pass_rate",
+        "last5_off_red_zone_trips",
+        "last5_off_red_zone_td_conversion",
+        "last5_def_red_zone_td_allowed",
+        "last5_off_xtd",
+        "last5_def_xtd_allowed",
+        "last5_off_red_zone_xtd"
+      ],
+      "architecture": "lightgbm"
+    }
+  },
+  "dispersion": {
+    "mean": 2.334969325153374,
+    "variance": 1.9122816135458918,
+    "variance_to_mean": 0.8189750473147146,
+    "pearson_dispersion": 0.7134806549125522
+  },
+  "negative_binomial_evaluated": false,
+  "actual_distribution_2024": {
+    "0": 40,
+    "1": 95,
+    "2": 177,
+    "3": 115,
+    "4": 73,
+    "5": 31,
+    "6": 12,
+    "7": 1
+  },
+  "distribution_calibration": [
+    [
+      "0",
+      0.107771416870645,
+      0.07352941176470588
+    ],
+    [
+      "1",
+      0.23076257193530647,
+      0.17463235294117646
+    ],
+    [
+      "2",
+      0.2557317813752858,
+      0.32536764705882354
+    ],
+    [
+      "3",
+      0.19556390469269191,
+      0.2113970588235294
+    ],
+    [
+      "4+",
+      0.21017032512607076,
+      0.21507352941176472
+    ]
+  ],
+  "calibration": {
+    "market_only": [
+      {
+        "range": "<1.5",
+        "team_games": 3,
+        "mean_predicted": 1.378017154686546,
+        "mean_actual": 1.6666666666666667
+      },
+      {
+        "range": "1.5\u20132.0",
+        "team_games": 148,
+        "mean_predicted": 1.8080440711679004,
+        "mean_actual": 1.7567567567567568
+      },
+      {
+        "range": "2.0\u20132.5",
+        "team_games": 215,
+        "mean_predicted": 2.2679697960978724,
+        "mean_actual": 2.441860465116279
+      },
+      {
+        "range": "2.5\u20133.0",
+        "team_games": 139,
+        "mean_predicted": 2.70980625673616,
+        "mean_actual": 2.827338129496403
+      },
+      {
+        "range": "3.0\u20133.5",
+        "team_games": 34,
+        "mean_predicted": 3.1796602864168664,
+        "mean_actual": 3.4411764705882355
+      },
+      {
+        "range": "3.5\u20134.0",
+        "team_games": 5,
+        "mean_predicted": 3.612948918270811,
+        "mean_actual": 4.0
+      },
+      {
+        "range": "4.0+",
+        "team_games": 0,
+        "mean_predicted": null,
+        "mean_actual": null
+      }
+    ],
+    "football_market": [
+      {
+        "range": "<1.5",
+        "team_games": 4,
+        "mean_predicted": 1.3865832140969054,
+        "mean_actual": 1.5
+      },
+      {
+        "range": "1.5\u20132.0",
+        "team_games": 145,
+        "mean_predicted": 1.7827246399785073,
+        "mean_actual": 1.7241379310344827
+      },
+      {
+        "range": "2.0\u20132.5",
+        "team_games": 206,
+        "mean_predicted": 2.2486589173264924,
+        "mean_actual": 2.3737864077669903
+      },
+      {
+        "range": "2.5\u20133.0",
+        "team_games": 138,
+        "mean_predicted": 2.718250810547254,
+        "mean_actual": 2.86231884057971
+      },
+      {
+        "range": "3.0\u20133.5",
+        "team_games": 40,
+        "mean_predicted": 3.1769407647406283,
+        "mean_actual": 3.5
+      },
+      {
+        "range": "3.5\u20134.0",
+        "team_games": 11,
+        "mean_predicted": 3.7299694047157206,
+        "mean_actual": 3.6363636363636362
+      },
+      {
+        "range": "4.0+",
+        "team_games": 0,
+        "mean_predicted": null,
+        "mean_actual": null
+      }
+    ],
+    "selected": [
+      {
+        "range": "<1.5",
+        "team_games": 3,
+        "mean_predicted": 1.378017154686546,
+        "mean_actual": 1.6666666666666667
+      },
+      {
+        "range": "1.5\u20132.0",
+        "team_games": 148,
+        "mean_predicted": 1.8080440711679004,
+        "mean_actual": 1.7567567567567568
+      },
+      {
+        "range": "2.0\u20132.5",
+        "team_games": 215,
+        "mean_predicted": 2.2679697960978724,
+        "mean_actual": 2.441860465116279
+      },
+      {
+        "range": "2.5\u20133.0",
+        "team_games": 139,
+        "mean_predicted": 2.70980625673616,
+        "mean_actual": 2.827338129496403
+      },
+      {
+        "range": "3.0\u20133.5",
+        "team_games": 34,
+        "mean_predicted": 3.1796602864168664,
+        "mean_actual": 3.4411764705882355
+      },
+      {
+        "range": "3.5\u20134.0",
+        "team_games": 5,
+        "mean_predicted": 3.612948918270811,
+        "mean_actual": 4.0
+      },
+      {
+        "range": "4.0+",
+        "team_games": 0,
+        "mean_predicted": null,
+        "mean_actual": null
+      }
+    ]
+  },
+  "examples": [
+    {
+      "category": "heavy favorite",
+      "game_id": "2024_18_CLE_BAL",
+      "team": "BAL",
+      "opponent": "CLE",
+      "market_implied_points": 30.75,
+      "market_only_td": 3.6263856544351833,
+      "football_market_td": 3.92257493011236,
+      "actual_offensive_td": 4
+    },
+    {
+      "category": "underdog",
+      "game_id": "2024_18_CLE_BAL",
+      "team": "CLE",
+      "opponent": "BAL",
+      "market_implied_points": 10.75,
+      "market_only_td": 1.2243409013424404,
+      "football_market_td": 1.1734113030591256,
+      "actual_offensive_td": 1
+    },
+    {
+      "category": "high total",
+      "game_id": "2024_18_MIN_DET",
+      "team": "DET",
+      "opponent": "MIN",
+      "market_implied_points": 29.75,
+      "market_only_td": 3.527738686542177,
+      "football_market_td": 3.6172325632846016,
+      "actual_offensive_td": 4
+    },
+    {
+      "category": "low total",
+      "game_id": "2024_17_MIA_CLE",
+      "team": "CLE",
+      "opponent": "MIA",
+      "market_implied_points": 15.25,
+      "market_only_td": 1.5959214216798034,
+      "football_market_td": 1.549774396076818,
+      "actual_offensive_td": 0
+    }
+  ]
+}

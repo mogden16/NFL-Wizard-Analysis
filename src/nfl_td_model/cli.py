@@ -12,6 +12,9 @@ from nfl_td_model.phase2 import build_phase2_features
 from nfl_td_model.phase2_verify import verify_historical_phase2, verify_phase2_features
 from nfl_td_model.phase3 import build_phase3
 from nfl_td_model.phase3_verify import verify_phase3
+from nfl_td_model.phase4 import build_phase4
+from nfl_td_model.phase4_market import collect_market_snapshots
+from nfl_td_model.phase4_verify import verify_phase4
 from nfl_td_model.storage import connect_catalog
 from nfl_td_model.verify import verify_phase1
 
@@ -96,3 +99,29 @@ def phase3_verify() -> None:
         typer.echo(f"PHASE 3 NOT VERIFIED: {exc}", err=True)
         raise typer.Exit(code=1) from exc
     typer.echo(f"PHASE 3 VERIFIED: {summary}")
+
+
+@app.command("phase4-market-collect")
+def phase4_market_collect() -> None:
+    """Cache 2021–2024 historical T-60 featured-market snapshots."""
+    logging.basicConfig(level=logging.INFO, format="%(levelname)s %(name)s %(message)s")
+    output = collect_market_snapshots(Settings())
+    typer.echo(f"Phase 4 market snapshot manifest: {output}")
+
+
+@app.command("phase4-build")
+def phase4_build() -> None:
+    """Build and compare chronological team offensive TD count models."""
+    output, report = build_phase4(Settings())
+    typer.echo(f"Phase 4 predictions: {output}\nReport: {report}")
+
+
+@app.command("phase4-verify")
+def phase4_verify() -> None:
+    """Check strict odds cutoff, PBP target, temporal features and output distribution."""
+    try:
+        summary = verify_phase4(Settings(), Path("reports"))
+    except (ValueError, FileNotFoundError) as exc:
+        typer.echo(f"PHASE 4 NOT VERIFIED: {exc}", err=True)
+        raise typer.Exit(code=1) from exc
+    typer.echo(f"PHASE 4 VERIFIED: {summary}")
