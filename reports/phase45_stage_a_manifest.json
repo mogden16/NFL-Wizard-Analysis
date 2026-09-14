@@ -1,0 +1,31 @@
+{
+  "created_at_utc": "2026-09-14T01:24:36.529603+00:00",
+  "slate_date": "2026-09-13",
+  "diagnostic_exhibition_slate": true,
+  "prediction_file": "reports\\phase45_stage_a_predictions.csv",
+  "prediction_sha256": "41d9e8f6af1a7550248c04abfa90dc4b2d20ca69e12e408d4b44c23dc79ffc62",
+  "quotes_file": "reports\\phase45_stage_a_all_quotes.csv",
+  "quotes_sha256": "097feaffc0efbde6dde6c0f1e4a6f89e69fa9095c563febf5b9c99f588ec5f1d",
+  "model_version": "phase4-complete:A_market_only_poisson + phase3-complete:2024_logistic_inference_2025 + phase45_fixed_allocation_v1",
+  "model_fit_max_season": 2023,
+  "allocation_weights": {
+    "total_xtd_share": 0.45,
+    "rushing_xtd_share": 0.08,
+    "receiving_xtd_share": 0.08,
+    "goal_line_opportunities_share": 0.08,
+    "inside_5_carries_per_game": 0.06,
+    "inside_10_carries_per_game": 0.04,
+    "red_zone_targets_share": 0.05,
+    "end_zone_targets_share": 0.05,
+    "carry_share": 0.05,
+    "target_share": 0.05,
+    "snap_share": 0.01
+  },
+  "bet_rule": "EV >= 0.05 and model probability - raw implied >= 0.025; 1 unit flat",
+  "games": 13,
+  "quoted_players": 426,
+  "quotes": 2763,
+  "eligible_players": 201,
+  "best_bets": 33,
+  "median_bets": 26
+}
