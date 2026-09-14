@@ -15,6 +15,8 @@ from nfl_td_model.phase3_verify import verify_phase3
 from nfl_td_model.phase4 import build_phase4
 from nfl_td_model.phase4_market import collect_market_snapshots
 from nfl_td_model.phase4_verify import verify_phase4
+from nfl_td_model.phase5 import build_phase5
+from nfl_td_model.phase5_verify import verify_phase5
 from nfl_td_model.phase45 import build_stage_a
 from nfl_td_model.phase45_settle import settle_stage_b, verify_frozen, verify_settlement
 from nfl_td_model.storage import connect_catalog
@@ -153,3 +155,21 @@ def phase45_verify() -> None:
     typer.echo(f"PHASE 4.5 STAGE A VERIFIED: {manifest['prediction_sha256']}")
     if Path("reports/phase45_report.json").exists():
         typer.echo(f"PHASE 4.5 SETTLEMENT VERIFIED: {verify_settlement()}")
+
+
+@app.command("phase5-build")
+def phase5_build() -> None:
+    """Build 2017-2024 player baselines and 2024 validation predictions."""
+    predictions, report = build_phase5(Settings())
+    typer.echo(f"Phase 5 predictions: {predictions}\nReport: {report}")
+
+
+@app.command("phase5-verify")
+def phase5_verify() -> None:
+    """Enforce Phase 5 artifact, label, temporal, and coherence acceptance."""
+    try:
+        summary = verify_phase5()
+    except (ValueError, FileNotFoundError, KeyError) as exc:
+        typer.echo(f"PHASE 5 NOT VERIFIED: {exc}", err=True)
+        raise typer.Exit(code=1) from exc
+    typer.echo(f"PHASE 5 VERIFIED: {summary}")

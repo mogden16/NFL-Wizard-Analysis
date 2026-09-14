@@ -132,3 +132,21 @@ evidence or a book rule, its wager remains pending rather than being graded
 as a loss or silently voided. Quote age and best-versus-median deviation are
 retained for future quality research, never used to revise the September 13
 portfolio or to filter wagers in this phase.
+
+Phase 5 builds the first formal pregame player anytime-TD baselines from
+2017-2024 historical inputs. The strict-market player comparison fits on
+2022, calibrates on 2023, and validates on 2024. The 2021 market season only
+warms up the Phase 4 team model, so every team expectation is scored with a
+fit from earlier seasons. No 2025 holdout result or September 13, 2026
+exhibition result enters Phase 5.
+
+```powershell
+./.venv/Scripts/nfl-td.exe phase5-build
+./.venv/Scripts/nfl-td.exe phase5-verify
+```
+
+The validation predictions are in `reports/phase5_validation_predictions.csv`,
+the analysis is in `reports/PHASE5.md`, and the local historical feature table
+is `data/derived/phase5_2017_2024_player_features.parquet`. The feature table
+retains nulls and audited source IDs. The player ATD market comparison uses
+only the ten previously captured Phase 1 T-60 event snapshots.

@@ -1,0 +1,1127 @@
+{
+  "phase": 5,
+  "holdout_2025_untouched": true,
+  "diagnostic_exhibition_slate_excluded": true,
+  "population": {
+    "all_2017_2024_rows": 48674,
+    "fit_rows": 6441,
+    "calibration_rows": 6321,
+    "validation_rows": 6320,
+    "validation_positive_rate": 0.15822784810126583,
+    "by_season": {
+      "2017": 5669,
+      "2018": 5658,
+      "2019": 5577,
+      "2020": 6094,
+      "2021": 6594,
+      "2022": 6441,
+      "2023": 6321,
+      "2024": 6320
+    }
+  },
+  "team_model_fit_seasons": {
+    "2022": [
+      2021
+    ],
+    "2023": [
+      2021,
+      2022
+    ],
+    "2024": [
+      2021,
+      2022,
+      2023
+    ]
+  },
+  "historical_td_windows": {
+    "season": {
+      "log_loss": 0.4069527343036348,
+      "brier": 0.12438330459488917,
+      "calibration_intercept": -0.4561434763484669,
+      "calibration_slope": 0.7567238713853286,
+      "ece": 0.028100509019073433,
+      "roc_auc": 0.6965828947368421,
+      "pr_auc": 0.3115700097771464
+    },
+    "last5": {
+      "log_loss": 0.4126221962219369,
+      "brier": 0.12537706654377287,
+      "calibration_intercept": -0.5129516580345977,
+      "calibration_slope": 0.7119973392561851,
+      "ece": 0.03701009769779233,
+      "roc_auc": 0.6775651315789474,
+      "pr_auc": 0.30743937151721107
+    },
+    "last8": {
+      "log_loss": 0.4106017430325184,
+      "brier": 0.12516383028294772,
+      "calibration_intercept": -0.5013522543138295,
+      "calibration_slope": 0.7246649461664624,
+      "ece": 0.030386364352004844,
+      "roc_auc": 0.6862171052631578,
+      "pr_auc": 0.30875035931759454
+    },
+    "ewma": {
+      "log_loss": 0.4067611362238196,
+      "brier": 0.12412182420682599,
+      "calibration_intercept": -0.3204058800645112,
+      "calibration_slope": 0.8450515030336292,
+      "ece": 0.020612726277557787,
+      "roc_auc": 0.6855888157894736,
+      "pr_auc": 0.3132626406948461
+    }
+  },
+  "selected_historical_window": "ewma",
+  "hierarchy_weights": {
+    "last5_total_xtd_share": 0.04599667631169036,
+    "last5_rushing_xtd_share": 0.0,
+    "last5_receiving_xtd_share": 0.010061028930175032,
+    "last5_goal_line_opportunity_share": 0.021931736239291143,
+    "last5_red_zone_target_share": 0.0,
+    "last5_end_zone_target_share": 0.0,
+    "last5_carry_share": 0.346202533086882,
+    "last5_target_share": 0.534183161515383,
+    "last5_snap_share": 0.041624863916578526
+  },
+  "controlled_comparisons": {
+    "A_actual_td_only": {
+      "log_loss": 0.41032310009469497,
+      "brier": 0.1256188432293384,
+      "calibration_intercept": 0.4966975851195059,
+      "calibration_slope": 1.2247020827792516,
+      "ece": 0.016825578846388984,
+      "roc_auc": 0.6793462406015038,
+      "pr_auc": 0.28860546151941974
+    },
+    "B_xtd_only": {
+      "log_loss": 0.4013892403600262,
+      "brier": 0.12390071950617576,
+      "calibration_intercept": 0.09644065285090472,
+      "calibration_slope": 0.9938583350417983,
+      "ece": 0.043727659087919014,
+      "roc_auc": 0.7323031015037594,
+      "pr_auc": 0.31441698221747005
+    },
+    "C_usage_actual_td": {
+      "log_loss": 0.38718380199070884,
+      "brier": 0.12066045692297016,
+      "calibration_intercept": 0.15039135231109735,
+      "calibration_slope": 1.0233131528401926,
+      "ece": 0.03254582842493516,
+      "roc_auc": 0.7536871240601504,
+      "pr_auc": 0.3309181579697652
+    },
+    "D_usage_xtd": {
+      "log_loss": 0.3878300674139702,
+      "brier": 0.12059632365017946,
+      "calibration_intercept": 0.1659565344280581,
+      "calibration_slope": 1.017128659365969,
+      "ece": 0.030895063839382772,
+      "roc_auc": 0.7522984022556392,
+      "pr_auc": 0.3345011646567642
+    },
+    "E_team_usage_xtd": {
+      "log_loss": 0.38392256936930813,
+      "brier": 0.11907653293344342,
+      "calibration_intercept": 0.17232474899133277,
+      "calibration_slope": 1.0366859869184597,
+      "ece": 0.026251449408116648,
+      "roc_auc": 0.7569191729323308,
+      "pr_auc": 0.3482659632132518
+    },
+    "F_team_usage_xtd_actual_td": {
+      "log_loss": 0.38376195891618353,
+      "brier": 0.11903720369683275,
+      "calibration_intercept": 0.1718712936649767,
+      "calibration_slope": 1.0368325511642154,
+      "ece": 0.026689084464699628,
+      "roc_auc": 0.7572383458646618,
+      "pr_auc": 0.3484388717657752
+    }
+  },
+  "selected_logistic_family": "E_team_usage_xtd",
+  "calibration": {
+    "raw": {
+      "log_loss": 0.38392256936930813,
+      "brier": 0.11907653293344342,
+      "calibration_intercept": 0.17232474899133277,
+      "calibration_slope": 1.0366859869184597,
+      "ece": 0.026251449408116648,
+      "roc_auc": 0.7569191729323308,
+      "pr_auc": 0.3482659632132518
+    },
+    "sigmoid": {
+      "log_loss": 0.3831436500555947,
+      "brier": 0.11885702641992611,
+      "calibration_intercept": -0.009530070912633977,
+      "calibration_slope": 0.9813232162899432,
+      "ece": 0.023677041209328266,
+      "roc_auc": 0.7569191729323308,
+      "pr_auc": 0.3482659632132518
+    },
+    "selected": "sigmoid",
+    "calibration_fit_season": 2023,
+    "base_fit_seasons": [
+      2022
+    ]
+  },
+  "metrics": {
+    "historical_td": {
+      "rows": 6320,
+      "log_loss": 0.4067611362238196,
+      "brier": 0.12412182420682599,
+      "calibration_intercept": -0.3204058800645112,
+      "calibration_slope": 0.8450515030336292,
+      "ece": 0.020612726277557787,
+      "roc_auc": 0.6855888157894736,
+      "pr_auc": 0.3132626406948461
+    },
+    "hierarchical": {
+      "rows": 6320,
+      "log_loss": 0.38038097539213184,
+      "brier": 0.11775722625009548,
+      "calibration_intercept": 0.20528842506111375,
+      "calibration_slope": 1.1740454399054563,
+      "ece": 0.016469671075575208,
+      "roc_auc": 0.7594919172932331,
+      "pr_auc": 0.3540901513434233
+    },
+    "logistic_raw": {
+      "rows": 6320,
+      "log_loss": 0.38392256936930813,
+      "brier": 0.11907653293344342,
+      "calibration_intercept": 0.17232474899133277,
+      "calibration_slope": 1.0366859869184597,
+      "ece": 0.026251449408116648,
+      "roc_auc": 0.7569191729323308,
+      "pr_auc": 0.3482659632132518
+    },
+    "logistic_selected": {
+      "rows": 6320,
+      "log_loss": 0.3831436500555947,
+      "brier": 0.11885702641992611,
+      "calibration_intercept": -0.009530070912633977,
+      "calibration_slope": 0.9813232162899432,
+      "ece": 0.023677041209328266,
+      "roc_auc": 0.7569191729323308,
+      "pr_auc": 0.3482659632132518
+    }
+  },
+  "comparison_deltas": {
+    "xtd_only_vs_actual_td_only_logloss_delta": -0.008933859734668759,
+    "usage_xtd_vs_usage_actual_logloss_delta": 0.0006462654232613496,
+    "actual_incremental_logloss_delta": -0.00016061045312459887
+  },
+  "market_benchmark": {
+    "matched_players": 223,
+    "games": 10,
+    "metrics": {
+      "historical_td": {
+        "log_loss": 0.4601245250060683,
+        "brier": 0.14430179508817956,
+        "calibration_intercept": -0.6272118295608078,
+        "calibration_slope": 0.5431629037289855,
+        "ece": 0.049181146242385725,
+        "roc_auc": 0.6204013377926421,
+        "pr_auc": 0.24943037008058805
+      },
+      "hierarchical": {
+        "log_loss": 0.4100051958343598,
+        "brier": 0.13081706473171006,
+        "calibration_intercept": 0.2513921738885719,
+        "calibration_slope": 1.1219151368993687,
+        "ece": 0.028764850041949435,
+        "roc_auc": 0.7515328874024526,
+        "pr_auc": 0.3374294967473917
+      },
+      "logistic": {
+        "log_loss": 0.415946762291606,
+        "brier": 0.13205992795268245,
+        "calibration_intercept": 0.04324289379814667,
+        "calibration_slope": 0.9406698309403413,
+        "ece": 0.04821077276045957,
+        "roc_auc": 0.7414994425863991,
+        "pr_auc": 0.346084982814907
+      },
+      "market_raw": {
+        "log_loss": 0.39043516762133196,
+        "brier": 0.12165245571454382,
+        "calibration_intercept": 0.026526842322790317,
+        "calibration_slope": 1.381937573481396,
+        "ece": 0.07081836529887094,
+        "roc_auc": 0.7995401337792643,
+        "pr_auc": 0.4449628979376393
+      }
+    }
+  },
+  "coherence": {
+    "team_games": 512,
+    "hierarchical_max_abs_gap": 1.7763568394002505e-15,
+    "hierarchical_mean_gap": 4.7704895589362195e-18,
+    "logistic_mean_gap": -0.0327930616255305,
+    "logistic_mean_abs_gap": 0.25253471451183873,
+    "logistic_frac_abs_gap_gt_half": 0.111328125
+  },
+  "position_diagnostics": {
+    "RB": {
+      "rows": 1584,
+      "td_rate": 0.21275252525252525,
+      "mean_probability": 0.217476941499926,
+      "metrics": {
+        "log_loss": 0.4562348773926689,
+        "brier": 0.14809678009449154,
+        "calibration_intercept": -0.2649227644071118,
+        "calibration_slope": 0.7782686852651559,
+        "ece": 0.035533751525101416,
+        "roc_auc": 0.7549156551390994,
+        "pr_auc": 0.40952271452970385
+      }
+    },
+    "WR": {
+      "rows": 2567,
+      "td_rate": 0.16595247370471367,
+      "mean_probability": 0.15521932219048512,
+      "metrics": {
+        "log_loss": 0.3977583740674087,
+        "brier": 0.12473808215159206,
+        "calibration_intercept": 0.3771433847272694,
+        "calibration_slope": 1.1957841191398295,
+        "ece": 0.024539493666844908,
+        "roc_auc": 0.7462672657461192,
+        "pr_auc": 0.33348133276333597
+      }
+    },
+    "TE": {
+      "rows": 1394,
+      "td_rate": 0.11262553802008608,
+      "mean_probability": 0.11592734048082354,
+      "metrics": {
+        "log_loss": 0.3213276601089019,
+        "brier": 0.09355321266419427,
+        "calibration_intercept": 0.32567772934221795,
+        "calibration_slope": 1.1955044545175801,
+        "ece": 0.021678316969063603,
+        "roc_auc": 0.7272423008202503,
+        "pr_auc": 0.23958390582424152
+      }
+    },
+    "QB": {
+      "rows": 775,
+      "td_rate": 0.1032258064516129,
+      "mean_probability": 0.10615385158198076,
+      "metrics": {
+        "log_loss": 0.29653589437228794,
+        "brier": 0.08512938318352872,
+        "calibration_intercept": 0.6195574976186665,
+        "calibration_slope": 1.3495147916735968,
+        "ece": 0.029361293306441903,
+        "roc_auc": 0.7561151079136691,
+        "pr_auc": 0.27745973585823347
+      }
+    }
+  },
+  "calibration_table": [
+    {
+      "bin": "<10%",
+      "player_games": 2784,
+      "mean_probability": 0.06271986030915032,
+      "actual_td_rate": 0.051364942528735635
+    },
+    {
+      "bin": "10-20%",
+      "player_games": 1935,
+      "mean_probability": 0.1424202881023422,
+      "actual_td_rate": 0.16124031007751938
+    },
+    {
+      "bin": "20-30%",
+      "player_games": 841,
+      "mean_probability": 0.24448037829750616,
+      "actual_td_rate": 0.28418549346016647
+    },
+    {
+      "bin": "30-40%",
+      "player_games": 371,
+      "mean_probability": 0.3433719828972196,
+      "actual_td_rate": 0.3746630727762803
+    },
+    {
+      "bin": "40-50%",
+      "player_games": 202,
+      "mean_probability": 0.4459152998324235,
+      "actual_td_rate": 0.3811881188118812
+    },
+    {
+      "bin": "50-60%",
+      "player_games": 104,
+      "mean_probability": 0.5478968485757121,
+      "actual_td_rate": 0.49038461538461536
+    },
+    {
+      "bin": "60%+",
+      "player_games": 83,
+      "mean_probability": 0.6813603350043357,
+      "actual_td_rate": 0.46987951807228917
+    }
+  ],
+  "coefficient_diagnostics": {
+    "coefficients": [
+      {
+        "feature": "expected_team_td",
+        "standardized_coefficient": -0.10820450349954425,
+        "approx_se": 0.2652191994067431,
+        "approx_95pct_low": -0.6280341343367607,
+        "approx_95pct_high": 0.4116251273376722
+      },
+      {
+        "feature": "implied_team_points",
+        "standardized_coefficient": 0.3255841547953585,
+        "approx_se": 0.2715446484508828,
+        "approx_95pct_low": -0.2066433561683717,
+        "approx_95pct_high": 0.8578116657590887
+      },
+      {
+        "feature": "home",
+        "standardized_coefficient": 0.01481234874487484,
+        "approx_se": 0.03880629555662033,
+        "approx_95pct_low": -0.06124799054610101,
+        "approx_95pct_high": 0.09087268803585069
+      },
+      {
+        "feature": "last5_carry_share",
+        "standardized_coefficient": 0.1032864851178878,
+        "approx_se": 0.1765629811738736,
+        "approx_95pct_low": -0.24277695798290444,
+        "approx_95pct_high": 0.44934992821868003
+      },
+      {
+        "feature": "last5_target_share",
+        "standardized_coefficient": 0.10306454662723608,
+        "approx_se": 0.10159864724331577,
+        "approx_95pct_low": -0.09606880196966283,
+        "approx_95pct_high": 0.302197895224135
+      },
+      {
+        "feature": "last5_touch_share",
+        "standardized_coefficient": 0.39620394989325697,
+        "approx_se": 0.17398264885897774,
+        "approx_95pct_low": 0.05519795812966061,
+        "approx_95pct_high": 0.7372099416568534
+      },
+      {
+        "feature": "last5_snap_share",
+        "standardized_coefficient": 0.4686014898447959,
+        "approx_se": 0.07698491429167646,
+        "approx_95pct_low": 0.31771105783311004,
+        "approx_95pct_high": 0.6194919218564817
+      },
+      {
+        "feature": "last5_goal_line_opportunity_share",
+        "standardized_coefficient": 0.0717415099915707,
+        "approx_se": 0.0581759897084031,
+        "approx_95pct_low": -0.04228342983689937,
+        "approx_95pct_high": 0.18576644982004076
+      },
+      {
+        "feature": "last5_inside_10_carries_per_game",
+        "standardized_coefficient": -0.051056062846774136,
+        "approx_se": 0.09446878439027608,
+        "approx_95pct_low": -0.23621488025171525,
+        "approx_95pct_high": 0.13410275455816698
+      },
+      {
+        "feature": "last5_inside_5_carries_per_game",
+        "standardized_coefficient": -0.11769032823108255,
+        "approx_se": 0.09661075113821381,
+        "approx_95pct_low": -0.30704740046198165,
+        "approx_95pct_high": 0.07166674399981651
+      },
+      {
+        "feature": "last5_red_zone_target_share",
+        "standardized_coefficient": -0.0520708533871631,
+        "approx_se": 0.06065685249088527,
+        "approx_95pct_low": -0.1709582842692982,
+        "approx_95pct_high": 0.06681657749497202
+      },
+      {
+        "feature": "last5_end_zone_target_share",
+        "standardized_coefficient": 0.015007873618071654,
+        "approx_se": 0.05791807882898867,
+        "approx_95pct_low": -0.09851156088674613,
+        "approx_95pct_high": 0.12852730812288943
+      },
+      {
+        "feature": "last5_rushing_xtd",
+        "standardized_coefficient": 0.19658040611001312,
+        "approx_se": 0.37934133827850247,
+        "approx_95pct_low": -0.5469286169158517,
+        "approx_95pct_high": 0.940089429135878
+      },
+      {
+        "feature": "last5_receiving_xtd",
+        "standardized_coefficient": 0.012766471681955271,
+        "approx_se": 0.3817695831998874,
+        "approx_95pct_low": -0.735501911389824,
+        "approx_95pct_high": 0.7610348547537347
+      },
+      {
+        "feature": "last5_total_xtd",
+        "standardized_coefficient": 0.16441038405871558,
+        "approx_se": 0.47384149200192094,
+        "approx_95pct_low": -0.7643189402650494,
+        "approx_95pct_high": 1.0931397083824805
+      },
+      {
+        "feature": "last5_total_xtd_per_opportunity",
+        "standardized_coefficient": -0.04587238813955495,
+        "approx_se": 0.06827130369245621,
+        "approx_95pct_low": -0.17968414337676913,
+        "approx_95pct_high": 0.08793936709765922
+      },
+      {
+        "feature": "last5_rushing_xtd_share",
+        "standardized_coefficient": -0.07723296884037867,
+        "approx_se": 0.10807364664008268,
+        "approx_95pct_low": -0.2890573162549407,
+        "approx_95pct_high": 0.13459137857418338
+      },
+      {
+        "feature": "last5_receiving_xtd_share",
+        "standardized_coefficient": 0.10091325215693657,
+        "approx_se": 0.13291960342854356,
+        "approx_95pct_low": -0.15960917056300877,
+        "approx_95pct_high": 0.36143567487688194
+      },
+      {
+        "feature": "last5_total_xtd_share",
+        "standardized_coefficient": -0.20728501419054865,
+        "approx_se": 0.13529418487595063,
+        "approx_95pct_low": -0.4724616165474119,
+        "approx_95pct_high": 0.057891588166314595
+      },
+      {
+        "feature": "is_rb",
+        "standardized_coefficient": 0.05612239735625173,
+        "approx_se": 0.37381199254977104,
+        "approx_95pct_low": -0.6765491080412995,
+        "approx_95pct_high": 0.7887939027538029
+      },
+      {
+        "feature": "is_wr",
+        "standardized_coefficient": 0.040131867626020876,
+        "approx_se": 0.41372961717470114,
+        "approx_95pct_low": -0.7707781820363934,
+        "approx_95pct_high": 0.851041917288435
+      },
+      {
+        "feature": "is_te",
+        "standardized_coefficient": 0.016786954205493858,
+        "approx_se": 0.3535920067602939,
+        "approx_95pct_low": -0.6762533790446822,
+        "approx_95pct_high": 0.7098272874556698
+      },
+      {
+        "feature": "is_qb",
+        "standardized_coefficient": -0.16353609483196485,
+        "approx_se": 0.27065687128365695,
+        "approx_95pct_low": -0.6940235625479325,
+        "approx_95pct_high": 0.3669513728840028
+      },
+      {
+        "feature": "missingindicator_last5_snap_share",
+        "standardized_coefficient": -0.09588353377209916,
+        "approx_se": 0.3544967383995608,
+        "approx_95pct_low": -0.7906971410352382,
+        "approx_95pct_high": 0.59893007349104
+      },
+      {
+        "feature": "missingindicator_last5_goal_line_opportunity_share",
+        "standardized_coefficient": 0.03418121100396191,
+        "approx_se": 0.04423503764254428,
+        "approx_95pct_low": -0.05251946277542487,
+        "approx_95pct_high": 0.12088188478334869
+      },
+      {
+        "feature": "missingindicator_last5_red_zone_target_share",
+        "standardized_coefficient": -0.03803323342969921,
+        "approx_se": 0.05097026222509325,
+        "approx_95pct_low": -0.137934947390882,
+        "approx_95pct_high": 0.06186848053148356
+      },
+      {
+        "feature": "missingindicator_last5_end_zone_target_share",
+        "standardized_coefficient": -0.018742626394229817,
+        "approx_se": 0.04738840278909247,
+        "approx_95pct_low": -0.11162389586085104,
+        "approx_95pct_high": 0.07413864307239142
+      },
+      {
+        "feature": "missingindicator_last5_rushing_xtd",
+        "standardized_coefficient": -0.03057351139340656,
+        "approx_se": 0.6641621015609988,
+        "approx_95pct_low": -1.332331230452964,
+        "approx_95pct_high": 1.271184207666151
+      },
+      {
+        "feature": "missingindicator_last5_receiving_xtd",
+        "standardized_coefficient": -0.03057351139340656,
+        "approx_se": 0.6641621015609986,
+        "approx_95pct_low": -1.3323312304529638,
+        "approx_95pct_high": 1.2711842076661508
+      },
+      {
+        "feature": "missingindicator_last5_total_xtd",
+        "standardized_coefficient": -0.03057351139340656,
+        "approx_se": 0.6641621015609988,
+        "approx_95pct_low": -1.332331230452964,
+        "approx_95pct_high": 1.271184207666151
+      },
+      {
+        "feature": "missingindicator_last5_total_xtd_per_opportunity",
+        "standardized_coefficient": -0.03057351139340656,
+        "approx_se": 0.6641621015609988,
+        "approx_95pct_low": -1.332331230452964,
+        "approx_95pct_high": 1.271184207666151
+      },
+      {
+        "feature": "missingindicator_last5_rushing_xtd_share",
+        "standardized_coefficient": -0.03057351139340656,
+        "approx_se": 0.6641621015609985,
+        "approx_95pct_low": -1.3323312304529635,
+        "approx_95pct_high": 1.2711842076661506
+      },
+      {
+        "feature": "missingindicator_last5_receiving_xtd_share",
+        "standardized_coefficient": -0.030573511393406767,
+        "approx_se": 0.6641621015609988,
+        "approx_95pct_low": -1.3323312304529642,
+        "approx_95pct_high": 1.2711842076661508
+      },
+      {
+        "feature": "missingindicator_last5_total_xtd_share",
+        "standardized_coefficient": -0.030573511393406767,
+        "approx_se": 0.6641621015609988,
+        "approx_95pct_low": -1.3323312304529642,
+        "approx_95pct_high": 1.2711842076661508
+      }
+    ],
+    "high_correlation_pairs": [
+      {
+        "a": "missingindicator_last5_rushing_xtd",
+        "b": "missingindicator_last5_receiving_xtd",
+        "abs_correlation": 1.0
+      },
+      {
+        "a": "missingindicator_last5_rushing_xtd",
+        "b": "missingindicator_last5_total_xtd",
+        "abs_correlation": 1.0
+      },
+      {
+        "a": "missingindicator_last5_rushing_xtd",
+        "b": "missingindicator_last5_total_xtd_per_opportunity",
+        "abs_correlation": 1.0
+      },
+      {
+        "a": "missingindicator_last5_rushing_xtd",
+        "b": "missingindicator_last5_rushing_xtd_share",
+        "abs_correlation": 1.0
+      },
+      {
+        "a": "missingindicator_last5_rushing_xtd",
+        "b": "missingindicator_last5_receiving_xtd_share",
+        "abs_correlation": 1.0
+      },
+      {
+        "a": "missingindicator_last5_rushing_xtd",
+        "b": "missingindicator_last5_total_xtd_share",
+        "abs_correlation": 1.0
+      },
+      {
+        "a": "missingindicator_last5_receiving_xtd",
+        "b": "missingindicator_last5_total_xtd",
+        "abs_correlation": 1.0
+      },
+      {
+        "a": "missingindicator_last5_receiving_xtd",
+        "b": "missingindicator_last5_total_xtd_per_opportunity",
+        "abs_correlation": 1.0
+      },
+      {
+        "a": "missingindicator_last5_receiving_xtd",
+        "b": "missingindicator_last5_rushing_xtd_share",
+        "abs_correlation": 1.0
+      },
+      {
+        "a": "missingindicator_last5_receiving_xtd",
+        "b": "missingindicator_last5_receiving_xtd_share",
+        "abs_correlation": 1.0
+      },
+      {
+        "a": "missingindicator_last5_receiving_xtd",
+        "b": "missingindicator_last5_total_xtd_share",
+        "abs_correlation": 1.0
+      },
+      {
+        "a": "missingindicator_last5_total_xtd",
+        "b": "missingindicator_last5_total_xtd_per_opportunity",
+        "abs_correlation": 1.0
+      }
+    ],
+    "uncertainty_note": "Approximate penalized Fisher SE; descriptive, not a causal interval."
+  },
+  "feature_missing_pct_by_season": {
+    "expected_team_td": {
+      "2022": 0.0,
+      "2023": 0.0,
+      "2024": 0.0
+    },
+    "implied_team_points": {
+      "2022": 0.0,
+      "2023": 0.0,
+      "2024": 0.0
+    },
+    "last5_carry_share": {
+      "2022": 0.0,
+      "2023": 0.0,
+      "2024": 0.0
+    },
+    "last5_end_zone_target_share": {
+      "2022": 2.61,
+      "2023": 2.59,
+      "2024": 1.34
+    },
+    "last5_goal_line_opportunity_share": {
+      "2022": 3.62,
+      "2023": 4.51,
+      "2024": 2.56
+    },
+    "last5_inside_10_carries_per_game": {
+      "2022": 0.0,
+      "2023": 0.0,
+      "2024": 0.0
+    },
+    "last5_inside_5_carries_per_game": {
+      "2022": 0.0,
+      "2023": 0.0,
+      "2024": 0.0
+    },
+    "last5_receiving_xtd": {
+      "2022": 0.17,
+      "2023": 0.9,
+      "2024": 0.4
+    },
+    "last5_receiving_xtd_share": {
+      "2022": 0.17,
+      "2023": 0.9,
+      "2024": 0.4
+    },
+    "last5_red_zone_target_share": {
+      "2022": 0.65,
+      "2023": 0.55,
+      "2024": 0.35
+    },
+    "last5_rushing_xtd": {
+      "2022": 0.17,
+      "2023": 0.9,
+      "2024": 0.4
+    },
+    "last5_rushing_xtd_share": {
+      "2022": 0.17,
+      "2023": 0.9,
+      "2024": 0.4
+    },
+    "last5_snap_share": {
+      "2022": 0.05,
+      "2023": 0.08,
+      "2024": 0.16
+    },
+    "last5_target_share": {
+      "2022": 0.0,
+      "2023": 0.0,
+      "2024": 0.0
+    },
+    "last5_total_xtd": {
+      "2022": 0.17,
+      "2023": 0.9,
+      "2024": 0.4
+    },
+    "last5_total_xtd_per_opportunity": {
+      "2022": 0.17,
+      "2023": 0.9,
+      "2024": 0.4
+    },
+    "last5_total_xtd_share": {
+      "2022": 0.17,
+      "2023": 0.9,
+      "2024": 0.4
+    },
+    "last5_touch_share": {
+      "2022": 0.0,
+      "2023": 0.0,
+      "2024": 0.0
+    },
+    "last8_td_rate": {
+      "2022": 0.0,
+      "2023": 0.0,
+      "2024": 0.0
+    }
+  },
+  "examples": {
+    "low_actual_high_xtd_scored": [
+      {
+        "game": "2024_08_ARI_MIA",
+        "player": "Raheem Mostert",
+        "position": "RB",
+        "team": "MIA",
+        "anytime_td": 1,
+        "last8_td_rate": 0.0,
+        "last5_total_xtd": 1.082473928584212,
+        "p_historical_td": 0.11307551617928888,
+        "p_hierarchical": 0.3430604616895955,
+        "p_logistic": 0.3920610117555274
+      },
+      {
+        "game": "2024_02_LV_BAL",
+        "player": "Davante Adams",
+        "position": "WR",
+        "team": "LV",
+        "anytime_td": 1,
+        "last8_td_rate": 0.0,
+        "last5_total_xtd": 0.7411281997730372,
+        "p_historical_td": 0.12228739002932551,
+        "p_hierarchical": 0.1955230473881946,
+        "p_logistic": 0.1764827969329003
+      },
+      {
+        "game": "2024_02_BUF_MIA",
+        "player": "James Cook",
+        "position": "RB",
+        "team": "BUF",
+        "anytime_td": 1,
+        "last8_td_rate": 0.0,
+        "last5_total_xtd": 0.723853366497585,
+        "p_historical_td": 0.15332081822889695,
+        "p_hierarchical": 0.4712889845091589,
+        "p_logistic": 0.6920054471393832
+      },
+      {
+        "game": "2024_05_NO_KC",
+        "player": "Kareem Hunt",
+        "position": "RB",
+        "team": "KC",
+        "anytime_td": 1,
+        "last8_td_rate": 0.0,
+        "last5_total_xtd": 0.6561127896953725,
+        "p_historical_td": 0.15332081822889695,
+        "p_hierarchical": 0.35232366093445455,
+        "p_logistic": 0.34117500261419237
+      }
+    ],
+    "low_actual_high_xtd_missed": [
+      {
+        "game": "2024_02_BUF_MIA",
+        "player": "Raheem Mostert",
+        "position": "RB",
+        "team": "MIA",
+        "anytime_td": 0,
+        "last8_td_rate": 0.0,
+        "last5_total_xtd": 1.3849718186467617,
+        "p_historical_td": 0.15332081822889695,
+        "p_hierarchical": 0.3387114490352373,
+        "p_logistic": 0.43559814325958734
+      },
+      {
+        "game": "2024_03_MIA_SEA",
+        "player": "Raheem Mostert",
+        "position": "RB",
+        "team": "MIA",
+        "anytime_td": 0,
+        "last8_td_rate": 0.0,
+        "last5_total_xtd": 1.3849718186467617,
+        "p_historical_td": 0.15332081822889695,
+        "p_hierarchical": 0.20579962700705023,
+        "p_logistic": 0.33249366424066995
+      },
+      {
+        "game": "2024_04_TEN_MIA",
+        "player": "Raheem Mostert",
+        "position": "RB",
+        "team": "MIA",
+        "anytime_td": 0,
+        "last8_td_rate": 0.0,
+        "last5_total_xtd": 1.3849718186467617,
+        "p_historical_td": 0.15332081822889695,
+        "p_hierarchical": 0.21067094512610018,
+        "p_logistic": 0.3582439255214802
+      },
+      {
+        "game": "2024_07_MIA_IND",
+        "player": "Raheem Mostert",
+        "position": "RB",
+        "team": "MIA",
+        "anytime_td": 0,
+        "last8_td_rate": 0.0,
+        "last5_total_xtd": 1.218258586349911,
+        "p_historical_td": 0.12793524951992838,
+        "p_hierarchical": 0.25376162930433743,
+        "p_logistic": 0.4583997884767043
+      }
+    ],
+    "high_actual_low_xtd_missed": [
+      {
+        "game": "2024_02_BUF_MIA",
+        "player": "Khalil Shakir",
+        "position": "WR",
+        "team": "BUF",
+        "anytime_td": 0,
+        "last8_td_rate": 1.0,
+        "last5_total_xtd": 0.0988778387618173,
+        "p_historical_td": 0.37228739002932554,
+        "p_hierarchical": 0.16664444767715814,
+        "p_logistic": 0.1238403356949498
+      },
+      {
+        "game": "2024_02_LAC_CAR",
+        "player": "Bryce Young",
+        "position": "QB",
+        "team": "CAR",
+        "anytime_td": 0,
+        "last8_td_rate": 1.0,
+        "last5_total_xtd": 0.08953583852572114,
+        "p_historical_td": 0.3253979952830189,
+        "p_hierarchical": 0.15920951796538174,
+        "p_logistic": 0.07287255636094524
+      },
+      {
+        "game": "2024_02_NYJ_TEN",
+        "player": "Tony Pollard",
+        "position": "RB",
+        "team": "TEN",
+        "anytime_td": 0,
+        "last8_td_rate": 1.0,
+        "last5_total_xtd": 0.0843536018178092,
+        "p_historical_td": 0.403320818228897,
+        "p_hierarchical": 0.4086887266855399,
+        "p_logistic": 0.4463286702608831
+      },
+      {
+        "game": "2024_17_ARI_LA",
+        "player": "Tyler Higbee",
+        "position": "TE",
+        "team": "LA",
+        "anytime_td": 0,
+        "last8_td_rate": 1.0,
+        "last5_total_xtd": 0.0573552625722956,
+        "p_historical_td": 0.3459715639810427,
+        "p_hierarchical": 0.14870365664073648,
+        "p_logistic": 0.061603120907735204
+      }
+    ],
+    "high_actual_low_xtd_scored": [
+      {
+        "game": "2024_02_LV_BAL",
+        "player": "Alexander Mattison",
+        "position": "RB",
+        "team": "LV",
+        "anytime_td": 1,
+        "last8_td_rate": 1.0,
+        "last5_total_xtd": 0.039876089433235916,
+        "p_historical_td": 0.403320818228897,
+        "p_hierarchical": 0.25262556566899175,
+        "p_logistic": 0.0909741809389789
+      },
+      {
+        "game": "2024_02_SF_MIN",
+        "player": "Jalen Nailor",
+        "position": "WR",
+        "team": "MIN",
+        "anytime_td": 1,
+        "last8_td_rate": 1.0,
+        "last5_total_xtd": 0.09401415148890722,
+        "p_historical_td": 0.37228739002932554,
+        "p_hierarchical": 0.08558522860926643,
+        "p_logistic": 0.08840203337995504
+      },
+      {
+        "game": "2024_08_BUF_SEA",
+        "player": "Zach Charbonnet",
+        "position": "RB",
+        "team": "SEA",
+        "anytime_td": 1,
+        "last8_td_rate": 0.42857142857142855,
+        "last5_total_xtd": 0.09613922029250795,
+        "p_historical_td": 0.22875836545653036,
+        "p_hierarchical": 0.27059701169065664,
+        "p_logistic": 0.19869457819204325
+      },
+      {
+        "game": "2024_07_HOU_GB",
+        "player": "Tucker Kraft",
+        "position": "TE",
+        "team": "GB",
+        "anytime_td": 1,
+        "last8_td_rate": 0.3333333333333333,
+        "last5_total_xtd": 0.07863532598656503,
+        "p_historical_td": 0.2724059379843419,
+        "p_hierarchical": 0.22971127773217204,
+        "p_logistic": 0.2062494128511269
+      }
+    ],
+    "logistic_hierarchy_disagreements": [
+      {
+        "game": "2024_12_SF_GB",
+        "player": "Christian McCaffrey",
+        "position": "RB",
+        "team": "SF",
+        "anytime_td": 0,
+        "last8_td_rate": 0.0,
+        "last5_total_xtd": 1.0049464009857005,
+        "p_historical_td": 0.12793524951992838,
+        "p_hierarchical": 0.38649422282550394,
+        "p_logistic": 0.781470371980291
+      },
+      {
+        "game": "2024_11_SEA_SF",
+        "player": "Christian McCaffrey",
+        "position": "RB",
+        "team": "SF",
+        "anytime_td": 0,
+        "last8_td_rate": 0.0,
+        "last5_total_xtd": 0.9305461312134595,
+        "p_historical_td": 0.15332081822889695,
+        "p_hierarchical": 0.4819235164686714,
+        "p_logistic": 0.8492343072561513
+      },
+      {
+        "game": "2024_13_SF_BUF",
+        "player": "Christian McCaffrey",
+        "position": "RB",
+        "team": "SF",
+        "anytime_td": 0,
+        "last8_td_rate": 0.0,
+        "last5_total_xtd": 0.7641494988093528,
+        "p_historical_td": 0.11307551617928888,
+        "p_hierarchical": 0.3959478254877351,
+        "p_logistic": 0.7235938691226539
+      },
+      {
+        "game": "2024_17_IND_NYG",
+        "player": "Jonathan Taylor",
+        "position": "RB",
+        "team": "IND",
+        "anytime_td": 1,
+        "last8_td_rate": 0.375,
+        "last5_total_xtd": 0.7865602893214639,
+        "p_historical_td": 0.34467781455397317,
+        "p_hierarchical": 0.4212735459438107,
+        "p_logistic": 0.7036194901390271
+      },
+      {
+        "game": "2024_18_JAX_IND",
+        "player": "Jonathan Taylor",
+        "position": "RB",
+        "team": "IND",
+        "anytime_td": 1,
+        "last8_td_rate": 0.375,
+        "last5_total_xtd": 0.8805076695183034,
+        "p_historical_td": 0.41036391572201153,
+        "p_hierarchical": 0.4546877273326526,
+        "p_logistic": 0.7354435744267261
+      },
+      {
+        "game": "2024_03_PHI_NO",
+        "player": "Saquon Barkley",
+        "position": "RB",
+        "team": "PHI",
+        "anytime_td": 1,
+        "last8_td_rate": 0.5,
+        "last5_total_xtd": 1.1095371167730794,
+        "p_historical_td": 0.2935068203099416,
+        "p_hierarchical": 0.4682812917296755,
+        "p_logistic": 0.7454285634631688
+      },
+      {
+        "game": "2024_02_ATL_PHI",
+        "player": "Bijan Robinson",
+        "position": "RB",
+        "team": "ATL",
+        "anytime_td": 0,
+        "last8_td_rate": 0.0,
+        "last5_total_xtd": 0.5254603602118013,
+        "p_historical_td": 0.15332081822889695,
+        "p_hierarchical": 0.5398525577703042,
+        "p_logistic": 0.8111360377076672
+      },
+      {
+        "game": "2024_16_ARI_CAR",
+        "player": "Chuba Hubbard",
+        "position": "RB",
+        "team": "CAR",
+        "anytime_td": 1,
+        "last8_td_rate": 0.625,
+        "last5_total_xtd": 1.0604039636346843,
+        "p_historical_td": 0.39769516949886524,
+        "p_hierarchical": 0.4491014216949004,
+        "p_logistic": 0.7149249294162238
+      },
+      {
+        "game": "2024_17_GB_MIN",
+        "player": "Josh Jacobs",
+        "position": "RB",
+        "team": "GB",
+        "anytime_td": 1,
+        "last8_td_rate": 0.875,
+        "last5_total_xtd": 1.492336180994963,
+        "p_historical_td": 0.6277882934243958,
+        "p_hierarchical": 0.4476707167452464,
+        "p_logistic": 0.7108628541523679
+      },
+      {
+        "game": "2024_11_LA_NE",
+        "player": "Kyren Williams",
+        "position": "RB",
+        "team": "LA",
+        "anytime_td": 0,
+        "last8_td_rate": 0.75,
+        "last5_total_xtd": 0.7544162945323531,
+        "p_historical_td": 0.4098720488327542,
+        "p_hierarchical": 0.469689347563112,
+        "p_logistic": 0.7287751058620886
+      }
+    ]
+  },
+  "answers": {
+    "Does xTD beat recent actual TD?": "No with usage controlled: D minus C log loss +0.00065. xTD alone minus actual TD alone is -0.00893; conclusions differ by comparison.",
+    "Does hierarchy beat historical TD?": "Yes on log loss.",
+    "Does logistic beat hierarchy?": "No on log loss.",
+    "Overall calibration": "Selected logistic ECE 0.0237, intercept -0.010, slope 0.981.",
+    "Position calibration": "RB mean P 21.7% vs actual 21.3%; WR mean P 15.5% vs actual 16.6%; TE mean P 11.6% vs actual 11.3%; QB mean P 10.6% vs actual 10.3%.",
+    "Does football beat market?": "No on the 223-row matched 2024 subset by log loss; this limited sample is not conclusive.",
+    "Does independent logistic violate team coherence?": "No large systematic gap: mean lambda-minus-team -0.033 TD. Mean absolute team-game gap 0.253 TD; 11.1% of team-games differ by over 0.5 TD.",
+    "Does actual TD add after xTD and role?": "F minus E log loss -0.00016; this is too small to justify adding the feature to the selected model."
+  },
+  "stability": {
+    "weeks_2_to_9": {
+      "log_loss": 0.39141148245850294,
+      "brier": 0.12173311925186892,
+      "calibration_intercept": 0.0022884586057500197,
+      "calibration_slope": 0.9820027981006941,
+      "ece": 0.019164462993102566,
+      "roc_auc": 0.7473716225950635,
+      "pr_auc": 0.34341989930722405
+    },
+    "weeks_10_plus": {
+      "log_loss": 0.3762261581962592,
+      "brier": 0.11645067034228493,
+      "calibration_intercept": -0.020295090082365175,
+      "calibration_slope": 0.9803685695918746,
+      "ece": 0.02745260432601354,
+      "roc_auc": 0.764618272566928,
+      "pr_auc": 0.35282975426022595
+    }
+  },
+  "artifact_hashes": {
+    "feature_table": "43e7ee76002457649c2cead34faa26537e02728629b5ea5202938c4f7ead3542",
+    "validation_predictions": "dfefcfeb235619d6c326b1d7a5e7f960fc6f40fb6313048ad22038e94acf7156"
+  }
+}

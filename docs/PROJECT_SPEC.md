@@ -1552,3 +1552,45 @@ The event-odds request cannot pass market updates after that cutoff to the
 worker. Missing official availability coverage results in no eligible bets.
 No Stage B task is scheduled automatically; the separate settlement command
 must be invoked after the game is final. Stop before Phase 5.
+
+==================================================
+41. PHASE 5 PLAYER ANYTIME-TOUCHDOWN BASELINES (AUTHORIZED SEPTEMBER 14, 2026)
+==================================================
+
+Phase 5 builds pregame player-game binary probabilities for at least one
+eligible rushing or receiving touchdown. Quarterback passing touchdowns do
+not count. Eligible player positions are RB, WR, TE and QB; include FB only
+where point-in-time feature quality permits. The historical player universe
+must come from pregame knowledge, never current-game participation.
+
+Use 2017-2023 for development where strict input coverage permits, 2024 for
+chronological validation and model comparison, and leave the 2025 historical
+holdout entirely untouched. September 13, 2026 is permanently a diagnostic
+exhibition. Its outcomes, bets, CLV and thresholds may never inform Phase 5
+features, weights, model selection or calibration. Preserve all Phase 0-4.6
+predictive models and artifacts as frozen inputs.
+
+Compare strictly lagged historical TD-rate summaries, a Phase 4 team-TD
+hierarchical player allocation, and calibrated logistic regression. Conduct
+controlled actual-TD, xTD, usage, and team-environment feature-family tests.
+Fit base logistic models on training observations and any probability
+calibrator on a separate chronological period. Compare raw and sigmoid
+calibration; use isotonic only if supported by sample size and validation.
+Do not fit tree models, neural networks, or complex ensembles in Phase 5.
+
+Evaluate primarily with 2024 log loss, Brier score, calibration intercept,
+slope and expected calibration error. Report ROC-AUC and PR-AUC secondarily,
+probability buckets, position diagnostics, standardized coefficients,
+multicollinearity, missingness, and team-TD coherence. Where strict T-60
+player ATD prices exist, benchmark raw market implied probability on matched
+rows only; never include player price in the football model. Do not choose
+betting thresholds or optimize return.
+
+Save chronological 2024 player-game validation predictions and a report that
+answers whether xTD beats historical TD rate, hierarchy beats historical TD,
+logistic beats hierarchy, football beats the limited market benchmark, and
+whether logistic probabilities materially violate team coherence. Include
+successful and missed representative examples. Run all prior tests and
+verifiers plus a Phase 5 verifier, then commit/tag `phase5-complete` and stop
+before Phase 6. The user's Phase 5 instruction is the authoritative complete
+requirement for this milestone.
