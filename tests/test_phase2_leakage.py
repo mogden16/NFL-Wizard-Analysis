@@ -9,7 +9,7 @@ from nfl_td_model.feature_windows import summarize_candidate
 from nfl_td_model.phase2 import assert_complete_pbp, count_red_zone_plays, map_snap_counts
 
 
-def source_game(game_id: str, kickoff: datetime, **values: float) -> dict[str, object]:
+def source_game(game_id: str, kickoff: datetime, **values: float | None) -> dict[str, object]:
     return {
         "game_id": game_id,
         "kickoff": kickoff,

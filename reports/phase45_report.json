@@ -1,0 +1,478 @@
+{
+  "settled_at_utc": "2026-09-14T10:09:02.058263+00:00",
+  "slate_date": "2026-09-13",
+  "diagnostic_exhibition_slate": true,
+  "research_firewall": "Excluded from all later Phase 5 model/feature/calibration/threshold decisions",
+  "stage_a_prediction_sha256": "41d9e8f6af1a7550248c04abfa90dc4b2d20ca69e12e408d4b44c23dc79ffc62",
+  "stage_a_quote_sha256": "097feaffc0efbde6dde6c0f1e4a6f89e69fa9095c563febf5b9c99f588ec5f1d",
+  "settlement_source": "ESPN final scoreboard and game summary",
+  "settlement_source_sha256": "cbf812bfcaa057f56b737f244c54df3b746641c38e6a85cbfa5934a43e3b2760",
+  "games": 13,
+  "quoted_players": 426,
+  "eligible_players": 201,
+  "scoring_crosscheck": {
+    "TB@CIN": {
+      "rushing_receiving_box_tds": 4,
+      "listed_rush_pass_scoring_plays": 4
+    },
+    "NO@DET": {
+      "rushing_receiving_box_tds": 8,
+      "listed_rush_pass_scoring_plays": 8
+    },
+    "NYJ@TEN": {
+      "rushing_receiving_box_tds": 3,
+      "listed_rush_pass_scoring_plays": 3
+    },
+    "BAL@IND": {
+      "rushing_receiving_box_tds": 8,
+      "listed_rush_pass_scoring_plays": 8
+    },
+    "ATL@PIT": {
+      "rushing_receiving_box_tds": 2,
+      "listed_rush_pass_scoring_plays": 2
+    },
+    "CHI@CAR": {
+      "rushing_receiving_box_tds": 13,
+      "listed_rush_pass_scoring_plays": 13
+    },
+    "CLE@JAX": {
+      "rushing_receiving_box_tds": 5,
+      "listed_rush_pass_scoring_plays": 5
+    },
+    "BUF@HOU": {
+      "rushing_receiving_box_tds": 8,
+      "listed_rush_pass_scoring_plays": 8
+    },
+    "MIA@LV": {
+      "rushing_receiving_box_tds": 4,
+      "listed_rush_pass_scoring_plays": 4
+    },
+    "GB@MIN": {
+      "rushing_receiving_box_tds": 7,
+      "listed_rush_pass_scoring_plays": 7
+    },
+    "WAS@PHI": {
+      "rushing_receiving_box_tds": 6,
+      "listed_rush_pass_scoring_plays": 6
+    },
+    "ARI@LAC": {
+      "rushing_receiving_box_tds": 4,
+      "listed_rush_pass_scoring_plays": 4
+    },
+    "DAL@NYG": {
+      "rushing_receiving_box_tds": 7,
+      "listed_rush_pass_scoring_plays": 7
+    }
+  },
+  "special_touchdown_scorers": [
+    {
+      "game": "ATL@PIT",
+      "team": "PIT",
+      "player_normalized": "tjwatt",
+      "td": 1
+    },
+    {
+      "game": "TB@CIN",
+      "team": "CIN",
+      "player_normalized": "demetriusknight",
+      "td": 1
+    },
+    {
+      "game": "TB@CIN",
+      "team": "TB",
+      "player_normalized": "josiahtrotter",
+      "td": 1
+    }
+  ],
+  "portfolios": {
+    "best": {
+      "EV > 0%": {
+        "bets": 33,
+        "wins": 5,
+        "losses": 28,
+        "hit_rate": 0.15151515151515152,
+        "risked_units": 33.0,
+        "gross_winnings_units": 40.2,
+        "gross_returns_including_stakes_units": 45.2,
+        "net_units": 12.200000000000003,
+        "roi": 0.3696969696969698,
+        "average_american_odds": 1290.4545454545455,
+        "average_decimal_odds": 13.904545454545454,
+        "average_model_probability": 0.21494382229369594,
+        "average_probability_edge": 0.0921460859727571,
+        "average_ev": 1.3691126194990493
+      },
+      "EV >= 5%": {
+        "bets": 33,
+        "wins": 5,
+        "losses": 28,
+        "hit_rate": 0.15151515151515152,
+        "risked_units": 33.0,
+        "gross_winnings_units": 40.2,
+        "gross_returns_including_stakes_units": 45.2,
+        "net_units": 12.200000000000003,
+        "roi": 0.3696969696969698,
+        "average_american_odds": 1290.4545454545455,
+        "average_decimal_odds": 13.904545454545454,
+        "average_model_probability": 0.21494382229369594,
+        "average_probability_edge": 0.0921460859727571,
+        "average_ev": 1.3691126194990493
+      },
+      "EV >= 10%": {
+        "bets": 33,
+        "wins": 5,
+        "losses": 28,
+        "hit_rate": 0.15151515151515152,
+        "risked_units": 33.0,
+        "gross_winnings_units": 40.2,
+        "gross_returns_including_stakes_units": 45.2,
+        "net_units": 12.200000000000003,
+        "roi": 0.3696969696969698,
+        "average_american_odds": 1290.4545454545455,
+        "average_decimal_odds": 13.904545454545454,
+        "average_model_probability": 0.21494382229369594,
+        "average_probability_edge": 0.0921460859727571,
+        "average_ev": 1.3691126194990493
+      },
+      "EV >= 15%": {
+        "bets": 32,
+        "wins": 4,
+        "losses": 28,
+        "hit_rate": 0.125,
+        "risked_units": 32.0,
+        "gross_winnings_units": 38.2,
+        "gross_returns_including_stakes_units": 42.2,
+        "net_units": 10.200000000000003,
+        "roi": 0.3187500000000001,
+        "average_american_odds": 1324.53125,
+        "average_decimal_odds": 14.2453125,
+        "average_model_probability": 0.20975878655134245,
+        "average_probability_edge": 0.09354028763704095,
+        "average_ev": 1.4074412982913003
+      }
+    },
+    "median": {
+      "EV > 0%": {
+        "bets": 26,
+        "wins": 4,
+        "losses": 22,
+        "hit_rate": 0.15384615384615385,
+        "risked_units": 26.0,
+        "gross_winnings_units": 28.65,
+        "gross_returns_including_stakes_units": 32.65,
+        "net_units": 6.649999999999999,
+        "roi": 0.2557692307692307,
+        "average_american_odds": 1017.8846153846154,
+        "average_decimal_odds": 11.178846153846154,
+        "average_model_probability": 0.22413119690303762,
+        "average_probability_edge": 0.08812675786107994,
+        "average_ev": 1.0759125535977823
+      },
+      "EV >= 5%": {
+        "bets": 26,
+        "wins": 4,
+        "losses": 22,
+        "hit_rate": 0.15384615384615385,
+        "risked_units": 26.0,
+        "gross_winnings_units": 28.65,
+        "gross_returns_including_stakes_units": 32.65,
+        "net_units": 6.649999999999999,
+        "roi": 0.2557692307692307,
+        "average_american_odds": 1017.8846153846154,
+        "average_decimal_odds": 11.178846153846154,
+        "average_model_probability": 0.22413119690303762,
+        "average_probability_edge": 0.08812675786107994,
+        "average_ev": 1.0759125535977823
+      },
+      "EV >= 10%": {
+        "bets": 26,
+        "wins": 4,
+        "losses": 22,
+        "hit_rate": 0.15384615384615385,
+        "risked_units": 26.0,
+        "gross_winnings_units": 28.65,
+        "gross_returns_including_stakes_units": 32.65,
+        "net_units": 6.649999999999999,
+        "roi": 0.2557692307692307,
+        "average_american_odds": 1017.8846153846154,
+        "average_decimal_odds": 11.178846153846154,
+        "average_model_probability": 0.22413119690303762,
+        "average_probability_edge": 0.08812675786107994,
+        "average_ev": 1.0759125535977823
+      },
+      "EV >= 15%": {
+        "bets": 26,
+        "wins": 4,
+        "losses": 22,
+        "hit_rate": 0.15384615384615385,
+        "risked_units": 26.0,
+        "gross_winnings_units": 28.65,
+        "gross_returns_including_stakes_units": 32.65,
+        "net_units": 6.649999999999999,
+        "roi": 0.2557692307692307,
+        "average_american_odds": 1017.8846153846154,
+        "average_decimal_odds": 11.178846153846154,
+        "average_model_probability": 0.22413119690303762,
+        "average_probability_edge": 0.08812675786107994,
+        "average_ev": 1.0759125535977823
+      }
+    }
+  },
+  "calibration_descriptive_only": [
+    {
+      "bin": "<10%",
+      "players": 71,
+      "expected_scorers": 3.5988878336475363,
+      "actual_scorers": 6
+    },
+    {
+      "bin": "10\u201320%",
+      "players": 57,
+      "expected_scorers": 8.135077676267183,
+      "actual_scorers": 10
+    },
+    {
+      "bin": "20\u201330%",
+      "players": 48,
+      "expected_scorers": 12.160662093990998,
+      "actual_scorers": 17
+    },
+    {
+      "bin": "30\u201340%",
+      "players": 14,
+      "expected_scorers": 4.746707940332628,
+      "actual_scorers": 6
+    },
+    {
+      "bin": "40\u201350%",
+      "players": 4,
+      "expected_scorers": 1.7883113343497326,
+      "actual_scorers": 1
+    },
+    {
+      "bin": "50\u201360%",
+      "players": 6,
+      "expected_scorers": 3.1561079938561702,
+      "actual_scorers": 6
+    },
+    {
+      "bin": "60%+",
+      "players": 1,
+      "expected_scorers": 0.6207258936564856,
+      "actual_scorers": 1
+    }
+  ],
+  "same_best_selected_bets_at_median_price": {
+    "bets": 33,
+    "wins": 5,
+    "net_units": 2.2749999999999986,
+    "roi": 0.0689393939393939
+  },
+  "retrospective_eligibility_audit": {
+    "known_inactive_at_t60_quoted_players": 9,
+    "inactive_by_kickoff_quoted_players": 17,
+    "known_inactive_at_t60_bets": [
+      {
+        "game": "BAL@IND",
+        "player": "DJ Giddens",
+        "injury_time": "2026-09-13T15:50Z"
+      }
+    ],
+    "inactive_by_kickoff_bets": [
+      {
+        "game": "BAL@IND",
+        "player": "DJ Giddens",
+        "injury_time": "2026-09-13T15:50Z"
+      },
+      {
+        "game": "CHI@CAR",
+        "player": "Ja'Tavion Sanders",
+        "injury_time": "2026-09-13T16:02Z"
+      }
+    ],
+    "best_portfolio_excluding_inactive_by_kickoff": {
+      "bets": 31,
+      "wins": 5,
+      "losses": 26,
+      "hit_rate": 0.16129032258064516,
+      "risked_units": 31.0,
+      "gross_winnings_units": 40.2,
+      "gross_returns_including_stakes_units": 45.2,
+      "net_units": 14.200000000000003,
+      "roi": 0.4580645161290324,
+      "average_american_odds": 1280.1612903225807,
+      "average_decimal_odds": 13.801612903225806,
+      "average_model_probability": 0.22220901789207603,
+      "average_probability_edge": 0.09603430151524084,
+      "average_ev": 1.425015286180313
+    },
+    "median_portfolio_excluding_inactive_by_kickoff": {
+      "bets": 24,
+      "wins": 4,
+      "losses": 20,
+      "hit_rate": 0.16666666666666666,
+      "risked_units": 24.0,
+      "gross_winnings_units": 28.65,
+      "gross_returns_including_stakes_units": 32.65,
+      "net_units": 8.649999999999999,
+      "roi": 0.3604166666666666,
+      "average_american_odds": 981.875,
+      "average_decimal_odds": 10.81875,
+      "average_model_probability": 0.23428102243505705,
+      "average_probability_edge": 0.09281409226081501,
+      "average_ev": 1.1236868259026422
+    },
+    "interpretation": "This is a retrospective audit. It does not repair the frozen Stage A eligibility decision."
+  },
+  "edge_performance_descriptive_only": [
+    {
+      "edge_bin": "below_market",
+      "players": 151,
+      "mean_model_probability": 0.16182840567102805,
+      "actual_score_rate": 0.26490066225165565
+    },
+    {
+      "edge_bin": "0\u20132.5pp",
+      "players": 17,
+      "mean_model_probability": 0.1574850220049138,
+      "actual_score_rate": 0.11764705882352941
+    },
+    {
+      "edge_bin": "2.5\u201310pp",
+      "players": 23,
+      "mean_model_probability": 0.2005260797836584,
+      "actual_score_rate": 0.08695652173913043
+    },
+    {
+      "edge_bin": "10\u201320pp",
+      "players": 7,
+      "mean_model_probability": 0.21553791008566314,
+      "actual_score_rate": 0.42857142857142855
+    },
+    {
+      "edge_bin": "20pp+",
+      "players": 3,
+      "mean_model_probability": 0.32409364335606,
+      "actual_score_rate": 0.0
+    }
+  ],
+  "clv_best_bets": {
+    "available": 32,
+    "positive": 11,
+    "mean_probability_clv": 0.0025295324884519613
+  },
+  "largest_misses": [
+    {
+      "game": "MIA@LV",
+      "player": "Jack Bech",
+      "team": "LV",
+      "model_probability": 0.06952766338611631,
+      "actual_td": 1,
+      "expected_team_td": 2.264036573083446,
+      "actual_team_offensive_td": 3
+    },
+    {
+      "game": "NO@DET",
+      "player": "Kendre Miller",
+      "team": "NO",
+      "model_probability": 0.07085667804441034,
+      "actual_td": 1,
+      "expected_team_td": 2.175072954579007,
+      "actual_team_offensive_td": 4
+    },
+    {
+      "game": "TB@CIN",
+      "player": "Baker Mayfield",
+      "team": "TB",
+      "model_probability": 0.07477267986808737,
+      "actual_td": 1,
+      "expected_team_td": 2.384914370860282,
+      "actual_team_offensive_td": 2
+    },
+    {
+      "game": "NO@DET",
+      "player": "Juwan Johnson",
+      "team": "NO",
+      "model_probability": 0.07490173732034308,
+      "actual_td": 1,
+      "expected_team_td": 2.175072954579007,
+      "actual_team_offensive_td": 4
+    },
+    {
+      "game": "CHI@CAR",
+      "player": "Cole Kmet",
+      "team": "CHI",
+      "model_probability": 0.08370439058687658,
+      "actual_td": 1,
+      "expected_team_td": 2.5979148930752265,
+      "actual_team_offensive_td": 8
+    },
+    {
+      "game": "CHI@CAR",
+      "player": "Caleb Williams",
+      "team": "CHI",
+      "model_probability": 0.09012468409125615,
+      "actual_td": 2,
+      "expected_team_td": 2.5979148930752265,
+      "actual_team_offensive_td": 8
+    },
+    {
+      "game": "ATL@PIT",
+      "player": "Pat Freiermuth",
+      "team": "PIT",
+      "model_probability": 0.1298037726601632,
+      "actual_td": 1,
+      "expected_team_td": 2.4804275490528704,
+      "actual_team_offensive_td": 1
+    },
+    {
+      "game": "NO@DET",
+      "player": "Devaughn Vele",
+      "team": "NO",
+      "model_probability": 0.13205834731734067,
+      "actual_td": 1,
+      "expected_team_td": 2.175072954579007,
+      "actual_team_offensive_td": 4
+    },
+    {
+      "game": "BAL@IND",
+      "player": "Lamar Jackson",
+      "team": "BAL",
+      "model_probability": 0.13702857796735524,
+      "actual_td": 1,
+      "expected_team_td": 2.670934453095551,
+      "actual_team_offensive_td": 5
+    },
+    {
+      "game": "CLE@JAX",
+      "player": "Brenton Strange",
+      "team": "JAX",
+      "model_probability": 0.13782872119946016,
+      "actual_td": 1,
+      "expected_team_td": 2.6111023564389044,
+      "actual_team_offensive_td": 4
+    },
+    {
+      "game": "CHI@CAR",
+      "player": "Jalen Coker",
+      "team": "CAR",
+      "model_probability": 0.15392821586217115,
+      "actual_td": 2,
+      "expected_team_td": 2.31831712440723,
+      "actual_team_offensive_td": 5
+    },
+    {
+      "game": "GB@MIN",
+      "player": "T.J. Hockenson",
+      "team": "MIN",
+      "model_probability": 0.17097434264475764,
+      "actual_td": 1,
+      "expected_team_td": 2.533660313560583,
+      "actual_team_offensive_td": 5
+    }
+  ],
+  "result_file": "reports\\phase45_settled_predictions.csv",
+  "result_sha256": "cf52d52962acdef895a2ff9e038c6dca5f6fd258d852f77e0011244df46b9f93",
+  "sortable_report_file": "reports\\phase45_full_slate.html",
+  "sortable_report_sha256": "74026ab37ac19413e9362eba2514386e73c2e9400e29533c0479a4eccfccfd99"
+}

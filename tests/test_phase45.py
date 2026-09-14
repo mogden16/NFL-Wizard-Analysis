@@ -133,6 +133,10 @@ def test_settlement_counts_only_rushing_and_receiving_tds() -> None:
                     {"athlete": {"displayName": "B. Catcher"}, "stats": ["2", "1"]}]},
                 {"name": "passing", "labels": ["TD"], "athletes": [
                     {"athlete": {"displayName": "C. Passer"}, "stats": ["1"]}]},
+                {"name": "defensive", "labels": ["TOT", "TD"], "athletes": [
+                    {"athlete": {"displayName": "D. Returner"}, "stats": ["3", "1"]}]},
+                {"name": "interceptions", "labels": ["INT", "TD"], "athletes": [
+                    {"athlete": {"displayName": "D. Returner"}, "stats": ["1", "1"]}]},
             ]}]},
             "scoringPlays": [
                 {"type": {"text": "Rushing Touchdown"}},
@@ -152,6 +156,7 @@ def test_settlement_counts_only_rushing_and_receiving_tds() -> None:
         ("WAS@PHI", "WAS", "bcatcher"): 1,
     }
     assert checks["WAS@PHI"]["rushing_receiving_box_tds"] == 2
+    assert phase45_settle._special_td_map([game]) == {("WAS@PHI", "WAS", "dreturner"): 1}
     assert phase45_settle._injury_map([game])[("WAS@PHI", "dinactive")]["timestamp"] == "2026-09-13T15:50:00Z"
 
 

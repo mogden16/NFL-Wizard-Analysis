@@ -16,7 +16,9 @@ def test_select_quote_never_uses_later_snapshot() -> None:
         {"quote_time": PREDICTION - timedelta(minutes=5), "price": 140},
         {"quote_time": PREDICTION + timedelta(minutes=1), "price": 150},
     ]
-    assert select_quote(quotes, PREDICTION)["price"] == 140
+    selected = select_quote(quotes, PREDICTION)
+    assert selected is not None
+    assert selected["price"] == 140
 
 
 def test_audit_fails_on_current_game_player_usage() -> None:

@@ -114,6 +114,37 @@ def _injury_map(games: list[dict[str, Any]]) -> dict[tuple[str, str], dict[str, 
     return result
 
 
+def _special_td_map(games: list[dict[str, Any]]) -> dict[tuple[str, str, str], int]:
+    """Count return/defensive TDs once despite overlapping ESPN stat groups."""
+    by_group: dict[tuple[str, str, str], dict[str, int]] = defaultdict(dict)
+    for game in games:
+        competitors = game["event"]["competitions"][0]["competitors"]
+        home = next(c for c in competitors if c["homeAway"] == "home")["team"]["abbreviation"]
+        away = next(c for c in competitors if c["homeAway"] == "away")["team"]["abbreviation"]
+        code = f"{TEAM_ALIASES.get(away, away)}@{TEAM_ALIASES.get(home, home)}"
+        for team in game["summary"]["boxscore"]["players"]:
+            abbreviation = team["team"]["abbreviation"]
+            abbreviation = TEAM_ALIASES.get(abbreviation, abbreviation)
+            for group in team["statistics"]:
+                if group["name"] not in {"defensive", "interceptions", "kickReturns", "puntReturns"}:
+                    continue
+                if "TD" not in group["labels"]:
+                    continue
+                index = group["labels"].index("TD")
+                for athlete in group["athletes"]:
+                    value = int(athlete["stats"][index])
+                    key = (code, abbreviation, normalize_name(athlete["athlete"]["displayName"]))
+                    by_group[key][group["name"]] = value
+    result = {}
+    for key, groups in by_group.items():
+        # Interception TDs also appear in the defensive stat group.
+        count = max(groups.get("defensive", 0), groups.get("interceptions", 0))
+        count += groups.get("kickReturns", 0) + groups.get("puntReturns", 0)
+        if count:
+            result[key] = count
+    return result
+
+
 def _read_predictions() -> list[dict[str, Any]]:
     with PREDICTIONS.open(newline="", encoding="utf-8") as handle:
         rows = list(csv.DictReader(handle))
@@ -163,19 +194,21 @@ def _portfolio(rows: list[dict[str, Any]], kind: str, threshold: float, strict: 
     }
 
 
-def _closing_quotes(settings: Settings, rows: list[dict[str, Any]]) -> dict[tuple[str, str, str], int]:
+def _closing_quotes(
+    settings: Settings, rows: list[dict[str, Any]]
+) -> dict[tuple[str, str, str], tuple[int, str]]:
     if not settings.odds_api_key:
         return {}
     client = HistoricalOddsClient(settings.odds_api_key, settings.data_dir, settings.odds_regions)
     by_event = {row["event_id"]: parse_time(row["kickoff"]) for row in rows}
-    closing: dict[tuple[str, str, str], int] = {}
+    closing: dict[tuple[str, str, str], tuple[int, str]] = {}
     for event_id, kickoff in by_event.items():
         payload = client.event_odds(event_id, kickoff - timedelta(seconds=1))
         for quote in extract_market_rows(payload, kickoff - timedelta(seconds=1)):
             if quote["market"] != "player_anytime_td" or quote["name"] != "Yes":
                 continue
             key = (event_id, normalize_name(str(quote["description"])), quote["sportsbook"])
-            closing[key] = int(quote["price"])
+            closing[key] = (int(quote["price"]), quote["quote_time"].isoformat())
     return closing
 
 
@@ -194,9 +227,11 @@ def _write_sortable_html(rows: list[dict[str, Any]]) -> None:
         ("raw_implied_best", "Implied P"), ("edge_best", "Edge"),
         ("ev_best", "EV"), ("diagnostic_bet_best", "Bet"),
         ("actual_td", "Actual TD"), ("pl_best_units", "P/L units"),
+        ("closing_same_book_odds", "Close odds"), ("clv_raw_probability", "CLV ΔP"),
+        ("known_inactive_at_t60_audit", "Inactive at T−60?"),
         ("ineligibility_reason", "Missing reason"),
     )
-    percentage = {"model_atd_probability", "rolling_xtd_share", "goal_line_share", "raw_implied_best", "edge_best", "ev_best"}
+    percentage = {"model_atd_probability", "rolling_xtd_share", "goal_line_share", "raw_implied_best", "edge_best", "ev_best", "clv_raw_probability"}
     def display(row: dict[str, Any], key: str) -> str:
         value = row.get(key)
         if value is None or value == "":
@@ -238,12 +273,8 @@ def settle_stage_b(settings: Settings) -> dict[str, Any]:
     if RESULTS.exists() or REPORT.exists():
         raise FileExistsError("Stage B report already exists")
     games = _fetch_final_games()
-    OUTCOMES.parent.mkdir(parents=True, exist_ok=True)
-    if OUTCOMES.exists():
-        raise FileExistsError("Raw settlement source already exists")
-    OUTCOMES.write_text(json.dumps(games) + "\n", encoding="utf-8")
-    outcome_hash = hashlib.sha256(OUTCOMES.read_bytes()).hexdigest()
     scores, crosscheck = _outcome_map(games)
+    special_scores = _special_td_map(games)
     injuries = _injury_map(games)
     rows = _read_predictions()
     closing = _closing_quotes(settings, rows)
@@ -251,7 +282,10 @@ def settle_stage_b(settings: Settings) -> dict[str, Any]:
     scorer_by_name: dict[tuple[str, str], list[tuple[str, int]]] = defaultdict(list)
     for (game, team, _), count in scores.items():
         team_actual[(game, team)] += count
-    for (game, team, name), count in scores.items():
+    any_td_scores = dict(scores)
+    for key, count in special_scores.items():
+        any_td_scores[key] = any_td_scores.get(key, 0) + count
+    for (game, team, name), count in any_td_scores.items():
         scorer_by_name[(game, name)].append((team, count))
     for row in rows:
         injury = injuries.get((row["game"], normalize_name(row["player"])), {})
@@ -281,8 +315,14 @@ def settle_stage_b(settings: Settings) -> dict[str, Any]:
             else:
                 row[f"pl_{kind}_units"] = 0.0
         close = closing.get((row["event_id"], normalize_name(row["player"]), row["best_sportsbook"]))
-        row["closing_same_book_odds"] = close
-        row["clv_raw_probability"] = closing_line_value_probability(row["best_odds"], close) if close else None
+        row["closing_same_book_odds"] = close[0] if close else None
+        row["closing_same_book_quote_time"] = close[1] if close else None
+        row["clv_raw_probability"] = closing_line_value_probability(row["best_odds"], close[0]) if close else None
+    OUTCOMES.parent.mkdir(parents=True, exist_ok=True)
+    if OUTCOMES.exists():
+        raise FileExistsError("Raw settlement source already exists")
+    OUTCOMES.write_text(json.dumps(games) + "\n", encoding="utf-8")
+    outcome_hash = hashlib.sha256(OUTCOMES.read_bytes()).hexdigest()
     with RESULTS.open("w", newline="", encoding="utf-8") as handle:
         writer = csv.DictWriter(handle, rows[0].keys())
         writer.writeheader()
@@ -309,6 +349,9 @@ def settle_stage_b(settings: Settings) -> dict[str, Any]:
     void_adjusted = _portfolio(
         [r for r in rows if not r["inactive_by_kickoff_audit"]], "best", 0.05, False
     )
+    void_adjusted_median = _portfolio(
+        [r for r in rows if not r["inactive_by_kickoff_audit"]], "median", 0.05, False
+    )
     matched_median_gross = sum(1 / r["raw_implied_median"] - 1 for r in bets if r["actual_td"] > 0)
     matched_median_net = matched_median_gross - sum(r["actual_td"] == 0 for r in bets)
     edge_ranges = (("below_market", -10.0, 0.0), ("0–2.5pp", 0.0, .025),
@@ -328,6 +371,10 @@ def settle_stage_b(settings: Settings) -> dict[str, Any]:
         "stage_a_quote_sha256": manifest["quotes_sha256"], "settlement_source": "ESPN final scoreboard and game summary",
         "settlement_source_sha256": outcome_hash, "games": len(games), "quoted_players": len(rows),
         "eligible_players": len(eligible), "scoring_crosscheck": crosscheck,
+        "special_touchdown_scorers": [
+            {"game": game, "team": team, "player_normalized": name, "td": count}
+            for (game, team, name), count in sorted(special_scores.items())
+        ],
         "portfolios": portfolios, "calibration_descriptive_only": calibration,
         "same_best_selected_bets_at_median_price": {
             "bets": len(bets), "wins": sum(r["actual_td"] > 0 for r in bets),
@@ -335,6 +382,8 @@ def settle_stage_b(settings: Settings) -> dict[str, Any]:
             "roi": matched_median_net / len(bets) if bets else None,
         },
         "retrospective_eligibility_audit": {
+            "known_inactive_at_t60_quoted_players": sum(r["known_inactive_at_t60_audit"] for r in rows),
+            "inactive_by_kickoff_quoted_players": sum(r["inactive_by_kickoff_audit"] for r in rows),
             "known_inactive_at_t60_bets": [
                 {"game": r["game"], "player": r["player"], "injury_time": r["retrospective_injury_time"]}
                 for r in bets if r["known_inactive_at_t60_audit"]
@@ -344,6 +393,7 @@ def settle_stage_b(settings: Settings) -> dict[str, Any]:
                 for r in inactive_bets
             ],
             "best_portfolio_excluding_inactive_by_kickoff": void_adjusted,
+            "median_portfolio_excluding_inactive_by_kickoff": void_adjusted_median,
             "interpretation": "This is a retrospective audit. It does not repair the frozen Stage A eligibility decision.",
         },
         "edge_performance_descriptive_only": edge_diagnostic,
