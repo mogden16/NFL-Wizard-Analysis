@@ -1,10 +1,14 @@
 """Command-line entry points for environment and Phase 1 audit."""
 
 import logging
+from datetime import UTC, datetime
 from pathlib import Path
+from zoneinfo import ZoneInfo
 
+import httpx
 import typer
 
+from nfl_td_model.atd_price_scan import scan_current_slate, write_report
 from nfl_td_model.config import Settings
 from nfl_td_model.odds import OddsAPIError
 from nfl_td_model.phase1 import build_phase1_audit
@@ -23,6 +27,9 @@ from nfl_td_model.phase7_verify import verify_phase7
 from nfl_td_model.phase45 import build_stage_a
 from nfl_td_model.phase45_settle import settle_stage_b, verify_frozen, verify_settlement
 from nfl_td_model.storage import connect_catalog
+from nfl_td_model.usage_props import scan_current_slate as scan_usage_props
+from nfl_td_model.usage_props import validation_report as usage_validation_report
+from nfl_td_model.usage_props import write_live_report
 from nfl_td_model.verify import verify_phase1
 
 app = typer.Typer(help="NFL touchdown point-in-time research")
@@ -205,3 +212,45 @@ def phase7_verify() -> None:
         typer.echo(f"PHASE 7 NOT VERIFIED: {exc}", err=True)
         raise typer.Exit(code=1) from exc
     typer.echo(f"PHASE 7 VERIFIED: {summary}")
+
+
+@app.command("atd-price-scan")
+def atd_price_scan() -> None:
+    """Rank today's cross-sportsbook ATD Yes-price differences only."""
+    captured = datetime.now(UTC)
+    day = captured.astimezone(ZoneInfo("America/New_York")).date().isoformat()
+    try:
+        rows, quotes = scan_current_slate(Settings(), now=captured)
+        report, sortable_csv, quote_csv = write_report(rows, quotes, Path("reports"), day)
+    except httpx.HTTPError as exc:
+        typer.echo(f"ATD PRICE SCAN FAILED: live odds request failed ({exc.__class__.__name__})", err=True)
+        raise typer.Exit(code=1) from None
+    except ValueError as exc:
+        typer.echo(f"ATD PRICE SCAN FAILED: {exc}", err=True)
+        raise typer.Exit(code=1) from None
+    typer.echo(f"CROSS-BOOK ATD PRICE OPPORTUNITIES: {len(rows)} players")
+    typer.echo(f"Report: {report}\nSortable CSV: {sortable_csv}\nAll quotes: {quote_csv}")
+
+
+@app.command("usage-prop-validate")
+def usage_prop_validate() -> None:
+    """Evaluate the frozen EWMA and Poisson usage-prop models on 2024."""
+    typer.echo(f"Usage prop validation: {usage_validation_report()}")
+
+
+@app.command("usage-prop-scan")
+def usage_prop_scan() -> None:
+    """Rank current receptions and rushing-attempt market disagreements."""
+    captured = datetime.now(UTC)
+    day = captured.astimezone(ZoneInfo("America/New_York")).date().isoformat()
+    try:
+        rows, quotes = scan_usage_props(Settings(), now=captured)
+        report, sortable_csv, quote_csv = write_live_report(rows, quotes, Path("reports"), day)
+    except httpx.HTTPError as exc:
+        typer.echo(f"USAGE PROP SCAN FAILED: live odds request failed ({exc.__class__.__name__})", err=True)
+        raise typer.Exit(code=1) from None
+    except ValueError as exc:
+        typer.echo(f"USAGE PROP SCAN FAILED: {exc}", err=True)
+        raise typer.Exit(code=1) from None
+    typer.echo(f"NFL USAGE PROP RESEARCH MVP: {len(rows)} player-lines")
+    typer.echo(f"Report: {report}\nSortable CSV: {sortable_csv}\nAll quotes: {quote_csv}")

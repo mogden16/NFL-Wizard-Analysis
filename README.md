@@ -160,6 +160,12 @@ excluded from development.
 ```powershell
 ./.venv/Scripts/nfl-td.exe phase6-build
 ./.venv/Scripts/nfl-td.exe phase6-verify
+```
+
+See `docs/PHASE6_PROTOCOL.md` for the predeclared promotion criteria,
+`reports/PHASE6.md` for results, and `reports/phase6_metrics.json` for full
+calibration and position tables. The 2023 OOF component and 2024 validation
+prediction CSVs are retained under `reports/`.
 
 ## Phase 7 historical ATD market-edge backtest
 
@@ -174,9 +180,26 @@ benchmark is NO BET. The 2025 holdout remains sealed.
 ```powershell
 ./.venv/Scripts/nfl-td.exe phase7-verify
 ```
-```
 
-See `docs/PHASE6_PROTOCOL.md` for the predeclared promotion criteria,
-`reports/PHASE6.md` for results, and `reports/phase6_metrics.json` for full
-calibration and position tables. The 2023 OOF component and 2024 validation
-prediction CSVs are retained under `reports/`.
+## Live cross-book ATD price scanner
+
+Run `./.venv/Scripts/nfl-td.exe atd-price-scan` to compare today's NFL
+`player_anytime_td` Yes prices across books in a single live event snapshot.
+The command writes a ranked Markdown report, sortable player CSV, and
+underlying per-book quote CSV under `reports/`. Consensus differences require
+three distinct books; stale and unusually dispersed quotes remain visible
+with flags. These are raw price differences, not bets or expected-value claims.
+
+## Usage props MVP
+
+The `usage_props` extension reuses `phase2_*_player_features.parquet` for
+lagged targets/carries, EWMA and rolling shares; the frozen season-specific
+player-stat snapshots for receptions and rushing-attempt labels; `market_math`
+for American conversion and no-vig calculations; `odds.parse_time` and the
+existing live Odds API event endpoint for timestamps and quotes; and the
+existing Typer CLI/test setup. It does not read 2025 or alter any ATD model.
+
+Run `./.venv/Scripts/nfl-td.exe usage-prop-validate` for the 2017–2023 fit and
+2024 validation report, or `./.venv/Scripts/nfl-td.exe usage-prop-scan` for the
+current receptions and rushing-attempt market report. Outputs are written as
+`reports/usage_prop_opportunities_*.md`, sortable CSV, and quote CSV.
