@@ -91,6 +91,9 @@ bets, put `data/pregame_availability/<event-id>.json` in place before T-60:
   "availability": [
     {"player": "Example Player", "team": "ATL", "status": "inactive",
      "source_url": "https://www.nfl.com/news/example-official-game-day-inactives", "source_kind": "official_nfl",
+     "published_at": "2026-09-20T15:00:00Z", "retrieved_at": "2026-09-20T16:00:00Z"},
+    {"player": "Example Active Player", "team": "ATL", "status": "active",
+     "source_url": "https://www.nfl.com/news/example-official-game-day-roster", "source_kind": "official_nfl",
      "published_at": "2026-09-20T15:00:00Z", "retrieved_at": "2026-09-20T16:00:00Z"}
   ],
   "availability_coverage": [
@@ -105,6 +108,9 @@ Coverage must be complete for each team separately, based on a full official
 game-day status source captured by T-60. An injury-report page listing only
 some players must not be marked complete. Without documented complete coverage,
 the worker still freezes quotes and predictions but marks wagers ineligible.
+Each eligible player also needs affirmative official active-roster evidence;
+absence from an inactive list alone does not establish eligibility. An
+inactive/out record overrides an active record at T-60.
 The availability file's source and timestamps are recorded; its authenticity
 is an operator responsibility until an official machine-readable feed exists.
 

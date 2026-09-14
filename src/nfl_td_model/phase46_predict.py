@@ -130,10 +130,14 @@ def predict(snapshot: dict[str, Any]) -> list[dict[str, Any]]:
             player["allocation_score"]
         )
     unavailable: set[tuple[str, str]] = set()
+    confirmed_active: set[tuple[str, str]] = set()
     verified_teams = {c["team"] for c in snapshot["availability_coverage"] if c["complete"] is True}
     for record in snapshot["availability"]:
+        key = (normalize_name(record["player"]), record["team"])
         if record["status"].lower() in INACTIVE:
-            unavailable.add((normalize_name(record["player"]), record["team"]))
+            unavailable.add(key)
+        elif record["status"].lower() == "active":
+            confirmed_active.add(key)
     by_name: dict[str, list[dict[str, Any]]] = {}
     for quote in snapshot["quotes"]:
         by_name.setdefault(normalize_name(quote["player"]), []).append(quote)
@@ -152,10 +156,11 @@ def predict(snapshot: dict[str, Any]) -> list[dict[str, Any]]:
         median_american = statistics.median(prices)
         team: str | None = str(player["team"]) if player else None
         known_inactive = (normalized, team) in unavailable if team else False
-        # An official, timestamped status feed must be supplied to make a bet.
-        # An empty feed leaves every quote visible but wagering eligibility unknown.
+        active_confirmed = (normalized, team) in confirmed_active if team else False
+        # A complete official team status view and positive active-roster
+        # confirmation are both required; a negative inactive signal overrides.
         availability_verified = team in verified_teams if team else False
-        eligible = bool(player and availability_verified and not known_inactive)
+        eligible = bool(player and availability_verified and active_confirmed and not known_inactive)
         share = None
         expected_team = float(snapshot["team_expected_td"][team]) if team else None
         expected_player = None
@@ -195,7 +200,7 @@ def predict(snapshot: dict[str, Any]) -> list[dict[str, Any]]:
             "eligible_at_prediction_time": eligible,
             "inactive_known_at_prediction_time": known_inactive,
             "availability_verified_at_prediction_time": availability_verified,
-            "ultimately_played": None, "settlement_status": "not_settled",
+            "active_roster_confirmed_at_prediction_time": active_confirmed,
             "diagnostic_bet_best": bool(eligible and ev_best is not None and ev_best >= .05
                                         and edge_best is not None and edge_best >= .025),
             "diagnostic_bet_median": bool(eligible and ev_median is not None and ev_median >= .05

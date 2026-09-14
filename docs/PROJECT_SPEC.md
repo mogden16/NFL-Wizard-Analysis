@@ -1525,14 +1525,18 @@ Future prospective Stage A events use a closed-schema pregame snapshot with
 only historical player opportunity summaries, a frozen team expectation,
 timestamped T-60 quotes, and contemporaneous official NFL availability
 evidence. The offline prediction worker has no network, 2026 game-stat, or
-settlement reader. It rejects unknown fields at all nested levels. Stage B is
-a separate command that verifies Stage A hashes before requesting final game
-data, and refuses to run until the scoreboard marks the game final.
+settlement reader. It rejects unknown fields at all nested levels, and its
+frozen prediction rows contain no settlement or result placeholders. Stage B
+is a separate command that verifies Stage A hashes before requesting final
+game data, refuses to run until the scoreboard marks the game final, and
+writes its output outside the Stage A artifact tree.
 
 At T-60, a known official inactive/out status excludes a player from betting
-eligibility. A complete official availability snapshot for the player's team
-must be documented; otherwise the prediction remains visible but no wager is
-eligible. Later DNP information never rewrites Stage A. Stage B records
+eligibility. Both a complete official availability snapshot for the player's
+team and positive official active-roster evidence for that player must be
+documented; otherwise the prediction remains visible but no wager is eligible.
+Any pre-cutoff inactive/out status overrides active evidence. Later DNP
+information never rewrites Stage A. Stage B records
 `eligible_at_prediction_time`, `inactive_known_at_prediction_time`,
 `ultimately_played`, and `settlement_status` separately. A DNP bet is graded
 only when both participation evidence and the relevant sportsbook's documented

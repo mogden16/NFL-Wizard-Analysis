@@ -145,9 +145,10 @@ def settle_one(
 
 def settle_event(
     event_dir: Path, participation_file: Path | None = None, rules_file: Path | None = None,
+    settlement_root: Path = Path("reports/phase46_settlement"),
 ) -> Path:
     manifest = verify_frozen_event(event_dir)
-    output = event_dir / "settlement.json"
+    output = settlement_root / event_dir.parent.name / event_dir.name / "settlement.json"
     if output.exists():
         raise FileExistsError("Settlement already exists")
     snapshot = json.loads((event_dir / "pregame.json").read_text(encoding="utf-8"))
@@ -183,6 +184,7 @@ def settle_event(
         "event_id": manifest["event_id"], "stage_a_predictions_sha256": manifest["predictions_sha256"],
         "diagnostic_exhibition_slate": False, "rows": rows,
     }
+    output.parent.mkdir(parents=True, exist_ok=True)
     output.write_text(json.dumps(result, sort_keys=True) + "\n", encoding="utf-8")
     return output
 

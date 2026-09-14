@@ -16,9 +16,11 @@ T−60 are dropped. The Stage A worker runs in its own Python process, reads
 that closed-schema JSON alone, and rejects any unknown field in nested player,
 quote, and availability records. It imports neither network nor settlement
 readers. Quotes and predictions freeze in separate files with SHA-256 hashes
-in a manifest. Stage B is a distinct command, verifies all three Stage A
-hashes before requesting a score, and fetches a game summary only when its
-scoreboard status is final. These are code and data-interface barriers; they
+in a manifest. Stage A predictions contain no settlement/result placeholders.
+Stage B is a distinct command, verifies all three Stage A hashes before
+requesting a score, and fetches a game summary only when its scoreboard status
+is final. Its output lives under `reports/phase46_settlement/`, outside the
+Stage A artifact tree. These are code and data-interface barriers; they
 are not an operating-system security sandbox against a malicious actor with
 access to the workspace.
 
@@ -33,7 +35,8 @@ The T−60 prediction row now keeps `eligible_at_prediction_time`,
 `settlement_status` separately. An official NFL inactive/out record published
 and retrieved by T−60 prevents a bet but leaves the quote and probability
 visible. Eligibility additionally requires evidence of complete official
-status coverage for that player's team; missing coverage fails closed for
+status coverage for that player's team and an affirmative official active
+status for the player; missing or conflicting evidence fails closed for
 betting. Later non-participation never changes the frozen selection. A DNP
 is graded only with affirmative participation evidence and a sourced rule
 for that specific sportsbook. Otherwise it remains pending. Absence from an

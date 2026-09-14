@@ -50,7 +50,12 @@ def snapshot() -> dict[str, Any]:
             "end_zone_targets_share": .1, "carry_share": .4, "target_share": .1,
             "snap_share": None,
         }],
-        "quotes": quotes, "availability": [], "availability_coverage": coverage,
+        "quotes": quotes, "availability": [{
+            "player": "A Runner", "team": "ATL", "status": "active",
+            "source_url": "https://www.nfl.com/news/official-game-roster", "source_kind": "official_nfl",
+            "published_at": (CUTOFF - timedelta(minutes=20)).isoformat(),
+            "retrieved_at": CUTOFF.isoformat(),
+        }], "availability_coverage": coverage,
         "model_version": "frozen_phase4_phase3_phase45_allocation",
         "diagnostic_exhibition_slate": False,
         "quote_snapshot_sha256": hashlib.sha256(json.dumps(quotes, sort_keys=True).encode()).hexdigest(),
@@ -86,12 +91,12 @@ def test_stage_a_worker_has_no_result_or_network_imports() -> None:
 
 def test_known_inactive_excluded_but_quote_remains() -> None:
     case = snapshot()
-    case["availability"] = [{
+    case["availability"].append({
         "player": "A Runner", "team": "ATL", "status": "inactive",
         "source_url": "https://www.nfl.com/injuries/", "source_kind": "official_nfl",
         "published_at": (CUTOFF - timedelta(minutes=10)).isoformat(),
         "retrieved_at": CUTOFF.isoformat(),
-    }]
+    })
     row = phase46_predict.predict(case)[0]
     assert row["inactive_known_at_prediction_time"] is True
     assert row["eligible_at_prediction_time"] is False
@@ -106,6 +111,16 @@ def test_missing_official_coverage_fails_closed_for_bets() -> None:
     assert row["availability_verified_at_prediction_time"] is False
     assert row["diagnostic_bet_best"] is False
     assert row["eligible_at_prediction_time"] is False
+
+
+def test_missing_positive_active_status_fails_closed_for_bets() -> None:
+    case = snapshot()
+    case["availability"] = []
+    row = phase46_predict.predict(case)[0]
+    assert row["availability_verified_at_prediction_time"] is True
+    assert row["active_roster_confirmed_at_prediction_time"] is False
+    assert row["eligible_at_prediction_time"] is False
+    assert row["diagnostic_bet_best"] is False
 
 
 def test_quote_quality_and_quote_age_are_preserved() -> None:
@@ -160,7 +175,8 @@ def test_later_dnp_preserves_prediction_and_uses_book_rule() -> None:
     assert phase46_settle.settle_one(original, 0, False, "action_if_dnp")["pl_best_units"] == -1
     assert phase46_settle.settle_one(original, 0, False, None)["settlement_status"] == "pending_book_rule"
     assert phase46_settle.settle_one(original, 0, None, None)["settlement_status"] == "pending_participation"
-    assert original["settlement_status"] == "not_settled"
+    assert "settlement_status" not in original
+    assert "ultimately_played" not in original
 
 
 def test_stage_b_hash_barrier_precedes_result_access(tmp_path: Path, monkeypatch: pytest.MonkeyPatch) -> None:
@@ -192,6 +208,29 @@ def test_offline_stage_a_runs_as_separate_process(tmp_path: Path) -> None:
     manifest = phase46_settle.verify_frozen_event(event_dir)
     assert manifest["event_id"] == "event_future"
     assert manifest["quotes_sha256"] == hashlib.sha256((event_dir / "quotes.json").read_bytes()).hexdigest()
+    frozen = json.loads((event_dir / "predictions.json").read_text(encoding="utf-8"))
+    assert "settlement_status" not in frozen[0]
+    assert "ultimately_played" not in frozen[0]
+    assert "actual_td" not in frozen[0]
+
+
+def test_stage_b_writes_outside_stage_a_tree(tmp_path: Path, monkeypatch: pytest.MonkeyPatch) -> None:
+    event_dir = tmp_path / "stage_a" / "future"
+    event_dir.mkdir(parents=True)
+    pregame = event_dir / "pregame.json"
+    pregame.write_text(json.dumps(snapshot()), encoding="utf-8")
+    phase46_predict.freeze_prediction(pregame, event_dir)
+    game = {"event": {"competitions": [{"competitors": [
+        {"homeAway": "home", "team": {"abbreviation": "ATL"}},
+        {"homeAway": "away", "team": {"abbreviation": "CAR"}},
+    ]}]}, "summary": {"boxscore": {"players": []}, "scoringPlays": []}}
+    monkeypatch.setattr(phase46_settle, "_final_game", lambda _: game)
+    output = phase46_settle.settle_event(event_dir, settlement_root=tmp_path / "stage_b")
+    assert output.is_file()
+    assert not (event_dir / "settlement.json").exists()
+    result = json.loads(output.read_text(encoding="utf-8"))
+    assert result["rows"][0]["settlement_status"] == "pending_participation"
+    assert result["rows"][0]["ultimately_played"] is None
 
 
 def test_september_13_exhibition_cannot_be_replayed() -> None:
