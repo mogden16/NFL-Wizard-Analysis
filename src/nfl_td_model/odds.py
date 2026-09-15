@@ -35,7 +35,7 @@ class HistoricalOddsClient:
         self.regions = regions
         self.http = httpx.Client(timeout=30)
 
-    def _get(self, endpoint: str, prediction_time: datetime, **parameters: str) -> dict[str, Any]:
+    def _get(self, endpoint: str, prediction_time: datetime, force: bool = False, **parameters: str) -> dict[str, Any]:
         date = prediction_time.isoformat().replace("+00:00", "Z")
         # Cache by path and parameters without ever writing the API key.
         cache_key = json.dumps([endpoint, date, parameters], sort_keys=True)
@@ -43,7 +43,7 @@ class HistoricalOddsClient:
 
         request_hash = hashlib.sha256(cache_key.encode()).hexdigest()
         index = self.data_dir / "raw" / "odds_request_index" / f"{request_hash}.txt"
-        if index.exists():
+        if index.exists() and not force:
             return json.loads(Path(index.read_text(encoding="utf-8")).read_text(encoding="utf-8"))
         safe_url = f"{BASE_URL}{endpoint}?date={date}"
         for attempt in range(4):
@@ -100,6 +100,18 @@ class HistoricalOddsClient:
             regions=self.regions,
             markets="player_anytime_td,spreads,totals",
             oddsFormat="american",
+        )
+
+    def event_market_odds(self, event_id: str, prediction_time: datetime, market: str,
+                          force: bool = False) -> dict[str, Any]:
+        """Return one historical event market, keeping the request credit-minimal."""
+        return self._get(
+            f"/events/{event_id}/odds",
+            prediction_time,
+            regions=self.regions,
+            markets=market,
+            oddsFormat="american",
+            force=force,
         )
 
 

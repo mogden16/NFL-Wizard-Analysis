@@ -12,6 +12,8 @@ from zoneinfo import ZoneInfo
 
 import polars as pl
 
+from nfl_td_model.odds import HistoricalOddsClient
+
 BACKFILL_MARKET = "player_receptions"
 CREDIT_PER_CALL = 10
 TARGET_SEASONS = (2023, 2024)
@@ -124,3 +126,38 @@ def request_cache_key(event_id: str, prediction_time: str) -> str:
     """Stable key for one event/market/timestamp request, excluding credentials."""
     value = json.dumps([event_id, BACKFILL_MARKET, prediction_time], separators=(",", ":"))
     return hashlib.sha256(value.encode()).hexdigest()
+
+
+def _cached_event_id_for(data_dir: Path, game: dict[str, Any]) -> str | None:
+    cutoff = datetime.fromisoformat(game["prediction_time"])
+    for payload in _cached_payloads(data_dir):
+        if not isinstance(payload.get("data"), list):
+            continue
+        try:
+            snapshot = datetime.fromisoformat(str(payload["timestamp"]))
+        except (KeyError, ValueError):
+            continue
+        if snapshot > cutoff:
+            continue
+        for event in payload["data"]:
+            if event.get("commence_time") == game["kickoff_time"] and event.get("id"):
+                return str(event["id"])
+    return None
+
+
+def download_raw_backfill(data_dir: Path, api_key: str, available_credits: int,
+                          force: bool = False) -> Path:
+    """Download target snapshots after a full budget check; resume from cache."""
+    plan = build_plan(data_dir)
+    require_budget(plan, available_credits)
+    client = HistoricalOddsClient(api_key, data_dir)
+    results = []
+    for game in _games(data_dir):
+        event_id = _cached_event_id_for(data_dir, game)
+        if event_id is None:
+            raise RuntimeError(f"No cached event ID for {game['game_id']}; resolve IDs before downloading")
+        payload = client.event_market_odds(event_id, datetime.fromisoformat(game["prediction_time"]), BACKFILL_MARKET, force=force)
+        results.append({**game, "event_id": event_id, "returned_snapshot": payload.get("timestamp")})
+    output = Path("reports/receptions_backfill_download.json")
+    output.write_text(json.dumps({"market": BACKFILL_MARKET, "results": results}, indent=2) + "\n", encoding="utf-8")
+    return output
