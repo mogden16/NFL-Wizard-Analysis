@@ -4,6 +4,7 @@ from __future__ import annotations
 
 import hashlib
 import json
+from collections import defaultdict
 from dataclasses import asdict, dataclass
 from datetime import UTC, datetime, timedelta
 from pathlib import Path
@@ -13,6 +14,8 @@ from zoneinfo import ZoneInfo
 import polars as pl
 
 from nfl_td_model.odds import HistoricalOddsClient
+from nfl_td_model.phase1 import normalize_name
+from nfl_td_model.receptions_market import consensus, normalize_quotes, pair_quotes
 
 BACKFILL_MARKET = "player_receptions"
 CREDIT_PER_CALL = 10
@@ -171,3 +174,46 @@ def download_raw_backfill(data_dir: Path, api_key: str, available_credits: int,
     output = Path("reports/receptions_backfill_download.json")
     output.write_text(json.dumps({"market": BACKFILL_MARKET, "results": results}, indent=2) + "\n", encoding="utf-8")
     return output
+
+
+def normalize_backfill(data_dir: Path = Path("data"), reports_dir: Path = Path("reports")) -> dict[str, Path]:
+    """Normalize only cached 2023/2024 target responses; never performs network I/O."""
+    manifest = json.loads((reports_dir / "receptions_backfill_manifest.json").read_text(encoding="utf-8"))
+    games = manifest["games"]
+    downloads_path = reports_dir / "receptions_backfill_download.json"
+    if downloads_path.exists():
+        games = json.loads(downloads_path.read_text(encoding="utf-8"))["results"]
+    payloads: dict[str, dict[str, Any]] = {}
+    for payload in _cached_payloads(data_dir):
+        data = payload.get("data")
+        if isinstance(data, dict) and data.get("id"):
+            payloads[str(data["id"])] = payload
+    all_rows: list[dict[str, Any]] = []
+    for game in games:
+        event_id = game.get("event_id")
+        cached_payload = payloads.get(str(event_id)) if event_id else None
+        if cached_payload is None:
+            continue
+        player_map: dict[str, list[dict[str, Any]]] = defaultdict(list)
+        feature_path = data_dir / "derived" / f"phase2_{game['season']}_player_features.parquet"
+        if feature_path.exists():
+            frame = pl.read_parquet(feature_path, columns=["player", "player_id", "team"])
+            for row in frame.unique(subset=["player", "player_id", "team"]).to_dicts():
+                player_map.setdefault(normalize_name(str(row["player"])), []).append(row)
+        all_rows.extend(normalize_quotes(cached_payload, game, player_map))
+    paired = pair_quotes(all_rows)
+    outputs: dict[str, Path] = {}
+    for season in TARGET_SEASONS:
+        season_rows = [row for row in all_rows if row.get("season") == season]
+        season_pairs = [row for row in paired if row.get("season") == season]
+        normalized_path = data_dir / "derived" / f"RECEPTIONS_MARKET_{season}.parquet"
+        consensus_path = data_dir / "derived" / f"RECEPTIONS_MARKET_{season}_CONSENSUS.parquet"
+        normalized_path.parent.mkdir(parents=True, exist_ok=True)
+        normalized = pl.DataFrame(season_rows) if season_rows else pl.DataFrame({"season": pl.Series([], dtype=pl.Int64)})
+        summarized = consensus(season_pairs)
+        consensus_frame = pl.DataFrame(summarized) if summarized else pl.DataFrame({"line": pl.Series([], dtype=pl.Float64)})
+        normalized.write_parquet(normalized_path)
+        consensus_frame.write_parquet(consensus_path)
+        outputs[f"normalized_{season}"] = normalized_path
+        outputs[f"consensus_{season}"] = consensus_path
+    return outputs

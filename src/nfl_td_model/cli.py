@@ -26,7 +26,7 @@ from nfl_td_model.phase6_verify import verify_phase6
 from nfl_td_model.phase7_verify import verify_phase7
 from nfl_td_model.phase45 import build_stage_a
 from nfl_td_model.phase45_settle import settle_stage_b, verify_frozen, verify_settlement
-from nfl_td_model.receptions_backfill import build_plan, download_raw_backfill
+from nfl_td_model.receptions_backfill import build_plan, download_raw_backfill, normalize_backfill
 from nfl_td_model.storage import connect_catalog
 from nfl_td_model.usage_prop_audit import audit_large_disagreements
 from nfl_td_model.usage_prop_calibration import calibration_report as usage_calibration_report
@@ -68,6 +68,13 @@ def receptions_backfill(
         typer.echo(f"BACKFILL NOT STARTED: {exc}", err=True)
         raise typer.Exit(code=1) from exc
     typer.echo(f"Backfill complete: {output}")
+
+
+@app.command("receptions-backfill-normalize")
+def receptions_backfill_normalize() -> None:
+    """Normalize cached receptions snapshots without network access."""
+    outputs = normalize_backfill(Settings().data_dir, Path("reports"))
+    typer.echo("Normalized: " + ", ".join(str(path) for path in outputs.values()))
 
 
 @app.command()
