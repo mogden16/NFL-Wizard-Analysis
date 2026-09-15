@@ -145,6 +145,18 @@ def _cached_event_id_for(data_dir: Path, game: dict[str, Any]) -> str | None:
     return None
 
 
+def _resolve_event_id(client: HistoricalOddsClient, data_dir: Path, game: dict[str, Any]) -> str:
+    """Resolve one event by exact kickoff, using the immutable events cache first."""
+    cached = _cached_event_id_for(data_dir, game)
+    if cached:
+        return cached
+    payload = client.events(datetime.fromisoformat(game["prediction_time"]))
+    for event in payload.get("data", []):
+        if event.get("commence_time") == game["kickoff_time"] and event.get("id"):
+            return str(event["id"])
+    raise RuntimeError(f"No exact event ID for {game['game_id']} at {game['kickoff_time']}")
+
+
 def download_raw_backfill(data_dir: Path, api_key: str, available_credits: int,
                           force: bool = False) -> Path:
     """Download target snapshots after a full budget check; resume from cache."""
@@ -153,9 +165,7 @@ def download_raw_backfill(data_dir: Path, api_key: str, available_credits: int,
     client = HistoricalOddsClient(api_key, data_dir)
     results = []
     for game in _games(data_dir):
-        event_id = _cached_event_id_for(data_dir, game)
-        if event_id is None:
-            raise RuntimeError(f"No cached event ID for {game['game_id']}; resolve IDs before downloading")
+        event_id = _resolve_event_id(client, data_dir, game)
         payload = client.event_market_odds(event_id, datetime.fromisoformat(game["prediction_time"]), BACKFILL_MARKET, force=force)
         results.append({**game, "event_id": event_id, "returned_snapshot": payload.get("timestamp")})
     output = Path("reports/receptions_backfill_download.json")

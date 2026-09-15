@@ -5,6 +5,7 @@ import pytest
 
 from nfl_td_model.receptions_backfill import (
     BACKFILL_MARKET,
+    _resolve_event_id,
     build_plan,
     request_cache_key,
     require_budget,
@@ -31,3 +32,14 @@ def test_plan_has_target_seasons_and_no_2025_access():
         manifest = json.load(handle)
     assert {row["season"] for row in manifest["games"]} == {2023, 2024}
     assert datetime.now(UTC).year >= 2026
+
+
+def test_event_resolution_requires_exact_kickoff(tmp_path):
+    class FakeClient:
+        def events(self, prediction_time):
+            return {"data": [{"id": "wrong", "commence_time": "2024-09-08T16:01:00+00:00"},
+                              {"id": "right", "commence_time": "2024-09-08T16:00:00+00:00"}]}
+
+    game = {"game_id": "g", "kickoff_time": "2024-09-08T16:00:00+00:00",
+            "prediction_time": "2024-09-08T15:00:00+00:00"}
+    assert _resolve_event_id(FakeClient(), tmp_path, game) == "right"
