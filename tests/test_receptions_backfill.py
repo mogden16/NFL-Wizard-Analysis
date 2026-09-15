@@ -1,11 +1,13 @@
 import json
 from datetime import UTC, datetime
+from pathlib import Path
 
 import pytest
 
 from nfl_td_model.receptions_backfill import (
     BACKFILL_MARKET,
     _resolve_event_id,
+    _cached_event_id_for,
     build_plan,
     request_cache_key,
     require_budget,
@@ -43,3 +45,15 @@ def test_event_resolution_requires_exact_kickoff(tmp_path):
     game = {"game_id": "g", "kickoff_time": "2024-09-08T16:00:00+00:00",
             "prediction_time": "2024-09-08T15:00:00+00:00"}
     assert _resolve_event_id(FakeClient(), tmp_path, game) == "right"
+
+
+def test_cached_event_id_normalizes_z_timestamp(tmp_path: Path) -> None:
+    raw = tmp_path / "raw" / "the_odds_api"
+    raw.mkdir(parents=True)
+    payload = {"timestamp": "2024-09-08T14:59:00Z", "data": [
+        {"id": "event-z", "commence_time": "2024-09-08T16:00:00Z"}
+    ]}
+    (raw / "cached.json").write_text(json.dumps(payload), encoding="utf-8")
+    game = {"kickoff_time": "2024-09-08T16:00:00+00:00",
+            "prediction_time": "2024-09-08T15:00:00+00:00"}
+    assert _cached_event_id_for(tmp_path, game) == "event-z"
