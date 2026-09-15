@@ -19,10 +19,13 @@ from nfl_td_model.phase1 import normalize_name
 from nfl_td_model.usage_props import two_sided_de_vig
 
 
-def _match(name: str, team: str | None, players: dict[str, list[dict[str, Any]]]) -> tuple[str | None, str]:
+def _match(name: str, team: str | None, players: dict[str, list[dict[str, Any]]],
+           allowed_teams: set[str] | None = None) -> tuple[str | None, str]:
     candidates = players.get(normalize_name(name), [])
     if team:
         candidates = [p for p in candidates if p.get("team") in {team, None}]
+    elif allowed_teams:
+        candidates = [p for p in candidates if p.get("team") in allowed_teams]
     ids = {str(p["player_id"]) for p in candidates if p.get("player_id") is not None}
     if len(ids) == 1:
         return next(iter(ids)), "MATCHED"
@@ -42,7 +45,8 @@ def normalize_quotes(
         if row["market"] != "player_receptions" or row["name"] not in {"Over", "Under"}:
             continue
         name = str(row["description"] or "")
-        player_id, status = _match(name, game.get("team"), players)
+        allowed_teams = {str(game.get("home_team")), str(game.get("away_team"))} - {"None"}
+        player_id, status = _match(name, game.get("team"), players, allowed_teams)
         price = int(row["price"])
         result.append({
             "event_id": game.get("event_id"), "game_id": game.get("game_id"),

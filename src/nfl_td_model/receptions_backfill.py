@@ -47,7 +47,7 @@ def _games(data_dir: Path) -> list[dict[str, Any]]:
     games: list[dict[str, Any]] = []
     for season in TARGET_SEASONS:
         frame = pl.read_parquet(_schedule_file(data_dir, season)).filter(pl.col("game_type") == "REG")
-        for row in frame.select("game_id", "season", "week", "gameday", "gametime").to_dicts():
+        for row in frame.select("game_id", "season", "week", "gameday", "gametime", "home_team", "away_team").to_dicts():
             kickoff = datetime.fromisoformat(f"{row['gameday']}T{row['gametime']}").replace(tzinfo=eastern).astimezone(UTC)
             games.append({**row, "kickoff_time": kickoff.isoformat(),
                           "prediction_time": (kickoff - timedelta(minutes=60)).isoformat()})
