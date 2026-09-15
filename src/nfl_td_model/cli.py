@@ -26,7 +26,7 @@ from nfl_td_model.phase6_verify import verify_phase6
 from nfl_td_model.phase7_verify import verify_phase7
 from nfl_td_model.phase45 import build_stage_a
 from nfl_td_model.phase45_settle import settle_stage_b, verify_frozen, verify_settlement
-from nfl_td_model.receptions_backfill import build_plan
+from nfl_td_model.receptions_backfill import build_plan, download_raw_backfill
 from nfl_td_model.storage import connect_catalog
 from nfl_td_model.usage_prop_audit import audit_large_disagreements
 from nfl_td_model.usage_prop_calibration import calibration_report as usage_calibration_report
@@ -46,6 +46,28 @@ def receptions_backfill_plan() -> None:
         f"Receptions backfill: {plan.games} games, {plan.remaining_market_calls} calls, "
         f"{plan.estimated_credits} estimated credits; manifest: {plan.manifest_path}"
     )
+
+
+@app.command("receptions-backfill")
+def receptions_backfill(
+    execute: bool = typer.Option(False, help="Allow network requests; defaults to dry-run."),
+    available_credits: int = typer.Option(0, help="Credits available for the complete run."),
+    force: bool = typer.Option(False, help="Redownload cached requests intentionally."),
+) -> None:
+    """Plan or run the immutable 2023–2024 receptions market backfill."""
+    settings = Settings()
+    plan = build_plan(settings.data_dir, Path("reports"))
+    if not execute:
+        typer.echo(f"DRY RUN: {plan.remaining_market_calls} calls / {plan.estimated_credits} credits")
+        return
+    if not settings.odds_api_key:
+        raise typer.BadParameter("ODDS_API_KEY is required with --execute")
+    try:
+        output = download_raw_backfill(settings.data_dir, settings.odds_api_key, available_credits, force)
+    except (RuntimeError, ValueError) as exc:
+        typer.echo(f"BACKFILL NOT STARTED: {exc}", err=True)
+        raise typer.Exit(code=1) from exc
+    typer.echo(f"Backfill complete: {output}")
 
 
 @app.command()
