@@ -1,0 +1,13 @@
+{
+  "seasons": [
+    2023,
+    2024
+  ],
+  "games": 544,
+  "cached_event_ids": 0,
+  "missing_event_ids": 544,
+  "cached_market_calls": 0,
+  "remaining_market_calls": 544,
+  "estimated_credits": 5440,
+  "manifest_path": "reports\\receptions_backfill_manifest.json"
+}

@@ -26,6 +26,7 @@ from nfl_td_model.phase6_verify import verify_phase6
 from nfl_td_model.phase7_verify import verify_phase7
 from nfl_td_model.phase45 import build_stage_a
 from nfl_td_model.phase45_settle import settle_stage_b, verify_frozen, verify_settlement
+from nfl_td_model.receptions_backfill import build_plan
 from nfl_td_model.storage import connect_catalog
 from nfl_td_model.usage_prop_audit import audit_large_disagreements
 from nfl_td_model.usage_prop_calibration import calibration_report as usage_calibration_report
@@ -35,6 +36,16 @@ from nfl_td_model.usage_props import write_live_report
 from nfl_td_model.verify import verify_phase1
 
 app = typer.Typer(help="NFL touchdown point-in-time research")
+
+
+@app.command("receptions-backfill-plan")
+def receptions_backfill_plan() -> None:
+    """Create a no-network, cache-aware receptions backfill plan."""
+    plan = build_plan(Settings().data_dir, Path("reports"))
+    typer.echo(
+        f"Receptions backfill: {plan.games} games, {plan.remaining_market_calls} calls, "
+        f"{plan.estimated_credits} estimated credits; manifest: {plan.manifest_path}"
+    )
 
 
 @app.command()
