@@ -38,7 +38,7 @@ def test_event_resolution_requires_exact_kickoff(tmp_path):
     class FakeClient:
         def events(self, prediction_time):
             return {"data": [{"id": "wrong", "commence_time": "2024-09-08T16:01:00+00:00"},
-                              {"id": "right", "commence_time": "2024-09-08T16:00:00+00:00"}]}
+                              {"id": "right", "commence_time": "2024-09-08T16:00:00Z"}]}
 
     game = {"game_id": "g", "kickoff_time": "2024-09-08T16:00:00+00:00",
             "prediction_time": "2024-09-08T15:00:00+00:00"}

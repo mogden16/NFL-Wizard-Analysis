@@ -13,7 +13,7 @@ from zoneinfo import ZoneInfo
 
 import polars as pl
 
-from nfl_td_model.odds import HistoricalOddsClient
+from nfl_td_model.odds import HistoricalOddsClient, parse_time
 from nfl_td_model.phase1 import normalize_name
 from nfl_td_model.receptions_market import consensus, normalize_quotes, pair_quotes
 
@@ -78,8 +78,8 @@ def _cached_target_requests(data_dir: Path) -> int:
 
 
 def _cached_event_ids(data_dir: Path, games: list[dict[str, Any]]) -> set[str]:
-    by_kickoff: dict[str, datetime] = {
-        game["kickoff_time"]: datetime.fromisoformat(game["prediction_time"])
+    by_kickoff: dict[datetime, datetime] = {
+        parse_time(game["kickoff_time"]): datetime.fromisoformat(game["prediction_time"])
         for game in games
     }
     found: set[str] = set()
@@ -93,7 +93,11 @@ def _cached_event_ids(data_dir: Path, games: list[dict[str, Any]]) -> set[str]:
         for event in payload["data"]:
             kickoff = event.get("commence_time")
             event_id = event.get("id")
-            cutoff = by_kickoff.get(kickoff)
+            try:
+                kickoff_dt = parse_time(str(kickoff))
+            except (TypeError, ValueError):
+                continue
+            cutoff = by_kickoff.get(kickoff_dt)
             if event_id and cutoff is not None and snapshot <= cutoff:
                 found.add(str(event_id))
     return found
@@ -143,7 +147,11 @@ def _cached_event_id_for(data_dir: Path, game: dict[str, Any]) -> str | None:
         if snapshot > cutoff:
             continue
         for event in payload["data"]:
-            if event.get("commence_time") == game["kickoff_time"] and event.get("id"):
+            try:
+                same_kickoff = parse_time(str(event.get("commence_time"))) == parse_time(game["kickoff_time"])
+            except (TypeError, ValueError):
+                same_kickoff = False
+            if same_kickoff and event.get("id"):
                 return str(event["id"])
     return None
 
@@ -155,7 +163,11 @@ def _resolve_event_id(client: HistoricalOddsClient, data_dir: Path, game: dict[s
         return cached
     payload = client.events(datetime.fromisoformat(game["prediction_time"]))
     for event in payload.get("data", []):
-        if event.get("commence_time") == game["kickoff_time"] and event.get("id"):
+        try:
+            same_kickoff = parse_time(str(event.get("commence_time"))) == parse_time(game["kickoff_time"])
+        except (TypeError, ValueError):
+            same_kickoff = False
+        if same_kickoff and event.get("id"):
             return str(event["id"])
     raise RuntimeError(f"No exact event ID for {game['game_id']} at {game['kickoff_time']}")
 
