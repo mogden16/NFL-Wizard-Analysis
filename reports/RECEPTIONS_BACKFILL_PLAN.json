@@ -4,8 +4,8 @@
     2024
   ],
   "games": 544,
-  "cached_event_ids": 0,
-  "missing_event_ids": 544,
+  "cached_event_ids": 235,
+  "missing_event_ids": 309,
   "cached_market_calls": 0,
   "remaining_market_calls": 544,
   "estimated_credits": 5440,

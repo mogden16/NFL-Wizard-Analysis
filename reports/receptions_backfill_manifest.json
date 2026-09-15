@@ -7,6 +7,8 @@
       "week": 1,
       "gameday": "2023-09-07",
       "gametime": "20:20",
+      "home_team": "KC",
+      "away_team": "DET",
       "kickoff_time": "2023-09-08T00:20:00+00:00",
       "prediction_time": "2023-09-07T23:20:00+00:00"
     },
@@ -16,6 +18,8 @@
       "week": 1,
       "gameday": "2023-09-10",
       "gametime": "13:00",
+      "home_team": "ATL",
+      "away_team": "CAR",
       "kickoff_time": "2023-09-10T17:00:00+00:00",
       "prediction_time": "2023-09-10T16:00:00+00:00"
     },
@@ -25,6 +29,8 @@
       "week": 1,
       "gameday": "2023-09-10",
       "gametime": "13:00",
+      "home_team": "BAL",
+      "away_team": "HOU",
       "kickoff_time": "2023-09-10T17:00:00+00:00",
       "prediction_time": "2023-09-10T16:00:00+00:00"
     },
@@ -34,6 +40,8 @@
       "week": 1,
       "gameday": "2023-09-10",
       "gametime": "13:00",
+      "home_team": "CLE",
+      "away_team": "CIN",
       "kickoff_time": "2023-09-10T17:00:00+00:00",
       "prediction_time": "2023-09-10T16:00:00+00:00"
     },
@@ -43,6 +51,8 @@
       "week": 1,
       "gameday": "2023-09-10",
       "gametime": "13:00",
+      "home_team": "IND",
+      "away_team": "JAX",
       "kickoff_time": "2023-09-10T17:00:00+00:00",
       "prediction_time": "2023-09-10T16:00:00+00:00"
     },
@@ -52,6 +62,8 @@
       "week": 1,
       "gameday": "2023-09-10",
       "gametime": "13:00",
+      "home_team": "MIN",
+      "away_team": "TB",
       "kickoff_time": "2023-09-10T17:00:00+00:00",
       "prediction_time": "2023-09-10T16:00:00+00:00"
     },
@@ -61,6 +73,8 @@
       "week": 1,
       "gameday": "2023-09-10",
       "gametime": "13:00",
+      "home_team": "NO",
+      "away_team": "TEN",
       "kickoff_time": "2023-09-10T17:00:00+00:00",
       "prediction_time": "2023-09-10T16:00:00+00:00"
     },
@@ -70,6 +84,8 @@
       "week": 1,
       "gameday": "2023-09-10",
       "gametime": "13:00",
+      "home_team": "PIT",
+      "away_team": "SF",
       "kickoff_time": "2023-09-10T17:00:00+00:00",
       "prediction_time": "2023-09-10T16:00:00+00:00"
     },
@@ -79,6 +95,8 @@
       "week": 1,
       "gameday": "2023-09-10",
       "gametime": "13:00",
+      "home_team": "WAS",
+      "away_team": "ARI",
       "kickoff_time": "2023-09-10T17:00:00+00:00",
       "prediction_time": "2023-09-10T16:00:00+00:00"
     },
@@ -88,6 +106,8 @@
       "week": 1,
       "gameday": "2023-09-10",
       "gametime": "16:25",
+      "home_team": "CHI",
+      "away_team": "GB",
       "kickoff_time": "2023-09-10T20:25:00+00:00",
       "prediction_time": "2023-09-10T19:25:00+00:00"
     },
@@ -97,6 +117,8 @@
       "week": 1,
       "gameday": "2023-09-10",
       "gametime": "16:25",
+      "home_team": "DEN",
+      "away_team": "LV",
       "kickoff_time": "2023-09-10T20:25:00+00:00",
       "prediction_time": "2023-09-10T19:25:00+00:00"
     },
@@ -106,6 +128,8 @@
       "week": 1,
       "gameday": "2023-09-10",
       "gametime": "16:25",
+      "home_team": "LAC",
+      "away_team": "MIA",
       "kickoff_time": "2023-09-10T20:25:00+00:00",
       "prediction_time": "2023-09-10T19:25:00+00:00"
     },
@@ -115,6 +139,8 @@
       "week": 1,
       "gameday": "2023-09-10",
       "gametime": "16:25",
+      "home_team": "NE",
+      "away_team": "PHI",
       "kickoff_time": "2023-09-10T20:25:00+00:00",
       "prediction_time": "2023-09-10T19:25:00+00:00"
     },
@@ -124,6 +150,8 @@
       "week": 1,
       "gameday": "2023-09-10",
       "gametime": "16:25",
+      "home_team": "SEA",
+      "away_team": "LA",
       "kickoff_time": "2023-09-10T20:25:00+00:00",
       "prediction_time": "2023-09-10T19:25:00+00:00"
     },
@@ -133,6 +161,8 @@
       "week": 1,
       "gameday": "2023-09-10",
       "gametime": "20:20",
+      "home_team": "NYG",
+      "away_team": "DAL",
       "kickoff_time": "2023-09-11T00:20:00+00:00",
       "prediction_time": "2023-09-10T23:20:00+00:00"
     },
@@ -142,6 +172,8 @@
       "week": 1,
       "gameday": "2023-09-11",
       "gametime": "20:15",
+      "home_team": "NYJ",
+      "away_team": "BUF",
       "kickoff_time": "2023-09-12T00:15:00+00:00",
       "prediction_time": "2023-09-11T23:15:00+00:00"
     },
@@ -151,6 +183,8 @@
       "week": 2,
       "gameday": "2023-09-14",
       "gametime": "20:15",
+      "home_team": "PHI",
+      "away_team": "MIN",
       "kickoff_time": "2023-09-15T00:15:00+00:00",
       "prediction_time": "2023-09-14T23:15:00+00:00"
     },
@@ -160,6 +194,8 @@
       "week": 2,
       "gameday": "2023-09-17",
       "gametime": "13:00",
+      "home_team": "ATL",
+      "away_team": "GB",
       "kickoff_time": "2023-09-17T17:00:00+00:00",
       "prediction_time": "2023-09-17T16:00:00+00:00"
     },
@@ -169,6 +205,8 @@
       "week": 2,
       "gameday": "2023-09-17",
       "gametime": "13:00",
+      "home_team": "BUF",
+      "away_team": "LV",
       "kickoff_time": "2023-09-17T17:00:00+00:00",
       "prediction_time": "2023-09-17T16:00:00+00:00"
     },
@@ -178,6 +216,8 @@
       "week": 2,
       "gameday": "2023-09-17",
       "gametime": "13:00",
+      "home_team": "CIN",
+      "away_team": "BAL",
       "kickoff_time": "2023-09-17T17:00:00+00:00",
       "prediction_time": "2023-09-17T16:00:00+00:00"
     },
@@ -187,6 +227,8 @@
       "week": 2,
       "gameday": "2023-09-17",
       "gametime": "13:00",
+      "home_team": "DET",
+      "away_team": "SEA",
       "kickoff_time": "2023-09-17T17:00:00+00:00",
       "prediction_time": "2023-09-17T16:00:00+00:00"
     },
@@ -196,6 +238,8 @@
       "week": 2,
       "gameday": "2023-09-17",
       "gametime": "13:00",
+      "home_team": "HOU",
+      "away_team": "IND",
       "kickoff_time": "2023-09-17T17:00:00+00:00",
       "prediction_time": "2023-09-17T16:00:00+00:00"
     },
@@ -205,6 +249,8 @@
       "week": 2,
       "gameday": "2023-09-17",
       "gametime": "13:00",
+      "home_team": "JAX",
+      "away_team": "KC",
       "kickoff_time": "2023-09-17T17:00:00+00:00",
       "prediction_time": "2023-09-17T16:00:00+00:00"
     },
@@ -214,6 +260,8 @@
       "week": 2,
       "gameday": "2023-09-17",
       "gametime": "13:00",
+      "home_team": "TB",
+      "away_team": "CHI",
       "kickoff_time": "2023-09-17T17:00:00+00:00",
       "prediction_time": "2023-09-17T16:00:00+00:00"
     },
@@ -223,6 +271,8 @@
       "week": 2,
       "gameday": "2023-09-17",
       "gametime": "13:00",
+      "home_team": "TEN",
+      "away_team": "LAC",
       "kickoff_time": "2023-09-17T17:00:00+00:00",
       "prediction_time": "2023-09-17T16:00:00+00:00"
     },
@@ -232,6 +282,8 @@
       "week": 2,
       "gameday": "2023-09-17",
       "gametime": "16:05",
+      "home_team": "ARI",
+      "away_team": "NYG",
       "kickoff_time": "2023-09-17T20:05:00+00:00",
       "prediction_time": "2023-09-17T19:05:00+00:00"
     },
@@ -241,6 +293,8 @@
       "week": 2,
       "gameday": "2023-09-17",
       "gametime": "16:05",
+      "home_team": "LA",
+      "away_team": "SF",
       "kickoff_time": "2023-09-17T20:05:00+00:00",
       "prediction_time": "2023-09-17T19:05:00+00:00"
     },
@@ -250,6 +304,8 @@
       "week": 2,
       "gameday": "2023-09-17",
       "gametime": "16:25",
+      "home_team": "DAL",
+      "away_team": "NYJ",
       "kickoff_time": "2023-09-17T20:25:00+00:00",
       "prediction_time": "2023-09-17T19:25:00+00:00"
     },
@@ -259,6 +315,8 @@
       "week": 2,
       "gameday": "2023-09-17",
       "gametime": "16:25",
+      "home_team": "DEN",
+      "away_team": "WAS",
       "kickoff_time": "2023-09-17T20:25:00+00:00",
       "prediction_time": "2023-09-17T19:25:00+00:00"
     },
@@ -268,6 +326,8 @@
       "week": 2,
       "gameday": "2023-09-17",
       "gametime": "20:20",
+      "home_team": "NE",
+      "away_team": "MIA",
       "kickoff_time": "2023-09-18T00:20:00+00:00",
       "prediction_time": "2023-09-17T23:20:00+00:00"
     },
@@ -277,6 +337,8 @@
       "week": 2,
       "gameday": "2023-09-18",
       "gametime": "19:15",
+      "home_team": "CAR",
+      "away_team": "NO",
       "kickoff_time": "2023-09-18T23:15:00+00:00",
       "prediction_time": "2023-09-18T22:15:00+00:00"
     },
@@ -286,6 +348,8 @@
       "week": 2,
       "gameday": "2023-09-18",
       "gametime": "20:15",
+      "home_team": "PIT",
+      "away_team": "CLE",
       "kickoff_time": "2023-09-19T00:15:00+00:00",
       "prediction_time": "2023-09-18T23:15:00+00:00"
     },
@@ -295,6 +359,8 @@
       "week": 3,
       "gameday": "2023-09-21",
       "gametime": "20:15",
+      "home_team": "SF",
+      "away_team": "NYG",
       "kickoff_time": "2023-09-22T00:15:00+00:00",
       "prediction_time": "2023-09-21T23:15:00+00:00"
     },
@@ -304,6 +370,8 @@
       "week": 3,
       "gameday": "2023-09-24",
       "gametime": "13:00",
+      "home_team": "BAL",
+      "away_team": "IND",
       "kickoff_time": "2023-09-24T17:00:00+00:00",
       "prediction_time": "2023-09-24T16:00:00+00:00"
     },
@@ -313,6 +381,8 @@
       "week": 3,
       "gameday": "2023-09-24",
       "gametime": "13:00",
+      "home_team": "CLE",
+      "away_team": "TEN",
       "kickoff_time": "2023-09-24T17:00:00+00:00",
       "prediction_time": "2023-09-24T16:00:00+00:00"
     },
@@ -322,6 +392,8 @@
       "week": 3,
       "gameday": "2023-09-24",
       "gametime": "13:00",
+      "home_team": "DET",
+      "away_team": "ATL",
       "kickoff_time": "2023-09-24T17:00:00+00:00",
       "prediction_time": "2023-09-24T16:00:00+00:00"
     },
@@ -331,6 +403,8 @@
       "week": 3,
       "gameday": "2023-09-24",
       "gametime": "13:00",
+      "home_team": "GB",
+      "away_team": "NO",
       "kickoff_time": "2023-09-24T17:00:00+00:00",
       "prediction_time": "2023-09-24T16:00:00+00:00"
     },
@@ -340,6 +414,8 @@
       "week": 3,
       "gameday": "2023-09-24",
       "gametime": "13:00",
+      "home_team": "JAX",
+      "away_team": "HOU",
       "kickoff_time": "2023-09-24T17:00:00+00:00",
       "prediction_time": "2023-09-24T16:00:00+00:00"
     },
@@ -349,6 +425,8 @@
       "week": 3,
       "gameday": "2023-09-24",
       "gametime": "13:00",
+      "home_team": "MIA",
+      "away_team": "DEN",
       "kickoff_time": "2023-09-24T17:00:00+00:00",
       "prediction_time": "2023-09-24T16:00:00+00:00"
     },
@@ -358,6 +436,8 @@
       "week": 3,
       "gameday": "2023-09-24",
       "gametime": "13:00",
+      "home_team": "MIN",
+      "away_team": "LAC",
       "kickoff_time": "2023-09-24T17:00:00+00:00",
       "prediction_time": "2023-09-24T16:00:00+00:00"
     },
@@ -367,6 +447,8 @@
       "week": 3,
       "gameday": "2023-09-24",
       "gametime": "13:00",
+      "home_team": "NYJ",
+      "away_team": "NE",
       "kickoff_time": "2023-09-24T17:00:00+00:00",
       "prediction_time": "2023-09-24T16:00:00+00:00"
     },
@@ -376,6 +458,8 @@
       "week": 3,
       "gameday": "2023-09-24",
       "gametime": "13:00",
+      "home_team": "WAS",
+      "away_team": "BUF",
       "kickoff_time": "2023-09-24T17:00:00+00:00",
       "prediction_time": "2023-09-24T16:00:00+00:00"
     },
@@ -385,6 +469,8 @@
       "week": 3,
       "gameday": "2023-09-24",
       "gametime": "16:05",
+      "home_team": "SEA",
+      "away_team": "CAR",
       "kickoff_time": "2023-09-24T20:05:00+00:00",
       "prediction_time": "2023-09-24T19:05:00+00:00"
     },
@@ -394,6 +480,8 @@
       "week": 3,
       "gameday": "2023-09-24",
       "gametime": "16:25",
+      "home_team": "ARI",
+      "away_team": "DAL",
       "kickoff_time": "2023-09-24T20:25:00+00:00",
       "prediction_time": "2023-09-24T19:25:00+00:00"
     },
@@ -403,6 +491,8 @@
       "week": 3,
       "gameday": "2023-09-24",
       "gametime": "16:25",
+      "home_team": "KC",
+      "away_team": "CHI",
       "kickoff_time": "2023-09-24T20:25:00+00:00",
       "prediction_time": "2023-09-24T19:25:00+00:00"
     },
@@ -412,6 +502,8 @@
       "week": 3,
       "gameday": "2023-09-24",
       "gametime": "20:20",
+      "home_team": "LV",
+      "away_team": "PIT",
       "kickoff_time": "2023-09-25T00:20:00+00:00",
       "prediction_time": "2023-09-24T23:20:00+00:00"
     },
@@ -421,6 +513,8 @@
       "week": 3,
       "gameday": "2023-09-25",
       "gametime": "19:15",
+      "home_team": "TB",
+      "away_team": "PHI",
       "kickoff_time": "2023-09-25T23:15:00+00:00",
       "prediction_time": "2023-09-25T22:15:00+00:00"
     },
@@ -430,6 +524,8 @@
       "week": 3,
       "gameday": "2023-09-25",
       "gametime": "20:15",
+      "home_team": "CIN",
+      "away_team": "LA",
       "kickoff_time": "2023-09-26T00:15:00+00:00",
       "prediction_time": "2023-09-25T23:15:00+00:00"
     },
@@ -439,6 +535,8 @@
       "week": 4,
       "gameday": "2023-09-28",
       "gametime": "20:15",
+      "home_team": "GB",
+      "away_team": "DET",
       "kickoff_time": "2023-09-29T00:15:00+00:00",
       "prediction_time": "2023-09-28T23:15:00+00:00"
     },
@@ -448,6 +546,8 @@
       "week": 4,
       "gameday": "2023-10-01",
       "gametime": "09:30",
+      "home_team": "JAX",
+      "away_team": "ATL",
       "kickoff_time": "2023-10-01T13:30:00+00:00",
       "prediction_time": "2023-10-01T12:30:00+00:00"
     },
@@ -457,6 +557,8 @@
       "week": 4,
       "gameday": "2023-10-01",
       "gametime": "13:00",
+      "home_team": "BUF",
+      "away_team": "MIA",
       "kickoff_time": "2023-10-01T17:00:00+00:00",
       "prediction_time": "2023-10-01T16:00:00+00:00"
     },
@@ -466,6 +568,8 @@
       "week": 4,
       "gameday": "2023-10-01",
       "gametime": "13:00",
+      "home_team": "CAR",
+      "away_team": "MIN",
       "kickoff_time": "2023-10-01T17:00:00+00:00",
       "prediction_time": "2023-10-01T16:00:00+00:00"
     },
@@ -475,6 +579,8 @@
       "week": 4,
       "gameday": "2023-10-01",
       "gametime": "13:00",
+      "home_team": "CHI",
+      "away_team": "DEN",
       "kickoff_time": "2023-10-01T17:00:00+00:00",
       "prediction_time": "2023-10-01T16:00:00+00:00"
     },
@@ -484,6 +590,8 @@
       "week": 4,
       "gameday": "2023-10-01",
       "gametime": "13:00",
+      "home_team": "CLE",
+      "away_team": "BAL",
       "kickoff_time": "2023-10-01T17:00:00+00:00",
       "prediction_time": "2023-10-01T16:00:00+00:00"
     },
@@ -493,6 +601,8 @@
       "week": 4,
       "gameday": "2023-10-01",
       "gametime": "13:00",
+      "home_team": "HOU",
+      "away_team": "PIT",
       "kickoff_time": "2023-10-01T17:00:00+00:00",
       "prediction_time": "2023-10-01T16:00:00+00:00"
     },
@@ -502,6 +612,8 @@
       "week": 4,
       "gameday": "2023-10-01",
       "gametime": "13:00",
+      "home_team": "IND",
+      "away_team": "LA",
       "kickoff_time": "2023-10-01T17:00:00+00:00",
       "prediction_time": "2023-10-01T16:00:00+00:00"
     },
@@ -511,6 +623,8 @@
       "week": 4,
       "gameday": "2023-10-01",
       "gametime": "13:00",
+      "home_team": "NO",
+      "away_team": "TB",
       "kickoff_time": "2023-10-01T17:00:00+00:00",
       "prediction_time": "2023-10-01T16:00:00+00:00"
     },
@@ -520,6 +634,8 @@
       "week": 4,
       "gameday": "2023-10-01",
       "gametime": "13:00",
+      "home_team": "PHI",
+      "away_team": "WAS",
       "kickoff_time": "2023-10-01T17:00:00+00:00",
       "prediction_time": "2023-10-01T16:00:00+00:00"
     },
@@ -529,6 +645,8 @@
       "week": 4,
       "gameday": "2023-10-01",
       "gametime": "13:00",
+      "home_team": "TEN",
+      "away_team": "CIN",
       "kickoff_time": "2023-10-01T17:00:00+00:00",
       "prediction_time": "2023-10-01T16:00:00+00:00"
     },
@@ -538,6 +656,8 @@
       "week": 4,
       "gameday": "2023-10-01",
       "gametime": "16:05",
+      "home_team": "LAC",
+      "away_team": "LV",
       "kickoff_time": "2023-10-01T20:05:00+00:00",
       "prediction_time": "2023-10-01T19:05:00+00:00"
     },
@@ -547,6 +667,8 @@
       "week": 4,
       "gameday": "2023-10-01",
       "gametime": "16:25",
+      "home_team": "DAL",
+      "away_team": "NE",
       "kickoff_time": "2023-10-01T20:25:00+00:00",
       "prediction_time": "2023-10-01T19:25:00+00:00"
     },
@@ -556,6 +678,8 @@
       "week": 4,
       "gameday": "2023-10-01",
       "gametime": "16:25",
+      "home_team": "SF",
+      "away_team": "ARI",
       "kickoff_time": "2023-10-01T20:25:00+00:00",
       "prediction_time": "2023-10-01T19:25:00+00:00"
     },
@@ -565,6 +689,8 @@
       "week": 4,
       "gameday": "2023-10-01",
       "gametime": "20:20",
+      "home_team": "NYJ",
+      "away_team": "KC",
       "kickoff_time": "2023-10-02T00:20:00+00:00",
       "prediction_time": "2023-10-01T23:20:00+00:00"
     },
@@ -574,6 +700,8 @@
       "week": 4,
       "gameday": "2023-10-02",
       "gametime": "20:15",
+      "home_team": "NYG",
+      "away_team": "SEA",
       "kickoff_time": "2023-10-03T00:15:00+00:00",
       "prediction_time": "2023-10-02T23:15:00+00:00"
     },
@@ -583,6 +711,8 @@
       "week": 5,
       "gameday": "2023-10-05",
       "gametime": "20:15",
+      "home_team": "WAS",
+      "away_team": "CHI",
       "kickoff_time": "2023-10-06T00:15:00+00:00",
       "prediction_time": "2023-10-05T23:15:00+00:00"
     },
@@ -592,6 +722,8 @@
       "week": 5,
       "gameday": "2023-10-08",
       "gametime": "09:30",
+      "home_team": "BUF",
+      "away_team": "JAX",
       "kickoff_time": "2023-10-08T13:30:00+00:00",
       "prediction_time": "2023-10-08T12:30:00+00:00"
     },
@@ -601,6 +733,8 @@
       "week": 5,
       "gameday": "2023-10-08",
       "gametime": "13:00",
+      "home_team": "ATL",
+      "away_team": "HOU",
       "kickoff_time": "2023-10-08T17:00:00+00:00",
       "prediction_time": "2023-10-08T16:00:00+00:00"
     },
@@ -610,6 +744,8 @@
       "week": 5,
       "gameday": "2023-10-08",
       "gametime": "13:00",
+      "home_team": "DET",
+      "away_team": "CAR",
       "kickoff_time": "2023-10-08T17:00:00+00:00",
       "prediction_time": "2023-10-08T16:00:00+00:00"
     },
@@ -619,6 +755,8 @@
       "week": 5,
       "gameday": "2023-10-08",
       "gametime": "13:00",
+      "home_team": "IND",
+      "away_team": "TEN",
       "kickoff_time": "2023-10-08T17:00:00+00:00",
       "prediction_time": "2023-10-08T16:00:00+00:00"
     },
@@ -628,6 +766,8 @@
       "week": 5,
       "gameday": "2023-10-08",
       "gametime": "13:00",
+      "home_team": "MIA",
+      "away_team": "NYG",
       "kickoff_time": "2023-10-08T17:00:00+00:00",
       "prediction_time": "2023-10-08T16:00:00+00:00"
     },
@@ -637,6 +777,8 @@
       "week": 5,
       "gameday": "2023-10-08",
       "gametime": "13:00",
+      "home_team": "NE",
+      "away_team": "NO",
       "kickoff_time": "2023-10-08T17:00:00+00:00",
       "prediction_time": "2023-10-08T16:00:00+00:00"
     },
@@ -646,6 +788,8 @@
       "week": 5,
       "gameday": "2023-10-08",
       "gametime": "13:00",
+      "home_team": "PIT",
+      "away_team": "BAL",
       "kickoff_time": "2023-10-08T17:00:00+00:00",
       "prediction_time": "2023-10-08T16:00:00+00:00"
     },
@@ -655,6 +799,8 @@
       "week": 5,
       "gameday": "2023-10-08",
       "gametime": "16:05",
+      "home_team": "ARI",
+      "away_team": "CIN",
       "kickoff_time": "2023-10-08T20:05:00+00:00",
       "prediction_time": "2023-10-08T19:05:00+00:00"
     },
@@ -664,6 +810,8 @@
       "week": 5,
       "gameday": "2023-10-08",
       "gametime": "16:05",
+      "home_team": "LA",
+      "away_team": "PHI",
       "kickoff_time": "2023-10-08T20:05:00+00:00",
       "prediction_time": "2023-10-08T19:05:00+00:00"
     },
@@ -673,6 +821,8 @@
       "week": 5,
       "gameday": "2023-10-08",
       "gametime": "16:25",
+      "home_team": "DEN",
+      "away_team": "NYJ",
       "kickoff_time": "2023-10-08T20:25:00+00:00",
       "prediction_time": "2023-10-08T19:25:00+00:00"
     },
@@ -682,6 +832,8 @@
       "week": 5,
       "gameday": "2023-10-08",
       "gametime": "16:25",
+      "home_team": "MIN",
+      "away_team": "KC",
       "kickoff_time": "2023-10-08T20:25:00+00:00",
       "prediction_time": "2023-10-08T19:25:00+00:00"
     },
@@ -691,6 +843,8 @@
       "week": 5,
       "gameday": "2023-10-08",
       "gametime": "20:20",
+      "home_team": "SF",
+      "away_team": "DAL",
       "kickoff_time": "2023-10-09T00:20:00+00:00",
       "prediction_time": "2023-10-08T23:20:00+00:00"
     },
@@ -700,6 +854,8 @@
       "week": 5,
       "gameday": "2023-10-09",
       "gametime": "20:15",
+      "home_team": "LV",
+      "away_team": "GB",
       "kickoff_time": "2023-10-10T00:15:00+00:00",
       "prediction_time": "2023-10-09T23:15:00+00:00"
     },
@@ -709,6 +865,8 @@
       "week": 6,
       "gameday": "2023-10-12",
       "gametime": "20:15",
+      "home_team": "KC",
+      "away_team": "DEN",
       "kickoff_time": "2023-10-13T00:15:00+00:00",
       "prediction_time": "2023-10-12T23:15:00+00:00"
     },
@@ -718,6 +876,8 @@
       "week": 6,
       "gameday": "2023-10-15",
       "gametime": "09:30",
+      "home_team": "TEN",
+      "away_team": "BAL",
       "kickoff_time": "2023-10-15T13:30:00+00:00",
       "prediction_time": "2023-10-15T12:30:00+00:00"
     },
@@ -727,6 +887,8 @@
       "week": 6,
       "gameday": "2023-10-15",
       "gametime": "13:00",
+      "home_team": "ATL",
+      "away_team": "WAS",
       "kickoff_time": "2023-10-15T17:00:00+00:00",
       "prediction_time": "2023-10-15T16:00:00+00:00"
     },
@@ -736,6 +898,8 @@
       "week": 6,
       "gameday": "2023-10-15",
       "gametime": "13:00",
+      "home_team": "CHI",
+      "away_team": "MIN",
       "kickoff_time": "2023-10-15T17:00:00+00:00",
       "prediction_time": "2023-10-15T16:00:00+00:00"
     },
@@ -745,6 +909,8 @@
       "week": 6,
       "gameday": "2023-10-15",
       "gametime": "13:00",
+      "home_team": "CIN",
+      "away_team": "SEA",
       "kickoff_time": "2023-10-15T17:00:00+00:00",
       "prediction_time": "2023-10-15T16:00:00+00:00"
     },
@@ -754,6 +920,8 @@
       "week": 6,
       "gameday": "2023-10-15",
       "gametime": "13:00",
+      "home_team": "CLE",
+      "away_team": "SF",
       "kickoff_time": "2023-10-15T17:00:00+00:00",
       "prediction_time": "2023-10-15T16:00:00+00:00"
     },
@@ -763,6 +931,8 @@
       "week": 6,
       "gameday": "2023-10-15",
       "gametime": "13:00",
+      "home_team": "HOU",
+      "away_team": "NO",
       "kickoff_time": "2023-10-15T17:00:00+00:00",
       "prediction_time": "2023-10-15T16:00:00+00:00"
     },
@@ -772,6 +942,8 @@
       "week": 6,
       "gameday": "2023-10-15",
       "gametime": "13:00",
+      "home_team": "JAX",
+      "away_team": "IND",
       "kickoff_time": "2023-10-15T17:00:00+00:00",
       "prediction_time": "2023-10-15T16:00:00+00:00"
     },
@@ -781,6 +953,8 @@
       "week": 6,
       "gameday": "2023-10-15",
       "gametime": "13:00",
+      "home_team": "MIA",
+      "away_team": "CAR",
       "kickoff_time": "2023-10-15T17:00:00+00:00",
       "prediction_time": "2023-10-15T16:00:00+00:00"
     },
@@ -790,6 +964,8 @@
       "week": 6,
       "gameday": "2023-10-15",
       "gametime": "16:05",
+      "home_team": "LV",
+      "away_team": "NE",
       "kickoff_time": "2023-10-15T20:05:00+00:00",
       "prediction_time": "2023-10-15T19:05:00+00:00"
     },
@@ -799,6 +975,8 @@
       "week": 6,
       "gameday": "2023-10-15",
       "gametime": "16:25",
+      "home_team": "LA",
+      "away_team": "ARI",
       "kickoff_time": "2023-10-15T20:25:00+00:00",
       "prediction_time": "2023-10-15T19:25:00+00:00"
     },
@@ -808,6 +986,8 @@
       "week": 6,
       "gameday": "2023-10-15",
       "gametime": "16:25",
+      "home_team": "NYJ",
+      "away_team": "PHI",
       "kickoff_time": "2023-10-15T20:25:00+00:00",
       "prediction_time": "2023-10-15T19:25:00+00:00"
     },
@@ -817,6 +997,8 @@
       "week": 6,
       "gameday": "2023-10-15",
       "gametime": "16:25",
+      "home_team": "TB",
+      "away_team": "DET",
       "kickoff_time": "2023-10-15T20:25:00+00:00",
       "prediction_time": "2023-10-15T19:25:00+00:00"
     },
@@ -826,6 +1008,8 @@
       "week": 6,
       "gameday": "2023-10-15",
       "gametime": "20:20",
+      "home_team": "BUF",
+      "away_team": "NYG",
       "kickoff_time": "2023-10-16T00:20:00+00:00",
       "prediction_time": "2023-10-15T23:20:00+00:00"
     },
@@ -835,6 +1019,8 @@
       "week": 6,
       "gameday": "2023-10-16",
       "gametime": "20:15",
+      "home_team": "LAC",
+      "away_team": "DAL",
       "kickoff_time": "2023-10-17T00:15:00+00:00",
       "prediction_time": "2023-10-16T23:15:00+00:00"
     },
@@ -844,6 +1030,8 @@
       "week": 7,
       "gameday": "2023-10-19",
       "gametime": "20:15",
+      "home_team": "NO",
+      "away_team": "JAX",
       "kickoff_time": "2023-10-20T00:15:00+00:00",
       "prediction_time": "2023-10-19T23:15:00+00:00"
     },
@@ -853,6 +1041,8 @@
       "week": 7,
       "gameday": "2023-10-22",
       "gametime": "13:00",
+      "home_team": "BAL",
+      "away_team": "DET",
       "kickoff_time": "2023-10-22T17:00:00+00:00",
       "prediction_time": "2023-10-22T16:00:00+00:00"
     },
@@ -862,6 +1052,8 @@
       "week": 7,
       "gameday": "2023-10-22",
       "gametime": "13:00",
+      "home_team": "CHI",
+      "away_team": "LV",
       "kickoff_time": "2023-10-22T17:00:00+00:00",
       "prediction_time": "2023-10-22T16:00:00+00:00"
     },
@@ -871,6 +1063,8 @@
       "week": 7,
       "gameday": "2023-10-22",
       "gametime": "13:00",
+      "home_team": "IND",
+      "away_team": "CLE",
       "kickoff_time": "2023-10-22T17:00:00+00:00",
       "prediction_time": "2023-10-22T16:00:00+00:00"
     },
@@ -880,6 +1074,8 @@
       "week": 7,
       "gameday": "2023-10-22",
       "gametime": "13:00",
+      "home_team": "NE",
+      "away_team": "BUF",
       "kickoff_time": "2023-10-22T17:00:00+00:00",
       "prediction_time": "2023-10-22T16:00:00+00:00"
     },
@@ -889,6 +1085,8 @@
       "week": 7,
       "gameday": "2023-10-22",
       "gametime": "13:00",
+      "home_team": "NYG",
+      "away_team": "WAS",
       "kickoff_time": "2023-10-22T17:00:00+00:00",
       "prediction_time": "2023-10-22T16:00:00+00:00"
     },
@@ -898,6 +1096,8 @@
       "week": 7,
       "gameday": "2023-10-22",
       "gametime": "13:00",
+      "home_team": "TB",
+      "away_team": "ATL",
       "kickoff_time": "2023-10-22T17:00:00+00:00",
       "prediction_time": "2023-10-22T16:00:00+00:00"
     },
@@ -907,6 +1107,8 @@
       "week": 7,
       "gameday": "2023-10-22",
       "gametime": "16:05",
+      "home_team": "LA",
+      "away_team": "PIT",
       "kickoff_time": "2023-10-22T20:05:00+00:00",
       "prediction_time": "2023-10-22T19:05:00+00:00"
     },
@@ -916,6 +1118,8 @@
       "week": 7,
       "gameday": "2023-10-22",
       "gametime": "16:05",
+      "home_team": "SEA",
+      "away_team": "ARI",
       "kickoff_time": "2023-10-22T20:05:00+00:00",
       "prediction_time": "2023-10-22T19:05:00+00:00"
     },
@@ -925,6 +1129,8 @@
       "week": 7,
       "gameday": "2023-10-22",
       "gametime": "16:25",
+      "home_team": "DEN",
+      "away_team": "GB",
       "kickoff_time": "2023-10-22T20:25:00+00:00",
       "prediction_time": "2023-10-22T19:25:00+00:00"
     },
@@ -934,6 +1140,8 @@
       "week": 7,
       "gameday": "2023-10-22",
       "gametime": "16:25",
+      "home_team": "KC",
+      "away_team": "LAC",
       "kickoff_time": "2023-10-22T20:25:00+00:00",
       "prediction_time": "2023-10-22T19:25:00+00:00"
     },
@@ -943,6 +1151,8 @@
       "week": 7,
       "gameday": "2023-10-22",
       "gametime": "20:20",
+      "home_team": "PHI",
+      "away_team": "MIA",
       "kickoff_time": "2023-10-23T00:20:00+00:00",
       "prediction_time": "2023-10-22T23:20:00+00:00"
     },
@@ -952,6 +1162,8 @@
       "week": 7,
       "gameday": "2023-10-23",
       "gametime": "20:15",
+      "home_team": "MIN",
+      "away_team": "SF",
       "kickoff_time": "2023-10-24T00:15:00+00:00",
       "prediction_time": "2023-10-23T23:15:00+00:00"
     },
@@ -961,6 +1173,8 @@
       "week": 8,
       "gameday": "2023-10-26",
       "gametime": "20:15",
+      "home_team": "BUF",
+      "away_team": "TB",
       "kickoff_time": "2023-10-27T00:15:00+00:00",
       "prediction_time": "2023-10-26T23:15:00+00:00"
     },
@@ -970,6 +1184,8 @@
       "week": 8,
       "gameday": "2023-10-29",
       "gametime": "13:00",
+      "home_team": "CAR",
+      "away_team": "HOU",
       "kickoff_time": "2023-10-29T17:00:00+00:00",
       "prediction_time": "2023-10-29T16:00:00+00:00"
     },
@@ -979,6 +1195,8 @@
       "week": 8,
       "gameday": "2023-10-29",
       "gametime": "13:00",
+      "home_team": "DAL",
+      "away_team": "LA",
       "kickoff_time": "2023-10-29T17:00:00+00:00",
       "prediction_time": "2023-10-29T16:00:00+00:00"
     },
@@ -988,6 +1206,8 @@
       "week": 8,
       "gameday": "2023-10-29",
       "gametime": "13:00",
+      "home_team": "GB",
+      "away_team": "MIN",
       "kickoff_time": "2023-10-29T17:00:00+00:00",
       "prediction_time": "2023-10-29T16:00:00+00:00"
     },
@@ -997,6 +1217,8 @@
       "week": 8,
       "gameday": "2023-10-29",
       "gametime": "13:00",
+      "home_team": "IND",
+      "away_team": "NO",
       "kickoff_time": "2023-10-29T17:00:00+00:00",
       "prediction_time": "2023-10-29T16:00:00+00:00"
     },
@@ -1006,6 +1228,8 @@
       "week": 8,
       "gameday": "2023-10-29",
       "gametime": "13:00",
+      "home_team": "MIA",
+      "away_team": "NE",
       "kickoff_time": "2023-10-29T17:00:00+00:00",
       "prediction_time": "2023-10-29T16:00:00+00:00"
     },
@@ -1015,6 +1239,8 @@
       "week": 8,
       "gameday": "2023-10-29",
       "gametime": "13:00",
+      "home_team": "NYG",
+      "away_team": "NYJ",
       "kickoff_time": "2023-10-29T17:00:00+00:00",
       "prediction_time": "2023-10-29T16:00:00+00:00"
     },
@@ -1024,6 +1250,8 @@
       "week": 8,
       "gameday": "2023-10-29",
       "gametime": "13:00",
+      "home_team": "PIT",
+      "away_team": "JAX",
       "kickoff_time": "2023-10-29T17:00:00+00:00",
       "prediction_time": "2023-10-29T16:00:00+00:00"
     },
@@ -1033,6 +1261,8 @@
       "week": 8,
       "gameday": "2023-10-29",
       "gametime": "13:00",
+      "home_team": "TEN",
+      "away_team": "ATL",
       "kickoff_time": "2023-10-29T17:00:00+00:00",
       "prediction_time": "2023-10-29T16:00:00+00:00"
     },
@@ -1042,6 +1272,8 @@
       "week": 8,
       "gameday": "2023-10-29",
       "gametime": "13:00",
+      "home_team": "WAS",
+      "away_team": "PHI",
       "kickoff_time": "2023-10-29T17:00:00+00:00",
       "prediction_time": "2023-10-29T16:00:00+00:00"
     },
@@ -1051,6 +1283,8 @@
       "week": 8,
       "gameday": "2023-10-29",
       "gametime": "16:05",
+      "home_team": "SEA",
+      "away_team": "CLE",
       "kickoff_time": "2023-10-29T20:05:00+00:00",
       "prediction_time": "2023-10-29T19:05:00+00:00"
     },
@@ -1060,6 +1294,8 @@
       "week": 8,
       "gameday": "2023-10-29",
       "gametime": "16:25",
+      "home_team": "ARI",
+      "away_team": "BAL",
       "kickoff_time": "2023-10-29T20:25:00+00:00",
       "prediction_time": "2023-10-29T19:25:00+00:00"
     },
@@ -1069,6 +1305,8 @@
       "week": 8,
       "gameday": "2023-10-29",
       "gametime": "16:25",
+      "home_team": "DEN",
+      "away_team": "KC",
       "kickoff_time": "2023-10-29T20:25:00+00:00",
       "prediction_time": "2023-10-29T19:25:00+00:00"
     },
@@ -1078,6 +1316,8 @@
       "week": 8,
       "gameday": "2023-10-29",
       "gametime": "16:25",
+      "home_team": "SF",
+      "away_team": "CIN",
       "kickoff_time": "2023-10-29T20:25:00+00:00",
       "prediction_time": "2023-10-29T19:25:00+00:00"
     },
@@ -1087,6 +1327,8 @@
       "week": 8,
       "gameday": "2023-10-29",
       "gametime": "20:20",
+      "home_team": "LAC",
+      "away_team": "CHI",
       "kickoff_time": "2023-10-30T00:20:00+00:00",
       "prediction_time": "2023-10-29T23:20:00+00:00"
     },
@@ -1096,6 +1338,8 @@
       "week": 8,
       "gameday": "2023-10-30",
       "gametime": "20:15",
+      "home_team": "DET",
+      "away_team": "LV",
       "kickoff_time": "2023-10-31T00:15:00+00:00",
       "prediction_time": "2023-10-30T23:15:00+00:00"
     },
@@ -1105,6 +1349,8 @@
       "week": 9,
       "gameday": "2023-11-02",
       "gametime": "20:15",
+      "home_team": "PIT",
+      "away_team": "TEN",
       "kickoff_time": "2023-11-03T00:15:00+00:00",
       "prediction_time": "2023-11-02T23:15:00+00:00"
     },
@@ -1114,6 +1360,8 @@
       "week": 9,
       "gameday": "2023-11-05",
       "gametime": "09:30",
+      "home_team": "KC",
+      "away_team": "MIA",
       "kickoff_time": "2023-11-05T14:30:00+00:00",
       "prediction_time": "2023-11-05T13:30:00+00:00"
     },
@@ -1123,6 +1371,8 @@
       "week": 9,
       "gameday": "2023-11-05",
       "gametime": "13:00",
+      "home_team": "ATL",
+      "away_team": "MIN",
       "kickoff_time": "2023-11-05T18:00:00+00:00",
       "prediction_time": "2023-11-05T17:00:00+00:00"
     },
@@ -1132,6 +1382,8 @@
       "week": 9,
       "gameday": "2023-11-05",
       "gametime": "13:00",
+      "home_team": "BAL",
+      "away_team": "SEA",
       "kickoff_time": "2023-11-05T18:00:00+00:00",
       "prediction_time": "2023-11-05T17:00:00+00:00"
     },
@@ -1141,6 +1393,8 @@
       "week": 9,
       "gameday": "2023-11-05",
       "gametime": "13:00",
+      "home_team": "CLE",
+      "away_team": "ARI",
       "kickoff_time": "2023-11-05T18:00:00+00:00",
       "prediction_time": "2023-11-05T17:00:00+00:00"
     },
@@ -1150,6 +1404,8 @@
       "week": 9,
       "gameday": "2023-11-05",
       "gametime": "13:00",
+      "home_team": "GB",
+      "away_team": "LA",
       "kickoff_time": "2023-11-05T18:00:00+00:00",
       "prediction_time": "2023-11-05T17:00:00+00:00"
     },
@@ -1159,6 +1415,8 @@
       "week": 9,
       "gameday": "2023-11-05",
       "gametime": "13:00",
+      "home_team": "HOU",
+      "away_team": "TB",
       "kickoff_time": "2023-11-05T18:00:00+00:00",
       "prediction_time": "2023-11-05T17:00:00+00:00"
     },
@@ -1168,6 +1426,8 @@
       "week": 9,
       "gameday": "2023-11-05",
       "gametime": "13:00",
+      "home_team": "NE",
+      "away_team": "WAS",
       "kickoff_time": "2023-11-05T18:00:00+00:00",
       "prediction_time": "2023-11-05T17:00:00+00:00"
     },
@@ -1177,6 +1437,8 @@
       "week": 9,
       "gameday": "2023-11-05",
       "gametime": "13:00",
+      "home_team": "NO",
+      "away_team": "CHI",
       "kickoff_time": "2023-11-05T18:00:00+00:00",
       "prediction_time": "2023-11-05T17:00:00+00:00"
     },
@@ -1186,6 +1448,8 @@
       "week": 9,
       "gameday": "2023-11-05",
       "gametime": "16:05",
+      "home_team": "CAR",
+      "away_team": "IND",
       "kickoff_time": "2023-11-05T21:05:00+00:00",
       "prediction_time": "2023-11-05T20:05:00+00:00"
     },
@@ -1195,6 +1459,8 @@
       "week": 9,
       "gameday": "2023-11-05",
       "gametime": "16:25",
+      "home_team": "LV",
+      "away_team": "NYG",
       "kickoff_time": "2023-11-05T21:25:00+00:00",
       "prediction_time": "2023-11-05T20:25:00+00:00"
     },
@@ -1204,6 +1470,8 @@
       "week": 9,
       "gameday": "2023-11-05",
       "gametime": "16:25",
+      "home_team": "PHI",
+      "away_team": "DAL",
       "kickoff_time": "2023-11-05T21:25:00+00:00",
       "prediction_time": "2023-11-05T20:25:00+00:00"
     },
@@ -1213,6 +1481,8 @@
       "week": 9,
       "gameday": "2023-11-05",
       "gametime": "20:20",
+      "home_team": "CIN",
+      "away_team": "BUF",
       "kickoff_time": "2023-11-06T01:20:00+00:00",
       "prediction_time": "2023-11-06T00:20:00+00:00"
     },
@@ -1222,6 +1492,8 @@
       "week": 9,
       "gameday": "2023-11-06",
       "gametime": "20:15",
+      "home_team": "NYJ",
+      "away_team": "LAC",
       "kickoff_time": "2023-11-07T01:15:00+00:00",
       "prediction_time": "2023-11-07T00:15:00+00:00"
     },
@@ -1231,6 +1503,8 @@
       "week": 10,
       "gameday": "2023-11-09",
       "gametime": "20:15",
+      "home_team": "CHI",
+      "away_team": "CAR",
       "kickoff_time": "2023-11-10T01:15:00+00:00",
       "prediction_time": "2023-11-10T00:15:00+00:00"
     },
@@ -1240,6 +1514,8 @@
       "week": 10,
       "gameday": "2023-11-12",
       "gametime": "09:30",
+      "home_team": "NE",
+      "away_team": "IND",
       "kickoff_time": "2023-11-12T14:30:00+00:00",
       "prediction_time": "2023-11-12T13:30:00+00:00"
     },
@@ -1249,6 +1525,8 @@
       "week": 10,
       "gameday": "2023-11-12",
       "gametime": "13:00",
+      "home_team": "BAL",
+      "away_team": "CLE",
       "kickoff_time": "2023-11-12T18:00:00+00:00",
       "prediction_time": "2023-11-12T17:00:00+00:00"
     },
@@ -1258,6 +1536,8 @@
       "week": 10,
       "gameday": "2023-11-12",
       "gametime": "13:00",
+      "home_team": "CIN",
+      "away_team": "HOU",
       "kickoff_time": "2023-11-12T18:00:00+00:00",
       "prediction_time": "2023-11-12T17:00:00+00:00"
     },
@@ -1267,6 +1547,8 @@
       "week": 10,
       "gameday": "2023-11-12",
       "gametime": "13:00",
+      "home_team": "JAX",
+      "away_team": "SF",
       "kickoff_time": "2023-11-12T18:00:00+00:00",
       "prediction_time": "2023-11-12T17:00:00+00:00"
     },
@@ -1276,6 +1558,8 @@
       "week": 10,
       "gameday": "2023-11-12",
       "gametime": "13:00",
+      "home_team": "MIN",
+      "away_team": "NO",
       "kickoff_time": "2023-11-12T18:00:00+00:00",
       "prediction_time": "2023-11-12T17:00:00+00:00"
     },
@@ -1285,6 +1569,8 @@
       "week": 10,
       "gameday": "2023-11-12",
       "gametime": "13:00",
+      "home_team": "PIT",
+      "away_team": "GB",
       "kickoff_time": "2023-11-12T18:00:00+00:00",
       "prediction_time": "2023-11-12T17:00:00+00:00"
     },
@@ -1294,6 +1580,8 @@
       "week": 10,
       "gameday": "2023-11-12",
       "gametime": "13:00",
+      "home_team": "TB",
+      "away_team": "TEN",
       "kickoff_time": "2023-11-12T18:00:00+00:00",
       "prediction_time": "2023-11-12T17:00:00+00:00"
     },
@@ -1303,6 +1591,8 @@
       "week": 10,
       "gameday": "2023-11-12",
       "gametime": "16:05",
+      "home_team": "ARI",
+      "away_team": "ATL",
       "kickoff_time": "2023-11-12T21:05:00+00:00",
       "prediction_time": "2023-11-12T20:05:00+00:00"
     },
@@ -1312,6 +1602,8 @@
       "week": 10,
       "gameday": "2023-11-12",
       "gametime": "16:05",
+      "home_team": "LAC",
+      "away_team": "DET",
       "kickoff_time": "2023-11-12T21:05:00+00:00",
       "prediction_time": "2023-11-12T20:05:00+00:00"
     },
@@ -1321,6 +1613,8 @@
       "week": 10,
       "gameday": "2023-11-12",
       "gametime": "16:25",
+      "home_team": "DAL",
+      "away_team": "NYG",
       "kickoff_time": "2023-11-12T21:25:00+00:00",
       "prediction_time": "2023-11-12T20:25:00+00:00"
     },
@@ -1330,6 +1624,8 @@
       "week": 10,
       "gameday": "2023-11-12",
       "gametime": "16:25",
+      "home_team": "SEA",
+      "away_team": "WAS",
       "kickoff_time": "2023-11-12T21:25:00+00:00",
       "prediction_time": "2023-11-12T20:25:00+00:00"
     },
@@ -1339,6 +1635,8 @@
       "week": 10,
       "gameday": "2023-11-12",
       "gametime": "20:20",
+      "home_team": "LV",
+      "away_team": "NYJ",
       "kickoff_time": "2023-11-13T01:20:00+00:00",
       "prediction_time": "2023-11-13T00:20:00+00:00"
     },
@@ -1348,6 +1646,8 @@
       "week": 10,
       "gameday": "2023-11-13",
       "gametime": "20:15",
+      "home_team": "BUF",
+      "away_team": "DEN",
       "kickoff_time": "2023-11-14T01:15:00+00:00",
       "prediction_time": "2023-11-14T00:15:00+00:00"
     },
@@ -1357,6 +1657,8 @@
       "week": 11,
       "gameday": "2023-11-16",
       "gametime": "20:15",
+      "home_team": "BAL",
+      "away_team": "CIN",
       "kickoff_time": "2023-11-17T01:15:00+00:00",
       "prediction_time": "2023-11-17T00:15:00+00:00"
     },
@@ -1366,6 +1668,8 @@
       "week": 11,
       "gameday": "2023-11-19",
       "gametime": "13:00",
+      "home_team": "CAR",
+      "away_team": "DAL",
       "kickoff_time": "2023-11-19T18:00:00+00:00",
       "prediction_time": "2023-11-19T17:00:00+00:00"
     },
@@ -1375,6 +1679,8 @@
       "week": 11,
       "gameday": "2023-11-19",
       "gametime": "13:00",
+      "home_team": "CLE",
+      "away_team": "PIT",
       "kickoff_time": "2023-11-19T18:00:00+00:00",
       "prediction_time": "2023-11-19T17:00:00+00:00"
     },
@@ -1384,6 +1690,8 @@
       "week": 11,
       "gameday": "2023-11-19",
       "gametime": "13:00",
+      "home_team": "DET",
+      "away_team": "CHI",
       "kickoff_time": "2023-11-19T18:00:00+00:00",
       "prediction_time": "2023-11-19T17:00:00+00:00"
     },
@@ -1393,6 +1701,8 @@
       "week": 11,
       "gameday": "2023-11-19",
       "gametime": "13:00",
+      "home_team": "GB",
+      "away_team": "LAC",
       "kickoff_time": "2023-11-19T18:00:00+00:00",
       "prediction_time": "2023-11-19T17:00:00+00:00"
     },
@@ -1402,6 +1712,8 @@
       "week": 11,
       "gameday": "2023-11-19",
       "gametime": "13:00",
+      "home_team": "HOU",
+      "away_team": "ARI",
       "kickoff_time": "2023-11-19T18:00:00+00:00",
       "prediction_time": "2023-11-19T17:00:00+00:00"
     },
@@ -1411,6 +1723,8 @@
       "week": 11,
       "gameday": "2023-11-19",
       "gametime": "13:00",
+      "home_team": "JAX",
+      "away_team": "TEN",
       "kickoff_time": "2023-11-19T18:00:00+00:00",
       "prediction_time": "2023-11-19T17:00:00+00:00"
     },
@@ -1420,6 +1734,8 @@
       "week": 11,
       "gameday": "2023-11-19",
       "gametime": "13:00",
+      "home_team": "MIA",
+      "away_team": "LV",
       "kickoff_time": "2023-11-19T18:00:00+00:00",
       "prediction_time": "2023-11-19T17:00:00+00:00"
     },
@@ -1429,6 +1745,8 @@
       "week": 11,
       "gameday": "2023-11-19",
       "gametime": "13:00",
+      "home_team": "WAS",
+      "away_team": "NYG",
       "kickoff_time": "2023-11-19T18:00:00+00:00",
       "prediction_time": "2023-11-19T17:00:00+00:00"
     },
@@ -1438,6 +1756,8 @@
       "week": 11,
       "gameday": "2023-11-19",
       "gametime": "16:05",
+      "home_team": "SF",
+      "away_team": "TB",
       "kickoff_time": "2023-11-19T21:05:00+00:00",
       "prediction_time": "2023-11-19T20:05:00+00:00"
     },
@@ -1447,6 +1767,8 @@
       "week": 11,
       "gameday": "2023-11-19",
       "gametime": "16:25",
+      "home_team": "BUF",
+      "away_team": "NYJ",
       "kickoff_time": "2023-11-19T21:25:00+00:00",
       "prediction_time": "2023-11-19T20:25:00+00:00"
     },
@@ -1456,6 +1778,8 @@
       "week": 11,
       "gameday": "2023-11-19",
       "gametime": "16:25",
+      "home_team": "LA",
+      "away_team": "SEA",
       "kickoff_time": "2023-11-19T21:25:00+00:00",
       "prediction_time": "2023-11-19T20:25:00+00:00"
     },
@@ -1465,6 +1789,8 @@
       "week": 11,
       "gameday": "2023-11-19",
       "gametime": "20:20",
+      "home_team": "DEN",
+      "away_team": "MIN",
       "kickoff_time": "2023-11-20T01:20:00+00:00",
       "prediction_time": "2023-11-20T00:20:00+00:00"
     },
@@ -1474,6 +1800,8 @@
       "week": 11,
       "gameday": "2023-11-20",
       "gametime": "20:15",
+      "home_team": "KC",
+      "away_team": "PHI",
       "kickoff_time": "2023-11-21T01:15:00+00:00",
       "prediction_time": "2023-11-21T00:15:00+00:00"
     },
@@ -1483,6 +1811,8 @@
       "week": 12,
       "gameday": "2023-11-23",
       "gametime": "12:30",
+      "home_team": "DET",
+      "away_team": "GB",
       "kickoff_time": "2023-11-23T17:30:00+00:00",
       "prediction_time": "2023-11-23T16:30:00+00:00"
     },
@@ -1492,6 +1822,8 @@
       "week": 12,
       "gameday": "2023-11-23",
       "gametime": "16:30",
+      "home_team": "DAL",
+      "away_team": "WAS",
       "kickoff_time": "2023-11-23T21:30:00+00:00",
       "prediction_time": "2023-11-23T20:30:00+00:00"
     },
@@ -1501,6 +1833,8 @@
       "week": 12,
       "gameday": "2023-11-23",
       "gametime": "20:20",
+      "home_team": "SEA",
+      "away_team": "SF",
       "kickoff_time": "2023-11-24T01:20:00+00:00",
       "prediction_time": "2023-11-24T00:20:00+00:00"
     },
@@ -1510,6 +1844,8 @@
       "week": 12,
       "gameday": "2023-11-24",
       "gametime": "15:00",
+      "home_team": "NYJ",
+      "away_team": "MIA",
       "kickoff_time": "2023-11-24T20:00:00+00:00",
       "prediction_time": "2023-11-24T19:00:00+00:00"
     },
@@ -1519,6 +1855,8 @@
       "week": 12,
       "gameday": "2023-11-26",
       "gametime": "13:00",
+      "home_team": "ATL",
+      "away_team": "NO",
       "kickoff_time": "2023-11-26T18:00:00+00:00",
       "prediction_time": "2023-11-26T17:00:00+00:00"
     },
@@ -1528,6 +1866,8 @@
       "week": 12,
       "gameday": "2023-11-26",
       "gametime": "13:00",
+      "home_team": "CIN",
+      "away_team": "PIT",
       "kickoff_time": "2023-11-26T18:00:00+00:00",
       "prediction_time": "2023-11-26T17:00:00+00:00"
     },
@@ -1537,6 +1877,8 @@
       "week": 12,
       "gameday": "2023-11-26",
       "gametime": "13:00",
+      "home_team": "HOU",
+      "away_team": "JAX",
       "kickoff_time": "2023-11-26T18:00:00+00:00",
       "prediction_time": "2023-11-26T17:00:00+00:00"
     },
@@ -1546,6 +1888,8 @@
       "week": 12,
       "gameday": "2023-11-26",
       "gametime": "13:00",
+      "home_team": "IND",
+      "away_team": "TB",
       "kickoff_time": "2023-11-26T18:00:00+00:00",
       "prediction_time": "2023-11-26T17:00:00+00:00"
     },
@@ -1555,6 +1899,8 @@
       "week": 12,
       "gameday": "2023-11-26",
       "gametime": "13:00",
+      "home_team": "NYG",
+      "away_team": "NE",
       "kickoff_time": "2023-11-26T18:00:00+00:00",
       "prediction_time": "2023-11-26T17:00:00+00:00"
     },
@@ -1564,6 +1910,8 @@
       "week": 12,
       "gameday": "2023-11-26",
       "gametime": "13:00",
+      "home_team": "TEN",
+      "away_team": "CAR",
       "kickoff_time": "2023-11-26T18:00:00+00:00",
       "prediction_time": "2023-11-26T17:00:00+00:00"
     },
@@ -1573,6 +1921,8 @@
       "week": 12,
       "gameday": "2023-11-26",
       "gametime": "16:05",
+      "home_team": "ARI",
+      "away_team": "LA",
       "kickoff_time": "2023-11-26T21:05:00+00:00",
       "prediction_time": "2023-11-26T20:05:00+00:00"
     },
@@ -1582,6 +1932,8 @@
       "week": 12,
       "gameday": "2023-11-26",
       "gametime": "16:05",
+      "home_team": "DEN",
+      "away_team": "CLE",
       "kickoff_time": "2023-11-26T21:05:00+00:00",
       "prediction_time": "2023-11-26T20:05:00+00:00"
     },
@@ -1591,6 +1943,8 @@
       "week": 12,
       "gameday": "2023-11-26",
       "gametime": "16:25",
+      "home_team": "LV",
+      "away_team": "KC",
       "kickoff_time": "2023-11-26T21:25:00+00:00",
       "prediction_time": "2023-11-26T20:25:00+00:00"
     },
@@ -1600,6 +1954,8 @@
       "week": 12,
       "gameday": "2023-11-26",
       "gametime": "16:25",
+      "home_team": "PHI",
+      "away_team": "BUF",
       "kickoff_time": "2023-11-26T21:25:00+00:00",
       "prediction_time": "2023-11-26T20:25:00+00:00"
     },
@@ -1609,6 +1965,8 @@
       "week": 12,
       "gameday": "2023-11-26",
       "gametime": "20:20",
+      "home_team": "LAC",
+      "away_team": "BAL",
       "kickoff_time": "2023-11-27T01:20:00+00:00",
       "prediction_time": "2023-11-27T00:20:00+00:00"
     },
@@ -1618,6 +1976,8 @@
       "week": 12,
       "gameday": "2023-11-27",
       "gametime": "20:15",
+      "home_team": "MIN",
+      "away_team": "CHI",
       "kickoff_time": "2023-11-28T01:15:00+00:00",
       "prediction_time": "2023-11-28T00:15:00+00:00"
     },
@@ -1627,6 +1987,8 @@
       "week": 13,
       "gameday": "2023-11-30",
       "gametime": "20:15",
+      "home_team": "DAL",
+      "away_team": "SEA",
       "kickoff_time": "2023-12-01T01:15:00+00:00",
       "prediction_time": "2023-12-01T00:15:00+00:00"
     },
@@ -1636,6 +1998,8 @@
       "week": 13,
       "gameday": "2023-12-03",
       "gametime": "13:00",
+      "home_team": "HOU",
+      "away_team": "DEN",
       "kickoff_time": "2023-12-03T18:00:00+00:00",
       "prediction_time": "2023-12-03T17:00:00+00:00"
     },
@@ -1645,6 +2009,8 @@
       "week": 13,
       "gameday": "2023-12-03",
       "gametime": "13:00",
+      "home_team": "NE",
+      "away_team": "LAC",
       "kickoff_time": "2023-12-03T18:00:00+00:00",
       "prediction_time": "2023-12-03T17:00:00+00:00"
     },
@@ -1654,6 +2020,8 @@
       "week": 13,
       "gameday": "2023-12-03",
       "gametime": "13:00",
+      "home_team": "NO",
+      "away_team": "DET",
       "kickoff_time": "2023-12-03T18:00:00+00:00",
       "prediction_time": "2023-12-03T17:00:00+00:00"
     },
@@ -1663,6 +2031,8 @@
       "week": 13,
       "gameday": "2023-12-03",
       "gametime": "13:00",
+      "home_team": "NYJ",
+      "away_team": "ATL",
       "kickoff_time": "2023-12-03T18:00:00+00:00",
       "prediction_time": "2023-12-03T17:00:00+00:00"
     },
@@ -1672,6 +2042,8 @@
       "week": 13,
       "gameday": "2023-12-03",
       "gametime": "13:00",
+      "home_team": "PIT",
+      "away_team": "ARI",
       "kickoff_time": "2023-12-03T18:00:00+00:00",
       "prediction_time": "2023-12-03T17:00:00+00:00"
     },
@@ -1681,6 +2053,8 @@
       "week": 13,
       "gameday": "2023-12-03",
       "gametime": "13:00",
+      "home_team": "TEN",
+      "away_team": "IND",
       "kickoff_time": "2023-12-03T18:00:00+00:00",
       "prediction_time": "2023-12-03T17:00:00+00:00"
     },
@@ -1690,6 +2064,8 @@
       "week": 13,
       "gameday": "2023-12-03",
       "gametime": "13:00",
+      "home_team": "WAS",
+      "away_team": "MIA",
       "kickoff_time": "2023-12-03T18:00:00+00:00",
       "prediction_time": "2023-12-03T17:00:00+00:00"
     },
@@ -1699,6 +2075,8 @@
       "week": 13,
       "gameday": "2023-12-03",
       "gametime": "16:05",
+      "home_team": "TB",
+      "away_team": "CAR",
       "kickoff_time": "2023-12-03T21:05:00+00:00",
       "prediction_time": "2023-12-03T20:05:00+00:00"
     },
@@ -1708,6 +2086,8 @@
       "week": 13,
       "gameday": "2023-12-03",
       "gametime": "16:25",
+      "home_team": "LA",
+      "away_team": "CLE",
       "kickoff_time": "2023-12-03T21:25:00+00:00",
       "prediction_time": "2023-12-03T20:25:00+00:00"
     },
@@ -1717,6 +2097,8 @@
       "week": 13,
       "gameday": "2023-12-03",
       "gametime": "16:25",
+      "home_team": "PHI",
+      "away_team": "SF",
       "kickoff_time": "2023-12-03T21:25:00+00:00",
       "prediction_time": "2023-12-03T20:25:00+00:00"
     },
@@ -1726,6 +2108,8 @@
       "week": 13,
       "gameday": "2023-12-03",
       "gametime": "20:20",
+      "home_team": "GB",
+      "away_team": "KC",
       "kickoff_time": "2023-12-04T01:20:00+00:00",
       "prediction_time": "2023-12-04T00:20:00+00:00"
     },
@@ -1735,6 +2119,8 @@
       "week": 13,
       "gameday": "2023-12-04",
       "gametime": "20:15",
+      "home_team": "JAX",
+      "away_team": "CIN",
       "kickoff_time": "2023-12-05T01:15:00+00:00",
       "prediction_time": "2023-12-05T00:15:00+00:00"
     },
@@ -1744,6 +2130,8 @@
       "week": 14,
       "gameday": "2023-12-07",
       "gametime": "20:15",
+      "home_team": "PIT",
+      "away_team": "NE",
       "kickoff_time": "2023-12-08T01:15:00+00:00",
       "prediction_time": "2023-12-08T00:15:00+00:00"
     },
@@ -1753,6 +2141,8 @@
       "week": 14,
       "gameday": "2023-12-10",
       "gametime": "13:00",
+      "home_team": "ATL",
+      "away_team": "TB",
       "kickoff_time": "2023-12-10T18:00:00+00:00",
       "prediction_time": "2023-12-10T17:00:00+00:00"
     },
@@ -1762,6 +2152,8 @@
       "week": 14,
       "gameday": "2023-12-10",
       "gametime": "13:00",
+      "home_team": "BAL",
+      "away_team": "LA",
       "kickoff_time": "2023-12-10T18:00:00+00:00",
       "prediction_time": "2023-12-10T17:00:00+00:00"
     },
@@ -1771,6 +2163,8 @@
       "week": 14,
       "gameday": "2023-12-10",
       "gametime": "13:00",
+      "home_team": "CHI",
+      "away_team": "DET",
       "kickoff_time": "2023-12-10T18:00:00+00:00",
       "prediction_time": "2023-12-10T17:00:00+00:00"
     },
@@ -1780,6 +2174,8 @@
       "week": 14,
       "gameday": "2023-12-10",
       "gametime": "13:00",
+      "home_team": "CIN",
+      "away_team": "IND",
       "kickoff_time": "2023-12-10T18:00:00+00:00",
       "prediction_time": "2023-12-10T17:00:00+00:00"
     },
@@ -1789,6 +2185,8 @@
       "week": 14,
       "gameday": "2023-12-10",
       "gametime": "13:00",
+      "home_team": "CLE",
+      "away_team": "JAX",
       "kickoff_time": "2023-12-10T18:00:00+00:00",
       "prediction_time": "2023-12-10T17:00:00+00:00"
     },
@@ -1798,6 +2196,8 @@
       "week": 14,
       "gameday": "2023-12-10",
       "gametime": "13:00",
+      "home_team": "NO",
+      "away_team": "CAR",
       "kickoff_time": "2023-12-10T18:00:00+00:00",
       "prediction_time": "2023-12-10T17:00:00+00:00"
     },
@@ -1807,6 +2207,8 @@
       "week": 14,
       "gameday": "2023-12-10",
       "gametime": "13:00",
+      "home_team": "NYJ",
+      "away_team": "HOU",
       "kickoff_time": "2023-12-10T18:00:00+00:00",
       "prediction_time": "2023-12-10T17:00:00+00:00"
     },
@@ -1816,6 +2218,8 @@
       "week": 14,
       "gameday": "2023-12-10",
       "gametime": "16:05",
+      "home_team": "LV",
+      "away_team": "MIN",
       "kickoff_time": "2023-12-10T21:05:00+00:00",
       "prediction_time": "2023-12-10T20:05:00+00:00"
     },
@@ -1825,6 +2229,8 @@
       "week": 14,
       "gameday": "2023-12-10",
       "gametime": "16:05",
+      "home_team": "SF",
+      "away_team": "SEA",
       "kickoff_time": "2023-12-10T21:05:00+00:00",
       "prediction_time": "2023-12-10T20:05:00+00:00"
     },
@@ -1834,6 +2240,8 @@
       "week": 14,
       "gameday": "2023-12-10",
       "gametime": "16:25",
+      "home_team": "KC",
+      "away_team": "BUF",
       "kickoff_time": "2023-12-10T21:25:00+00:00",
       "prediction_time": "2023-12-10T20:25:00+00:00"
     },
@@ -1843,6 +2251,8 @@
       "week": 14,
       "gameday": "2023-12-10",
       "gametime": "16:25",
+      "home_team": "LAC",
+      "away_team": "DEN",
       "kickoff_time": "2023-12-10T21:25:00+00:00",
       "prediction_time": "2023-12-10T20:25:00+00:00"
     },
@@ -1852,6 +2262,8 @@
       "week": 14,
       "gameday": "2023-12-10",
       "gametime": "20:20",
+      "home_team": "DAL",
+      "away_team": "PHI",
       "kickoff_time": "2023-12-11T01:20:00+00:00",
       "prediction_time": "2023-12-11T00:20:00+00:00"
     },
@@ -1861,6 +2273,8 @@
       "week": 14,
       "gameday": "2023-12-11",
       "gametime": "20:15",
+      "home_team": "MIA",
+      "away_team": "TEN",
       "kickoff_time": "2023-12-12T01:15:00+00:00",
       "prediction_time": "2023-12-12T00:15:00+00:00"
     },
@@ -1870,6 +2284,8 @@
       "week": 14,
       "gameday": "2023-12-11",
       "gametime": "20:15",
+      "home_team": "NYG",
+      "away_team": "GB",
       "kickoff_time": "2023-12-12T01:15:00+00:00",
       "prediction_time": "2023-12-12T00:15:00+00:00"
     },
@@ -1879,6 +2295,8 @@
       "week": 15,
       "gameday": "2023-12-14",
       "gametime": "20:15",
+      "home_team": "LV",
+      "away_team": "LAC",
       "kickoff_time": "2023-12-15T01:15:00+00:00",
       "prediction_time": "2023-12-15T00:15:00+00:00"
     },
@@ -1888,6 +2306,8 @@
       "week": 15,
       "gameday": "2023-12-16",
       "gametime": "13:00",
+      "home_team": "CIN",
+      "away_team": "MIN",
       "kickoff_time": "2023-12-16T18:00:00+00:00",
       "prediction_time": "2023-12-16T17:00:00+00:00"
     },
@@ -1897,6 +2317,8 @@
       "week": 15,
       "gameday": "2023-12-16",
       "gametime": "16:30",
+      "home_team": "IND",
+      "away_team": "PIT",
       "kickoff_time": "2023-12-16T21:30:00+00:00",
       "prediction_time": "2023-12-16T20:30:00+00:00"
     },
@@ -1906,6 +2328,8 @@
       "week": 15,
       "gameday": "2023-12-16",
       "gametime": "20:15",
+      "home_team": "DET",
+      "away_team": "DEN",
       "kickoff_time": "2023-12-17T01:15:00+00:00",
       "prediction_time": "2023-12-17T00:15:00+00:00"
     },
@@ -1915,6 +2339,8 @@
       "week": 15,
       "gameday": "2023-12-17",
       "gametime": "13:00",
+      "home_team": "CAR",
+      "away_team": "ATL",
       "kickoff_time": "2023-12-17T18:00:00+00:00",
       "prediction_time": "2023-12-17T17:00:00+00:00"
     },
@@ -1924,6 +2350,8 @@
       "week": 15,
       "gameday": "2023-12-17",
       "gametime": "13:00",
+      "home_team": "CLE",
+      "away_team": "CHI",
       "kickoff_time": "2023-12-17T18:00:00+00:00",
       "prediction_time": "2023-12-17T17:00:00+00:00"
     },
@@ -1933,6 +2361,8 @@
       "week": 15,
       "gameday": "2023-12-17",
       "gametime": "13:00",
+      "home_team": "GB",
+      "away_team": "TB",
       "kickoff_time": "2023-12-17T18:00:00+00:00",
       "prediction_time": "2023-12-17T17:00:00+00:00"
     },
@@ -1942,6 +2372,8 @@
       "week": 15,
       "gameday": "2023-12-17",
       "gametime": "13:00",
+      "home_team": "MIA",
+      "away_team": "NYJ",
       "kickoff_time": "2023-12-17T18:00:00+00:00",
       "prediction_time": "2023-12-17T17:00:00+00:00"
     },
@@ -1951,6 +2383,8 @@
       "week": 15,
       "gameday": "2023-12-17",
       "gametime": "13:00",
+      "home_team": "NE",
+      "away_team": "KC",
       "kickoff_time": "2023-12-17T18:00:00+00:00",
       "prediction_time": "2023-12-17T17:00:00+00:00"
     },
@@ -1960,6 +2394,8 @@
       "week": 15,
       "gameday": "2023-12-17",
       "gametime": "13:00",
+      "home_team": "NO",
+      "away_team": "NYG",
       "kickoff_time": "2023-12-17T18:00:00+00:00",
       "prediction_time": "2023-12-17T17:00:00+00:00"
     },
@@ -1969,6 +2405,8 @@
       "week": 15,
       "gameday": "2023-12-17",
       "gametime": "13:00",
+      "home_team": "TEN",
+      "away_team": "HOU",
       "kickoff_time": "2023-12-17T18:00:00+00:00",
       "prediction_time": "2023-12-17T17:00:00+00:00"
     },
@@ -1978,6 +2416,8 @@
       "week": 15,
       "gameday": "2023-12-17",
       "gametime": "16:05",
+      "home_team": "ARI",
+      "away_team": "SF",
       "kickoff_time": "2023-12-17T21:05:00+00:00",
       "prediction_time": "2023-12-17T20:05:00+00:00"
     },
@@ -1987,6 +2427,8 @@
       "week": 15,
       "gameday": "2023-12-17",
       "gametime": "16:05",
+      "home_team": "LA",
+      "away_team": "WAS",
       "kickoff_time": "2023-12-17T21:05:00+00:00",
       "prediction_time": "2023-12-17T20:05:00+00:00"
     },
@@ -1996,6 +2438,8 @@
       "week": 15,
       "gameday": "2023-12-17",
       "gametime": "16:25",
+      "home_team": "BUF",
+      "away_team": "DAL",
       "kickoff_time": "2023-12-17T21:25:00+00:00",
       "prediction_time": "2023-12-17T20:25:00+00:00"
     },
@@ -2005,6 +2449,8 @@
       "week": 15,
       "gameday": "2023-12-17",
       "gametime": "20:20",
+      "home_team": "JAX",
+      "away_team": "BAL",
       "kickoff_time": "2023-12-18T01:20:00+00:00",
       "prediction_time": "2023-12-18T00:20:00+00:00"
     },
@@ -2014,6 +2460,8 @@
       "week": 15,
       "gameday": "2023-12-18",
       "gametime": "20:15",
+      "home_team": "SEA",
+      "away_team": "PHI",
       "kickoff_time": "2023-12-19T01:15:00+00:00",
       "prediction_time": "2023-12-19T00:15:00+00:00"
     },
@@ -2023,6 +2471,8 @@
       "week": 16,
       "gameday": "2023-12-21",
       "gametime": "20:15",
+      "home_team": "LA",
+      "away_team": "NO",
       "kickoff_time": "2023-12-22T01:15:00+00:00",
       "prediction_time": "2023-12-22T00:15:00+00:00"
     },
@@ -2032,6 +2482,8 @@
       "week": 16,
       "gameday": "2023-12-23",
       "gametime": "16:30",
+      "home_team": "PIT",
+      "away_team": "CIN",
       "kickoff_time": "2023-12-23T21:30:00+00:00",
       "prediction_time": "2023-12-23T20:30:00+00:00"
     },
@@ -2041,6 +2493,8 @@
       "week": 16,
       "gameday": "2023-12-23",
       "gametime": "20:00",
+      "home_team": "LAC",
+      "away_team": "BUF",
       "kickoff_time": "2023-12-24T01:00:00+00:00",
       "prediction_time": "2023-12-24T00:00:00+00:00"
     },
@@ -2050,6 +2504,8 @@
       "week": 16,
       "gameday": "2023-12-24",
       "gametime": "13:00",
+      "home_team": "ATL",
+      "away_team": "IND",
       "kickoff_time": "2023-12-24T18:00:00+00:00",
       "prediction_time": "2023-12-24T17:00:00+00:00"
     },
@@ -2059,6 +2515,8 @@
       "week": 16,
       "gameday": "2023-12-24",
       "gametime": "13:00",
+      "home_team": "CAR",
+      "away_team": "GB",
       "kickoff_time": "2023-12-24T18:00:00+00:00",
       "prediction_time": "2023-12-24T17:00:00+00:00"
     },
@@ -2068,6 +2526,8 @@
       "week": 16,
       "gameday": "2023-12-24",
       "gametime": "13:00",
+      "home_team": "HOU",
+      "away_team": "CLE",
       "kickoff_time": "2023-12-24T18:00:00+00:00",
       "prediction_time": "2023-12-24T17:00:00+00:00"
     },
@@ -2077,6 +2537,8 @@
       "week": 16,
       "gameday": "2023-12-24",
       "gametime": "13:00",
+      "home_team": "MIN",
+      "away_team": "DET",
       "kickoff_time": "2023-12-24T18:00:00+00:00",
       "prediction_time": "2023-12-24T17:00:00+00:00"
     },
@@ -2086,6 +2548,8 @@
       "week": 16,
       "gameday": "2023-12-24",
       "gametime": "13:00",
+      "home_team": "NYJ",
+      "away_team": "WAS",
       "kickoff_time": "2023-12-24T18:00:00+00:00",
       "prediction_time": "2023-12-24T17:00:00+00:00"
     },
@@ -2095,6 +2559,8 @@
       "week": 16,
       "gameday": "2023-12-24",
       "gametime": "13:00",
+      "home_team": "TEN",
+      "away_team": "SEA",
       "kickoff_time": "2023-12-24T18:00:00+00:00",
       "prediction_time": "2023-12-24T17:00:00+00:00"
     },
@@ -2104,6 +2570,8 @@
       "week": 16,
       "gameday": "2023-12-24",
       "gametime": "16:05",
+      "home_team": "TB",
+      "away_team": "JAX",
       "kickoff_time": "2023-12-24T21:05:00+00:00",
       "prediction_time": "2023-12-24T20:05:00+00:00"
     },
@@ -2113,6 +2581,8 @@
       "week": 16,
       "gameday": "2023-12-24",
       "gametime": "16:25",
+      "home_team": "CHI",
+      "away_team": "ARI",
       "kickoff_time": "2023-12-24T21:25:00+00:00",
       "prediction_time": "2023-12-24T20:25:00+00:00"
     },
@@ -2122,6 +2592,8 @@
       "week": 16,
       "gameday": "2023-12-24",
       "gametime": "16:25",
+      "home_team": "MIA",
+      "away_team": "DAL",
       "kickoff_time": "2023-12-24T21:25:00+00:00",
       "prediction_time": "2023-12-24T20:25:00+00:00"
     },
@@ -2131,6 +2603,8 @@
       "week": 16,
       "gameday": "2023-12-24",
       "gametime": "20:15",
+      "home_team": "DEN",
+      "away_team": "NE",
       "kickoff_time": "2023-12-25T01:15:00+00:00",
       "prediction_time": "2023-12-25T00:15:00+00:00"
     },
@@ -2140,6 +2614,8 @@
       "week": 16,
       "gameday": "2023-12-25",
       "gametime": "13:00",
+      "home_team": "KC",
+      "away_team": "LV",
       "kickoff_time": "2023-12-25T18:00:00+00:00",
       "prediction_time": "2023-12-25T17:00:00+00:00"
     },
@@ -2149,6 +2625,8 @@
       "week": 16,
       "gameday": "2023-12-25",
       "gametime": "16:30",
+      "home_team": "PHI",
+      "away_team": "NYG",
       "kickoff_time": "2023-12-25T21:30:00+00:00",
       "prediction_time": "2023-12-25T20:30:00+00:00"
     },
@@ -2158,6 +2636,8 @@
       "week": 16,
       "gameday": "2023-12-25",
       "gametime": "20:15",
+      "home_team": "SF",
+      "away_team": "BAL",
       "kickoff_time": "2023-12-26T01:15:00+00:00",
       "prediction_time": "2023-12-26T00:15:00+00:00"
     },
@@ -2167,6 +2647,8 @@
       "week": 17,
       "gameday": "2023-12-28",
       "gametime": "20:15",
+      "home_team": "CLE",
+      "away_team": "NYJ",
       "kickoff_time": "2023-12-29T01:15:00+00:00",
       "prediction_time": "2023-12-29T00:15:00+00:00"
     },
@@ -2176,6 +2658,8 @@
       "week": 17,
       "gameday": "2023-12-30",
       "gametime": "20:15",
+      "home_team": "DAL",
+      "away_team": "DET",
       "kickoff_time": "2023-12-31T01:15:00+00:00",
       "prediction_time": "2023-12-31T00:15:00+00:00"
     },
@@ -2185,6 +2669,8 @@
       "week": 17,
       "gameday": "2023-12-31",
       "gametime": "13:00",
+      "home_team": "BAL",
+      "away_team": "MIA",
       "kickoff_time": "2023-12-31T18:00:00+00:00",
       "prediction_time": "2023-12-31T17:00:00+00:00"
     },
@@ -2194,6 +2680,8 @@
       "week": 17,
       "gameday": "2023-12-31",
       "gametime": "13:00",
+      "home_team": "BUF",
+      "away_team": "NE",
       "kickoff_time": "2023-12-31T18:00:00+00:00",
       "prediction_time": "2023-12-31T17:00:00+00:00"
     },
@@ -2203,6 +2691,8 @@
       "week": 17,
       "gameday": "2023-12-31",
       "gametime": "13:00",
+      "home_team": "CHI",
+      "away_team": "ATL",
       "kickoff_time": "2023-12-31T18:00:00+00:00",
       "prediction_time": "2023-12-31T17:00:00+00:00"
     },
@@ -2212,6 +2702,8 @@
       "week": 17,
       "gameday": "2023-12-31",
       "gametime": "13:00",
+      "home_team": "HOU",
+      "away_team": "TEN",
       "kickoff_time": "2023-12-31T18:00:00+00:00",
       "prediction_time": "2023-12-31T17:00:00+00:00"
     },
@@ -2221,6 +2713,8 @@
       "week": 17,
       "gameday": "2023-12-31",
       "gametime": "13:00",
+      "home_team": "IND",
+      "away_team": "LV",
       "kickoff_time": "2023-12-31T18:00:00+00:00",
       "prediction_time": "2023-12-31T17:00:00+00:00"
     },
@@ -2230,6 +2724,8 @@
       "week": 17,
       "gameday": "2023-12-31",
       "gametime": "13:00",
+      "home_team": "JAX",
+      "away_team": "CAR",
       "kickoff_time": "2023-12-31T18:00:00+00:00",
       "prediction_time": "2023-12-31T17:00:00+00:00"
     },
@@ -2239,6 +2735,8 @@
       "week": 17,
       "gameday": "2023-12-31",
       "gametime": "13:00",
+      "home_team": "NYG",
+      "away_team": "LA",
       "kickoff_time": "2023-12-31T18:00:00+00:00",
       "prediction_time": "2023-12-31T17:00:00+00:00"
     },
@@ -2248,6 +2746,8 @@
       "week": 17,
       "gameday": "2023-12-31",
       "gametime": "13:00",
+      "home_team": "PHI",
+      "away_team": "ARI",
       "kickoff_time": "2023-12-31T18:00:00+00:00",
       "prediction_time": "2023-12-31T17:00:00+00:00"
     },
@@ -2257,6 +2757,8 @@
       "week": 17,
       "gameday": "2023-12-31",
       "gametime": "13:00",
+      "home_team": "TB",
+      "away_team": "NO",
       "kickoff_time": "2023-12-31T18:00:00+00:00",
       "prediction_time": "2023-12-31T17:00:00+00:00"
     },
@@ -2266,6 +2768,8 @@
       "week": 17,
       "gameday": "2023-12-31",
       "gametime": "13:00",
+      "home_team": "WAS",
+      "away_team": "SF",
       "kickoff_time": "2023-12-31T18:00:00+00:00",
       "prediction_time": "2023-12-31T17:00:00+00:00"
     },
@@ -2275,6 +2779,8 @@
       "week": 17,
       "gameday": "2023-12-31",
       "gametime": "16:05",
+      "home_team": "SEA",
+      "away_team": "PIT",
       "kickoff_time": "2023-12-31T21:05:00+00:00",
       "prediction_time": "2023-12-31T20:05:00+00:00"
     },
@@ -2284,6 +2790,8 @@
       "week": 17,
       "gameday": "2023-12-31",
       "gametime": "16:25",
+      "home_team": "DEN",
+      "away_team": "LAC",
       "kickoff_time": "2023-12-31T21:25:00+00:00",
       "prediction_time": "2023-12-31T20:25:00+00:00"
     },
@@ -2293,6 +2801,8 @@
       "week": 17,
       "gameday": "2023-12-31",
       "gametime": "16:25",
+      "home_team": "KC",
+      "away_team": "CIN",
       "kickoff_time": "2023-12-31T21:25:00+00:00",
       "prediction_time": "2023-12-31T20:25:00+00:00"
     },
@@ -2302,6 +2812,8 @@
       "week": 17,
       "gameday": "2023-12-31",
       "gametime": "20:20",
+      "home_team": "MIN",
+      "away_team": "GB",
       "kickoff_time": "2024-01-01T01:20:00+00:00",
       "prediction_time": "2024-01-01T00:20:00+00:00"
     },
@@ -2311,6 +2823,8 @@
       "week": 18,
       "gameday": "2024-01-06",
       "gametime": "16:30",
+      "home_team": "BAL",
+      "away_team": "PIT",
       "kickoff_time": "2024-01-06T21:30:00+00:00",
       "prediction_time": "2024-01-06T20:30:00+00:00"
     },
@@ -2320,6 +2834,8 @@
       "week": 18,
       "gameday": "2024-01-06",
       "gametime": "20:15",
+      "home_team": "IND",
+      "away_team": "HOU",
       "kickoff_time": "2024-01-07T01:15:00+00:00",
       "prediction_time": "2024-01-07T00:15:00+00:00"
     },
@@ -2329,6 +2845,8 @@
       "week": 18,
       "gameday": "2024-01-07",
       "gametime": "13:00",
+      "home_team": "CAR",
+      "away_team": "TB",
       "kickoff_time": "2024-01-07T18:00:00+00:00",
       "prediction_time": "2024-01-07T17:00:00+00:00"
     },
@@ -2338,6 +2856,8 @@
       "week": 18,
       "gameday": "2024-01-07",
       "gametime": "13:00",
+      "home_team": "CIN",
+      "away_team": "CLE",
       "kickoff_time": "2024-01-07T18:00:00+00:00",
       "prediction_time": "2024-01-07T17:00:00+00:00"
     },
@@ -2347,6 +2867,8 @@
       "week": 18,
       "gameday": "2024-01-07",
       "gametime": "13:00",
+      "home_team": "DET",
+      "away_team": "MIN",
       "kickoff_time": "2024-01-07T18:00:00+00:00",
       "prediction_time": "2024-01-07T17:00:00+00:00"
     },
@@ -2356,6 +2878,8 @@
       "week": 18,
       "gameday": "2024-01-07",
       "gametime": "13:00",
+      "home_team": "NE",
+      "away_team": "NYJ",
       "kickoff_time": "2024-01-07T18:00:00+00:00",
       "prediction_time": "2024-01-07T17:00:00+00:00"
     },
@@ -2365,6 +2889,8 @@
       "week": 18,
       "gameday": "2024-01-07",
       "gametime": "13:00",
+      "home_team": "NO",
+      "away_team": "ATL",
       "kickoff_time": "2024-01-07T18:00:00+00:00",
       "prediction_time": "2024-01-07T17:00:00+00:00"
     },
@@ -2374,6 +2900,8 @@
       "week": 18,
       "gameday": "2024-01-07",
       "gametime": "13:00",
+      "home_team": "TEN",
+      "away_team": "JAX",
       "kickoff_time": "2024-01-07T18:00:00+00:00",
       "prediction_time": "2024-01-07T17:00:00+00:00"
     },
@@ -2383,6 +2911,8 @@
       "week": 18,
       "gameday": "2024-01-07",
       "gametime": "16:25",
+      "home_team": "ARI",
+      "away_team": "SEA",
       "kickoff_time": "2024-01-07T21:25:00+00:00",
       "prediction_time": "2024-01-07T20:25:00+00:00"
     },
@@ -2392,6 +2922,8 @@
       "week": 18,
       "gameday": "2024-01-07",
       "gametime": "16:25",
+      "home_team": "GB",
+      "away_team": "CHI",
       "kickoff_time": "2024-01-07T21:25:00+00:00",
       "prediction_time": "2024-01-07T20:25:00+00:00"
     },
@@ -2401,6 +2933,8 @@
       "week": 18,
       "gameday": "2024-01-07",
       "gametime": "16:25",
+      "home_team": "LAC",
+      "away_team": "KC",
       "kickoff_time": "2024-01-07T21:25:00+00:00",
       "prediction_time": "2024-01-07T20:25:00+00:00"
     },
@@ -2410,6 +2944,8 @@
       "week": 18,
       "gameday": "2024-01-07",
       "gametime": "16:25",
+      "home_team": "LV",
+      "away_team": "DEN",
       "kickoff_time": "2024-01-07T21:25:00+00:00",
       "prediction_time": "2024-01-07T20:25:00+00:00"
     },
@@ -2419,6 +2955,8 @@
       "week": 18,
       "gameday": "2024-01-07",
       "gametime": "16:25",
+      "home_team": "NYG",
+      "away_team": "PHI",
       "kickoff_time": "2024-01-07T21:25:00+00:00",
       "prediction_time": "2024-01-07T20:25:00+00:00"
     },
@@ -2428,6 +2966,8 @@
       "week": 18,
       "gameday": "2024-01-07",
       "gametime": "16:25",
+      "home_team": "SF",
+      "away_team": "LA",
       "kickoff_time": "2024-01-07T21:25:00+00:00",
       "prediction_time": "2024-01-07T20:25:00+00:00"
     },
@@ -2437,6 +2977,8 @@
       "week": 18,
       "gameday": "2024-01-07",
       "gametime": "16:25",
+      "home_team": "WAS",
+      "away_team": "DAL",
       "kickoff_time": "2024-01-07T21:25:00+00:00",
       "prediction_time": "2024-01-07T20:25:00+00:00"
     },
@@ -2446,6 +2988,8 @@
       "week": 18,
       "gameday": "2024-01-07",
       "gametime": "20:20",
+      "home_team": "MIA",
+      "away_team": "BUF",
       "kickoff_time": "2024-01-08T01:20:00+00:00",
       "prediction_time": "2024-01-08T00:20:00+00:00"
     },
@@ -2455,6 +2999,8 @@
       "week": 1,
       "gameday": "2024-09-05",
       "gametime": "20:20",
+      "home_team": "KC",
+      "away_team": "BAL",
       "kickoff_time": "2024-09-06T00:20:00+00:00",
       "prediction_time": "2024-09-05T23:20:00+00:00"
     },
@@ -2464,6 +3010,8 @@
       "week": 1,
       "gameday": "2024-09-06",
       "gametime": "20:15",
+      "home_team": "PHI",
+      "away_team": "GB",
       "kickoff_time": "2024-09-07T00:15:00+00:00",
       "prediction_time": "2024-09-06T23:15:00+00:00"
     },
@@ -2473,6 +3021,8 @@
       "week": 1,
       "gameday": "2024-09-08",
       "gametime": "13:00",
+      "home_team": "ATL",
+      "away_team": "PIT",
       "kickoff_time": "2024-09-08T17:00:00+00:00",
       "prediction_time": "2024-09-08T16:00:00+00:00"
     },
@@ -2482,6 +3032,8 @@
       "week": 1,
       "gameday": "2024-09-08",
       "gametime": "13:00",
+      "home_team": "BUF",
+      "away_team": "ARI",
       "kickoff_time": "2024-09-08T17:00:00+00:00",
       "prediction_time": "2024-09-08T16:00:00+00:00"
     },
@@ -2491,6 +3043,8 @@
       "week": 1,
       "gameday": "2024-09-08",
       "gametime": "13:00",
+      "home_team": "CHI",
+      "away_team": "TEN",
       "kickoff_time": "2024-09-08T17:00:00+00:00",
       "prediction_time": "2024-09-08T16:00:00+00:00"
     },
@@ -2500,6 +3054,8 @@
       "week": 1,
       "gameday": "2024-09-08",
       "gametime": "13:00",
+      "home_team": "CIN",
+      "away_team": "NE",
       "kickoff_time": "2024-09-08T17:00:00+00:00",
       "prediction_time": "2024-09-08T16:00:00+00:00"
     },
@@ -2509,6 +3065,8 @@
       "week": 1,
       "gameday": "2024-09-08",
       "gametime": "13:00",
+      "home_team": "IND",
+      "away_team": "HOU",
       "kickoff_time": "2024-09-08T17:00:00+00:00",
       "prediction_time": "2024-09-08T16:00:00+00:00"
     },
@@ -2518,6 +3076,8 @@
       "week": 1,
       "gameday": "2024-09-08",
       "gametime": "13:00",
+      "home_team": "MIA",
+      "away_team": "JAX",
       "kickoff_time": "2024-09-08T17:00:00+00:00",
       "prediction_time": "2024-09-08T16:00:00+00:00"
     },
@@ -2527,6 +3087,8 @@
       "week": 1,
       "gameday": "2024-09-08",
       "gametime": "13:00",
+      "home_team": "NO",
+      "away_team": "CAR",
       "kickoff_time": "2024-09-08T17:00:00+00:00",
       "prediction_time": "2024-09-08T16:00:00+00:00"
     },
@@ -2536,6 +3098,8 @@
       "week": 1,
       "gameday": "2024-09-08",
       "gametime": "13:00",
+      "home_team": "NYG",
+      "away_team": "MIN",
       "kickoff_time": "2024-09-08T17:00:00+00:00",
       "prediction_time": "2024-09-08T16:00:00+00:00"
     },
@@ -2545,6 +3109,8 @@
       "week": 1,
       "gameday": "2024-09-08",
       "gametime": "16:05",
+      "home_team": "LAC",
+      "away_team": "LV",
       "kickoff_time": "2024-09-08T20:05:00+00:00",
       "prediction_time": "2024-09-08T19:05:00+00:00"
     },
@@ -2554,6 +3120,8 @@
       "week": 1,
       "gameday": "2024-09-08",
       "gametime": "16:05",
+      "home_team": "SEA",
+      "away_team": "DEN",
       "kickoff_time": "2024-09-08T20:05:00+00:00",
       "prediction_time": "2024-09-08T19:05:00+00:00"
     },
@@ -2563,6 +3131,8 @@
       "week": 1,
       "gameday": "2024-09-08",
       "gametime": "16:25",
+      "home_team": "CLE",
+      "away_team": "DAL",
       "kickoff_time": "2024-09-08T20:25:00+00:00",
       "prediction_time": "2024-09-08T19:25:00+00:00"
     },
@@ -2572,6 +3142,8 @@
       "week": 1,
       "gameday": "2024-09-08",
       "gametime": "16:25",
+      "home_team": "TB",
+      "away_team": "WAS",
       "kickoff_time": "2024-09-08T20:25:00+00:00",
       "prediction_time": "2024-09-08T19:25:00+00:00"
     },
@@ -2581,6 +3153,8 @@
       "week": 1,
       "gameday": "2024-09-08",
       "gametime": "20:20",
+      "home_team": "DET",
+      "away_team": "LA",
       "kickoff_time": "2024-09-09T00:20:00+00:00",
       "prediction_time": "2024-09-08T23:20:00+00:00"
     },
@@ -2590,6 +3164,8 @@
       "week": 1,
       "gameday": "2024-09-09",
       "gametime": "20:15",
+      "home_team": "SF",
+      "away_team": "NYJ",
       "kickoff_time": "2024-09-10T00:15:00+00:00",
       "prediction_time": "2024-09-09T23:15:00+00:00"
     },
@@ -2599,6 +3175,8 @@
       "week": 2,
       "gameday": "2024-09-12",
       "gametime": "20:15",
+      "home_team": "MIA",
+      "away_team": "BUF",
       "kickoff_time": "2024-09-13T00:15:00+00:00",
       "prediction_time": "2024-09-12T23:15:00+00:00"
     },
@@ -2608,6 +3186,8 @@
       "week": 2,
       "gameday": "2024-09-15",
       "gametime": "13:00",
+      "home_team": "BAL",
+      "away_team": "LV",
       "kickoff_time": "2024-09-15T17:00:00+00:00",
       "prediction_time": "2024-09-15T16:00:00+00:00"
     },
@@ -2617,6 +3197,8 @@
       "week": 2,
       "gameday": "2024-09-15",
       "gametime": "13:00",
+      "home_team": "CAR",
+      "away_team": "LAC",
       "kickoff_time": "2024-09-15T17:00:00+00:00",
       "prediction_time": "2024-09-15T16:00:00+00:00"
     },
@@ -2626,6 +3208,8 @@
       "week": 2,
       "gameday": "2024-09-15",
       "gametime": "13:00",
+      "home_team": "DAL",
+      "away_team": "NO",
       "kickoff_time": "2024-09-15T17:00:00+00:00",
       "prediction_time": "2024-09-15T16:00:00+00:00"
     },
@@ -2635,6 +3219,8 @@
       "week": 2,
       "gameday": "2024-09-15",
       "gametime": "13:00",
+      "home_team": "DET",
+      "away_team": "TB",
       "kickoff_time": "2024-09-15T17:00:00+00:00",
       "prediction_time": "2024-09-15T16:00:00+00:00"
     },
@@ -2644,6 +3230,8 @@
       "week": 2,
       "gameday": "2024-09-15",
       "gametime": "13:00",
+      "home_team": "GB",
+      "away_team": "IND",
       "kickoff_time": "2024-09-15T17:00:00+00:00",
       "prediction_time": "2024-09-15T16:00:00+00:00"
     },
@@ -2653,6 +3241,8 @@
       "week": 2,
       "gameday": "2024-09-15",
       "gametime": "13:00",
+      "home_team": "JAX",
+      "away_team": "CLE",
       "kickoff_time": "2024-09-15T17:00:00+00:00",
       "prediction_time": "2024-09-15T16:00:00+00:00"
     },
@@ -2662,6 +3252,8 @@
       "week": 2,
       "gameday": "2024-09-15",
       "gametime": "13:00",
+      "home_team": "MIN",
+      "away_team": "SF",
       "kickoff_time": "2024-09-15T17:00:00+00:00",
       "prediction_time": "2024-09-15T16:00:00+00:00"
     },
@@ -2671,6 +3263,8 @@
       "week": 2,
       "gameday": "2024-09-15",
       "gametime": "13:00",
+      "home_team": "NE",
+      "away_team": "SEA",
       "kickoff_time": "2024-09-15T17:00:00+00:00",
       "prediction_time": "2024-09-15T16:00:00+00:00"
     },
@@ -2680,6 +3274,8 @@
       "week": 2,
       "gameday": "2024-09-15",
       "gametime": "13:00",
+      "home_team": "TEN",
+      "away_team": "NYJ",
       "kickoff_time": "2024-09-15T17:00:00+00:00",
       "prediction_time": "2024-09-15T16:00:00+00:00"
     },
@@ -2689,6 +3285,8 @@
       "week": 2,
       "gameday": "2024-09-15",
       "gametime": "13:00",
+      "home_team": "WAS",
+      "away_team": "NYG",
       "kickoff_time": "2024-09-15T17:00:00+00:00",
       "prediction_time": "2024-09-15T16:00:00+00:00"
     },
@@ -2698,6 +3296,8 @@
       "week": 2,
       "gameday": "2024-09-15",
       "gametime": "16:05",
+      "home_team": "ARI",
+      "away_team": "LA",
       "kickoff_time": "2024-09-15T20:05:00+00:00",
       "prediction_time": "2024-09-15T19:05:00+00:00"
     },
@@ -2707,6 +3307,8 @@
       "week": 2,
       "gameday": "2024-09-15",
       "gametime": "16:25",
+      "home_team": "DEN",
+      "away_team": "PIT",
       "kickoff_time": "2024-09-15T20:25:00+00:00",
       "prediction_time": "2024-09-15T19:25:00+00:00"
     },
@@ -2716,6 +3318,8 @@
       "week": 2,
       "gameday": "2024-09-15",
       "gametime": "16:25",
+      "home_team": "KC",
+      "away_team": "CIN",
       "kickoff_time": "2024-09-15T20:25:00+00:00",
       "prediction_time": "2024-09-15T19:25:00+00:00"
     },
@@ -2725,6 +3329,8 @@
       "week": 2,
       "gameday": "2024-09-15",
       "gametime": "20:20",
+      "home_team": "HOU",
+      "away_team": "CHI",
       "kickoff_time": "2024-09-16T00:20:00+00:00",
       "prediction_time": "2024-09-15T23:20:00+00:00"
     },
@@ -2734,6 +3340,8 @@
       "week": 2,
       "gameday": "2024-09-16",
       "gametime": "20:15",
+      "home_team": "PHI",
+      "away_team": "ATL",
       "kickoff_time": "2024-09-17T00:15:00+00:00",
       "prediction_time": "2024-09-16T23:15:00+00:00"
     },
@@ -2743,6 +3351,8 @@
       "week": 3,
       "gameday": "2024-09-19",
       "gametime": "20:15",
+      "home_team": "NYJ",
+      "away_team": "NE",
       "kickoff_time": "2024-09-20T00:15:00+00:00",
       "prediction_time": "2024-09-19T23:15:00+00:00"
     },
@@ -2752,6 +3362,8 @@
       "week": 3,
       "gameday": "2024-09-22",
       "gametime": "13:00",
+      "home_team": "CLE",
+      "away_team": "NYG",
       "kickoff_time": "2024-09-22T17:00:00+00:00",
       "prediction_time": "2024-09-22T16:00:00+00:00"
     },
@@ -2761,6 +3373,8 @@
       "week": 3,
       "gameday": "2024-09-22",
       "gametime": "13:00",
+      "home_team": "IND",
+      "away_team": "CHI",
       "kickoff_time": "2024-09-22T17:00:00+00:00",
       "prediction_time": "2024-09-22T16:00:00+00:00"
     },
@@ -2770,6 +3384,8 @@
       "week": 3,
       "gameday": "2024-09-22",
       "gametime": "13:00",
+      "home_team": "MIN",
+      "away_team": "HOU",
       "kickoff_time": "2024-09-22T17:00:00+00:00",
       "prediction_time": "2024-09-22T16:00:00+00:00"
     },
@@ -2779,6 +3395,8 @@
       "week": 3,
       "gameday": "2024-09-22",
       "gametime": "13:00",
+      "home_team": "NO",
+      "away_team": "PHI",
       "kickoff_time": "2024-09-22T17:00:00+00:00",
       "prediction_time": "2024-09-22T16:00:00+00:00"
     },
@@ -2788,6 +3406,8 @@
       "week": 3,
       "gameday": "2024-09-22",
       "gametime": "13:00",
+      "home_team": "PIT",
+      "away_team": "LAC",
       "kickoff_time": "2024-09-22T17:00:00+00:00",
       "prediction_time": "2024-09-22T16:00:00+00:00"
     },
@@ -2797,6 +3417,8 @@
       "week": 3,
       "gameday": "2024-09-22",
       "gametime": "13:00",
+      "home_team": "TB",
+      "away_team": "DEN",
       "kickoff_time": "2024-09-22T17:00:00+00:00",
       "prediction_time": "2024-09-22T16:00:00+00:00"
     },
@@ -2806,6 +3428,8 @@
       "week": 3,
       "gameday": "2024-09-22",
       "gametime": "13:00",
+      "home_team": "TEN",
+      "away_team": "GB",
       "kickoff_time": "2024-09-22T17:00:00+00:00",
       "prediction_time": "2024-09-22T16:00:00+00:00"
     },
@@ -2815,6 +3439,8 @@
       "week": 3,
       "gameday": "2024-09-22",
       "gametime": "16:05",
+      "home_team": "LV",
+      "away_team": "CAR",
       "kickoff_time": "2024-09-22T20:05:00+00:00",
       "prediction_time": "2024-09-22T19:05:00+00:00"
     },
@@ -2824,6 +3450,8 @@
       "week": 3,
       "gameday": "2024-09-22",
       "gametime": "16:05",
+      "home_team": "SEA",
+      "away_team": "MIA",
       "kickoff_time": "2024-09-22T20:05:00+00:00",
       "prediction_time": "2024-09-22T19:05:00+00:00"
     },
@@ -2833,6 +3461,8 @@
       "week": 3,
       "gameday": "2024-09-22",
       "gametime": "16:25",
+      "home_team": "ARI",
+      "away_team": "DET",
       "kickoff_time": "2024-09-22T20:25:00+00:00",
       "prediction_time": "2024-09-22T19:25:00+00:00"
     },
@@ -2842,6 +3472,8 @@
       "week": 3,
       "gameday": "2024-09-22",
       "gametime": "16:25",
+      "home_team": "DAL",
+      "away_team": "BAL",
       "kickoff_time": "2024-09-22T20:25:00+00:00",
       "prediction_time": "2024-09-22T19:25:00+00:00"
     },
@@ -2851,6 +3483,8 @@
       "week": 3,
       "gameday": "2024-09-22",
       "gametime": "16:25",
+      "home_team": "LA",
+      "away_team": "SF",
       "kickoff_time": "2024-09-22T20:25:00+00:00",
       "prediction_time": "2024-09-22T19:25:00+00:00"
     },
@@ -2860,6 +3494,8 @@
       "week": 3,
       "gameday": "2024-09-22",
       "gametime": "20:20",
+      "home_team": "ATL",
+      "away_team": "KC",
       "kickoff_time": "2024-09-23T00:20:00+00:00",
       "prediction_time": "2024-09-22T23:20:00+00:00"
     },
@@ -2869,6 +3505,8 @@
       "week": 3,
       "gameday": "2024-09-23",
       "gametime": "19:30",
+      "home_team": "BUF",
+      "away_team": "JAX",
       "kickoff_time": "2024-09-23T23:30:00+00:00",
       "prediction_time": "2024-09-23T22:30:00+00:00"
     },
@@ -2878,6 +3516,8 @@
       "week": 3,
       "gameday": "2024-09-23",
       "gametime": "20:15",
+      "home_team": "CIN",
+      "away_team": "WAS",
       "kickoff_time": "2024-09-24T00:15:00+00:00",
       "prediction_time": "2024-09-23T23:15:00+00:00"
     },
@@ -2887,6 +3527,8 @@
       "week": 4,
       "gameday": "2024-09-26",
       "gametime": "20:15",
+      "home_team": "NYG",
+      "away_team": "DAL",
       "kickoff_time": "2024-09-27T00:15:00+00:00",
       "prediction_time": "2024-09-26T23:15:00+00:00"
     },
@@ -2896,6 +3538,8 @@
       "week": 4,
       "gameday": "2024-09-29",
       "gametime": "13:00",
+      "home_team": "ATL",
+      "away_team": "NO",
       "kickoff_time": "2024-09-29T17:00:00+00:00",
       "prediction_time": "2024-09-29T16:00:00+00:00"
     },
@@ -2905,6 +3549,8 @@
       "week": 4,
       "gameday": "2024-09-29",
       "gametime": "13:00",
+      "home_team": "CAR",
+      "away_team": "CIN",
       "kickoff_time": "2024-09-29T17:00:00+00:00",
       "prediction_time": "2024-09-29T16:00:00+00:00"
     },
@@ -2914,6 +3560,8 @@
       "week": 4,
       "gameday": "2024-09-29",
       "gametime": "13:00",
+      "home_team": "CHI",
+      "away_team": "LA",
       "kickoff_time": "2024-09-29T17:00:00+00:00",
       "prediction_time": "2024-09-29T16:00:00+00:00"
     },
@@ -2923,6 +3571,8 @@
       "week": 4,
       "gameday": "2024-09-29",
       "gametime": "13:00",
+      "home_team": "GB",
+      "away_team": "MIN",
       "kickoff_time": "2024-09-29T17:00:00+00:00",
       "prediction_time": "2024-09-29T16:00:00+00:00"
     },
@@ -2932,6 +3582,8 @@
       "week": 4,
       "gameday": "2024-09-29",
       "gametime": "13:00",
+      "home_team": "HOU",
+      "away_team": "JAX",
       "kickoff_time": "2024-09-29T17:00:00+00:00",
       "prediction_time": "2024-09-29T16:00:00+00:00"
     },
@@ -2941,6 +3593,8 @@
       "week": 4,
       "gameday": "2024-09-29",
       "gametime": "13:00",
+      "home_team": "IND",
+      "away_team": "PIT",
       "kickoff_time": "2024-09-29T17:00:00+00:00",
       "prediction_time": "2024-09-29T16:00:00+00:00"
     },
@@ -2950,6 +3604,8 @@
       "week": 4,
       "gameday": "2024-09-29",
       "gametime": "13:00",
+      "home_team": "NYJ",
+      "away_team": "DEN",
       "kickoff_time": "2024-09-29T17:00:00+00:00",
       "prediction_time": "2024-09-29T16:00:00+00:00"
     },
@@ -2959,6 +3615,8 @@
       "week": 4,
       "gameday": "2024-09-29",
       "gametime": "13:00",
+      "home_team": "TB",
+      "away_team": "PHI",
       "kickoff_time": "2024-09-29T17:00:00+00:00",
       "prediction_time": "2024-09-29T16:00:00+00:00"
     },
@@ -2968,6 +3626,8 @@
       "week": 4,
       "gameday": "2024-09-29",
       "gametime": "16:05",
+      "home_team": "ARI",
+      "away_team": "WAS",
       "kickoff_time": "2024-09-29T20:05:00+00:00",
       "prediction_time": "2024-09-29T19:05:00+00:00"
     },
@@ -2977,6 +3637,8 @@
       "week": 4,
       "gameday": "2024-09-29",
       "gametime": "16:05",
+      "home_team": "SF",
+      "away_team": "NE",
       "kickoff_time": "2024-09-29T20:05:00+00:00",
       "prediction_time": "2024-09-29T19:05:00+00:00"
     },
@@ -2986,6 +3648,8 @@
       "week": 4,
       "gameday": "2024-09-29",
       "gametime": "16:25",
+      "home_team": "LAC",
+      "away_team": "KC",
       "kickoff_time": "2024-09-29T20:25:00+00:00",
       "prediction_time": "2024-09-29T19:25:00+00:00"
     },
@@ -2995,6 +3659,8 @@
       "week": 4,
       "gameday": "2024-09-29",
       "gametime": "16:25",
+      "home_team": "LV",
+      "away_team": "CLE",
       "kickoff_time": "2024-09-29T20:25:00+00:00",
       "prediction_time": "2024-09-29T19:25:00+00:00"
     },
@@ -3004,6 +3670,8 @@
       "week": 4,
       "gameday": "2024-09-29",
       "gametime": "20:20",
+      "home_team": "BAL",
+      "away_team": "BUF",
       "kickoff_time": "2024-09-30T00:20:00+00:00",
       "prediction_time": "2024-09-29T23:20:00+00:00"
     },
@@ -3013,6 +3681,8 @@
       "week": 4,
       "gameday": "2024-09-30",
       "gametime": "19:30",
+      "home_team": "MIA",
+      "away_team": "TEN",
       "kickoff_time": "2024-09-30T23:30:00+00:00",
       "prediction_time": "2024-09-30T22:30:00+00:00"
     },
@@ -3022,6 +3692,8 @@
       "week": 4,
       "gameday": "2024-09-30",
       "gametime": "20:15",
+      "home_team": "DET",
+      "away_team": "SEA",
       "kickoff_time": "2024-10-01T00:15:00+00:00",
       "prediction_time": "2024-09-30T23:15:00+00:00"
     },
@@ -3031,6 +3703,8 @@
       "week": 5,
       "gameday": "2024-10-03",
       "gametime": "20:15",
+      "home_team": "ATL",
+      "away_team": "TB",
       "kickoff_time": "2024-10-04T00:15:00+00:00",
       "prediction_time": "2024-10-03T23:15:00+00:00"
     },
@@ -3040,6 +3714,8 @@
       "week": 5,
       "gameday": "2024-10-06",
       "gametime": "09:30",
+      "home_team": "MIN",
+      "away_team": "NYJ",
       "kickoff_time": "2024-10-06T13:30:00+00:00",
       "prediction_time": "2024-10-06T12:30:00+00:00"
     },
@@ -3049,6 +3725,8 @@
       "week": 5,
       "gameday": "2024-10-06",
       "gametime": "13:00",
+      "home_team": "CHI",
+      "away_team": "CAR",
       "kickoff_time": "2024-10-06T17:00:00+00:00",
       "prediction_time": "2024-10-06T16:00:00+00:00"
     },
@@ -3058,6 +3736,8 @@
       "week": 5,
       "gameday": "2024-10-06",
       "gametime": "13:00",
+      "home_team": "CIN",
+      "away_team": "BAL",
       "kickoff_time": "2024-10-06T17:00:00+00:00",
       "prediction_time": "2024-10-06T16:00:00+00:00"
     },
@@ -3067,6 +3747,8 @@
       "week": 5,
       "gameday": "2024-10-06",
       "gametime": "13:00",
+      "home_team": "HOU",
+      "away_team": "BUF",
       "kickoff_time": "2024-10-06T17:00:00+00:00",
       "prediction_time": "2024-10-06T16:00:00+00:00"
     },
@@ -3076,6 +3758,8 @@
       "week": 5,
       "gameday": "2024-10-06",
       "gametime": "13:00",
+      "home_team": "JAX",
+      "away_team": "IND",
       "kickoff_time": "2024-10-06T17:00:00+00:00",
       "prediction_time": "2024-10-06T16:00:00+00:00"
     },
@@ -3085,6 +3769,8 @@
       "week": 5,
       "gameday": "2024-10-06",
       "gametime": "13:00",
+      "home_team": "NE",
+      "away_team": "MIA",
       "kickoff_time": "2024-10-06T17:00:00+00:00",
       "prediction_time": "2024-10-06T16:00:00+00:00"
     },
@@ -3094,6 +3780,8 @@
       "week": 5,
       "gameday": "2024-10-06",
       "gametime": "13:00",
+      "home_team": "WAS",
+      "away_team": "CLE",
       "kickoff_time": "2024-10-06T17:00:00+00:00",
       "prediction_time": "2024-10-06T16:00:00+00:00"
     },
@@ -3103,6 +3791,8 @@
       "week": 5,
       "gameday": "2024-10-06",
       "gametime": "16:05",
+      "home_team": "DEN",
+      "away_team": "LV",
       "kickoff_time": "2024-10-06T20:05:00+00:00",
       "prediction_time": "2024-10-06T19:05:00+00:00"
     },
@@ -3112,6 +3802,8 @@
       "week": 5,
       "gameday": "2024-10-06",
       "gametime": "16:05",
+      "home_team": "SF",
+      "away_team": "ARI",
       "kickoff_time": "2024-10-06T20:05:00+00:00",
       "prediction_time": "2024-10-06T19:05:00+00:00"
     },
@@ -3121,6 +3813,8 @@
       "week": 5,
       "gameday": "2024-10-06",
       "gametime": "16:25",
+      "home_team": "LA",
+      "away_team": "GB",
       "kickoff_time": "2024-10-06T20:25:00+00:00",
       "prediction_time": "2024-10-06T19:25:00+00:00"
     },
@@ -3130,6 +3824,8 @@
       "week": 5,
       "gameday": "2024-10-06",
       "gametime": "16:25",
+      "home_team": "SEA",
+      "away_team": "NYG",
       "kickoff_time": "2024-10-06T20:25:00+00:00",
       "prediction_time": "2024-10-06T19:25:00+00:00"
     },
@@ -3139,6 +3835,8 @@
       "week": 5,
       "gameday": "2024-10-06",
       "gametime": "20:20",
+      "home_team": "PIT",
+      "away_team": "DAL",
       "kickoff_time": "2024-10-07T00:20:00+00:00",
       "prediction_time": "2024-10-06T23:20:00+00:00"
     },
@@ -3148,6 +3846,8 @@
       "week": 5,
       "gameday": "2024-10-07",
       "gametime": "20:15",
+      "home_team": "KC",
+      "away_team": "NO",
       "kickoff_time": "2024-10-08T00:15:00+00:00",
       "prediction_time": "2024-10-07T23:15:00+00:00"
     },
@@ -3157,6 +3857,8 @@
       "week": 6,
       "gameday": "2024-10-10",
       "gametime": "20:15",
+      "home_team": "SEA",
+      "away_team": "SF",
       "kickoff_time": "2024-10-11T00:15:00+00:00",
       "prediction_time": "2024-10-10T23:15:00+00:00"
     },
@@ -3166,6 +3868,8 @@
       "week": 6,
       "gameday": "2024-10-13",
       "gametime": "09:30",
+      "home_team": "CHI",
+      "away_team": "JAX",
       "kickoff_time": "2024-10-13T13:30:00+00:00",
       "prediction_time": "2024-10-13T12:30:00+00:00"
     },
@@ -3175,6 +3879,8 @@
       "week": 6,
       "gameday": "2024-10-13",
       "gametime": "13:00",
+      "home_team": "BAL",
+      "away_team": "WAS",
       "kickoff_time": "2024-10-13T17:00:00+00:00",
       "prediction_time": "2024-10-13T16:00:00+00:00"
     },
@@ -3184,6 +3890,8 @@
       "week": 6,
       "gameday": "2024-10-13",
       "gametime": "13:00",
+      "home_team": "GB",
+      "away_team": "ARI",
       "kickoff_time": "2024-10-13T17:00:00+00:00",
       "prediction_time": "2024-10-13T16:00:00+00:00"
     },
@@ -3193,6 +3901,8 @@
       "week": 6,
       "gameday": "2024-10-13",
       "gametime": "13:00",
+      "home_team": "NE",
+      "away_team": "HOU",
       "kickoff_time": "2024-10-13T17:00:00+00:00",
       "prediction_time": "2024-10-13T16:00:00+00:00"
     },
@@ -3202,6 +3912,8 @@
       "week": 6,
       "gameday": "2024-10-13",
       "gametime": "13:00",
+      "home_team": "NO",
+      "away_team": "TB",
       "kickoff_time": "2024-10-13T17:00:00+00:00",
       "prediction_time": "2024-10-13T16:00:00+00:00"
     },
@@ -3211,6 +3923,8 @@
       "week": 6,
       "gameday": "2024-10-13",
       "gametime": "13:00",
+      "home_team": "PHI",
+      "away_team": "CLE",
       "kickoff_time": "2024-10-13T17:00:00+00:00",
       "prediction_time": "2024-10-13T16:00:00+00:00"
     },
@@ -3220,6 +3934,8 @@
       "week": 6,
       "gameday": "2024-10-13",
       "gametime": "13:00",
+      "home_team": "TEN",
+      "away_team": "IND",
       "kickoff_time": "2024-10-13T17:00:00+00:00",
       "prediction_time": "2024-10-13T16:00:00+00:00"
     },
@@ -3229,6 +3945,8 @@
       "week": 6,
       "gameday": "2024-10-13",
       "gametime": "16:05",
+      "home_team": "DEN",
+      "away_team": "LAC",
       "kickoff_time": "2024-10-13T20:05:00+00:00",
       "prediction_time": "2024-10-13T19:05:00+00:00"
     },
@@ -3238,6 +3956,8 @@
       "week": 6,
       "gameday": "2024-10-13",
       "gametime": "16:05",
+      "home_team": "LV",
+      "away_team": "PIT",
       "kickoff_time": "2024-10-13T20:05:00+00:00",
       "prediction_time": "2024-10-13T19:05:00+00:00"
     },
@@ -3247,6 +3967,8 @@
       "week": 6,
       "gameday": "2024-10-13",
       "gametime": "16:25",
+      "home_team": "CAR",
+      "away_team": "ATL",
       "kickoff_time": "2024-10-13T20:25:00+00:00",
       "prediction_time": "2024-10-13T19:25:00+00:00"
     },
@@ -3256,6 +3978,8 @@
       "week": 6,
       "gameday": "2024-10-13",
       "gametime": "16:25",
+      "home_team": "DAL",
+      "away_team": "DET",
       "kickoff_time": "2024-10-13T20:25:00+00:00",
       "prediction_time": "2024-10-13T19:25:00+00:00"
     },
@@ -3265,6 +3989,8 @@
       "week": 6,
       "gameday": "2024-10-13",
       "gametime": "20:20",
+      "home_team": "NYG",
+      "away_team": "CIN",
       "kickoff_time": "2024-10-14T00:20:00+00:00",
       "prediction_time": "2024-10-13T23:20:00+00:00"
     },
@@ -3274,6 +4000,8 @@
       "week": 6,
       "gameday": "2024-10-14",
       "gametime": "20:15",
+      "home_team": "NYJ",
+      "away_team": "BUF",
       "kickoff_time": "2024-10-15T00:15:00+00:00",
       "prediction_time": "2024-10-14T23:15:00+00:00"
     },
@@ -3283,6 +4011,8 @@
       "week": 7,
       "gameday": "2024-10-17",
       "gametime": "20:15",
+      "home_team": "NO",
+      "away_team": "DEN",
       "kickoff_time": "2024-10-18T00:15:00+00:00",
       "prediction_time": "2024-10-17T23:15:00+00:00"
     },
@@ -3292,6 +4022,8 @@
       "week": 7,
       "gameday": "2024-10-20",
       "gametime": "09:30",
+      "home_team": "JAX",
+      "away_team": "NE",
       "kickoff_time": "2024-10-20T13:30:00+00:00",
       "prediction_time": "2024-10-20T12:30:00+00:00"
     },
@@ -3301,6 +4033,8 @@
       "week": 7,
       "gameday": "2024-10-20",
       "gametime": "13:00",
+      "home_team": "ATL",
+      "away_team": "SEA",
       "kickoff_time": "2024-10-20T17:00:00+00:00",
       "prediction_time": "2024-10-20T16:00:00+00:00"
     },
@@ -3310,6 +4044,8 @@
       "week": 7,
       "gameday": "2024-10-20",
       "gametime": "13:00",
+      "home_team": "BUF",
+      "away_team": "TEN",
       "kickoff_time": "2024-10-20T17:00:00+00:00",
       "prediction_time": "2024-10-20T16:00:00+00:00"
     },
@@ -3319,6 +4055,8 @@
       "week": 7,
       "gameday": "2024-10-20",
       "gametime": "13:00",
+      "home_team": "CLE",
+      "away_team": "CIN",
       "kickoff_time": "2024-10-20T17:00:00+00:00",
       "prediction_time": "2024-10-20T16:00:00+00:00"
     },
@@ -3328,6 +4066,8 @@
       "week": 7,
       "gameday": "2024-10-20",
       "gametime": "13:00",
+      "home_team": "GB",
+      "away_team": "HOU",
       "kickoff_time": "2024-10-20T17:00:00+00:00",
       "prediction_time": "2024-10-20T16:00:00+00:00"
     },
@@ -3337,6 +4077,8 @@
       "week": 7,
       "gameday": "2024-10-20",
       "gametime": "13:00",
+      "home_team": "IND",
+      "away_team": "MIA",
       "kickoff_time": "2024-10-20T17:00:00+00:00",
       "prediction_time": "2024-10-20T16:00:00+00:00"
     },
@@ -3346,6 +4088,8 @@
       "week": 7,
       "gameday": "2024-10-20",
       "gametime": "13:00",
+      "home_team": "MIN",
+      "away_team": "DET",
       "kickoff_time": "2024-10-20T17:00:00+00:00",
       "prediction_time": "2024-10-20T16:00:00+00:00"
     },
@@ -3355,6 +4099,8 @@
       "week": 7,
       "gameday": "2024-10-20",
       "gametime": "13:00",
+      "home_team": "NYG",
+      "away_team": "PHI",
       "kickoff_time": "2024-10-20T17:00:00+00:00",
       "prediction_time": "2024-10-20T16:00:00+00:00"
     },
@@ -3364,6 +4110,8 @@
       "week": 7,
       "gameday": "2024-10-20",
       "gametime": "16:05",
+      "home_team": "LA",
+      "away_team": "LV",
       "kickoff_time": "2024-10-20T20:05:00+00:00",
       "prediction_time": "2024-10-20T19:05:00+00:00"
     },
@@ -3373,6 +4121,8 @@
       "week": 7,
       "gameday": "2024-10-20",
       "gametime": "16:05",
+      "home_team": "WAS",
+      "away_team": "CAR",
       "kickoff_time": "2024-10-20T20:05:00+00:00",
       "prediction_time": "2024-10-20T19:05:00+00:00"
     },
@@ -3382,6 +4132,8 @@
       "week": 7,
       "gameday": "2024-10-20",
       "gametime": "16:25",
+      "home_team": "SF",
+      "away_team": "KC",
       "kickoff_time": "2024-10-20T20:25:00+00:00",
       "prediction_time": "2024-10-20T19:25:00+00:00"
     },
@@ -3391,6 +4143,8 @@
       "week": 7,
       "gameday": "2024-10-20",
       "gametime": "20:20",
+      "home_team": "PIT",
+      "away_team": "NYJ",
       "kickoff_time": "2024-10-21T00:20:00+00:00",
       "prediction_time": "2024-10-20T23:20:00+00:00"
     },
@@ -3400,6 +4154,8 @@
       "week": 7,
       "gameday": "2024-10-21",
       "gametime": "20:15",
+      "home_team": "TB",
+      "away_team": "BAL",
       "kickoff_time": "2024-10-22T00:15:00+00:00",
       "prediction_time": "2024-10-21T23:15:00+00:00"
     },
@@ -3409,6 +4165,8 @@
       "week": 7,
       "gameday": "2024-10-21",
       "gametime": "21:00",
+      "home_team": "ARI",
+      "away_team": "LAC",
       "kickoff_time": "2024-10-22T01:00:00+00:00",
       "prediction_time": "2024-10-22T00:00:00+00:00"
     },
@@ -3418,6 +4176,8 @@
       "week": 8,
       "gameday": "2024-10-24",
       "gametime": "20:15",
+      "home_team": "LA",
+      "away_team": "MIN",
       "kickoff_time": "2024-10-25T00:15:00+00:00",
       "prediction_time": "2024-10-24T23:15:00+00:00"
     },
@@ -3427,6 +4187,8 @@
       "week": 8,
       "gameday": "2024-10-27",
       "gametime": "13:00",
+      "home_team": "CIN",
+      "away_team": "PHI",
       "kickoff_time": "2024-10-27T17:00:00+00:00",
       "prediction_time": "2024-10-27T16:00:00+00:00"
     },
@@ -3436,6 +4198,8 @@
       "week": 8,
       "gameday": "2024-10-27",
       "gametime": "13:00",
+      "home_team": "CLE",
+      "away_team": "BAL",
       "kickoff_time": "2024-10-27T17:00:00+00:00",
       "prediction_time": "2024-10-27T16:00:00+00:00"
     },
@@ -3445,6 +4209,8 @@
       "week": 8,
       "gameday": "2024-10-27",
       "gametime": "13:00",
+      "home_team": "DET",
+      "away_team": "TEN",
       "kickoff_time": "2024-10-27T17:00:00+00:00",
       "prediction_time": "2024-10-27T16:00:00+00:00"
     },
@@ -3454,6 +4220,8 @@
       "week": 8,
       "gameday": "2024-10-27",
       "gametime": "13:00",
+      "home_team": "HOU",
+      "away_team": "IND",
       "kickoff_time": "2024-10-27T17:00:00+00:00",
       "prediction_time": "2024-10-27T16:00:00+00:00"
     },
@@ -3463,6 +4231,8 @@
       "week": 8,
       "gameday": "2024-10-27",
       "gametime": "13:00",
+      "home_team": "JAX",
+      "away_team": "GB",
       "kickoff_time": "2024-10-27T17:00:00+00:00",
       "prediction_time": "2024-10-27T16:00:00+00:00"
     },
@@ -3472,6 +4242,8 @@
       "week": 8,
       "gameday": "2024-10-27",
       "gametime": "13:00",
+      "home_team": "MIA",
+      "away_team": "ARI",
       "kickoff_time": "2024-10-27T17:00:00+00:00",
       "prediction_time": "2024-10-27T16:00:00+00:00"
     },
@@ -3481,6 +4253,8 @@
       "week": 8,
       "gameday": "2024-10-27",
       "gametime": "13:00",
+      "home_team": "NE",
+      "away_team": "NYJ",
       "kickoff_time": "2024-10-27T17:00:00+00:00",
       "prediction_time": "2024-10-27T16:00:00+00:00"
     },
@@ -3490,6 +4264,8 @@
       "week": 8,
       "gameday": "2024-10-27",
       "gametime": "13:00",
+      "home_team": "TB",
+      "away_team": "ATL",
       "kickoff_time": "2024-10-27T17:00:00+00:00",
       "prediction_time": "2024-10-27T16:00:00+00:00"
     },
@@ -3499,6 +4275,8 @@
       "week": 8,
       "gameday": "2024-10-27",
       "gametime": "16:05",
+      "home_team": "LAC",
+      "away_team": "NO",
       "kickoff_time": "2024-10-27T20:05:00+00:00",
       "prediction_time": "2024-10-27T19:05:00+00:00"
     },
@@ -3508,6 +4286,8 @@
       "week": 8,
       "gameday": "2024-10-27",
       "gametime": "16:05",
+      "home_team": "SEA",
+      "away_team": "BUF",
       "kickoff_time": "2024-10-27T20:05:00+00:00",
       "prediction_time": "2024-10-27T19:05:00+00:00"
     },
@@ -3517,6 +4297,8 @@
       "week": 8,
       "gameday": "2024-10-27",
       "gametime": "16:25",
+      "home_team": "DEN",
+      "away_team": "CAR",
       "kickoff_time": "2024-10-27T20:25:00+00:00",
       "prediction_time": "2024-10-27T19:25:00+00:00"
     },
@@ -3526,6 +4308,8 @@
       "week": 8,
       "gameday": "2024-10-27",
       "gametime": "16:25",
+      "home_team": "LV",
+      "away_team": "KC",
       "kickoff_time": "2024-10-27T20:25:00+00:00",
       "prediction_time": "2024-10-27T19:25:00+00:00"
     },
@@ -3535,6 +4319,8 @@
       "week": 8,
       "gameday": "2024-10-27",
       "gametime": "16:25",
+      "home_team": "WAS",
+      "away_team": "CHI",
       "kickoff_time": "2024-10-27T20:25:00+00:00",
       "prediction_time": "2024-10-27T19:25:00+00:00"
     },
@@ -3544,6 +4330,8 @@
       "week": 8,
       "gameday": "2024-10-27",
       "gametime": "20:20",
+      "home_team": "SF",
+      "away_team": "DAL",
       "kickoff_time": "2024-10-28T00:20:00+00:00",
       "prediction_time": "2024-10-27T23:20:00+00:00"
     },
@@ -3553,6 +4341,8 @@
       "week": 8,
       "gameday": "2024-10-28",
       "gametime": "20:15",
+      "home_team": "PIT",
+      "away_team": "NYG",
       "kickoff_time": "2024-10-29T00:15:00+00:00",
       "prediction_time": "2024-10-28T23:15:00+00:00"
     },
@@ -3562,6 +4352,8 @@
       "week": 9,
       "gameday": "2024-10-31",
       "gametime": "20:15",
+      "home_team": "NYJ",
+      "away_team": "HOU",
       "kickoff_time": "2024-11-01T00:15:00+00:00",
       "prediction_time": "2024-10-31T23:15:00+00:00"
     },
@@ -3571,6 +4363,8 @@
       "week": 9,
       "gameday": "2024-11-03",
       "gametime": "13:00",
+      "home_team": "ATL",
+      "away_team": "DAL",
       "kickoff_time": "2024-11-03T18:00:00+00:00",
       "prediction_time": "2024-11-03T17:00:00+00:00"
     },
@@ -3580,6 +4374,8 @@
       "week": 9,
       "gameday": "2024-11-03",
       "gametime": "13:00",
+      "home_team": "BAL",
+      "away_team": "DEN",
       "kickoff_time": "2024-11-03T18:00:00+00:00",
       "prediction_time": "2024-11-03T17:00:00+00:00"
     },
@@ -3589,6 +4385,8 @@
       "week": 9,
       "gameday": "2024-11-03",
       "gametime": "13:00",
+      "home_team": "BUF",
+      "away_team": "MIA",
       "kickoff_time": "2024-11-03T18:00:00+00:00",
       "prediction_time": "2024-11-03T17:00:00+00:00"
     },
@@ -3598,6 +4396,8 @@
       "week": 9,
       "gameday": "2024-11-03",
       "gametime": "13:00",
+      "home_team": "CAR",
+      "away_team": "NO",
       "kickoff_time": "2024-11-03T18:00:00+00:00",
       "prediction_time": "2024-11-03T17:00:00+00:00"
     },
@@ -3607,6 +4407,8 @@
       "week": 9,
       "gameday": "2024-11-03",
       "gametime": "13:00",
+      "home_team": "CIN",
+      "away_team": "LV",
       "kickoff_time": "2024-11-03T18:00:00+00:00",
       "prediction_time": "2024-11-03T17:00:00+00:00"
     },
@@ -3616,6 +4418,8 @@
       "week": 9,
       "gameday": "2024-11-03",
       "gametime": "13:00",
+      "home_team": "CLE",
+      "away_team": "LAC",
       "kickoff_time": "2024-11-03T18:00:00+00:00",
       "prediction_time": "2024-11-03T17:00:00+00:00"
     },
@@ -3625,6 +4429,8 @@
       "week": 9,
       "gameday": "2024-11-03",
       "gametime": "13:00",
+      "home_team": "NYG",
+      "away_team": "WAS",
       "kickoff_time": "2024-11-03T18:00:00+00:00",
       "prediction_time": "2024-11-03T17:00:00+00:00"
     },
@@ -3634,6 +4440,8 @@
       "week": 9,
       "gameday": "2024-11-03",
       "gametime": "13:00",
+      "home_team": "TEN",
+      "away_team": "NE",
       "kickoff_time": "2024-11-03T18:00:00+00:00",
       "prediction_time": "2024-11-03T17:00:00+00:00"
     },
@@ -3643,6 +4451,8 @@
       "week": 9,
       "gameday": "2024-11-03",
       "gametime": "16:05",
+      "home_team": "ARI",
+      "away_team": "CHI",
       "kickoff_time": "2024-11-03T21:05:00+00:00",
       "prediction_time": "2024-11-03T20:05:00+00:00"
     },
@@ -3652,6 +4462,8 @@
       "week": 9,
       "gameday": "2024-11-03",
       "gametime": "16:05",
+      "home_team": "PHI",
+      "away_team": "JAX",
       "kickoff_time": "2024-11-03T21:05:00+00:00",
       "prediction_time": "2024-11-03T20:05:00+00:00"
     },
@@ -3661,6 +4473,8 @@
       "week": 9,
       "gameday": "2024-11-03",
       "gametime": "16:25",
+      "home_team": "GB",
+      "away_team": "DET",
       "kickoff_time": "2024-11-03T21:25:00+00:00",
       "prediction_time": "2024-11-03T20:25:00+00:00"
     },
@@ -3670,6 +4484,8 @@
       "week": 9,
       "gameday": "2024-11-03",
       "gametime": "16:25",
+      "home_team": "SEA",
+      "away_team": "LA",
       "kickoff_time": "2024-11-03T21:25:00+00:00",
       "prediction_time": "2024-11-03T20:25:00+00:00"
     },
@@ -3679,6 +4495,8 @@
       "week": 9,
       "gameday": "2024-11-03",
       "gametime": "20:20",
+      "home_team": "MIN",
+      "away_team": "IND",
       "kickoff_time": "2024-11-04T01:20:00+00:00",
       "prediction_time": "2024-11-04T00:20:00+00:00"
     },
@@ -3688,6 +4506,8 @@
       "week": 9,
       "gameday": "2024-11-04",
       "gametime": "20:15",
+      "home_team": "KC",
+      "away_team": "TB",
       "kickoff_time": "2024-11-05T01:15:00+00:00",
       "prediction_time": "2024-11-05T00:15:00+00:00"
     },
@@ -3697,6 +4517,8 @@
       "week": 10,
       "gameday": "2024-11-07",
       "gametime": "20:15",
+      "home_team": "BAL",
+      "away_team": "CIN",
       "kickoff_time": "2024-11-08T01:15:00+00:00",
       "prediction_time": "2024-11-08T00:15:00+00:00"
     },
@@ -3706,6 +4528,8 @@
       "week": 10,
       "gameday": "2024-11-10",
       "gametime": "09:30",
+      "home_team": "CAR",
+      "away_team": "NYG",
       "kickoff_time": "2024-11-10T14:30:00+00:00",
       "prediction_time": "2024-11-10T13:30:00+00:00"
     },
@@ -3715,6 +4539,8 @@
       "week": 10,
       "gameday": "2024-11-10",
       "gametime": "13:00",
+      "home_team": "CHI",
+      "away_team": "NE",
       "kickoff_time": "2024-11-10T18:00:00+00:00",
       "prediction_time": "2024-11-10T17:00:00+00:00"
     },
@@ -3724,6 +4550,8 @@
       "week": 10,
       "gameday": "2024-11-10",
       "gametime": "13:00",
+      "home_team": "IND",
+      "away_team": "BUF",
       "kickoff_time": "2024-11-10T18:00:00+00:00",
       "prediction_time": "2024-11-10T17:00:00+00:00"
     },
@@ -3733,6 +4561,8 @@
       "week": 10,
       "gameday": "2024-11-10",
       "gametime": "13:00",
+      "home_team": "JAX",
+      "away_team": "MIN",
       "kickoff_time": "2024-11-10T18:00:00+00:00",
       "prediction_time": "2024-11-10T17:00:00+00:00"
     },
@@ -3742,6 +4572,8 @@
       "week": 10,
       "gameday": "2024-11-10",
       "gametime": "13:00",
+      "home_team": "KC",
+      "away_team": "DEN",
       "kickoff_time": "2024-11-10T18:00:00+00:00",
       "prediction_time": "2024-11-10T17:00:00+00:00"
     },
@@ -3751,6 +4583,8 @@
       "week": 10,
       "gameday": "2024-11-10",
       "gametime": "13:00",
+      "home_team": "NO",
+      "away_team": "ATL",
       "kickoff_time": "2024-11-10T18:00:00+00:00",
       "prediction_time": "2024-11-10T17:00:00+00:00"
     },
@@ -3760,6 +4594,8 @@
       "week": 10,
       "gameday": "2024-11-10",
       "gametime": "13:00",
+      "home_team": "TB",
+      "away_team": "SF",
       "kickoff_time": "2024-11-10T18:00:00+00:00",
       "prediction_time": "2024-11-10T17:00:00+00:00"
     },
@@ -3769,6 +4605,8 @@
       "week": 10,
       "gameday": "2024-11-10",
       "gametime": "13:00",
+      "home_team": "WAS",
+      "away_team": "PIT",
       "kickoff_time": "2024-11-10T18:00:00+00:00",
       "prediction_time": "2024-11-10T17:00:00+00:00"
     },
@@ -3778,6 +4616,8 @@
       "week": 10,
       "gameday": "2024-11-10",
       "gametime": "16:05",
+      "home_team": "LAC",
+      "away_team": "TEN",
       "kickoff_time": "2024-11-10T21:05:00+00:00",
       "prediction_time": "2024-11-10T20:05:00+00:00"
     },
@@ -3787,6 +4627,8 @@
       "week": 10,
       "gameday": "2024-11-10",
       "gametime": "16:25",
+      "home_team": "ARI",
+      "away_team": "NYJ",
       "kickoff_time": "2024-11-10T21:25:00+00:00",
       "prediction_time": "2024-11-10T20:25:00+00:00"
     },
@@ -3796,6 +4638,8 @@
       "week": 10,
       "gameday": "2024-11-10",
       "gametime": "16:25",
+      "home_team": "DAL",
+      "away_team": "PHI",
       "kickoff_time": "2024-11-10T21:25:00+00:00",
       "prediction_time": "2024-11-10T20:25:00+00:00"
     },
@@ -3805,6 +4649,8 @@
       "week": 10,
       "gameday": "2024-11-10",
       "gametime": "20:20",
+      "home_team": "HOU",
+      "away_team": "DET",
       "kickoff_time": "2024-11-11T01:20:00+00:00",
       "prediction_time": "2024-11-11T00:20:00+00:00"
     },
@@ -3814,6 +4660,8 @@
       "week": 10,
       "gameday": "2024-11-11",
       "gametime": "20:15",
+      "home_team": "LA",
+      "away_team": "MIA",
       "kickoff_time": "2024-11-12T01:15:00+00:00",
       "prediction_time": "2024-11-12T00:15:00+00:00"
     },
@@ -3823,6 +4671,8 @@
       "week": 11,
       "gameday": "2024-11-14",
       "gametime": "20:15",
+      "home_team": "PHI",
+      "away_team": "WAS",
       "kickoff_time": "2024-11-15T01:15:00+00:00",
       "prediction_time": "2024-11-15T00:15:00+00:00"
     },
@@ -3832,6 +4682,8 @@
       "week": 11,
       "gameday": "2024-11-17",
       "gametime": "13:00",
+      "home_team": "CHI",
+      "away_team": "GB",
       "kickoff_time": "2024-11-17T18:00:00+00:00",
       "prediction_time": "2024-11-17T17:00:00+00:00"
     },
@@ -3841,6 +4693,8 @@
       "week": 11,
       "gameday": "2024-11-17",
       "gametime": "13:00",
+      "home_team": "DET",
+      "away_team": "JAX",
       "kickoff_time": "2024-11-17T18:00:00+00:00",
       "prediction_time": "2024-11-17T17:00:00+00:00"
     },
@@ -3850,6 +4704,8 @@
       "week": 11,
       "gameday": "2024-11-17",
       "gametime": "13:00",
+      "home_team": "MIA",
+      "away_team": "LV",
       "kickoff_time": "2024-11-17T18:00:00+00:00",
       "prediction_time": "2024-11-17T17:00:00+00:00"
     },
@@ -3859,6 +4715,8 @@
       "week": 11,
       "gameday": "2024-11-17",
       "gametime": "13:00",
+      "home_team": "NE",
+      "away_team": "LA",
       "kickoff_time": "2024-11-17T18:00:00+00:00",
       "prediction_time": "2024-11-17T17:00:00+00:00"
     },
@@ -3868,6 +4726,8 @@
       "week": 11,
       "gameday": "2024-11-17",
       "gametime": "13:00",
+      "home_team": "NO",
+      "away_team": "CLE",
       "kickoff_time": "2024-11-17T18:00:00+00:00",
       "prediction_time": "2024-11-17T17:00:00+00:00"
     },
@@ -3877,6 +4737,8 @@
       "week": 11,
       "gameday": "2024-11-17",
       "gametime": "13:00",
+      "home_team": "NYJ",
+      "away_team": "IND",
       "kickoff_time": "2024-11-17T18:00:00+00:00",
       "prediction_time": "2024-11-17T17:00:00+00:00"
     },
@@ -3886,6 +4748,8 @@
       "week": 11,
       "gameday": "2024-11-17",
       "gametime": "13:00",
+      "home_team": "PIT",
+      "away_team": "BAL",
       "kickoff_time": "2024-11-17T18:00:00+00:00",
       "prediction_time": "2024-11-17T17:00:00+00:00"
     },
@@ -3895,6 +4759,8 @@
       "week": 11,
       "gameday": "2024-11-17",
       "gametime": "13:00",
+      "home_team": "TEN",
+      "away_team": "MIN",
       "kickoff_time": "2024-11-17T18:00:00+00:00",
       "prediction_time": "2024-11-17T17:00:00+00:00"
     },
@@ -3904,6 +4770,8 @@
       "week": 11,
       "gameday": "2024-11-17",
       "gametime": "16:05",
+      "home_team": "DEN",
+      "away_team": "ATL",
       "kickoff_time": "2024-11-17T21:05:00+00:00",
       "prediction_time": "2024-11-17T20:05:00+00:00"
     },
@@ -3913,6 +4781,8 @@
       "week": 11,
       "gameday": "2024-11-17",
       "gametime": "16:05",
+      "home_team": "SF",
+      "away_team": "SEA",
       "kickoff_time": "2024-11-17T21:05:00+00:00",
       "prediction_time": "2024-11-17T20:05:00+00:00"
     },
@@ -3922,6 +4792,8 @@
       "week": 11,
       "gameday": "2024-11-17",
       "gametime": "16:25",
+      "home_team": "BUF",
+      "away_team": "KC",
       "kickoff_time": "2024-11-17T21:25:00+00:00",
       "prediction_time": "2024-11-17T20:25:00+00:00"
     },
@@ -3931,6 +4803,8 @@
       "week": 11,
       "gameday": "2024-11-17",
       "gametime": "20:20",
+      "home_team": "LAC",
+      "away_team": "CIN",
       "kickoff_time": "2024-11-18T01:20:00+00:00",
       "prediction_time": "2024-11-18T00:20:00+00:00"
     },
@@ -3940,6 +4814,8 @@
       "week": 11,
       "gameday": "2024-11-18",
       "gametime": "20:15",
+      "home_team": "DAL",
+      "away_team": "HOU",
       "kickoff_time": "2024-11-19T01:15:00+00:00",
       "prediction_time": "2024-11-19T00:15:00+00:00"
     },
@@ -3949,6 +4825,8 @@
       "week": 12,
       "gameday": "2024-11-21",
       "gametime": "20:15",
+      "home_team": "CLE",
+      "away_team": "PIT",
       "kickoff_time": "2024-11-22T01:15:00+00:00",
       "prediction_time": "2024-11-22T00:15:00+00:00"
     },
@@ -3958,6 +4836,8 @@
       "week": 12,
       "gameday": "2024-11-24",
       "gametime": "13:00",
+      "home_team": "CAR",
+      "away_team": "KC",
       "kickoff_time": "2024-11-24T18:00:00+00:00",
       "prediction_time": "2024-11-24T17:00:00+00:00"
     },
@@ -3967,6 +4847,8 @@
       "week": 12,
       "gameday": "2024-11-24",
       "gametime": "13:00",
+      "home_team": "CHI",
+      "away_team": "MIN",
       "kickoff_time": "2024-11-24T18:00:00+00:00",
       "prediction_time": "2024-11-24T17:00:00+00:00"
     },
@@ -3976,6 +4858,8 @@
       "week": 12,
       "gameday": "2024-11-24",
       "gametime": "13:00",
+      "home_team": "HOU",
+      "away_team": "TEN",
       "kickoff_time": "2024-11-24T18:00:00+00:00",
       "prediction_time": "2024-11-24T17:00:00+00:00"
     },
@@ -3985,6 +4869,8 @@
       "week": 12,
       "gameday": "2024-11-24",
       "gametime": "13:00",
+      "home_team": "IND",
+      "away_team": "DET",
       "kickoff_time": "2024-11-24T18:00:00+00:00",
       "prediction_time": "2024-11-24T17:00:00+00:00"
     },
@@ -3994,6 +4880,8 @@
       "week": 12,
       "gameday": "2024-11-24",
       "gametime": "13:00",
+      "home_team": "MIA",
+      "away_team": "NE",
       "kickoff_time": "2024-11-24T18:00:00+00:00",
       "prediction_time": "2024-11-24T17:00:00+00:00"
     },
@@ -4003,6 +4891,8 @@
       "week": 12,
       "gameday": "2024-11-24",
       "gametime": "13:00",
+      "home_team": "NYG",
+      "away_team": "TB",
       "kickoff_time": "2024-11-24T18:00:00+00:00",
       "prediction_time": "2024-11-24T17:00:00+00:00"
     },
@@ -4012,6 +4902,8 @@
       "week": 12,
       "gameday": "2024-11-24",
       "gametime": "13:00",
+      "home_team": "WAS",
+      "away_team": "DAL",
       "kickoff_time": "2024-11-24T18:00:00+00:00",
       "prediction_time": "2024-11-24T17:00:00+00:00"
     },
@@ -4021,6 +4913,8 @@
       "week": 12,
       "gameday": "2024-11-24",
       "gametime": "16:05",
+      "home_team": "LV",
+      "away_team": "DEN",
       "kickoff_time": "2024-11-24T21:05:00+00:00",
       "prediction_time": "2024-11-24T20:05:00+00:00"
     },
@@ -4030,6 +4924,8 @@
       "week": 12,
       "gameday": "2024-11-24",
       "gametime": "16:25",
+      "home_team": "GB",
+      "away_team": "SF",
       "kickoff_time": "2024-11-24T21:25:00+00:00",
       "prediction_time": "2024-11-24T20:25:00+00:00"
     },
@@ -4039,6 +4935,8 @@
       "week": 12,
       "gameday": "2024-11-24",
       "gametime": "16:25",
+      "home_team": "SEA",
+      "away_team": "ARI",
       "kickoff_time": "2024-11-24T21:25:00+00:00",
       "prediction_time": "2024-11-24T20:25:00+00:00"
     },
@@ -4048,6 +4946,8 @@
       "week": 12,
       "gameday": "2024-11-24",
       "gametime": "20:20",
+      "home_team": "LA",
+      "away_team": "PHI",
       "kickoff_time": "2024-11-25T01:20:00+00:00",
       "prediction_time": "2024-11-25T00:20:00+00:00"
     },
@@ -4057,6 +4957,8 @@
       "week": 12,
       "gameday": "2024-11-25",
       "gametime": "20:15",
+      "home_team": "LAC",
+      "away_team": "BAL",
       "kickoff_time": "2024-11-26T01:15:00+00:00",
       "prediction_time": "2024-11-26T00:15:00+00:00"
     },
@@ -4066,6 +4968,8 @@
       "week": 13,
       "gameday": "2024-11-28",
       "gametime": "12:30",
+      "home_team": "DET",
+      "away_team": "CHI",
       "kickoff_time": "2024-11-28T17:30:00+00:00",
       "prediction_time": "2024-11-28T16:30:00+00:00"
     },
@@ -4075,6 +4979,8 @@
       "week": 13,
       "gameday": "2024-11-28",
       "gametime": "16:30",
+      "home_team": "DAL",
+      "away_team": "NYG",
       "kickoff_time": "2024-11-28T21:30:00+00:00",
       "prediction_time": "2024-11-28T20:30:00+00:00"
     },
@@ -4084,6 +4990,8 @@
       "week": 13,
       "gameday": "2024-11-28",
       "gametime": "20:20",
+      "home_team": "GB",
+      "away_team": "MIA",
       "kickoff_time": "2024-11-29T01:20:00+00:00",
       "prediction_time": "2024-11-29T00:20:00+00:00"
     },
@@ -4093,6 +5001,8 @@
       "week": 13,
       "gameday": "2024-11-29",
       "gametime": "15:00",
+      "home_team": "KC",
+      "away_team": "LV",
       "kickoff_time": "2024-11-29T20:00:00+00:00",
       "prediction_time": "2024-11-29T19:00:00+00:00"
     },
@@ -4102,6 +5012,8 @@
       "week": 13,
       "gameday": "2024-12-01",
       "gametime": "13:00",
+      "home_team": "ATL",
+      "away_team": "LAC",
       "kickoff_time": "2024-12-01T18:00:00+00:00",
       "prediction_time": "2024-12-01T17:00:00+00:00"
     },
@@ -4111,6 +5023,8 @@
       "week": 13,
       "gameday": "2024-12-01",
       "gametime": "13:00",
+      "home_team": "CIN",
+      "away_team": "PIT",
       "kickoff_time": "2024-12-01T18:00:00+00:00",
       "prediction_time": "2024-12-01T17:00:00+00:00"
     },
@@ -4120,6 +5034,8 @@
       "week": 13,
       "gameday": "2024-12-01",
       "gametime": "13:00",
+      "home_team": "JAX",
+      "away_team": "HOU",
       "kickoff_time": "2024-12-01T18:00:00+00:00",
       "prediction_time": "2024-12-01T17:00:00+00:00"
     },
@@ -4129,6 +5045,8 @@
       "week": 13,
       "gameday": "2024-12-01",
       "gametime": "13:00",
+      "home_team": "MIN",
+      "away_team": "ARI",
       "kickoff_time": "2024-12-01T18:00:00+00:00",
       "prediction_time": "2024-12-01T17:00:00+00:00"
     },
@@ -4138,6 +5056,8 @@
       "week": 13,
       "gameday": "2024-12-01",
       "gametime": "13:00",
+      "home_team": "NE",
+      "away_team": "IND",
       "kickoff_time": "2024-12-01T18:00:00+00:00",
       "prediction_time": "2024-12-01T17:00:00+00:00"
     },
@@ -4147,6 +5067,8 @@
       "week": 13,
       "gameday": "2024-12-01",
       "gametime": "13:00",
+      "home_team": "NYJ",
+      "away_team": "SEA",
       "kickoff_time": "2024-12-01T18:00:00+00:00",
       "prediction_time": "2024-12-01T17:00:00+00:00"
     },
@@ -4156,6 +5078,8 @@
       "week": 13,
       "gameday": "2024-12-01",
       "gametime": "13:00",
+      "home_team": "WAS",
+      "away_team": "TEN",
       "kickoff_time": "2024-12-01T18:00:00+00:00",
       "prediction_time": "2024-12-01T17:00:00+00:00"
     },
@@ -4165,6 +5089,8 @@
       "week": 13,
       "gameday": "2024-12-01",
       "gametime": "16:05",
+      "home_team": "CAR",
+      "away_team": "TB",
       "kickoff_time": "2024-12-01T21:05:00+00:00",
       "prediction_time": "2024-12-01T20:05:00+00:00"
     },
@@ -4174,6 +5100,8 @@
       "week": 13,
       "gameday": "2024-12-01",
       "gametime": "16:05",
+      "home_team": "NO",
+      "away_team": "LA",
       "kickoff_time": "2024-12-01T21:05:00+00:00",
       "prediction_time": "2024-12-01T20:05:00+00:00"
     },
@@ -4183,6 +5111,8 @@
       "week": 13,
       "gameday": "2024-12-01",
       "gametime": "16:25",
+      "home_team": "BAL",
+      "away_team": "PHI",
       "kickoff_time": "2024-12-01T21:25:00+00:00",
       "prediction_time": "2024-12-01T20:25:00+00:00"
     },
@@ -4192,6 +5122,8 @@
       "week": 13,
       "gameday": "2024-12-01",
       "gametime": "20:20",
+      "home_team": "BUF",
+      "away_team": "SF",
       "kickoff_time": "2024-12-02T01:20:00+00:00",
       "prediction_time": "2024-12-02T00:20:00+00:00"
     },
@@ -4201,6 +5133,8 @@
       "week": 13,
       "gameday": "2024-12-02",
       "gametime": "20:15",
+      "home_team": "DEN",
+      "away_team": "CLE",
       "kickoff_time": "2024-12-03T01:15:00+00:00",
       "prediction_time": "2024-12-03T00:15:00+00:00"
     },
@@ -4210,6 +5144,8 @@
       "week": 14,
       "gameday": "2024-12-05",
       "gametime": "20:15",
+      "home_team": "DET",
+      "away_team": "GB",
       "kickoff_time": "2024-12-06T01:15:00+00:00",
       "prediction_time": "2024-12-06T00:15:00+00:00"
     },
@@ -4219,6 +5155,8 @@
       "week": 14,
       "gameday": "2024-12-08",
       "gametime": "13:00",
+      "home_team": "MIA",
+      "away_team": "NYJ",
       "kickoff_time": "2024-12-08T18:00:00+00:00",
       "prediction_time": "2024-12-08T17:00:00+00:00"
     },
@@ -4228,6 +5166,8 @@
       "week": 14,
       "gameday": "2024-12-08",
       "gametime": "13:00",
+      "home_team": "MIN",
+      "away_team": "ATL",
       "kickoff_time": "2024-12-08T18:00:00+00:00",
       "prediction_time": "2024-12-08T17:00:00+00:00"
     },
@@ -4237,6 +5177,8 @@
       "week": 14,
       "gameday": "2024-12-08",
       "gametime": "13:00",
+      "home_team": "NYG",
+      "away_team": "NO",
       "kickoff_time": "2024-12-08T18:00:00+00:00",
       "prediction_time": "2024-12-08T17:00:00+00:00"
     },
@@ -4246,6 +5188,8 @@
       "week": 14,
       "gameday": "2024-12-08",
       "gametime": "13:00",
+      "home_team": "PHI",
+      "away_team": "CAR",
       "kickoff_time": "2024-12-08T18:00:00+00:00",
       "prediction_time": "2024-12-08T17:00:00+00:00"
     },
@@ -4255,6 +5199,8 @@
       "week": 14,
       "gameday": "2024-12-08",
       "gametime": "13:00",
+      "home_team": "PIT",
+      "away_team": "CLE",
       "kickoff_time": "2024-12-08T18:00:00+00:00",
       "prediction_time": "2024-12-08T17:00:00+00:00"
     },
@@ -4264,6 +5210,8 @@
       "week": 14,
       "gameday": "2024-12-08",
       "gametime": "13:00",
+      "home_team": "TB",
+      "away_team": "LV",
       "kickoff_time": "2024-12-08T18:00:00+00:00",
       "prediction_time": "2024-12-08T17:00:00+00:00"
     },
@@ -4273,6 +5221,8 @@
       "week": 14,
       "gameday": "2024-12-08",
       "gametime": "13:00",
+      "home_team": "TEN",
+      "away_team": "JAX",
       "kickoff_time": "2024-12-08T18:00:00+00:00",
       "prediction_time": "2024-12-08T17:00:00+00:00"
     },
@@ -4282,6 +5232,8 @@
       "week": 14,
       "gameday": "2024-12-08",
       "gametime": "16:05",
+      "home_team": "ARI",
+      "away_team": "SEA",
       "kickoff_time": "2024-12-08T21:05:00+00:00",
       "prediction_time": "2024-12-08T20:05:00+00:00"
     },
@@ -4291,6 +5243,8 @@
       "week": 14,
       "gameday": "2024-12-08",
       "gametime": "16:25",
+      "home_team": "LA",
+      "away_team": "BUF",
       "kickoff_time": "2024-12-08T21:25:00+00:00",
       "prediction_time": "2024-12-08T20:25:00+00:00"
     },
@@ -4300,6 +5254,8 @@
       "week": 14,
       "gameday": "2024-12-08",
       "gametime": "16:25",
+      "home_team": "SF",
+      "away_team": "CHI",
       "kickoff_time": "2024-12-08T21:25:00+00:00",
       "prediction_time": "2024-12-08T20:25:00+00:00"
     },
@@ -4309,6 +5265,8 @@
       "week": 14,
       "gameday": "2024-12-08",
       "gametime": "20:20",
+      "home_team": "KC",
+      "away_team": "LAC",
       "kickoff_time": "2024-12-09T01:20:00+00:00",
       "prediction_time": "2024-12-09T00:20:00+00:00"
     },
@@ -4318,6 +5276,8 @@
       "week": 14,
       "gameday": "2024-12-09",
       "gametime": "20:15",
+      "home_team": "DAL",
+      "away_team": "CIN",
       "kickoff_time": "2024-12-10T01:15:00+00:00",
       "prediction_time": "2024-12-10T00:15:00+00:00"
     },
@@ -4327,6 +5287,8 @@
       "week": 15,
       "gameday": "2024-12-12",
       "gametime": "20:15",
+      "home_team": "SF",
+      "away_team": "LA",
       "kickoff_time": "2024-12-13T01:15:00+00:00",
       "prediction_time": "2024-12-13T00:15:00+00:00"
     },
@@ -4336,6 +5298,8 @@
       "week": 15,
       "gameday": "2024-12-15",
       "gametime": "13:00",
+      "home_team": "CAR",
+      "away_team": "DAL",
       "kickoff_time": "2024-12-15T18:00:00+00:00",
       "prediction_time": "2024-12-15T17:00:00+00:00"
     },
@@ -4345,6 +5309,8 @@
       "week": 15,
       "gameday": "2024-12-15",
       "gametime": "13:00",
+      "home_team": "CLE",
+      "away_team": "KC",
       "kickoff_time": "2024-12-15T18:00:00+00:00",
       "prediction_time": "2024-12-15T17:00:00+00:00"
     },
@@ -4354,6 +5320,8 @@
       "week": 15,
       "gameday": "2024-12-15",
       "gametime": "13:00",
+      "home_team": "HOU",
+      "away_team": "MIA",
       "kickoff_time": "2024-12-15T18:00:00+00:00",
       "prediction_time": "2024-12-15T17:00:00+00:00"
     },
@@ -4363,6 +5331,8 @@
       "week": 15,
       "gameday": "2024-12-15",
       "gametime": "13:00",
+      "home_team": "JAX",
+      "away_team": "NYJ",
       "kickoff_time": "2024-12-15T18:00:00+00:00",
       "prediction_time": "2024-12-15T17:00:00+00:00"
     },
@@ -4372,6 +5342,8 @@
       "week": 15,
       "gameday": "2024-12-15",
       "gametime": "13:00",
+      "home_team": "NO",
+      "away_team": "WAS",
       "kickoff_time": "2024-12-15T18:00:00+00:00",
       "prediction_time": "2024-12-15T17:00:00+00:00"
     },
@@ -4381,6 +5353,8 @@
       "week": 15,
       "gameday": "2024-12-15",
       "gametime": "13:00",
+      "home_team": "NYG",
+      "away_team": "BAL",
       "kickoff_time": "2024-12-15T18:00:00+00:00",
       "prediction_time": "2024-12-15T17:00:00+00:00"
     },
@@ -4390,6 +5364,8 @@
       "week": 15,
       "gameday": "2024-12-15",
       "gametime": "13:00",
+      "home_team": "TEN",
+      "away_team": "CIN",
       "kickoff_time": "2024-12-15T18:00:00+00:00",
       "prediction_time": "2024-12-15T17:00:00+00:00"
     },
@@ -4399,6 +5375,8 @@
       "week": 15,
       "gameday": "2024-12-15",
       "gametime": "16:25",
+      "home_team": "ARI",
+      "away_team": "NE",
       "kickoff_time": "2024-12-15T21:25:00+00:00",
       "prediction_time": "2024-12-15T20:25:00+00:00"
     },
@@ -4408,6 +5386,8 @@
       "week": 15,
       "gameday": "2024-12-15",
       "gametime": "16:25",
+      "home_team": "DEN",
+      "away_team": "IND",
       "kickoff_time": "2024-12-15T21:25:00+00:00",
       "prediction_time": "2024-12-15T20:25:00+00:00"
     },
@@ -4417,6 +5397,8 @@
       "week": 15,
       "gameday": "2024-12-15",
       "gametime": "16:25",
+      "home_team": "DET",
+      "away_team": "BUF",
       "kickoff_time": "2024-12-15T21:25:00+00:00",
       "prediction_time": "2024-12-15T20:25:00+00:00"
     },
@@ -4426,6 +5408,8 @@
       "week": 15,
       "gameday": "2024-12-15",
       "gametime": "16:25",
+      "home_team": "LAC",
+      "away_team": "TB",
       "kickoff_time": "2024-12-15T21:25:00+00:00",
       "prediction_time": "2024-12-15T20:25:00+00:00"
     },
@@ -4435,6 +5419,8 @@
       "week": 15,
       "gameday": "2024-12-15",
       "gametime": "16:25",
+      "home_team": "PHI",
+      "away_team": "PIT",
       "kickoff_time": "2024-12-15T21:25:00+00:00",
       "prediction_time": "2024-12-15T20:25:00+00:00"
     },
@@ -4444,6 +5430,8 @@
       "week": 15,
       "gameday": "2024-12-15",
       "gametime": "20:20",
+      "home_team": "SEA",
+      "away_team": "GB",
       "kickoff_time": "2024-12-16T01:20:00+00:00",
       "prediction_time": "2024-12-16T00:20:00+00:00"
     },
@@ -4453,6 +5441,8 @@
       "week": 15,
       "gameday": "2024-12-16",
       "gametime": "20:00",
+      "home_team": "MIN",
+      "away_team": "CHI",
       "kickoff_time": "2024-12-17T01:00:00+00:00",
       "prediction_time": "2024-12-17T00:00:00+00:00"
     },
@@ -4462,6 +5452,8 @@
       "week": 15,
       "gameday": "2024-12-16",
       "gametime": "20:30",
+      "home_team": "LV",
+      "away_team": "ATL",
       "kickoff_time": "2024-12-17T01:30:00+00:00",
       "prediction_time": "2024-12-17T00:30:00+00:00"
     },
@@ -4471,6 +5463,8 @@
       "week": 16,
       "gameday": "2024-12-19",
       "gametime": "20:15",
+      "home_team": "LAC",
+      "away_team": "DEN",
       "kickoff_time": "2024-12-20T01:15:00+00:00",
       "prediction_time": "2024-12-20T00:15:00+00:00"
     },
@@ -4480,6 +5474,8 @@
       "week": 16,
       "gameday": "2024-12-21",
       "gametime": "13:00",
+      "home_team": "KC",
+      "away_team": "HOU",
       "kickoff_time": "2024-12-21T18:00:00+00:00",
       "prediction_time": "2024-12-21T17:00:00+00:00"
     },
@@ -4489,6 +5485,8 @@
       "week": 16,
       "gameday": "2024-12-21",
       "gametime": "16:30",
+      "home_team": "BAL",
+      "away_team": "PIT",
       "kickoff_time": "2024-12-21T21:30:00+00:00",
       "prediction_time": "2024-12-21T20:30:00+00:00"
     },
@@ -4498,6 +5496,8 @@
       "week": 16,
       "gameday": "2024-12-22",
       "gametime": "13:00",
+      "home_team": "ATL",
+      "away_team": "NYG",
       "kickoff_time": "2024-12-22T18:00:00+00:00",
       "prediction_time": "2024-12-22T17:00:00+00:00"
     },
@@ -4507,6 +5507,8 @@
       "week": 16,
       "gameday": "2024-12-22",
       "gametime": "13:00",
+      "home_team": "CAR",
+      "away_team": "ARI",
       "kickoff_time": "2024-12-22T18:00:00+00:00",
       "prediction_time": "2024-12-22T17:00:00+00:00"
     },
@@ -4516,6 +5518,8 @@
       "week": 16,
       "gameday": "2024-12-22",
       "gametime": "13:00",
+      "home_team": "CHI",
+      "away_team": "DET",
       "kickoff_time": "2024-12-22T18:00:00+00:00",
       "prediction_time": "2024-12-22T17:00:00+00:00"
     },
@@ -4525,6 +5529,8 @@
       "week": 16,
       "gameday": "2024-12-22",
       "gametime": "13:00",
+      "home_team": "CIN",
+      "away_team": "CLE",
       "kickoff_time": "2024-12-22T18:00:00+00:00",
       "prediction_time": "2024-12-22T17:00:00+00:00"
     },
@@ -4534,6 +5540,8 @@
       "week": 16,
       "gameday": "2024-12-22",
       "gametime": "13:00",
+      "home_team": "IND",
+      "away_team": "TEN",
       "kickoff_time": "2024-12-22T18:00:00+00:00",
       "prediction_time": "2024-12-22T17:00:00+00:00"
     },
@@ -4543,6 +5551,8 @@
       "week": 16,
       "gameday": "2024-12-22",
       "gametime": "13:00",
+      "home_team": "NYJ",
+      "away_team": "LA",
       "kickoff_time": "2024-12-22T18:00:00+00:00",
       "prediction_time": "2024-12-22T17:00:00+00:00"
     },
@@ -4552,6 +5562,8 @@
       "week": 16,
       "gameday": "2024-12-22",
       "gametime": "13:00",
+      "home_team": "WAS",
+      "away_team": "PHI",
       "kickoff_time": "2024-12-22T18:00:00+00:00",
       "prediction_time": "2024-12-22T17:00:00+00:00"
     },
@@ -4561,6 +5573,8 @@
       "week": 16,
       "gameday": "2024-12-22",
       "gametime": "16:05",
+      "home_team": "SEA",
+      "away_team": "MIN",
       "kickoff_time": "2024-12-22T21:05:00+00:00",
       "prediction_time": "2024-12-22T20:05:00+00:00"
     },
@@ -4570,6 +5584,8 @@
       "week": 16,
       "gameday": "2024-12-22",
       "gametime": "16:25",
+      "home_team": "BUF",
+      "away_team": "NE",
       "kickoff_time": "2024-12-22T21:25:00+00:00",
       "prediction_time": "2024-12-22T20:25:00+00:00"
     },
@@ -4579,6 +5595,8 @@
       "week": 16,
       "gameday": "2024-12-22",
       "gametime": "16:25",
+      "home_team": "LV",
+      "away_team": "JAX",
       "kickoff_time": "2024-12-22T21:25:00+00:00",
       "prediction_time": "2024-12-22T20:25:00+00:00"
     },
@@ -4588,6 +5606,8 @@
       "week": 16,
       "gameday": "2024-12-22",
       "gametime": "16:25",
+      "home_team": "MIA",
+      "away_team": "SF",
       "kickoff_time": "2024-12-22T21:25:00+00:00",
       "prediction_time": "2024-12-22T20:25:00+00:00"
     },
@@ -4597,6 +5617,8 @@
       "week": 16,
       "gameday": "2024-12-22",
       "gametime": "20:20",
+      "home_team": "DAL",
+      "away_team": "TB",
       "kickoff_time": "2024-12-23T01:20:00+00:00",
       "prediction_time": "2024-12-23T00:20:00+00:00"
     },
@@ -4606,6 +5628,8 @@
       "week": 16,
       "gameday": "2024-12-23",
       "gametime": "20:15",
+      "home_team": "GB",
+      "away_team": "NO",
       "kickoff_time": "2024-12-24T01:15:00+00:00",
       "prediction_time": "2024-12-24T00:15:00+00:00"
     },
@@ -4615,6 +5639,8 @@
       "week": 17,
       "gameday": "2024-12-25",
       "gametime": "13:00",
+      "home_team": "PIT",
+      "away_team": "KC",
       "kickoff_time": "2024-12-25T18:00:00+00:00",
       "prediction_time": "2024-12-25T17:00:00+00:00"
     },
@@ -4624,6 +5650,8 @@
       "week": 17,
       "gameday": "2024-12-25",
       "gametime": "16:30",
+      "home_team": "HOU",
+      "away_team": "BAL",
       "kickoff_time": "2024-12-25T21:30:00+00:00",
       "prediction_time": "2024-12-25T20:30:00+00:00"
     },
@@ -4633,6 +5661,8 @@
       "week": 17,
       "gameday": "2024-12-26",
       "gametime": "20:15",
+      "home_team": "CHI",
+      "away_team": "SEA",
       "kickoff_time": "2024-12-27T01:15:00+00:00",
       "prediction_time": "2024-12-27T00:15:00+00:00"
     },
@@ -4642,6 +5672,8 @@
       "week": 17,
       "gameday": "2024-12-28",
       "gametime": "13:00",
+      "home_team": "NE",
+      "away_team": "LAC",
       "kickoff_time": "2024-12-28T18:00:00+00:00",
       "prediction_time": "2024-12-28T17:00:00+00:00"
     },
@@ -4651,6 +5683,8 @@
       "week": 17,
       "gameday": "2024-12-28",
       "gametime": "16:30",
+      "home_team": "CIN",
+      "away_team": "DEN",
       "kickoff_time": "2024-12-28T21:30:00+00:00",
       "prediction_time": "2024-12-28T20:30:00+00:00"
     },
@@ -4660,6 +5694,8 @@
       "week": 17,
       "gameday": "2024-12-28",
       "gametime": "20:15",
+      "home_team": "LA",
+      "away_team": "ARI",
       "kickoff_time": "2024-12-29T01:15:00+00:00",
       "prediction_time": "2024-12-29T00:15:00+00:00"
     },
@@ -4669,6 +5705,8 @@
       "week": 17,
       "gameday": "2024-12-29",
       "gametime": "13:00",
+      "home_team": "BUF",
+      "away_team": "NYJ",
       "kickoff_time": "2024-12-29T18:00:00+00:00",
       "prediction_time": "2024-12-29T17:00:00+00:00"
     },
@@ -4678,6 +5716,8 @@
       "week": 17,
       "gameday": "2024-12-29",
       "gametime": "13:00",
+      "home_team": "JAX",
+      "away_team": "TEN",
       "kickoff_time": "2024-12-29T18:00:00+00:00",
       "prediction_time": "2024-12-29T17:00:00+00:00"
     },
@@ -4687,6 +5727,8 @@
       "week": 17,
       "gameday": "2024-12-29",
       "gametime": "13:00",
+      "home_team": "NO",
+      "away_team": "LV",
       "kickoff_time": "2024-12-29T18:00:00+00:00",
       "prediction_time": "2024-12-29T17:00:00+00:00"
     },
@@ -4696,6 +5738,8 @@
       "week": 17,
       "gameday": "2024-12-29",
       "gametime": "13:00",
+      "home_team": "NYG",
+      "away_team": "IND",
       "kickoff_time": "2024-12-29T18:00:00+00:00",
       "prediction_time": "2024-12-29T17:00:00+00:00"
     },
@@ -4705,6 +5749,8 @@
       "week": 17,
       "gameday": "2024-12-29",
       "gametime": "13:00",
+      "home_team": "PHI",
+      "away_team": "DAL",
       "kickoff_time": "2024-12-29T18:00:00+00:00",
       "prediction_time": "2024-12-29T17:00:00+00:00"
     },
@@ -4714,6 +5760,8 @@
       "week": 17,
       "gameday": "2024-12-29",
       "gametime": "13:00",
+      "home_team": "TB",
+      "away_team": "CAR",
       "kickoff_time": "2024-12-29T18:00:00+00:00",
       "prediction_time": "2024-12-29T17:00:00+00:00"
     },
@@ -4723,6 +5771,8 @@
       "week": 17,
       "gameday": "2024-12-29",
       "gametime": "16:05",
+      "home_team": "CLE",
+      "away_team": "MIA",
       "kickoff_time": "2024-12-29T21:05:00+00:00",
       "prediction_time": "2024-12-29T20:05:00+00:00"
     },
@@ -4732,6 +5782,8 @@
       "week": 17,
       "gameday": "2024-12-29",
       "gametime": "16:25",
+      "home_team": "MIN",
+      "away_team": "GB",
       "kickoff_time": "2024-12-29T21:25:00+00:00",
       "prediction_time": "2024-12-29T20:25:00+00:00"
     },
@@ -4741,6 +5793,8 @@
       "week": 17,
       "gameday": "2024-12-29",
       "gametime": "20:20",
+      "home_team": "WAS",
+      "away_team": "ATL",
       "kickoff_time": "2024-12-30T01:20:00+00:00",
       "prediction_time": "2024-12-30T00:20:00+00:00"
     },
@@ -4750,6 +5804,8 @@
       "week": 17,
       "gameday": "2024-12-30",
       "gametime": "20:15",
+      "home_team": "SF",
+      "away_team": "DET",
       "kickoff_time": "2024-12-31T01:15:00+00:00",
       "prediction_time": "2024-12-31T00:15:00+00:00"
     },
@@ -4759,6 +5815,8 @@
       "week": 18,
       "gameday": "2025-01-04",
       "gametime": "16:30",
+      "home_team": "BAL",
+      "away_team": "CLE",
       "kickoff_time": "2025-01-04T21:30:00+00:00",
       "prediction_time": "2025-01-04T20:30:00+00:00"
     },
@@ -4768,6 +5826,8 @@
       "week": 18,
       "gameday": "2025-01-04",
       "gametime": "20:00",
+      "home_team": "PIT",
+      "away_team": "CIN",
       "kickoff_time": "2025-01-05T01:00:00+00:00",
       "prediction_time": "2025-01-05T00:00:00+00:00"
     },
@@ -4777,6 +5837,8 @@
       "week": 18,
       "gameday": "2025-01-05",
       "gametime": "13:00",
+      "home_team": "ATL",
+      "away_team": "CAR",
       "kickoff_time": "2025-01-05T18:00:00+00:00",
       "prediction_time": "2025-01-05T17:00:00+00:00"
     },
@@ -4786,6 +5848,8 @@
       "week": 18,
       "gameday": "2025-01-05",
       "gametime": "13:00",
+      "home_team": "DAL",
+      "away_team": "WAS",
       "kickoff_time": "2025-01-05T18:00:00+00:00",
       "prediction_time": "2025-01-05T17:00:00+00:00"
     },
@@ -4795,6 +5859,8 @@
       "week": 18,
       "gameday": "2025-01-05",
       "gametime": "13:00",
+      "home_team": "GB",
+      "away_team": "CHI",
       "kickoff_time": "2025-01-05T18:00:00+00:00",
       "prediction_time": "2025-01-05T17:00:00+00:00"
     },
@@ -4804,6 +5870,8 @@
       "week": 18,
       "gameday": "2025-01-05",
       "gametime": "13:00",
+      "home_team": "IND",
+      "away_team": "JAX",
       "kickoff_time": "2025-01-05T18:00:00+00:00",
       "prediction_time": "2025-01-05T17:00:00+00:00"
     },
@@ -4813,6 +5881,8 @@
       "week": 18,
       "gameday": "2025-01-05",
       "gametime": "13:00",
+      "home_team": "NE",
+      "away_team": "BUF",
       "kickoff_time": "2025-01-05T18:00:00+00:00",
       "prediction_time": "2025-01-05T17:00:00+00:00"
     },
@@ -4822,6 +5892,8 @@
       "week": 18,
       "gameday": "2025-01-05",
       "gametime": "13:00",
+      "home_team": "PHI",
+      "away_team": "NYG",
       "kickoff_time": "2025-01-05T18:00:00+00:00",
       "prediction_time": "2025-01-05T17:00:00+00:00"
     },
@@ -4831,6 +5903,8 @@
       "week": 18,
       "gameday": "2025-01-05",
       "gametime": "13:00",
+      "home_team": "TB",
+      "away_team": "NO",
       "kickoff_time": "2025-01-05T18:00:00+00:00",
       "prediction_time": "2025-01-05T17:00:00+00:00"
     },
@@ -4840,6 +5914,8 @@
       "week": 18,
       "gameday": "2025-01-05",
       "gametime": "13:00",
+      "home_team": "TEN",
+      "away_team": "HOU",
       "kickoff_time": "2025-01-05T18:00:00+00:00",
       "prediction_time": "2025-01-05T17:00:00+00:00"
     },
@@ -4849,6 +5925,8 @@
       "week": 18,
       "gameday": "2025-01-05",
       "gametime": "16:25",
+      "home_team": "ARI",
+      "away_team": "SF",
       "kickoff_time": "2025-01-05T21:25:00+00:00",
       "prediction_time": "2025-01-05T20:25:00+00:00"
     },
@@ -4858,6 +5936,8 @@
       "week": 18,
       "gameday": "2025-01-05",
       "gametime": "16:25",
+      "home_team": "DEN",
+      "away_team": "KC",
       "kickoff_time": "2025-01-05T21:25:00+00:00",
       "prediction_time": "2025-01-05T20:25:00+00:00"
     },
@@ -4867,6 +5947,8 @@
       "week": 18,
       "gameday": "2025-01-05",
       "gametime": "16:25",
+      "home_team": "LA",
+      "away_team": "SEA",
       "kickoff_time": "2025-01-05T21:25:00+00:00",
       "prediction_time": "2025-01-05T20:25:00+00:00"
     },
@@ -4876,6 +5958,8 @@
       "week": 18,
       "gameday": "2025-01-05",
       "gametime": "16:25",
+      "home_team": "LV",
+      "away_team": "LAC",
       "kickoff_time": "2025-01-05T21:25:00+00:00",
       "prediction_time": "2025-01-05T20:25:00+00:00"
     },
@@ -4885,6 +5969,8 @@
       "week": 18,
       "gameday": "2025-01-05",
       "gametime": "16:25",
+      "home_team": "NYJ",
+      "away_team": "MIA",
       "kickoff_time": "2025-01-05T21:25:00+00:00",
       "prediction_time": "2025-01-05T20:25:00+00:00"
     },
@@ -4894,6 +5980,8 @@
       "week": 18,
       "gameday": "2025-01-05",
       "gametime": "20:20",
+      "home_team": "DET",
+      "away_team": "MIN",
       "kickoff_time": "2025-01-06T01:20:00+00:00",
       "prediction_time": "2025-01-06T00:20:00+00:00"
     }

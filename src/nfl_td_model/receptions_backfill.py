@@ -82,7 +82,7 @@ def _cached_event_ids(data_dir: Path, games: list[dict[str, Any]]) -> set[str]:
         parse_time(game["kickoff_time"]): datetime.fromisoformat(game["prediction_time"])
         for game in games
     }
-    found: set[str] = set()
+    found_by_kickoff: dict[datetime, str] = {}
     for payload in _cached_payloads(data_dir):
         if not isinstance(payload.get("data"), list):
             continue
@@ -99,8 +99,8 @@ def _cached_event_ids(data_dir: Path, games: list[dict[str, Any]]) -> set[str]:
                 continue
             cutoff = by_kickoff.get(kickoff_dt)
             if event_id and cutoff is not None and snapshot <= cutoff:
-                found.add(str(event_id))
-    return found
+                found_by_kickoff[kickoff_dt] = str(event_id)
+    return set(found_by_kickoff.values())
 
 
 def build_plan(data_dir: Path = Path("data"), reports_dir: Path = Path("reports")) -> BackfillPlan:
@@ -112,8 +112,9 @@ def build_plan(data_dir: Path = Path("data"), reports_dir: Path = Path("reports"
     manifest = reports_dir / "receptions_backfill_manifest.json"
     manifest.parent.mkdir(parents=True, exist_ok=True)
     manifest.write_text(json.dumps({"market": BACKFILL_MARKET, "games": games}, indent=2) + "\n", encoding="utf-8")
-    plan = BackfillPlan(TARGET_SEASONS, len(games), len(cached_ids),
-                        len(games) - len(cached_ids), cached_calls, remaining,
+    cached_game_count = min(len(games), len(cached_ids))
+    plan = BackfillPlan(TARGET_SEASONS, len(games), cached_game_count,
+                        max(0, len(games) - cached_game_count), cached_calls, remaining,
                         remaining * CREDIT_PER_CALL, str(manifest))
     (reports_dir / "RECEPTIONS_BACKFILL_PLAN.json").write_text(
         json.dumps(asdict(plan), indent=2) + "\n", encoding="utf-8")
