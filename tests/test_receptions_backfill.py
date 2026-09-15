@@ -6,8 +6,8 @@ import pytest
 
 from nfl_td_model.receptions_backfill import (
     BACKFILL_MARKET,
-    _resolve_event_id,
     _cached_event_id_for,
+    _resolve_event_id,
     build_plan,
     request_cache_key,
     require_budget,
