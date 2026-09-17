@@ -185,6 +185,8 @@ benchmark is NO BET. The 2025 holdout remains sealed.
 
 Run `./.venv/Scripts/nfl-td.exe atd-price-scan` to compare today's NFL
 `player_anytime_td` Yes prices across books in a single live event snapshot.
+Add `--through YYYY-MM-DD` to include every scheduled game from today through
+that date, inclusive (for example, Thursday through Sunday).
 The command writes a ranked Markdown report, sortable player CSV, and
 underlying per-book quote CSV under `reports/`. Consensus differences require
 three distinct books; stale and unusually dispersed quotes remain visible
@@ -196,6 +198,15 @@ run `python scripts/publish_cloudflare_reports.py` to copy their latest matching
 date into the read-only site data. The script also records the usage quote update
 and ATD scan capture times. Review the changed files before publishing; the
 dashboard displays saved snapshots, not live odds.
+
+For a multi-day slate, pass the same inclusive end date to both scanners and the
+publisher:
+
+```powershell
+./.venv/Scripts/nfl-td.exe atd-price-scan --through 2026-09-20
+./.venv/Scripts/nfl-td.exe usage-prop-scan --through 2026-09-20
+python scripts/publish_cloudflare_reports.py --day 2026-09-17 --through 2026-09-20
+```
 
 ## Usage props MVP
 

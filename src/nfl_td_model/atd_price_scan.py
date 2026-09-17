@@ -6,7 +6,7 @@ import csv
 import logging
 import statistics
 from collections import defaultdict
-from datetime import UTC, datetime
+from datetime import UTC, date, datetime
 from pathlib import Path
 from typing import Any
 from zoneinfo import ZoneInfo
@@ -26,10 +26,16 @@ STALE_MINUTES = 15
 # Reuse the Phase 4.6 best-decimal / median-decimal outlier convention.
 OUTLIER_DECIMAL_DEVIATION = 0.25
 COLUMNS = (
-    "Player", "Team", "Opponent", "Best Book", "Best Odds", "Median Market Odds",
+    "Player", "Team", "Opponent", "Game Date", "Best Book", "Best Odds", "Median Market Odds",
     "Books Quoting", "Best Implied Probability", "Median Market Implied Probability",
     "Probability-Price Difference", "Quote Age", "Status",
 )
+
+
+def event_in_date_window(commence_time: str, start_date: date, end_date: date) -> bool:
+    """Return whether an event starts within the inclusive Eastern date window."""
+    event_date = parse_time(commence_time).astimezone(EASTERN).date()
+    return start_date <= event_date <= end_date
 
 
 def decimal_to_american(decimal_odds: float) -> float:
@@ -107,12 +113,18 @@ def _roster_lookup(season: int) -> dict[str, set[str]]:
     return lookup
 
 
-def scan_current_slate(settings: Settings, now: datetime | None = None) -> tuple[list[dict[str, Any]], list[dict[str, Any]]]:
-    """Fetch each today's NFL event exactly once with only the ATD market."""
+def scan_current_slate(
+    settings: Settings, now: datetime | None = None, end_date: date | None = None,
+) -> tuple[list[dict[str, Any]], list[dict[str, Any]]]:
+    """Fetch each NFL event in the inclusive Eastern date window once."""
     if not settings.odds_api_key:
         raise ValueError("ODDS_API_KEY is required for the live ATD scanner")
     scan_time = now or datetime.now(UTC)
     local = scan_time.astimezone(EASTERN)
+    start_date = local.date()
+    end_date = end_date or start_date
+    if end_date < start_date:
+        raise ValueError("ATD scan end date cannot precede the scan date")
     season = local.year - 1 if local.month <= 3 else local.year
     if season == 2025:
         raise ValueError("The 2025 holdout is sealed")
@@ -122,8 +134,8 @@ def scan_current_slate(settings: Settings, now: datetime | None = None) -> tuple
     with httpx.Client(timeout=30) as client:
         response = client.get(f"{LIVE_BASE}/events", params={"apiKey": settings.odds_api_key})
         response.raise_for_status()
-        events = [e for e in response.json() if parse_time(e["commence_time"]).astimezone(
-            EASTERN).date() == local.date()]
+        events = [e for e in response.json()
+                  if event_in_date_window(e["commence_time"], start_date, end_date)]
         summaries: list[dict[str, Any]] = []
         all_quotes: list[dict[str, Any]] = []
         for event in events:
@@ -153,7 +165,9 @@ def scan_current_slate(settings: Settings, now: datetime | None = None) -> tuple
                             continue
                         name = str(outcome["description"])
                         key = normalize_name(name)
-                        quote = {"event_id": event["id"], "player": name,
+                        quote = {"event_id": event["id"], "game_date": parse_time(
+                                     event["commence_time"]).astimezone(EASTERN).date().isoformat(),
+                                 "player": name,
                                  "sportsbook": book["key"], "price": int(outcome["price"]),
                                  "quote_time": updated.isoformat(), "captured_at": captured.isoformat()}
                         grouped[key].append(quote)
@@ -163,14 +177,17 @@ def scan_current_slate(settings: Settings, now: datetime | None = None) -> tuple
                 candidate_teams = roster.get(key, set()).intersection({home, away})
                 team = next(iter(candidate_teams)) if len(candidate_teams) == 1 else None
                 opponent = away if team == home else home if team == away else None
-                summaries.append(summarize_player(display[key], quotes, captured, team, opponent))
+                summary = summarize_player(display[key], quotes, captured, team, opponent)
+                summary["Game Date"] = parse_time(event["commence_time"]).astimezone(
+                    EASTERN).date().isoformat()
+                summaries.append(summary)
     summaries.sort(key=lambda r: (r["Probability-Price Difference"] is None,
                                   -(r["Probability-Price Difference"] or 0), r["Player"]))
     return summaries, all_quotes
 
 
 def write_report(rows: list[dict[str, Any]], quotes: list[dict[str, Any]],
-                 output_dir: Path, day: str) -> tuple[Path, Path, Path]:
+                 output_dir: Path, day: str, end_day: str | None = None) -> tuple[Path, Path, Path]:
     """Write a sortable CSV and concise labeled Markdown report."""
     output_dir.mkdir(parents=True, exist_ok=True)
     report = output_dir / f"atd_price_opportunities_{day}.md"
@@ -182,12 +199,13 @@ def write_report(rows: list[dict[str, Any]], quotes: list[dict[str, Any]],
         writer.writerows({column: row[column] for column in COLUMNS} for row in rows)
     with quotes_path.open("w", newline="", encoding="utf-8") as handle:
         writer = csv.DictWriter(handle, fieldnames=(
-            "event_id", "player", "sportsbook", "price", "quote_time", "captured_at"))
+            "event_id", "game_date", "player", "sportsbook", "price", "quote_time", "captured_at"))
         writer.writeheader()
         writer.writerows(quotes)
+    date_label = day if not end_day or end_day == day else f"{day} through {end_day}"
     lines = ["# CROSS-BOOK ATD PRICE OPPORTUNITIES", "",
              "Raw one-sided price comparison only. These are not bets or positive-EV claims.", "",
-             f"Slate date (America/New_York): {day}. Players: {len(rows)}.", "",
+             f"Slate date range (America/New_York): {date_label}. Players: {len(rows)}.", "",
              "| " + " | ".join(COLUMNS) + " |",
              "| " + " | ".join("---" for _ in COLUMNS) + " |"]
     for row in rows:

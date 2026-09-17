@@ -2,10 +2,11 @@
 
 from __future__ import annotations
 
+import argparse
 import csv
 import json
 import shutil
-from datetime import datetime
+from datetime import date, datetime
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -27,9 +28,12 @@ def read_rows(path: Path) -> list[dict[str, str]]:
         return list(csv.DictReader(handle))
 
 
-def publish(day: str | None = None) -> dict[str, str]:
+def publish(day: str | None = None, end_day: str | None = None) -> dict[str, str]:
     day = day or latest_common_slate()
-    datetime.strptime(day, "%Y-%m-%d")
+    start_date = date.fromisoformat(day)
+    end_date = date.fromisoformat(end_day) if end_day else start_date
+    if end_date < start_date:
+        raise ValueError("Dashboard end date cannot precede its start date")
     usage_path = REPORTS / f"usage_prop_opportunities_{day}.csv"
     atd_path = REPORTS / f"atd_price_opportunities_{day}.csv"
     quotes_path = REPORTS / f"atd_price_quotes_{day}.csv"
@@ -44,6 +48,7 @@ def publish(day: str | None = None) -> dict[str, str]:
         raise ValueError("Scanner timestamps are required for the dashboard")
     metadata = {
         "slate_date": day,
+        "slate_end_date": end_date.isoformat(),
         "usage_latest_quote_at": max(usage_times).isoformat(),
         "atd_captured_at": max(atd_times).isoformat(),
     }
@@ -55,4 +60,8 @@ def publish(day: str | None = None) -> dict[str, str]:
 
 
 if __name__ == "__main__":
-    print(json.dumps(publish(), indent=2))
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--day", help="Report date to publish (YYYY-MM-DD)")
+    parser.add_argument("--through", help="Inclusive slate end date (YYYY-MM-DD)")
+    args = parser.parse_args()
+    print(json.dumps(publish(args.day, args.through), indent=2))

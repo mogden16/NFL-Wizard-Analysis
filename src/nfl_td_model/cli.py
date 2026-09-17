@@ -1,7 +1,7 @@
 """Command-line entry points for environment and Phase 1 audit."""
 
 import logging
-from datetime import UTC, datetime
+from datetime import UTC, date, datetime
 from pathlib import Path
 from zoneinfo import ZoneInfo
 
@@ -257,13 +257,20 @@ def phase7_verify() -> None:
 
 
 @app.command("atd-price-scan")
-def atd_price_scan() -> None:
-    """Rank today's cross-sportsbook ATD Yes-price differences only."""
+def atd_price_scan(
+    through: str | None = typer.Option(
+        None, help="Inclusive Eastern end date (YYYY-MM-DD); defaults to today.",
+    ),
+) -> None:
+    """Rank cross-sportsbook ATD Yes-price differences for a date window."""
     captured = datetime.now(UTC)
     day = captured.astimezone(ZoneInfo("America/New_York")).date().isoformat()
     try:
-        rows, quotes = scan_current_slate(Settings(), now=captured)
-        report, sortable_csv, quote_csv = write_report(rows, quotes, Path("reports"), day)
+        end_date = date.fromisoformat(through) if through else None
+        rows, quotes = scan_current_slate(Settings(), now=captured, end_date=end_date)
+        report, sortable_csv, quote_csv = write_report(
+            rows, quotes, Path("reports"), day, through,
+        )
     except httpx.HTTPError as exc:
         typer.echo(f"ATD PRICE SCAN FAILED: live odds request failed ({exc.__class__.__name__})", err=True)
         raise typer.Exit(code=1) from None
@@ -288,13 +295,20 @@ def usage_prop_audit() -> None:
 
 
 @app.command("usage-prop-scan")
-def usage_prop_scan() -> None:
-    """Rank current receptions and rushing-attempt market disagreements."""
+def usage_prop_scan(
+    through: str | None = typer.Option(
+        None, help="Inclusive Eastern end date (YYYY-MM-DD); defaults to today.",
+    ),
+) -> None:
+    """Rank receptions and rushing-attempt disagreements for a date window."""
     captured = datetime.now(UTC)
     day = captured.astimezone(ZoneInfo("America/New_York")).date().isoformat()
     try:
-        rows, quotes = scan_usage_props(Settings(), now=captured)
-        report, sortable_csv, quote_csv = write_live_report(rows, quotes, Path("reports"), day)
+        end_date = date.fromisoformat(through) if through else None
+        rows, quotes = scan_usage_props(Settings(), now=captured, end_date=end_date)
+        report, sortable_csv, quote_csv = write_live_report(
+            rows, quotes, Path("reports"), day, through,
+        )
     except httpx.HTTPError as exc:
         typer.echo(f"USAGE PROP SCAN FAILED: live odds request failed ({exc.__class__.__name__})", err=True)
         raise typer.Exit(code=1) from None

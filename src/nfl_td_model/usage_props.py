@@ -6,7 +6,7 @@ import csv
 import math
 import statistics
 from collections import defaultdict
-from datetime import UTC, datetime
+from datetime import UTC, date, datetime
 from pathlib import Path
 from typing import Any
 from zoneinfo import ZoneInfo
@@ -25,7 +25,7 @@ from sklearn.metrics import (  # type: ignore[import-untyped]
 from sklearn.pipeline import Pipeline  # type: ignore[import-untyped]
 from sklearn.preprocessing import StandardScaler  # type: ignore[import-untyped]
 
-from nfl_td_model.atd_price_scan import decimal_to_american
+from nfl_td_model.atd_price_scan import decimal_to_american, event_in_date_window
 from nfl_td_model.config import Settings
 from nfl_td_model.market_math import american_to_decimal, decimal_implied_probability
 from nfl_td_model.odds import parse_time
@@ -225,10 +225,17 @@ def _current_roster() -> dict[str, set[str]]:
     return result
 
 
-def scan_current_slate(settings: Settings, now: datetime | None = None) -> tuple[list[dict[str, Any]], list[dict[str, Any]]]:
+def scan_current_slate(
+    settings: Settings, now: datetime | None = None, end_date: date | None = None,
+) -> tuple[list[dict[str, Any]], list[dict[str, Any]]]:
     if not settings.odds_api_key:
         raise ValueError("ODDS_API_KEY is required for usage-prop scan")
     captured = now or datetime.now(UTC)
+    eastern = ZoneInfo("America/New_York")
+    start_date = captured.astimezone(eastern).date()
+    end_date = end_date or start_date
+    if end_date < start_date:
+        raise ValueError("Usage-prop scan end date cannot precede the scan date")
     try:
         from nfl_td_model.usage_prop_calibration import (
             distribution_probabilities,
@@ -238,11 +245,11 @@ def scan_current_slate(settings: Settings, now: datetime | None = None) -> tuple
     except FileNotFoundError:
         from nfl_td_model.usage_prop_calibration import distribution_probabilities
         distribution_by_prop = {prop: ("poisson", 0.0) for prop in PROP_MARKETS}
-    eastern = ZoneInfo("America/New_York")
     with httpx.Client(timeout=30) as client:
         response = client.get(f"{LIVE_BASE}/events", params={"apiKey": settings.odds_api_key})
         response.raise_for_status()
-        events = [event for event in response.json() if parse_time(event["commence_time"]).astimezone(eastern).date() == captured.astimezone(eastern).date()]
+        events = [event for event in response.json()
+                  if event_in_date_window(event["commence_time"], start_date, end_date)]
         means = _live_means()
         roster = _current_roster()
         team_names = {row["team_name"]: row["team_abbr"] for row in nflreadpy.load_teams().to_dicts()}
@@ -255,7 +262,10 @@ def scan_current_slate(settings: Settings, now: datetime | None = None) -> tuple
             response.raise_for_status()
             event_quotes = _live_prop_rows(response.json(), captured)
             for quote in event_quotes:
-                quote.update({"event_id": event["id"], "team": event["home_team"], "opponent": event["away_team"]})
+                quote.update({"event_id": event["id"],
+                              "game_date": parse_time(event["commence_time"]).astimezone(
+                                  eastern).date().isoformat(),
+                              "team": event["home_team"], "opponent": event["away_team"]})
             quotes.extend(event_quotes)
             grouped = group_prop_quotes(event_quotes)
             for (name, prop, line), offers in grouped.items():
@@ -298,6 +308,8 @@ def scan_current_slate(settings: Settings, now: datetime | None = None) -> tuple
                     status.append("MODEL LEANS OVER" if difference > 0 else "MODEL LEANS UNDER")
                 rows.append({"Player": player_name, "Team": team,
                              "Opponent": opponent, "Prop": prop, "Sportsbook Line": line,
+                             "Game Date": parse_time(event["commence_time"]).astimezone(
+                                 eastern).date().isoformat(),
                              "Model Mean": mean, "P(Over)": over, "P(Under)": under, "P(Push)": push,
                              "Best Over Odds": best_over["price"], "Best Under Odds": best_under["price"],
                              "Median Over Odds": decimal_to_american(med_over_decimal),
@@ -315,19 +327,23 @@ def scan_current_slate(settings: Settings, now: datetime | None = None) -> tuple
     return rows, quotes
 
 
-def write_live_report(rows: list[dict[str, Any]], quotes: list[dict[str, Any]], output_dir: Path, day: str) -> tuple[Path, Path, Path]:
+def write_live_report(
+    rows: list[dict[str, Any]], quotes: list[dict[str, Any]], output_dir: Path,
+    day: str, end_day: str | None = None,
+) -> tuple[Path, Path, Path]:
     output_dir.mkdir(parents=True, exist_ok=True)
     report = output_dir / f"usage_prop_opportunities_{day}.md"
     csv_path = output_dir / f"usage_prop_opportunities_{day}.csv"
     quote_path = output_dir / f"usage_prop_quotes_{day}.csv"
-    fields = ["Player", "Team", "Opponent", "Prop", "Sportsbook Line", "Model Mean", "Distribution Method", "P(Over)",
+    fields = ["Player", "Team", "Opponent", "Game Date", "Prop", "Sportsbook Line", "Model Mean", "Distribution Method", "P(Over)",
               "P(Under)", "P(Push)", "Best Over Odds", "Best Under Odds", "Market No-Vig P(Over)",
               "Median Over Odds", "Median Under Odds", "Books Quoting", "Model Minus Market", "Quote Age", "Quote Timestamp", "Confidence / Data Quality Flag"]
     with csv_path.open("w", newline="", encoding="utf-8") as handle:
         writer = csv.DictWriter(handle, fieldnames=fields); writer.writeheader(); writer.writerows({f: row[f] for f in fields} for row in rows)
     with quote_path.open("w", newline="", encoding="utf-8") as handle:
-        writer = csv.DictWriter(handle, fieldnames=["event_id", "player", "prop", "line", "side", "price", "sportsbook", "quote_time", "team", "opponent"]); writer.writeheader(); writer.writerows(quotes)
-    lines = ["# NFL USAGE PROP RESEARCH MVP", "", "Receptions and rushing-attempt market comparison. These are research leans, not guaranteed bets.", "", "| " + " | ".join(fields) + " |", "| " + " | ".join("---" for _ in fields) + " |"]
+        writer = csv.DictWriter(handle, fieldnames=["event_id", "game_date", "player", "prop", "line", "side", "price", "sportsbook", "quote_time", "team", "opponent"]); writer.writeheader(); writer.writerows(quotes)
+    date_label = day if not end_day or end_day == day else f"{day} through {end_day}"
+    lines = ["# NFL USAGE PROP RESEARCH MVP", "", "Receptions and rushing-attempt market comparison. These are research leans, not guaranteed bets.", "", f"Slate date range (America/New_York): {date_label}.", "", "| " + " | ".join(fields) + " |", "| " + " | ".join("---" for _ in fields) + " |"]
     for row in rows:
         values = []
         for field in fields:

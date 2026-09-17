@@ -2,11 +2,15 @@
 
 from __future__ import annotations
 
-from datetime import UTC, datetime
+from datetime import UTC, date, datetime
 
 import pytest
 
-from nfl_td_model.atd_price_scan import decimal_to_american, summarize_player
+from nfl_td_model.atd_price_scan import (
+    decimal_to_american,
+    event_in_date_window,
+    summarize_player,
+)
 from nfl_td_model.market_math import american_to_decimal, raw_implied_probability
 
 NOW = datetime(2026, 9, 14, 17, tzinfo=UTC)
@@ -76,3 +80,11 @@ def test_future_quote_is_rejected() -> None:
     with pytest.raises(ValueError, match="Future market update"):
         summarize_player("Runner", [{"sportsbook": "a", "price": 100,
                                      "quote_time": "2026-09-14T17:01:00+00:00"}], NOW)
+
+
+def test_event_date_window_is_inclusive_and_uses_eastern_date() -> None:
+    start = date(2026, 9, 17)
+    end = date(2026, 9, 20)
+    assert event_in_date_window("2026-09-18T00:15:00Z", start, end)
+    assert event_in_date_window("2026-09-21T00:25:00Z", start, end)
+    assert not event_in_date_window("2026-09-21T05:00:00Z", start, end)
